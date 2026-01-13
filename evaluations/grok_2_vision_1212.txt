@@ -1,0 +1,30 @@
+Based on the provided text document, here are the extracted non-functional requirements related to the medical app:
+
+1. **Accessibility**:
+   - The degree to which the application is available to users, considering disability measures. This requirement ensures that the app can be used by individuals with various physical and psychological abilities.
+
+2. **Certifiability**:
+   - The necessity for the app to be CE-certified as per European Union directives, which is crucial for legal use. This requirement ensures that the app meets recognized standards for medical devices.
+
+3. **Portability**:
+   - Refers to the app's ability to support multiple operating systems and devices, ensuring it can be used across different platforms.
+
+4. **Privacy**:
+   - Concerns the protection of personal or medical information within the app. It must comply with regulations like the Dutch Data Protection Act, ensuring user data is handled with consent and security.
+
+5. **Safety**:
+   - The app must provide correct results with the needed precision, ensuring that the advice or information it gives does not harm the user's health.
+
+6. **Security**:
+   - Protection against unauthorized access to data, which includes features like password protection or using the smartphone's default security measures.
+
+7. **Stability**:
+   - Technical robustness and dependability of the application, ensuring it is operational and accessible when required, with good uptime and recoverability from errors.
+
+8. **Trustability**:
+   - The app must convince users of its dependability and responsibility, fostering trust in its functionality and the intentions of its developers.
+
+9. **Usability**:
+   - Ease of use and learnability of the application, which is particularly important for older users who might have different usability needs compared to younger users.
+
+These requirements were identified through a combination of document studies, stakeholder interviews, and user evaluations, highlighting the importance of each in the context of medical mobile applications. The study also noted variations in the importance of these requirements based on user demographics, particularly age.

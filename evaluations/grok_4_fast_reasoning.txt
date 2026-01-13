@@ -1,0 +1,73 @@
+### Extracted Non-Functional Requirements for Medical Mobile Applications
+
+The document is a research paper exploring non-functional requirements (NFRs) for consumer-focused medical mobile apps, particularly those aiding polypharmacy patients (e.g., managing multiple medications, reminders, health records, alerts, and advice). The study uses grounded theory, document analysis, stakeholder interviews (with patients, caregivers, experts, and pharmacists), and vignette-guided interviews with potential users (two groups: older polypharmacy patients aged 65+ using 5+ drugs; younger pre-polypharmacy users aged 50+ using 1+ drugs).
+
+The authors identify **nine key NFRs** through elicitation (document study and stakeholder interviews). These are attributes or constraints on how the app should behave, rather than what it does (functional requirements). Six were evaluated via vignettes for user-perceived importance (excluding accessibility, portability, and stability, deemed too technical for lay users to judge). Evaluations revealed differences by age group: older users prioritized usability and GP recommendations over certification; younger users valued certification more; both groups ranked privacy low but trustability, security, and (for younger users) certifiability highest.
+
+Below, I list the nine NFRs with:
+- **Source/Origin**: How it was identified.
+- **Definition/Description**: From the paper.
+- **User Evaluation (if applicable)**: Relative importance from vignette study (lower score = higher importance; based on average conservative responses in Figure 2). Trustability, security, and certifiability (younger group) were top-rated; privacy was least important overall.
+- **Implications for Design**: Practical notes from the discussion/conclusion.
+
+#### 1. **Accessibility**
+   - **Source/Origin**: Stakeholder interviews (e.g., information system experts emphasized catering to diverse users like family caregivers and nurses via smartphones/tablets; related to disability measures).
+   - **Definition/Description**: Degree to which the app is available and usable by users with diverse physical/psychological abilities (e.g., elderly or frail users). Often implicit in usability but explicit here due to medical users' diverse needs.
+   - **User Evaluation**: Not evaluated (too technical).
+   - **Implications for Design**: Ensure compatibility with touch interfaces for aging users; address small text/buttons for elderly. Critical for empowering frail patients.
+
+#### 2. **Certifiability**
+   - **Source/Origin**: Document study (e.g., EU Directive 93/42/EEC requires CE certification for medical devices; apps aiding monitoring/prevention qualify as devices).
+   - **Definition/Description**: Degree to which the app's behavior is approved/verified by authorities (e.g., government health bodies) to guarantee quality, reliability, and legal use. Conflicts with apps' changeable nature but advocated for safety.
+   - **User Evaluation**: Evaluated. Younger group (avg. age 60) rated it highly important (preferred certified apps over GP recommendations). Older group (avg. age 77) rated it lower, favoring GP trust instead.
+   - **Implications for Design**: Seek official certifications/marks; younger users may adopt faster with certification, while older users need GP endorsements. Balances with usability trade-offs.
+
+#### 3. **Portability**
+   - **Source/Origin**: Stakeholder interviews (e.g., experts noted support for multiple OS/devices like Android/iOS for broad access).
+   - **Definition/Description**: Ability of the app to run across different operating systems (e.g., iOS, Android) and devices (e.g., smartphones, tablets), ensuring adaptability and installability.
+   - **User Evaluation**: Not evaluated (too technical).
+   - **Implications for Design**: Develop cross-platform versions; essential for family/professional caregivers using varied devices. Maps to standards like ISO 9126 (adaptability).
+
+#### 4. **Privacy**
+   - **Source/Origin**: Document study (e.g., Dutch Data Protection Act limits personal/medical data processing; requires user consent, no disproportionate harm) and interviews (e.g., pharmacists noted user control over access).
+   - **Definition/Description**: Safeguarding personal/medical data from unauthorized use/sharing; includes anonymity options and compliance with laws (e.g., no third-party processing without approval). Related to broader well-being protection.
+   - **User Evaluation**: Evaluated. Least important overall for both groups; most were willing to share data (anonymously or personally) if it improved app advice/benefits. Only 1/36 refused all sharing.
+   - **Implications for Design**: Provide opt-in controls and anonymity; contrary to literature, users prioritize benefits over strict privacy. Still, ensure visibility into data use to build trust.
+
+#### 5. **Safety**
+   - **Source/Origin**: Interviews (e.g., pharmacists warned against incomplete/ambiguous advice causing panic or non-adherence) and documents (implicit in reliability/accuracy standards).
+   - **Definition/Description**: Degree to which the app provides correct, precise results/advice (e.g., drug interactions, reminders) without risking user health (e.g., avoiding misinformation leading to adverse effects or hospitalization).
+   - **User Evaluation**: Evaluated. Moderately important; both groups accepted limited risks if advice was personalized/customized to their situation.
+   - **Implications for Design**: Test for accuracy (e.g., peer-reviewed content); include disclaimers. Prominent in medical domain due to polypharmacy risks; maps to ISO 25010 (functional correctness/accuracy).
+
+#### 6. **Security**
+   - **Source/Origin**: Interviews (related to data protection) and standards (e.g., prevents unauthorized access).
+   - **Definition/Description**: Protection against unauthorized access to data (e.g., via passwords, encryption); ensures app safeguards user well-being alongside privacy.
+   - **User Evaluation**: Evaluated. Highly important for both groups; older users preferred in-app passwords, younger relied on device defaults (e.g., smartphone locks).
+   - **Implications for Design**: Implement multi-level security (e.g., app-specific + device); essential for medical data. Common in standards like ISO 9126/25010.
+
+#### 7. **Stability**
+   - **Source/Origin**: Interviews (e.g., experts on technical robustness for dependable performance).
+   - **Definition/Description**: Technical robustness, uptime, and recoverability (e.g., app remains operational/accessible under load, recovers from errors without crashing).
+   - **User Evaluation**: Not evaluated (too technical).
+   - **Implications for Design**: Ensure fault tolerance/availability; critical for real-time features like alerts. Maps to ISO 25010 (availability, fault tolerance).
+
+#### 8. **Trustability**
+   - **Source/Origin**: Interviews (e.g., users' perceptions of dependability; ties to privacy/safety/security) and evaluation (most users trusted app-generated advice to some degree).
+   - **Definition/Description**: Ability to convince users of the app's dependability, responsibility, and reliability (e.g., via transparent advice, endorsements); subjective user criterion encompassing privacy, safety, and security.
+   - **User Evaluation**: Evaluated. Most important overall; only 4/36 (all older) had no trust in automated advice. Both groups showed baseline trust if other NFRs were met.
+   - **Implications for Design**: Build via certifications, GP integration, and clear sourcing; underexposed in literature but cornerstone for medical adoption. Maps to ISO 25010 (trust as user criterion).
+
+#### 9. **Usability**
+   - **Source/Origin**: Interviews (e.g., caregivers concerned about learnability for elderly) and standards (e.g., ease of use).
+   - **Definition/Description**: Ease of use, learnability, and efficiency (e.g., intuitive interface, minimal effort); includes sub-aspects like aesthetics and accessibility.
+   - **User Evaluation**: Evaluated. Highly important, especially for older group (preferred easy-to-use apps with fewer functions over feature-rich but complex ones). Younger group favored more functions despite reduced ease.
+   - **Implications for Design**: Prioritize simple interfaces for elderly (e.g., large buttons, voice input); trade off with functionality. Increases with age/destitution; core to standards like ISO 9126/25010.
+
+### Additional Context from the Paper
+- **Mapping to Standards**: The NFRs align variably with ISO/IEC 25010, ISO/IEC 9126, and FURPS(+). Common ones (usability, security, portability, stability) are well-covered; novel/medical-specific ones (certifiability, trustability, privacy, safety, accessibility) are underrepresented or implicit.
+- **Overall Priorities**: Trustability > Security > Certifiability (younger) > Usability (older) > Safety > Privacy (lowest). Design trade-offs needed (e.g., more features reduce usability; comprehensive logging conflicts with privacy).
+- **App Context**: Focused on polypharmacy apps (e.g., medication overviews, reminders, side-effect logging, drug checks, GP contact). Users favored comprehensive features but emphasized NFRs to avoid risks like non-adherence or misinformation.
+- **Limitations**: Qualitative; small sample (36 users); technical NFRs unevaluated. Suggests future quantitative validation.
+
+This extraction captures all requirements explicitly discussed. No functional requirements (e.g., specific features like reminders) are detailed beyond examples, as the focus is NFRs.

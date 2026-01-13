@@ -1,0 +1,52 @@
+### Extracted Requirements for the Medical App
+
+The provided text is a research paper titled "WHAT CONCERNS USERS OF MEDICAL APPS? EXPLORING NON-FUNCTIONAL REQUIREMENTS OF MEDICAL MOBILE APPLICATIONS." It focuses on identifying and evaluating non-functional requirements (NFRs) for consumer-focused mobile applications (apps) in healthcare, particularly for polypharmacy patients (those using five or more chronic medications). The study uses a grounded theory approach, including document analysis, stakeholder interviews, and vignette-guided interviews with potential users.
+
+The paper distinguishes between functional requirements (what the system does) and non-functional requirements (attributes or constraints on how the system behaves). While the primary focus is on NFRs, some functional aspects are mentioned in the context of app features. Below, I extract and categorize the relevant requirements based on the text.
+
+#### Non-Functional Requirements (NFRs)
+The study elicited **nine NFRs** through document analysis and stakeholder interviews. These are attributes that influence user concerns like safety, usability, privacy, and dependability. Six of these were evaluated with potential users via vignette-guided interviews (two groups: older polypharmacy patients and younger users with fewer medications). The NFRs are:
+
+1. **Accessibility**: The degree to which the app is available and usable by users with diverse physical and psychological abilities (e.g., catering to elderly or disabled users). This was elicited but not evaluated in vignettes due to technical complexity. Mapped to ISO standards as part of usability or explicitly in ISO 25010.
+
+2. **Certifiability**: The degree to which the app's behavior is approved by authorities (e.g., CE certification as a medical device under EU directives). Evaluated in vignettes; younger users valued it more highly than older users, who preferred GP recommendations.
+
+3. **Portability**: The number of operating systems and devices the app supports (e.g., compatibility across smartphones and tablets). Elicited but not evaluated in vignettes.
+
+4. **Privacy**: Safeguarding users' personal or medical data, ensuring it is not disproportionately harmed and complying with laws like the Dutch Data Protection Act (e.g., user consent for data sharing). Evaluated in vignettes; considered one of the least important by both user groups, who were willing to share data (anonymously or personally) if it improved app advice.
+
+5. **Safety**: The degree to which the app provides correct, precise results without harm (e.g., avoiding incorrect medical advice that could lead to adverse effects). Evaluated in vignettes; users accepted limited risk if advice was customized.
+
+6. **Security**: Protection against unauthorized access to data (e.g., password protection or device-level security). Evaluated in vignettes; highly valued by both groups, with older users preferring app-level passwords and younger users accepting device defaults.
+
+7. **Stability**: The technical robustness, availability, and dependability of the app (e.g., uptime and error recovery). Elicited but not evaluated in vignettes due to technical complexity. Mapped to ISO standards like availability and fault tolerance.
+
+8. **Trustability**: The app's ability to convince users of its dependability and responsibility (e.g., building user confidence in the app's intentions and output). Evaluated in vignettes; considered one of the most important by both groups, alongside security.
+
+9. **Usability**: The ease of use and learnability of the app (e.g., simple interface vs. extensive features). Evaluated in vignettes; older users prioritized it over functionality, while younger users favored more features even if harder to use.
+
+**Evaluation Insights from Vignettes**:
+- **Most Important NFRs**: Trustability, security, and (for younger users) certifiability.
+- **Differences by User Group**:
+  - Older polypharmacy patients (avg. age 77, 9 drugs): Emphasized usability over functionality; less importance on certifiability (preferred GP judgment); conservative on trust (some had no faith in automated advice).
+  - Younger users (avg. age 60, 3 drugs): Valued certifiability more; favored functionality over usability; more progressive on privacy and trust.
+- **Least Important**: Privacy was rated low by both groups, contrary to literature expectations.
+
+These NFRs were mapped to existing standards (e.g., ISO/IEC 25010, ISO 9126, FURPS+), with some (like certifiability, trustability, and explicit accessibility) being novel or underrepresented in general software taxonomies but critical in the medical domain.
+
+#### Functional Requirements (Mentioned in Context)
+While the paper's core is NFRs, it references functional features of medical apps to illustrate consumer-focused use cases. These are not deeply explored but provide context for how NFRs apply. Examples include:
+- **Monitoring**: Tracking user health data (e.g., food intake for diabetes, medication adherence).
+- **Educating**: Providing information or advice on medical issues (e.g., advising on GP visits based on symptoms).
+- **Communicating**: Enabling interactions, such as sharing experiences with other patients or directly contacting GPs.
+- **Personal Assistance**: Acting as a helper for health issues (e.g., medication overviews, reminders, alerts, drug interaction checks, logging side effects, generating advice based on user input).
+- **Data Collection**: Collecting user data for research or operations (e.g., health records, planned procedures).
+
+These functional aspects were discussed in stakeholder interviews and app market reviews (e.g., 16 apps examined on Google Play and Apple Store), but the study does not formally elicit or evaluate them as requirements. Users in vignettes expressed preferences for comprehensive features (e.g., health record overviews, side effect logging) over basic ones (e.g., reminders), noting potential trade-offs with NFRs like usability.
+
+#### Additional Context and Implications
+- **Target Users**: Consumer-focused apps for polypharmacy patients, not professionals. Concerns include risks like misinformation, decreased adherence, and adverse effects from multiple drugs.
+- **Design Implications**: Developers should prioritize trustability and security; tailor usability/certifiability based on age (e.g., simple interfaces for elderly, certifications for younger); balance functionality with NFRs to avoid privacy or safety infringements.
+- **Limitations**: Only six NFRs were evaluated; technical ones (accessibility, portability, stability) were excluded from vignettes. Results are qualitative and not generalizable without larger quantitative validation.
+
+This extraction is based solely on the text provided. If you need further details, such as quotes or mappings to standards, let me know!

@@ -1,0 +1,64 @@
+Below are the extracted requirements related to the medical app from the provided text document. The requirements are categorized as non-functional requirements, as identified and discussed in the study, along with relevant insights and implications for design. These requirements are derived from the document study, stakeholder interviews, and vignette-guided interviews with potential users, as detailed in the paper.
+
+### Non-Functional Requirements for Medical Mobile Applications
+
+1. **Accessibility**
+   - **Definition**: The degree to which the application is available to users, often considering disability measures to ensure it can be used by people with a wide range of characteristics.
+   - **Source**: Identified through stakeholder interviews and document study (Page 8, Page 10).
+   - **Context**: Recognized as an explicit requirement in the medical domain due to the diverse abilities of users, particularly those with medical histories (Page 11). Often considered a subset of usability in general software frameworks but highlighted as more prominent in medical apps.
+   - **Implication**: Medical apps must cater to users with varying physical and psychological abilities, ensuring inclusivity (Page 11-12).
+
+2. **Certifiability**
+   - **Definition**: The degree to which software behavior is approved by recognized authorities, often through certifications like CE-certification as per European Union directives.
+   - **Source**: Identified in document study (EU directives) and stakeholder interviews, evaluated in vignette-guided interviews (Page 7, Page 9, Page 12).
+   - **Context**: Essential for legal use of medical devices, including software that assists in monitoring or preventing diseases. Younger users value certification more, while older users rely on GP recommendations (Page 9, Page 12).
+   - **Implication**: Apps should pursue official certification to guarantee quality and reliability, especially for younger demographics. Certification processes must adapt to the changeable nature of apps (Page 11, Page 13).
+
+3. **Portability**
+   - **Definition**: The ability of the application to support multiple operating systems and devices.
+   - **Source**: Identified through stakeholder interviews (Page 8, Page 10).
+   - **Context**: Related to accessibility and stability, ensuring the app can be used across different platforms. Not evaluated in vignette interviews due to its technical nature (Page 9, Page 13).
+   - **Implication**: Developers should ensure compatibility with various devices (e.g., smartphones and tablets) to reach a broader audience, particularly family caregivers and nurses who use mobile devices (Page 8).
+
+4. **Privacy**
+   - **Definition**: The assurance that data are accessible only to authorized individuals, adhering to regulations like the Dutch Data Protection Act.
+   - **Source**: Identified in document study and stakeholder interviews, evaluated in vignette-guided interviews (Page 7-8, Page 9, Page 11).
+   - **Context**: Contrary to literature consensus, privacy was rated as one of the least important requirements by both age groups of potential users. Many were willing to share data if it improved app advice, often preferring anonymity (Page 9, Page 12).
+   - **Implication**: While privacy remains a legal and ethical concern, user willingness to share data for better functionality suggests a need for transparent data usage policies and options for anonymity rather than strict restrictions (Page 12-13).
+
+5. **Safety**
+   - **Definition**: The degree to which the app provides correct results with the needed precision, safeguarding users’ health by avoiding incorrect advice or delays in diagnosis.
+   - **Source**: Identified through stakeholder interviews and document study, evaluated in vignette-guided interviews (Page 8, Page 9, Page 11).
+   - **Context**: More prominent in the medical domain due to potential health impacts of incorrect advice. Users accept limited risks if advice is customized to their situations (Page 9, Page 11).
+   - **Implication**: Apps must ensure reliability of medical advice through testing and peer-reviewed content to prevent adverse health outcomes (Page 11).
+
+6. **Security**
+   - **Definition**: The degree to which the system prevents unauthorized access to data, protecting users’ personal information.
+   - **Source**: Identified through stakeholder interviews, evaluated in vignette-guided interviews (Page 8, Page 9, Page 10).
+   - **Context**: Most users want some form of data protection, with preferences varying by age group (e.g., password protection for older users vs. default smartphone security for younger users) (Page 9).
+   - **Implication**: Implement robust security measures tailored to user preferences, ensuring data protection to maintain trust (Page 9, Page 13).
+
+7. **Stability**
+   - **Definition**: The technical robustness and dependability of the application, ensuring it is operational and accessible when required.
+   - **Source**: Identified through stakeholder interviews (Page 8, Page 10).
+   - **Context**: Related to accessibility and portability, focusing on uptime and error recovery. Not evaluated in vignette interviews due to its technical nature (Page 9, Page 13).
+   - **Implication**: Ensure the app remains reliable under specified conditions to avoid disruptions in medical support (Page 10).
+
+8. **Trustability**
+   - **Definition**: The ability of the system to convince users of its dependability and responsibility, encompassing perceptions of privacy, safety, and security.
+   - **Source**: Identified through stakeholder interviews, evaluated in vignette-guided interviews (Page 8, Page 9, Page 10).
+   - **Context**: Considered one of the most important requirements by both age groups, essential for user adoption. Most users showed some trust in automated advice, though older users were more conservative (Page 9, Page 13).
+   - **Implication**: Build trust through transparent operations, reliable outputs, and clear communication of safety and security measures (Page 11, Page 13).
+
+9. **Usability**
+   - **Definition**: The ease of use and learnability of the application, focusing on the effort needed for use and individual assessment of such use.
+   - **Source**: Identified through stakeholder interviews, evaluated in vignette-guided interviews (Page 8, Page 9, Page 10).
+   - **Context**: Older users prioritize usability over extended functionality, while younger users favor more features even if it impacts ease of use. Usability needs vary by age due to physical and cognitive differences (Page 9, Page 12).
+   - **Implication**: Design should balance functionality and ease of use, with particular attention to simplicity for older users (e.g., larger text, intuitive interfaces) (Page 12-13).
+
+### Additional Insights and Design Implications
+- **Age-Based Design Considerations**: Depending on the target demographic, prioritize certifiability for younger users and usability for older users. Older users value GP recommendations over certifications (Page 13).
+- **Functionality vs. Non-Functional Trade-offs**: Users prefer comprehensive features (e.g., health record overviews, side effect logging) over conventional ones (e.g., reminders). Developers must balance these with non-functional requirements to avoid infringement (Page 13).
+- **Evaluation Limitations**: Only six of the nine requirements were evaluated with users due to the technical nature of accessibility, portability, and stability. Future research should explore alternative methods to assess these (Page 13).
+
+These requirements and insights provide a framework for developing consumer-focused medical mobile applications, addressing user concerns and ensuring safety, reliability, and user satisfaction.

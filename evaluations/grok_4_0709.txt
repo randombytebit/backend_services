@@ -1,0 +1,83 @@
+Below is a structured extraction of requirements related to medical mobile applications (apps) from the provided text document. The document is a research paper focused on non-functional requirements for consumer-focused medical apps, particularly in the context of polypharmacy (the use of multiple medications by patients, often elderly or chronically ill). I've prioritized non-functional requirements, as they are the core focus of the paper (derived from a grounded theory approach involving document studies, stakeholder interviews, and vignette-guided user evaluations). I've also noted any mentions of functional requirements or features, though these are secondary in the paper.
+
+The extraction is based on explicit mentions in the text, with references to page numbers for context. I've categorized them for clarity and included definitions/explanations from the paper where provided, along with insights on their importance (e.g., based on user evaluations).
+
+### Non-Functional Requirements
+These are the primary requirements identified in the paper (Page 2, Abstract; Page 7-8, Stakeholder Interviews; Page 12, Conclusion). The study elicited nine non-functional requirements through document analysis and interviews with stakeholders (e.g., patients, caregivers, developers, pharmacists). Six were evaluated with potential users (two groups: older polypharmacy patients aged 65+ using 5+ drugs, and younger potential users aged 50+ using 1+ drug). The evaluation revealed differences in perceived importance by age group.
+
+1. **Accessibility**  
+   - **Description**: The degree to which the app is available and usable by users, including those with disabilities (e.g., catering to diverse physical and psychological abilities). Related to technical robustness and supporting different user roles (e.g., family caregivers vs. patients).  
+   - **Source/Context**: Page 7 (Stakeholder Interviews); Page 9 (Recapitulation, mapped to ISO standards).  
+   - **Importance/Insights**: Not evaluated with users (too technical). Emphasized for medical apps due to diverse user abilities (e.g., elderly or frail users). Example quote: "Family caregivers visit patients at home, and so do nurses. So smartphones, and likewise tablets, would be obvious choices."  
+   - **Implications**: Apps should support a wide range of devices and user capabilities to empower frailer users.
+
+2. **Certifiability**  
+   - **Description**: The app must be certified (e.g., CE-certified as a medical device under EU directives) to ensure legal use, quality, and reliability. Involves approval by authorities for monitoring/preventing diseases and medications.  
+   - **Source/Context**: Page 6 (Document Study); Page 7 (Stakeholder Interviews); Page 8 (Vignette-Guided Interviews); Page 10 (Table 1).  
+   - **Importance/Insights**: Evaluated with users. Younger group (aged 50+) valued it highly (one of the most important); older group (65+) valued it less, preferring GP recommendations. Overall, important for trustworthiness. Example: Calls for "government health authorities to provide official certification marks guaranteeing the quality of apps."  
+   - **Implications**: Essential for legal compliance; changeable app nature conflicts with certification processes.
+
+3. **Portability**  
+   - **Description**: The app's ability to support multiple operating systems, devices (e.g., smartphones, tablets), and environments.  
+   - **Source/Context**: Page 7 (Stakeholder Interviews); Page 9 (Recapitulation, mapped to ISO standards as adaptability/installability).  
+   - **Importance/Insights**: Not evaluated with users (too technical). Related to accessibility and stability.  
+   - **Implications**: Apps should be adaptable to different platforms to reach diverse users.
+
+4. **Privacy**  
+   - **Description**: Safeguarding personal and medical data; compliance with regulations (e.g., Dutch Data Protection Act). Users must approve data processing/transfer, and privacy should not be disproportionately harmed.  
+   - **Source/Context**: Page 2 (Abstract); Page 6 (Document Study); Page 7 (Stakeholder Interviews); Page 8 (Vignette-Guided Interviews); Page 10 (Table 1, mapped to confidentiality in ISO standards).  
+   - **Importance/Insights**: Evaluated with users. Rated as one of the least important by both groups (most willing to share data anonymously if it benefits advice). Contradicts literature emphasizing privacy concerns. Example: "If you can decide for yourself who can have access, it doesn’t have to be a problem."  
+   - **Implications**: Apps must get user approval for data use but may not need overly strict measures if benefits outweigh risks.
+
+5. **Safety**  
+   - **Description**: Ensuring the app provides correct, precise results (e.g., accurate drug advice) to avoid harm like incorrect self-medication or delayed diagnoses. Related to reliability and preventing adverse effects.  
+   - **Source/Context**: Page 2 (Abstract); Page 7 (Stakeholder Interviews); Page 8 (Vignette-Guided Interviews); Page 10 (Table 1, mapped to functional correctness/accuracy in ISO standards).  
+   - **Importance/Insights**: Evaluated with users. Both groups accepted limited risks if advice is customized. More prominent in medical domain than general software. Example: Warnings about incomplete advice causing panic or misuse.  
+   - **Implications**: Apps should use peer-reviewed content and be tested before publication.
+
+6. **Security**  
+   - **Description**: Preventing unauthorized access to data (e.g., password protection or device-level security).  
+   - **Source/Context**: Page 2 (Abstract); Page 7 (Stakeholder Interviews); Page 8 (Vignette-Guided Interviews); Page 10 (Table 1, mapped to security in ISO standards).  
+   - **Importance/Insights**: Evaluated with users. One of the most important for both groups (e.g., older group preferred app-level passwords; younger preferred device defaults).  
+   - **Implications**: Essential for protecting personal health data.
+
+7. **Stability**  
+   - **Description**: Technical robustness, dependability, availability, and recoverability from errors (e.g., uptime and fault tolerance).  
+   - **Source/Context**: Page 7 (Stakeholder Interviews); Page 9 (Recapitulation); Page 10 (Table 1, mapped to availability/fault tolerance in ISO standards).  
+   - **Importance/Insights**: Not evaluated with users (too technical). Related to accessibility and portability.  
+   - **Implications**: Apps must be reliable under specified conditions.
+
+8. **Trustability**  
+   - **Description**: Users' perception of the app's dependability, responsibility, and overall trustworthiness (e.g., convincing users of privacy, safety, and security).  
+   - **Source/Context**: Page 2 (Abstract); Page 7 (Stakeholder Interviews); Page 8 (Vignette-Guided Interviews); Page 10 (Table 1, partially mapped to user trust in ISO standards).  
+   - **Importance/Insights**: Evaluated with users. The most important for both groups. Example: "If you tell a patient of a [clinical] interaction [between his drugs], he will panic, risk that he stops using something, while nothing may be wrong."  
+   - **Implications**: Builds on other requirements; essential for adoption in medical contexts.
+
+9. **Usability**  
+   - **Description**: Ease of use, learnability, and user-friendliness (e.g., simple interfaces for elderly users). May include aesthetical aspects.  
+   - **Source/Context**: Page 2 (Abstract); Page 7 (Stakeholder Interviews); Page 8 (Vignette-Guided Interviews); Page 10 (Table 1, mapped to usability in ISO standards).  
+   - **Importance/Insights**: Evaluated with users. Older group valued it highly (preferring simplicity over functionality); younger group valued it less (favoring more features). Increases with age/destitution. Example vignette: Trade-off between easy-to-use basic app vs. feature-rich but harder-to-use app.  
+   - **Implications**: Critical for elderly; touch interfaces on mobiles/tablets offer opportunities but must address small text/click areas.
+
+### Functional Requirements/Features (Secondary Mentions)
+The paper is not primarily about functional requirements (what the app should do), but it mentions examples of app features in the context of polypharmacy management (Page 3-4, Background; Page 6-7, Vignettes; Page 12, Implications). These are derived from market analysis (e.g., Dutch apps on Google Play/Apple Store) and user feedback:
+- Medication overview/reminders.
+- Drug interaction checks/alerts.
+- Information about diseases/medications.
+- Logging side effects/complaints.
+- Maintaining medical records.
+- Generating advice based on user input (e.g., when to visit GP).
+- Contacting GP directly.
+- Tracking food intake (e.g., for diabetes).
+- Sharing experiences with other patients.
+- Access to health records (with modes for different stakeholders).
+- **Insights**: Users preferred comprehensive features (e.g., automatic medicine checks) over basic ones, but these must balance with non-functional requirements (e.g., usability trade-offs). Younger users favored more functionality; older preferred simplicity.
+
+### Overall Insights on Importance and Design Implications
+- **Most Important (Per User Evaluation, Page 8-9, Figure 2)**: Trustability and security (both groups); certifiability (younger group).
+- **Least Important**: Privacy (both groups, contrary to literature).
+- **Age-Based Differences (Page 11-12)**: Older users prioritize usability and GP recommendations; younger prioritize certifiability and functionality.
+- **General Recommendations (Page 12)**: Involve stakeholders continuously; trade off features vs. non-functional constraints; validate with larger quantitative studies.
+- **Mapping to Standards (Page 9-10, Table 1)**: Requirements align partially with ISO 9126/25010 and FURPS(+) models, but medical-specific ones (e.g., certifiability, trustability) are underrepresented.
+
+If you need more details, a filtered list (e.g., only evaluated requirements), or extraction focused on a specific aspect (e.g., privacy), let me know!
