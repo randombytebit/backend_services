@@ -1,0 +1,64 @@
+Medical App document → 
+Title request: Medical App
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-01
+Requirement Title: Accessibility
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
+Citation: Page 8, Section 3.2; Page 9, Section 3.4
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-02
+Requirement Title: Certifiability
+Requirement Description: Certifiability refers to the necessity of certification for medical apps, such as CE-certification, to ensure they meet legal and quality standards as medical devices. The related concept of certifiability, the degree to which software’s behavior is approved by authorities, was not found in any form in any of the referenced frameworks.
+Citation: Page 2, Abstract; Page 7, Section 3.1; Page 10, Section 3.4; Page 11, Section 4.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-03
+Requirement Title: Portability
+Requirement Description: Portability refers to the number of operating systems and devices the application supports. Portability, defined in the ISO 9126 standard as “the ability of software to be transferred from one environment to another” is present in most theories, although sometimes referred to as adaptability, installability or compatibility, or included as sub sets of these.
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Section 3.4
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-04
+Requirement Title: Privacy
+Requirement Description: Privacy relates to safeguarding users’ well-being when using the application, including regulations on how personal or medical information is handled, processed, and shared. Although privacy is included in the ISO 25010 standard as the assurance that “data are accessible only to those authorized to have access”, it is non-existent in others.
+Citation: Page 2, Abstract; Page 7, Section 3.1; Page 8, Section 3.2; Page 10, Section 3.4; Page 11, Section 4.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-05
+Requirement Title: Safety
+Requirement Description: Safety relates to safeguarding users’ well-being when using the application, including the degree to which a product or system provides the correct results with the needed degree of precision. While the concept of safety is present in various forms in most frameworks, it is usually implied through combinations of broader concepts such as accuracy, correctness, or reliability.
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 10, Section 3.4; Page 11, Section 4.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-06
+Requirement Title: Security
+Requirement Description: Security relates to safeguarding users’ well-being when using the application, interpreted as the degree “to which a system prevents unauthorized access to data”. Likewise, the concept of security is common throughout theory.
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 10, Section 3.4
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-07
+Requirement Title: Stability
+Requirement Description: Stability relates to the technical robustness and dependability of the application. Stability is found in most frameworks, and is understood as systems being “operational and accessible when required” to “perform specified functions under specified conditions for a specified period of time”. It includes aspects such as systems’ robustness, availability or uptime, and recoverability from errors.
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 10, Section 3.4
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-08
+Requirement Title: Trustability
+Requirement Description: Trustability entails the users’ perceptions of characteristics such as privacy, safety, and security, including the ability of systems to convince users of their dependability and responsibility. Likewise, the concept of trust is included in the ISO 25010 standard as a subjective user criterion, but the concept of trustability found in this study is not.
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 10, Section 3.4; Page 11, Section 4.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-09
+Requirement Title: Usability
+Requirement Description: Usability refers to the ease of use and learnability of the application. Among the concepts that are common in most frameworks is usability. This user-focused requirement has long been a part of software requirements models. While the sub concepts belonging to the concept of usability greatly differ between theories, it is principally understood as “the effort needed for use, and on the individual assessment of such use”. Sub concepts may include ease-of-use, learnability, aesthetical attractiveness, and, in some cases, accessibility.
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Section 3.4

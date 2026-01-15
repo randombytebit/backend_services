@@ -1,0 +1,141 @@
+Title request: Medical App
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-01  
+Requirement Title: Provide Advice or Information  
+Requirement Description: The application should aid users directly through providing advice or information on medical issues, such as advising whether or not to visit a GP based on analysis of a medical problem.  
+Citation: Page 3, Section 1; Page 4, Section 1.2  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-02  
+Requirement Title: Collect Data  
+Requirement Description: The application should collect data for research purposes or planned operations.  
+Citation: Page 3, Section 1  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-03  
+Requirement Title: Monitoring  
+Requirement Description: The application should support monitoring of user health data, such as tracking food intake for patients suffering from diabetes.  
+Citation: Page 3, Section 1.1; Page 4, Section 1.2  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-04  
+Requirement Title: Educating  
+Requirement Description: The application should provide educational content about users' health conditions or diseases.  
+Citation: Page 3, Section 1.1; Page 8, Section 3.3  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-05  
+Requirement Title: Communicating  
+Requirement Description: The application should enable communication features, such as an option to immediately contact a GP or share experiences with other patients.  
+Citation: Page 3, Section 1.1; Page 12, Section 5.1  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-06  
+Requirement Title: Act as Personal Assistant  
+Requirement Description: The application should act as a personal assistant for patient-specific health issues, such as generating alerts when necessary.  
+Citation: Page 4, Section 1.2  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-07  
+Requirement Title: Maintain Medical Records  
+Requirement Description: The application should maintain users’ medical records, including an overview of health records.  
+Citation: Page 4, Section 1.2; Page 12, Section 5.1  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-08  
+Requirement Title: Generate Alerts and Reminders  
+Requirement Description: The application should generate alerts and reminders, such as drug reminders.  
+Citation: Page 4, Section 1.2; Page 8, Section 3.3  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-09  
+Requirement Title: Generate Advice Based on Input  
+Requirement Description: The application should generate advice or information based on user input, including automatic medicine checks.  
+Citation: Page 4, Section 1.2; Page 12, Section 5.1  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-10  
+Requirement Title: Manage and Monitor Drug Use  
+Requirement Description: The application should help users manage and monitor their drug use in a variety of ways, such as providing a medication overview.  
+Citation: Page 6, Section 2.2; Page 8, Section 3.3  
+
+Functional Requirement  
+Role: User  
+Requirement ID: F-11  
+Requirement Title: Log Side Effects or Complaints  
+Requirement Description: The application should allow users to log side effects or complaints.  
+Citation: Page 12, Section 5.1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-01  
+Requirement Title: Accessibility  
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-02  
+Requirement Title: Certifiability  
+Requirement Description: Certifiability refers to the necessity for the application to be certified (e.g., CE-certified) as a medical device to ensure legal use, reflecting approval by authorities for software that assists in monitoring or preventing diseases and medications.  
+Citation: Page 2, Abstract; Page 7, Section 3.1; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1; Page 12, Section 5  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-03  
+Requirement Title: Portability  
+Requirement Description: Portability refers to the number of operating systems and devices the application supports, ensuring it can be transferred from one environment to another (e.g., adaptability, installability).  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Table 1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-04  
+Requirement Title: Privacy  
+Requirement Description: Privacy relates to safeguarding users' personal and medical information, ensuring data are accessible only to authorized parties, compliance with regulations like the Dutch Data Protection Act, and not disproportionately harming users' privacy.  
+Citation: Page 2, Abstract; Page 3, Section 1; Page 7, Section 3.1; Page 8, Section 3.2; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1; Page 11, Section 4.1; Page 12, Section 5  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-05  
+Requirement Title: Safety  
+Requirement Description: Safety relates to safeguarding users' well-being, ensuring the application provides correct results with needed precision, prevents unreliable content, and avoids negative impacts on health (e.g., incorrect advices leading to delayed diagnoses).  
+Citation: Page 2, Abstract; Page 3, Section 1; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Table 1; Page 11, Section 4.1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-06  
+Requirement Title: Security  
+Requirement Description: Security relates to preventing unauthorized access to data, including features like password protection or device default security to safeguard users' well-being.  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-07  
+Requirement Title: Stability  
+Requirement Description: Stability refers to the technical robustness and dependability of the application, ensuring it is operational and accessible when required, performs specified functions under specified conditions, and includes aspects like availability, uptime, and recoverability.  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Table 1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-08  
+Requirement Title: Trustability  
+Requirement Description: Trustability entails users' perceptions of the application's dependability and responsibility, convincing users of its privacy, safety, and security, and building faith in automatically generated advices.  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Table 1; Page 12, Section 5  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-09  
+Requirement Title: Usability  
+Requirement Description: Usability refers to the application's ease of use and learnability, including effort needed for use, individual assessment, and sub-concepts like aesthetical attractiveness.  
+Citation: Page 2, Abstract; Page 3, Section 1; Page 8, Section 3.2; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1; Page 12, Section 5

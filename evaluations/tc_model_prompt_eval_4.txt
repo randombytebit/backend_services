@@ -1,0 +1,197 @@
+Title request: medical app
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR1 
+Requirement Title: Provide Advice or Information
+Requirement Description: Aiding users directly through advice or information, as well as software that collects data for research purposes or planned operations. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR2 
+Requirement Title: Monitoring
+Requirement Description: Monitoring features for health-related data. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR3 
+Requirement Title: Educating
+Requirement Description: Educating users on health topics. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR4 
+Requirement Title: Communicating
+Requirement Description: Communicating with users or stakeholders. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR5 
+Requirement Title: Advise on Visiting GP
+Requirement Description: Advise them whether or not to visit their GP, based on analysis of a medical problem. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR6 
+Requirement Title: Personal Health Assistant
+Requirement Description: Keeping track of food intake for patients suffering from diabetes, and generating alerts when necessary. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR7 
+Requirement Title: Maintain Medical Records
+Requirement Description: Maintaining users’ medical records. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR8 
+Requirement Title: Generate Alerts and Reminders
+Requirement Description: Generating alerts and reminders. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR9 
+Requirement Title: Generate Advice Based on Input
+Requirement Description: Generating advice or information based on user input. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR10 
+Requirement Title: Medication Overview
+Requirement Description: The app contains a medication overview. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR11 
+Requirement Title: Drug Reminder
+Requirement Description: The app contains a drug reminder. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR12 
+Requirement Title: Disease Information
+Requirement Description: The app contains information about your diseases. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR13 
+Requirement Title: Contact GP
+Requirement Description: The app contains an option to immediately contact your GP. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR14 
+Requirement Title: Health Records Overview
+Requirement Description: Overview of their health records. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR15 
+Requirement Title: Log Side Effects
+Requirement Description: Ability to log side effects or complaints. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR16 
+Requirement Title: Automatic Medicine Checks
+Requirement Description: Automatic medicine checks. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR17 
+Requirement Title: Medicine Reminders
+Requirement Description: Medicine reminders. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR18 
+Requirement Title: Sharing Experiences
+Requirement Description: Sharing experiences with other patients. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR19 
+Requirement Title: Directly Contact GPs
+Requirement Description: Directly contacting their GPs. 
+Citation: Page 12
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR1 
+Requirement Title: Accessibility
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: Other 
+Requirement ID: NFR2 
+Requirement Title: Certifiability
+Requirement Description: The necessity of certifiability is based on a European Union directive, which in turn has been converted into laws in its member states. The directive defines that a medical device or aid has to be CE-certified to be used legally, and proposes a definition for what a medical device is. Software that assists patients in monitoring or preventing diseases and medications is in fact classed as a medical device. 
+Citation: Page 7
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR3 
+Requirement Title: Portability
+Requirement Description: Portability refers to the number of operating systems and devices the application supports. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR4 
+Requirement Title: Privacy
+Requirement Description: The second requirement revolves around privacy regulations and how an application that deals with personal or medical information should incorporate those. The processing of any personal information is limited by the Dutch Data Protection Act; both the transfer and processing of information by third parties, entered by patients, will need to be approved by those patients. Apart from getting approval, other conditions that have to be met include the aspect that the patients’ privacy is not disproportionately harmed, and that the process favors a ‘general cause’. 
+Citation: Page 7
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR5 
+Requirement Title: Safety
+Requirement Description: Privacy, safety, and security all relate to safeguarding users’ well-being when using the application. The concept as found in this study is defined as the degree to which a product or system provides the correct results with the needed degree of precision. 
+Citation: Page 8-9
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR6 
+Requirement Title: Security
+Requirement Description: Privacy, safety, and security all relate to safeguarding users’ well-being when using the application. The concept of security, interpreted as the degree to which a system prevents unauthorized access to data, is common throughout theory. 
+Citation: Page 8-9
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR7 
+Requirement Title: Stability
+Requirement Description: Stability to the technical robustness and dependability of the application. Stability is found in most frameworks, and is understood as systems being operational and accessible when required to perform specified functions under specified conditions for a specified period of time. It includes aspects such as systems’ robustness, availability or uptime, and recoverability from errors. 
+Citation: Page 8-9
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR8 
+Requirement Title: Trustability
+Requirement Description: These concepts are related to the requirement of trust, which entails the users’ perceptions of these characteristics. Making sure the application is private, safe, and secure is essential for having people ‘trust’ the application. The concept of trustability found in this study, i.e. the ability of systems to convince users of their dependability and responsibility, is not included in most standards. 
+Citation: Page 8-9
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR9 
+Requirement Title: Usability
+Requirement Description: The last non-functional requirement mentioned by the stakeholders is the usability of the application, which is its ease of use and learnability. Usability has long been a part of software requirements models. While the sub concepts belonging to the concept of usability greatly differ between theories, it is principally understood as the effort needed for use, and on the individual assessment of such use. Sub concepts may include ease-of-use, learnability, aesthetical attractiveness, and, in some cases, accessibility. 
+Citation: Page 8-9

@@ -1,0 +1,190 @@
+Title request: medical app
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-001 
+Requirement Title: Provide advice or information 
+Requirement Description: The app should aid users directly by providing advice or information related to health care. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-002 
+Requirement Title: Collect data 
+Requirement Description: The app should collect data for research purposes or planned operations. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-003 
+Requirement Title: Monitoring 
+Requirement Description: The app should include monitoring features for health-related data. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-004 
+Requirement Title: Educating 
+Requirement Description: The app should provide educational content about health issues. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-005 
+Requirement Title: Communicating 
+Requirement Description: The app should facilitate communication related to health care. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-006 
+Requirement Title: Advise on GP visit 
+Requirement Description: The app should advise users whether or not to visit their GP based on analysis of a medical problem. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-007 
+Requirement Title: Personal health assistant 
+Requirement Description: The app should act as a personal assistant for patient-specific health issues, such as keeping track of food intake for diabetes patients and generating alerts when necessary. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-008 
+Requirement Title: Maintain medical records 
+Requirement Description: The app should maintain users' medical records. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-009 
+Requirement Title: Generate alerts and reminders 
+Requirement Description: The app should generate alerts and reminders for users. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-010 
+Requirement Title: Generate advice based on input 
+Requirement Description: The app should generate advice or information based on user input. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-011 
+Requirement Title: Medication overview 
+Requirement Description: The app should provide a medication overview. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-012 
+Requirement Title: Drug reminder 
+Requirement Description: The app should include a drug reminder function. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-013 
+Requirement Title: Disease information 
+Requirement Description: The app should provide information about users' diseases. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-014 
+Requirement Title: Contact GP 
+Requirement Description: The app should include an option to immediately contact the user's GP. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-015 
+Requirement Title: Health records overview 
+Requirement Description: The app should provide an overview of users' health records. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-016 
+Requirement Title: Log side effects or complaints 
+Requirement Description: The app should allow users to log side effects or complaints. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-017 
+Requirement Title: Automatic medicine checks 
+Requirement Description: The app should perform automatic medicine checks. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-018 
+Requirement Title: Share experiences 
+Requirement Description: The app should allow sharing experiences with other patients. 
+Citation: Page 12
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-001 
+Requirement Title: Accessibility 
+Requirement Description: The degree to which the application is available to users, taking into account disability measures. 
+Citation: Page 2, Page 8
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-002 
+Requirement Title: Certifiability 
+Requirement Description: The necessity for the app to be certified, such as CE-certified, to be used legally as a medical device. 
+Citation: Page 2, Page 7
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-003 
+Requirement Title: Portability 
+Requirement Description: The number of operating systems and devices the application supports. 
+Citation: Page 2, Page 8
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-004 
+Requirement Title: Privacy 
+Requirement Description: Regulations and incorporation of privacy for handling personal or medical information, ensuring data is not disproportionately harmed and approved by users. 
+Citation: Page 2, Page 7, Page 8
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-005 
+Requirement Title: Safety 
+Requirement Description: The degree to which the app provides correct results with needed precision, safeguarding users' well-being. 
+Citation: Page 2, Page 8
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-006 
+Requirement Title: Security 
+Requirement Description: The degree to which the system prevents unauthorized access to data. 
+Citation: Page 2, Page 8
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-007 
+Requirement Title: Stability 
+Requirement Description: The technical robustness and dependability of the application, including availability and fault tolerance. 
+Citation: Page 2, Page 8
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-008 
+Requirement Title: Trustability 
+Requirement Description: The users' perceptions of the app's privacy, safety, and security, convincing users of its dependability and responsibility. 
+Citation: Page 2, Page 8
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NFR-009 
+Requirement Title: Usability 
+Requirement Description: The ease of use and learnability of the application. 
+Citation: Page 2, Page 8

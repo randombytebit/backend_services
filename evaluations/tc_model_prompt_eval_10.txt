@@ -1,0 +1,127 @@
+Title request: Medical App
+
+## Functional Requirements
+The provided text is primarily focused on non-functional requirements for medical mobile applications (apps), with functional requirements mentioned incidentally in the context of examples, vignettes, and user evaluations. These are extracted where described as app features or functionalities (e.g., what the app should do). They are assigned sequential IDs (F-01, etc.) for organization. Role is assumed as "User" based on the consumer-focused context of the apps.
+
+Role: User  
+Requirement ID: F-01  
+Requirement Title: Provide Medication Overview  
+Requirement Description: The app should provide an overview of the user's medications, including details on drug use and management.  
+Citation: Page 6, Section 2.3; Page 8, Section 3.3; Page 12, Section 5.1  
+
+Role: User  
+Requirement ID: F-02  
+Requirement Title: Generate Alerts and Reminders  
+Requirement Description: The app should generate alerts and reminders for medication intake or health-related actions (e.g., drug reminders).  
+Citation: Page 4, Section 1.1; Page 6, Section 2.3; Page 12, Section 5.1  
+
+Role: User  
+Requirement ID: F-03  
+Requirement Title: Provide Advice or Information Based on User Input  
+Requirement Description: The app should generate advice or information based on user input, such as advising whether to visit a GP or providing information about diseases and medications.  
+Citation: Page 3, Section 1; Page 4, Section 1.1; Page 6, Section 2.3  
+
+Role: User  
+Requirement ID: F-04  
+Requirement Title: Maintain Medical Records  
+Requirement Description: The app should maintain users' medical records, including health records and personal health data.  
+Citation: Page 4, Section 1.1; Page 12, Section 5.1  
+
+Role: User  
+Requirement ID: F-05  
+Requirement Title: Log Side Effects or Complaints  
+Requirement Description: The app should allow users to log side effects, complaints, or other health-related notes.  
+Citation: Page 12, Section 5.1  
+
+Role: User  
+Requirement ID: F-06  
+Requirement Title: Perform Automatic Medicine Checks  
+Requirement Description: The app should perform automatic checks on medications, such as detecting interactions or adherence issues.  
+Citation: Page 12, Section 5.1  
+
+Role: User  
+Requirement ID: F-07  
+Requirement Title: Enable Direct Contact with GP  
+Requirement Description: The app should provide an option to immediately contact the user's general practitioner (GP).  
+Citation: Page 6, Section 2.3; Page 12, Section 5.1  
+
+Role: User  
+Requirement ID: F-08  
+Requirement Title: Share Experiences with Other Patients  
+Requirement Description: The app should allow users to share experiences with other patients (e.g., anonymously or personally).  
+Citation: Page 12, Section 5.1  
+
+Role: User  
+Requirement ID: F-09  
+Requirement Title: Track Health Issues (e.g., Food Intake for Specific Conditions)  
+Requirement Description: The app should act as a personal assistant for patient-specific health issues, such as tracking food intake for diabetes patients.  
+Citation: Page 4, Section 1.1  
+
+Role: User  
+Requirement ID: F-10  
+Requirement Title: Monitor and Educate Users  
+Requirement Description: The app should include monitoring, educating, and communicating features to aid users in health management.  
+Citation: Page 3, Section 1.1  
+
+Role: User  
+Requirement ID: F-11  
+Requirement Title: Collect Data for Research or Operations  
+Requirement Description: The app should collect data for research purposes or planned operations.  
+Citation: Page 3, Section 1  
+
+## Non-Functional Requirements
+The text explicitly identifies and explores nine non-functional requirements for medical mobile applications, derived from a grounded theory approach, document study, stakeholder interviews, and vignette evaluations. These are assigned sequential IDs (NF-01, etc.) for organization. Role is assumed as "User" based on the consumer-focused context. Descriptions are based on the paper's definitions and discussions.
+
+Role: User  
+Requirement ID: NF-01  
+Requirement Title: Accessibility  
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Table 1  
+
+Role: User  
+Requirement ID: NF-02  
+Requirement Title: Certifiability  
+Requirement Description: Certifiability refers to the degree to which the app's behavior is approved by authorities, such as CE-certification for medical devices, ensuring legal and quality compliance. It is considered important for guaranteeing app quality, especially by younger users.  
+Citation: Page 2, Abstract; Page 7, Section 3.1; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1; Page 11, Section 4.2; Page 12, Section 5; Page 12, Section 5.1  
+
+Role: User  
+Requirement ID: NF-03  
+Requirement Title: Portability  
+Requirement Description: Portability refers to the number of operating systems and devices the application supports, enabling transfer from one environment to another (e.g., adaptability, installability).  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Table 1  
+
+Role: User  
+Requirement ID: NF-04  
+Requirement Title: Privacy  
+Requirement Description: Privacy relates to safeguarding users' personal and medical data, ensuring data are accessible only to authorized parties and complying with regulations like the Dutch Data Protection Act. It involves user approval for data processing and transfer, and was rated as one of the least important by users in evaluations.  
+Citation: Page 2, Abstract; Page 3, Section 1; Page 7, Section 3.1; Page 8, Section 3.2; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1; Page 11, Section 4.1; Page 11, Section 4.2; Page 12, Section 5  
+
+Role: User  
+Requirement ID: NF-05  
+Requirement Title: Safety  
+Requirement Description: Safety is the degree to which the app provides correct results with the needed precision, preventing harm from incorrect advice (e.g., unreliable content or delayed diagnoses). It is related to reliability and accuracy in medical contexts.  
+Citation: Page 2, Abstract; Page 3, Section 1; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Table 1; Page 11, Section 4.1  
+
+Role: User  
+Requirement ID: NF-06  
+Requirement Title: Security  
+Requirement Description: Security is the degree to which the app prevents unauthorized access to data, including protection mechanisms like passwords. It was considered highly important by users in evaluations.  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1; Page 12, Section 5  
+
+Role: User  
+Requirement ID: NF-07  
+Requirement Title: Stability  
+Requirement Description: Stability refers to the technical robustness and dependability of the app, ensuring it is operational and accessible when required, including aspects like availability, uptime, and recoverability from errors.  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 9, Section 3.4; Page 10, Table 1  
+
+Role: User  
+Requirement ID: NF-08  
+Requirement Title: Trustability  
+Requirement Description: Trustability is the ability of the app to convince users of its dependability and responsibility, encompassing perceptions of privacy, safety, and security. It was considered one of the most important requirements by users.  
+Citation: Page 2, Abstract; Page 8, Section 3.2; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1; Page 11, Section 4.1; Page 12, Section 5  
+
+Role: User  
+Requirement ID: NF-09  
+Requirement Title: Usability  
+Requirement Description: Usability is the ease of use and learnability of the app, including effort needed for use and individual assessment. It is more important to older users, who prioritize it over extended functionality.  
+Citation: Page 2, Abstract; Page 3, Section 1; Page 8, Section 3.2; Page 8, Section 3.3; Page 9, Section 3.4; Page 10, Table 1; Page 11, Section 4.2; Page 12, Section 5; Page 12, Section 5.1

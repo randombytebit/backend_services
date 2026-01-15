@@ -1,0 +1,162 @@
+Title request: medical app
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F1 
+Requirement Title: Provide Medication Overview 
+Requirement Description: The app should provide an overview of the user's medication, including details of drugs being used. 
+Citation: Page 7
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F2 
+Requirement Title: Generate Drug Reminders 
+Requirement Description: The app should generate reminders for taking medications at appropriate times. 
+Citation: Page 4
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F3 
+Requirement Title: Provide Disease Information 
+Requirement Description: The app should provide information about the user's diseases and related health details. 
+Citation: Page 7
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F4 
+Requirement Title: Enable Contact with GP 
+Requirement Description: The app should provide an option to immediately contact the user's general practitioner (GP). 
+Citation: Page 7
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F5 
+Requirement Title: Maintain Medical Records 
+Requirement Description: The app should maintain and store users' medical records for easy access. 
+Citation: Page 4
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F6 
+Requirement Title: Generate Alerts 
+Requirement Description: The app should generate alerts for health issues, such as when necessary based on user data like food intake for diabetes patients. 
+Citation: Page 4
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F7 
+Requirement Title: Generate Advice Based on Input 
+Requirement Description: The app should generate advice or information based on user input, such as analyzing medical problems to advise on visiting a GP. 
+Citation: Page 4
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F8 
+Requirement Title: Log Side Effects and Complaints 
+Requirement Description: The app should allow users to log side effects or complaints related to their medications or health. 
+Citation: Page 12
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F9 
+Requirement Title: Perform Automatic Medicine Checks 
+Requirement Description: The app should perform automatic checks on medicines, such as interactions or adherence. 
+Citation: Page 12
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F10 
+Requirement Title: Share Experiences with Other Patients 
+Requirement Description: The app should allow users to share experiences with other patients. 
+Citation: Page 12
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F11 
+Requirement Title: Provide Health Records Overview 
+Requirement Description: The app should provide an overview of the user's health records. 
+Citation: Page 12
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F12 
+Requirement Title: Track Food Intake 
+Requirement Description: The app should track food intake for patients with specific conditions like diabetes and generate related alerts. 
+Citation: Page 4
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F13 
+Requirement Title: Collect Data for Research 
+Requirement Description: The app should collect data for research purposes or planned operations. 
+Citation: Page 3
+
+Functional Requirement 
+Role: Patient 
+Requirement ID: F14 
+Requirement Title: Provide Monitoring and Education 
+Requirement Description: The app should support monitoring health, educating users, and facilitating communication. 
+Citation: Page 3
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N1 
+Requirement Title: Accessibility 
+Requirement Description: The degree to which the application is available to users, usually taking into account disability measures. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N2 
+Requirement Title: Certifiability 
+Requirement Description: The app must be certifiable, such as CE-certified as a medical device to ensure legal use and quality. 
+Citation: Page 7
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N3 
+Requirement Title: Portability 
+Requirement Description: The number of operating systems and devices the application supports. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N4 
+Requirement Title: Privacy 
+Requirement Description: Safeguarding users' personal information, ensuring data processing complies with regulations like the Dutch Data Protection Act, and obtaining user approval for data use. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N5 
+Requirement Title: Safety 
+Requirement Description: Safeguarding users' well-being by providing correct results with the needed degree of precision, avoiding incorrect advice that could harm health. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N6 
+Requirement Title: Security 
+Requirement Description: Preventing unauthorized access to data, including protection mechanisms like passwords. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N7 
+Requirement Title: Stability 
+Requirement Description: The technical robustness and dependability of the application, ensuring it is operational and accessible when required. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N8 
+Requirement Title: Trustability 
+Requirement Description: The users’ perceptions of the app's privacy, safety, and security, ensuring users trust the application's dependability and responsibility. 
+Citation: Page 8
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: N9 
+Requirement Title: Usability 
+Requirement Description: The ease of use and learnability of the application, considering user effort and individual assessment. 
+Citation: Page 8

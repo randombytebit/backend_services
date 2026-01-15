@@ -1,0 +1,197 @@
+Title request: medical app
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-01 
+Requirement Title: Provide advice or information 
+Requirement Description: Mobile applications that aim at aiding users directly through advice or information. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-02 
+Requirement Title: Collect data 
+Requirement Description: Software that collects data for research purposes or planned operations. 
+Citation: Page 3
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-03 
+Requirement Title: Advise on visiting GP 
+Requirement Description: Advise users whether or not to visit their GP, based on analysis of a medical problem. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-04 
+Requirement Title: Act as personal assistant 
+Requirement Description: Acting as a personal assistant for patient-specific health issues. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-05 
+Requirement Title: Track food intake 
+Requirement Description: Keeping track of food intake for patients suffering from diabetes. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-06 
+Requirement Title: Generate alerts 
+Requirement Description: Generating alerts when necessary. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-07 
+Requirement Title: Maintain medical records 
+Requirement Description: Maintaining users’ medical records. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-08 
+Requirement Title: Generate reminders 
+Requirement Description: Generating alerts and reminders. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-09 
+Requirement Title: Generate advice based on input 
+Requirement Description: Generating advice or information based on user input. 
+Citation: Page 4
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-10 
+Requirement Title: Medication overview 
+Requirement Description: Contains a medication overview. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-11 
+Requirement Title: Drug reminder 
+Requirement Description: Contains a drug reminder. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-12 
+Requirement Title: Provide disease information 
+Requirement Description: Contains information about your diseases. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-13 
+Requirement Title: Contact GP 
+Requirement Description: Contains an option to immediately contact your GP. 
+Citation: Page 6
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-14 
+Requirement Title: Overview of health records 
+Requirement Description: Overview of their health records. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-15 
+Requirement Title: Log side effects or complaints 
+Requirement Description: Ability to log side effects or complaints. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-16 
+Requirement Title: Automatic medicine checks 
+Requirement Description: Automatic medicine checks. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-17 
+Requirement Title: Medicine reminders 
+Requirement Description: Medicine reminders. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-18 
+Requirement Title: Share experiences 
+Requirement Description: Sharing experiences with other patients. 
+Citation: Page 12
+
+Functional Requirement 
+Role: User 
+Requirement ID: FR-19 
+Requirement Title: Directly contact GPs 
+Requirement Description: Directly contacting their GPs. 
+Citation: Page 12
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-01 
+Requirement Title: Accessibility 
+Requirement Description: The degree to which the application is available to users, usually taking into account disability measures. 
+Citation: Page 2
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-02 
+Requirement Title: Certifiability 
+Requirement Description: The necessity of certifiability, based on a European Union directive, which defines that a medical device or aid has to be CE-certified to be used legally. 
+Citation: Page 2
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-03 
+Requirement Title: Portability 
+Requirement Description: The number of operating systems and devices the application supports. 
+Citation: Page 2
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-04 
+Requirement Title: Privacy 
+Requirement Description: Regulations on how an application that deals with personal or medical information should incorporate privacy, limited by the Dutch Data Protection Act. 
+Citation: Page 2
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-05 
+Requirement Title: Safety 
+Requirement Description: Safeguarding users’ well-being when using the application, including providing correct results with the needed degree of precision. 
+Citation: Page 2
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-06 
+Requirement Title: Security 
+Requirement Description: The degree to which a system prevents unauthorized access to data. 
+Citation: Page 2
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-07 
+Requirement Title: Stability 
+Requirement Description: The technical robustness and dependability of the application, including being operational and accessible when required. 
+Citation: Page 2
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-08 
+Requirement Title: Trustability 
+Requirement Description: The ability of systems to convince users of their dependability and responsibility. 
+Citation: Page 2
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-09 
+Requirement Title: Usability 
+Requirement Description: The ease of use and learnability of the application. 
+Citation: Page 2

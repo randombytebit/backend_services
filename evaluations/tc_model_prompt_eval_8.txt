@@ -1,0 +1,64 @@
+Title request: Medical App
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-01  
+Requirement Title: Accessibility  
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.  
+Citation: Page 8, Section 3.2; Page 9, Section 3.4  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-02  
+Requirement Title: Certifiability  
+Requirement Description: Certifiability refers to the necessity of certification (e.g., CE-certification) for medical apps to be used legally, based on directives defining medical devices or aids. It involves approval by authorities to guarantee quality, safety, and reliability, such as government health authorities providing official certification marks.  
+Citation: Page 7, Section 3.1; Page 10, Section 3.4; Page 11, Section 4.1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-03  
+Requirement Title: Portability  
+Requirement Description: Portability refers to the number of operating systems and devices the application supports, defined as “the ability of software to be transferred from one environment to another”. It includes aspects like adaptability, installability, and compatibility.  
+Citation: Page 8, Section 3.2; Page 9, Section 3.4  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-04  
+Requirement Title: Privacy  
+Requirement Description: Privacy involves regulations on how an application handles personal or medical information, ensuring data are accessible only to those authorized and not disproportionately harmed. It includes user approval for data processing and transfer, confidentiality, and protection against breaches through technical, organizational, or human factors.  
+Citation: Page 3, Introduction; Page 7, Section 3.1; Page 8, Section 3.2; Page 10, Section 3.4; Page 11, Section 4.1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-05  
+Requirement Title: Safety  
+Requirement Description: Safety relates to safeguarding users’ well-being, defined as the “degree to which a product or system provides the correct results with the needed degree of precision”. It includes ensuring reliable, peer-reviewed content to avoid incorrect advice that could negatively impact health, often implied through accuracy, correctness, or reliability.  
+Citation: Page 3, Introduction; Page 8, Section 3.2; Page 10, Section 3.4; Page 11, Section 4.1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-06  
+Requirement Title: Security  
+Requirement Description: Security relates to safeguarding users’ well-being by preventing unauthorized access to data, interpreted as the degree “to which a system prevents unauthorized access to data”. It includes protection mechanisms like passwords and ensuring adequate control over data usage and sharing.  
+Citation: Page 8, Section 3.2; Page 9, Section 3.4  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-07  
+Requirement Title: Stability  
+Requirement Description: Stability refers to the technical robustness and dependability of the application, understood as systems being “operational and accessible when required” to “perform specified functions under specified conditions for a specified period of time”. It includes aspects such as robustness, availability, uptime, and recoverability from errors.  
+Citation: Page 8, Section 3.2; Page 10, Section 3.4  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-08  
+Requirement Title: Trustability  
+Requirement Description: Trustability entails the users’ perceptions of the application's privacy, safety, and security characteristics, including the ability of systems to convince users of their dependability and responsibility. It is a subjective user criterion essential in medical contexts, such as trust in automatically generated advice.  
+Citation: Page 8, Section 3.2; Page 10, Section 3.4; Page 11, Section 4.1  
+
+Non-Functional Requirement  
+Role: User  
+Requirement ID: NF-09  
+Requirement Title: Usability  
+Requirement Description: Usability refers to the ease of use and learnability of the application, principally understood as “the effort needed for use, and on the individual assessment of such use”. It may include sub-concepts like ease-of-use, learnability, aesthetical attractiveness, and accessibility, with considerations for diverse user needs (e.g., elderly users).  
+Citation: Page 3, Introduction; Page 8, Section 3.2; Page 9, Section 3.4; Page 12, Section 4.2
