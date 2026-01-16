@@ -563,10 +563,6 @@ async function main(){
     //         await writetxtFile(`./evaluations/${filename}`, result);
     //     }
     // }
-
-    const model = "grok-code-fast-1";
-    const result = await evaluationModel(testingDocument, "grok-code-fast-1", phase2_promptEvaluation("medical app", 9));
-    await writetxtFile(`./evaluations/finalasdfasdfsdf_evaluation_${model.replace(/-/g, "_").replace(/\./g, "_")}_prompt9.txt`, result);
 }
 
 main();
