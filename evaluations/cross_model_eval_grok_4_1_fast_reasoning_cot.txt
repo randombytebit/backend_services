@@ -1,0 +1,55 @@
+Title request: medical app
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR1 
+Requirement Title: Accessibility
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Related to technically catering to the right audience using smartphones and tablets for family caregivers and nurses, and adjusting access modes (e.g., with or without health record access) for different stakeholders.
+Citation: Page 8, Section 3.2 Stakeholder Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR2 
+Requirement Title: Certifiability
+Requirement Description: The necessity for the app to be CE-certified as a medical device to be used legally, since software assisting patients in monitoring or preventing diseases and medications is classed as a medical device per European Union directive. Users value certification, especially younger groups, over GP recommendations for older groups.
+Citation: Page 7, Section 3.1 Document Study; Page 9, Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR3 
+Requirement Title: Portability
+Requirement Description: Portability refers to the number of operating systems and devices the application supports.
+Citation: Page 8, Section 3.2 Stakeholder Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR4 
+Requirement Title: Privacy
+Requirement Description: Compliance with privacy regulations such as the Dutch Data Protection Act for processing personal or medical information, requiring patient approval for transfer and processing by third parties, ensuring privacy is not disproportionately harmed, and favoring a general cause. Users want control over who can access data and are willing to share anonymously or personally if it improves advice, rating it low importance.
+Citation: Page 7, Section 3.1 Document Study; Page 8, Section 3.2 Stakeholder Interviews; Page 9, Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR5 
+Requirement Title: Safety
+Requirement Description: Safeguarding users’ well-being by providing the correct results with the needed degree of precision, avoiding incomplete or ambiguous advice that could cause panic, stopping medication use, or other risks. Users accept limited risk if advice is customized.
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 9, Section 3.3 Vignette-Guided Interviews; Page 10, Table 1
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR6 
+Requirement Title: Security
+Requirement Description: The degree to which the system prevents unauthorized access to data. Users want protection such as password protection in the app (older group) or smartphone default security (younger group).
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 9, Section 3.3 Vignette-Guided Interviews; Page 10, Table 1
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR7 
+Requirement Title: Stability
+Requirement Description: Stability refers to the technical robustness and dependability of the application, including availability, fault tolerance, uptime, and recoverability from errors.
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 10, Table 1
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR8 
+Requirement Title: Trustability
+Requirement Description: The ability of the system to convince users of its dependability and responsibility through perceptions of privacy, safety, and security characteristics. Users indicate trust in automatically generated advice, with most putting some degree of trust in the app.
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 9, Section 3.3 Vignette-Guided Interviews; Page 10, Table 1
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR9 
+Requirement Title: Usability
+Requirement Description: Usability is the ease of use and learnability of the application. Older users prioritize usability over extended functionality, while younger users favor more functions even if somewhat harder to use.
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 9, Section 3.3 Vignette-Guided Interviews; Page 10, Table 1

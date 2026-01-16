@@ -1,0 +1,55 @@
+Title request: medical app
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR1 
+Requirement Title: Accessibility
+Requirement Description: The degree to which the application is available to users, usually taking into account disability measures, ensuring users with diverse physical and psychological abilities are able to use the software, often understood as an implicit aspect of usability but requiring explicit attention in the medical domain for frailer users.
+Citation: Section 3.2 Stakeholder Interviews; Section 4.1 Discussion
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR2 
+Requirement Title: Certifiability
+Requirement Description: The degree to which software’s behavior is approved by authorities, based on European Union directive requiring CE-certification for medical devices or aids, including software that assists patients in monitoring or preventing diseases and medications, to ensure legal use and quality.
+Citation: Section 3.1 Document Study; Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR3 
+Requirement Title: Portability
+Requirement Description: The number of operating systems and devices the application supports, referring to the ability of software to be transferred from one environment to another, sometimes referred to as adaptability, installability, or compatibility.
+Citation: Section 3.2 Stakeholder Interviews; Section 3.4 Recapitulation
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR4 
+Requirement Title: Privacy
+Requirement Description: Regulations and conditions for handling personal or medical information, limited by the Dutch Data Protection Act requiring patient approval for transfer and processing by third parties, ensuring privacy is not disproportionately harmed and favors a general cause, with users willing to share data anonymously or personally if it benefits advice received.
+Citation: Section 3.1 Document Study; Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR5 
+Requirement Title: Safety
+Requirement Description: The degree to which a product or system provides the correct results with the needed degree of precision, safeguarding users’ well-being by avoiding unreliable or non-peer-reviewed content that could impact health through delayed diagnoses or incorrect self-medication, often implied through accuracy, correctness, or reliability.
+Citation: Section 3.2 Stakeholder Interviews; Section 3.4 Recapitulation
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR6 
+Requirement Title: Security
+Requirement Description: The degree to which a system prevents unauthorized access to data, relating to safeguarding users’ well-being, with preferences for protection like password protection in the app or smartphone’s default security mode.
+Citation: Section 3.2 Stakeholder Interviews; Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR7 
+Requirement Title: Stability
+Requirement Description: The technical robustness and dependability of the application, understood as systems being operational and accessible when required to perform specified functions under specified conditions for a specified period, including robustness, availability, uptime, and recoverability from errors.
+Citation: Section 3.2 Stakeholder Interviews; Section 3.4 Recapitulation
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR8 
+Requirement Title: Trustability
+Requirement Description: The ability of systems to convince users of their dependability and responsibility, encompassing users’ perceptions of privacy, safety, and security characteristics, essential for users to trust automatically generated advice from the application.
+Citation: Section 3.2 Stakeholder Interviews; Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NFR9 
+Requirement Title: Usability
+Requirement Description: The ease of use and learnability of the application, including effort needed for use and individual assessment of such use, with sub-concepts like ease-of-use, learnability, aesthetical attractiveness, and accessibility, where older users prioritize it over extended functionality.
+Citation: Section 3.2 Stakeholder Interviews; Section 3.3 Vignette-Guided Interviews

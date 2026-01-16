@@ -1,0 +1,133 @@
+Title request: medical app
+Functional Requirement 
+Role: System 
+Requirement ID: FR-01 
+Requirement Title: Medication Overview 
+Requirement Description: The app should contain a medication overview. 
+Citation: Page 7 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-02 
+Requirement Title: Drug Reminder 
+Requirement Description: The app should contain a drug reminder. 
+Citation: Page 7 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-03 
+Requirement Title: Disease Information 
+Requirement Description: The app should contain information about your diseases. 
+Citation: Page 7 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-04 
+Requirement Title: Contact GP 
+Requirement Description: The app should contain an option to immediately contact your GP. 
+Citation: Page 7 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-05 
+Requirement Title: Maintain Medical Records 
+Requirement Description: The app should maintain users’ medical records. 
+Citation: Page 4 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-06 
+Requirement Title: Generate Alerts and Reminders 
+Requirement Description: The app should generate alerts and reminders. 
+Citation: Page 4 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-07 
+Requirement Title: Generate Advice 
+Requirement Description: The app should generate advice or information based on user input. 
+Citation: Page 4 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-08 
+Requirement Title: Health Records Overview 
+Requirement Description: The app should provide overview of their health records. 
+Citation: Page 12 
+Functional Requirement 
+Role: User 
+Requirement ID: FR-09 
+Requirement Title: Log Side Effects 
+Requirement Description: The app should provide ability to log side effects or complaints. 
+Citation: Page 12 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-10 
+Requirement Title: Automatic Medicine Checks 
+Requirement Description: The app should provide automatic medicine checks. 
+Citation: Page 12 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-11 
+Requirement Title: Medicine Reminders 
+Requirement Description: The app should provide medicine reminders. 
+Citation: Page 12 
+Functional Requirement 
+Role: User 
+Requirement ID: FR-12 
+Requirement Title: Sharing Experiences 
+Requirement Description: The app should allow sharing experiences with other patients. 
+Citation: Page 12 
+Functional Requirement 
+Role: System 
+Requirement ID: FR-13 
+Requirement Title: Directly Contact GPs 
+Requirement Description: The app should allow directly contacting their GPs. 
+Citation: Page 12 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-01 
+Requirement Title: Accessibility 
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. 
+Citation: Page 8 
+Non-Functional Requirement 
+Role: Other 
+Requirement ID: NF-02 
+Requirement Title: Certifiability 
+Requirement Description: The necessity of certifiability is based on a European Union directive, which defines that a medical device or aid has to be CE-certified to be used legally, and proposes a definition for what a medical device is. Software that assists patients in monitoring or preventing diseases and medications is in fact classed as a medical device. 
+Citation: Page 7 
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-03 
+Requirement Title: Portability 
+Requirement Description: Portability refers to the number of operating systems and devices the application supports. 
+Citation: Page 8 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-04 
+Requirement Title: Privacy 
+Requirement Description: The second requirement revolves around privacy regulations and how an application that deals with personal or medical information should incorporate those. The processing of any personal information is limited by the Dutch Data Protection Act; both the transfer and processing of information by third parties, entered by patients, will need to be approved by those patients. Apart from getting approval, other conditions that have to be met include the aspect that the patients’ privacy is not disproportionately harmed, and that the process favors a ‘general cause’. 
+Citation: Page 7 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-05 
+Requirement Title: Safety 
+Requirement Description: Safety relates to safeguarding users’ well-being when using the application. The concept as found in this study is defined as the degree to which a product or system provides the correct results with the needed degree of precision. 
+Citation: Page 8 
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-06 
+Requirement Title: Security 
+Requirement Description: Security relates to safeguarding users’ well-being when using the application. The concept of security, interpreted as the degree to which a system prevents unauthorized access to data, is common throughout theory. 
+Citation: Page 8 
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-07 
+Requirement Title: Stability 
+Requirement Description: Stability to the technical robustness and dependability of the application. 
+Citation: Page 8 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-08 
+Requirement Title: Trustability 
+Requirement Description: Trustability entails the users’ perceptions of these characteristics. Making sure the application is private, safe, and secure is essential for having people ‘trust’ the application. The concept of trustability found in this study, i.e. the ability of systems to convince users of their dependability and responsibility. 
+Citation: Page 8 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-09 
+Requirement Title: Usability 
+Requirement Description: The usability of the application, which is its ease of use and learnability. 
+Citation: Page 8

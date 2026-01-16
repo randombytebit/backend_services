@@ -544,13 +544,29 @@ async function main(){
     //     await writetxtFile(`./evaluations/${filename}`, result);
     // }
 
-    // Phase 2: Prompt Evaluation
-    for (let j = 0; j < 18; j++){
-        console.log(`Testing prompt index: ${j}`);
-        let filename = `tc_model_prompt_eval_${j}.txt`;
-        const result = await evaluationModel(testingDocument, TC_MODEL, phase2_promptEvaluation("medical app", j));
-        await writetxtFile(`./evaluations/${filename}`, result);
-    }
+    // Phase 2: TC prompt evaluation
+    // for (let j = 0; j < 18; j++){
+    //     console.log(`Testing prompt index: ${j}`);
+    //     let filename = `tc_model_prompt_eval_${j}.txt`;
+    //     const result = await evaluationModel(testingDocument, TC_MODEL, phase2_promptEvaluation("medical app", j));
+    //     await writetxtFile(`./evaluations/${filename}`, result);
+    // }
+
+    // Phase 3: Cross model evaluation with best prompt
+    // const bestPrompt = [0, 9, 12];
+    // for (let k = 0; k < MODEL.length; k++){
+    //     console.log(`Testing model: ${MODEL[k]}`);
+    //     let filename = `cross_model_eval_${MODEL[k].replace(/-/g, "_").replace(/\./g, "_")}.txt`;
+    //     for (let p = 0; p < bestPrompt.length; p++){
+    //         filename += `_prompt${p}`;
+    //         const result = await evaluationModel(testingDocument, MODEL[k], phase2_promptEvaluation("medical app", bestPrompt[p]));
+    //         await writetxtFile(`./evaluations/${filename}`, result);
+    //     }
+    // }
+
+    const model = "grok-code-fast-1";
+    const result = await evaluationModel(testingDocument, "grok-code-fast-1", phase2_promptEvaluation("medical app", 9));
+    await writetxtFile(`./evaluations/finalasdfasdfsdf_evaluation_${model.replace(/-/g, "_").replace(/\./g, "_")}_prompt9.txt`, result);
 }
 
 main();

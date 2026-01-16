@@ -1,0 +1,64 @@
+Title request: medical app
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR1
+Requirement Title: Accessibility
+Requirement Description: The medical app must be accessible to users with a wide range of physical and psychological abilities, ensuring availability and usability for diverse user groups, including those with disabilities.
+Citation: Meulendijk et al., 2014, p. 8
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR2
+Requirement Title: Certifiability
+Requirement Description: The medical app must comply with legal standards and be CE-certified as a medical device to ensure its legitimacy and safety for use, as per European Union directives.
+Citation: Meulendijk et al., 2014, p. 7
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR3
+Requirement Title: Portability
+Requirement Description: The medical app must support multiple operating systems and devices to ensure it can be used across various platforms and environments.
+Citation: Meulendijk et al., 2014, p. 8
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR4
+Requirement Title: Privacy
+Requirement Description: The medical app must adhere to privacy regulations, such as the Dutch Data Protection Act, ensuring that personal and medical information is processed only with user consent and is not disproportionately harmful to users' privacy.
+Citation: Meulendijk et al., 2014, p. 7
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR5
+Requirement Title: Safety
+Requirement Description: The medical app must provide accurate and reliable outputs to prevent incorrect advice that could negatively impact users’ health, ensuring correct results with the needed degree of precision.
+Citation: Meulendijk et al., 2014, p. 8
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR6
+Requirement Title: Security
+Requirement Description: The medical app must prevent unauthorized access to user data, incorporating protection mechanisms such as password protection or device security to safeguard personal information.
+Citation: Meulendijk et al., 2014, p. 8
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR7
+Requirement Title: Stability
+Requirement Description: The medical app must be technically robust and dependable, ensuring it remains operational and accessible under specified conditions for a specified period of time.
+Citation: Meulendijk et al., 2014, p. 8
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR8
+Requirement Title: Trustability
+Requirement Description: The medical app must convince users of its dependability and responsibility, fostering trust through ensuring privacy, safety, and security features are perceived as reliable.
+Citation: Meulendijk et al., 2014, p. 8
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR9
+Requirement Title: Usability
+Requirement Description: The medical app must be easy to use and learn, catering to users of varying ages and abilities, with particular attention to elderly users who may have different usability needs such as larger text or simpler interfaces.
+Citation: Meulendijk et al., 2014, p. 8

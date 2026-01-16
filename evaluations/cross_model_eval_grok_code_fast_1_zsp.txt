@@ -1,0 +1,55 @@
+Title request: medical app
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-01 
+Requirement Title: accessibility 
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. 
+Citation: Page 7: Stakeholder Interviews 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-02 
+Requirement Title: certifiability 
+Requirement Description: The necessity of certifiability, based on a European Union directive, which in turn has been converted into laws in its member states. The directive defines that a medical device or aid has to be CE-certified to be used legally, and proposes a definition for what a medical device is. 
+Citation: Page 6: Document Study 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-03 
+Requirement Title: portability 
+Requirement Description: Portability refers to the number of operating systems and devices the application supports. 
+Citation: Page 7: Stakeholder Interviews 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-04 
+Requirement Title: privacy 
+Requirement Description: Privacy regulations and how an application that deals with personal or medical information should incorporate those. The processing of any personal information is limited by the Dutch Data Protection Act; both the transfer and processing of information by third parties, entered by patients, will need to be approved by those patients. Apart from getting approval, other conditions that have to be met include the aspect that the patients’ privacy is not disproportionately harmed, and that the process favors a ‘general cause’. 
+Citation: Page 6: Document Study 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-05 
+Requirement Title: safety 
+Requirement Description: Safety relates to safeguarding users’ well-being when using the application, including ensuring that laypersons are not provided with incomplete or ambiguous advices that could lead to panic or incorrect actions. 
+Citation: Page 7: Stakeholder Interviews 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-06 
+Requirement Title: security 
+Requirement Description: Security relates to safeguarding users’ well-being when using the application, including the need for protection of personal data. 
+Citation: Page 7: Stakeholder Interviews 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-07 
+Requirement Title: stability 
+Requirement Description: Stability refers to the technical robustness and dependability of the application. 
+Citation: Page 7: Stakeholder Interviews 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-08 
+Requirement Title: trustability 
+Requirement Description: Trustability entails the users’ perceptions of characteristics like privacy, safety, and security, making sure the application is private, safe, and secure to convince users of its dependability and responsibility. 
+Citation: Page 7: Stakeholder Interviews 
+Non-Functional Requirement 
+Role: User 
+Requirement ID: NF-09 
+Requirement Title: usability 
+Requirement Description: Usability is the application’s ease of use and learnability. 
+Citation: Page 7: Stakeholder Interviews

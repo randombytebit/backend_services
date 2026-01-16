@@ -1,0 +1,55 @@
+Title request: medical app
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-01 
+Requirement Title: Accessibility
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Information system expert #2 stressed the importance of technically catering to the right audience, saying “Family caregivers visit patients at home, and so do nurses. So smartphones, and likewise tablets, would be obvious choices.”, while information system expert #1 commented on the variety in functionality that different user roles bring with them: “[We previously talked] about the two modes: whether or not having access to [a patient’s] health record. You should adjust those to the different stakeholders.”
+Citation: Page 8, Section 3.2 Stakeholder Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-02 
+Requirement Title: Certifiability
+Requirement Description: The necessity of certifiability, is based on a European Union directive, which in turn has been converted into laws in its member states. The directive defines that a medical device or aid has to be CE-certified to be used legally, and proposes a definition for what a medical device is. Software that assists patients in monitoring or preventing diseases and medications is in fact classed as a medical device. The majority of the second group indicated valuing a form of certification for the proposed app. Most interviewees of the first group answered attaching more importance to recommendations by their general practitioners.
+Citation: Page 7, Section 3.1 Document Study; Page 9, Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-03 
+Requirement Title: Portability
+Requirement Description: Portability refers to the number of operating systems and devices the application supports.
+Citation: Page 8, Section 3.2 Stakeholder Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-04 
+Requirement Title: Privacy
+Requirement Description: Privacy regulations and how an application that deals with personal or medical information should incorporate those. The processing of any personal information is limited by the Dutch Data Protection Act; both the transfer and processing of information by third parties, entered by patients, will need to be approved by those patients. Apart from getting approval, other conditions that have to be met include the aspect that the patients’ privacy is not disproportionately harmed, and that the process favors a ‘general cause’. Privacy was for example discussed with pharmacist #1, who was able to tell that “if you can decide for yourself who can have access, it doesn’t have to be a problem”. The respondents showed progressive results for the requirement concerning privacy as well. Only one interviewee refused to have her personal data used at all. The others were willing to let their data be used if it would benefit the advices they would receive; about half the respondents demanded their data be used anonymously.
+Citation: Page 7, Section 3.1 Document Study; Page 8, Section 3.2 Stakeholder Interviews; Page 9, Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-05 
+Requirement Title: Safety
+Requirement Description: Privacy, safety, and security all relate to safeguarding users’ well-being when using the application. Pharmacist #1 warned for providing laypersons with incomplete or ambiguous advices, implying that “if you tell a patient of a [clinical] interaction [between his drugs], he will panic, risk that he stops using something, while nothing may be wrong.” The concept as found in this study is defined as the “degree to which a product or system provides the correct results with the needed degree of precision”. Respondents of both groups indicated accepting a limited risk in the generated advices, provided the advices were customized to their situations.
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 10, Section 3.4 Recapitulation; Page 9, Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-06 
+Requirement Title: Security
+Requirement Description: Privacy, safety, and security all relate to safeguarding users’ well-being when using the application. The concept of security, interpreted as the degree “to which a system prevents unauthorized access to data”. Regarding the security requirement, most respondents indicated wanting some form of protection for their personal data in the proposed application. Of the first group, most people favored password protection in the app itself, while the majority of the second group settled with their smartphone’s default mode of security.
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 10, Section 3.4 Recapitulation; Page 9, Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-07 
+Requirement Title: Stability
+Requirement Description: Stability to the technical robustness and dependability of the application.
+Citation: Page 8, Section 3.2 Stakeholder Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-08 
+Requirement Title: Trustability
+Requirement Description: These concepts [privacy, safety, security] are related to the requirement of trust, which entails the users’ perceptions of these characteristics. Making sure the application is private, safe, and secure is essential for having people ‘trust’ the application. The concept of trustability found in this study, i.e. the ability of systems to convince users of their dependability and responsibility. Firstly, most respondents indicated putting at least some degree of trust in an application like the one proposed.
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 10, Section 3.4 Recapitulation; Page 9, Section 3.3 Vignette-Guided Interviews
+Non-Functional Requirement 
+Role: System 
+Requirement ID: NF-09 
+Requirement Title: Usability
+Requirement Description: The usability of the application, which is its ease of use and learnability. Family caregiver #1 wondered if the mobile application could be made simple enough for her to understand at her old age: “Then I think, once I would get to know the application, I would certainly be willing to use it”. Secondly, the majority of respondents, especially of the second group, indicated favoring functionality over usability. The first group held more conservative attitudes toward this requirement.
+Citation: Page 8, Section 3.2 Stakeholder Interviews; Page 9, Section 3.3 Vignette-Guided Interviews

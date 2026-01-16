@@ -1,0 +1,70 @@
+Title request: Medical App
+Functional Requirement
+Role: User
+Requirement ID: F-01
+Requirement Title: Medication Management Features
+Requirement Description: The medical app should provide comprehensive features for medication management, including maintaining users’ medical records, generating alerts and reminders for medication intake, and providing advice or information based on user input. These features should support users in monitoring and managing their drug use effectively, particularly for polypharmacy patients.
+Citation: Page 4, Section 1.1; Page 13, Section 5.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-01
+Requirement Title: Accessibility
+Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
+Citation: Page 8, Section 3.2; Page 9, Section 3.4
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-02
+Requirement Title: Certifiability
+Requirement Description: Certifiability refers to the degree to which the software’s behavior is approved by recognized authorities. It is essential for medical apps to be CE-certified as per European Union directives to ensure legal usage and reliability of the application as a medical device.
+Citation: Page 7, Section 3.1; Page 11, Section 4.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-03
+Requirement Title: Portability
+Requirement Description: Portability refers to the number of operating systems and devices the application supports, ensuring that the app can be used across various platforms and devices commonly used by the target audience, such as smartphones and tablets.
+Citation: Page 8, Section 3.2; Page 10, Section 3.4
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-04
+Requirement Title: Privacy
+Requirement Description: Privacy relates to safeguarding users’ personal and medical information, ensuring that data processing and transfer comply with regulations such as the Dutch Data Protection Act. Users should have control over who accesses their data and must provide approval for third-party processing.
+Citation: Page 7, Section 3.1; Page 8, Section 3.2; Page 11, Section 4.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-05
+Requirement Title: Safety
+Requirement Description: Safety is defined as the degree to which the application provides correct results with the needed precision, ensuring that the advice or information given does not negatively impact users’ health by delaying diagnoses or advocating incorrect self-medication.
+Citation: Page 8, Section 3.2; Page 11, Section 4.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-06
+Requirement Title: Security
+Requirement Description: Security refers to the degree to which the system prevents unauthorized access to data, protecting users’ personal and medical information through measures such as password protection or default smartphone security features.
+Citation: Page 8, Section 3.2; Page 9, Section 3.3; Page 10, Section 3.4
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-07
+Requirement Title: Stability
+Requirement Description: Stability pertains to the technical robustness and dependability of the application, ensuring it remains operational and accessible when required, performing specified functions under specified conditions for a specified period of time.
+Citation: Page 8, Section 3.2; Page 10, Section 3.4
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-08
+Requirement Title: Trustability
+Requirement Description: Trustability is the ability of the system to convince users of its dependability and responsibility, encompassing users’ perceptions of privacy, safety, and security, which are essential for fostering trust in the application.
+Citation: Page 8, Section 3.2; Page 11, Section 4.1
+
+Non-Functional Requirement
+Role: User
+Requirement ID: NF-09
+Requirement Title: Usability
+Requirement Description: Usability refers to the ease of use and learnability of the application, ensuring that users, especially the elderly, can interact with the app effectively. It includes considerations for ease-of-use and accommodating diverse user needs based on age and ability.
+Citation: Page 8, Section 3.2; Page 9, Section 3.3; Page 12, Section 4.2

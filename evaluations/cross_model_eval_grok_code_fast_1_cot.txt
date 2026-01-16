@@ -1,0 +1,62 @@
+Non-Functional Requirement 
+Role: User 
+Requirement ID: 1 
+Requirement Title: Accessibility 
+Requirement Description: The degree to which the application is available to users, usually taking into account disability measures, ensuring users with diverse physical and psychological abilities can use the software. 
+Citation: Page 7, stakeholder interviews section; Page 9, Table 1 and discussion on accessibility as an explicit role in medical domain. 
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: 2 
+Requirement Title: Certifiability 
+Requirement Description: The degree to which software’s behavior is approved by authorities, such as CE-certification for medical devices, ensuring legal compliance and quality assurance for medical apps. 
+Citation: Page 5, document study section; Page 9, Table 1 and discussion on certifiability not found in existing frameworks. 
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: 3 
+Requirement Title: Portability 
+Requirement Description: The number of operating systems and devices the application supports, allowing transfer from one environment to another. 
+Citation: Page 7, stakeholder interviews section; Page 9, Table 1 mapping to adaptability and installability. 
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: 4 
+Requirement Title: Privacy 
+Requirement Description: Safeguarding users’ well-being by ensuring personal or medical information is handled appropriately, with approval for data processing and transfer, preventing disproportionate harm. 
+Citation: Page 5, document study section on Dutch Data Protection Act; Page 7, stakeholder interviews on privacy as related to trust. 
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: 5 
+Requirement Title: Safety 
+Requirement Description: The degree to which the application provides correct results with needed precision, avoiding incorrect advices that could harm health, such as incomplete or ambiguous medical information. 
+Citation: Page 7, stakeholder interviews on safety related to privacy and security; Page 9, Table 1 mapping to functional correctness and accuracy. 
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: 6 
+Requirement Title: Security 
+Requirement Description: The degree to which the system prevents unauthorized access to data, including protection of personal data through passwords or default smartphone security. 
+Citation: Page 7, stakeholder interviews on security as safeguarding well-being; Page 9, Table 1 mapping to security in standards. 
+
+Non-Functional Requirement 
+Role: System 
+Requirement ID: 7 
+Requirement Title: Stability 
+Requirement Description: The technical robustness and dependability of the application, including availability, fault tolerance, and recoverability from errors. 
+Citation: Page 7, stakeholder interviews section; Page 9, Table 1 mapping to availability and fault tolerance. 
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: 8 
+Requirement Title: Trustability 
+Requirement Description: The ability of systems to convince users of their dependability and responsibility, encompassing perceptions of safety, privacy, and security, and users' faith in automated advices. 
+Citation: Page 7, stakeholder interviews on trustability as related to privacy and safety; Page 9, Table 1 and discussion on trust as underrepresented in theory. 
+
+Non-Functional Requirement 
+Role: User 
+Requirement ID: 9 
+Requirement Title: Usability 
+Requirement Description: The ease of use and learnability of the application, including effort needed for use and individual assessment, with trade-offs between functionality and simplicity. 
+Citation: Page 7, stakeholder interviews on usability; Page 9, Table 1 mapping to usability in standards.
