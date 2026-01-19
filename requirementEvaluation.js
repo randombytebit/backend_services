@@ -532,7 +532,7 @@ async function evaluationModel(documentData, model, prompt) {
     }
 }
 
-async function main(){
+async function modelEvaluation(){
     const testingDocument = await pdfExtracted_pdfjslib('./testing_sources/medical_app_testing_paper.pdf');
 
     // Phase 1: Zero-shot evaluation
@@ -565,4 +565,4 @@ async function main(){
     // }
 }
 
-main();
+modelEvaluation();

@@ -27,4 +27,5 @@ Phase 3 - cross model evaluation
 ========================================================
 User story Report Generation
 ========================================================
+Read the number of requirement report from the file: attach them into a whole data as document data 
 Phase 1 - zsp evaluation:

@@ -1,8 +1,8 @@
-const { writetxtFile, pdfExtracted_pdfjslib, officefilesExtracted_officeparser, videoaudioExtracted_ffmpeg } = require('./helperModel');  
+const { writetxtFile, extracttxtFile, pdfExtracted_pdfjslib, officefilesExtracted_officeparser, videoaudioExtracted_ffmpeg, groupMultipleFile } = require('./helperModel');  
 const {  requirementanalysisModel } = require('./analysisModel');
 
-
-async function main() {
+// Testiing helper function
+async function fileConvertedTesting() {
     // Docx Testing: Office file -> Extracted Text
     const docxTesting = await officefilesExtracted_officeparser('./testing_sources/game_system_testing_paper.docx');
     await writetxtFile('./output_texts/docx_game_system_testing_paper.txt', docxTesting);
@@ -40,4 +40,8 @@ async function main() {
     await writetxtFile('./requirements_analysis/analysis_3.txt', requirementAnalysisTesting3);
 }
 
-main();
+async function testing(){
+    // Testing 
+}   
+
+testing()

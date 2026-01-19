@@ -5,6 +5,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const ffmpegInstaller = require('@ffmpeg-installer/ffmpeg');
 const { pipeline } = require('@huggingface/transformers');
 const { WaveFile } = require('wavefile');
+const { file } = require('zod');
 
 
 ffmpeg.setFfmpegPath(ffmpegInstaller.path)
@@ -17,6 +18,16 @@ async function writetxtFile(outputPath, data) {
         console.log(`\nSaved extracted text to:\n   ${outputPath}`);
     } catch (err) {
         console.error('Main failed:', err.message);
+    }
+}
+
+// Extract text from txt file
+async function extracttxtFile(filePath) {
+    try {
+        const data = await fs.readFile(filePath, 'utf8');
+        return data;
+    } catch (err) {
+        console.error('Text file extraction failed:', err.message);
     }
 }
 
@@ -149,6 +160,22 @@ async function videoaudioExtracted_ffmpeg(filePath) {
     }
 }
 
+// Group multiple report files into a single text data
+async function groupMultipleFile(requirementReports) {
+    let groupedData = "";
+    try {
+        for (const report of requirementReports) {
+            groupedData += `\n\n==============================
+Report File ${report}
+==============================\n\n`;
+            groupedData +=  await extracttxtFile(report);
+        }
+        return groupedData;
+    } catch (err) {
+        console.error('Grouping report failed:', err.message);
+    }
+}
+
 module.exports = {
-    writetxtFile, officefilesExtracted_officeparser, pdfExtracted_pdfjslib, videoaudioExtracted_ffmpeg, mp3Convert_ffmpeg
+    writetxtFile, extracttxtFile, officefilesExtracted_officeparser, pdfExtracted_pdfjslib, videoaudioExtracted_ffmpeg, mp3Convert_ffmpeg, groupMultipleFile
 };
