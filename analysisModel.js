@@ -1,6 +1,6 @@
 const dotenv = require('dotenv');
 const axios = require('axios');
-const { writetxtFile, extracttxtFile, pdfExtracted_pdfjslib, officefilesExtracted_officeparser, videoaudioExtracted_ffmpeg, groupMultipleFile } = require('./helperModel'); 
+const { groupMultipleFile } = require('./helperModel'); 
 
 dotenv.config();
 
