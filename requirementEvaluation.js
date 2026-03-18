@@ -1,509 +1,567 @@
 const dotenv = require('dotenv');
 const axios = require('axios');
-const { pdfExtracted_pdfjslib } = require('./helperModel');  
-
+const fs = require('fs/promises');
+const path = require('path');
+const { pdfExtracted_pdfjslib, writetxtFile} = require('./helperModel');
 dotenv.config();
 
 const XAI_API_KEY = process.env.XAI_API_KEY;
 const MODEL = ["grok-4-1-fast-reasoning", "grok-code-fast-1", "grok-4-fast-reasoning", "grok-4-0709", "grok-3", "grok-2-vision-1212"];
-const TC_MODEL = "grok-4-0709";
+const TC_MODEL = null;
 
 function phase1_zeroshotPrompt(title) {
-    return `Extract requirements related to the ${title} from this text document.`;
-}
-
-function phase2_promptEvaluation(title, index) {
-    const zeroShot_1 = `
-    You are an expert in software requirements specification and structured extraction.
-
-    Analyze the attached text document completely.
-
-    First, check if the document is related to the topic "${title}".  
-    If NOT related → output only this exact line and nothing else:  
-    null
-
-    If related → extract ALL functional requirements (if any) and ALL non-functional requirements (if any) relevant to the topic.
-
-    Output them in this strict order and format ONLY:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [source or reference in the text document] 
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [source or reference in the text document] 
-
-    Rules:
-    - Generate sequential IDs (e.g. FR-01, NF-01) if no IDs are present in the text
-    - Each requirement must be on its own single line
-    - No extra text, headings, blank lines, markdown, or explanations
-    - Functional requirements first, sorted by Requirement ID ascending
-    - Non-functional requirements second, sorted by Requirement ID ascending
-    - If no relevant requirements found → output only: No relevant requirements found
-    - If no citation is available for a requirement, skip that requirement`;
-
-    const zeroShot_2 = `
-    Analyze the attached document.
-
-    If it is not related to "${title}", output exactly: null
-
-    If it is related, extract all functional and non-functional requirements.
-
-    Output strictly in this format and nothing else:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [citation]
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [citation]
-
-    Use sequential IDs if missing. Sort by ID. One requirement per line. No additional content.`;
-
-    const zeroShot_3 = `
-    Task: Check relevance and extract requirements.
-
-    Step 1: Is the attached document related to "${title}"?  
-    → No → output only: null  
-    → Yes → proceed
-
-    Step 2: Extract every functional requirement, then every non-functional requirement.
-
-    Output only:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [role] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [description] 
-    Citation: [source]
-
-    Non-Functional Requirement 
-    Role: [role] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [description]
-    Citation: [source]
-
-    Assign sequential IDs when necessary. No other text allowed.`;
-
-    const zeroShot_4 = `
-    Read the attached text document.
-
-    Unrelated to "${title}"? → Output exactly: null
-
-    Related? → Extract ALL functional and non-functional requirements using this exact format only:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [citation]
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [citation]
-
-    Generate sequential IDs if absent. Functional first, then non-functional. Nothing else.`;
-
-    const zeroShot_5 = `
-    Determine if attached document discusses "${title}".
-
-    Not related → output only: null
-
-    Related → output ONLY the following structure for all extracted requirements:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [source or reference]
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [source or reference]
-
-    Sequential IDs required if missing. Sorted ascending. No explanations or extra lines.`;
-
-    const zeroShot_6 = `
-    Strict extraction task:
-
-    If the document is unrelated to "${title}" → null
-
-    If related → list all functional requirements followed by all non-functional requirements in this exact format:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [citation]
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [citation]
-
-    Use FR-01, NF-01 style sequential numbering if needed. One per line. No other output.`;
-
-    const fewshot_1 = `
-    You are an expert in extracting software requirements.
-    Example:
+    return `
+    You are an expert requirements engineer specialized in extracting precise functional and non-functional requirements from academic research papers, particularly in AI, machine learning, computer vision, security, and related fields.
     
-    Input document about medical apps → Output:
-    Title request: Medical App
-    Non-Functional Requirement
-    Role: User
-    Requirement ID: NF-01
-    Requirement Title: Accessibility
-    Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
-    Citation: Page 8, Section 3.2; Page 9, Section 3.4
-    [and more NF requirements...]
-
-    Now analyze the attached document for "${title}".
-
-    If unrelated → output only: null
-
-    If related → extract ALL functional and non-functional requirements in the same exact format:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [citation]
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [citation]
-
-    Sequential IDs if missing. Functional first, then non-functional.`;
-
-    const fewshot_2 = `
-    Few-shot example:
-
-    Document related to medical apps → Output:
-    Title request: Medical App
-    Non-Functional Requirement
-    Role: User
-    Requirement ID: NF-01
-    Requirement Title: Accessibility
-    Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
-    Citation: Page 8, Section 3.2; Page 9, Section 3.4
-    [...]
-
-    Task: Analyze attached document.
-
-    If not related to "${title}" → null
-
-    Else → extract requirements exactly like the example, functional first, then non-functional. Use sequential IDs.`;
-
-    const fewshot_3 = `
-    Example output for a medical app document:
-    Title request: Medical App
-    Non-Functional Requirement
-    Role: User
-    Requirement ID: NF-01
-    Requirement Title: Accessibility
-    Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
-    Citation: Page 8, Section 3.2; Page 9, Section 3.4
-    [...]
-
-    Apply the same format to the attached document for topic "${title}".
-
-    Unrelated → null
-
-    Related → extract all functional and non-functional requirements, sorted by ID`;
-
-    const fewshot_4 = `
-    Few-shot:
-
-    Medical App document → 
-    Title request: Medical App
-    Non-Functional Requirement
-    Role: User
-    Requirement ID: NF-01
-    Requirement Title: Accessibility
-    Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
-    Citation: Page 8, Section 3.2; Page 9, Section 3.4
-    [...]
-
-    Now do the same for "${title}" on the attached document.
-
-    If unrelated → null
-
-    Else → output in exact format, functional first.`;
-
-    const fewshot_5 = `
-    Example (medical app):
-    Title request: Medical App
-    Non-Functional Requirement
-    Role: User
-    Requirement ID: NF-01
-    Requirement Title: Accessibility
-    Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
-    Citation: Page 8, Section 3.2; Page 9, Section 3.4
-    [...]
-
-    Use this format for "${title}".
-
-    Check relevance first: unrelated → null
-
-    Related → extract all functional then non-functional requirements.`;
-
-    const fewshot_6 = `
-    Few-shot prompt:
-
-    Input: medical app document
-    Output:
-    Title request: Medical App
-    Non-Functional Requirement
-    Role: User
-    Requirement ID: NF-01
-    Requirement Title: Accessibility
-    Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
-    Citation: Page 8, Section 3.2; Page 9, Section 3.4
-    [...]
-
-    Now extract for "${title}" from attached document in the same strict format. Unrelated → null`;
-
-    const chainofthoughts_1 = `
-    You are an expert in software requirements specification and structured extraction.
-
-    Analyze the attached text document completely.
-
-    First, check if the document is related to the ${title} topic.
-
-    If NOT related → output only this exact line and nothing else:
+    Given a research paper and a TARGET TITLE below, follow these strict steps:
+    
+    1. Relevance check
+       - The paper is considered related ONLY if its primary contribution, proposed system, method, architecture, experiments, or core discussion directly implement, evaluate, or describe a system whose main purpose matches the TARGET TITLE.
+       - If the paper is only tangentially related, uses the topic as background, is a general survey, or focuses on something else → output exactly and ONLY the word: null
+       - Be conservative: when in doubt, output null
+    
+    2. If the paper is NOT related → output ONLY:
     null
-
-    If related → extract ALL functional (if any) and non-functional (if any) requirements relevant to the topic.
-
-    Output them in this strict order and format ONLY:
-
-    1. ALL Functional Requirements first, sorted by Requirement ID ascending
-    2. ALL Non-Functional Requirements second, sorted by Requirement ID ascending
-
-    Use exact this format for each requirement (no extra spaces, no line breaks within a requirement):
-
+       (nothing else — no explanation, no extra lines)
+    
+    3. If the paper IS related → extract every functional and non-functional requirement that is explicitly stated or strongly implied in the paper text.
+    
+       Definitions:
+       - Functional Requirement: a concrete behavior, feature, capability, action, or processing step the system, module, or component must perform.
+       - Non-Functional Requirement: a quality attribute of the system (e.g., accuracy, speed, latency, scalability, security, privacy, robustness, explainability, energy efficiency).
+    
+       For each requirement, fill in exactly these fields:
+       - Role: the main actor, stakeholder, or component responsible (e.g., "System", "Face Recognition Module", "ML Classifier", "Diagnostic Model")
+       - Requirement ID: FR-01, FR-02, … for functional; NF-01, NF-02, … for non-functional — sequential, no gaps
+       - Requirement Title: concise, action-oriented title (4–8 words)
+       - Requirement Description: precise, self-contained description based directly on the paper (paraphrase clearly or quote key phrasing when helpful)
+       - Citation: specific location in the paper (e.g., "Section 3.2", "Algorithm 1 lines 5–14", "page 7 paragraph 3", "Table 4", "Figure 2 caption")
+       - Requirement Related Title: short name(s) of the specific system/application/domain this requirement belongs to (usually matches TARGET TITLE; use comma-separated list of 1–3 concise names if the paper clearly describes multiple related systems or use cases)
+    
+    Rules:
+    - Never invent or hallucinate requirements that are not supported by the paper.
+    - List all Functional Requirements first, sorted by Requirement ID ascending.
+    - Then list all Non-Functional Requirements, sorted by Requirement ID ascending.
+    - Output NOTHING ELSE: no introduction, no summary, no headings outside the block, no markdown, no JSON, no explanations, no trailing text.
+    - Repeat the exact block header for every single requirement.
+    
+    Output format:
     Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [source or reference in the text document] 
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [source or reference in the text document] 
-
-    Strict rules:
-    - Generate sequential IDs if missing
-    - NO Acceptance Criteria field
-    - Accuracy field must contain detailed, testable expectations
-    - No extra text, headings, blank lines or markdown
-    - Each requirement on its own single line
-    - If none → output only: No relevant requirements found
-    - If no citation available, ignore that requirement
-
-    Start immediately.`;
-
-    const chainofthoughts_2 = `
-    You are an expert in software requirements specification.
-
-    Step 1: Read the entire attached text document.
-
-    Step 2: Determine if it is related to "${title}". If not, output only: null
-
-    Step 3: If related, identify ALL functional requirements and ALL non-functional requirements.
-
-    Step 4: Assign sequential Requirement IDs if missing (e.g., FR-01, NF-01).
-
-    Step 5: Format output exactly:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [source]
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [source]
-
-    Functional first, sorted by ID, then non-functional. No extra text.`;
-
-    const chainofthoughts_3 = `
-    Think step by step:
-
-    1. Analyze the attached document.
-
-    2. Is it related to "${title}"? If no → output only "null"
-
-    3. If yes, list every functional requirement, then every non-functional requirement.
-
-    4. For each: determine Role, Title, Description, Citation. Generate IDs if needed.
-
-    5. Output strictly in the format:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [role] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [description] 
-    Citation: [citation]
-
-    Non-Functional Requirement 
-    Role: [role] 
-    Requirement ID: [ID] 
+    
+    Repeat the following block structure for each requirement:
+    
+    Functional Requirement
+    Role: [role]
+    Requirement ID: [ID]
     Requirement Title: [title]
     Requirement Description: [description]
     Citation: [citation]
-
-    Sort by ID ascending.`;
-
-    const chainofthoughts_4 = `
-    Chain of thought:
-
-    - First, check relevance to "${title}". Not related? Output: null
-
-    - If related, go through the document and collect all functional requirements.
-
-    - Then collect all non-functional requirements.
-
-    - Assign sequential IDs.
-
-    - For each requirement, note Role, Title, Description, Citation.
-
-    - Output exactly as:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description] 
-    Citation: [source]
-
-    Non-Functional Requirement 
-    Role: [User/System/Other] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [full description]
-    Citation: [source]`;
-
-    const chainofthoughts_5 = `
-    Reason step-by-step:
-
-    Step 1: Read and understand the attached document.
-
-    Step 2: Confirm if it discusses "${title}". If not → null
-
-    Step 3: Extract functional requirements → note Role, ID (sequential if missing), Title, Description, Citation.
-
-    Step 4: Extract non-functional requirements similarly.
-
-    Step 5: Output in strict order and format:
-
-    Title request: ${title}
-
-    [Functional lines]
-
-    [Non-Functional lines]`;
-
-    const chainofthoughts_6 = `
-    Structured reasoning:
-
-    1. Relevance check: Related to "${title}"? No → null
-
-    2. If yes: Identify functional requirements one by one.
-
-    3. Identify non-functional requirements one by one.
-
-    4. Assign IDs sequentially.
-
-    5. Use exact format for output:
-
-    Title request: ${title}
-
-    Functional Requirement 
-    Role: [role] 
-    Requirement ID: [ID] 
-    Requirement Title: [title]
-    Requirement Description: [description] 
-    Citation: [citation]
-
-    Non-Functional Requirement 
-    Role: [role] 
-    Requirement ID: [ID] 
+    Requirement Related Title: [related title]
+    
+    —or—
+    
+    Non-Functional Requirement
+    Role: [role]
+    Requirement ID: [ID]
     Requirement Title: [title]
     Requirement Description: [description]
     Citation: [citation]
-
-    No other text.`;
-
-    const prompts = [zeroShot_1, zeroShot_2, zeroShot_3, zeroShot_4, zeroShot_5, zeroShot_6,
-                     fewshot_1, fewshot_2, fewshot_3, fewshot_4, fewshot_5, fewshot_6,
-                     chainofthoughts_1, chainofthoughts_2, chainofthoughts_3, chainofthoughts_4, chainofthoughts_5, chainofthoughts_6];
-
-    return prompts[index];
+    Requirement Related Title: [related title]
+    `;
 }
 
+// function phase2_promptEvaluation(title, index) {
+//     const zeroShot_1 = `
+//     You are an expert in software requirements specification and structured extraction.
+//
+//     Analyze the attached text document completely.
+//
+//     First, check if the document is related to the topic "${title}".
+//     If NOT related → output only this exact line and nothing else:
+//     null
+//
+//     If related → extract ALL functional requirements (if any) and ALL non-functional requirements (if any) relevant to the topic.
+//
+//     Output them in this strict order and format ONLY:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source or reference in the text document]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source or reference in the text document]
+//
+//     Rules:
+//     - Generate sequential IDs (e.g. FR-01, NF-01) if no IDs are present in the text
+//     - Each requirement must be on its own single line
+//     - No extra text, headings, blank lines, markdown, or explanations
+//     - Functional requirements first, sorted by Requirement ID ascending
+//     - Non-functional requirements second, sorted by Requirement ID ascending
+//     - If no relevant requirements found → output only: No relevant requirements found
+//     - If no citation is available for a requirement, skip that requirement`;
+//
+//     const zeroShot_2 = `
+//     Analyze the attached document.
+//
+//     If it is not related to "${title}", output exactly: null
+//
+//     If it is related, extract all functional and non-functional requirements.
+//
+//     Output strictly in this format and nothing else:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [citation]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [citation]
+//
+//     Use sequential IDs if missing. Sort by ID. One requirement per line. No additional content.`;
+//
+//     const zeroShot_3 = `
+//     Task: Check relevance and extract requirements.
+//
+//     Step 1: Is the attached document related to "${title}"?
+//     → No → output only: null
+//     → Yes → proceed
+//
+//     Step 2: Extract every functional requirement, then every non-functional requirement.
+//
+//     Output only:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [role]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [description]
+//     Citation: [source]
+//
+//     Non-Functional Requirement
+//     Role: [role]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [description]
+//     Citation: [source]
+//
+//     Assign sequential IDs when necessary. No other text allowed.`;
+//
+//     const zeroShot_4 = `
+//     Read the attached text document.
+//
+//     Unrelated to "${title}"? → Output exactly: null
+//
+//     Related? → Extract ALL functional and non-functional requirements using this exact format only:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [citation]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [citation]
+//
+//     Generate sequential IDs if absent. Functional first, then non-functional. Nothing else.`;
+//
+//     const zeroShot_5 = `
+//     Determine if attached document discusses "${title}".
+//
+//     Not related → output only: null
+//
+//     Related → output ONLY the following structure for all extracted requirements:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source or reference]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source or reference]
+//
+//     Sequential IDs required if missing. Sorted ascending. No explanations or extra lines.`;
+//
+//     const zeroShot_6 = `
+//     Strict extraction task:
+//
+//     If the document is unrelated to "${title}" → null
+//
+//     If related → list all functional requirements followed by all non-functional requirements in this exact format:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [citation]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [citation]
+//
+//     Use FR-01, NF-01 style sequential numbering if needed. One per line. No other output.`;
+//
+//     const fewshot_1 = `
+//     You are an expert in extracting software requirements.
+//     Example:
+//
+//     Input document about medical apps → Output:
+//     Title request: Medical App
+//     Non-Functional Requirement
+//     Role: User
+//     Requirement ID: NF-01
+//     Requirement Title: Accessibility
+//     Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
+//     Citation: Page 8, Section 3.2; Page 9, Section 3.4
+//     [and more NF requirements...]
+//
+//     Now analyze the attached document for "${title}".
+//
+//     If unrelated → output only: null
+//
+//     If related → extract ALL functional and non-functional requirements in the same exact format:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [citation]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [citation]
+//
+//     Sequential IDs if missing. Functional first, then non-functional.`;
+//
+//     const fewshot_2 = `
+//     Few-shot example:
+//
+//     Document related to medical apps → Output:
+//     Title request: Medical App
+//     Non-Functional Requirement
+//     Role: User
+//     Requirement ID: NF-01
+//     Requirement Title: Accessibility
+//     Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
+//     Citation: Page 8, Section 3.2; Page 9, Section 3.4
+//     [...]
+//
+//     Task: Analyze attached document.
+//
+//     If not related to "${title}" → null
+//
+//     Else → extract requirements exactly like the example, functional first, then non-functional. Use sequential IDs.`;
+//
+//     const fewshot_3 = `
+//     Example output for a medical app document:
+//     Title request: Medical App
+//     Non-Functional Requirement
+//     Role: User
+//     Requirement ID: NF-01
+//     Requirement Title: Accessibility
+//     Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
+//     Citation: Page 8, Section 3.2; Page 9, Section 3.4
+//     [...]
+//
+//     Apply the same format to the attached document for topic "${title}".
+//
+//     Unrelated → null
+//
+//     Related → extract all functional and non-functional requirements, sorted by ID`;
+//
+//     const fewshot_4 = `
+//     Few-shot:
+//
+//     Medical App document →
+//     Title request: Medical App
+//     Non-Functional Requirement
+//     Role: User
+//     Requirement ID: NF-01
+//     Requirement Title: Accessibility
+//     Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
+//     Citation: Page 8, Section 3.2; Page 9, Section 3.4
+//     [...]
+//
+//     Now do the same for "${title}" on the attached document.
+//
+//     If unrelated → null
+//
+//     Else → output in exact format, functional first.`;
+//
+//     const fewshot_5 = `
+//     Example (medical app):
+//     Title request: Medical App
+//     Non-Functional Requirement
+//     Role: User
+//     Requirement ID: NF-01
+//     Requirement Title: Accessibility
+//     Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
+//     Citation: Page 8, Section 3.2; Page 9, Section 3.4
+//     [...]
+//
+//     Use this format for "${title}".
+//
+//     Check relevance first: unrelated → null
+//
+//     Related → extract all functional then non-functional requirements.`;
+//
+//     const fewshot_6 = `
+//     Few-shot prompt:
+//
+//     Input: medical app document
+//     Output:
+//     Title request: Medical App
+//     Non-Functional Requirement
+//     Role: User
+//     Requirement ID: NF-01
+//     Requirement Title: Accessibility
+//     Requirement Description: Accessibility is commonly understood as the degree to which the application is available to users, usually taking into account disability measures. Accessibility, or software’s ability to be “use[d] by people with a wide range of characteristics”, is found explicitly in standards but often understood as an implicit aspect of usability.
+//     Citation: Page 8, Section 3.2; Page 9, Section 3.4
+//     [...]
+//
+//     Now extract for "${title}" from attached document in the same strict format. Unrelated → null`;
+//
+//     const chainofthoughts_1 = `
+//     You are an expert in software requirements specification and structured extraction.
+//
+//     Analyze the attached text document completely.
+//
+//     First, check if the document is related to the ${title} topic.
+//
+//     If NOT related → output only this exact line and nothing else:
+//     null
+//
+//     If related → extract ALL functional (if any) and non-functional (if any) requirements relevant to the topic.
+//
+//     Output them in this strict order and format ONLY:
+//
+//     1. ALL Functional Requirements first, sorted by Requirement ID ascending
+//     2. ALL Non-Functional Requirements second, sorted by Requirement ID ascending
+//
+//     Use exact this format for each requirement (no extra spaces, no line breaks within a requirement):
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source or reference in the text document]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source or reference in the text document]
+//
+//     Strict rules:
+//     - Generate sequential IDs if missing
+//     - NO Acceptance Criteria field
+//     - Accuracy field must contain detailed, testable expectations
+//     - No extra text, headings, blank lines or markdown
+//     - Each requirement on its own single line
+//     - If none → output only: No relevant requirements found
+//     - If no citation available, ignore that requirement
+//
+//     Start immediately.`;
+//
+//     const chainofthoughts_2 = `
+//     You are an expert in software requirements specification.
+//
+//     Step 1: Read the entire attached text document.
+//
+//     Step 2: Determine if it is related to "${title}". If not, output only: null
+//
+//     Step 3: If related, identify ALL functional requirements and ALL non-functional requirements.
+//
+//     Step 4: Assign sequential Requirement IDs if missing (e.g., FR-01, NF-01).
+//
+//     Step 5: Format output exactly:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source]
+//
+//     Functional first, sorted by ID, then non-functional. No extra text.`;
+//
+//     const chainofthoughts_3 = `
+//     Think step by step:
+//
+//     1. Analyze the attached document.
+//
+//     2. Is it related to "${title}"? If no → output only "null"
+//
+//     3. If yes, list every functional requirement, then every non-functional requirement.
+//
+//     4. For each: determine Role, Title, Description, Citation. Generate IDs if needed.
+//
+//     5. Output strictly in the format:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [role]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [description]
+//     Citation: [citation]
+//
+//     Non-Functional Requirement
+//     Role: [role]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [description]
+//     Citation: [citation]
+//
+//     Sort by ID ascending.`;
+//
+//     const chainofthoughts_4 = `
+//     Chain of thought:
+//
+//     - First, check relevance to "${title}". Not related? Output: null
+//
+//     - If related, go through the document and collect all functional requirements.
+//
+//     - Then collect all non-functional requirements.
+//
+//     - Assign sequential IDs.
+//
+//     - For each requirement, note Role, Title, Description, Citation.
+//
+//     - Output exactly as:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source]
+//
+//     Non-Functional Requirement
+//     Role: [User/System/Other]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [full description]
+//     Citation: [source]`;
+//
+//     const chainofthoughts_5 = `
+//     Reason step-by-step:
+//
+//     Step 1: Read and understand the attached document.
+//
+//     Step 2: Confirm if it discusses "${title}". If not → null
+//
+//     Step 3: Extract functional requirements → note Role, ID (sequential if missing), Title, Description, Citation.
+//
+//     Step 4: Extract non-functional requirements similarly.
+//
+//     Step 5: Output in strict order and format:
+//
+//     Title request: ${title}
+//
+//     [Functional lines]
+//
+//     [Non-Functional lines]`;
+//
+//     const chainofthoughts_6 = `
+//     Structured reasoning:
+//
+//     1. Relevance check: Related to "${title}"? No → null
+//
+//     2. If yes: Identify functional requirements one by one.
+//
+//     3. Identify non-functional requirements one by one.
+//
+//     4. Assign IDs sequentially.
+//
+//     5. Use exact format for output:
+//
+//     Title request: ${title}
+//
+//     Functional Requirement
+//     Role: [role]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [description]
+//     Citation: [citation]
+//
+//     Non-Functional Requirement
+//     Role: [role]
+//     Requirement ID: [ID]
+//     Requirement Title: [title]
+//     Requirement Description: [description]
+//     Citation: [citation]
+//
+//     No other text.`;
+//
+//     const prompts = [zeroShot_1, zeroShot_2, zeroShot_3, zeroShot_4, zeroShot_5, zeroShot_6,
+//                      fewshot_1, fewshot_2, fewshot_3, fewshot_4, fewshot_5, fewshot_6,
+//                      chainofthoughts_1, chainofthoughts_2, chainofthoughts_3, chainofthoughts_4, chainofthoughts_5, chainofthoughts_6];
+//
+//     return prompts[index];
+// }
+//
 
 async function evaluationModel(documentData, model, prompt) {
     try {
@@ -533,9 +591,9 @@ async function evaluationModel(documentData, model, prompt) {
 }
 
 async function modelEvaluation(){
-    const testingDocument = await pdfExtracted_pdfjslib('./testing_sources/medical_app_testing_paper.pdf');
-
-    // Phase 1: Zero-shot evaluation
+    // const testingDocument = await pdfExtracted_pdfjslib('./training_sources/medical_app_testing_paper.pdf');
+    //
+    // // Phase 1: Zero-shot evaluation
     // for (let i = 0; i < MODEL.length; i++){
     //     console.log(`Testing model: ${MODEL[i]}`);
     //     let filename = MODEL[i].replace(/-/g, "_");
@@ -543,6 +601,68 @@ async function modelEvaluation(){
     //     const result = await evaluationModel(testingDocument, MODEL[i], phase1_zeroshotPrompt("medical app"));
     //     await writetxtFile(`./evaluations/${filename}`, result);
     // }
+
+    const mappingPath = './paper_titles.json'; // adjust path if needed
+    const titleMapping = JSON.parse(await fs.readFile(mappingPath, 'utf-8'));
+
+    const textsDir = './raw';
+
+    const txtFiles = (await fs.readdir(textsDir))
+        .filter(f => f.endsWith('.txt'))
+        .map(f => {
+            const id = f.replace('.txt', ''); // e.g. "Bioconductor_open_software_development_..."
+            const targetTitle = titleMapping[id] || 'Unknown Title';
+            return {
+                id,
+                filename: f,
+                path: path.join(textsDir, f),
+                targetTitle
+            };
+        })
+        .filter(doc => doc.targetTitle !== 'Unknown Title'); // optional: skip unmatched files
+
+    console.log(`Found ${txtFiles.length} documents in ./raw with mapped titles:`);
+    txtFiles.forEach(doc => {
+        console.log(`  • ${doc.filename}  →  "${doc.targetTitle}"`);
+    });
+
+    for (const model of MODEL) {
+        console.log(`\n=== Testing model: ${model} ===`);
+
+        for (const doc of txtFiles) {
+            console.log(`  Processing: ${doc.id}`);
+
+            let text;
+            try {
+                text = await fs.readFile(doc.path, 'utf-8');
+            } catch (err) {
+                console.error(`    Failed to read ${doc.filename}: ${err.message}`);
+                continue;
+            }
+
+            const prompt = phase1_zeroshotPrompt(doc.targetTitle);
+
+            let result;
+            try {
+                result = await evaluationModel(text, model, prompt);
+            } catch (err) {
+                console.error(`    Evaluation failed for ${doc.id} on ${model}: ${err.message}`);
+                continue;
+            }
+
+            const safeModel = model.replace(/[-.]/g, '_');
+            const safeId = doc.id
+                .replace(/[^a-zA-Z0-9_-]/g, '_')
+                .slice(0, 80); // prevent overly long filenames
+
+            const outputFilename = `./evaluations/phase1_${safeModel}_${safeId}.txt`;
+
+            await fs.mkdir('./evaluations', { recursive: true });
+            await fs.writeFile(outputFilename, result, 'utf-8');
+
+            console.log(`    → Saved: ${outputFilename}`);
+        }
+    }
 
     // Phase 2: TC prompt evaluation
     // for (let j = 0; j < 18; j++){

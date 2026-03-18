@@ -22,7 +22,7 @@ const temppdfpath = './temp_document.pdf';
 // IMPORTANT: Return Raw Text
 async function documentPreprocessing(inputPath) {
     const supportedVideoAudioFormats = ['mp4', 'mov', 'avi', 'mkv', 'mp3', 'wav', 'flac', 'aac'];
-    const supportedDocumentFormats = ['pdf', 'doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx', 'odt', 'odp', 'ods', 'txt', 'rtf'];
+    const supportedDocumentFormats = ['.pdf', '.doc', '.docx', '.ppt', '.pptx', '.xls', '.xlsx', '.odt', '.odp', '.ods', '.txt', '.rtf'];
     
     try {
         // 1. Check file type
