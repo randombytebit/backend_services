@@ -6,7 +6,7 @@ const { pdfExtracted_pdfjslib, writetxtFile} = require('./helperModel');
 dotenv.config();
 
 const XAI_API_KEY = process.env.XAI_API_KEY;
-const MODEL = ["grok-4-1-fast-reasoning", "grok-code-fast-1", "grok-4-fast-reasoning", "grok-4-0709", "grok-3", "grok-2-vision-1212"];
+const MODEL = ["grok-4-1-fast-reasoning", "grok-code-fast-1", "grok-4-fast-reasoning", "grok-4-0709", "grok-3"];
 const TC_MODEL = null;
 
 function phase1_zeroshotPrompt(title) {
@@ -587,6 +587,7 @@ async function evaluationModel(documentData, model, prompt) {
         return res.data.choices[0].message.content;
     } catch (err) {
         console.error('analysisModel failed:', err.message);
+        throw err;
     }
 }
 
