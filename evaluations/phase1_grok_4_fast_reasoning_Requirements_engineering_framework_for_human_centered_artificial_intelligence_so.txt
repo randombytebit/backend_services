@@ -1,0 +1,145 @@
+Title request: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-01
+Requirement Title: Elicit user needs requirements
+Requirement Description: Aid in collecting requirements covering user identification, system purpose and usage, capabilities and limitations for users and stakeholders, performance level, interaction type (proactive or reactive), AI feature awareness (visible or invisible), approach selection (augmentation or automation), reward function evaluation with trade-offs, potential pitfalls, and inclusion strategies.
+Citation: Section 2.1, Table 5 (User Needs)
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-02
+Requirement Title: Elicit model needs requirements
+Requirement Description: Aid in collecting requirements for algorithm optimization, ML type selection (supervised, unsupervised, reinforcement), training approach (static or dynamic), overfitting/underfitting balance, model tuning via user feedback, behavior adjustment, error tracing, parameter tuning, quantitative feedback, scalability specification, evaluation tools, and overall model quality assessment.
+Citation: Section 2.2, Table 5 (Model Needs)
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-03
+Requirement Title: Elicit data needs requirements
+Requirement Description: Aid in collecting requirements for data selection (features, labels, examples, sampling rates), collection methods (type, amount, diversity, constraints, sources, responsible sourcing, feedback usage, update measures, splits for training/testing), quality aspects (accuracy, completeness, consistency, credibility, currentness), privacy protection, legal compliance, fairness (bias identification, missing features, representation issues), and bias mitigation strategies.
+Citation: Section 2.3, Table 5 (Data Needs)
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-04
+Requirement Title: Elicit feedback requirements
+Requirement Description: Aid in collecting requirements for explicit feedback (methods, rewards, evaluation, model impact, tuning usage), implicit feedback (interactions like frequency, acceptance), calibration (reasons, timing, AI effects), privacy measures in feedback collection, multiple feedback options, alignment with user mental model, and opt-out capabilities.
+Citation: Section 2.4, Table 5 (Feedback & Control)
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-05
+Requirement Title: Elicit explainability requirements
+Requirement Description: Aid in collecting requirements for stakeholder explanations (limitations, capabilities), user explanations (changes, consequences, data access/sharing, prediction basis), prediction explanations (examples, confidence display methods), trade-offs with other requirements, trust calibration, special case explanations (laws, third parties, feedback impact), over-trust avoidance, relevant information display, and context-specific error explanations.
+Citation: Section 2.5, Table 5 (Explainability & Trust)
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-06
+Requirement Title: Elicit error handling requirements
+Requirement Description: Aid in collecting requirements for user-perceived errors, failstates (true negatives, system limitations, context errors, background errors), error sources (prediction/data, input, output quality, systems hierarchy), risks (high stakes, abusive users), and mitigation actions (fixing mistakes, doubt suggestions, user control in errors).
+Citation: Section 2.6, Table 5 (Errors & Failures)
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-07
+Requirement Title: Map guidelines to reference model
+Requirement Description: Combine and map human-centered AI guidelines from literature and industry into a reference model with six areas: user needs, model needs, data needs, feedback/user control, explainability/trust, errors/failure.
+Citation: Section 3.1, Fig. 3
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-08
+Requirement Title: Provide elicitation catalog
+Requirement Description: Supply a tabular catalog as a checklist with six sections, each dedicated to detailed human-centered requirements elicitation based on mapped guidelines and SLR results.
+Citation: Section 3.2, Appendix Table 5
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-09
+Requirement Title: Provide conceptual modeling language
+Requirement Description: Offer a modeling language using specific notations (ovals for goals, dashed squares for needs, hexagons for processes, octagons for trade-offs, rectangles for limitations/capabilities, icons for users/data, connectors for flows/evaluations) with shapes, textures, colors, and blue ticks to distinguish framework vs. system elements.
+Citation: Section 3.3, Table 1, Fig. 6
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-10
+Requirement Title: Support two-level requirement modeling
+Requirement Description: Enable holistic system view modeling connecting main goal to six area sub-models using UML class diagrams, plus detailed sub-models for each area showing attributes, processes, and relationships.
+Citation: Section 3.3, Fig. 5
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-11
+Requirement Title: Apply framework to case studies
+Requirement Description: Allow application to real AI projects for eliciting and modeling requirements in user, model, and data needs areas, as demonstrated in 360° VR video enhancement case study.
+Citation: Section 4, Tables 2-4, Figs. 7-10
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: NF-01
+Requirement Title: Cover all six human-centered areas
+Requirement Description: Include specifications for all six human-centered areas in requirements engineering, as confirmed by survey of 29 practitioners prioritizing user, model, and data needs highest.
+Citation: Section 3.1, Fig. 2
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: NF-02
+Requirement Title: Be learnable by diverse roles
+Requirement Description: Support use by diverse team roles including software engineers (25%), data scientists/ML specialists (27%), analysts, developers, researchers, easier for non-software engineers than GORE.
+Citation: Section 3.3, Fig. 4
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: NF-03
+Requirement Title: Support non-functional requirements modeling
+Requirement Description: Enable modeling of non-functional requirements and business rules, addressing UML limitations while providing precise concepts and holistic views via conceptual modeling.
+Citation: Section 3.3
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: NF-04
+Requirement Title: Reduce modeling complexity
+Requirement Description: Use notations complying with nine principles (semantics, expressiveness, etc.) via shapes, textures, icons, colors to minimize cognitive load and complexity in visual requirements presentation.
+Citation: Section 3.3
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: NF-05
+Requirement Title: Facilitate human-centered understanding
+Requirement Description: Help project teams fully understand and address human-centered needs early and iteratively, identifying requirements timing (initial vs. later stages) due to AI black-box nature.
+Citation: Abstract, Section 5, Section 5.2
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: NF-06
+Requirement Title: Enable requirement visualization
+Requirement Description: Provide visual models to spot limitations, capabilities, needs easily, aiding collaboration and comparison of RE processes before/after framework use.
+Citation: Section 5.1, Figs. 8-10
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: NF-07
+Requirement Title: Support iterative AI engineering
+Requirement Description: Accommodate iterative RE practices in AI project lifecycles, allowing requirement updates based on model testing, data interaction, and emerging issues like biases or constraints.
+Citation: Section 5.2, Tables 2-4
+Requirement Related Title: Human-Centered AI Software Systems

@@ -1,0 +1,353 @@
+Title request: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: FR-01
+Requirement Title: Serve VR users offline
+Requirement Description: Target VR users who could watch enhanced 360° videos offline.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: FR-02
+Requirement Title: Improve immersive viewer experience
+Requirement Description: Improve the immersive experience for viewers.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: FR-03
+Requirement Title: Support entertainment teaching applications
+Requirement Description: System used for entertainment and teaching.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: FR-04
+Requirement Title: Enhance video resolution fourfold
+Requirement Description: Improve the resolution of the video by four times.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: FR-05
+Requirement Title: Reactively refine video quality
+Requirement Description: Reactive interaction that refines video quality without users asking.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: FR-06
+Requirement Title: Hide AI feature from users
+Requirement Description: Invisible AI feature where user is unaware of AI component.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: FR-07
+Requirement Title: Automate super-resolution process
+Requirement Description: Automation since humans cannot directly super-resolve videos.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-08
+Requirement Title: Optimize pixel prediction loss
+Requirement Description: Use loss function to optimize model predicting correct pixel values.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-09
+Requirement Title: Compare predictions to ground truth
+Requirement Description: Optimize for accuracy by comparing ground truth data to predictions.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-10
+Requirement Title: Apply supervised regression learning
+Requirement Description: Use supervised learning as regression model.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-11
+Requirement Title: Train statically offline
+Requirement Description: Static model with offline training on fixed dataset.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-12
+Requirement Title: Track losses for overfitting balance
+Requirement Description: Keep track of training losses to pinpoint overfitting iteration.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-13
+Requirement Title: Incorporate user ranking feedback
+Requirement Description: Provide ranking for perceptual quality evaluation in tuning.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-14
+Requirement Title: Adjust training from user studies
+Requirement Description: Change training to optimize losses based on user study perceptual quality.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-15
+Requirement Title: Trace errors to training changes
+Requirement Description: For output errors, keep data constant and alter architecture/training.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-16
+Requirement Title: Tune learning rate batch sizes
+Requirement Description: Adjust iterations, learning rates, batch sizes from validation.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-17
+Requirement Title: Compute image quality metrics
+Requirement Description: Use PSNR/SSIM, WS-PSNR/WS-SSIM for quantitative evaluation.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: FR-18
+Requirement Title: Scale model width depth
+Requirement Description: Scale DL model by changing width or depth.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: FR-19
+Requirement Title: Process RGB equirectangular videos
+Requirement Description: Features: RGB color, equirectangular projection 360° videos.
+Citation: Table 4, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: FR-20
+Requirement Title: Sample 20 frames per clip
+Requirement Description: Sampling rate up to 20 frames from video clip.
+Citation: Table 4, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: FR-21
+Requirement Title: Collect diverse objects motions lighting
+Requirement Description: Diverse content with objects, motions, lighting variations.
+Citation: Table 4, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: FR-22
+Requirement Title: Split dataset 90-10 train-test
+Requirement Description: 90% random for training, 10% for testing out of 590.
+Citation: Table 4, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: FR-23
+Requirement Title: Filter sudden scene changes
+Requirement Description: Remove sudden changes in scene, motion, light; rolling/credits; static shots.
+Citation: Table 4, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: FR-24
+Requirement Title: Standardize video length resolution
+Requirement Description: Process videos to same length and resolution.
+Citation: Table 4, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: FR-25
+Requirement Title: Generate unique scene shots
+Requirement Description: Create shots for unique single scenes with continuous time data.
+Citation: Table 4, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-26
+Requirement Title: Provide human-centered guidelines reference
+Requirement Description: First layer presents human-centered AI guidelines mapped to reference model with six areas.
+Citation: Section 3.1, Fig. 3
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-27
+Requirement Title: Supply requirements elicitation catalog
+Requirement Description: Second layer provides catalog as checklist for six areas to elicit requirements.
+Citation: Section 3.2, Appendix Table 5
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: FR-28
+Requirement Title: Offer conceptual modeling language
+Requirement Description: Third layer proposes modeling language with notations for visual presentation of requirements.
+Citation: Section 3.3, Table 1, Fig. 5
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: NF-01
+Requirement Title: Improve quality of experience
+Requirement Description: Provide improved quality of experience (QoE).
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: NF-02
+Requirement Title: Improve quality of service
+Requirement Description: Provide improved quality of service (QoS).
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: NF-03
+Requirement Title: Ensure high data accuracy
+Requirement Description: Data quality accuracy: correct data, no sudden changes, no mislabels.
+Citation: Table 4, Section 2.3, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: NF-04
+Requirement Title: Ensure data completeness
+Requirement Description: Data quality completeness: all attributes/events available, diverse motion/content/light.
+Citation: Table 4, Section 2.3, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: NF-05
+Requirement Title: Ensure data consistency
+Requirement Description: Data quality consistency: no contradictions, uniform length/resolution.
+Citation: Table 4, Section 2.3, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: NF-06
+Requirement Title: Ensure data credibility
+Requirement Description: Data quality credibility: truthful authentic data.
+Citation: Table 4, Section 2.3
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: NF-07
+Requirement Title: Ensure data currentness
+Requirement Description: Data quality currentness: timely collection, recent less than month, continuous scenes.
+Citation: Table 4, Section 2.3, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: NF-08
+Requirement Title: Achieve prediction accuracy
+Requirement Description: High accuracy by ground truth comparison.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: NF-09
+Requirement Title: Provide perceptual quality
+Requirement Description: Perceptual quality evaluated by user ranking/studies.
+Citation: Table 3, Section 4.5, Section 5.1
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: NF-10
+Requirement Title: Ensure data privacy compliance
+Requirement Description: Protect personal info, comply privacy/law, no user data sharing.
+Citation: Table 4, Section 2.3, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: NF-11
+Requirement Title: Mitigate performance biases
+Requirement Description: Fairness: identify biases for large motion/luminance, diverse scenes/objects needed.
+Citation: Table 4, Section 2.3, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: NF-12
+Requirement Title: Limit to offline operation
+Requirement Description: Limitation: offline video watching only, no streaming.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer System
+Requirement ID: NF-13
+Requirement Title: Constrain hardware resources usage
+Requirement Description: Stakeholder limitation: hardware resources and processing time.
+Citation: Table 2, Section 4.4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer Data Module
+Requirement ID: NF-14
+Requirement Title: Limit input resolution size
+Requirement Description: Constraints: 480x360 resolution, up to 20 frames due hardware/memory.
+Citation: Table 4, Section 4.6
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: 360° Video Enhancer AI Model
+Requirement ID: NF-15
+Requirement Title: Optimize parameters runtime
+Requirement Description: Model quality by number of parameters, runtime, evaluation results.
+Citation: Table 3, Section 4.5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: RE4HCAI Framework
+Requirement ID: NF-16
+Requirement Title: Cover six human-centered areas
+Requirement Description: Include user/model/data/feedback/explainability/errors areas confirmed by survey.
+Citation: Section 3.1, Fig. 2
+Requirement Related Title: Human-Centered AI Software Systems

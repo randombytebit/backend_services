@@ -1,0 +1,505 @@
+Title request: Mobile Application
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-01
+Requirement Title: Document Patient Identity Details
+Requirement Description: Document identity including first name and surname.
+Citation: Table 1 (A. Demographic data documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-02
+Requirement Title: Document Patient Insurance Information
+Requirement Description: Document insurance name and number.
+Citation: Table 1 (A. Demographic data documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-03
+Requirement Title: Document Blood Pressure Readings
+Requirement Description: Document blood pressure as part of vital signs.
+Citation: Table 1 (B. Health record - Vital sign documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-04
+Requirement Title: Document Heart Rate Data
+Requirement Description: Document heart rate as part of vital signs.
+Citation: Table 1 (B. Health record - Vital sign documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-05
+Requirement Title: Document Blood Sugar Levels
+Requirement Description: Document blood sugar under kidney documentation.
+Citation: Table 1 (B. Health record - Kidney documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-06
+Requirement Title: Document Patient Weight
+Requirement Description: Document weight as part of fitness documentation.
+Citation: Table 1 (B. Health record - Fitness documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-07
+Requirement Title: Document Exercise Activities
+Requirement Description: Document exercise as part of fitness documentation.
+Citation: Table 1 (B. Health record - Fitness documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-08
+Requirement Title: Document Sleep Patterns
+Requirement Description: Document sleep as part of fitness documentation.
+Citation: Table 1 (B. Health record - Fitness documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-09
+Requirement Title: Document Nutrition Intake
+Requirement Description: Document nutrition as part of fitness documentation.
+Citation: Table 1 (B. Health record - Fitness documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-10
+Requirement Title: Document Skin Condition
+Requirement Description: Document condition of skin.
+Citation: Table 1 (B. Health record - Skin documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-11
+Requirement Title: Document Disease History
+Requirement Description: Document disease history.
+Citation: Table 1 (B. Health record - History documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-12
+Requirement Title: Document Family History
+Requirement Description: Document family history.
+Citation: Table 1 (B. Health record - History documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-13
+Requirement Title: Document Allergy Information
+Requirement Description: Document allergy history.
+Citation: Table 1 (B. Health record - History documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-14
+Requirement Title: Document Medications History
+Requirement Description: Document medications history.
+Citation: Table 1 (B. Health record - History documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-15
+Requirement Title: Document Vaccination Records
+Requirement Description: Document vaccination history.
+Citation: Table 1 (B. Health record - History documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-16
+Requirement Title: Document Surgery History
+Requirement Description: Document surgeries history.
+Citation: Table 1 (B. Health record - History documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-17
+Requirement Title: Document Smoking History
+Requirement Description: Document smoking history.
+Citation: Table 1 (B. Health record - History documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-18
+Requirement Title: Document Symptoms and Conditions
+Requirement Description: Document symptoms and conditions as present history.
+Citation: Table 1 (B. Health record - Present history documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-19
+Requirement Title: Document X-ray Results
+Requirement Description: Document X-ray as present history.
+Citation: Table 1 (B. Health record - Present history documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-20
+Requirement Title: Document Test Results
+Requirement Description: Document tests as present history.
+Citation: Table 1 (B. Health record - Present history documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-21
+Requirement Title: Document Treatments
+Requirement Description: Document treatments as present history.
+Citation: Table 1 (B. Health record - Present history documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-22
+Requirement Title: Document Prescriptions
+Requirement Description: Document prescriptions as present history.
+Citation: Table 1 (B. Health record - Present history documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-23
+Requirement Title: Provide Patient Training
+Requirement Description: Document patient training as present history.
+Citation: Table 1 (B. Health record - Present history documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-24
+Requirement Title: Document Admission Discharge Dates
+Requirement Description: Document date of admission and discharge for inpatient treatment history.
+Citation: Table 1 (B. Health record - Documentation of inpatient treatment history), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-25
+Requirement Title: Document Hospital Name
+Requirement Description: Document hospital name for inpatient treatment history.
+Citation: Table 1 (B. Health record - Documentation of inpatient treatment history), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-26
+Requirement Title: Document Chief Complaint
+Requirement Description: Document chief complaint for inpatient treatment history.
+Citation: Table 1 (B. Health record - Documentation of inpatient treatment history), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-27
+Requirement Title: Document Treatment Summary
+Requirement Description: Document summary for inpatient treatment history.
+Citation: Table 1 (B. Health record - Documentation of inpatient treatment history), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-28
+Requirement Title: Document Medication Name
+Requirement Description: Document medication name.
+Citation: Table 1 (B. Health record - Medication documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-29
+Requirement Title: Document Medication Dose
+Requirement Description: Document medication dose.
+Citation: Table 1 (B. Health record - Medication documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-30
+Requirement Title: Document Medication Type
+Requirement Description: Document medication type.
+Citation: Table 1 (B. Health record - Medication documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-31
+Requirement Title: Document Medication Instructions
+Requirement Description: Document medication instruction.
+Citation: Table 1 (B. Health record - Medication documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-32
+Requirement Title: Document Medication Side Effects
+Requirement Description: Document medication side effects.
+Citation: Table 1 (B. Health record - Medication documentation), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-33
+Requirement Title: Provide Appointment Reminders
+Requirement Description: Reminders for appointments.
+Citation: Table 1 (C. General features of UI - Reminders), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-34
+Requirement Title: Provide Preventive Care Reminders
+Requirement Description: Reminders for preventive care.
+Citation: Table 1 (C. General features of UI - Reminders), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-35
+Requirement Title: Display Patient Health Self-Declaration
+Requirement Description: Display patient’s self-declaration about his health status.
+Citation: Table 1 (C. General features of UI - Display), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-36
+Requirement Title: Display Consultant Identity
+Requirement Description: Display consultant identity: name and surname and profile picture.
+Citation: Table 1 (C. General features of UI - Display), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-37
+Requirement Title: Display Consultant Curriculum Vitae
+Requirement Description: Display curriculum vitae: expertise and consulting field.
+Citation: Table 1 (C. General features of UI - Display), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-38
+Requirement Title: Display Communication Types
+Requirement Description: Display type of communication: phone call, text, video call, and real-time.
+Citation: Table 1 (C. General features of UI - Display), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-39
+Requirement Title: Display Appointment Details
+Requirement Description: Display appointment: consultation date, time, duration, and waiting time for response.
+Citation: Table 1 (C. General features of UI - Display), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-40
+Requirement Title: Enable Service Selection
+Requirement Description: Choosing consultation day, time, and type of insurance.
+Citation: Table 1 (C. General features of UI - Service selection), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-41
+Requirement Title: Generate Treatment Process Reports
+Requirement Description: Providing weekly/monthly reports on the patient’s treatment process.
+Citation: Table 1 (C. General features of UI - Reporting), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-42
+Requirement Title: Generate Vital Signs Reports
+Requirement Description: Providing weekly/monthly reports of vital signs and medical history.
+Citation: Table 1 (C. General features of UI - Reporting), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-43
+Requirement Title: Document Communication Methods
+Requirement Description: Documentation of communication ways: tagging capability in VCMA and frequently asked questions.
+Citation: Table 1 (C. General features of UI - Support), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-44
+Requirement Title: Provide Q&A Forum
+Requirement Description: Q and A ability: discussion forum with others (patients and consultants).
+Citation: Table 1 (C. General features of UI - Support), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-45
+Requirement Title: Provide Text Guide Help
+Requirement Description: Text guide: help.
+Citation: Table 1 (C. General features of UI - Help/tutorial), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-46
+Requirement Title: Provide Internal Training
+Requirement Description: Training inside VCMA: working with it.
+Citation: Table 1 (C. General features of UI - Help/tutorial), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-47
+Requirement Title: Provide About Us Section
+Requirement Description: About us.
+Citation: Table 1 (C. General features of UI - Help/tutorial), Page 4
+Requirement Related Title: VCMA
+
+Functional Requirement
+Role: VCMA
+Requirement ID: FR-48
+Requirement Title: Provide Terms and Conditions
+Requirement Description: Terms and conditions of use.
+Citation: Table 1 (C. General features of UI - Help/tutorial), Page 4
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-01
+Requirement Title: Enable Personal Profile Creation
+Requirement Description: Creating a personal profile for the user (consultant-patient).
+Citation: Table 2 (A. Usability - Setting), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-02
+Requirement Title: Support Microphone Functionality
+Requirement Description: Microphone access.
+Citation: Table 2 (A. Usability - Setting), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-03
+Requirement Title: Support Camera Functionality
+Requirement Description: Camera access.
+Citation: Table 2 (A. Usability - Setting), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-04
+Requirement Title: Allow Measurement Units Selection
+Requirement Description: Measurement units selection: selection of measurement units like centimeters and meters for height.
+Citation: Table 2 (A. Usability - Setting), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-05
+Requirement Title: Enable Multi-Participant Video Calls
+Requirement Description: Video call with other participants: making a video call with other connected individuals.
+Citation: Table 2 (A. Usability - Setting), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-06
+Requirement Title: Allow Conversation Starter Selection
+Requirement Description: Selecting conversation starter.
+Citation: Table 2 (A. Usability - Setting), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-07
+Requirement Title: Provide Log Out Feature
+Requirement Description: Log out capability.
+Citation: Table 2 (A. Usability - Setting), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-08
+Requirement Title: Enable Save and Mark Functions
+Requirement Description: Save and mark: appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant’s performance and select text from a default list.
+Citation: Table 2 (B. Accessibility - Service), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-09
+Requirement Title: Enable Data Sharing Capabilities
+Requirement Description: Ability to share: individual lessons, health record information with doctors, and patient-consultant data exchange.
+Citation: Table 2 (B. Accessibility - Service), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-10
+Requirement Title: Support Insurance Format Compatibility
+Requirement Description: Insurance: recording name and number.
+Citation: Table 2 (C. Compatibility - Service format), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-11
+Requirement Title: Provide Financial Transaction Reporting
+Requirement Description: Financial transaction reporting.
+Citation: Table 2 (D. Efficiency - Service), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-12
+Requirement Title: Support Multiple Login Methods
+Requirement Description: Login method: text password, email, activation code, and anonymously.
+Citation: Table 2 (E. Security), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-13
+Requirement Title: Verify User Identity via Code
+Requirement Description: Verify the user’s identity by sending a verification code to the mobile phone.
+Citation: Table 2 (E. Security), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-14
+Requirement Title: Allow Deletion of Records
+Requirement Description: Possibility of deleting consultation records, documents, and bank transactions.
+Citation: Table 2 (E. Security), Page 5
+Requirement Related Title: VCMA
+
+Non-Functional Requirement
+Role: VCMA
+Requirement ID: NF-15
+Requirement Title: Encrypt Patient Data Exchange
+Requirement Description: Encrypted patient data exchange.
+Citation: Table 2 (E. Security), Page 5
+Requirement Related Title: VCMA

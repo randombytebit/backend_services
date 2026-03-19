@@ -1,0 +1,153 @@
+Title request: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Requirement Title: Demand explicit permission for sensors
+Requirement Description: The system shall demand the application to explicitly ask for permission from the user to access the sensors and portals.
+Citation: Table I, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Requirement Title: Provide settings to manage permissions
+Requirement Description: The system shall also provide a host of settings to manage these permissions.
+Citation: Table I, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-03
+Requirement Title: Notify user of behavior analysis info
+Requirement Description: The system shall notice user specifically and distinctly what kinds of user information is needed for behavior analysis.
+Citation: Table II, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-04
+Requirement Title: Prohibit collection of sensitive info
+Requirement Description: The most sensitive user information (e.g. password) shall be strictly prohibited to touch and collect.
+Citation: Table II, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-05
+Requirement Title: Warn user on personal data access
+Requirement Description: The system shall provide warnings to the user when an application intend to access user files, data and credentials.
+Citation: Table III, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-06
+Requirement Title: Grant access only on permission
+Requirement Description: If and only if the user has granted the permission, the application can touch the corresponding resources.
+Citation: Table III, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-07
+Requirement Title: Enable permission withdraw and regrant
+Requirement Description: The user can withdraw or regrant any permissions in somewhere of the system later.
+Citation: Table III, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-08
+Requirement Title: Ensure confidentiality of backups
+Requirement Description: The system shall ensure confidentiality of data backup.
+Citation: Table IV, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-09
+Requirement Title: Encrypt data before cloud transmission
+Requirement Description: The data encryption must be performed before the data sending over the Internet.
+Citation: Table IV, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-10
+Requirement Title: Use secure tokens for authentication
+Requirement Description: Secure tokens shall be used for authentication.
+Citation: Table IV, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-11
+Requirement Title: Inform user of backup data content
+Requirement Description: The user should be awared what data will be backed up to the cloud.
+Citation: Table IV, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-12
+Requirement Title: Allow backup stop and cloud deletion
+Requirement Description: The user also can stop the backup function, and delete unwanted data from cloud with her device any time.
+Citation: Table IV, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-13
+Requirement Title: Provide authentication for device resources
+Requirement Description: The system shall provide authentication for the device, folders, applications and privacy-sensitive data.
+Citation: Table V, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-14
+Requirement Title: Prevent permanent local financial storage
+Requirement Description: The system shall strictly prevent any application to store the user’s financial information permanently in local.
+Citation: Table VI, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-15
+Requirement Title: Block financial info to unauthenticated parties
+Requirement Description: The application cannot transmit user financial information to any invalid or unauthenticated parties.
+Citation: Table VI, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-16
+Requirement Title: Transmit financial data securely
+Requirement Description: The credentials and data must be transmited in a secure way.
+Citation: Table VI, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: System
+Requirement ID: FR-17
+Requirement Title: Enforce secure channel for sensitive data
+Requirement Description: The system shall request the application transmit privacy-sensitive data with secure channel forcibly.
+Citation: Table VII, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-01
+Requirement Title: Use strong password encryption algorithm
+Requirement Description: The encryption algorithm of password shall be strong.
+Citation: Table V, Section IV
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-02
+Requirement Title: Set appropriate password length requirement
+Requirement Description: The length requirment shall be set appropriately.
+Citation: Table V, Section IV
+Requirement Related Title: Privacy Mobile Operating System

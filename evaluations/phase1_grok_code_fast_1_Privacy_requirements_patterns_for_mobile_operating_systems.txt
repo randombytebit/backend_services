@@ -1,0 +1,111 @@
+Functional Requirement
+Role: Mobile Operating System
+Requirement ID: FR-01
+Requirement Title: Demand Permission for Sensor Access
+Requirement Description: The system shall demand the application to explicitly ask for permission from the user to access the sensors and portals, and provide a host of settings to manage these permissions.
+Citation: Table I, Solution
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: Mobile Operating System
+Requirement ID: FR-02
+Requirement Title: Notify User for Behavior Collection
+Requirement Description: The system shall notice user specifically and distinctly what kinds of user information is needed for behavior analysis, and strictly prohibit touching and collecting the most sensitive user information such as passwords.
+Citation: Table II, Solution
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: Mobile Operating System
+Requirement ID: FR-03
+Requirement Title: Control Access to Personal Data
+Requirement Description: The system shall provide warnings to the user when an application intends to access user files, data, and credentials, and allow access only if the user has granted the permission, with the ability to withdraw or regrant permissions later.
+Citation: Table III, Solution
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: Mobile Operating System
+Requirement ID: FR-04
+Requirement Title: Encrypt Data for Cloud Backup
+Requirement Description: The system shall ensure confidentiality of data backup by performing data encryption before sending data over the Internet, use secure tokens for authentication, inform the user what data will be backed up, and allow the user to stop backup or delete unwanted data from the cloud.
+Citation: Table IV, Solution
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: Mobile Operating System
+Requirement ID: FR-05
+Requirement Title: Provide Authentication for Device Access
+Requirement Description: The system shall provide authentication for the device, folders, applications, and privacy-sensitive data using strong encryption algorithms for passwords with appropriate length requirements.
+Citation: Table V, Solution
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: Mobile Operating System
+Requirement ID: FR-06
+Requirement Title: Prevent Storage of Financial Data
+Requirement Description: The system shall strictly prevent any application from storing the user’s financial information permanently in local storage, transmitting it to invalid or unauthenticated parties, and ensure credentials and data are transmitted securely.
+Citation: Table VI, Solution
+Requirement Related Title: Privacy Mobile Operating System
+
+Functional Requirement
+Role: Mobile Operating System
+Requirement ID: FR-07
+Requirement Title: Enforce Secure Communication Channels
+Requirement Description: The system shall request the application to transmit privacy-sensitive data with secure channels forcibly.
+Citation: Table VII, Solution
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: Mobile Operating System
+Requirement ID: NF-01
+Requirement Title: Ensure Privacy Protection for Sensors
+Requirement Description: The access to the device’s sensors or portals must be strictly controlled to prevent unauthorized use, balancing user permissions with potential accidental declines affecting application functions.
+Citation: Table I, Forces
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: Mobile Operating System
+Requirement ID: NF-02
+Requirement Title: Limit Scope of Behavior Collection
+Requirement Description: The constraint for the collection process should be set up and always followed, restricting the scope of collectable information to avoid excessive authorization and user worry about privacy reveal.
+Citation: Table II, Forces
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: Mobile Operating System
+Requirement ID: NF-03
+Requirement Title: Control Access to Personal Resources
+Requirement Description: The access to the user’s files, data, and credentials must be strictly controlled, balancing with potential accidental permission declines disabling application functions.
+Citation: Table III, Forces
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: Mobile Operating System
+Requirement ID: NF-04
+Requirement Title: Balance Backup and Privacy Tradeoffs
+Requirement Description: There is a tradeoff between automated backup and customized settings, as well as between data recoverability and user privacy.
+Citation: Table IV, Forces
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: Mobile Operating System
+Requirement ID: NF-05
+Requirement Title: Balance Usability and Security
+Requirement Description: There is a tradeoff between usability and security in authentication mechanisms.
+Citation: Table V, Forces
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: Mobile Operating System
+Requirement ID: NF-06
+Requirement Title: Secure Financial Information Handling
+Requirement Description: The user’s financial information must be protected in a more secure way.
+Citation: Table VI, Forces
+Requirement Related Title: Privacy Mobile Operating System
+
+Non-Functional Requirement
+Role: Mobile Operating System
+Requirement ID: NF-07
+Requirement Title: Protect Communication with Secure Techniques
+Requirement Description: The communication between the device and servers must be protected with secure transport techniques, despite increased development costs.
+Citation: Table VII, Forces
+Requirement Related Title: Privacy Mobile Operating System

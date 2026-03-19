@@ -1,0 +1,295 @@
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Requirement Title: Enhance Video Quality Reactively
+Requirement Description: The system must automatically refine the quality of 360° VR videos without requiring user initiation.
+Citation: Page 9, Table 2, "Interaction with user action Proactive (User requests action) or Reactive (Interacts with the user without requesting) * Reactive – as it will refine the quality of the video without the users having to ask"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Requirement Title: Optimize Model for Accuracy
+Requirement Description: The system must train the deep learning model to optimize for accuracy in predicting correct pixel values.
+Citation: Page 10, Table 3, "Optimize for? Accuracy * Compare the ground truth of data to the predictions"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-03
+Requirement Title: Use Supervised Learning
+Requirement Description: The system must employ supervised learning as the machine learning type for model training.
+Citation: Page 10, Table 3, "Choose the ML type Supervised * Regression Model training Static with offline training * Fixed dataset that the model learns from"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-04
+Requirement Title: Perform Static Model Training
+Requirement Description: The system must train the model offline using a fixed dataset without online updates.
+Citation: Page 10, Table 3, "Model training Static with offline training * Fixed dataset that the model learns from"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-05
+Requirement Title: Balance Overfitting and Underfitting
+Requirement Description: The system must monitor and adjust training to prevent overfitting or underfitting the data.
+Citation: Page 10, Table 3, "Balance between overfitting & underfitting Keep track of training losses * Pinpoint the iteration at which the model when overfitting starts"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-06
+Requirement Title: Incorporate User Feedback in Tuning
+Requirement Description: The system must adjust model training based on user feedback from ranking perceptual quality.
+Citation: Page 10, Table 3, "User feedback Provide a ranking to evaluate the perceptual quality Adjusting to user behavior Change model training to optimize losses based on results from a user study to evaluate perceptual quality"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-07
+Requirement Title: Tune Model Parameters
+Requirement Description: The system must adjust parameters such as learning rates and batch sizes based on validation results.
+Citation: Page 10, Table 3, "Parameter tuning Observe training losses and make changes to training iterations, learning rates, and data batch sizes based on validation results."
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-08
+Requirement Title: Evaluate Model Quality
+Requirement Description: The system must assess model quality using metrics like parameters, runtime, and evaluation results.
+Citation: Page 10, Table 3, "Evaluate the quality of the model This is evaluated based on the number of parameters, runtime, and evaluation results"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-09
+Requirement Title: Scale Model Architecture
+Requirement Description: The system must modify the width or depth of the deep learning model to scale performance.
+Citation: Page 10, Table 3, "Specify scalability issues Scaling the model Change either the width or depth of the model to scale the DL model"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-10
+Requirement Title: Use Image Quality Metrics
+Requirement Description: The system must compute image quality assessment metrics such as PSNR and SSIM to evaluate enhancement.
+Citation: Page 10, Table 3, "Choose tools to use to evaluate the model * Compute image quality assessment metric (PSNR/SSIM, WS-PSNR/WS-SSIM)"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-11
+Requirement Title: Collect Diverse Data Sources
+Requirement Description: The system must gather data from diverse sources including open-source platforms, research labs, YouTube, and other public repositories.
+Citation: Page 11, Table 4, "Data source Type of data source * Open-source: from research labs, YouTube, open-source platforms"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-12
+Requirement Title: Split Data for Training and Testing
+Requirement Description: The system must divide data into 90% for training and 10% for testing, selected randomly.
+Citation: Page 11, Table 4, "Split Data Training data (Model tuning) 90% randomly selected for training Testing data 10% out of 590 randomly selected for testing"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-13
+Requirement Title: Ensure Data Accuracy
+Requirement Description: The system must filter data to remove sudden changes in scene, motion, and light, and eliminate rolling and credit information.
+Citation: Page 11, Table 4, "Data quality Accuracy * Data is filtered to remove sudden changes in scene, motion, and light. Rolling and credit information are removed."
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-14
+Requirement Title: Ensure Data Completeness
+Requirement Description: The system must verify that all required attributes and events for model training are present in the data.
+Citation: Page 11, Table 4, "Completeness Completeness was insured in a technical way to show the diversity that data presents"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-15
+Requirement Title: Ensure Data Consistency
+Requirement Description: The system must process data to maintain the same length and resolution across all videos.
+Citation: Page 11, Table 4, "Consistency Data is processed to become the same length and resolution"
+Requirement Related Title: 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-16
+Requirement Title: Ensure Data Currentness
+Requirement Description: The system must create video shots representing unique single scenes to ensure current data within continuous periods.
+Citation: Page 11, Table 4, "Currentness * Creating video shots that represent unique single scene; thereby ensuring that each clip/shot has current data belonging to a continuous period of time"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-01
+Requirement Title: Improve Quality of Experience
+Requirement Description: The system must enhance the immersive experience for VR users by improving video quality.
+Citation: Page 9, Table 2, "Capabilities Improved quality of experience Improved quality of service"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-02
+Requirement Title: Improve Quality of Service
+Requirement Description: The system must enhance service quality for streaming and rendering 360° VR videos.
+Citation: Page 9, Table 2, "Capabilities Improved quality of experience Improved quality of service"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-03
+Requirement Title: Support Offline Video Playback
+Requirement Description: The system must enable viewing of enhanced videos offline, without online streaming.
+Citation: Page 9, Table 2, "Limitations to stakeholders: Hardware resources and processing time Capabilities Improved quality of experience Improved quality of service How well can the system do what it does? * It should improve the resolution of the video by four times"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-04
+Requirement Title: Achieve Fourfold Resolution Improvement
+Requirement Description: The system must improve video resolution by four times using the same hardware.
+Citation: Page 9, Table 2, "Capabilities (What can the system do) How well can the system do what it does? * It should improve the resolution of the video by four times"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-05
+Requirement Title: Minimize Hardware Resource Usage
+Requirement Description: The system must operate within constraints of hardware resources and processing time.
+Citation: Page 9, Table 2, "Limitations to stakeholders: Hardware resources and processing time"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-06
+Requirement Title: Require VR-Compatible Hardware
+Requirement Description: The system must necessitate VR equipment capable of rendering high-quality videos.
+Citation: Page 9, Table 2, "Limitations to the user: the need for VR equipment with high rendering capabilities"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-07
+Requirement Title: Optimize Loss Function
+Requirement Description: The system must use a loss function to optimize model predictions for correct pixel values.
+Citation: Page 9, Table 2, "Reward function * A loss function optimize model to predict correct pixel values"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-08
+Requirement Title: Provide Invisible AI Features
+Requirement Description: The system must implement AI features without user awareness.
+Citation: Page 9, Table 2, "Is the user aware of the AI feature? Visible or Invisible features * Invisible feature, the user will not be aware of the AI component"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-09
+Requirement Title: Automate Video Enhancement
+Requirement Description: The system must automate the enhancement process without human involvement.
+Citation: Page 9, Table 2, "Evaluate approach Augmentation vs. Automation * Automation – not possible for a human to be directly involved in super-resolving videos"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-10
+Requirement Title: Avoid Visual Quality Loss
+Requirement Description: The system must prevent potential loss of visual quality during enhancement.
+Citation: Page 9, Table 2, "List potential pitfalls Loss of visual quality"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-11
+Requirement Title: Use Quantitative Feedback Metrics
+Requirement Description: The system must employ image quality assessment metrics to evaluate model enhancement capability.
+Citation: Page 10, Table 3, "Quantitative feedback Use image quality assessment metric to evaluate model’s enhancement capability."
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-12
+Requirement Title: Ensure Data Diversity
+Requirement Description: The system must collect data with diversity in motion, content, and lighting to ensure completeness.
+Citation: Page 11, Table 4, "Diversity of data To ensure diversity a complexity analysis was conducted Constraints cost, accuracy, quality, time? Quality: Resolution of 480 × 360 (hardware and memory limitations) Size: up to 20 frames (memory and model limitations)"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-13
+Requirement Title: Limit Data Resolution
+Requirement Description: The system must constrain data to a resolution of 480 × 360 due to hardware and memory limitations.
+Citation: Page 11, Table 4, "Constraints cost, accuracy, quality, time? Quality: Resolution of 480 × 360 (hardware and memory limitations)"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-14
+Requirement Title: Limit Data Size
+Requirement Description: The system must restrict data to up to 20 frames per clip due to memory and model limitations.
+Citation: Page 11, Table 4, "Size: up to 20 frames (memory and model limitations)"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-15
+Requirement Title: Ensure Data Credibility
+Requirement Description: The system must use authentic and truthful data for training and testing.
+Citation: Page 11, Table 4, "Credibility N/A Currentness * Creating video shots that represent unique single scene; thereby ensuring that each clip/shot has current data belonging to a continuous period of time"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-16
+Requirement Title: Protect Personal Information
+Requirement Description: The system must not collect or use user-related data, ensuring privacy.
+Citation: Page 11, Table 4, "Data requirements Protect personal information We are not collecting usage/user related information"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-17
+Requirement Title: Comply with Privacy Laws
+Requirement Description: The system must ensure videos used for training and testing are not shared with end users.
+Citation: Page 11, Table 4, "Does data comply with privacy and law * Videos used for training and testing are not shared with the end users. The user will have their own choice of videos to use!"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-18
+Requirement Title: Identify Data Biases
+Requirement Description: The system must detect biases such as under-representation of diverse scenes and objects in data.
+Citation: Page 11, Table 4, "Fairness Identify biases: * Model might not perform equally for videos with larger motion or luminance changes. Missing features More diverse scenes and objects are needed Under or over representative data Possibility of same scene/object represented across multiple videos"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-19
+Requirement Title: Ensure Responsible Data Sourcing
+Requirement Description: The system must source data responsibly by giving credit and citations to all sources.
+Citation: Page 11, Table 4, "Is data responsibly sourced? * All sources of the data collected are given credit and citations"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-20
+Requirement Title: Ensure Data Timeliness
+Requirement Description: The system must collect data recently, within less than a month, to maintain currentness.
+Citation: Page 11, Table 4, "What measures are taken to ensure the data is up to date? * Data was recently collected (less than a month ago)"
+Requirement Related Title: 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-21
+Requirement Title: Minimize Data Acquisition Costs
+Requirement Description: The system must account for time taken to gather and clean data as a cost factor.
+Citation: Page 11, Table 4, "Charges in obtaining data * Time taken to gather and clean the data needed"
+Requirement Related Title: 360° VR Video Enhancer

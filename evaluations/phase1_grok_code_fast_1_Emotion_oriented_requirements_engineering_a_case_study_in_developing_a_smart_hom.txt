@@ -1,0 +1,215 @@
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Requirement Title: Learn user's routine and behavior
+Requirement Description: The system learns and adapts to the user's daily routines and behaviors using sensors to identify patterns such as sleep times, bathroom visits, and activity levels.
+Citation: Section 4.1, page 221
+Requirement Related Title: Smart home system for elderly
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Requirement Title: Issue user-specific reminders
+Requirement Description: The system issues reminders for hydration, medication, appointments, and special events, triggered by user activity or schedules.
+Citation: Section 4.1, page 221
+Requirement Related Title: Smart home system for elderly
+
+Functional Requirement
+Role: System
+Requirement ID: FR-03
+Requirement Title: Detect anomalous behavior
+Requirement Description: The system identifies and alerts on anomalous situations such as irregular bathroom visits, abnormal bed time spent, or potential falls.
+Citation: Section 4.1, page 221
+Requirement Related Title: Smart home system for elderly
+
+Functional Requirement
+Role: System
+Requirement ID: FR-04
+Requirement Title: Automate physical environment
+Requirement Description: The system controls heating, cooling, and other home appliances based on user needs and learned routines.
+Citation: Section 4.1, page 221
+Requirement Related Title: Smart home system for elderly
+
+Functional Requirement
+Role: System
+Requirement ID: FR-05
+Requirement Title: Provide emergency assistance
+Requirement Description: The system detects emergencies like falls or floods and escalates incidents to service providers or carers.
+Citation: Section 4.1, page 221
+Requirement Related Title: Smart home system for elderly
+
+Functional Requirement
+Role: System
+Requirement ID: FR-06
+Requirement Title: Support independent living
+Requirement Description: The system enables elderly users to live independently by providing passive monitoring, reminders, and anomaly detection without invasive wearables.
+Citation: Section 4.2, Fig. 5
+Requirement Related Title: Smart home system for elderly
+
+Functional Requirement
+Role: System
+Requirement ID: FR-07
+Requirement Title: Issue notifications for anomalies
+Requirement Description: The system sends notifications to carers or relatives when anomalies in user behavior are detected, ensuring timely intervention.
+Citation: Section 4.2, Fig. 5
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-01
+Requirement Title: Feel reassured
+Requirement Description: Carers and relatives feel reassured about the wellbeing of the elderly person through the system's support for independent living and anomaly detection.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-02
+Requirement Title: Feel independent
+Requirement Description: Elderly users feel independent by being able to live as they please without constant monitoring or control by others.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-03
+Requirement Title: Feel in control
+Requirement Description: Elderly users have full control over their lives and the system, with minimal messages to avoid overwhelming them.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-04
+Requirement Title: Feel safe
+Requirement Description: Elderly users feel safe knowing the system can detect anomalies such as falls and alert for help.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-05
+Requirement Title: Feel integrated
+Requirement Description: The system is well integrated into the daily lives of elderly users, becoming part of their routine without disruption.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-06
+Requirement Title: Feel comfortable
+Requirement Description: Elderly users feel at ease with the technology, avoiding feelings of being old or overwhelmed by complex systems.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-07
+Requirement Title: Feel empowered
+Requirement Description: The system makes users feel more confident and empowered in controlling their lives through technology use.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-08
+Requirement Title: Feel privacy secured
+Requirement Description: Users feel their privacy is secure, with data kept locally and no unauthorized access to sensitive information.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-09
+Requirement Title: Reduce loneliness
+Requirement Description: The system alleviates feelings of loneliness by providing daily messages and a sense of companionship in the home.
+Citation: Section 5.2.1, page 224
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-10
+Requirement Title: Feel cared about
+Requirement Description: Elderly users feel cared about through daily messages and reminders that simulate concern for their wellbeing.
+Citation: Section 5.2.1, page 224
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-11
+Requirement Title: Feel excited about technology
+Requirement Description: Users feel excited about having the smart home system in their house, reducing worry and increasing positive engagement.
+Citation: Section 5.2.6, page 226
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-12
+Requirement Title: Feel confident using system
+Requirement Description: Elderly users feel confident in their ability to use the system without fear or anxiety.
+Citation: Section 5.2.6, page 226
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-13
+Requirement Title: Increase comfort level
+Requirement Description: The system increases users' comfort by being non-invasive and easy to integrate into daily life.
+Citation: Section 5.2.6, page 226
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: Elderly Person
+Requirement ID: NF-14
+Requirement Title: Operate smoothly
+Requirement Description: The system runs smoothly without complications, ensuring reliability and ease of use.
+Citation: Section 5.2.6, page 226
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-15
+Requirement Title: Ensure non-intrusive sensing
+Requirement Description: The system uses ambient, non-intrusive motion sensors to avoid making users feel old or dependent on wearables.
+Citation: Section 1, page 215
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-16
+Requirement Title: Provide privacy protection
+Requirement Description: Data collected by sensors is kept within the hub with no external access except for authorized parties.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-17
+Requirement Title: Minimize message frequency
+Requirement Description: The system limits messages to morning and medication reminders to avoid overwhelming users and maintain control.
+Citation: Section 4.2, page 222
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-18
+Requirement Title: Adapt to user behavior
+Requirement Description: The system learns and adapts to user behaviors using AI to provide personalized and relevant services.
+Citation: Section 4.1, page 221
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-19
+Requirement Title: Ensure quick emergency response
+Requirement Description: The system provides fast detection and alerting for emergencies to address user concerns about response time.
+Citation: Section 7, page 227
+Requirement Related Title: Smart home system for elderly
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-20
+Requirement Title: Be cost-effective
+Requirement Description: The system is designed to be affordable, as cost is a key factor in technology adoption by elderly users.
+Citation: Section 7, page 227
+Requirement Related Title: Smart home system for elderly

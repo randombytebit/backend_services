@@ -1,0 +1,79 @@
+Functional Requirement
+Role: Big Data System
+Requirement ID: FR-01
+Requirement Title: Process Finite Batch Data
+Requirement Description: The system must have the capability to process data which is finite and usually large in volume, such as data archived in distributed file systems or databases.
+Citation: Section 3.1
+Requirement Related Title: Real-World Big Data Systems
+
+Functional Requirement
+Role: Big Data System
+Requirement ID: FR-02
+Requirement Title: Process Infinite Stream Data
+Requirement Description: The system must have the capability to process data which is potentially infinite and usually flowing at high velocity, such as monitoring data captured and processed in real-time or close to real-time.
+Citation: Section 3.2
+Requirement Related Title: Real-World Big Data Systems
+
+Functional Requirement
+Role: Big Data System
+Requirement ID: FR-03
+Requirement Title: Handle Late and Out-of-Order Data
+Requirement Description: The system must have the capability to process data which arrives late or in a different order from that in which it was emitted, particularly in stream processing scenarios like delayed mobile user data.
+Citation: Section 3.3
+Requirement Related Title: Real-World Big Data Systems
+
+Functional Requirement
+Role: Big Data System
+Requirement ID: FR-04
+Requirement Title: Integrate with Existing Services
+Requirement Description: The system must have the capability to integrate with existing services and components, and provide provisions to facilitate the extension of the architecture to incorporate different components in the future.
+Citation: Section 3.5
+Requirement Related Title: Real-World Big Data Systems
+
+Functional Requirement
+Role: Big Data System
+Requirement ID: FR-05
+Requirement Title: Control Data Flow Backpressure
+Requirement Description: The system must have the capability to handle scenarios where the data source is emitting records faster than the system can consume, using strategies like dropping records, sampling, or applying source backpressure.
+Citation: Section 3.9
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Big Data System
+Requirement ID: NF-01
+Requirement Title: Provide Processing Guarantees
+Requirement Description: The system must offer processing guarantees such as exactly once, at least once, or at most once semantics, balancing completeness and latency costs.
+Citation: Section 3.4
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Big Data System
+Requirement ID: NF-02
+Requirement Title: Ensure Distribution and Scalability
+Requirement Description: The system must support distribution of data processing amongst different machines in multi-clustered architectures and enable dynamic scaling by adding or removing nodes without downtime.
+Citation: Section 3.6
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Big Data System
+Requirement ID: NF-03
+Requirement Title: Support Cloud Elasticity
+Requirement Description: The system must support moving to the cloud for elasticity, allowing scaling up and down according to demand while paying only for used resources to reduce wastage.
+Citation: Section 3.7
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Big Data System
+Requirement ID: NF-04
+Requirement Title: Maintain Fault Tolerance
+Requirement Description: The system must continue to operate if one or more nodes fail, recovering gracefully with minimal impact on user experience through mechanisms like node independence and redundancy.
+Citation: Section 3.8
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Big Data System
+Requirement ID: NF-05
+Requirement Title: Enable Flexibility and Agnosticism
+Requirement Description: The system must allow the use of different technologies in place of existing components, promoting modularity and reducing tight coupling for better adaptability.
+Citation: Section 3.10
+Requirement Related Title: Real-World Big Data Systems

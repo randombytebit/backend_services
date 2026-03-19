@@ -1,0 +1,79 @@
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-01
+Requirement Title: Handle Batch Data
+Requirement Description: The system must support processing of finite and large volume data, such as data archived in distributed file systems or databases, with daily processing volumes reaching tens of petabytes.
+Citation: Section 3.1
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-02
+Requirement Title: Handle Stream Data
+Requirement Description: The system must support processing of potentially infinite and high-velocity data, such as monitoring data captured and processed in real-time or near real-time.
+Citation: Section 3.2
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-03
+Requirement Title: Handle Late and Out-of-Order Data
+Requirement Description: The system must process streaming data that arrives late or in a different order from emission, using mechanisms like data windows and low watermarks to transform infinite streams into finite processable units.
+Citation: Section 3.3
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-04
+Requirement Title: Provide Processing Guarantees
+Requirement Description: The system must offer processing semantics including exactly once, at least once, and at most once guarantees, with exactly once involving checkpointing but potentially increasing latency, tailored to use cases like sampling where duplication is unacceptable.
+Citation: Section 3.4
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-05
+Requirement Title: Ensure Integration and Extensibility
+Requirement Description: The system must integrate with existing services and components via messaging systems, and facilitate extension by allowing new components to incorporate seamlessly, such as through modular designs or standardized interfaces.
+Citation: Section 3.5
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-06
+Requirement Title: Support Distribution and Scalability
+Requirement Description: The system must distribute data processing across multiple machines and data centers in a multi-clustered architecture, enabling dynamic scaling by adding or removing nodes without downtime, such as through increasing brokers or using auto-scaling frameworks.
+Citation: Section 3.6
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-07
+Requirement Title: Provide Cloud Support and Elasticity
+Requirement Description: The system must operate in cloud environments to leverage economies of scale, with elasticity allowing dynamic scaling up or down based on demand, reducing wastage by paying only for used resources and combining with traditional scalability.
+Citation: Section 3.7
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-08
+Requirement Title: Ensure Fault Tolerance
+Requirement Description: The system must continue operating despite node failures, recovering gracefully with minimal user impact through mechanisms like node independence, checkpointing, modular distribution, decentralized management, and multi-region redundancy.
+Citation: Section 3.8
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-09
+Requirement Title: Implement Flow Control
+Requirement Description: The system must handle scenarios where data emission exceeds consumption rates, using backpressure strategies such as node reallocation, tightening upstream components, or programmatic options like buffering, sampling, or debouncing.
+Citation: Section 3.9
+Requirement Related Title: Real-World Big Data Systems
+
+Non-Functional Requirement
+Role: Real-World Big Data System
+Requirement ID: NF-10
+Requirement Title: Achieve Flexibility and Technology Agnosticism
+Requirement Description: The system must allow replacement of components with different technologies, supported by modular architectures, open-source components, containerization, and standards like Reactive Streams to reduce vendor lock-in and enable interoperability.
+Citation: Section 3.10
+Requirement Related Title: Real-World Big Data Systems

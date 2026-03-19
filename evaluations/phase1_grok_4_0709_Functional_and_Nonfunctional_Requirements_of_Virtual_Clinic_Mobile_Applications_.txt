@@ -1,0 +1,319 @@
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-01
+Requirement Title: Document User Identity Details
+Requirement Description: Record user's first name and surname as part of demographic data.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-02
+Requirement Title: Document Insurance Information
+Requirement Description: Record insurance name and number for the user.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-03
+Requirement Title: Document Vital Signs
+Requirement Description: Record blood pressure and heart rate as vital signs in health records.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-04
+Requirement Title: Document Kidney-Related Data
+Requirement Description: Record blood sugar levels for kidney documentation in health records.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-05
+Requirement Title: Document Fitness Metrics
+Requirement Description: Record weight, exercise, sleep, and nutrition for fitness documentation in health records.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-06
+Requirement Title: Document Skin Condition
+Requirement Description: Record condition of skin in health records.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-07
+Requirement Title: Document Medical History
+Requirement Description: Record disease history, family history, allergy, medications history, vaccination, surgeries, and smoking in health records.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-08
+Requirement Title: Document Present Health History
+Requirement Description: Record symptoms and conditions, X-ray, tests, treatments, prescriptions, and patient training in present history documentation.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-09
+Requirement Title: Document Inpatient Treatment History
+Requirement Description: Record date of admission and discharge, hospital name, chief complaint, and summary for inpatient treatment history.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-10
+Requirement Title: Document Medication Details
+Requirement Description: Record name, dose, type, instruction, and side effects for medications in health records.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-11
+Requirement Title: Provide Appointment Reminders
+Requirement Description: Send reminders for appointments and preventive care.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-12
+Requirement Title: Display Patient Health Status
+Requirement Description: Display patient's self-declaration about health status.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-13
+Requirement Title: Display Consultant Identity
+Requirement Description: Display consultant's name, surname, and profile picture.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-14
+Requirement Title: Display Consultant Curriculum Vitae
+Requirement Description: Display consultant's expertise and consulting field.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-15
+Requirement Title: Support Communication Types
+Requirement Description: Support phone call, text, video call, and real-time communication.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-16
+Requirement Title: Display Appointment Details
+Requirement Description: Display consultation date, time, duration, and waiting time for response.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-17
+Requirement Title: Enable Service Selection
+Requirement Description: Allow choosing consultation day, time, and type of insurance.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-18
+Requirement Title: Generate Treatment Reports
+Requirement Description: Provide weekly/monthly reports on the patient's treatment process.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-19
+Requirement Title: Generate Vital Signs Reports
+Requirement Description: Provide weekly/monthly reports of vital signs and medical history.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-20
+Requirement Title: Support Communication Documentation
+Requirement Description: Document communication ways including tagging capability and frequently asked questions.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-21
+Requirement Title: Enable Q&A Forum
+Requirement Description: Provide Q and A ability through discussion forum with patients and consultants.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-22
+Requirement Title: Provide Text Guide Help
+Requirement Description: Offer text guide for help.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-23
+Requirement Title: Provide In-App Training
+Requirement Description: Offer training inside VCMA on working with it.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-24
+Requirement Title: Display About Us Information
+Requirement Description: Provide "About us" section.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: FR-25
+Requirement Title: Display Terms and Conditions
+Requirement Description: Provide terms and conditions of use.
+Citation: Table 1, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-01
+Requirement Title: Enable Personal Profile Creation
+Requirement Description: Allow creating a personal profile for the user (consultant-patient).
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-02
+Requirement Title: Support Microphone Functionality
+Requirement Description: Provide microphone settings for usability.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-03
+Requirement Title: Support Camera Functionality
+Requirement Description: Provide camera settings for usability.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-04
+Requirement Title: Allow Measurement Units Selection
+Requirement Description: Enable selection of measurement units like centimeters and meters for height.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-05
+Requirement Title: Enable Multi-Participant Video Calls
+Requirement Description: Allow making a video call with other connected individuals.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-06
+Requirement Title: Support Conversation Starter Selection
+Requirement Description: Allow selecting conversation starter for usability.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-07
+Requirement Title: Provide Log Out Functionality
+Requirement Description: Enable log out option for users.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-08
+Requirement Title: Enable Save and Mark Features
+Requirement Description: Allow saving and marking appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant's performance and select text from a default list.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-09
+Requirement Title: Enable Data Sharing Capabilities
+Requirement Description: Provide ability to share individual lessons, health record information with doctors, and patient-consultant data exchange.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-10
+Requirement Title: Support Insurance Recording Compatibility
+Requirement Description: Ensure compatibility for recording insurance name and number in service format.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-11
+Requirement Title: Provide Financial Transaction Reporting
+Requirement Description: Enable reporting of financial transactions for efficiency.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-12
+Requirement Title: Support Multiple Login Methods
+Requirement Description: Provide login methods including text password, email, activation code, and anonymously.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-13
+Requirement Title: Verify User Identity
+Requirement Description: Verify the user's identity by sending a verification code to the mobile phone.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-14
+Requirement Title: Allow Deletion of Records
+Requirement Description: Provide possibility of deleting consultation records, documents, and bank transactions.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic
+
+Non-Functional Requirement
+Role: Virtual Clinic Mobile Application
+Requirement ID: NF-15
+Requirement Title: Ensure Encrypted Data Exchange
+Requirement Description: Enable encrypted patient data exchange for security.
+Citation: Table 2, Section 3.3
+Requirement Related Title: Mobile Application, Virtual Clinic

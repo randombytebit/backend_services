@@ -1,0 +1,145 @@
+Title request: biology and bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-01
+Requirement Title: Support Microarray Data Analysis
+Requirement Description: The system must provide tools for preprocessing, quality control, normalization, and statistical analysis of microarray data to facilitate gene expression studies.
+Citation: Section "Using Bioconductor (example)", page R80.12
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-02
+Requirement Title: Enable Data Subsetting
+Requirement Description: The system must allow users to subset microarray data based on specific covariates or conditions, such as selecting patient groups with particular chromosomal translocations.
+Citation: Section "Using Bioconductor (example)", page R80.13
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-03
+Requirement Title: Perform Differential Expression Analysis
+Requirement Description: The system must support statistical methods like linear modeling and empirical Bayes testing to identify differentially expressed genes across different biological conditions.
+Citation: Section "Using Bioconductor (example)", page R80.13
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-04
+Requirement Title: Provide Visualization Tools
+Requirement Description: The system must offer visualization capabilities such as heatmaps to display differential gene expression patterns across samples for exploratory analysis.
+Citation: Section "Using Bioconductor (example)", page R80.13, Figure 2
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-05
+Requirement Title: Integrate Biological Metadata
+Requirement Description: The system must integrate biological metadata, such as Gene Ontology annotations and chromosomal locations, with expression data to support functional interpretation.
+Citation: Section "Using Bioconductor (example)", page R80.13-14, Figure 3
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-06
+Requirement Title: Support Reproducible Research
+Requirement Description: The system must enable the distribution of data, software, and scripts in a platform-independent format to ensure reproducibility of computational analyses.
+Citation: Section "Reproducible research", page R80.8
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-07
+Requirement Title: Facilitate Modular Software Development
+Requirement Description: The system must support modular design through R packages, allowing independent development and integration of software components for specific tasks.
+Citation: Section "Modularization", page R80.5
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-08
+Requirement Title: Automate Software Distribution
+Requirement Description: The system must provide automated tools for package distribution, updates, and dependency management to simplify user access to software components.
+Citation: Section "Automated software distribution", page R80.5
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-09
+Requirement Title: Enable Access to Online Data Resources
+Requirement Description: The system must provide functionalities to access online data sources and databases, ensuring integration of diverse biological data for analysis.
+Citation: Section "WWW connectivity", page R80.3
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-10
+Requirement Title: Support Parallel Computing
+Requirement Description: The system must support parallel computing capabilities to handle large-scale computational tasks on clusters, enhancing processing efficiency.
+Citation: Section "Support for concurrent computation", page R80.3
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-01
+Requirement Title: Ensure Transparency in Analysis
+Requirement Description: The system must ensure transparency by exposing the entire process of data transformation and analysis to allow scrutiny and validation of results.
+Citation: Section "Transparency", page R80.2
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-02
+Requirement Title: Promote Reproducibility of Results
+Requirement Description: The system must promote reproducibility by providing portable source code and data alongside published analyses to enable verification.
+Citation: Section "Pursuit of reproducibility", page R80.2
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-03
+Requirement Title: Enhance Development Efficiency
+Requirement Description: The system must enhance efficiency in software development by allowing reuse and extension of open-source resources, reducing redundant efforts.
+Citation: Section "Efficiency of development", page R80.2
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-04
+Requirement Title: Maintain High Interoperability
+Requirement Description: The system must maintain high interoperability with other programming languages and bioinformatics projects to facilitate collaborative use of resources.
+Citation: Section "Other open-source bioinformatics software projects", page R80.10-11
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-05
+Requirement Title: Provide Robust Documentation
+Requirement Description: The system must provide comprehensive and accessible documentation, including vignettes and executable examples, to support user learning and usage.
+Citation: Section "Multiscale and executable documentation", page R80.5
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-06
+Requirement Title: Ensure Platform Independence
+Requirement Description: The system must ensure platform independence to allow consistent functionality across different operating environments for users worldwide.
+Citation: Section "Reproducible research", page R80.8
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-07
+Requirement Title: Support Scalability for Large Data
+Requirement Description: The system must be scalable to handle large datasets and high-throughput data typical in computational biology, ensuring performance is not compromised.
+Citation: Section "Background", page R80.2
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-08
+Requirement Title: Ensure User Accessibility
+Requirement Description: The system must be accessible to users from diverse scientific backgrounds by providing training materials and support to reduce barriers to entry.
+Citation: Section "Training", page R80.9
+Requirement Related Title: Bioconductor, Computational Biology, Bioinformatics

@@ -1,0 +1,175 @@
+Functional Requirement
+Role: exprSet class
+Requirement ID: FR-01
+Requirement Title: Bind expression data with covariates
+Requirement Description: Binds together array-based expression measurements with covariate and administrative data for a collection of microarrays, based on R data.frame and list structures, offering convenience for gene filtering, annotation-based subsets, and manipulations.
+Citation: Page 4, Infrastructure base section
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: exprSet class
+Requirement ID: FR-02
+Requirement Title: Support subsetting by samples and probes
+Requirement Description: Supports subsetting using square-bracket notation to derive new exprSet with data on desired patients or probes.
+Citation: Page 13, Using Bioconductor example
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Metadata packages (e.g., hgu95av2)
+Requirement ID: FR-03
+Requirement Title: Retrieve metadata by probe names
+Requirement Description: Provides hashed environments for high-performance retrieval of metadata based on probe nomenclature.
+Citation: Page 4, Infrastructure base section
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Metadata packages (e.g., hgu95av2)
+Requirement ID: FR-04
+Requirement Title: Retrieve probe groups by metadata
+Requirement Description: Enables retrieval of groups of probe names based on metadata specifications, usable with exprSets for expression value extraction.
+Citation: Page 4, Infrastructure base section
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor objects
+Requirement ID: FR-05
+Requirement Title: Implement exprs and pData methods
+Requirement Description: Objects satisfying exprSet contract must respond to exprs() returning R matrix and pData() returning R data.frame.
+Citation: Page 4-5, Designing by contract section
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: R packaging system
+Requirement ID: FR-06
+Requirement Title: Package software with tests and docs
+Requirement Description: Packages together related software components and documentation with protocol compliance, test-based validation, version identification, and interdependencies.
+Citation: Page 3, Packaging protocol
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Vignette system
+Requirement ID: FR-07
+Requirement Title: Generate executable task documentation
+Requirement Description: Uses Sweave to create vignettes describing processing steps for specific tasks involving multiple functions/packages, with interactive access including code evaluation.
+Citation: Page 5, Multiscale and executable documentation
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: reposTools package
+Requirement ID: FR-08
+Requirement Title: Automate package installation and updates
+Requirement Description: Provides automatic updating of packages and tools to obtain all package dependencies automatically.
+Citation: Page 5, Automated software distribution
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Development system
+Requirement ID: FR-09
+Requirement Title: Manage shared code with CVS
+Requirement Description: Uses Concurrent Versions System for shared code base accessible and modifiable by team members with version management.
+Citation: Page 6, Distributed development section
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Package testing system
+Requirement ID: FR-10
+Requirement Title: Execute package tests pre-commit
+Requirement Description: Developers run all package tests successfully before committing changes to central archive to ensure non-regressive development.
+Citation: Page 6, Distributed development section
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: graph, RBGL, Rgraphviz packages
+Requirement ID: FR-11
+Requirement Title: Interface to external graph libraries
+Requirement Description: Provides interfaces to BOOST graph algorithms (RBGL) and Graphviz layout algorithms (Rgraphviz) for graph handling in R.
+Citation: Page 6-7, Reuse of exogenous resources
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Annotation packages
+Requirement ID: FR-12
+Requirement Title: Build metadata packages semi-automatically
+Requirement Description: Places metadata into R packages built using semi-automatic process (AnnBuilder) for uniform structure and quick creation.
+Citation: Page 9, Dynamics of biological annotation
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: limma package
+Requirement ID: FR-13
+Requirement Title: Fit linear models for differential expression
+Requirement Description: lmFit assesses differential expression between groups using model matrix, producing MArrayLM object for eBayes empirical Bayes statistics.
+Citation: Page 13, Using Bioconductor example
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: GOstats package
+Requirement ID: FR-14
+Requirement Title: Perform GO hypergeometric tests
+Requirement Description: GOHyperG carries out hypergeometric test for overabundance of genes in selected list for GO terms.
+Citation: Page 14, Using Bioconductor example
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor Project
+Requirement ID: NF-01
+Requirement Title: Ensure process transparency
+Requirement Description: Exposes entire process from low-level structures like microarray images to statistical databases for credible analysis.
+Citation: Page 2, Transparency section
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor Project
+Requirement ID: NF-02
+Requirement Title: Achieve remote reproducibility
+Requirement Description: Promotes reproducibility by accompanying published analyses with portable source code and data, enabling protocol obedience like experimental protocols.
+Citation: Page 2, Pursuit of reproducibility
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor Project
+Requirement ID: NF-03
+Requirement Title: Enhance development efficiency
+Requirement Description: Enables reading, modifying, extending software/data resources to achieve new functionalities, aids recruitment/training via open sources.
+Citation: Page 2, Efficiency of development
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor environment
+Requirement ID: NF-04
+Requirement Title: Provide durable flexibility
+Requirement Description: Creates durable and flexible software development/deployment environment meeting conceptual, computational, inferential challenges in CBB.
+Citation: Page 2, Background
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor Project
+Requirement ID: NF-05
+Requirement Title: Reduce entry barriers
+Requirement Description: Simplifies processes for statistical researchers to explore CBB data/algorithms and biologists to use state-of-the-art methods.
+Citation: Page 2, Background
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Metadata packages
+Requirement ID: NF-06
+Requirement Title: Enable high-performance access
+Requirement Description: Hashed environments provide high-performance retrieval of metadata and probe sets.
+Citation: Page 4, Infrastructure base section
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor software
+Requirement ID: NF-07
+Requirement Title: Support platform independence
+Requirement Description: R platform independence combined with packaging/documentation standards enables reproducible, replayable research.
+Citation: Page 8, Reproducible research
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor packages
+Requirement ID: NF-08
+Requirement Title: Promote open-source reuse
+Requirement Description: Released under open-source license to encourage reproducibility, extension, scrutiny, bug fixes, scientific practice (Table 1).
+Citation: Page 7-8, Publication and licensing; Table 1
+Requirement Related Title: Bioconductor

@@ -1,0 +1,311 @@
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-01
+Requirement Title: Foster collaborative software development
+Requirement Description: The system must enable collaborative creation of extensible software for computational biology and bioinformatics, including shared code bases and version management for distributed developers.
+Citation: Section on Distributed development and recruitment of developers, page 6
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-02
+Requirement Title: Provide transparency in data processing
+Requirement Description: The system must expose the entire process of converting low-level information structures (e.g., microarray scan images) to statistical databases, ensuring sensitivity to variations or errors in the pipeline.
+Citation: Section on Transparency, page 2
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-03
+Requirement Title: Support pursuit of reproducibility
+Requirement Description: The system must allow publication of portable source code coupled with data to enable checking accuracy by complete obedience to protocols, including scripts that regenerate figures and tables.
+Citation: Section on Pursuit of reproducibility, page 2
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-04
+Requirement Title: Enable efficiency of development
+Requirement Description: The system must allow modification and extension of open-source resources to achieve new functionalities, serving as learning materials with good documentation protocols.
+Citation: Section on Efficiency of development, page 2
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: R Environment Integration
+Requirement ID: FR-05
+Requirement Title: Support prototyping of methods
+Requirement Description: The system must provide a high-level interpreted language to easily and quickly prototype new computational methods, with options for re-implementation for speed.
+Citation: Section on Prototyping capabilities, page 3
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: R Environment Integration
+Requirement ID: FR-06
+Requirement Title: Manage software packaging
+Requirement Description: The system must package related software components and documentation, supporting creation, testing, distribution, and interdependencies.
+Citation: Section on Packaging protocol, page 3
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: R Environment Integration
+Requirement ID: FR-07
+Requirement Title: Implement object-oriented programming
+Requirement Description: The system must use formal classes and methods (e.g., S4 system) for reliable package interoperability, defining structures, inheritance, and validation.
+Citation: Section on Object-oriented programming support, page 3
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: R Environment Integration
+Requirement ID: FR-08
+Requirement Title: Provide WWW connectivity
+Requirement Description: The system must offer functions and packages for accessing databases and web resources via http, XML, and SOAP, integrating diverse data and annotation resources.
+Citation: Section on WWW connectivity, page 3
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: R Environment Integration
+Requirement ID: FR-09
+Requirement Title: Support statistical simulation and modeling
+Requirement Description: The system must include random number generators, machine learning algorithms, and adaptations for CBB requirements.
+Citation: Section on Statistical simulation and modeling support, page 3
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: R Environment Integration
+Requirement ID: FR-10
+Requirement Title: Offer visualization capabilities
+Requirement Description: The system must provide data and model visualization tools, including plots for genes at chromosomal locations, heatmaps, and interactive navigation.
+Citation: Section on Visualization support, page 3
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: R Environment Integration
+Requirement ID: FR-11
+Requirement Title: Enable concurrent computation
+Requirement Description: The system must support parallel statistical computing on clusters using packages like snow and rpvm, including parallel random number generation.
+Citation: Section on Support for concurrent computation, page 3-4
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Infrastructure
+Requirement ID: FR-12
+Requirement Title: Bind expression data with covariates
+Requirement Description: The system must use exprSet class to bind array-based expression measurements with covariate and administrative data for microarray collections.
+Citation: Section on Infrastructure base, page 4
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Infrastructure
+Requirement ID: FR-13
+Requirement Title: Provide metadata packages
+Requirement Description: The system must offer metadata packages (e.g., hgu95av2) for relating chip components to biological metadata like sequence, gene functionality, and pathways.
+Citation: Section on Infrastructure base, page 4
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Design
+Requirement ID: FR-14
+Requirement Title: Implement designing by contract
+Requirement Description: The system must ensure objects satisfy specified functionalities (e.g., exprSet contract for exprs and pData functions) regardless of underlying representation.
+Citation: Section on Designing by contract, page 4-5
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Design
+Requirement ID: FR-15
+Requirement Title: Support modularization
+Requirement Description: The system must modularize at data structure, function, and package levels, ensuring minimally sufficient content and isolated functionality.
+Citation: Section on Modularization, page 5
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Design
+Requirement ID: FR-16
+Requirement Title: Provide multiscale documentation
+Requirement Description: The system must offer vignettes for detailed processing steps, using Sweave for executable code chunks and interactive access via vExplorer.
+Citation: Section on Multiscale and executable documentation, page 5
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Design
+Requirement ID: FR-17
+Requirement Title: Automate software distribution
+Requirement Description: The system must support automatic updating, dependency handling, and MD5 checksums for package verification.
+Citation: Section on Automated software distribution, page 5-6
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Development
+Requirement ID: FR-18
+Requirement Title: Enable distributed development
+Requirement Description: The system must use Concurrent Versions System for shared code access, version management, and testing to prevent regressions.
+Citation: Section on Distributed development and recruitment of developers, page 6
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-19
+Requirement Title: Reuse exogenous resources
+Requirement Description: The system must interface with external libraries (e.g., graph, RBGL, Rgraphviz interfacing BOOST and Graphviz) for graph algorithms and layouts.
+Citation: Section on Reuse of exogenous resources, page 6-7
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-20
+Requirement Title: Support open-source licensing
+Requirement Description: The system must release software under open-source licenses to encourage reproducibility, extension, and public scrutiny.
+Citation: Section on Publication and licensing of code, page 7
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-21
+Requirement Title: Manage software releases
+Requirement Description: The system must coordinate biannual releases with separate branches for bug fixes and new developments, ensuring coordination and testing.
+Citation: Section on Publication and licensing of code, page 7
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-22
+Requirement Title: Enable reproducible research
+Requirement Description: The system must distribute data with working code and scripts to regenerate figures and tables, using packages as compendia.
+Citation: Section on Reproducible research, page 8
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Infrastructure
+Requirement ID: FR-23
+Requirement Title: Handle dynamic biological annotation
+Requirement Description: The system must package metadata in R packages with version numbers for updates, synchronization, and amalgamation from multiple sources.
+Citation: Section on Dynamics of biological annotation, page 9
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-24
+Requirement Title: Provide training materials
+Requirement Description: The system must offer modular course materials, vignettes, and navigable documents for users from biology, computer science, and statistics.
+Citation: Section on Training, page 9-10
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor System
+Requirement ID: FR-25
+Requirement Title: Respond to user needs
+Requirement Description: The system must maintain an email help list, searchable archives, and tools for downloading packages with dependencies.
+Citation: Section on Responding to user needs, page 10
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Packages
+Requirement ID: FR-26
+Requirement Title: Support microarray data analysis
+Requirement Description: The system must normalize microarrays, subset exprSets, perform differential expression analysis (e.g., using lmFit and eBayes), and generate heatmaps.
+Citation: Section on Using Bioconductor (example), page 13-14
+Requirement Related Title: Bioconductor
+
+Functional Requirement
+Role: Bioconductor Packages
+Requirement ID: FR-27
+Requirement Title: Perform hypergeometric tests
+Requirement Description: The system must conduct hypergeometric tests for overrepresentation (e.g., using GOHyperG for GO terms) on selected genes.
+Citation: Section on Using Bioconductor (example), page 14-15
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-01
+Requirement Title: Ensure transparency
+Requirement Description: The system should provide high transparency in high-throughput methodologies, exposing all steps in data processing pipelines.
+Citation: Section on Transparency, page 2
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-02
+Requirement Title: Promote reproducibility
+Requirement Description: The system should achieve remote reproducibility of research results through portable code and data.
+Citation: Abstract and section on Pursuit of reproducibility, page 1-2
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-03
+Requirement Title: Enhance development efficiency
+Requirement Description: The system should facilitate efficient software development by allowing reuse, refinement, and extension of resources.
+Citation: Section on Efficiency of development, page 2
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: R Environment Integration
+Requirement ID: NF-04
+Requirement Title: Provide reliability in algorithms
+Requirement Description: The system should use well-tested random number generators and machine learning algorithms known to be reliable.
+Citation: Section on Statistical simulation and modeling support, page 3
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor Infrastructure
+Requirement ID: NF-05
+Requirement Title: Ensure interoperability
+Requirement Description: The system should enable ease of interoperation between packages (e.g., affy, marray, limma) through three-tier architecture.
+Citation: Section on Infrastructure base, page 4
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor Design
+Requirement ID: NF-06
+Requirement Title: Maintain contract satisfaction
+Requirement Description: The system should verify satisfaction of design contracts for convenient inheritance and minimal recoding.
+Citation: Section on Designing by contract, page 4-5
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor Design
+Requirement ID: NF-07
+Requirement Title: Support portability
+Requirement Description: The system should ensure platform independence for reproducible research.
+Citation: Section on Reproducible research, page 8
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor Infrastructure
+Requirement ID: NF-08
+Requirement Title: Handle data evolution
+Requirement Description: The system should manage evolving metadata with updates, version numbers, and synchronization.
+Citation: Section on Dynamics of biological annotation, page 9
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-09
+Requirement Title: Ensure accessibility
+Requirement Description: The system should reduce barriers to entry for interdisciplinary research.
+Citation: Abstract, page 1
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-10
+Requirement Title: Provide extensibility
+Requirement Description: The system should allow extension and improvement of software offerings over time.
+Citation: Section on Publication and licensing of code, page 7
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-11
+Requirement Title: Support scalability
+Requirement Description: The system should handle large-scale CBB tasks through modular design and parallel development.
+Citation: Section on Methodology, page 2
+Requirement Related Title: Bioconductor
+
+Non-Functional Requirement
+Role: Bioconductor System
+Requirement ID: NF-12
+Requirement Title: Ensure robustness
+Requirement Description: The system should allow checking robustness of calculations through code modification and replay.
+Citation: Section on Reproducible research, page 8
+Requirement Related Title: Bioconductor

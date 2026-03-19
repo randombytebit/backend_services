@@ -1,0 +1,169 @@
+Title request: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Requirement Title: Identify User Needs for AI System
+Requirement Description: The system must identify and document user needs to ensure the AI-based software addresses specific human-centered requirements, including who the users are, why the system is needed, and what it is used for.
+Citation: Section 2.1, Table 2
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Requirement Title: Define System Capabilities and Limitations
+Requirement Description: The system must define and document its capabilities (what it can do) and limitations (what it cannot do) for both users and stakeholders to set realistic expectations.
+Citation: Section 2.1, Table 2, Figure 8
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-03
+Requirement Title: Support User Interaction Modes
+Requirement Description: The system must support proactive or reactive interaction modes with users, determining whether it responds to user requests or interacts without prompting, and whether AI features are visible or invisible to the user.
+Citation: Section 2.1, Table 2
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-04
+Requirement Title: Implement Automation or Augmentation
+Requirement Description: The system must implement either automation (for tasks not requiring human involvement) or augmentation (to enhance user experience with human-in-the-loop) based on user needs and task nature.
+Citation: Section 2.1, Table 2
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: AI Model
+Requirement ID: FR-05
+Requirement Title: Select Machine Learning Type
+Requirement Description: The AI model must support the selection of appropriate machine learning types (supervised, unsupervised, or reinforcement learning) based on the specific requirements of the application.
+Citation: Section 2.2, Table 3
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: AI Model
+Requirement ID: FR-06
+Requirement Title: Train Model with Static or Dynamic Approach
+Requirement Description: The AI model must support training using either a static approach (offline training with updates) or a dynamic approach (online learning from user interactions and feedback).
+Citation: Section 2.2, Table 3
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: AI Model
+Requirement ID: FR-07
+Requirement Title: Tune Model Parameters and Architecture
+Requirement Description: The AI model must allow tuning of parameters and architecture changes based on user feedback, user behavior, and output errors to optimize performance.
+Citation: Section 2.2, Table 3, Figure 9
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: Data Module
+Requirement ID: FR-08
+Requirement Title: Select and Collect Diverse Data
+Requirement Description: The data module must support the selection and collection of diverse data, specifying features, labels, examples, and sampling rates to ensure suitability for model training.
+Citation: Section 2.3, Table 4, Figure 10
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: Data Module
+Requirement ID: FR-09
+Requirement Title: Split Data for Training and Testing
+Requirement Description: The data module must split collected data into training (for model tuning) and testing sets to evaluate model performance.
+Citation: Section 2.3, Table 4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-10
+Requirement Title: Collect User Feedback for Model Tuning
+Requirement Description: The system must collect explicit and implicit user feedback (e.g., surveys, ratings, interaction behaviors) to be used in tuning the AI model and improving system performance.
+Citation: Section 2.4, Table 5
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Functional Requirement
+Role: System
+Requirement ID: FR-11
+Requirement Title: Provide User Control Options
+Requirement Description: The system must provide users with control options, allowing them to adjust preferences, dismiss feedback requests, or take control in high-stakes situations.
+Citation: Section 2.4, Table 5
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: System
+Requirement ID: FR-12
+Requirement Title: Explain Predictions and System Behavior
+Requirement Description: The system must explain predictions, data usage, and system behavior to users and stakeholders, including limitations, capabilities, and consequences of actions, using methods like examples or confidence displays.
+Citation: Section 2.5, Table 5
+Requirement Related Title: Human-Centered AI Software Systems
+
+Functional Requirement
+Role: System
+Requirement ID: FR-13
+Requirement Title: Identify and Mitigate Errors
+Requirement Description: The system must identify potential error sources (e.g., prediction, data, input, output, system integration) and provide mitigation strategies, such as user corrections or suggestions.
+Citation: Section 2.6, Table 5
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-01
+Requirement Title: Ensure Inclusivity in Design
+Requirement Description: The system should ensure inclusivity by addressing diverse user needs and avoiding biases related to age, gender, ethnicity, and other human aspects during requirements engineering.
+Citation: Section 1, Section 2.1
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: AI Model
+Requirement ID: NF-02
+Requirement Title: Optimize for Accuracy or Explainability
+Requirement Description: The AI model should optimize for either accuracy or explainability based on user and stakeholder needs, documenting trade-offs when conflicts arise.
+Citation: Section 2.2, Table 3
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: AI Model
+Requirement ID: NF-03
+Requirement Title: Balance Overfitting and Underfitting
+Requirement Description: The AI model should balance overfitting and underfitting during training to ensure robust performance on unseen data.
+Citation: Section 2.2, Table 3
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: AI Model
+Requirement ID: NF-04
+Requirement Title: Ensure Scalability of Model
+Requirement Description: The AI model should be scalable, allowing adjustments in width or depth to handle varying computational demands, while documenting trade-offs in time and cost.
+Citation: Section 2.2, Table 3, Figure 9
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: Data Module
+Requirement ID: NF-05
+Requirement Title: Maintain High Data Quality
+Requirement Description: The data module should ensure high data quality by maintaining accuracy, completeness, consistency, credibility, and currentness of the data used for training and testing.
+Citation: Section 2.3, Table 4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: Data Module
+Requirement ID: NF-06
+Requirement Title: Ensure Data Privacy and Fairness
+Requirement Description: The data module should protect personal information, comply with privacy laws, and address fairness by identifying and mitigating biases in data collection and usage.
+Citation: Section 2.3, Table 4
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-07
+Requirement Title: Enhance User Trust through Explainability
+Requirement Description: The system should enhance user trust by providing clear explanations of AI behavior and predictions, avoiding over-trust, and calibrating expectations appropriately.
+Citation: Section 2.5, Table 5
+Requirement Related Title: Human-Centered AI Software Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NF-08
+Requirement Title: Minimize Latency in User Experience
+Requirement Description: The system should minimize latency in rendering outputs (e.g., video frames in VR) to prevent user discomfort or VR sickness, balancing quality and performance trade-offs.
+Citation: Section 5.1
+Requirement Related Title: Human-Centered AI Software Systems, 360° VR Video Enhancer
