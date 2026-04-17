@@ -1,0 +1,195 @@
+- Role: Machine Learning System
+- Requirement ID: FR-01
+- Requirement Title: Perform Image Recognition
+- Requirement Description: The system must use machine learning to recognize images, enabling tasks difficult to achieve via standard software.
+- Citation: Page 1, Section I. INTRODUCTION
+- Requirement Related Title: Machine Learning Applications
+
+- Role: Machine Learning System
+- Requirement ID: FR-02
+- Requirement Title: Diagnose Cancer
+- Requirement Description: The system must use machine learning to diagnose cancer based on data.
+- Citation: Page 1, Section I. INTRODUCTION
+- Requirement Related Title: Machine Learning Applications
+
+- Role: Machine Learning System
+- Requirement ID: FR-03
+- Requirement Title: Estimate Insurance
+- Requirement Description: The system must use machine learning to estimate insurance risks or premiums.
+- Citation: Page 1, Section I. INTRODUCTION
+- Requirement Related Title: Machine Learning Applications
+
+- Role: Airport Security System
+- Requirement ID: FR-04
+- Requirement Title: Screen Passengers Against Images
+- Requirement Description: The system must screen passengers by matching their images to images of people of interest.
+- Citation: Page 3, Section III. NFRs for Machine Learning Example
+- Requirement Related Title: Illustrative ML Example
+
+- Role: Machine Learning System
+- Requirement ID: FR-05
+- Requirement Title: Recognize Faces
+- Requirement Description: The system must recognize faces as a focused functional purpose using machine learning.
+- Citation: Page 1, Section I. INTRODUCTION
+- Requirement Related Title: Functional Requirements in ML
+
+- Role: Machine Learning System
+- Requirement ID: FR-06
+- Requirement Title: Diagnose Diseases
+- Requirement Description: The system must diagnose diseases as a focused functional purpose using machine learning.
+- Citation: Page 1, Section I. INTRODUCTION
+- Requirement Related Title: Functional Requirements in ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-01
+- Requirement Title: Fairness
+- Requirement Description: The system must ensure fairness in outputs to avoid biases, with definitions and refinements adapted for ML contexts such as statistical parity or individual fairness, considering domain and trade-offs with other qualities.
+- Citation: Page 1, Abstract and Section I. INTRODUCTION, [2], [10], [26], [27]
+- Requirement Related Title: Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-02
+- Requirement Title: Transparency
+- Requirement Description: The system must provide transparency in how results are derived to enable trust and explainability of ML outcomes.
+- Citation: Page 1, Abstract and Section I. INTRODUCTION, [3], [28]
+- Requirement Related Title: Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-03
+- Requirement Title: Privacy
+- Requirement Description: The system must preserve privacy when using big data for learning, including protocols for privacy-preserving ML with low overhead in runtime and communication, considering trade-offs with speed.
+- Citation: Page 1, Abstract and Section I. INTRODUCTION, Page 3, Section II.B, [4], [5]
+- Requirement Related Title: Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-04
+- Requirement Title: Security
+- Requirement Description: The system must address security threats specific to ML, including threat models and secure protocols, with trade-offs considered against other qualities like speed.
+- Citation: Page 1, Abstract and Section I. INTRODUCTION, Page 3, Section II.B, [4], [29]
+- Requirement Related Title: Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-05
+- Requirement Title: Testability
+- Requirement Description: The system must support systematic testing of ML outcomes, including metamorphic testing for classifiers.
+- Citation: Page 1, Abstract and Section I. INTRODUCTION, Page 3, Section II.B, [6]
+- Requirement Related Title: Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-06
+- Requirement Title: Performance
+- Requirement Description: The system must achieve efficient performance, including broad algorithm performance metrics beyond accuracy, with considerations for context-specific comparisons and trade-offs.
+- Citation: Page 1, Section I. INTRODUCTION, Page 3, Section II.B, [24], [25]
+- Requirement Related Title: NFRs in Traditional Software and ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-07
+- Requirement Title: Reliability
+- Requirement Description: The system must ensure reliability in individual predictions and overall operation, including estimation of prediction reliability.
+- Citation: Page 1, Section I. INTRODUCTION, Page 3, Section II.B, [31]
+- Requirement Related Title: NFRs in Traditional Software and ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-08
+- Requirement Title: Maintainability
+- Requirement Description: The system must be maintainable, with meanings, interpretations, and refinements rethought for ML contexts, including how to measure in practice beyond traditional metrics like time to implement changes.
+- Citation: Page 1, Section I. INTRODUCTION, Page 4, Section IV. CHALLENGES (C1, C3)
+- Requirement Related Title: Rethinking NFRs for ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-09
+- Requirement Title: Usability
+- Requirement Description: The system must be usable, with meanings and interpretations rethought and decomposed into sub-qualities for ML contexts.
+- Citation: Page 1, Section I. INTRODUCTION, Page 2, Section II.A, Page 4, Section IV. CHALLENGES (C1)
+- Requirement Related Title: NFR Catalogues and ML-Specific Qualities
+
+- Role: Machine Learning System
+- Requirement ID: NF-10
+- Requirement Title: Modularity
+- Requirement Description: The system must support modularity, though it may be less relevant in ML contexts compared to traditional software, requiring re-examination of its applicability.
+- Citation: Page 1, Abstract and Section I. INTRODUCTION
+- Requirement Related Title: Changing Landscape of NFRs in ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-11
+- Requirement Title: Interoperability
+- Requirement Description: The system must ensure interoperability, with meanings and refinements rethought for ML contexts, including decomposition into sub-qualities.
+- Citation: Page 1, Abstract, Page 2, Section II.A
+- Requirement Related Title: NFR Catalogues
+
+- Role: Machine Learning System
+- Requirement ID: NF-12
+- Requirement Title: Compatibility
+- Requirement Description: The system must achieve compatibility, refined into co-existence and interoperability, with applicability assessed for ML contexts.
+- Citation: Page 1, Section I. INTRODUCTION, Page 2, Section II.A, [8]
+- Requirement Related Title: NFR Catalogues
+
+- Role: Machine Learning System
+- Requirement ID: NF-13
+- Requirement Title: Retrainability
+- Requirement Description: The system must support retrainability as an emerging ML-specific quality for adaptation to new data.
+- Citation: Page 1, Section I. INTRODUCTION
+- Requirement Related Title: New NFRs for ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-14
+- Requirement Title: Sustainability
+- Requirement Description: The system must consider sustainability as a quality, with definitions potentially varying by ML application domain like medical or autonomous driving.
+- Citation: Page 3, Section II.B, Page 5, Section V. RESEARCH DIRECTIONS (Obj1)
+- Requirement Related Title: Other NFRs for ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-15
+- Requirement Title: Portability
+- Requirement Description: The system must be portable, with definitions and refinements adapted for ML-specific contexts.
+- Citation: Page 4, Section IV. CHALLENGES (C1)
+- Requirement Related Title: Defining NFRs in ML Contexts
+
+- Role: Machine Learning System
+- Requirement ID: NF-16
+- Requirement Title: Modifiability
+- Requirement Description: The system must support modifiability, with metrics rethought for ML beyond traditional measures like average time to implement code changes.
+- Citation: Page 4, Section IV. CHALLENGES (C3)
+- Requirement Related Title: Measuring NFRs in ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-17
+- Requirement Title: Reusability
+- Requirement Description: The system must support reusability, considering potential trade-offs with other ML qualities like fairness or testability.
+- Citation: Page 4, Section IV. CHALLENGES (C2)
+- Requirement Related Title: Trade-offs in ML Qualities
+
+- Role: Machine Learning System
+- Requirement ID: NF-18
+- Requirement Title: Accuracy
+- Requirement Description: The system must achieve high accuracy, often measured by precision and recall, linked to core ML functions like classification or prediction.
+- Citation: Page 3, Section II.B, Page 3, Section III. NFRs for Machine Learning Example, [1], [33]
+- Requirement Related Title: Accuracy and Performance in ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-19
+- Requirement Title: Processing Time
+- Requirement Description: The system must minimize processing time or latency, such as achieving acceptable speeds like under 20 seconds for tasks, with trade-offs against accuracy.
+- Citation: Page 3, Section III. NFRs for Machine Learning Example, Fig. 1
+- Requirement Related Title: Example Solution Space Representation
+
+- Role: Machine Learning System
+- Requirement ID: NF-20
+- Requirement Title: Storage Efficiency
+- Requirement Description: The system must optimize storage usage for data and models in ML implementations.
+- Citation: Page 3, Section III. NFRs for Machine Learning Example, Fig. 1
+- Requirement Related Title: Example Solution Space Representation
+
+- Role: Machine Learning System
+- Requirement ID: NF-21
+- Requirement Title: Implementation Complexity
+- Requirement Description: The system must manage implementation complexity, considering algorithm types, assumptions, and optimizations for feasibility.
+- Citation: Page 3, Section III. NFRs for Machine Learning Example, Fig. 1
+- Requirement Related Title: Example Solution Space Representation
+
+- Role: Machine Learning System
+- Requirement ID: NF-22
+- Requirement Title: Performance Efficiency
+- Requirement Description: The system must meet performance efficiency standards as per quality models, decomposed for ML applications.
+- Citation: Page 2, Section II.A, [8]
+- Requirement Related Title: NFR Catalogues

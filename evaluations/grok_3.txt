@@ -1,0 +1,185 @@
+### Functional Requirements
+
+- **Role**: System Designer
+- **Requirement ID**: FR-01
+- **Requirement Title**: Algorithm Selection for ML Solutions
+- **Requirement Description**: The system must support the selection of appropriate machine learning algorithms based on problem type (e.g., classification, regression), algorithm characteristics (e.g., supervised, unsupervised), and specific algorithm types (e.g., regression, Bayesian) to meet desired outcomes.
+- **Citation**: Section III, Page 3
+- **Requirement Related Title**: NFRs for Machine Learning Example
+
+- **Role**: System Designer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Capture Algorithm Assumptions and Optimizations
+- **Requirement Description**: The system must allow for capturing algorithm assumptions and optimizations (e.g., Naïve Bayesian independence assumption, Nearest Neighbor data projection) to evaluate their impact on solution performance.
+- **Citation**: Section III, Page 3
+- **Requirement Related Title**: NFRs for Machine Learning Example
+
+- **Role**: System Designer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Runtime Monitoring of ML Solutions
+- **Requirement Description**: The system must enable runtime monitoring of machine learning solutions to assess the achievement of critical qualities during operation.
+- **Citation**: Section IV, Challenge C4, Page 4
+- **Requirement Related Title**: Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Support for ML Solution Evolution
+- **Requirement Description**: The system must support evolution of ML solutions by facilitating retraining or modification based on changes in available training data or quality requirements.
+- **Citation**: Section IV, Challenge C6, Page 4
+- **Requirement Related Title**: Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Integration of ML with Traditional Software
+- **Requirement Description**: The system must support the integration of ML components with traditional software components to form holistic solutions, considering quality perspectives across both.
+- **Citation**: Section IV, Challenge C7, Page 4
+- **Requirement Related Title**: Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Language for Expressing NFRs in ML Context
+- **Requirement Description**: The system must provide a language or representation to express and specify quality requirements for ML solutions, including targets, trade-offs, and domain context influences.
+- **Citation**: Section IV, Challenge C5, Page 4
+- **Requirement Related Title**: Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: FR-07
+- **Requirement Title**: Reasoning Over NFRs at Design Time
+- **Requirement Description**: The system must support reasoning over non-functional requirements at design time to make context-based trade-offs and inform implementation decisions for ML solutions.
+- **Citation**: Section V, Obj5, Page 5
+- **Requirement Related Title**: Research Directions
+
+- **Role**: System Designer
+- **Requirement ID**: FR-08
+- **Requirement Title**: Reasoning Over NFRs at Runtime
+- **Requirement Description**: The system must support runtime reasoning over non-functional requirements to monitor and assess the satisfaction of critical qualities as the ML solution operates.
+- **Citation**: Section V, Obj5, Page 5
+- **Requirement Related Title**: Research Directions
+
+- **Role**: System Designer
+- **Requirement ID**: FR-09
+- **Requirement Title**: Handling Changing Data in ML Solutions
+- **Requirement Description**: The system must provide methods to guide changes in ML solutions when the sources, quality, or content of available data changes, including decisions on retraining or algorithm selection.
+- **Citation**: Section V, Obj6, Page 5
+- **Requirement Related Title**: Research Directions
+
+- **Role**: System Designer
+- **Requirement ID**: FR-10
+- **Requirement Title**: Handling Changing Quality Requirements
+- **Requirement Description**: The system must provide procedures to guide changes to ML-based systems when quality requirements or thresholds change, including eliciting thresholds and deciding on modifications.
+- **Citation**: Section V, Obj6, Page 5
+- **Requirement Related Title**: Research Directions
+
+### Non-Functional Requirements
+
+- **Role**: System Designer
+- **Requirement ID**: NF-01
+- **Requirement Title**: Fairness in ML Solutions
+- **Requirement Description**: ML solutions must ensure fairness by mitigating unintended biases in decision-making processes, considering context-specific definitions and trade-offs with other qualities like performance or accuracy.
+- **Citation**: Section I, Page 1; Section II.B, Page 2; Section IV, Challenge C1, Page 4
+- **Requirement Related Title**: Introduction; Qualities for Machine Learning; Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: NF-02
+- **Requirement Title**: Transparency in ML Solutions
+- **Requirement Description**: ML solutions must provide transparency by explaining how results are derived to build trust and mitigate issues in understanding decision processes.
+- **Citation**: Section I, Page 1; Section II.B, Page 3
+- **Requirement Related Title**: Introduction; Qualities for Machine Learning
+
+- **Role**: System Designer
+- **Requirement ID**: NF-03
+- **Requirement Title**: Security in ML Solutions
+- **Requirement Description**: ML solutions must ensure security by addressing potential threats and vulnerabilities, incorporating protective measures against attacks.
+- **Citation**: Section I, Page 1; Section II.B, Page 3
+- **Requirement Related Title**: Introduction; Qualities for Machine Learning
+
+- **Role**: System Designer
+- **Requirement ID**: NF-04
+- **Requirement Title**: Privacy in ML Solutions
+- **Requirement Description**: ML solutions must preserve privacy when using large datasets, especially personal data, by implementing protocols that minimize exposure while balancing trade-offs with runtime and communication overhead.
+- **Citation**: Section I, Page 1; Section II.B, Page 3; Section IV, Challenge C2, Page 4
+- **Requirement Related Title**: Introduction; Qualities for Machine Learning; Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: NF-05
+- **Requirement Title**: Testability of ML Solutions
+- **Requirement Description**: ML solutions must be systematically testable to validate outcomes and ensure reliability of predictions or decisions.
+- **Citation**: Section I, Page 1; Section II.B, Page 3
+- **Requirement Related Title**: Introduction; Qualities for Machine Learning
+
+- **Role**: System Designer
+- **Requirement ID**: NF-06
+- **Requirement Title**: Accuracy in ML Solutions
+- **Requirement Description**: ML solutions must achieve high accuracy (e.g., precision and recall) in outputs compared to reality, ensuring correctness in specific contexts.
+- **Citation**: Section II.B, Page 2; Section III, Page 3
+- **Requirement Related Title**: Qualities for Machine Learning; NFRs for Machine Learning Example
+
+- **Role**: System Designer
+- **Requirement ID**: NF-07
+- **Requirement Title**: Performance Efficiency in ML Solutions
+- **Requirement Description**: ML solutions must optimize performance, including processing time and resource usage, to meet operational needs in specific contexts (e.g., acceptable processing time of 20 seconds for airport security screening).
+- **Citation**: Section II.B, Page 2; Section III, Page 3
+- **Requirement Related Title**: Qualities for Machine Learning; NFRs for Machine Learning Example
+
+- **Role**: System Designer
+- **Requirement ID**: NF-08
+- **Requirement Title**: Reliability of ML Predictions
+- **Requirement Description**: ML solutions must ensure reliability of individual predictions through estimation techniques to maintain trust in outcomes.
+- **Citation**: Section II.B, Page 3
+- **Requirement Related Title**: Qualities for Machine Learning
+
+- **Role**: System Designer
+- **Requirement ID**: NF-09
+- **Requirement Title**: Maintainability in ML Context
+- **Requirement Description**: ML solutions must be maintainable, with redefined meanings and refinements specific to ML contexts, addressing how updates or changes are managed.
+- **Citation**: Section I, Page 1; Section IV, Challenge C1, Page 4
+- **Requirement Related Title**: Introduction; Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: NF-10
+- **Requirement Title**: Usability in ML Context
+- **Requirement Description**: ML solutions must be usable, with context-specific interpretations and refinements to ensure user interaction and satisfaction are maintained.
+- **Citation**: Section I, Page 1; Section IV, Challenge C1, Page 4
+- **Requirement Related Title**: Introduction; Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: NF-11
+- **Requirement Title**: Portability in ML Context
+- **Requirement Description**: ML solutions must consider portability, redefined for ML contexts, to ensure they can operate across different environments or platforms.
+- **Citation**: Section IV, Challenge C1, Page 4
+- **Requirement Related Title**: Challenges
+
+- **Role**: System Designer
+- **Requirement ID**: NF-12
+- **Requirement Title**: Sustainability in ML Context
+- **Requirement Description**: ML solutions must address sustainability, with context-specific meanings (e.g., differing between medical and autonomous driving domains), to minimize environmental or resource impact.
+- **Citation**: Section II.B, Page 3; Section V, Obj1, Page 5
+- **Requirement Related Title**: Qualities for Machine Learning; Research Directions
+
+- **Role**: System Designer
+- **Requirement ID**: NF-13
+- **Requirement Title**: Modifiability in ML Context
+- **Requirement Description**: ML solutions must support modifiability, with revised definitions and metrics specific to ML, to allow for effective changes over time.
+- **Citation**: Section IV, Challenge C3, Page 4; Section VI, Page 6
+- **Requirement Related Title**: Challenges; Discussion and Conclusions
+
+- **Role**: System Designer
+- **Requirement ID**: NF-14
+- **Requirement Title**: Retrainability of ML Solutions
+- **Requirement Description**: ML solutions must support retrainability as a quality attribute to adapt to new data or changing requirements over time.
+- **Citation**: Section I, Page 1
+- **Requirement Related Title**: Introduction
+
+- **Role**: System Designer
+- **Requirement ID**: NF-15
+- **Requirement Title**: Compatibility in ML Context
+- **Requirement Description**: ML solutions must ensure compatibility with other systems or components, redefined for ML contexts, to support integration and coexistence.
+- **Citation**: Section I, Page 1
+- **Requirement Related Title**: Introduction
+
+- **Role**: System Designer
+- **Requirement ID**: NF-16
+- **Requirement Title**: Reusability in ML Context
+- **Requirement Description**: ML solutions must consider reusability as a quality attribute, exploring potential trade-offs with other qualities in ML-specific contexts.
+- **Citation**: Section IV, Challenge C2, Page 4
+- **Requirement Related Title**: Challenges

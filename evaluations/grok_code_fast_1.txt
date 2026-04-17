@@ -1,0 +1,174 @@
+Role: ML-based System
+Requirement ID: FR-01
+Requirement Title: Passenger Screening via Image Matching
+Requirement Description: The system must screen passengers by matching their images against images of people of interest to identify potential matches.
+Citation: Page 3, Section III
+Requirement Related Title: NFRs for Machine Learning Example
+
+Role: ML-based System
+Requirement ID: NF-01
+Requirement Title: Fairness
+Requirement Description: ML solutions must be fair, avoiding unintended biases towards vulnerable groups such as those based on race or gender, with definitions including statistical parity and individual fairness, and considering trade-offs with performance or accuracy.
+Citation: Page 1, Abstract; Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-02
+Requirement Title: Transparency
+Requirement Description: ML solutions must be transparent, providing explanations for how results are derived to build trust and mitigate issues in understanding decision-making processes.
+Citation: Page 1, Abstract; Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-03
+Requirement Title: Security
+Requirement Description: ML solutions must be secure, addressing threats specific to ML implementations and protecting against adversarial attacks or manipulations.
+Citation: Page 1, Abstract; Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-04
+Requirement Title: Privacy
+Requirement Description: ML solutions must preserve privacy when using big data, including personal data, with methods to minimize overhead in runtime and communication, and acknowledging trade-offs with algorithm speed.
+Citation: Page 1, Abstract; Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-05
+Requirement Title: Testability
+Requirement Description: ML solutions must be testable, allowing systematic testing of outcomes and predictions to ensure reliability.
+Citation: Page 1, Abstract; Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-06
+Requirement Title: Accuracy
+Requirement Description: ML solutions must achieve high accuracy, measured by precision and recall, indicating how correct the output is compared to reality, with contextual variations such as high accuracy for spam email identification.
+Citation: Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-07
+Requirement Title: Performance
+Requirement Description: ML solutions must exhibit good performance, including speed and efficiency, with considerations for trade-offs such as slower processing time for precise matches in applications like airport screening.
+Citation: Page 2, Section II.B; Page 3, Section III
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-08
+Requirement Title: Reliability
+Requirement Description: ML solutions must be reliable, focusing on the reliability of individual predictions and estimations.
+Citation: Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-09
+Requirement Title: Maintainability
+Requirement Description: ML solutions must be maintainable, with meanings and interpretations rethought in an ML context, such as how to handle changes in code or models.
+Citation: Page 1, Introduction; Page 2, Section II.B
+Requirement Related Title: Introduction
+
+Role: ML-based System
+Requirement ID: NF-10
+Requirement Title: Interoperability
+Requirement Description: ML solutions must be interoperable, allowing integration with other systems, though its relevance in ML contexts may differ from traditional software.
+Citation: Page 1, Introduction
+Requirement Related Title: Introduction
+
+Role: ML-based System
+Requirement ID: NF-11
+Requirement Title: Usability
+Requirement Description: ML solutions must be usable, with interpretations adapted for ML contexts, considering user interactions with ML outputs.
+Citation: Page 1, Introduction
+Requirement Related Title: Introduction
+
+Role: ML-based System
+Requirement ID: NF-12
+Requirement Title: Compatibility
+Requirement Description: ML solutions must be compatible, refined into co-existence and interoperability, but with potential reduced importance in ML compared to traditional software.
+Citation: Page 1, Introduction; Page 2, Section II.A
+Requirement Related Title: Introduction
+
+Role: ML-based System
+Requirement ID: NF-13
+Requirement Title: Modularity
+Requirement Description: ML solutions should exhibit modularity, though this may be less relevant in ML contexts where components are less separable.
+Citation: Page 1, Introduction
+Requirement Related Title: Introduction
+
+Role: ML-based System
+Requirement ID: NF-14
+Requirement Title: Retrainability
+Requirement Description: ML solutions must support retrainability, allowing updates based on new data or changing requirements, as an emerging NFR.
+Citation: Page 1, Introduction
+Requirement Related Title: Introduction
+
+Role: ML-based System
+Requirement ID: NF-15
+Requirement Title: Sustainability
+Requirement Description: ML solutions must be sustainable, with meanings varying by domain such as medical versus autonomous driving applications.
+Citation: Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-16
+Requirement Title: Portability
+Requirement Description: ML solutions must be portable, with definitions and refinements adapted for ML-specific contexts.
+Citation: Page 4, Section IV, C1
+Requirement Related Title: Challenges
+
+Role: ML-based System
+Requirement ID: NF-17
+Requirement Title: Explainability
+Requirement Description: ML solutions must be explainable, providing justifications for decisions to enhance transparency and trust.
+Citation: Page 1, Abstract (implied in transparency); Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-18
+Requirement Title: Energy Efficiency
+Requirement Description: ML solutions should consider energy efficiency, though not explicitly detailed, as a quality attribute in resource-constrained environments.
+Citation: Page 1, Abstract (implied in broader qualities); Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-19
+Requirement Title: Scalability
+Requirement Description: ML solutions must be scalable, handling large datasets and computations efficiently, with trade-offs in performance.
+Citation: Page 1, Introduction (implied in big data handling); Page 2, Section II.B
+Requirement Related Title: Introduction
+
+Role: ML-based System
+Requirement ID: NF-20
+Requirement Title: Robustness
+Requirement Description: ML solutions must be robust, maintaining performance under varying conditions or adversarial inputs.
+Citation: Page 1, Abstract (implied in security and reliability); Page 2, Section II.B
+Requirement Related Title: Qualities for Machine Learning
+
+Role: ML-based System
+Requirement ID: NF-21
+Requirement Title: Customer Satisfaction
+Requirement Description: ML solutions must achieve customer satisfaction, as a quality attribute in traditional NFRs adapted to ML.
+Citation: Page 1, Introduction
+Requirement Related Title: Introduction
+
+Role: ML-based System
+Requirement ID: NF-22
+Requirement Title: Runtime Monitoring Capability
+Requirement Description: ML solutions must support runtime monitoring of qualities such as fairness, privacy, and accuracy during operation.
+Citation: Page 4, Section IV, C4
+Requirement Related Title: Challenges
+
+Role: ML-based System
+Requirement ID: NF-23
+Requirement Title: Adaptability
+Requirement Description: ML solutions must be adaptable, allowing evolution based on changing data, requirements, or quality thresholds.
+Citation: Page 4, Section IV, C6
+Requirement Related Title: Challenges
+
+Role: ML-based System
+Requirement ID: NF-24
+Requirement Title: Integration Quality
+Requirement Description: ML solutions integrated with traditional software must maintain overall NFRs across the combined system.
+Citation: Page 4, Section IV, C7
+Requirement Related Title: Challenges

@@ -1,0 +1,160 @@
+- Role: Machine Learning System
+- Requirement ID: NF-01
+- Requirement Title: Fairness
+- Requirement Description: Machine Learning systems must ensure fairness to mitigate biases, with definitions, interpretations, and refinements specific to ML contexts such as different algorithms and domains.
+- Citation: Page 1, Abstract and Introduction; [2]
+- Requirement Related Title: Prominent Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-02
+- Requirement Title: Transparency
+- Requirement Description: Machine Learning systems must provide transparency in how results are derived to address trust issues and explain outcomes.
+- Citation: Page 1, Abstract and Introduction; [3]
+- Requirement Related Title: Prominent Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-03
+- Requirement Title: Privacy
+- Requirement Description: Machine Learning systems must preserve privacy when using large amounts of data, including personal data, with protocols that consider trade-offs like speed.
+- Citation: Page 1, Abstract and Introduction; Page 3; [5]
+- Requirement Related Title: Prominent Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-04
+- Requirement Title: Security
+- Requirement Description: Machine Learning systems must be secure against threats, with threat models and refinements like confidentiality and integrity rethought for ML.
+- Citation: Page 1, Abstract and Introduction; Page 2; Page 3; [4]
+- Requirement Related Title: Prominent Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-05
+- Requirement Title: Testability
+- Requirement Description: Machine Learning systems must support systematic testing of outcomes.
+- Citation: Page 1, Abstract and Introduction; Page 3; [6]
+- Requirement Related Title: Prominent Qualities of ML Solutions
+
+- Role: Machine Learning System
+- Requirement ID: NF-06
+- Requirement Title: Performance
+- Requirement Description: Machine Learning systems must achieve high performance, including processing time, speed, and efficiency, with trade-offs considered.
+- Citation: Page 1, Introduction; Page 2; Page 3
+- Requirement Related Title: NFRs in Traditional Software vs ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-07
+- Requirement Title: Reliability
+- Requirement Description: Machine Learning systems must be reliable, including reliable individual predictions.
+- Citation: Page 1, Introduction; Page 2; Page 3; [31]
+- Requirement Related Title: NFRs in Traditional Software vs ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-08
+- Requirement Title: Maintainability
+- Requirement Description: Machine Learning systems must be maintainable, with meanings and refinements rethought for ML contexts like retraining.
+- Citation: Page 1, Introduction; Page 3; Page 4
+- Requirement Related Title: NFRs in Traditional Software vs ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-09
+- Requirement Title: Usability
+- Requirement Description: Machine Learning systems must be usable, with meanings, interpretations, and refinements rethought in ML context.
+- Citation: Page 1, Introduction; Page 2; Page 4
+- Requirement Related Title: NFRs in Traditional Software vs ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-10
+- Requirement Title: Customer Satisfaction
+- Requirement Description: Machine Learning systems must achieve customer satisfaction as a quality attribute.
+- Citation: Page 2
+- Requirement Related Title: NFRs in Requirements Engineering
+
+- Role: Machine Learning System
+- Requirement ID: NF-11
+- Requirement Title: Modularity
+- Requirement Description: Machine Learning systems should consider modularity, though it may be less relevant compared to traditional software.
+- Citation: Page 1, Introduction
+- Requirement Related Title: Changing Landscape of NFRs for ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-12
+- Requirement Title: Interoperability
+- Requirement Description: Machine Learning systems must support interoperability, with refinements rethought for ML.
+- Citation: Page 1, Introduction; Page 2
+- Requirement Related Title: Changing Landscape of NFRs for ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-13
+- Requirement Title: Retrainability
+- Requirement Description: Machine Learning systems must support retrainability as a new relevant NFR.
+- Citation: Page 1, Introduction
+- Requirement Related Title: Changing Landscape of NFRs for ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-14
+- Requirement Title: Accuracy
+- Requirement Description: Machine Learning systems must achieve high accuracy, including precision and recall, compared to reality.
+- Citation: Page 1, Introduction; Page 3; Fig. 1
+- Requirement Related Title: Accuracy & Performance
+
+- Role: Machine Learning System
+- Requirement ID: NF-15
+- Requirement Title: Compatibility
+- Requirement Description: Machine Learning systems must ensure compatibility, refined into co-existence and interoperability.
+- Citation: Page 2
+- Requirement Related Title: NFR Catalogues
+
+- Role: Machine Learning System
+- Requirement ID: NF-16
+- Requirement Title: Co-existence
+- Requirement Description: Machine Learning systems must support co-existence as a refinement of compatibility.
+- Citation: Page 2
+- Requirement Related Title: NFR Catalogues
+
+- Role: Machine Learning System
+- Requirement ID: NF-17
+- Requirement Title: Precision
+- Requirement Description: Machine Learning systems must achieve high precision as part of accuracy.
+- Citation: Page 3
+- Requirement Related Title: Accuracy & Performance
+
+- Role: Machine Learning System
+- Requirement ID: NF-18
+- Requirement Title: Recall
+- Requirement Description: Machine Learning systems must achieve high recall as part of accuracy.
+- Citation: Page 3
+- Requirement Related Title: Accuracy & Performance
+
+- Role: Machine Learning System
+- Requirement ID: NF-19
+- Requirement Title: Sustainability
+- Requirement Description: Machine Learning systems must consider sustainability as a quality attribute.
+- Citation: Page 3
+- Requirement Related Title: Other NFRs for ML
+
+- Role: Machine Learning System
+- Requirement ID: NF-20
+- Requirement Title: Storage Efficiency
+- Requirement Description: Machine Learning systems must exhibit efficient storage usage.
+- Citation: Page 3, Fig. 1
+- Requirement Related Title: Example Solution Space Representation
+
+- Role: Machine Learning System
+- Requirement ID: NF-21
+- Requirement Title: Time Efficiency
+- Requirement Description: Machine Learning systems must minimize processing time or achieve acceptable latency (e.g., 20 seconds in airport example).
+- Citation: Page 3, Fig. 1; Section III
+- Requirement Related Title: Example Solution Space Representation
+
+- Role: Machine Learning System
+- Requirement ID: NF-22
+- Requirement Title: Implementation Complexity
+- Requirement Description: Machine Learning systems must have low implementation complexity.
+- Citation: Page 3, Fig. 1
+- Requirement Related Title: Example Solution Space Representation
+
+- Role: Machine Learning System
+- Requirement ID: NF-23
+- Requirement Title: Portability
+- Requirement Description: Machine Learning systems must be portable, with definitions rethought for ML.
+- Citation: Page 4, C1
+- Requirement Related Title: Challenges

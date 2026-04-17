@@ -1,0 +1,412 @@
+- Role: ML Algorithm
+  - Requirement ID: FR-01
+  - Requirement Title: Data-Driven Learning
+  - Requirement Description: The ML algorithm must use large amounts of data to enable learning and perform tasks difficult to achieve via standard software.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML System
+  - Requirement ID: FR-02
+  - Requirement Title: Image Recognition
+  - Requirement Description: The ML system must recognize images.
+  - Citation: Page 1, [1]
+  - Requirement Related Title: Introduction
+
+- Role: ML System
+  - Requirement ID: FR-03
+  - Requirement Title: Cancer Diagnosis
+  - Requirement Description: The ML system must diagnose cancer.
+  - Citation: Page 1, [1]
+  - Requirement Related Title: Introduction
+
+- Role: ML System
+  - Requirement ID: FR-04
+  - Requirement Title: Insurance Estimation
+  - Requirement Description: The ML system must estimate insurance.
+  - Citation: Page 1, [1]
+  - Requirement Related Title: Introduction
+
+- Role: ML System
+  - Requirement ID: FR-05
+  - Requirement Title: Face Recognition
+  - Requirement Description: The ML system must recognize a face.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML System
+  - Requirement ID: FR-06
+  - Requirement Title: Disease Diagnosis
+  - Requirement Description: The ML system must diagnose a disease.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML System
+  - Requirement ID: FR-07
+  - Requirement Title: Passenger Screening
+  - Requirement Description: The ML system must screen passengers against images of people of interest.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: NFR Framework
+  - Requirement ID: FR-08
+  - Requirement Title: Algorithm Decomposition by Problem Type
+  - Requirement Description: The framework must decompose available algorithms by problem type such as classification or regression.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: NFR Framework
+  - Requirement ID: FR-09
+  - Requirement Title: Algorithm Decomposition by Characteristics
+  - Requirement Description: The framework must decompose algorithms by characteristics such as supervised or unsupervised.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: NFR Framework
+  - Requirement ID: FR-10
+  - Requirement Title: Algorithm Decomposition by Type
+  - Requirement Description: The framework must decompose algorithms by type such as regression or Bayesian.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: NFR Framework
+  - Requirement ID: FR-11
+  - Requirement Title: Capture Assumptions and Optimizations
+  - Requirement Description: The framework must capture algorithm assumptions and optimizations.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: NFR Framework
+  - Requirement ID: FR-12
+  - Requirement Title: Quality Evaluation
+  - Requirement Description: The framework must evaluate algorithms against relevant quality attributes.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: RE Approach
+  - Requirement ID: FR-13
+  - Requirement Title: Select Alternatives
+  - Requirement Description: The approach must allow users to select among possible alternative functional requirements using NFRs.
+  - Citation: Page 2
+  - Requirement Related Title: State-of-the-Art
+
+- Role: RE Approach
+  - Requirement ID: FR-14
+  - Requirement Title: Runtime Monitoring
+  - Requirement Description: The approach must monitor functional and quality requirements at runtime based on data from the running system.
+  - Citation: Page 2, [13]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: RE Approach
+  - Requirement ID: FR-15
+  - Requirement Title: Runtime Adaptation
+  - Requirement Description: The approach must enable the system to adapt and adjust at runtime to improve performance or quality while considering trade-offs.
+  - Citation: Page 2, [14], [15]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: RE Approach
+  - Requirement ID: FR-16
+  - Requirement Title: Link Data to Goals
+  - Requirement Description: The approach must link business data to organizational goals, including qualities.
+  - Citation: Page 2, [21]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: RE Approach
+  - Requirement ID: FR-17
+  - Requirement Title: Design Analytic Systems
+  - Requirement Description: The approach must design data analytic systems for business, which may include ML algorithms, fitting domain-specific analytic questions.
+  - Citation: Page 2, [22], [23]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Algorithm
+  - Requirement ID: FR-18
+  - Requirement Title: Report Accuracy
+  - Requirement Description: The ML work must report on algorithm accuracy, often precision and recall.
+  - Citation: Page 2
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Algorithm
+  - Requirement ID: FR-19
+  - Requirement Title: Fairness-Aware Learning
+  - Requirement Description: The ML algorithm must implement technical solutions to make it more fair, such as removing sensitive features.
+  - Citation: Page 2, [2]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML System
+  - Requirement ID: FR-20
+  - Requirement Title: Explain Results
+  - Requirement Description: The ML system must explain and justify results to improve transparency.
+  - Citation: Page 3, [3], [28]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Approach
+  - Requirement ID: FR-21
+  - Requirement Title: Preserve Privacy
+  - Requirement Description: The ML approach must preserve privacy when using big data, with protocols for various ML methods.
+  - Citation: Page 3, [4], [5]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML System
+  - Requirement ID: FR-22
+  - Requirement Title: Systematic Testing
+  - Requirement Description: The ML system must systematically test outcomes.
+  - Citation: Page 3, [6]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML System
+  - Requirement ID: FR-23
+  - Requirement Title: Reliability Estimation
+  - Requirement Description: The ML system must evaluate the reliability of individual predictions.
+  - Citation: Page 3, [31]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: Modeling Language
+  - Requirement ID: FR-24
+  - Requirement Title: Express NFRs for ML
+  - Requirement Description: The language must express and specify quality requirements for ML, including targets, trade-offs, and domain context influence.
+  - Citation: Page 4
+  - Requirement Related Title: Challenges
+
+- Role: Research Method
+  - Requirement ID: FR-25
+  - Requirement Title: Develop Ontology
+  - Requirement Description: Produce an ontology of concepts needed for expressing NFRs over ML, based on existing ontologies adapted for ML.
+  - Citation: Page 5
+  - Requirement Related Title: Research Directions
+
+- Role: Research Method
+  - Requirement ID: FR-26
+  - Requirement Title: Develop Semantics
+  - Requirement Description: Develop formal semantics for the concepts to facilitate precise modeling and reasoning.
+  - Citation: Page 5
+  - Requirement Related Title: Research Directions
+
+- Role: Research Method
+  - Requirement ID: FR-27
+  - Requirement Title: Develop Syntax
+  - Requirement Description: Develop graphical and textual syntax for the language, usable in various forms.
+  - Citation: Page 5
+  - Requirement Related Title: Research Directions
+
+- Role: RE Method
+  - Requirement ID: FR-28
+  - Requirement Title: Design-Time Reasoning
+  - Requirement Description: Develop methods to reason over NFRs for ML at design time, making trade-offs to inform implementation decisions.
+  - Citation: Page 5
+  - Requirement Related Title: Research Directions
+
+- Role: RE Method
+  - Requirement ID: FR-29
+  - Requirement Title: Runtime Reasoning
+  - Requirement Description: Develop methods for runtime monitoring and reasoning over ML qualities.
+  - Citation: Page 5
+  - Requirement Related Title: Research Directions
+
+- Role: RE Method
+  - Requirement ID: FR-30
+  - Requirement Title: Handle Changing Requirements
+  - Requirement Description: Create methods to deal with changing quality requirements, including triggers based on measurement thresholds.
+  - Citation: Page 5
+  - Requirement Related Title: Research Directions
+
+- Role: RE Method
+  - Requirement ID: FR-31
+  - Requirement Title: Handle Changing Data
+  - Requirement Description: Create methods to deal with changing data, guiding when to change data sources or retrain.
+  - Citation: Page 5
+  - Requirement Related Title: Research Directions
+
+- Role: ML Solution
+  - Requirement ID: NF-01
+  - Requirement Title: Fairness
+  - Requirement Description: The ML solution must ensure fairness, avoiding unintended biases, with definitions like statistical parity or individual fairness.
+  - Citation: Page 1, [2]
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-02
+  - Requirement Title: Transparency
+  - Requirement Description: The ML solution must provide transparency, explaining how results are derived to build trust.
+  - Citation: Page 1, [3]
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-03
+  - Requirement Title: Privacy
+  - Requirement Description: The ML solution must protect privacy, especially with personal data, balancing with runtime and communication overhead.
+  - Citation: Page 1, [5]
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-04
+  - Requirement Title: Security
+  - Requirement Description: The ML solution must ensure security, addressing threats and trade-offs with performance.
+  - Citation: Page 1, [4]
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-05
+  - Requirement Title: Testability
+  - Requirement Description: The ML solution must be testable, allowing systematic testing of outcomes.
+  - Citation: Page 1, [6]
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-06
+  - Requirement Title: Performance
+  - Requirement Description: The ML solution must achieve high performance, including efficiency in specific contexts.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-07
+  - Requirement Title: Reliability
+  - Requirement Description: The ML solution must be reliable, with estimation of prediction reliability.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-08
+  - Requirement Title: Maintainability
+  - Requirement Description: The ML solution must be maintainable, rethinking meaning in ML context.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-09
+  - Requirement Title: Usability
+  - Requirement Description: The ML solution must be usable, with refinements adjusted for ML.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-10
+  - Requirement Title: Interoperability
+  - Requirement Description: The ML solution must support interoperability, as part of compatibility.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-11
+  - Requirement Title: Modularity
+  - Requirement Description: The ML solution must have modularity, though potentially less relevant in ML.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-12
+  - Requirement Title: Compatibility
+  - Requirement Description: The ML solution must ensure compatibility, refined into co-existence and interoperability.
+  - Citation: Page 2, [8]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Solution
+  - Requirement ID: NF-13
+  - Requirement Title: Customer Satisfaction
+  - Requirement Description: The ML solution must achieve customer satisfaction as a quality attribute.
+  - Citation: Page 1, [7], [8]
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-14
+  - Requirement Title: Accuracy
+  - Requirement Description: The ML solution must provide high accuracy, often measured by precision and recall.
+  - Citation: Page 2
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Solution
+  - Requirement ID: NF-15
+  - Requirement Title: Precision
+  - Requirement Description: The ML solution must achieve high precision as part of accuracy.
+  - Citation: Page 2
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Solution
+  - Requirement ID: NF-16
+  - Requirement Title: Recall
+  - Requirement Description: The ML solution must achieve high recall as part of accuracy.
+  - Citation: Page 2
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Solution
+  - Requirement ID: NF-17
+  - Requirement Title: Sustainability
+  - Requirement Description: The ML solution must ensure sustainability.
+  - Citation: Page 3
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Solution
+  - Requirement ID: NF-18
+  - Requirement Title: Retrainability
+  - Requirement Description: The ML solution must support retrainability as a new NFR.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-19
+  - Requirement Title: Confidentiality
+  - Requirement Description: The ML solution must ensure confidentiality as a refinement of security.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-20
+  - Requirement Title: Integrity
+  - Requirement Description: The ML solution must ensure integrity as a refinement of security.
+  - Citation: Page 1
+  - Requirement Related Title: Introduction
+
+- Role: ML Solution
+  - Requirement ID: NF-21
+  - Requirement Title: Performance Efficiency
+  - Requirement Description: The ML solution must achieve performance efficiency.
+  - Citation: Page 2, [8]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Solution
+  - Requirement ID: NF-22
+  - Requirement Title: Co-existence
+  - Requirement Description: The ML solution must support co-existence as a refinement of compatibility.
+  - Citation: Page 2, [8]
+  - Requirement Related Title: State-of-the-Art
+
+- Role: ML Algorithm
+  - Requirement ID: NF-23
+  - Requirement Title: Storage Efficiency
+  - Requirement Description: The ML algorithm must have efficient storage requirements.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: ML Algorithm
+  - Requirement ID: NF-24
+  - Requirement Title: Time Efficiency
+  - Requirement Description: The ML algorithm must have appropriate processing time, such as allowing relatively slow processing for high accuracy.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: ML Algorithm
+  - Requirement ID: NF-25
+  - Requirement Title: Implementation Complexity
+  - Requirement Description: The ML algorithm must manage implementation complexity.
+  - Citation: Page 3
+  - Requirement Related Title: NFRs for Machine Learning Example
+
+- Role: ML Solution
+  - Requirement ID: NF-26
+  - Requirement Title: Portability
+  - Requirement Description: The ML solution must be portable, with meaning rethought in ML context.
+  - Citation: Page 4
+  - Requirement Related Title: Challenges
+
+- Role: ML Solution
+  - Requirement ID: NF-27
+  - Requirement Title: Reusability
+  - Requirement Description: The ML solution must support reusability, considering trade-offs in ML.
+  - Citation: Page 4
+  - Requirement Related Title: Challenges
+
+- Role: ML Solution
+  - Requirement ID: NF-28
+  - Requirement Title: Modifiability
+  - Requirement Description: The ML solution must be modifiable, with measurements adjusted for ML.
+  - Citation: Page 4
+  - Requirement Related Title: Challenges
