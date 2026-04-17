@@ -9,64 +9,31 @@ const XAI_API_KEY = process.env.XAI_API_KEY;
 const MODEL = ["grok-4-1-fast-reasoning", "grok-code-fast-1", "grok-4-fast-reasoning", "grok-4-0709", "grok-3"];
 const TC_MODEL = null;
 
-function phase1_zeroshotPrompt(title) {
+function phase1_zeroshotPrompt() {
     return `
-    You are an expert requirements engineer specialized in extracting precise functional and non-functional requirements from academic research papers, particularly in AI, machine learning, computer vision, security, and related fields.
+    You are an expert requirements engineer specialized in extracting functional and non-functional requirements from academic research papers, documents, or PDFs in AI, machine learning, and related fields.
     
-    Given a research paper and a TARGET TITLE below, follow these strict steps:
+    You will receive only the text of a research paper or document.
     
-    1. Relevance check
-       - The paper is considered related ONLY if its primary contribution, proposed system, method, architecture, experiments, or core discussion directly implement, evaluate, or describe a system whose main purpose matches the TARGET TITLE.
-       - If the paper is only tangentially related, uses the topic as background, is a general survey, or focuses on something else → output exactly and ONLY the word: null
-       - Be conservative: when in doubt, output null
+    Read the entire document carefully.
     
-    2. If the paper is NOT related → output ONLY:
-    null
-       (nothing else — no explanation, no extra lines)
+    Extract ALL functional requirements (specific behaviors, features, capabilities, actions, or processing steps that a system, module, or component must perform) and ALL non-functional requirements (quality attributes such as accuracy, speed, latency, scalability, robustness, security, privacy, explainability, fairness, energy efficiency, etc.) that are explicitly stated or strongly implied anywhere in the text.
     
-    3. If the paper IS related → extract every functional and non-functional requirement that is explicitly stated or strongly implied in the paper text.
+    Even if the paper is a survey, challenges paper, or discusses requirements in general, still extract every requirement you can find.
+        
+    Output the result with:
     
-       Definitions:
-       - Functional Requirement: a concrete behavior, feature, capability, action, or processing step the system, module, or component must perform.
-       - Non-Functional Requirement: a quality attribute of the system (e.g., accuracy, speed, latency, scalability, security, privacy, robustness, explainability, energy efficiency).
+    Then present each requirement clearly using exactly these fields for every requirement:
+    - Role
+    - Requirement ID (use FR-01, FR-02, ... for functional and NF-01, NF-02, ... for non-functional)
+    - Requirement Title
+    - Requirement Description
+    - Citation
+    - Requirement Related Title
     
-       For each requirement, fill in exactly these fields:
-       - Role: the main actor, stakeholder, or component responsible (e.g., "System", "Face Recognition Module", "ML Classifier", "Diagnostic Model")
-       - Requirement ID: FR-01, FR-02, … for functional; NF-01, NF-02, … for non-functional — sequential, no gaps
-       - Requirement Title: concise, action-oriented title (4–8 words)
-       - Requirement Description: precise, self-contained description based directly on the paper (paraphrase clearly or quote key phrasing when helpful)
-       - Citation: specific location in the paper (e.g., "Section 3.2", "Algorithm 1 lines 5–14", "page 7 paragraph 3", "Table 4", "Figure 2 caption")
-       - Requirement Related Title: short name(s) of the specific system/application/domain this requirement belongs to (usually matches TARGET TITLE; use comma-separated list of 1–3 concise names if the paper clearly describes multiple related systems or use cases)
-    
-    Rules:
-    - Never invent or hallucinate requirements that are not supported by the paper.
-    - List all Functional Requirements first, sorted by Requirement ID ascending.
-    - Then list all Non-Functional Requirements, sorted by Requirement ID ascending.
-    - Output NOTHING ELSE: no introduction, no summary, no headings outside the block, no markdown, no JSON, no explanations, no trailing text.
-    - Repeat the exact block header for every single requirement.
-    
-    Output format:
-    Title request: ${title}
-    
-    Repeat the following block structure for each requirement:
-    
-    Functional Requirement
-    Role: [role]
-    Requirement ID: [ID]
-    Requirement Title: [title]
-    Requirement Description: [description]
-    Citation: [citation]
-    Requirement Related Title: [related title]
-    
-    —or—
-    
-    Non-Functional Requirement
-    Role: [role]
-    Requirement ID: [ID]
-    Requirement Title: [title]
-    Requirement Description: [description]
-    Citation: [citation]
-    Requirement Related Title: [related title]
+    List all functional requirements first, followed by all non-functional requirements.
+    Use sequential IDs with no gaps.
+    Do not add any extra text, explanations, summaries, or content outside this structure.
     `;
 }
 
@@ -591,7 +558,7 @@ async function evaluationModel(documentData, model, prompt) {
     }
 }
 
-async function modelEvaluation(){
+async function modelEvaluation() {
     // const testingDocument = await pdfExtracted_pdfjslib('./training_sources/medical_app_testing_paper.pdf');
     //
     // // Phase 1: Zero-shot evaluation
@@ -602,88 +569,19 @@ async function modelEvaluation(){
     //     const result = await evaluationModel(testingDocument, MODEL[i], phase1_zeroshotPrompt("medical app"));
     //     await writetxtFile(`./evaluations/${filename}`, result);
     // }
+    try {
+        const testingDocument_1 = await fs.readFile('raw/Non_Functional_Requirements_for_Machine_Learning_Challenges_and_New_Directions.txt', 'utf8');
 
-    const mappingPath = './paper_titles.json'; // adjust path if needed
-    const titleMapping = JSON.parse(await fs.readFile(mappingPath, 'utf-8'));
+        for (const model of MODEL) {
+            console.log(`\n=== Testing model: ${model} ===`);
+            const result = await evaluationModel(testingDocument_1, model, phase1_zeroshotPrompt());
+            console.log(result);
 
-    const textsDir = './raw';
-
-    const txtFiles = (await fs.readdir(textsDir))
-        .filter(f => f.endsWith('.txt'))
-        .map(f => {
-            const id = f.replace('.txt', ''); // e.g. "Bioconductor_open_software_development_..."
-            const targetTitle = titleMapping[id] || 'Unknown Title';
-            return {
-                id,
-                filename: f,
-                path: path.join(textsDir, f),
-                targetTitle
-            };
-        })
-        .filter(doc => doc.targetTitle !== 'Unknown Title'); // optional: skip unmatched files
-
-    console.log(`Found ${txtFiles.length} documents in ./raw with mapped titles:`);
-    txtFiles.forEach(doc => {
-        console.log(`  • ${doc.filename}  →  "${doc.targetTitle}"`);
-    });
-
-    for (const model of MODEL) {
-        console.log(`\n=== Testing model: ${model} ===`);
-
-        for (const doc of txtFiles) {
-            console.log(`  Processing: ${doc.id}`);
-
-            let text;
-            try {
-                text = await fs.readFile(doc.path, 'utf-8');
-            } catch (err) {
-                console.error(`    Failed to read ${doc.filename}: ${err.message}`);
-                continue;
-            }
-
-            const prompt = phase1_zeroshotPrompt(doc.targetTitle);
-
-            let result;
-            try {
-                result = await evaluationModel(text, model, prompt);
-            } catch (err) {
-                console.error(`    Evaluation failed for ${doc.id} on ${model}: ${err.message}`);
-                continue;
-            }
-
-            const safeModel = model.replace(/[-.]/g, '_');
-            const safeId = doc.id
-                .replace(/[^a-zA-Z0-9_-]/g, '_')
-                .slice(0, 80); // prevent overly long filenames
-
-            const outputFilename = `./evaluations/phase1_${safeModel}_${safeId}.txt`;
-
-            await fs.mkdir('./evaluations', { recursive: true });
-            await fs.writeFile(outputFilename, result, 'utf-8');
-
-            console.log(`    → Saved: ${outputFilename}`);
+            const filename = `${model.replace(/[-.]/g, "_")}.txt`;
+            await fs.writeFile(`./evaluations/${filename}`, result);
         }
+    } catch (err) {
+        console.error('modelEvaluation failed:', err.message);
     }
-
-    // Phase 2: TC prompt evaluation
-    // for (let j = 0; j < 18; j++){
-    //     console.log(`Testing prompt index: ${j}`);
-    //     let filename = `tc_model_prompt_eval_${j}.txt`;
-    //     const result = await evaluationModel(testingDocument, TC_MODEL, phase2_promptEvaluation("medical app", j));
-    //     await writetxtFile(`./evaluations/${filename}`, result);
-    // }
-
-    // Phase 3: Cross model evaluation with best prompt
-    // const bestPrompt = [0, 9, 12];
-    // for (let k = 0; k < MODEL.length; k++){
-    //     console.log(`Testing model: ${MODEL[k]}`);
-    //     let filename = `cross_model_eval_${MODEL[k].replace(/-/g, "_").replace(/\./g, "_")}.txt`;
-    //     for (let p = 0; p < bestPrompt.length; p++){
-    //         filename += `_prompt${p}`;
-    //         const result = await evaluationModel(testingDocument, MODEL[k], phase2_promptEvaluation("medical app", bestPrompt[p]));
-    //         await writetxtFile(`./evaluations/${filename}`, result);
-    //     }
-    // }
 }
-
 modelEvaluation();
