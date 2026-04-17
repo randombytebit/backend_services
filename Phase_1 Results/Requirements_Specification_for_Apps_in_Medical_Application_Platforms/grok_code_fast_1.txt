@@ -1,0 +1,482 @@
+- Role
+- Requirement ID
+- Requirement Title
+- Requirement Description
+- Citation
+- Requirement Related Title
+
+- PO Smart Alarm App
+- FR-01
+- Warn Clinician for Supplementary Oxygen Low Blood Oxygenation
+- Warn clinician if patients using supplementary oxygen have low blood oxygenation
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-02
+- Warn Clinician for Rapid Blood Oxygenation Decrease
+- Warn clinician if patient’s blood oxygenation decreases rapidly
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-03
+- Warn for Unreliable Blood Oxygenation Measurement
+- Warn if blood oxygenation measurement is unreliable
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-04
+- Display Recent Blood Oxygenation Measurements
+- Display recent blood oxygenation measurements
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-05
+- Display Recent Heart Rate Measurements
+- Display recent heart rate measurements
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-06
+- Display Current Heart Rate
+- Display current heart rate
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-07
+- Display Current Blood Oxygenation Measurement
+- Display current blood oxygenation measurement
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-08
+- Display Parameters for Alarm Determination
+- Display parameters used to determine alarms
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-09
+- Allow Entry of Parameters for Alarm Determination
+- Allow entry of parameters used to determine alarms
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-10
+- Warn for Fast or Slow Heart Rate
+- Warn clinician if device detects fast or slow heart rate, by forwarding native alarms from the pulse oximeter device
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-11
+- Warn for Low SpO2
+- Warn clinician if device detects low SpO2 by forwarding native alarms from the pulse oximeter device
+- Page 4, Figure 4
+- PO Smart Alarm System Goals
+
+- PO Smart Alarm App
+- FR-12
+- Calculate Moving Average of SpO2 Measurements
+- App calculates moving average of SpO2 measurements
+- Page 4, Figure 5
+- PO Smart Alarm Exceptional Use Case
+
+- PO Smart Alarm App
+- FR-13
+- Compare Current SpO2 with Moving Average
+- App compares current SpO2 measurement with moving average
+- Page 4, Figure 5
+- PO Smart Alarm Exceptional Use Case
+
+- PO Smart Alarm App
+- FR-14
+- Announce Rapid SpO2 Decline Alarm
+- If current SpO2 is below moving average at least as much as the rapid SpO2 decline limit, app announces rapid SpO2 decline both visually and audibly through the supervisor user interface
+- Page 4, Figure 5
+- PO Smart Alarm Exceptional Use Case
+
+- PO Smart Alarm App
+- FR-15
+- Generate Unlatched Alarm for Supplementary Oxygen Adjustment
+- When SupplOxyAlarmEnabled is true, the SupplOxyAlarm function shall generate an unlatched alarm when the SpO2 device parameter decreased by SpO2LevelAdj is less than the device parameter SpO2LowerLimit
+- Page 5, Section D
+- Functional Architecture and Requirements
+
+- PO Smart Alarm App
+- FR-16
+- Display Visual Cue for Heart Rate Alarm Limits
+- The SUI shall display a visual cue reflecting the current state of both the Heart Rate Lower Limit and the Heart Rate Upper Limit Alarm (element 6)
+- Page 5, Section D
+- Functional Architecture and Requirements
+
+- PO Smart Alarm App
+- FR-17
+- Display Visual Cue for SpO2 Lower Limit Violated Alarm
+- The SUI shall display a visual cue reflecting the current state of the SpO2 Lower Limit Violated Alarm (element 12)
+- Page 5, Section D
+- Functional Architecture and Requirements
+
+- PO Smart Alarm App
+- FR-18
+- Display Visual Cue for Supplemental Oxygen-Adjusted Low SpO2 Alarm
+- The SUI shall display a visual cue reflecting the current state of the Supplemental Oxygen-Adjusted Low SpO2 alarm (element 15)
+- Page 5, Section D
+- Functional Architecture and Requirements
+
+- MAP App
+- FR-19
+- Transfer and Consolidate Data from Devices
+- An app may transfer and possibly consolidate data from one or more devices to a patient’s electronic medical record or a MAP-supported display
+- Page 1, Section II
+- MAP Applications
+
+- MAP App
+- FR-20
+- Implement Derived Alarms
+- An app may implement “derived alarms” to supplement the native alarm capabilities of a device
+- Page 1, Section II
+- MAP Applications
+
+- MAP App
+- FR-21
+- Provide Clinical Decision Support
+- An app may pull information from devices, patient electronic medical records, drug interaction databases, and previous clinical studies to support clinician decision making, diagnoses, or guidance/suggestions for treatment
+- Page 1, Section II
+- MAP Applications
+
+- MAP App
+- FR-22
+- Implement Safety Interlocks
+- An app may control one or more devices so as to implement system safety invariants that lock out potentially unsafe individual device behaviors or interactions between devices
+- Page 1, Section II
+- MAP Applications
+
+- MAP App
+- FR-23
+- Automate Workflow Steps
+- An app may be used to partially automate workflow steps by automatically activating/deactivating devices, setting device parameters based on either a patient’s medical record or on guidelines for a particular type of procedure
+- Page 1, Section II
+- MAP Applications
+
+- MAP App
+- FR-24
+- Perform Closed-Loop Control
+- An app may use information collected from sensing devices and possibly a patient’s medical record to control actuators on devices providing treatment or collecting diagnostic information from patients
+- Page 1, Section II
+- MAP Applications
+
+- MAP App
+- FR-25
+- Declare Device Types
+- Each app declares device types indicating the types/capabilities of devices upon which it depends
+- Page 2, Section III
+- MAP Architecture
+
+- MAP App
+- FR-26
+- Bind to Devices
+- When a clinician initiates the app launch process, the Supervisor queries the Network Controller to determine if a device that meets those requirements is currently on the network and associated with the patient under consideration; if more than one device satisfies a particular app device requirement, the operator chooses a particular device to bind to the app
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-27
+- Provide Communication Infrastructure
+- The Network Controller provides the MAP communication infrastructure to which medical devices and other hospital information systems are attached
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-28
+- Provide Execution Platform for Apps
+- The Supervisor provides an execution platform for apps
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-29
+- Establish Virtual Information Pipes
+- The Network Controller provides high-assurance network communication capabilities that establish virtual “information pipes” between devices and apps running in the Supervisor
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-30
+- Expose ICE Interfaces
+- The Network Controller exposes the ICE Interfaces of attached devices to Supervisor apps
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-31
+- Maintain Device Registry
+- A Device Manager component of the Network Controller maintains a registry of all medical devices that are currently connected with the MDCF
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-32
+- Implement Device Connection Protocol
+- The Device Manager implements the server side of the MDCF device connection protocol (medical devices implement the client side)
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-33
+- Track Device Connectivity
+- The Device Manager tracks the connectivity of those devices (notifying the appropriate apps if a device goes offline unexpectedly)
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-34
+- Validate Device Trustworthiness
+- The Device Manager validates the trustworthiness of any connecting device by applying a key exchange protocol to determine if the connecting device has a valid digital certificate to indicate that has been previously certified to conform to its interface and has received regulatory approval
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-35
+- Ensure App Separation and Isolation
+- The Supervisor provides separation/isolation-kernel-like data partitioning (information cannot inadvertently leak between apps, and apps cannot inadvertently interfere with one another)
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-36
+- Provide Time Partitioning
+- The Supervisor provides time partitioning (real-time scheduling guarantees that the computations in one app cannot cause the performance of another to degrade or fail)
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- FR-37
+- Perform Dynamic Schedulability Analysis
+- The platform ensures correct system integration by only allowing the app to execute when the platform can satisfy the execution and communication needs of the app (this is achieved via dynamic schedulability analysis)
+- Page 3, Section III
+- MAP Architecture
+
+- MAP
+- FR-38
+- Verify Device Capabilities
+- The platform ensures correct system integration by only allowing the app to execute when the devices attached to the network satisfy the device functional and real-time capabilities required by the app
+- Page 3, Section III
+- MAP Architecture
+
+- PO Smart Alarm App
+- FR-39
+- Provide Clinical Background
+- The system overview should include a clinical background and statement of clinical need
+- Page 4, Section IV.A
+- System Overview
+
+- PO Smart Alarm App
+- FR-40
+- Describe Clinical Need
+- This section should describe the specific clinical problems that the app is trying to address, ideally with references to clinical literature
+- Page 4, Section IV.A
+- System Overview
+
+- PO Smart Alarm App
+- FR-41
+- Provide System Synopsis
+- This section provides a short textual synopsis of the app, naming the system, describing its purpose, and summarizing the system capability
+- Page 4, Section IV.A
+- System Overview
+
+- PO Smart Alarm App
+- FR-42
+- Include System Diagram
+- The synopsis should include a diagram summarizing the clinician’s view of the system, indicating devices required, sensors/actuators, external interfaces, displays, and basic interactions
+- Page 4, Section IV.A
+- System Overview
+
+- PO Smart Alarm App
+- FR-43
+- List System Goals
+- This section offers a preliminary set of system goals that will be used to guide the specification of requirements
+- Page 4, Section IV.A
+- System Overview
+
+- PO Smart Alarm App
+- FR-44
+- Develop Operational Concepts
+- Define scripts or scenarios describing how the system will be used, including normal and exceptional use cases
+- Page 4, Section IV.B
+- System Operational Concepts
+
+- PO Smart Alarm App
+- FR-45
+- Identify Device and IT System Interfaces
+- Identify the device and IT system interfaces on which the app depends, including precise statements of physiological parameters in standard medical nomenclature
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- FR-46
+- Specify Environmental Assumptions
+- Specify assumptions about the environment, including data type, range, precision, units, and real-time constraints for monitored and controlled variables
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- FR-47
+- Develop Functional Architecture
+- Organize requirements into functions that are logically related with minimal dependencies between functions
+- Page 5, Section IV.D
+- Functional Architecture and Requirements
+
+- PO Smart Alarm App
+- FR-48
+- Provide SUI Mockup
+- Provide a mock-up of the Supervisor User Interface display showing what information must be shown
+- Page 5, Section IV.D
+- Functional Architecture and Requirements
+
+- PO Smart Alarm App
+- NF-01
+- Safety-Critical
+- The MAP is a safety-critical computing platform
+- Page 1, Abstract
+- MAP Applications
+
+- MAP
+- NF-02
+- Security-Critical
+- The MAP is a security-critical computing platform
+- Page 1, Abstract
+- MAP Applications
+
+- MAP
+- NF-03
+- Real-Time Computing
+- The MAP is a real-time computing platform
+- Page 1, Abstract
+- MAP Applications
+
+- MAP
+- NF-04
+- High-Assurance Network Communication
+- The Network Controller provides high-assurance network communication capabilities
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- NF-05
+- Data Partitioning
+- The Supervisor provides separation/isolation-kernel-like data partitioning to prevent information leakage between apps
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- NF-06
+- Time Partitioning
+- The Supervisor provides time partitioning with real-time scheduling guarantees to prevent performance degradation between apps
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- NF-07
+- Trustworthiness Validation
+- Validate device trustworthiness via key exchange protocol and digital certificates for certification and regulatory approval
+- Page 2, Section III
+- MAP Architecture
+
+- MAP
+- NF-08
+- Compositional Construction, Certification, and Regulation
+- Instances of ICE components are developed by different vendors, individually certified to comply with ICE interface, and subject to regulatory approval
+- Page 3, Section III
+- MAP Architecture
+
+- MAP
+- NF-09
+- Integration After Deployment
+- Systems are assembled at the point of care by clinicians attaching devices to the communication infrastructure and launching apps that dynamically bind to devices
+- Page 3, Section III
+- MAP Architecture
+
+- MAP
+- NF-10
+- Robust Architecture
+- Ensure a robust architecture that precisely defines interface and strong functional and real-time requirements
+- Page 3, Section III
+- MAP Architecture
+
+- MAP
+- NF-11
+- Rigorous Third-Party Certification
+- Establish trust between vendors via rigorous third-party certification regime
+- Page 3, Section III
+- MAP Architecture
+
+- MAP
+- NF-12
+- High-Assurance Infrastructure
+- Provide high-assurance infrastructure components that offer common platform services and space/time-partitioning for apps/devices and communication between these
+- Page 3, Section III
+- MAP Architecture
+
+- PO Smart Alarm App
+- NF-13
+- Data Type for SpO2
+- Data Type: Integer for Blood Oxygenation Saturation (SpO2)
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- NF-14
+- Units for SpO2
+- Units: Percentage for Blood Oxygenation Saturation (SpO2)
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- NF-15
+- Range for SpO2
+- Range: 0 to 100 for Blood Oxygenation Saturation (SpO2)
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- NF-16
+- Period for SpO2
+- Period: 1 second for Blood Oxygenation Saturation (SpO2)
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- NF-17
+- Real-Time Constraints
+- Capture real-time constraints such as period for device parameters
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- NF-18
+- Temporal Ordering Constraints
+- Include additional constraints such as temporal ordering (e.g., type state constraints) on device commands
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- NF-19
+- Role-Based Security Access Controls
+- Include role-based security access controls of data streams and command ports
+- Page 5, Section IV.C
+- App Interfaces
+
+- PO Smart Alarm App
+- NF-20
+- Fail-Safe Mode Specification
+- Specify how the device should change its state to move to a fail-safe mode upon accidental disconnect from the Network Controller
+- Page 5, Section IV.C
+- App Interfaces

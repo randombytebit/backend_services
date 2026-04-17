@@ -567,14 +567,18 @@ async function modelEvaluation() {
     //     let filename = MODEL[i].replace(/-/g, "_");
     //     filename = filename.replace(/\./g, "_") + ".txt";
     //     const result = await evaluationModel(testingDocument, MODEL[i], phase1_zeroshotPrompt("medical app"));
-    //     await writetxtFile(`./evaluations/${filename}`, result);
+    //     await writetxtFile(`./Non-Functional_Requirement_for_Machine_Learning:Challenges_and_New_Directions/${filename}`, result);
     // }
     try {
-        const testingDocument_1 = await fs.readFile('raw/Non_Functional_Requirements_for_Machine_Learning_Challenges_and_New_Directions.txt', 'utf8');
+        // const testingDocument_1 = await fs.readFile('raw/Non_Functional_Requirements_for_Machine_Learning_Challenges_and_New_Directions.txt', 'utf8');
+        const testingDocument_2 = await pdfExtracted_pdfjslib('./training_sources/Requirements Specification for Apps in Medical Application Platforms.pdf')
+        await fs.writeFile('./raw/Requirements_Specification_for_Apps_in_Medical_Application_Platforms.txt', testingDocument_2, 'utf8');
+
+        const testingDocument_2_data = await fs.readFile('raw/Requirements_Specification_for_Apps_in_Medical_Application_Platforms.txt', 'utf8');
 
         for (const model of MODEL) {
             console.log(`\n=== Testing model: ${model} ===`);
-            const result = await evaluationModel(testingDocument_1, model, phase1_zeroshotPrompt());
+            const result = await evaluationModel(testingDocument_2_data, model, phase1_zeroshotPrompt());
             console.log(result);
 
             const filename = `${model.replace(/[-.]/g, "_")}.txt`;

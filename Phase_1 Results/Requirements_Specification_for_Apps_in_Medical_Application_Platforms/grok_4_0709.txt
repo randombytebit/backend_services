@@ -1,0 +1,454 @@
+- Role: MAP
+  - Requirement ID: FR-01
+  - Requirement Title: Integrate Heterogeneous Components
+  - Requirement Description: Integrate heterogeneous devices, medical IT systems, and information displays via a communication infrastructure.
+  - Citation: Page 1
+  - Requirement Related Title: Abstract
+
+- Role: MAP
+  - Requirement ID: FR-02
+  - Requirement Title: Host Application Programs
+  - Requirement Description: Host application programs (apps) that provide medical utility via the ability to both acquire information from and update/control integrated devices, IT systems, and displays.
+  - Citation: Page 1
+  - Requirement Related Title: Abstract
+
+- Role: App
+  - Requirement ID: FR-03
+  - Requirement Title: Transfer and Consolidate Data
+  - Requirement Description: Transfer and possibly consolidate data from one or more devices to a patient’s electronic medical record or a MAP-supported display.
+  - Citation: Page 1
+  - Requirement Related Title: II. Medical Application Platforms
+
+- Role: App
+  - Requirement ID: FR-04
+  - Requirement Title: Implement Derived Alarms
+  - Requirement Description: Implement derived alarms to supplement the native alarm capabilities of a device, including alarms for consumer oriented devices that do not provide native alarms.
+  - Citation: Page 1
+  - Requirement Related Title: II. Medical Application Platforms
+
+- Role: App
+  - Requirement ID: FR-05
+  - Requirement Title: Implement Smart Alarms
+  - Requirement Description: Implement smart alarms that provide more sophisticated analysis and decision logic based on physiological parameters from multiple devices, monitoring trends/history, or comparison and correlation with data patterns from a broader population.
+  - Citation: Page 2
+  - Requirement Related Title: II. Medical Application Platforms
+
+- Role: App
+  - Requirement ID: FR-06
+  - Requirement Title: Provide Clinical Decision Support
+  - Requirement Description: Pull information from devices, patient electronic medical records, drug interaction databases, and previous clinical studies to support clinician decision making, diagnoses, or guidance/suggestions for treatment.
+  - Citation: Page 2
+  - Requirement Related Title: II. Medical Application Platforms
+
+- Role: App
+  - Requirement ID: FR-07
+  - Requirement Title: Implement Safety Interlocks
+  - Requirement Description: Control one or more devices to implement system safety invariants that lock out potentially unsafe individual device behaviors or interactions between devices.
+  - Citation: Page 2
+  - Requirement Related Title: II. Medical Application Platforms
+
+- Role: App
+  - Requirement ID: FR-08
+  - Requirement Title: Automate Workflow Steps
+  - Requirement Description: Partially automate workflow steps by automatically activating/deactivating devices, setting device parameters based on either a patient’s medical record or on guidelines for a particular type of procedure.
+  - Citation: Page 2
+  - Requirement Related Title: II. Medical Application Platforms
+
+- Role: App
+  - Requirement ID: FR-09
+  - Requirement Title: Perform Closed-Loop Control
+  - Requirement Description: Use information collected from sensing devices and possibly a patient’s medical record to control actuators on devices providing treatment or collecting diagnostic information from patients.
+  - Citation: Page 2
+  - Requirement Related Title: II. Medical Application Platforms
+
+- Role: Network Controller
+  - Requirement ID: FR-10
+  - Requirement Title: Provide Communication Infrastructure
+  - Requirement Description: Provide the MAP communication infrastructure to which medical devices and other hospital information systems are attached.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Supervisor
+  - Requirement ID: FR-11
+  - Requirement Title: Provide Execution Platform for Apps
+  - Requirement Description: Provide an execution platform for apps.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Network Controller
+  - Requirement ID: FR-12
+  - Requirement Title: Establish Information Pipes
+  - Requirement Description: Establish virtual information pipes between devices and apps running in the Supervisor.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Network Controller
+  - Requirement ID: FR-13
+  - Requirement Title: Expose ICE Interfaces
+  - Requirement Description: Expose the ICE Interfaces of attached devices to Supervisor apps.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Device Manager
+  - Requirement ID: FR-14
+  - Requirement Title: Maintain Device Registry
+  - Requirement Description: Maintain a registry of all medical devices that are currently connected with the MDCF.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Device Manager
+  - Requirement ID: FR-15
+  - Requirement Title: Implement Device Connection Protocol
+  - Requirement Description: Implement the server side of the MDCF device connection protocol and track the connectivity of those devices, notifying the appropriate apps if a device goes offline unexpectedly.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Device Manager
+  - Requirement ID: FR-16
+  - Requirement Title: Validate Device Trustworthiness
+  - Requirement Description: Validate the trustworthiness of any connecting device by applying a key exchange protocol to determine if the connecting device has a valid digital certificate.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Supervisor
+  - Requirement ID: FR-17
+  - Requirement Title: Host Supervisor Apps
+  - Requirement Description: Host Supervisor Apps as a virtual machine.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: App
+  - Requirement ID: FR-18
+  - Requirement Title: Declare Device Types
+  - Requirement Description: Declare device types indicating the types/capabilities of devices upon which it depends.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Supervisor
+  - Requirement ID: FR-19
+  - Requirement Title: Query for Required Devices
+  - Requirement Description: Query the Network Controller to determine if a device that meets app requirements is currently on the network and associated with the patient.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Supervisor
+  - Requirement ID: FR-20
+  - Requirement Title: Bind Devices to Apps
+  - Requirement Description: Allow operator to choose a particular device to bind to the app if more than one satisfies requirements.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: App
+  - Requirement ID: FR-21
+  - Requirement Title: Define Intended Use
+  - Requirement Description: Define the intended use of the platform constituted device.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: MAP
+  - Requirement ID: FR-22
+  - Requirement Title: Support Multiple Constituted Devices
+  - Requirement Description: Simultaneously support multiple platform constituted devices when more than one app is running.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: ICE Components
+  - Requirement ID: FR-23
+  - Requirement Title: Comply with ICE Interface
+  - Requirement Description: Be certified to comply with their ICE interface.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Platform
+  - Requirement ID: FR-24
+  - Requirement Title: Ensure Correct System Integration
+  - Requirement Description: Ensure correct system integration by only allowing the app to execute when the platform can satisfy the execution and communication needs of the app and when attached devices satisfy required capabilities.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: App
+  - Requirement ID: FR-25
+  - Requirement Title: Provide Clinical Background
+  - Requirement Description: Provide the medical and clinical background necessary for a developer to understand and interpret the requirements.
+  - Citation: Page 4
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-26
+  - Requirement Title: Describe Clinical Need
+  - Requirement Description: Describe the specific clinical problems that the app is trying to address, including references to clinical literature.
+  - Citation: Page 4
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-27
+  - Requirement Title: Provide System Synopsis
+  - Requirement Description: Provide a short textual synopsis naming the system, describing its purpose, and summarizing capabilities.
+  - Citation: Page 4
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-28
+  - Requirement Title: Provide Configuration Diagram
+  - Requirement Description: Provide a diagram summarizing the clinician’s view of the system, indicating required devices, sensors/actuators, external interfaces, displays, and basic interactions.
+  - Citation: Page 4
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-29
+  - Requirement Title: Warn for Low Oxygenation with Supplementary Oxygen
+  - Requirement Description: Warn clinician if patients using supplementary oxygen have low blood oxygenation.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-30
+  - Requirement Title: Warn for Rapid Oxygenation Decrease
+  - Requirement Description: Warn clinician if patient’s blood oxygenation decreases rapidly.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-31
+  - Requirement Title: Warn for Unreliable Oxygenation Measurement
+  - Requirement Description: Warn if blood oxygenation measurement is unreliable.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-32
+  - Requirement Title: Display Recent Oxygenation Measurements
+  - Requirement Description: Display recent blood oxygenation measurements.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-33
+  - Requirement Title: Display Recent Heart Rate Measurements
+  - Requirement Description: Display recent heart rate measurements.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-34
+  - Requirement Title: Display Current Heart Rate
+  - Requirement Description: Display current heart rate.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-35
+  - Requirement Title: Display Current Oxygenation Measurement
+  - Requirement Description: Display current blood oxygenation measurement.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-36
+  - Requirement Title: Display Alarm Parameters
+  - Requirement Description: Display parameters used to determine alarms.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-37
+  - Requirement Title: Allow Entry of Alarm Parameters
+  - Requirement Description: Allow entry of parameters used to determine alarms.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-38
+  - Requirement Title: Forward Heart Rate Alarms
+  - Requirement Description: Warn clinician if device detects fast or slow heart rate, by forwarding native alarms from the pulse oximeter device.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-39
+  - Requirement Title: Forward Low SpO2 Alarms
+  - Requirement Description: Warn clinician if device detects low SpO2 by forwarding native alarms from the pulse oximeter device.
+  - Citation: Page 5
+  - Requirement Related Title: A. System Overview
+
+- Role: App
+  - Requirement ID: FR-40
+  - Requirement Title: Calculate Moving Average of SpO2
+  - Requirement Description: App calculates moving average of SpO2 measurements.
+  - Citation: Page 5
+  - Requirement Related Title: B. System Operational Concepts
+
+- Role: App
+  - Requirement ID: FR-41
+  - Requirement Title: Compare Current SpO2 with Average
+  - Requirement Description: App compares current SpO2 measurement with moving average.
+  - Citation: Page 5
+  - Requirement Related Title: B. System Operational Concepts
+
+- Role: App
+  - Requirement ID: FR-42
+  - Requirement Title: Announce Rapid SpO2 Decline
+  - Requirement Description: If current SpO2 is below moving average at least as much as the rapid SpO2 decline limit, app announces rapid SpO2 decline both visually and audibly through the supervisor user interface.
+  - Citation: Page 5
+  - Requirement Related Title: B. System Operational Concepts
+
+- Role: App
+  - Requirement ID: FR-43
+  - Requirement Title: Identify Device Interfaces
+  - Requirement Description: Identify the device and IT system interfaces on which the app depends, including precise statement of physiological parameters in standard medical nomenclature.
+  - Citation: Page 5
+  - Requirement Related Title: C. App Interfaces
+
+- Role: App
+  - Requirement ID: FR-44
+  - Requirement Title: Provide SpO2 Sensor Data
+  - Requirement Description: Provide Blood Oxygenation Saturation (SpO2) as integer, range 0 to 100, units percentage.
+  - Citation: Page 6
+  - Requirement Related Title: C. App Interfaces
+
+- Role: App
+  - Requirement ID: FR-45
+  - Requirement Title: Generate Supplemental Oxygen Alarm
+  - Requirement Description: When SupplOxyAlarmEnabled is true, the SupplOxyAlarm function shall generate an unlatched alarm when the SpO2 device parameter decreased by SpO2LevelAdj is less than the device parameter SpO2LowerLimit.
+  - Citation: Page 6
+  - Requirement Related Title: D. Functional Architecture and Requirements
+
+- Role: SUI
+  - Requirement ID: FR-46
+  - Requirement Title: Display Heart Rate Limit Alarm Cue
+  - Requirement Description: The SUI shall display a visual cue reflecting the current state of both the Heart Rate Lower Limit and the Heart Rate Upper Limit Alarm.
+  - Citation: Page 6
+  - Requirement Related Title: D. Functional Architecture and Requirements
+
+- Role: SUI
+  - Requirement ID: FR-47
+  - Requirement Title: Display SpO2 Lower Limit Alarm Cue
+  - Requirement Description: The SUI shall display a visual cue reflecting the current state of the SpO2 Lower Limit Violated Alarm.
+  - Citation: Page 6
+  - Requirement Related Title: D. Functional Architecture and Requirements
+
+- Role: SUI
+  - Requirement ID: FR-48
+  - Requirement Title: Display Supplemental Oxygen Alarm Cue
+  - Requirement Description: The SUI shall display a visual cue reflecting the current state of the Supplemental Oxygen-Adjusted Low SpO2 alarm.
+  - Citation: Page 6
+  - Requirement Related Title: D. Functional Architecture and Requirements
+
+- Role: MAP
+  - Requirement ID: NF-01
+  - Requirement Title: Safety-Critical
+  - Requirement Description: Be a safety-critical real-time computing platform.
+  - Citation: Page 1
+  - Requirement Related Title: Abstract
+
+- Role: MAP
+  - Requirement ID: NF-02
+  - Requirement Title: Security-Critical
+  - Requirement Description: Be a security-critical real-time computing platform.
+  - Citation: Page 1
+  - Requirement Related Title: Abstract
+
+- Role: MAP
+  - Requirement ID: NF-03
+  - Requirement Title: Real-Time
+  - Requirement Description: Be a real-time computing platform.
+  - Citation: Page 1
+  - Requirement Related Title: Abstract
+
+- Role: Network Controller
+  - Requirement ID: NF-04
+  - Requirement Title: High-Assurance Communication
+  - Requirement Description: Provide high-assurance network communication capabilities.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Supervisor
+  - Requirement ID: NF-05
+  - Requirement Title: Data Partitioning
+  - Requirement Description: Provide separation/isolation-kernel-like data partitioning to prevent information leakage between apps and interference.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Supervisor
+  - Requirement ID: NF-06
+  - Requirement Title: Time Partitioning
+  - Requirement Description: Provide time partitioning with real-time scheduling guarantees to prevent performance degradation between apps.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Device Manager
+  - Requirement ID: NF-07
+  - Requirement Title: Trust Validation
+  - Requirement Description: Validate trustworthiness using key exchange protocol and digital certificate indicating conformance and regulatory approval.
+  - Citation: Page 2
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: ICE Components
+  - Requirement ID: NF-08
+  - Requirement Title: Certification Compliance
+  - Requirement Description: Be certified by an independent certification authority to comply with ICE interface.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: ICE Components
+  - Requirement ID: NF-09
+  - Requirement Title: Regulatory Approval
+  - Requirement Description: Be subject to regulatory approval (e.g., FDA’s 510K).
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: MAP
+  - Requirement ID: NF-10
+  - Requirement Title: Robust Architecture
+  - Requirement Description: Provide a robust architecture that precisely defines interfaces and strong functional and real-time requirements.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: MAP
+  - Requirement ID: NF-11
+  - Requirement Title: Third-Party Certification
+  - Requirement Description: Implement a rigorous third-party certification regime to establish trust between vendors.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Infrastructure
+  - Requirement ID: NF-12
+  - Requirement Title: High-Assurance Services
+  - Requirement Description: Provide high-assurance infrastructure components for common platform services and space/time-partitioning for apps/devices and communication.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: Platform
+  - Requirement ID: NF-13
+  - Requirement Title: Dynamic Schedulability
+  - Requirement Description: Perform dynamic schedulability analysis to satisfy execution and communication needs.
+  - Citation: Page 3
+  - Requirement Related Title: III. MAP Architecture
+
+- Role: App Interfaces
+  - Requirement ID: NF-14
+  - Requirement Title: Real-Time Constraints
+  - Requirement Description: Capture real-time constraints such as period (e.g., 1 second for SpO2 data).
+  - Citation: Page 6
+  - Requirement Related Title: C. App Interfaces
+
+- Role: Device Interfaces
+  - Requirement ID: NF-15
+  - Requirement Title: Temporal Ordering
+  - Requirement Description: Include temporal ordering constraints (e.g., type state constraints) on device commands.
+  - Citation: Page 6
+  - Requirement Related Title: C. App Interfaces
+
+- Role: Device Interfaces
+  - Requirement ID: NF-16
+  - Requirement Title: Role-Based Security
+  - Requirement Description: Include role-based security access controls of data streams and command ports.
+  - Citation: Page 6
+  - Requirement Related Title: C. App Interfaces
+
+- Role: Device
+  - Requirement ID: NF-17
+  - Requirement Title: Fail-Safe Mode
+  - Requirement Description: Specify how the device should change its state to move to a fail-safe mode upon accidental disconnect from the Network Controller.
+  - Citation: Page 6
+  - Requirement Related Title: C. App Interfaces

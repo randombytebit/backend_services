@@ -1,0 +1,335 @@
+- Role: Medical Application Platform (MAP)
+- Requirement ID: FR-01
+- Requirement Title: Integrate Heterogeneous Components
+- Requirement Description: The MAP shall integrate heterogeneous devices, medical IT systems, and information displays via a shared communication infrastructure.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: Medical Application Platform (MAP)
+- Requirement ID: FR-02
+- Requirement Title: Host Application Programs
+- Requirement Description: The MAP shall host application programs (apps) that provide medical utility by acquiring information from and exerting control over integrated devices, IT systems, and displays.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: MAP App (Medical Display and Storage)
+- Requirement ID: FR-03
+- Requirement Title: Transfer and Consolidate Data
+- Requirement Description: An app shall transfer and possibly consolidate data from one or more devices to a patient’s electronic medical record or a MAP-supported display, including composite displays in hospital rooms, remote clinical displays, or physician’s smart phones.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: MAP App (Derived/Smart Alarms)
+- Requirement ID: FR-04
+- Requirement Title: Implement Derived Alarms
+- Requirement Description: An app shall implement derived alarms to supplement native device alarms, including alarms for consumer-oriented devices without native alarms (e.g., upper and lower limit SpO2 alarms for Continua compliant pulse oximeters) and smart alarms based on analysis of physiological parameters from multiple devices, trends/history, or population data patterns.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: MAP App (Clinical Decision Support)
+- Requirement ID: FR-05
+- Requirement Title: Provide Clinical Decision Support
+- Requirement Description: An app shall pull information from devices, patient electronic medical records, drug interaction databases, and previous clinical studies to support clinician decision making, diagnoses, or treatment guidance/suggestions.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: MAP App (Safety Interlocks)
+- Requirement ID: FR-06
+- Requirement Title: Implement Safety Interlocks
+- Requirement Description: An app shall control one or more devices to implement system safety invariants that lock out potentially unsafe individual device behaviors or interactions between devices.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: MAP App (Workflow Automation)
+- Requirement ID: FR-07
+- Requirement Title: Automate Clinical Workflows
+- Requirement Description: An app shall partially automate clinical workflow steps by automatically activating/deactivating devices and setting device parameters based on a patient’s medical record or guidelines for a particular procedure.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: MAP App (Closed-Loop Control)
+- Requirement ID: FR-08
+- Requirement Title: Implement Closed-Loop Control
+- Requirement Description: An app shall use information from sensing devices and possibly a patient’s medical record to control actuators on devices providing treatment or collecting diagnostic information.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: Network Controller
+- Requirement ID: FR-09
+- Requirement Title: Provide Communication Infrastructure
+- Requirement Description: The Network Controller shall provide the MAP communication infrastructure to which medical devices and hospital information systems are attached, establishing virtual information pipes between devices and apps, and exposing ICE interfaces of attached devices to Supervisor apps.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: Device Manager (Network Controller Component)
+- Requirement ID: FR-10
+- Requirement Title: Maintain Device Registry
+- Requirement Description: The Device Manager shall maintain a registry of all currently connected medical devices, implement the server side of the MDCF device connection protocol, track device connectivity, and notify appropriate apps if a device goes offline unexpectedly.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: Device Manager (Network Controller Component)
+- Requirement ID: FR-11
+- Requirement Title: Validate Device Trustworthiness
+- Requirement Description: The Device Manager shall validate the trustworthiness of connecting devices by applying a key exchange protocol to check for valid digital certificates indicating prior certification and regulatory approval.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: Supervisor
+- Requirement ID: FR-12
+- Requirement Title: Host Supervisor Apps
+- Requirement Description: The Supervisor shall act as a virtual machine hosting Supervisor Apps, providing data partitioning to prevent information leakage between apps and time partitioning via real-time scheduling to prevent performance degradation or failure between apps.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: Supervisor
+- Requirement ID: FR-13
+- Requirement Title: Manage App Launch and Device Binding
+- Requirement Description: Upon clinician initiation of app launch, the Supervisor shall query the Network Controller to determine if devices meeting the app's declared device type requirements are available and associated with the patient; if multiple devices satisfy a requirement, the operator shall choose a device to bind to the app.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-14
+- Requirement Title: Warn for Low Blood Oxygenation with Supplementary Oxygen
+- Requirement Description: The app shall warn the clinician if patients using supplementary oxygen have low blood oxygenation (Goal G1).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-15
+- Requirement Title: Warn for Rapid Blood Oxygenation Decrease
+- Requirement Description: The app shall warn the clinician if a patient’s blood oxygenation decreases rapidly (Goal G2).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-16
+- Requirement Title: Warn for Unreliable Blood Oxygenation Measurement
+- Requirement Description: The app shall warn if blood oxygenation measurement is unreliable (Goal G3).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-17
+- Requirement Title: Display Recent Blood Oxygenation Measurements
+- Requirement Description: The app shall display recent blood oxygenation measurements (Goal G4).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-18
+- Requirement Title: Display Recent Heart Rate Measurements
+- Requirement Description: The app shall display recent heart rate measurements (Goal G5).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-19
+- Requirement Title: Display Current Heart Rate
+- Requirement Description: The app shall display current heart rate (Goal G6).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-20
+- Requirement Title: Display Current Blood Oxygenation Measurement
+- Requirement Description: The app shall display current blood oxygenation measurement (Goal G7).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-21
+- Requirement Title: Display Alarm Parameters
+- Requirement Description: The app shall display parameters used to determine alarms (Goal G8).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-22
+- Requirement Title: Allow Entry of Alarm Parameters
+- Requirement Description: The app shall allow entry of parameters used to determine alarms (Goal G9).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-23
+- Requirement Title: Forward Native Heart Rate Alarms
+- Requirement Description: The app shall warn the clinician if the device detects fast or slow heart rate by forwarding native alarms from the pulse oximeter device (Goal G10).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-24
+- Requirement Title: Forward Native Low SpO2 Alarms
+- Requirement Description: The app shall warn the clinician if the device detects low SpO2 by forwarding native alarms from the pulse oximeter device (Goal G11).
+- Citation: Page 5, Section IV.A.4
+- Requirement Related Title: System Goals
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-25
+- Requirement Title: Calculate Moving Average of SpO2 Measurements
+- Requirement Description: The app shall calculate a moving average of SpO2 measurements, compare the current SpO2 measurement with the moving average, and if the current SpO2 is below the moving average by at least the rapid SpO2 decline limit, announce a rapid SpO2 decline alarm visually and audibly through the Supervisor user interface.
+- Citation: Page 5, Figure 5
+- Requirement Related Title: System Operational Concepts
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-26
+- Requirement Title: Provide MDDS Displays
+- Requirement Description: The app shall provide Medical Device Data System (MDDS) displays of pulse oximetry device data and trend data for device readings.
+- Citation: Page 5, Section IV.A.3
+- Requirement Related Title: System Synopsis
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-27
+- Requirement Title: Control Pulse Oximeter Alarm Settings
+- Requirement Description: The app shall control pulse oximeter device alarm settings.
+- Citation: Page 5, Section IV.A.3
+- Requirement Related Title: System Synopsis
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-28
+- Requirement Title: Generate Derived Alarms for Supplementary Oxygen
+- Requirement Description: When SupplOxyAlarmEnabled is true, the SupplOxyAlarm function shall generate an unlatched alarm when the SpO2 device parameter decreased by SpO2LevelAdj is less than the device parameter SpO2LowerLimit.
+- Citation: Page 6, Section IV.D
+- Requirement Related Title: Functional Architecture and Requirements
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-29
+- Requirement Title: Receive SpO2 Sensor Data
+- Requirement Description: The app shall receive sensor data and alarm events for SpO2 and heart rate parameters from the pulse oximeter device.
+- Citation: Page 5, Figure 3
+- Requirement Related Title: System Synopsis
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-30
+- Requirement Title: Configure Device Alarm Limits
+- Requirement Description: The app shall configure pulse oximeter device alarm limit parameters.
+- Citation: Page 5, Figure 3
+- Requirement Related Title: System Synopsis
+
+- Role: Supervisor User Interface (SUI)
+- Requirement ID: FR-31
+- Requirement Title: Display Visual Cues for Heart Rate Alarms
+- Requirement Description: The SUI shall display a visual cue reflecting the current state of both the Heart Rate Lower Limit and the Heart Rate Upper Limit Alarm (element 6).
+- Citation: Page 6, Section IV.D
+- Requirement Related Title: Functional Architecture and Requirements
+
+- Role: Supervisor User Interface (SUI)
+- Requirement ID: FR-32
+- Requirement Title: Display Visual Cue for SpO2 Lower Limit Alarm
+- Requirement Description: The SUI shall display a visual cue reflecting the current state of the SpO2 Lower Limit Violated Alarm (element 12).
+- Citation: Page 6, Section IV.D
+- Requirement Related Title: Functional Architecture and Requirements
+
+- Role: Supervisor User Interface (SUI)
+- Requirement ID: FR-33
+- Requirement Title: Display Visual Cue for Supplemental Oxygen-Adjusted Alarm
+- Requirement Description: The SUI shall display a visual cue reflecting the current state of the Supplemental Oxygen-Adjusted Low SpO2 alarm (element 15).
+- Citation: Page 6, Section IV.D
+- Requirement Related Title: Functional Architecture and Requirements
+
+- Role: PO Smart Alarm App
+- Requirement ID: FR-34
+- Requirement Title: Declare Device Dependencies
+- Requirement Description: The app shall declare device types indicating the types/capabilities of devices upon which it depends.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: MAP Platform
+- Requirement ID: FR-35
+- Requirement Title: Ensure Correct System Integration
+- Requirement Description: The platform shall ensure correct system integration by only allowing the app to execute when the platform can satisfy the execution and communication needs of the app via dynamic schedulability analysis and when attached devices satisfy the app's device functional and real-time capabilities.
+- Citation: Page 4, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: Role: MAP
+- Requirement ID: NF-01
+- Requirement Title: Safety-Critical Operation
+- Requirement Description: The MAP shall be safety-critical.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: MAP
+- Requirement ID: NF-02
+- Requirement Title: Security-Critical Operation
+- Requirement Description: The MAP shall be security-critical.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: MAP
+- Requirement ID: NF-03
+- Requirement Title: Real-Time Computing
+- Requirement Description: The MAP shall be a real-time computing platform.
+- Citation: Page 2, Section II
+- Requirement Related Title: Medical Application Platforms
+
+- Role: Network Controller
+- Requirement ID: NF-04
+- Requirement Title: High-Assurance Network Communication
+- Requirement Description: The Network Controller shall provide high-assurance network communication capabilities.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: Supervisor
+- Requirement ID: NF-05
+- Requirement Title: Data Partitioning for Isolation
+- Requirement Description: The Supervisor shall provide separation/isolation-kernel-like data partitioning to prevent information leakage between apps and inadvertent interference.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: Supervisor
+- Requirement ID: NF-06
+- Requirement Title: Time Partitioning for Real-Time Guarantees
+- Requirement Description: The Supervisor shall provide time partitioning with real-time scheduling guarantees to prevent computations in one app from causing performance degradation or failure in another.
+- Citation: Page 3, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: MAP Components
+- Requirement ID: NF-07
+- Requirement Title: Compositional Certification
+- Requirement Description: MAP components (e.g., ICE components) shall be developed by different vendors, individually certified by an independent authority to comply with ICE interfaces, and subject to regulatory approval (e.g., FDA 510K).
+- Citation: Page 4, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: MAP
+- Requirement ID: NF-08
+- Requirement Title: Point-of-Care Integration
+- Requirement Description: The MAP shall support integration after deployment at the point-of-care by clinicians attaching devices and launching apps that dynamically bind to devices, without a prime contractor or pre-deployment assembly.
+- Citation: Page 4, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: MAP Architecture
+- Requirement ID: NF-09
+- Requirement Title: Robust Architecture with Strong Requirements
+- Requirement Description: The MAP architecture shall be robust, precisely defining interfaces and strong functional and real-time requirements.
+- Citation: Page 4, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: MAP Components
+- Requirement ID: NF-10
+- Requirement Title: Third-Party Certification Regime
+- Requirement Description: A rigorous third-party certification regime shall establish trust between vendors, ensuring components function correctly upon which others depend.
+- Citation: Page 4, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: MAP Infrastructure
+- Requirement ID: NF-11
+- Requirement Title: High-Assurance Platform Services
+- Requirement Description: Infrastructure components shall provide high-assurance common platform services and space/time partitioning for apps/devices and communication.
+- Citation: Page 4, Section III
+- Requirement Related Title: MAP Architecture
+
+- Role: SpO2 Sensor Interface
+- Requirement ID: NF-12
+- Requirement Title: SpO2 Data Specifications
+- Requirement Description: The SpO2 parameter shall be an integer data type representing the fraction of hemoglobin that is oxyhemoglobin as a percentage, with units of percentage, range 0 to 100, and period of 1 second.
+- Citation: Page 6, Section IV.C
+- Requirement Related Title: App Interfaces
+
+- Role: ICE Device Interfaces
+- Requirement ID: NF-13
+- Requirement Title: Additional Interface Constraints
+- Requirement Description: ICE device interfaces shall include temporal ordering constraints (e.g., type state constraints) on device commands, role-based security access controls for data streams and command ports, and contract information for fail-safe mode transitions upon accidental disconnect.
+- Citation: Page 6, Section IV.C
+- Requirement Related Title: App Interfaces
