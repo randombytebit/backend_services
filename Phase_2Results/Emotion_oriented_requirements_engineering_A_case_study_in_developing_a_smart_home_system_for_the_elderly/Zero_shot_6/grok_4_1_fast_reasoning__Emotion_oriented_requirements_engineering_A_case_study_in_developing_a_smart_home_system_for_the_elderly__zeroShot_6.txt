@@ -1,0 +1,105 @@
+REQUIREMENT REPORT  
+- Role: Elderly Person  
+  Requirement ID: FR-01  
+  Requirement Title: Receive Activity-Triggered Reminders  
+  Requirement Description: System issues user-specific voice reminders for hydration, medication, appointments, and special events, triggered by detected user activity via sensors.  
+  Citation: Page 7 (Section 4.1)  
+  Requirement Related Title: Issue Notifications  
+
+- Role: Elderly Person  
+  Requirement ID: FR-02  
+  Requirement Title: Receive Morning Voice Messages  
+  Requirement Description: System plays personalized morning voice messages as part of daily routine integration, which users anticipate and interact with passively.  
+  Citation: Page 10 (Section 5.2.1)  
+  Requirement Related Title: Issue Messages  
+
+- Role: System/Carers  
+  Requirement ID: FR-03  
+  Requirement Title: Detect and Alert Anomalous Behavior  
+  Requirement Description: System uses AI to learn user routine and detect anomalies (e.g., abnormal time in bed, door left open) and issues alerts for emergency assistance.  
+  Citation: Page 7 (Section 4.1)  
+  Requirement Related Title: Detect Anomaly  
+
+- Role: Carer/Family Member  
+  Requirement ID: FR-04  
+  Requirement Title: Carer User Interface for Monitoring  
+  Requirement Description: Web-based UI allows carers/family to check real-time user activity, receive notifications, and access customizable behavior summary reports.  
+  Citation: Page 7 (Section 4.1)  
+  Requirement Related Title: Support Independent Living  
+
+- Role: Elderly Person  
+  Requirement ID: FR-05  
+  Requirement Title: Passive Sensor Monitoring  
+  Requirement Description: Non-intrusive sensors (motion, door contact, temperature, humidity) enable passive monitoring without wearables or active user input.  
+  Citation: Page 8 (Section 4.3.1)  
+  Requirement Related Title: Learn User’s Routine and Behaviour  
+
+- Role: Elderly Person  
+  Requirement ID: FR-06  
+  Requirement Title: Environment Automation  
+  Requirement Description: System automates physical home environment controls (e.g., heating, cooling) based on sensor data to support comfort and independence.  
+  Citation: Page 7 (Section 4.1)  
+  Requirement Related Title: Support Independent Living  
+
+- Role: Trial Participant (Elderly)  
+  Requirement ID: FR-07  
+  Requirement Title: Daily Checklist Input  
+  Requirement Description: Users manually log daily activities (bedtime, wake time, visitors, doors open, outings) via checklists for ground-truth validation against sensor data.  
+  Citation: Page 8 (Section 4.3.1)  
+  Requirement Related Title: Human-in-the-Loop Feedback  
+
+- Role: Trial Participant (Elderly/Carers)  
+  Requirement ID: FR-08  
+  Requirement Title: Emotion-Oriented Questionnaire Interface  
+  Requirement Description: Likert-scale questionnaire (5-point) with opposing emotional poles (e.g., anxious-monitored vs. comfortable-monitored) administered pre/mid/post-trial for feedback.  
+  Citation: Page 8 (Section 4.3.1)  
+  Requirement Related Title: Emotion-Oriented Evaluation  
+
+- Role: Trial Participant (Elderly/Carers)  
+  Requirement ID: FR-09  
+  Requirement Title: Structured Interview Feedback  
+  Requirement Description: Multi-stage interviews (pre-install, mid-trial weekly, post-uninstall) on routines, technology views, message experience, and overall satisfaction.  
+  Citation: Page 8 (Section 4.3.1)  
+  Requirement Related Title: Human-in-the-Loop Feedback  
+
+- Role: Elderly Person  
+  Requirement ID: FR-10  
+  Requirement Title: Emergency Escalation Mechanism  
+  Requirement Description: System escalates detected anomalies (e.g., falls, emergencies) to carers/service providers via alerts.  
+  Citation: Page 1 (Abstract)  
+  Requirement Related Title: Emergency Assistance  
+
+- Role: Elderly Person  
+  Requirement ID: NF-01  
+  Requirement Title: Usability for Elderly  
+  Requirement Description: System must be simple, non-scary, and integrated into daily life with easy-to-understand voice messages and minimal interactions to build confidence.  
+  Citation: Page 11 (Section 5.2.3)  
+  Requirement Related Title: Integrated  
+
+- Role: Elderly Person  
+  Requirement ID: NF-02  
+  Requirement Title: Low Cognitive Load  
+  Requirement Description: Limit interactions to two message types (morning, medication) to avoid overwhelming users and prevent frustration.  
+  Citation: Page 7 (Section 4.2)  
+  Requirement Related Title: In Control  
+
+- Role: Elderly Person/Carers  
+  Requirement ID: NF-03  
+  Requirement Title: Response Time for Alerts/Messages  
+  Requirement Description: System must respond promptly to triggers (e.g., no delays in messages due to power issues) to avoid user frustration or perceived failure.  
+  Citation: Page 12 (Section 5.2.7)  
+  Requirement Related Title: Runs Smoothly  
+
+- Role: Elderly Person  
+  Requirement ID: NF-04  
+  Requirement Title: Accessibility for Independent Elderly  
+  Requirement Description: Designed for users over 65, living independently, English-proficient, with minor assistance needs; non-intrusive, no wearables.  
+  Citation: Page 8 (Section 4.3)  
+  Requirement Related Title: Independent  
+
+- Role: Elderly Person  
+  Requirement ID: NF-05  
+  Requirement Title: Privacy and Security  
+  Requirement Description: Sensor data stored locally on hub, accessible only by authorized personnel; no external access without consent to ensure privacy secured.  
+  Citation: Page 7 (Section 4.2)  
+  Requirement Related Title: Privacy Secured

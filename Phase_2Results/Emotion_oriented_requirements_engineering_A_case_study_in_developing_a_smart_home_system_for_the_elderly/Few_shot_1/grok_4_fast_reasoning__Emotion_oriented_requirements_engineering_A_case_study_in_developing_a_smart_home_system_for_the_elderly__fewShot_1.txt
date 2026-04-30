@@ -1,0 +1,79 @@
+### Functional Requirement
+**Role:** System  
+**Requirement ID:** FR-01  
+**Title:** User-Specific Reminders  
+**Description:** The system must issue user-specific reminders for appointments, special events, hydration, and medication, which can be triggered based on detected user activity to support daily routines without overwhelming the user.  
+**Citation:** Section 4.1 (SofiHub features)  
+**Related Title:** Medication Adherence Apps, Daily Routine Assistants in Aged Care Systems, IoT-Enabled Home Automation for Seniors  
+
+### Functional Requirement
+**Role:** System  
+**Requirement ID:** FR-02  
+**Title:** Anomaly Detection and Alerting  
+**Description:** The system must detect anomalous user behavior, such as spending an abnormal amount of time in bed or irregular activity patterns, and issue alerts to the user, carers, or emergency services to ensure timely intervention.  
+**Citation:** Section 4.1 (SofiHub features) and Section 4.2 (Goal model: Detect anomaly and escalate incident)  
+**Related Title:** Fall Detection Systems, Activity Monitoring in Smart Nursing Homes, Behavioral Anomaly Alerts in Wearable Health Devices  
+
+### Functional Requirement
+**Role:** System  
+**Requirement ID:** FR-03  
+**Title:** Routine and Behavior Learning  
+**Description:** The system must learn and adapt to the user's daily routines and behaviors using AI capabilities from sensor data, enabling personalized automation and notifications without requiring manual input.  
+**Citation:** Section 4.1 (SofiHub features) and Section 4.2 (Goal model: Learn user’s routine and behaviour)  
+**Related Title:** Adaptive AI in Ambient Assisted Living, Predictive Analytics for Elderly Home Monitoring, Machine Learning-Based Habit Trackers  
+
+### Functional Requirement
+**Role:** System  
+**Requirement ID:** FR-04  
+**Title:** Environmental Automation  
+**Description:** The system must automate the physical home environment, such as adjusting heating and cooling based on sensor data (e.g., motion, temperature, humidity), to maintain comfort and energy efficiency while supporting independent living.  
+**Citation:** Section 4.1 (SofiHub features)  
+**Related Title:** Smart Thermostat Systems for Seniors, IoT Home Climate Control, Energy-Aware Automation in Assisted Living Facilities  
+
+### Functional Requirement
+**Role:** System  
+**Requirement ID:** FR-05  
+**Title:** Carer User Interface for Monitoring  
+**Description:** The system must provide a carer UI that allows family members or professional carers to check on user activity in real-time and receive customizable reports summarizing behavior, routines, and alerts to reassure wellbeing.  
+**Citation:** Section 4.1 (SofiHub features) and Section 4.2 (Goal model: Support independent living with carer reassurance)  
+**Related Title:** Remote Caregiver Dashboards, Family Monitoring Portals in Telehealth, Report Generation in Aged Care Platforms  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** Privacy Protection  
+**Description:** The system must ensure user privacy by using non-intrusive motion and contact sensors, storing data locally on the hub, restricting access to authorized personnel only, and avoiding invasive monitoring (e.g., no cameras or wearables) to prevent feelings of being monitored or controlled.  
+**Citation:** Section 1 (Introduction: non-intrusive motion sensors for privacy) and Section 4.2 (Emotion model: Privacy secured emotional goal)  
+**Related Title:** Privacy-Focused IoT Devices, GDPR-Compliant Health Monitoring Systems, Secure Sensor Networks in Home Care  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-02  
+**Title:** Non-Intrusiveness and Integration  
+**Description:** The system must integrate seamlessly into the user's daily life as an ambient technology, using low-cost, network-connected sensors that are unobtrusive and do not require wearables, to avoid disrupting routines or evoking feelings of dependency or old age.  
+**Citation:** Section 1 (Introduction: ambient system using non-intrusive sensors) and Section 4.2 (Emotion model: Integrated emotional goal)  
+**Related Title:** Ambient Assisted Living Environments, Seamless IoT Integration in Domestic Settings, User-Centric Smart Home Design  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-03  
+**Title:** Emotional Safety and Reassurance  
+**Description:** The system must evoke feelings of safety and reassurance for both elderly users and carers by reliably detecting anomalies and escalating incidents, while minimizing false alarms, to address emotional goals like feeling secure and reducing anxiety about independent living.  
+**Citation:** Section 4.2 (Emotion model and Goal model: Safe and Reassured emotional goals linked to anomaly detection) and Section 5.2.2 (Evaluation findings on feeling safe)  
+**Related Title:** Emotion-Aware Emergency Response Systems, Reassurance Features in Telecare Devices, Affective Computing in Aged Care  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-04  
+**Title:** Usability for Elderly Users  
+**Description:** The system must be user-friendly for elderly users with limited technology experience, featuring simple interactions (e.g., limited message types like morning greetings and reminders), a comforting tone, and adaptability to build confidence, ensuring users feel in control and comfortable rather than frustrated or overwhelmed.  
+**Citation:** Section 4.2 (Emotion model: In control, Comfortable, Empowered emotional goals) and Section 5.2.3 (Evaluation on integration and control)  
+**Related Title:** Senior-Friendly Interfaces in Smart Devices, Accessibility Standards for Gerontechnology, Low-Literacy UI in Health Apps  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-05  
+**Title:** Loneliness Alleviation  
+**Description:** The system must indirectly reduce feelings of loneliness through engaging, varied audio messages (e.g., morning greetings) that simulate companionship, while maintaining independence, to foster emotional connections without replacing human interaction.  
+**Citation:** Section 5.2.1 (Evaluation findings: Reduced loneliness via messages) and Section 5.3 (Refined goal model: Less lonely and Cared about emotional goals)  
+**Related Title:** Companion Robots for Seniors, Social Engagement Features in Smart Homes, Mental Health Support in IoT Systems

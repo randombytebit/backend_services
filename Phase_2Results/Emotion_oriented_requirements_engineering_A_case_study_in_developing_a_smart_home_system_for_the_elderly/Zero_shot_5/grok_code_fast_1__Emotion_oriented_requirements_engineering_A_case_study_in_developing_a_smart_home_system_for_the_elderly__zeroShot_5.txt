@@ -1,0 +1,50 @@
+REQUIREMENT REPORT
+
+- Role: System
+- Requirement ID: FR-01
+- Requirement Title: Passive Monitoring Orchestration
+- Requirement Description: The system shall orchestrate continuous passive monitoring of user activity using non-intrusive motion and contact sensors to detect routines, anomalies, and environmental changes.
+- Citation: Section 4.1
+- Requirement Related Title: Support Independent Living
+
+- Role: System
+- Requirement ID: FR-02
+- Requirement Title: Automated Retraining Triggers
+- Requirement Description: The system shall automatically trigger retraining of its AI model when user behavior changes, anomalous situations are detected, or at predefined intervals to adapt to new routines.
+- Citation: Section 4.1
+- Requirement Related Title: Learn User’s Routine and Behaviour
+
+- Role: Carer
+- Requirement ID: FR-03
+- Requirement Title: Remote Monitoring API Endpoints
+- Requirement Description: The system shall provide API endpoints for carers to remotely access user activity data, receive customizable reports, and monitor notifications via a carer UI.
+- Citation: Section 4.1
+- Requirement Related Title: Reassured
+
+- Role: System
+- Requirement ID: NF-01
+- Requirement Title: Scalability
+- Requirement Description: The system shall scale to support multiple homes and users concurrently without performance degradation, handling increased sensor data and AI processing demands.
+- Citation: Section 4.1
+- Requirement Related Title: Support Independent Living
+
+- Role: System
+- Requirement ID: NF-02
+- Requirement Title: Availability
+- Requirement Description: The system shall maintain high availability (e.g., 99.9% uptime) to ensure reliable monitoring, reminders, and emergency assistance at all times.
+- Citation: Section 4.3
+- Requirement Related Title: Safe
+
+- Role: System
+- Requirement ID: NF-03
+- Requirement Title: Energy Efficiency
+- Requirement Description: The system shall utilize low-power, low-cost sensors and components to minimize energy consumption and support long-term operation in homes.
+- Citation: Section 4.1
+- Requirement Related Title: Integrated
+
+- Role: System
+- Requirement ID: NF-04
+- Requirement Title: Cross-Platform Compatibility
+- Requirement Description: The system shall be compatible across various platforms and devices, including IoT sensors and interfaces, for seamless integration and operation.
+- Citation: Section 4.1
+- Requirement Related Title: Comfortable

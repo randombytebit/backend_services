@@ -1,0 +1,147 @@
+REQUIREMENT REPORT  
+- Role: Elderly Person  
+- Requirement ID: FR-01  
+- Requirement Title: Passive Monitoring  
+- Requirement Description: Deploy non-intrusive motion sensors and contact sensors for passive monitoring of user activity without wearables to respect privacy and avoid stigmatizing users as old or frail.  
+- Citation: Page 2 (Introduction), Page 7 (Section 4.1)  
+- Requirement Related Title: Support Independent Living  
+
+- Role: Elderly Person  
+- Requirement ID: FR-02  
+- Requirement Title: Sensor Data Collection  
+- Requirement Description: Collect data on motion, door opening/closing, air temperature, and humidity using network-connected low-cost sensors stored locally in the hub.  
+- Citation: Page 8 (Section 4.3.1)  
+- Requirement Related Title: Learn User’s Routine and Behaviour  
+
+- Role: System  
+- Requirement ID: FR-03  
+- Requirement Title: Learn User Routine and Behaviour  
+- Requirement Description: Use built-in AI capability to learn and adapt to the user's routine and behaviour from sensor data for personalization.  
+- Citation: Page 7 (Section 4.1), Page 5 (Goal Model)  
+- Requirement Related Title: Learn User’s Routine and Behaviour  
+
+- Role: Elderly Person  
+- Requirement ID: FR-04  
+- Requirement Title: Issue Reminders and Notifications  
+- Requirement Description: Issue user-specific reminders for hydration, medication, appointments, and special events, triggered by user activity patterns.  
+- Citation: Page 7 (Section 4.1)  
+- Requirement Related Title: Issue Notifications  
+
+- Role: Elderly Person  
+- Requirement ID: FR-05  
+- Requirement Title: Play Morning Messages  
+- Requirement Description: Deliver morning voice messages as part of daily interaction to engage users.  
+- Citation: Page 10 (Section 5.2.3), Page 11 (Section 5.2.4)  
+- Requirement Related Title: Issue Messages  
+
+- Role: Elderly Person  
+- Requirement ID: FR-06  
+- Requirement Title: Medication Reminders  
+- Requirement Description: Provide medication reminders integrated with user activity detection.  
+- Citation: Page 7 (Section 4.1), Page 6 (Interaction Model example)  
+- Requirement Related Title: Issue Notifications  
+
+- Role: Elderly Person  
+- Requirement ID: FR-07  
+- Requirement Title: Detect Anomalous Behaviour  
+- Requirement Description: Identify anomalous situations such as spending abnormal time in bed using AI analysis of sensor data.  
+- Citation: Page 7 (Section 4.1), Page 5 (Goal Model)  
+- Requirement Related Title: Detect Anomaly  
+
+- Role: Elderly Person  
+- Requirement ID: FR-08  
+- Requirement Title: Detect Security Risks  
+- Requirement Description: Identify potential security risks such as back door left open using contact sensors.  
+- Citation: Page 7 (Section 4.1)  
+- Requirement Related Title: Detect Anomaly  
+
+- Role: System  
+- Requirement ID: FR-09  
+- Requirement Title: Issue Alerts for Anomalies  
+- Requirement Description: Issue alerts and escalate anomalies (e.g., falls or irregularities) to carers or service providers.  
+- Citation: Page 1 (Abstract), Page 7 (Section 4.1)  
+- Requirement Related Title: Detect Anomaly  
+
+- Role: Carer/Relative  
+- Requirement ID: FR-10  
+- Requirement Title: Carer User Interface  
+- Requirement Description: Provide a UI for family members and carers to check user activity and receive customizable reports summarizing behaviour.  
+- Citation: Page 7 (Section 4.1)  
+- Requirement Related Title: Support Independent Living  
+
+- Role: System  
+- Requirement ID: FR-11  
+- Requirement Title: Automate Physical Environment  
+- Requirement Description: Automate control of heating and cooling based on sensor data.  
+- Citation: Page 7 (Section 4.1)  
+- Requirement Related Title: Support Independent Living  
+
+- Role: Elderly Person  
+- Requirement ID: NF-01  
+- Requirement Title: Privacy Secured  
+- Requirement Description: Ensure all sensor data is stored locally in the hub with access restricted to authorized personnel to prevent hacking and secure privacy.  
+- Citation: Page 7 (Section 4.2)  
+- Requirement Related Title: Privacy Secured  
+
+- Role: Elderly Person  
+- Requirement ID: NF-02  
+- Requirement Title: Non-Intrusive Operation  
+- Requirement Description: Operate as an ambient system without wearables or invasive monitoring to avoid users feeling monitored, dependent, or old.  
+- Citation: Page 2 (RQ2), Page 7 (Section 4.2)  
+- Requirement Related Title: Independent  
+
+- Role: Elderly Person  
+- Requirement ID: NF-03  
+- Requirement Title: User in Control  
+- Requirement Description: Limit interactions to only essential messages (e.g., morning and medication reminders) to avoid overwhelming users and maintain sense of control.  
+- Citation: Page 7 (Section 4.2), Page 11 (Section 5.2.4)  
+- Requirement Related Title: In Control  
+
+- Role: Elderly Person  
+- Requirement ID: NF-04  
+- Requirement Title: System Integration  
+- Requirement Description: Seamlessly integrate into daily routines so users perceive the system as part of their life without disruption or complexity.  
+- Citation: Page 7 (Section 4.2), Page 10 (Section 5.2.3)  
+- Requirement Related Title: Integrated  
+
+- Role: Elderly Person  
+- Requirement ID: NF-05  
+- Requirement Title: Comfortable Use  
+- Requirement Description: Design for ease and comfort to reduce fear of technology, ensuring smooth operation without frustration.  
+- Citation: Page 7 (Section 4.2), Page 12 (Section 5.2.6)  
+- Requirement Related Title: Comfortable  
+
+- Role: Elderly Person  
+- Requirement ID: NF-06  
+- Requirement Title: Empowered Feeling  
+- Requirement Description: Build user confidence and empowerment through reliable technology support that enhances independence.  
+- Citation: Page 7 (Section 4.2)  
+- Requirement Related Title: Empowered  
+
+- Role: Carer/Relative  
+- Requirement ID: NF-07  
+- Requirement Title: Reassured Wellbeing  
+- Requirement Description: Provide reassurance to carers and relatives through monitoring and alerts supporting independent living.  
+- Citation: Page 7 (Section 4.2), Page 5 (Goal Model)  
+- Requirement Related Title: Reassured  
+
+- Role: Elderly Person  
+- Requirement ID: NF-08  
+- Requirement Title: Reduced Loneliness  
+- Requirement Description: Alleviate feelings of loneliness through engaging interactions like voice messages simulating companionship.  
+- Citation: Page 10 (Section 5.2.1), Page 12 (Section 5.3)  
+- Requirement Related Title: Less Lonely  
+
+- Role: Elderly Person  
+- Requirement ID: NF-09  
+- Requirement Title: Feeling Cared About  
+- Requirement Description: Evoke sense of being cared for through personalized reminders and presence-like interactions.  
+- Citation: Page 12 (Section 5.3), Page 10 (Section 5.2.1)  
+- Requirement Related Title: Cared About  
+
+- Role: System  
+- Requirement ID: NF-10  
+- Requirement Title: Low-Cost Sensors  
+- Requirement Description: Utilize cheap IoT devices for computational efficiency and affordability.  
+- Citation: Page 7 (Section 4.1)  
+- Requirement Related Title: Chatty

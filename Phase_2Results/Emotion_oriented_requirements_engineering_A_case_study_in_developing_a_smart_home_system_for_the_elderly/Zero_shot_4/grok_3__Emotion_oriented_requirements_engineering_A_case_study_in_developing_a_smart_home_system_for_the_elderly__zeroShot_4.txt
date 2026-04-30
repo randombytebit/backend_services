@@ -1,0 +1,54 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: System Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: Bias Detection Modules
+- **Requirement Description**: The system must include modules to detect and mitigate biases in data processing and decision-making algorithms to ensure fair outcomes, particularly in user interactions and automated responses within the smart home environment for elderly users.
+- **Citation**: Inspired by the need to address user emotional goals and ensure equitable technology interaction as discussed in the context of smart home systems (Curumsing et al., 2019).
+- **Requirement Related Title**: Ensuring Fair User Interaction
+
+- **Role**: System Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Explainability Dashboards
+- **Requirement Description**: The system must provide explainability dashboards accessible to users and carers, displaying clear, user-friendly explanations of system decisions and actions (e.g., why a reminder was issued or an alert was triggered) to enhance trust and understanding.
+- **Citation**: Derived from the emphasis on user trust and system integration into daily life, necessitating transparency in system operations (Curumsing et al., 2019).
+- **Requirement Related Title**: Enhancing User Trust through Transparency
+
+- **Role**: System Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Audit Trail Generation
+- **Requirement Description**: The system must automatically generate detailed audit trails for all significant actions and decisions (e.g., alerts, reminders, anomaly detections), ensuring traceability and accountability for system behavior, accessible to authorized personnel for review.
+- **Citation**: Based on the need for accountability and evaluation of system impact on users as part of emotion-oriented evaluation processes (Curumsing et al., 2019).
+- **Requirement Related Title**: Accountability and Traceability in System Operations
+
+**Non-Functional Requirements**
+
+- **Role**: System Architect
+- **Requirement ID**: NF-01
+- **Requirement Title**: Fairness Metrics
+- **Requirement Description**: The system must define and implement fairness metrics to evaluate and ensure equitable treatment of all users, preventing discrimination or bias in system responses and interactions, with regular reporting to stakeholders.
+- **Citation**: Influenced by the focus on addressing diverse user emotional needs and ensuring equitable system impact (Curumsing et al., 2019).
+- **Requirement Related Title**: Equitable System Performance
+
+- **Role**: System Architect
+- **Requirement ID**: NF-02
+- **Requirement Title**: Transparency Levels
+- **Requirement Description**: The system must maintain high transparency levels by providing clear, accessible information about data usage, system decisions, and privacy policies to users and carers, ensuring they understand how their data is handled and why actions are taken.
+- **Citation**: Derived from the critical need for user trust and privacy concerns highlighted in smart home technology adoption (Curumsing et al., 2019).
+- **Requirement Related Title**: User Trust and Data Privacy
+
+- **Role**: System Architect
+- **Requirement ID**: NF-03
+- **Requirement Title**: Interpretability
+- **Requirement Description**: The system must ensure high interpretability of its outputs and decisions, presenting information in a manner that is easily understood by non-technical users (e.g., elderly users and their carers), through simplified language and visual aids.
+- **Citation**: Based on the importance of user comfort and integration of technology into daily life, requiring clear communication of system actions (Curumsing et al., 2019).
+- **Requirement Related Title**: User-Friendly System Communication
+
+- **Role**: System Architect
+- **Requirement ID**: NF-04
+- **Requirement Title**: Ethical Alignment
+- **Requirement Description**: The system must align with ethical principles, prioritizing user autonomy, privacy, and emotional well-being (e.g., feeling safe, independent, and cared for), with guidelines and checks to ensure compliance with ethical standards in all system interactions.
+- **Citation**: Inspired by the emotion-oriented approach focusing on user emotional goals such as independence, safety, and privacy (Curumsing et al., 2019).
+- **Requirement Related Title**: Ethical User Interaction and Well-Being

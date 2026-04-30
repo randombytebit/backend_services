@@ -1,0 +1,134 @@
+REQUIREMENT REPORT
+
+- Role: Elderly Person
+- Requirement ID: FR-01
+- Requirement Title: Support Independent Living
+- Requirement Description: The system must enable elderly users to live independently by providing assistive services at home, including passive monitoring without wearables to respect privacy and avoid feelings of dependency.
+- Citation: Section 4.2, Fig. 5 (Goal Model)
+- Requirement Related Title: Independent Living Support
+
+- Role: Elderly Person
+- Requirement ID: FR-02
+- Requirement Title: Learn User’s Routine and Behaviour
+- Requirement Description: The system must use sensors and AI to learn and adapt to the user's daily routines and behaviors, such as detecting time spent in bed or irregular bathroom visits.
+- Citation: Section 4.1, Fig. 5 (Goal Model)
+- Requirement Related Title: Routine Learning
+
+- Role: Elderly Person
+- Requirement ID: FR-03
+- Requirement Title: Issue Notifications
+- Requirement Description: The system must issue user-specific reminders for hydration, medication, appointments, and special events, triggered by user activity to promote healthy behaviors.
+- Citation: Section 4.1, Fig. 5 (Goal Model)
+- Requirement Related Title: Notification Issuance
+
+- Role: Elderly Person
+- Requirement ID: FR-04
+- Requirement Title: Detect Anomaly
+- Requirement Description: The system must detect anomalous situations, such as falls, prolonged inactivity, or irregular patterns, using motion and contact sensors.
+- Citation: Section 4.1, Fig. 5 (Goal Model)
+- Requirement Related Title: Anomaly Detection
+
+- Role: Carer/Family Member
+- Requirement ID: FR-05
+- Requirement Title: Escalate Incident
+- Requirement Description: The system must escalate detected anomalies or emergencies to carers, family, or service providers via alerts and notifications.
+- Citation: Section 4.2, Fig. 5 (Goal Model)
+- Requirement Related Title: Incident Escalation
+
+- Role: Carer/Family Member
+- Requirement ID: FR-06
+- Requirement Title: Provide Carer UI
+- Requirement Description: The system must offer a user interface for carers and family to monitor user activity, receive customizable reports summarizing behavior, and get situational notifications.
+- Citation: Section 4.1
+- Requirement Related Title: Carer Monitoring Interface
+
+- Role: Elderly Person
+- Requirement ID: FR-07
+- Requirement Title: Automate Physical Environment
+- Requirement Description: The system must automate home environment controls, such as heating and cooling, based on user routines and sensor data.
+- Citation: Section 4.1
+- Requirement Related Title: Environment Automation
+
+- Role: Elderly Person
+- Requirement ID: FR-08
+- Requirement Title: Issue Morning and Medication Messages
+- Requirement Description: The system must deliver morning greeting messages and medication reminders via voice to integrate into daily routines without overwhelming the user.
+- Citation: Section 4.2, Section 5.3, Fig. 7 (Refined Goal Model)
+- Requirement Related Title: Message Delivery
+
+- Role: Elderly Person
+- Requirement NF-01
+- Requirement Title: Ensure Privacy Security
+- Requirement Description: The system must secure all sensor data locally within the hub, restricting access to authorized personnel only, to prevent hacking and maintain user privacy.
+- Citation: Section 4.2, Fig. 4 (Emotion Model), Fig. 5 (Goal Model)
+- Requirement Related Title: Data Privacy
+
+- Role: Elderly Person
+- Requirement ID: NF-02
+- Requirement Title: Promote Feeling Independent
+- Requirement Description: The system must support user autonomy by avoiding intrusive monitoring or control, ensuring users feel unburdened and not dependent on others.
+- Citation: Section 4.2, Fig. 4 (Emotion Model), Section 5.2.4
+- Requirement Related Title: Independence Promotion
+
+- Role: Elderly Person
+- Requirement ID: NF-03
+- Requirement Title: Foster Feeling In Control
+- Requirement Description: The system must allow users full control over their lives and the technology, minimizing perceptions of being monitored or controlled.
+- Citation: Section 4.2, Fig. 4 (Emotion Model), Section 5.2.4
+- Requirement Related Title: User Control
+
+- Role: Elderly Person
+- Requirement ID: NF-04
+- Requirement Title: Enhance Feeling Safe
+- Requirement Description: The system must provide reassurance through anomaly detection and emergency response, making users feel secure in their home.
+- Citation: Section 4.2, Fig. 5 (Goal Model), Section 5.2.2
+- Requirement Related Title: Safety Assurance
+
+- Role: Elderly Person
+- Requirement ID: NF-05
+- Requirement Title: Achieve System Integration
+- Requirement Description: The system must integrate seamlessly into daily life, appearing non-complex and routine-friendly to avoid frustration or feelings of being overwhelmed.
+- Citation: Section 4.2, Fig. 4 (Emotion Model), Section 5.2.3
+- Requirement Related Title: Life Integration
+
+- Role: Elderly Person
+- Requirement ID: NF-06
+- Requirement Title: Ensure Comfort with Technology
+- Requirement Description: The system must be user-friendly and non-intimidating, building confidence in technology use to make users feel at ease.
+- Citation: Section 4.2, Fig. 4 (Emotion Model), Section 5.2.6
+- Requirement Related Title: Technology Comfort
+
+- Role: Elderly Person
+- Requirement ID: NF-07
+- Requirement Title: Empower Users
+- Requirement Description: The system must boost user confidence and self-efficacy by supporting independent control and adaptive features.
+- Citation: Section 4.2, Fig. 4 (Emotion Model)
+- Requirement Related Title: User Empowerment
+
+- Role: Carer/Family Member
+- Requirement ID: NF-08
+- Requirement Title: Provide Reassurance
+- Requirement Description: The system must reassure carers and family about the elderly user's wellbeing through monitoring and alerts, reducing anxiety.
+- Citation: Section 4.2, Fig. 5 (Goal Model), Section 5.2.2
+- Requirement Related Title: Wellbeing Reassurance
+
+- Role: Elderly Person
+- Requirement ID: NF-09
+- Requirement Title: Alleviate Loneliness
+- Requirement Description: The system must reduce feelings of isolation through interactive messages and perceived companionship, addressing involuntary loneliness.
+- Citation: Section 5.2.1, Section 5.3, Fig. 7 (Refined Goal Model)
+- Requirement Related Title: Loneliness Reduction
+
+- Role: Elderly Person
+- Requirement ID: NF-10
+- Requirement Title: Foster Feeling Cared About
+- Requirement Description: The system must convey care through personalized interactions and support, making users feel valued and attended to.
+- Citation: Section 5.2.1, Section 5.3, Fig. 7 (Refined Goal Model)
+- Requirement Related Title: Care Perception
+
+- Role: System
+- Requirement ID: NF-11
+- Requirement Title: Maintain Chatty Interaction
+- Requirement Description: The system must support varied, engaging voice messages to enhance social-like interactions without being obtrusive.
+- Citation: Section 5.3, Fig. 7 (Refined Goal Model)
+- Requirement Related Title: Interactive Engagement

@@ -1,0 +1,85 @@
+REQUIREMENT REPORT
+
+- Role: System Designer
+- Requirement ID: FR-01
+- Requirement Title: Passive Monitoring with Non-Intrusive Sensors
+- Requirement Description: Implement ambient system using non-intrusive motion sensors to perform passive monitoring and emergency assistance without violating user privacy.
+- Citation: Page 1
+- Requirement Related Title: SofiHub Features
+
+- Role: System Developer
+- Requirement ID: FR-02
+- Requirement Title: Local Data Storage
+- Requirement Description: Store all sensor data locally within the hub to ensure privacy and restrict access.
+- Citation: Page 4
+- Requirement Related Title: SofiHub Emotion-Oriented Requirements Engineering
+
+- Role: System Administrator
+- Requirement ID: FR-03
+- Requirement Title: Authorized Data Access
+- Requirement Description: Restrict data access to only those authorized by the ethics committee.
+- Citation: Page 4
+- Requirement Related Title: SofiHub Emotion-Oriented Requirements Engineering
+
+- Role: System Developer
+- Requirement ID: FR-04
+- Requirement Title: Anomaly Detection
+- Requirement Description: Detect anomalies such as falls or irregular activities and escalate incidents to service providers or carers.
+- Citation: Page 5
+- Requirement Related Title: Goal Model
+
+- Role: System Developer
+- Requirement ID: FR-05
+- Requirement Title: Security Risk Identification
+- Requirement Description: Identify potential security risks such as back doors left open and issue alerts.
+- Citation: Page 7
+- Requirement Related Title: SofiHub Features
+
+- Role: System Developer
+- Requirement ID: FR-06
+- Requirement Title: Sensor Data Logging
+- Requirement Description: Log sensor data including motion, contact, temperature, and humidity for monitoring and validation.
+- Citation: Page 8
+- Requirement Related Title: Data Collection Tools
+
+- Role: System Administrator
+- Requirement ID: FR-07
+- Requirement Title: Remote Data Retrieval
+- Requirement Description: Allow researchers to retrieve data dumps from the hub at selected periods for testing while maintaining privacy.
+- Citation: Page 8
+- Requirement Related Title: Data Collection Tools
+
+- Role: System Designer
+- Requirement ID: NF-01
+- Requirement Title: Data Privacy Assurance
+- Requirement Description: Ensure user privacy is secured by alleviating concerns about being monitored and protecting sensitive information from violations.
+- Citation: Page 2
+- Requirement Related Title: Role of Emotions within Smart Home Systems
+
+- Role: System Developer
+- Requirement ID: NF-02
+- Requirement Title: Adversarial Robustness Against Hacking
+- Requirement Description: Secure sensor data to prevent hacking by intruders and maintain integrity of sensitive information.
+- Citation: Page 4
+- Requirement Related Title: SofiHub Emotion-Oriented Requirements Engineering
+
+- Role: System Designer
+- Requirement ID: NF-03
+- Requirement Title: System Resilience to Disruptions
+- Requirement Description: Handle disruptions such as power failures or accidental dislodgement without compromising monitoring functionality.
+- Citation: Page 11
+- Requirement Related Title: Emotional Threats
+
+- Role: System Developer
+- Requirement ID: NF-04
+- Requirement Title: Privacy Levels in Monitoring
+- Requirement Description: Maintain non-intrusive monitoring to ensure users feel comfortable and privacy is not violated by sensors.
+- Citation: Page 10
+- Requirement Related Title: Privacy and Invasiveness
+
+- Role: System Designer
+- Requirement ID: NF-05
+- Requirement Title: Integrity of Sensor Data
+- Requirement Description: Ensure accuracy and integrity of sensor data through cross-checking with user checklists for validation.
+- Citation: Page 8
+- Requirement Related Title: Data Collection Tools

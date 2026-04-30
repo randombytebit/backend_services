@@ -1,0 +1,209 @@
+Role: Elderly Person
+Requirement ID: FR-01
+Requirement Title: Support Independent Living
+Requirement Description: The system must enable elderly users to live independently in their homes by providing assistive services without constant supervision.
+Citation: Section 4.2
+Requirement Related Title: Goal Model
+
+Role: System
+Requirement ID: FR-02
+Requirement Title: Learn User’s Routine and Behaviour
+Requirement Description: The system must learn and adapt to the user's daily routines and behaviours using sensors and AI.
+Citation: Section 4.1
+Requirement Related Title: SofiHub Features
+
+Role: System
+Requirement ID: FR-03
+Requirement Title: Issue Notifications
+Requirement Description: The system must issue notifications for reminders, alerts, and reports to users and carers.
+Citation: Section 4.2
+Requirement Related Title: Goal Model
+
+Role: System
+Requirement ID: FR-04
+Requirement Title: Detect Anomaly
+Requirement Description: The system must detect anomalous behaviours such as irregular bathroom visits, abnormal time in bed, or falls.
+Citation: Section 4.1
+Requirement Related Title: SofiHub Features
+
+Role: Elderly Person
+Requirement ID: FR-05
+Requirement Title: Provide Hydration and Medication Reminders
+Requirement Description: The system must provide reminders for hydration and medication, triggered by user activity.
+Citation: Section 4.1
+Requirement Related Title: SofiHub Features
+
+Role: Elderly Person
+Requirement ID: FR-06
+Requirement Title: Automate Physical Environment
+Requirement Description: The system must automate the home environment, such as heating and cooling, based on user needs.
+Citation: Section 4.1
+Requirement Related Title: SofiHub Features
+
+Role: System
+Requirement ID: FR-07
+Requirement Title: Detect Falls
+Requirement Description: The system must detect falls using sensors and initiate emergency assistance.
+Citation: Section 2.1
+Requirement Related Title: Smart Home Technologies
+
+Role: System
+Requirement ID: FR-08
+Requirement Title: Summon Help in Emergencies
+Requirement Description: The system must summon help or alert carers in emergency situations like falls or anomalies.
+Citation: Section 2.1
+Requirement Related Title: Smart Home Technologies
+
+Role: Carer
+Requirement ID: FR-09
+Requirement Title: Provide Carer User Interface
+Requirement Description: The system must provide a user interface for carers to monitor user activity and receive customizable reports.
+Citation: Section 4.1
+Requirement Related Title: SofiHub Features
+
+Role: System
+Requirement ID: FR-10
+Requirement Title: Adapt to User Behaviour
+Requirement Description: The system must adapt its operations based on learned user behaviours to provide personalized assistance.
+Citation: Section 4.1
+Requirement Related Title: SofiHub Features
+
+Role: Elderly Person
+Requirement ID: NF-01
+Requirement Title: Feel Reassured
+Requirement Description: The system must ensure carers feel reassured about the wellbeing of the elderly user through monitoring and alerts.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: Elderly Person
+Requirement ID: NF-02
+Requirement Title: Feel Independent
+Requirement Description: The system must allow elderly users to feel independent by supporting their daily activities without feeling monitored or dependent.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: Elderly Person
+Requirement ID: NF-03
+Requirement Title: Feel In Control
+Requirement Description: The system must ensure elderly users feel in control of their environment and the technology, avoiding feelings of being controlled.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: Elderly Person
+Requirement ID: NF-04
+Requirement Title: Feel Safe
+Requirement Description: The system must make elderly users feel safe by detecting anomalies and providing emergency assistance.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: Elderly Person
+Requirement ID: NF-05
+Requirement Title: Feel Integrated
+Requirement Description: The system must integrate seamlessly into the user's daily life without disrupting routines or feeling intrusive.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: Elderly Person
+Requirement ID: NF-06
+Requirement Title: Feel Comfortable
+Requirement Description: The system must ensure elderly users feel comfortable using the technology, avoiding feelings of fear or complexity.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: Elderly Person
+Requirement ID: NF-07
+Requirement Title: Feel Empowered
+Requirement Description: The system must empower elderly users by building their confidence in controlling their lives through technology.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: Elderly Person
+Requirement ID: NF-08
+Requirement Title: Privacy Secured
+Requirement Description: The system must secure user privacy by keeping data local and ensuring no unauthorized access to sensitive information.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: Elderly Person
+Requirement ID: NF-09
+Requirement Title: Feel Less Lonely
+Requirement Description: The system must reduce feelings of loneliness by providing interactive elements like morning messages that simulate companionship.
+Citation: Section 5.2.1
+Requirement Related Title: Reduced Loneliness
+
+Role: Elderly Person
+Requirement ID: NF-10
+Requirement Title: Feel Cared About
+Requirement Description: The system must make elderly users feel cared about through personalized interactions and reminders.
+Citation: Section 5.2.1
+Requirement Related Title: Reduced Loneliness
+
+Role: System
+Requirement ID: NF-11
+Requirement Title: Non-Intrusive Sensing
+Requirement Description: The system must use non-intrusive sensors to avoid feelings of being monitored or wearing devices.
+Citation: Section 1
+Requirement Related Title: SofiHub Overview
+
+Role: System
+Requirement ID: NF-12
+Requirement Title: Accuracy in Detection
+Requirement Description: The system must accurately detect anomalies and falls to avoid false positives and ensure reliability.
+Citation: Section 2.1
+Requirement Related Title: Smart Home Technologies
+
+Role: System
+Requirement ID: NF-13
+Requirement Title: Robustness
+Requirement Description: The system must be robust against disruptions like power failures, ensuring continuous operation.
+Citation: Section 5.2.7
+Requirement Related Title: Emotional Threats
+
+Role: System
+Requirement ID: NF-14
+Requirement Title: Security
+Requirement Description: The system must ensure data security and prevent hacking of sensitive user information.
+Citation: Section 4.2
+Requirement Related Title: Emotion Model
+
+Role: System
+Requirement ID: NF-15
+Requirement Title: Scalability
+Requirement Description: The system must scale to support multiple users and devices in a home environment.
+Citation: Section 4.1
+Requirement Related Title: SofiHub Features
+
+Role: System
+Requirement ID: NF-16
+Requirement Title: Energy Efficiency
+Requirement Description: The system must operate efficiently to minimize energy consumption in the home.
+Citation: Section 2.1
+Requirement Related Title: Smart Home Technologies
+
+Role: Elderly Person
+Requirement ID: NF-17
+Requirement Title: Explainability
+Requirement Description: The system must provide understandable interactions and feedback to build user trust and comfort.
+Citation: Section 5.2.3
+Requirement Related Title: System is Integrated in User’s Life
+
+Role: System
+Requirement ID: NF-18
+Requirement Title: Fairness
+Requirement Description: The system must treat all users fairly, adapting to individual needs without bias.
+Citation: Section 3.1
+Requirement Related Title: Emotions and Emotional Goals
+
+Role: System
+Requirement ID: NF-19
+Requirement Title: Low Latency in Alerts
+Requirement Description: The system must provide low-latency responses for emergency alerts to ensure timely assistance.
+Citation: Section 7
+Requirement Related Title: Discussion
+
+Role: Elderly Person
+Requirement ID: NF-20
+Requirement Title: Usability
+Requirement Description: The system must be easy to use, avoiding complexity that leads to frustration or non-adoption.
+Citation: Section 5.2.3
+Requirement Related Title: System is Integrated in User’s Life

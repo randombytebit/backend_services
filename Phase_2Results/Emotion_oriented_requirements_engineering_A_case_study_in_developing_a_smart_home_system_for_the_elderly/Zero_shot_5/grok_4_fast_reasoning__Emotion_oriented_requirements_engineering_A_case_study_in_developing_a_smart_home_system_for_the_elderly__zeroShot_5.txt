@@ -1,0 +1,105 @@
+REQUIREMENT REPORT
+- Role: System
+- Requirement ID: FR-01
+- Requirement Title: Learn User Routine and Behavior
+- Requirement Description: The system must use AI to analyze sensor data (motion, contact, temperature, humidity) to learn and adapt to the elderly user's daily routines and behaviors, enabling personalized support.
+- Citation: Section 4.1; Fig. 5 (Goal Model)
+- Requirement Related Title: Support Independent Living
+
+- Role: System
+- Requirement ID: FR-02
+- Requirement Title: Issue User-Specific Reminders
+- Requirement Description: The system must issue reminders for hydration, medication, appointments, and special events, triggered by user activity or scheduled times, delivered via voice messages (e.g., morning messages).
+- Citation: Section 4.1; Section 4.2
+- Requirement Related Title: Issue Notifications
+
+- Role: System
+- Requirement ID: FR-03
+- Requirement Title: Detect Anomalous Behavior
+- Requirement Description: The system must monitor sensor data to identify anomalies such as prolonged time in bed, irregular bathroom visits, or falls, and trigger alerts to carers or emergency services.
+- Citation: Section 4.1; Fig. 5 (Goal Model)
+- Requirement Related Title: Detect Anomaly
+
+- Role: System
+- Requirement ID: FR-04
+- Requirement Title: Automate Physical Environment
+- Requirement Description: The system must control home environment elements like heating and cooling based on learned user preferences and sensor data to enhance comfort.
+- Citation: Section 4.1
+- Requirement Related Title: Support Independent Living
+
+- Role: System
+- Requirement ID: FR-05
+- Requirement Title: Detect Security Risks
+- Requirement Description: The system must use contact sensors to detect risks such as a back door left open and issue notifications to the user or carers.
+- Citation: Section 4.1
+- Requirement Related Title: Support Independent Living
+
+- Role: Carer/Family
+- Requirement ID: FR-06
+- Requirement Title: Provide Carer User Interface
+- Requirement Description: The system must offer a UI for family members and carers to view user activity summaries, receive customizable reports on behavior, and get alerts for anomalies.
+- Citation: Section 4.1
+- Requirement Related Title: Reassured
+
+- Role: System
+- Requirement ID: FR-07
+- Requirement Title: Orchestrate Sensor Data Processing
+- Requirement Description: The system must orchestrate steps including collecting data from motion and contact sensors, processing via AI for pattern recognition, and triggering actions like reminders or alerts based on learned routines.
+- Citation: Section 4.1; Section 4.3.1 (Sensor Data)
+- Requirement Related Title: Learn User’s Routine and Behaviour
+
+- Role: System
+- Requirement ID: FR-08
+- Requirement Title: Trigger Automated Retraining
+- Requirement Description: The AI must automatically retrain on new sensor data (e.g., daily motion patterns) when deviations from established routines are detected, updating behavior models without manual intervention.
+- Citation: Section 4.1 (AI capability to learn and adapt)
+- Requirement Related Title: Learn User’s Routine and Behaviour
+
+- Role: Carer/Family
+- Requirement ID: FR-09
+- Requirement Title: Expose API Endpoints for Monitoring
+- Requirement Description: The system must provide API endpoints for remote access to activity reports, anomaly alerts, and routine data, secured for authorized carers to query and subscribe to notifications.
+- Citation: Section 4.1 (Carer UI and reports); Section 4.2 (Data access)
+- Requirement Related Title: Reassured
+
+- Role: Elderly User
+- Requirement ID: NF-01
+- Requirement Title: Ensure Privacy Security
+- Requirement Description: All sensor data must be stored locally within the hub, with access restricted to authorized parties, preventing unauthorized hacking or external data transmission to maintain user privacy.
+- Citation: Section 4.2; Emotional Goal: Privacy Secured
+- Requirement Related Title: Privacy Secured
+
+- Role: Elderly User
+- Requirement ID: NF-02
+- Requirement Title: Maintain Non-Intrusiveness
+- Requirement Description: The system must use ambient, non-wearable sensors (e.g., motion sensors) to avoid invading privacy or making users feel monitored, dependent, or old.
+- Citation: Introduction; Section 2.1; Emotional Goal: Independent
+- Requirement Related Title: Independent
+
+- Role: System
+- Requirement ID: NF-03
+- Requirement Title: Achieve High Availability
+- Requirement Description: The system must operate reliably 24/7, with minimal downtime from power failures, ensuring continuous monitoring and alert generation for emergencies.
+- Citation: Section 5.2.7 (Power failure concerns); Section 4.3.1 (Sensor data collection)
+- Requirement Related Title: Safe
+
+- Role: Elderly User
+- Requirement ID: NF-04
+- Requirement Title: Ensure Usability and Integration
+- Requirement Description: Interactions (e.g., voice messages) must be simple, non-overwhelming, and integrated into daily routines to avoid frustration and promote ease of use without requiring technical expertise.
+- Citation: Section 5.2.3; Section 5.2.4; Emotional Goal: Integrated, In Control
+- Requirement Related Title: Integrated
+
+- Role: System
+- Requirement ID: NF-05
+- Requirement Title: Support Energy Efficiency
+- Requirement Description: Use low-cost, low-power IoT sensors and local processing to minimize energy consumption, suitable for continuous operation in a home environment.
+- Citation: Section 1 (Cheap IoT devices); Section 4.1 (Low-cost sensors)
+- Requirement Related Title: Comfortable
+
+- Role: System
+- Requirement ID: NF-06
+- Requirement Title: Ensure Cross-Platform Compatibility
+- Requirement Description: The IoT platform must integrate with various devices (sensors, hubs) and support carer access via web/mobile apps across platforms for broad deployment.
+- Citation: Section 4.1 (IoT platform); Table 1 (Various devices and apps)
+- Requirement Related Title: Empowered

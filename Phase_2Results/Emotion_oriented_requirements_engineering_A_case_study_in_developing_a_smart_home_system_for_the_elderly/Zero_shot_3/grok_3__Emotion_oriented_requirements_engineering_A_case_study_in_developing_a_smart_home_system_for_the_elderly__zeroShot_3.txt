@@ -1,0 +1,125 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: System Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: Passive Monitoring via Non-Intrusive Sensors
+- **Requirement Description**: The system must implement non-intrusive motion sensors for passive monitoring to detect user activities and anomalies without compromising user privacy or invoking feelings of being overly monitored.
+- **Citation**: Page 2, "This technology was designed as an ambient system using non-intrusive motion sensors to alleviate elder people’s concerns regarding their privacy, and also ‘feeling old’ when they have to put wearables on."
+- **Requirement Related Title**: Privacy-Preserving Monitoring
+
+- **Role**: System Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Anomaly Detection and Alert System
+- **Requirement Description**: The system must include functionality to detect anomalies (e.g., falls or unusual behavior patterns) and issue alerts to service providers or carers to ensure user safety and provide reassurance.
+- **Citation**: Page 7, "The goal of this system is to provide reminders (hydration, medication), identify potential security risks (back door has been left open), identify anomalous situations and to automate the physical environment (heating, cooling)."
+- **Requirement Related Title**: Safety and Reassurance Mechanism
+
+- **Role**: System Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: User-Specific Reminders and Notifications
+- **Requirement Description**: The system must provide user-specific reminders for hydration, medication, appointments, and special events, triggered by user activity to support independent living and integration into daily routines.
+- **Citation**: Page 7, "The system functions include, issuing user specific reminders such as appointments and special events, hydration and medication reminders that can be setup to be triggered by user activity."
+- **Citation**: Page 7, "Similarly, in order to ensure privacy, all the data captured by the sensors were kept within the hub and nobody, except for those authorised by the ethics committee, had access to these data."
+- **Requirement Related Title**: Routine Support and Privacy
+
+- **Role**: System Developer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Carer Interface for Monitoring and Reporting
+- **Requirement Description**: The system must include a carer UI that enables family and carers to monitor user activity and receive customizable reports summarizing user behavior to provide reassurance and support.
+- **Citation**: Page 7, "and a carer UI which enables family and carers to check on user activity and receive customizable reports summarizing user behaviour."
+- **Requirement Related Title**: Remote Monitoring Support
+
+- **Role**: System Developer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Data Storage and Access Control
+- **Requirement Description**: The system must store sensor data locally within the hub and restrict access to authorized personnel only to ensure user privacy and data security.
+- **Citation**: Page 7, "Similarly, in order to ensure privacy, all the data captured by the sensors were kept within the hub and nobody, except for those authorised by the ethics committee, had access to these data."
+- **Requirement Related Title**: Data Privacy and Security
+
+- **Role**: System Developer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Limited Interaction Messages
+- **Requirement Description**: The system must limit interaction messages to essential communications (e.g., morning messages and medication reminders) to avoid overwhelming users and ensure they feel in control.
+- **Citation**: Page 7, "For instance, to ensure that users felt in control, only two set of messages were included in the system, namely, the morning messages and the medication reminders."
+- **Requirement Related Title**: User Control and Comfort
+
+- **Role**: System Developer
+- **Requirement ID**: FR-07
+- **Requirement Title**: AI Learning and Adaptation
+- **Requirement Description**: The system must incorporate AI capabilities to learn and adapt to user behavior patterns to enhance anomaly detection and personalized support for independent living.
+- **Citation**: Page 7, "The technology differentiates itself due to use of network connected low-cost sensors, having an IoT platform with an aged-care component and built-in AI capability that can learn and adapt to a users behaviour."
+- **Requirement Related Title**: Adaptive Behavior Support
+
+**Non-Functional Requirements**
+
+- **Role**: System Architect
+- **Requirement ID**: NF-01
+- **Requirement Title**: Privacy Assurance
+- **Requirement Description**: The system must ensure user privacy by minimizing invasiveness and securing personal data, ensuring users feel comfortable and unthreatened by monitoring activities.
+- **Citation**: Page 11, "Thus, findings from interview and questionnaire data shows that overall, participants did not feel that SofiHub was being invasive nor did they feel that their privacy was being violated."
+- **Requirement Related Title**: User Privacy Protection
+
+- **Role**: System Architect
+- **Requirement ID**: NF-02
+- **Requirement Title**: System Integration into Daily Life
+- **Requirement Description**: The system must be seamlessly integrated into users’ daily routines to minimize frustration and ensure it feels like a natural part of their environment, enhancing adoption and usage.
+- **Citation**: Page 10, "While designing SofiHub one of the most important considerations was to ensure that the system is well integrated in the user’s life i.e. to ensure its functional features and quality goals minimize these negative technology reactions."
+- **Requirement Related Title**: User Experience and Adoption
+
+- **Role**: System Architect
+- **Requirement ID**: NF-03
+- **Requirement Title**: User Control Perception
+- **Requirement Description**: The system must be designed to ensure users feel in control rather than controlled by the technology, addressing emotional concerns related to autonomy and independence.
+- **Citation**: Page 11, "This shows that overall, the participants felt that they were in control when using SofiHub."
+- **Requirement Related Title**: Autonomy Support
+
+- **Role**: System Architect
+- **Requirement ID**: NF-04
+- **Requirement Title**: Safety and Reassurance
+- **Requirement Description**: The system must provide a sense of safety and reassurance to both elderly users and their carers by reliably detecting and responding to emergencies or anomalies.
+- **Citation**: Page 10, "Our findings revealed that the participants felt supported throughout the duration of the trials, they felt safe and reassured that in case something happened, the system would alert someone."
+- **Requirement Related Title**: Emotional Security
+
+- **Role**: System Architect
+- **Requirement ID**: NF-05
+- **Requirement Title**: Reduction of Loneliness
+- **Requirement Description**: The system must address the emotional goal of reducing loneliness by providing interactions (e.g., messages) that make users feel accompanied and cared for.
+- **Citation**: Page 10, "Our evaluation analysis showed that SofiHub helped in alleviating the feeling of loneliness among several participants."
+- **Requirement Related Title**: Emotional Well-Being
+
+- **Role**: System Architect
+- **Requirement ID**: NF-06
+- **Requirement Title**: User Comfort with Technology
+- **Requirement Description**: The system must be designed to increase user comfort with technology, reducing fear or frustration by ensuring simplicity and reliability in operation.
+- **Citation**: Page 11, "These findings show that in general, the participants felt excited to have SofiHub installed in their homes, were confident in their ability to use it, felt that SofiHub increased their comfort."
+- **Requirement Related Title**: Technology Acceptance
+
+- **Role**: System Architect
+- **Requirement ID**: NF-07
+- **Requirement Title**: System Reliability and Robustness
+- **Requirement Description**: The system must maintain high reliability and robustness against disruptions such as power failures to prevent user anxiety or distrust in the system’s functionality.
+- **Citation**: Page 11, "Users raised concerns about the system being disrupted and the delay in playing the messages."
+- **Requirement Related Title**: Operational Dependability
+
+- **Role**: System Architect
+- **Requirement ID**: NF-08
+- **Requirement Title**: Emotional Goal Prioritization
+- **Requirement Description**: The system must prioritize critical emotional goals (e.g., privacy, control, safety) over less critical ones to ensure user adoption and satisfaction, balancing complex interactions between goals.
+- **Citation**: Page 10, "Thus emotional goals are not all created equal - some are absolutely critical to meet (positive) or minimize/eliminate (negative) else the system as a whole will fail."
+- **Requirement Related Title**: Goal Balancing and Prioritization
+
+- **Role**: System Architect
+- **Requirement ID**: NF-09
+- **Requirement Title**: Data Integrity and Security
+- **Requirement Description**: The system must ensure the integrity and security of collected data to prevent unauthorized access or breaches, maintaining user trust and privacy.
+- **Citation**: Page 7, "Privacy secured: Users are relieved about the privacy of their information. Data collected through the sensors are well secured and no intruders can hack those sensitive information."
+- **Requirement Related Title**: Trust in Data Handling
+
+- **Role**: System Architect
+- **Requirement ID**: NF-10
+- **Requirement Title**: Adaptability to Emotional Feedback
+- **Requirement Description**: The system must be adaptable to evolving user emotional feedback over time, allowing for adjustments in design and functionality to meet changing emotional needs.
+- **Citation**: Page 10, "This highlights how reaction to a system meeting emotional goals may well change over time of deployment (positively or negatively) and hence may require feedback to the requirements priorities and trade-offs."
+- **Requirement Related Title**: Dynamic Emotional Response

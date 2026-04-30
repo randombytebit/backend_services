@@ -1,0 +1,180 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: System Designer
+- **Requirement ID**: FR-01
+- **Requirement Title**: Emotion-Oriented Requirements Modeling
+- **Requirement Description**: The system must support emotion-oriented requirements modeling by incorporating role models, goal models, motivational scenarios, interaction models, scenario models, and behavior models to capture and represent functional, quality, and emotional goals of stakeholders, particularly for elderly users in a smart home context.
+- **Citation**: Curumsing et al., 2019, Section 3.2.1
+- **Requirement Related Title**: Emotion-Oriented Software Engineering
+
+- **Role**: System Designer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Role Model Implementation
+- **Requirement Description**: The system must implement a role model to define key user roles (e.g., elderly person, family member, carer) and associate specific emotional goals and expectations (e.g., feeling safe, independent, in control) with each role.
+- **Citation**: Curumsing et al., 2019, Section 3.2.1
+- **Requirement Related Title**: Emotion-Oriented Requirements Modeling
+
+- **Role**: System Designer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Goal Model Development
+- **Requirement Description**: The system must develop a goal model to represent functional, quality, and emotional goals, linking them to specific roles and ensuring decomposition into sub-goals for detailed design and stakeholder discussions.
+- **Citation**: Curumsing et al., 2019, Section 3.2.1
+- **Requirement Related Title**: Emotion-Oriented Requirements Modeling
+
+- **Role**: System Designer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Motivational Scenarios Design
+- **Requirement Description**: The system must include motivational scenarios to describe high-level purposes in terms of functional, quality, and emotional goals, capturing perspectives from different stakeholders (e.g., elderly adults, carers) to guide system design.
+- **Citation**: Curumsing et al., 2019, Section 3.2.1
+- **Requirement Related Title**: Emotion-Oriented Requirements Modeling
+
+- **Role**: System Designer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Interaction Model for Emotional Impact
+- **Requirement Description**: The system must use interaction models based on UML-style sequence diagrams to represent interactions between agents, annotated with emotional goals to document their impact on usage (e.g., anxiety around medication reminders).
+- **Citation**: Curumsing et al., 2019, Section 3.2.1
+- **Requirement Related Title**: Emotion-Oriented Requirements Modeling
+
+- **Role**: System Designer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Scenario Models for Collective Activity
+- **Requirement Description**: The system must implement scenario models to represent collective activities for achieving goals, identifying associated quality and emotional goals for each functionality, with rows and columns capturing emotional impacts.
+- **Citation**: Curumsing et al., 2019, Section 3.2.1
+- **Requirement Related Title**: Emotion-Oriented Requirements Modeling
+
+- **Role**: System Designer
+- **Requirement ID**: FR-07
+- **Requirement Title**: Behavior Models for Agent Actions
+- **Requirement Description**: The system must include behavior models (behavioral interface and agent behavior models) to describe individual agent actions, annotated with emotional goals for activities, triggers, and conditions.
+- **Citation**: Curumsing et al., 2019, Section 3.2.1
+- **Requirement Related Title**: Emotion-Oriented Requirements Modeling
+
+- **Role**: System Analyst
+- **Requirement ID**: FR-08
+- **Requirement Title**: Emotion-Oriented Requirements Elicitation
+- **Requirement Description**: The system must support an emotion-oriented requirements elicitation process using content analysis to identify recurring themes and patterns in stakeholder data, and affinity diagrams to organize these into hierarchical concepts for requirements derivation.
+- **Citation**: Curumsing et al., 2019, Section 3.2.2
+- **Requirement Related Title**: Emotion-Oriented Methods
+
+- **Role**: System Developer
+- **Requirement ID**: FR-09
+- **Requirement Title**: SofiHub Feature Implementation
+- **Requirement Description**: The system must implement SofiHub features including user-specific reminders (hydration, medication, appointments), anomaly detection alerts (e.g., abnormal time in bed), security risk identification (e.g., open doors), and a carer UI for activity monitoring and customizable reports.
+- **Citation**: Curumsing et al., 2019, Section 4.1
+- **Requirement Related Title**: SofiHub Features
+
+- **Role**: System Developer
+- **Requirement ID**: FR-10
+- **Requirement Title**: Use of Non-Intrusive Sensors
+- **Requirement Description**: The system must utilize non-intrusive motion and contact sensors to collect data on motion, door status, temperature, and humidity, ensuring privacy concerns are addressed by avoiding wearable devices.
+- **Citation**: Curumsing et al., 2019, Section 2.1 & 4.3.1
+- **Requirement Related Title**: SofiHub Features
+
+- **Role**: System Developer
+- **Requirement ID**: FR-11
+- **Requirement Title**: AI Capability for Behavior Adaptation
+- **Requirement Description**: The system must incorporate built-in AI capability to learn and adapt to user behavior, supporting features like routine learning and anomaly detection for personalized assistance.
+- **Citation**: Curumsing et al., 2019, Section 4.1
+- **Requirement Related Title**: SofiHub Features
+
+- **Role**: System Evaluator
+- **Requirement ID**: FR-12
+- **Requirement Title**: Emotion-Oriented System Evaluation
+- **Requirement Description**: The system must support emotion-oriented evaluation using a refined questionnaire based on the Attrakdiff approach, with simplified terms and Likert scale assessments to measure emotional goals and threats at different trial intervals.
+- **Citation**: Curumsing et al., 2019, Section 3.2.4
+- **Requirement Related Title**: Emotion-Oriented System Evaluation
+
+- **Role**: System Evaluator
+- **Requirement ID**: FR-13
+- **Requirement Title**: Trial Data Collection Tools
+- **Requirement Description**: The system must employ multiple data collection tools during trials, including sensor data for accuracy testing, daily checklists for ground-truth validation, interviews for user experience insights, and emotion-oriented questionnaires for emotional impact assessment.
+- **Citation**: Curumsing et al., 2019, Section 4.3.1
+- **Requirement Related Title**: Trial and SofiHub Emotion-Oriented Evaluation
+
+- **Role**: System Evaluator
+- **Requirement ID**: FR-14
+- **Requirement Title**: Qualitative Data Analysis for Emotional Impact
+- **Requirement Description**: The system must support qualitative data analysis of interview transcripts and questionnaires using content analysis and affinity diagrams to derive themes related to emotional goals, ensuring consistency through multi-researcher review.
+- **Citation**: Curumsing et al., 2019, Section 5.1
+- **Requirement Related Title**: Emotion-Oriented Evaluation Process
+
+- **Role**: System Designer
+- **Requirement ID**: FR-15
+- **Requirement Title**: Privacy Data Handling
+- **Requirement Description**: The system must ensure privacy by storing sensor data locally within the SofiHub device, restricting access to authorized personnel only, as approved by ethics committees.
+- **Citation**: Curumsing et al., 2019, Section 4.2
+- **Requirement Related Title**: SofiHub Emotion-Oriented Requirements Engineering
+
+- **Role**: System Developer
+- **Requirement ID**: FR-16
+- **Requirement Title**: Limited Interaction Messages
+- **Requirement Description**: The system must limit interaction messages to morning messages and medication reminders to avoid overwhelming users, supporting the emotional goal of feeling in control.
+- **Citation**: Curumsing et al., 2019, Section 4.2
+- **Requirement Related Title**: SofiHub Emotion-Oriented Requirements Engineering
+
+- **Role**: System Evaluator
+- **Requirement ID**: FR-17
+- **Requirement Title**: Trial Protocol for Emotional Assessment
+- **Requirement Description**: The system must follow a trial protocol involving pre-installation, mid-trial, post-trial, and post-uninstallation interviews to assess emotional reactions over a 12-week period in real home environments with elderly participants.
+- **Citation**: Curumsing et al., 2019, Section 4.3
+- **Requirement Related Title**: Trial and SofiHub Emotion-Oriented Evaluation
+
+**Non-Functional Requirements**
+
+- **Role**: System Designer
+- **Requirement ID**: NF-01
+- **Requirement Title**: Emotional Goal Achievement for User Adoption
+- **Requirement Description**: The system must achieve key emotional goals (e.g., feeling safe, independent, in control, less lonely, cared about) to ensure user adoption and engagement, as these are critical determinants for technology acceptance among elderly users.
+- **Citation**: Curumsing et al., 2019, Section 5.2
+- **Requirement Related Title**: SofiHub Findings and Wider Implications
+
+- **Role**: System Developer
+- **Requirement ID**: NF-02
+- **Requirement Title**: System Integration into Daily Life
+- **Requirement Description**: The system must be well-integrated into users’ daily lives, minimizing perceptions of complexity and frustration, to ensure positive emotional reactions and sustainable usage, with a target of at least 80% of users reporting integration satisfaction (Likert scale 4 or higher).
+- **Citation**: Curumsing et al., 2019, Section 5.2.3
+- **Requirement Related Title**: System is Integrated in User’s Life
+
+- **Role**: System Developer
+- **Requirement ID**: NF-03
+- **Requirement Title**: Privacy and Non-Invasiveness
+- **Requirement Description**: The system must ensure user privacy and minimize feelings of invasiveness, targeting at least 90% of users reporting comfort with monitoring and secure privacy perceptions (Likert scale 4 or higher) through non-intrusive sensor use and secure data handling.
+- **Citation**: Curumsing et al., 2019, Section 5.2.5
+- **Requirement Related Title**: Privacy and Invasiveness
+
+- **Role**: System Developer
+- **Requirement ID**: NF-04
+- **Requirement Title**: Response Time for Emergency Alerts
+- **Requirement Description**: The system must minimize response time for generating alerts in emergency situations, targeting a latency of under 30 seconds to address user concerns and ensure feelings of safety and reassurance.
+- **Citation**: Curumsing et al., 2019, Section 7
+- **Requirement Related Title**: Discussion
+
+- **Role**: System Designer
+- **Requirement ID**: NF-05
+- **Requirement Title**: Cost-Effectiveness for Adoption
+- **Requirement Description**: The system must be cost-effective to facilitate adoption by elderly users, addressing cost as a primary concern for technology acceptance, with a target price point competitive with existing aged-care solutions.
+- **Citation**: Curumsing et al., 2019, Section 7
+- **Requirement Related Title**: Discussion
+
+- **Role**: System Developer
+- **Requirement ID**: NF-06
+- **Requirement Title**: Reliability in Power Disruptions
+- **Requirement Description**: The system must maintain reliability during power disruptions or accidental dislodgement, targeting zero user-reported concerns about system disruptions by incorporating backup power solutions or fail-safes.
+- **Citation**: Curumsing et al., 2019, Section 5.2.7
+- **Requirement Related Title**: Emotional Threats
+
+- **Role**: System Evaluator
+- **Requirement ID**: NF-07
+- **Requirement Title**: User Confidence and Comfort
+- **Requirement Description**: The system must achieve high user confidence and comfort levels, targeting at least 90% of users reporting confidence and comfort (Likert scale 4 or higher) in using the system to ensure positive emotional engagement.
+- **Citation**: Curumsing et al., 2019, Section 5.2.6
+- **Requirement Related Title**: Other Views on Using SofiHub
+
+- **Role**: System Developer
+- **Requirement ID**: NF-08
+- **Requirement Title**: Smooth Operation Perception
+- **Requirement Description**: The system must operate smoothly to avoid user perceptions of complexity, targeting at least 90% of users reporting smooth operation (Likert scale 4 or higher) to maintain positive emotional reactions.
+- **Citation**: Curumsing et al., 2019, Section 5.2.6
+- **Requirement Related Title**: Other Views on Using SofiHub

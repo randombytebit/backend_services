@@ -1,0 +1,79 @@
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Passive Monitoring with Non-Intrusive Sensors  
+Description: System shall use non-intrusive motion sensors (e.g., for detecting movement, door openings/closings, time in bed, air temperature, and humidity) to enable ambient, privacy-respecting passive monitoring of elderly users' routines and behaviors without wearables or cameras.  
+Citation: Page 2 (Introduction: "designed as an ambient system using non-intrusive motion sensors"); Page 7 (Section 4.1: sensor data collection); Page 8 (Section 4.3.1: "sensors... recorded motion, opening and closing of specific doors, air temperature and humidity")  
+Related Title: Ambient Assisted Living Systems, Elderly Activity Monitoring Platforms, IoT Home Sensor Networks  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Support User Independence  
+Description: System shall enable elderly users to feel independent by avoiding intrusive monitoring, wearables, or automation that makes users feel controlled, monitored, dependent, old, frail, or stigmatized, while supporting daily living without constant human intervention.  
+Citation: Page 2 (RQ1: "emotional needs, such as to be independent"); Page 5 (Role model: "feel independent"); Page 7 (Section 4.2: emotional goal "Independent"; emotion model Fig. 4); Page 11 (Section 5.2.4: "feel that I am in control with SofiHub")  
+Related Title: Age-in-Place Smart Homes, Independent Living Assistance Systems, Non-Invasive Elderly Care Platforms  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Issue User-Specific Reminders  
+Description: System shall issue customizable, user-specific reminders (e.g., for hydration, medication, appointments, special events) triggered by user activity or routines, delivered via non-obtrusive messages (e.g., morning messages, voice prompts) to promote healthy behaviors without overwhelming the user.  
+Citation: Page 7 (Section 4.1: "issuing user specific reminders such as appointments... hydration and medication reminders that can be setup to be triggered by user activity"); Page 10 (Section 5.2.1: "morning messages"); Page 12 (Section 5.3: "issue messages" functional goal)  
+Related Title: Medication Adherence Apps for Elderly, Routine Reminder IoT Hubs, Voice-Activated Daily Assistants  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Ensure User Safety and Anomaly Detection  
+Description: System shall make elderly users feel safe by detecting anomalies (e.g., irregular bathroom visits, prolonged bed time, falls) and reassuring carers/relatives through timely alerts, while escalating incidents to service providers or carers if needed.  
+Citation: Page 5 (Goal model checks: "emotional goal safe is linked to the goal detect anomaly"); Page 7 (Section 4.2: emotional goal "Safe"); Page 10 (Section 5.2.2: "felt safe... system would alert someone")  
+Related Title: Fall Detection Smart Homes, Anomaly Alert Systems for Aged Care, Emergency Response IoT Platforms  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Learn and Adapt to User Routines  
+Description: System shall use AI to learn and adapt to the elderly user's daily routines and behaviors (e.g., wake-up time, bed time, activity patterns) from sensor data, enabling personalized notifications, anomaly detection, and environmental automation (e.g., heating/cooling).  
+Citation: Page 7 (Section 4.1: "built-in AI capability that can learn and adapt to a users behaviour"); Page 9 (Fig. 5 Goal model: "learn user’s routine and behaviour"); Page 8 (Section 4.3.1: cross-check sensor data with checklists for AI validation)  
+Related Title: Behavior-Learning Smart Hubs, Adaptive IoT Elderly Monitors, Routine-Predicting AI Assistants  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Provide Data Privacy and Security  
+Description: System shall secure user privacy by storing all sensor data locally on the hub (no cloud upload without authorization), preventing unauthorized access, and ensuring users feel their information is protected from hacking or intrusion.  
+Citation: Page 7 (Section 4.2: "all the data captured by the sensors were kept within the hub"; emotional goal "Privacy secured"); Page 11 (Section 5.2.5: "privacy is secure with SofiHub around")  
+Related Title: Privacy-Focused IoT Gateways, Local-Only Elderly Monitoring Systems, Secure Home Sensor Networks  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: Carer User Interface for Monitoring  
+Description: System shall provide a carer/relative UI for remote monitoring of user activity, customizable reports summarizing behavior/routines, and alerts/notifications to reassure family about the elderly user's wellbeing.  
+Citation: Page 7 (Section 4.1: "a carer UI which enables family and carers to check on user activity and receive customizable reports"); Page 5 (Goal model: "reassured" linked to "support independent living")  
+Related Title: Remote Family Care Dashboards, Aged Care Monitoring Portals, Relative Alert Apps  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Seamless Integration into Daily Life  
+Description: System shall integrate unobtrusively into the elderly user's home and routine (e.g., non-complex, smooth operation, friendly tone/frequency of messages) to make users feel comfortable, empowered, excited, and confident rather than frustrated, scared, or overwhelmed by technology.  
+Citation: Page 7 (Section 4.2: emotional goals "Integrated", "Comfortable", "Empowered"); Page 10-11 (Section 5.2.3-5.2.6: "SofiHub was part of their routine... felt excited... confident... increases comfort... runs smoothly")  
+Related Title: User-Friendly Smart Home Interfaces, Low-Friction Elderly Tech, Ambient Lifestyle Integration Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-05  
+Title: Detect and Alert Environmental/Security Risks  
+Description: System shall identify potential security risks (e.g., back door left open) and environmental anomalies (e.g., flooding, fire risks via integrated monitors) and issue alerts to prevent emergencies.  
+Citation: Page 7 (Section 4.1: "identify potential security risks (back door has been left open), identify anomalous situations"); Page 3 (Table 1: environment monitors for flooding/fire)  
+Related Title: Smart Security Sensors for Homes, Environmental Hazard Detectors, Elderly Safety Alert Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Alleviate Loneliness and Promote Feeling Cared For  
+Description: System shall reduce feelings of loneliness and make users feel cared about through engaging, varied interactions (e.g., chatty morning/night messages simulating companionship) without compromising independence.  
+Citation: Page 10 (Section 5.2.1: "alleviating the feeling of loneliness... looked forward to the messages"); Page 12 (Section 5.3: new emotional goals "less lonely" and "cared about"; refined goal model Fig. 7)  
+Related Title: Companionship Chatbots for Elderly, Anti-Loneliness IoT Hubs, Social Engagement Smart Devices

@@ -1,0 +1,49 @@
+REQUIREMENT REPORT  
+- Role: System Administrator  
+- Requirement ID: FR-01  
+- Requirement Title: Local Sensor Data Storage  
+- Requirement Description: All data captured by sensors must be stored locally within the SofiHub device to prevent external access and protect user privacy.  
+- Citation: Section 4.2  
+- Requirement Related Title: Privacy Secured  
+
+- Role: Elderly User  
+- Requirement ID: FR-02  
+- Requirement Title: Non-Intrusive Motion Sensing  
+- Requirement Description: The system must utilize non-intrusive motion sensors for passive monitoring to avoid privacy invasion, eliminating the need for wearables or cameras that could make users feel monitored or old.  
+- Citation: Introduction and Section 4.1  
+- Requirement Related Title: Privacy Secured  
+
+- Role: Carer/Family Member  
+- Requirement ID: FR-03  
+- Requirement Title: Restricted Data Access Mechanism  
+- Requirement Description: Access to stored sensor data must be limited to authorized personnel only, ensuring no unauthorized viewing or sharing of sensitive user information.  
+- Citation: Section 4.2  
+- Requirement Related Title: Reassured  
+
+- Role: System  
+- Requirement ID: NF-01  
+- Requirement Title: Data Privacy Level  
+- Requirement Description: The system must maintain high data privacy by securing all collected sensor information locally and preventing any external data transmission without explicit authorization, addressing user concerns about information exposure.  
+- Citation: Section 4.2 and 5.2.5  
+- Requirement Related Title: Privacy Secured  
+
+- Role: Elderly User  
+- Requirement ID: NF-02  
+- Requirement Title: Adversarial Robustness Against Hacking  
+- Requirement Description: The system must be robust against unauthorized intrusions, ensuring no hackers can access sensitive sensor data, thereby maintaining user relief about privacy.  
+- Citation: Section 4.2  
+- Requirement Related Title: Privacy Secured  
+
+- Role: Carer/Family Member  
+- Requirement ID: NF-03  
+- Requirement Title: System Integrity Benchmark  
+- Requirement Description: Sensor data integrity must be preserved through local storage and access controls, preventing tampering or loss that could undermine trust in monitoring for safety and anomalies.  
+- Citation: Section 4.2 and 5.2.2  
+- Requirement Related Title: Reassured  
+
+- Role: Elderly User  
+- Requirement ID: NF-04  
+- Requirement Title: Resilience to Privacy Violations  
+- Requirement Description: The system must demonstrate resilience to potential privacy threats by design, ensuring users do not feel anxious about monitoring or data exposure over time.  
+- Citation: Section 5.2.5  
+- Requirement Related Title: Independent

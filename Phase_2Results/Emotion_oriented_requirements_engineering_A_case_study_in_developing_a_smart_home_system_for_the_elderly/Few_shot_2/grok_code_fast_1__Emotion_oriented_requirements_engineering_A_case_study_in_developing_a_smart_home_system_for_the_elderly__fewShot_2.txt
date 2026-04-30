@@ -1,0 +1,83 @@
+Requirement ID: FR-01  
+Requirement Title: Reminder Issuance  
+Requirement Description: The system must issue personalized reminders to elderly users for activities such as medication intake, hydration, appointments, and special events, triggered by user activity or predefined schedules, to support independent living and health management.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "The system functions include, issuing user specific reminders such as appointments and special events, hydration and medication reminders that can be setup to be triggered by user activity"  
+Requirement Related Title: Medication Adherence Apps for Chronic Disease Patients, Personal Health Monitoring Wearables, Elderly Care Scheduling Software  
+
+Requirement ID: FR-02  
+Requirement Title: Anomaly Detection  
+Requirement Description: The system must passively monitor user behavior using non-intrusive sensors to detect anomalies such as falls, irregular bathroom visits, abnormal bed time spent, or unusual activity patterns, and escalate incidents to appropriate parties for emergency assistance.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "identify potential security risks (back door has been left open), identify anomalous situations and to automate the physical environment" and "detect anomaly" in goal model description  
+Requirement Related Title: Fall Detection Systems in Assisted Living Facilities, Behavioral Monitoring Tools for Dementia Patients, Home Security Alert Platforms  
+
+Requirement ID: FR-03  
+Requirement Title: Environmental Automation  
+Requirement Description: The system must automate physical home environments, such as adjusting heating, cooling, or lighting, based on user routines and sensor data to enhance comfort and convenience without requiring user intervention.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "and to automate the physical environment (heating, cooling)"  
+Requirement Related Title: Smart Thermostat Controls in Energy-Efficient Homes, Automated Lighting Systems for Accessibility, Climate Control Interfaces for Disabled Users  
+
+Requirement ID: FR-04  
+Requirement Title: Emergency Assistance Provision  
+Requirement Description: The system must provide emergency assistance by detecting critical situations (e.g., falls or floods) and notifying carers, relatives, or emergency services promptly to ensure user safety.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "emergency assistance" and "escalate the incident to the service provider and/or carer" in goal model  
+Requirement Related Title: Personal Emergency Response Systems (PERS), Flood and Fire Alarm Networks, Remote Caregiver Notification Platforms  
+
+Requirement ID: NFR-01  
+Requirement Title: Privacy and Data Security  
+Requirement Description: The system must ensure strict data isolation and security, preventing unauthorized access to sensitive user data collected via sensors, and maintain user privacy by keeping data local and not sharing it without explicit consent.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "all the data captured by the sensors were kept within the hub and nobody, except for those authorised by the ethics committee, had access to these data" and "Privacy secured" in emotional goals  
+Requirement Related Title: Secure Health Data Repositories in Telemedicine, Encrypted Sensor Networks in IoT Homes, HIPAA-Compliant Patient Monitoring Systems  
+
+Requirement ID: NFR-02  
+Requirement Title: User Independence and Control  
+Requirement Description: The system must support user independence by minimizing invasive monitoring, allowing users to feel in control of their environment, and avoiding perceptions of being dependent or controlled, while providing necessary support.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "Independent", "In control" in emotional goals and "to ensure that users felt in control, only two set of messages were included"  
+Requirement Related Title: User-Centric Smart Home Interfaces for Seniors, Autonomy-Preserving Assistive Technologies, Self-Management Tools for Aging Populations  
+
+Requirement ID: NFR-03  
+Requirement Title: Seamless Integration into Daily Life  
+Requirement Description: The system must integrate seamlessly into the user's daily routines without disrupting normal activities, ensuring it feels like a natural part of the home environment and enhances rather than complicates life.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "Integrated" in emotional goals and "SofiHub was part of their routine and they waited for the morning messages"  
+Requirement Related Title: Ambient Assisted Living Environments, Non-Intrusive Wearable Health Trackers, Intuitive Voice-Activated Home Assistants  
+
+Requirement ID: NFR-04  
+Requirement Title: Emotional Support for Loneliness and Care  
+Requirement Description: The system must alleviate feelings of loneliness and provide a sense of being cared for by issuing comforting messages and interactions that simulate companionship, without overwhelming the user.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 5: "alleviating loneliness" and "feeling cared about" in refined goal model and trial findings  
+Requirement Related Title: Companion Robots for Isolated Seniors, Social Interaction Apps for Elderly Communities, Virtual Caregiver Chatbots  
+
+Requirement ID: NFR-05  
+Requirement Title: Real-Time Responsiveness and Reliability  
+Requirement Description: The system must process sensor data and respond in real-time to ensure timely alerts and actions, maintaining reliability to avoid user frustration or safety risks from delays or failures.  
+Requirement Role: System Component (Sensors and Hub)  
+Requirement Citation: Page 4: "rapid advancements in technology in areas such as wearable devices, network connected sensors" and concerns about "response time to generate an alert"  
+Requirement Related Title: Critical Alert Systems in Hospital ICUs, Real-Time Monitoring Dashboards for Emergency Services, Fault-Tolerant IoT Networks for Smart Cities  
+
+Requirement ID: NFR-06  
+Requirement Title: Safety and Fail-Safe Mechanisms  
+Requirement Description: The system must implement safety invariants and fail-safe modes, such as automatic transitions to safe states during disconnections, to prevent hazardous situations and ensure user protection.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "Safety interlocks" in background and "system safety invariants" in goal model  
+Requirement Related Title: Fail-Safe Protocols in Medical Devices, Automated Shutdown Systems in Industrial Controls, Redundant Safety Layers in Autonomous Vehicles  
+
+Requirement ID: NFR-07  
+Requirement Title: Comfort and Ease of Use  
+Requirement Description: The system must be comfortable and easy to use, avoiding complexity or invasiveness that could cause anxiety or discomfort, and promote confidence in elderly users.  
+Requirement Role: Elderly User  
+Requirement Citation: Page 4: "Comfortable" and "Empowered" in emotional goals, and "feeling confident about using SofiHub" in findings  
+Requirement Related Title: User-Friendly Interfaces in Senior Citizen Apps, Simplified Controls for Assistive Technologies, Intuitive Gadgets for Low-Tech Users  
+
+Requirement ID: NFR-08  
+Requirement Title: Reassurance for Carers and Relatives  
+Requirement Description: The system must provide reassurance to carers and relatives by enabling remote monitoring and notifications of user well-being, without compromising user privacy or independence.  
+Requirement Role: Carer/Relative  
+Requirement Citation: Page 4: "Reassured" in emotional goals and "reassure the relatives and carers"  
+Requirement Related Title: Family Monitoring Apps for Dementia Care, Remote Oversight Tools for Elderly Parents, Caregiver Dashboard Systems in Nursing Homes

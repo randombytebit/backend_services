@@ -1,0 +1,119 @@
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Issue User-Specific Reminders  
+Description: The system must issue personalized reminders to elderly users, such as for appointments, special events, hydration, and medication, triggered by user activity or schedules to support daily routines and health management.  
+Citation: Page 4, Section 4.1 (SofiHub features description)  
+Related Title: Medication Reminder Apps, Personal Health Assistants, Elderly Care Monitoring Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Detect Anomalous Behavior  
+Description: The system must monitor user activity patterns using sensors and AI to detect deviations from normal routines, such as irregular bathroom visits or prolonged bed time, and escalate alerts to caregivers or emergency services.  
+Citation: Page 4, Section 4.1 (SofiHub features description)  
+Related Title: Fall Detection Systems, Elderly Monitoring Wearables, Smart Home Security Platforms  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Automate Home Environment  
+Description: The system must automatically adjust home environmental controls, such as heating, cooling, and lighting, based on learned user preferences and sensor data to enhance comfort and energy efficiency.  
+Citation: Page 4, Section 4.1 (SofiHub features description)  
+Related Title: Smart Home Automation Systems, Energy-Efficient IoT Platforms, Climate Control Assistants  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: Identify Security Risks  
+Description: The system must use sensors to detect potential security threats, such as open doors or windows left unattended, and notify users or caregivers to prevent risks.  
+Citation: Page 4, Section 4.1 (SofiHub features description)  
+Related Title: Home Security Systems, IoT-Based Alarm Networks, Elderly Safety Monitors  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-05  
+Title: Learn and Adapt to User Behavior  
+Description: The system must employ AI algorithms to analyze sensor data and adapt its operations, such as reminder timings or anomaly thresholds, to the user's evolving daily routines and preferences.  
+Citation: Page 4, Section 4.1 (SofiHub features description)  
+Related Title: Adaptive AI Assistants, Personalized Health Trackers, Machine Learning-Based Home Systems  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-01  
+Title: Feeling Safe  
+Description: The system must ensure users feel secure by providing reliable detection of anomalies and emergencies, fostering a sense of protection without invasive monitoring.  
+Citation: Page 4, Section 4.2 (Emotional goals from goal model)  
+Related Title: Emergency Alert Systems, Home Safety Devices, Elderly Protection Platforms  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-02  
+Title: Feeling Independent  
+Description: The system must support users in maintaining their autonomy by enabling self-managed routines and minimizing reliance on external interventions, while providing subtle assistance.  
+Citation: Page 4, Section 4.2 (Emotional goals from goal model)  
+Related Title: Assistive Living Technologies, Self-Care Apps, Independent Aging Solutions  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-03  
+Title: Feeling in Control  
+Description: The system must allow users to retain control over their environment and interactions, limiting automated actions to essential functions and providing user-configurable settings.  
+Citation: Page 4, Section 4.2 (Emotional goals from goal model)  
+Related Title: User-Centric Smart Devices, Customizable Home Assistants, Personal Autonomy Tools  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-04  
+Title: Feeling Integrated  
+Description: The system must seamlessly blend into the user's daily life without disrupting routines, ensuring interactions feel natural and non-intrusive.  
+Citation: Page 4, Section 4.2 (Emotional goals from goal model)  
+Related Title: Ambient Intelligence Systems, Seamless IoT Integrations, Everyday Technology Assistants  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-05  
+Title: Privacy Secured  
+Description: The system must protect user data privacy by storing information locally, ensuring no unauthorized access, and avoiding perceptions of invasive surveillance.  
+Citation: Page 4, Section 4.2 (Emotional goals from goal model)  
+Related Title: Secure IoT Platforms, Privacy-Focused Health Monitors, Data-Protected Smart Homes  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-06  
+Title: Feeling Reassured  
+Description: The system must provide reassurance to caregivers and relatives about the user's well-being through notifications and reports, without overwhelming the user.  
+Citation: Page 4, Section 4.2 (Emotional goals from goal model)  
+Related Title: Caregiver Monitoring Apps, Family Safety Networks, Remote Elderly Support Systems  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-07  
+Title: Reduced Loneliness  
+Description: The system must incorporate interactive elements, such as varied voice messages, to create a sense of companionship and reduce feelings of isolation.  
+Citation: Page 5, Section 5.2.1 (Findings on reduced loneliness)  
+Related Title: Social Companion Robots, Interactive Voice Assistants, Loneliness Alleviation Apps  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-08  
+Title: Feeling Cared About  
+Description: The system must convey a sense of care through personalized interactions and messages, making users feel valued and supported in their daily lives.  
+Citation: Page 5, Section 5.2.1 (Findings on feeling cared about)  
+Related Title: Emotional Support Chatbots, Personalized Care Assistants, Empathy-Driven Health Tech  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-09  
+Title: Feeling Comfortable  
+Description: The system must be easy to use and non-threatening, avoiding complex interfaces or wearables to prevent feelings of discomfort or frustration.  
+Citation: Page 4, Section 4.2 (Emotional goals from goal model)  
+Related Title: User-Friendly Gadgets, Simplified Elderly Tech, Intuitive Home Devices  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-10  
+Title: Feeling Empowered  
+Description: The system must build user confidence through reliable performance and adaptability, empowering users to manage their environment effectively.  
+Citation: Page 4, Section 4.2 (Emotional goals from goal model)  
+Related Title: Empowerment Tools for Seniors, Confidence-Building Apps, Adaptive Assistive Technologies

@@ -1,0 +1,50 @@
+REQUIREMENT REPORT
+
+Role: System  
+Requirement ID: FR-01  
+Requirement Title: Local Data Storage  
+Requirement Description: All data captured by the sensors is kept within the hub to ensure local storage and prevent external access.  
+Citation: Page 4, Section 4.2  
+Requirement Related Title: SofiHub Features  
+
+Role: System  
+Requirement ID: FR-02  
+Requirement Title: Restricted Data Access  
+Requirement Description: Access to data is restricted to only those authorized by the ethics committee, ensuring controlled access.  
+Citation: Page 4, Section 4.2  
+Requirement Related Title: SofiHub Features  
+
+Role: Elderly User  
+Requirement ID: NF-01  
+Requirement Title: Data Privacy Levels  
+Requirement Description: Data collected through sensors is well secured, and no intruders can hack sensitive information, maintaining high data privacy levels.  
+Citation: Page 4, Section 4.2  
+Requirement Related Title: Emotional Goals  
+
+Role: Elderly User  
+Requirement ID: NF-02  
+Requirement Title: Privacy Secured  
+Requirement Description: Users feel relieved about the privacy of their information, with data secured against unauthorized access.  
+Citation: Page 4, Section 4.2  
+Requirement Related Title: Emotional Goals  
+
+Role: System  
+Requirement ID: NF-03  
+Requirement Title: System Resilience  
+Requirement Description: The system must handle disruptions such as power failures or accidental dislodgement without compromising functionality, ensuring resilience.  
+Citation: Page 12, Section 5.2.7  
+Requirement Related Title: Emotional Threats  
+
+Role: System  
+Requirement ID: NF-04  
+Requirement Title: Adversarial Robustness  
+Requirement Description: The system is designed to prevent hacking of sensitive data, providing robustness against adversarial attempts to access information.  
+Citation: Page 4, Section 4.2  
+Requirement Related Title: SofiHub Features  
+
+Role: System  
+Requirement ID: NF-05  
+Requirement Title: Data Integrity Benchmarks  
+Requirement Description: Sensor data is validated against ground truth from checklists to ensure integrity and accuracy of collected information.  
+Citation: Page 8, Section 4.3.1  
+Requirement Related Title: Data Collection Tools

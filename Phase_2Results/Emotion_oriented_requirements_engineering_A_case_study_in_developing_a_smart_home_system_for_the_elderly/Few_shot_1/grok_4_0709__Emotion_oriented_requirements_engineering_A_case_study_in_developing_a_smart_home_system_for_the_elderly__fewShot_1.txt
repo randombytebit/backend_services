@@ -1,0 +1,63 @@
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Passive Monitoring and Anomaly Detection  
+Description: The system must use non-intrusive sensors (e.g., motion and contact sensors) to passively monitor user activities, learn the user's routine and behavior over time, detect anomalies such as falls, irregular bathroom visits, or abnormal time spent in bed, and escalate incidents by issuing notifications or alerts to carers, relatives, or service providers.  
+Citation: Section 4.1. SofiHub features; Section 4.2. SofiHub emotion-oriented requirements engineering; Fig. 5 (Goal model showing "support independent living," "learn user's routine and behaviour," "detect anomaly," and "issue notifications"); Page 7-8, 9-10.  
+Related Title: Elderly Home Monitoring Systems, Fall Detection IoT Platforms, Ambient Assisted Living (AAL) Solutions  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: User-Specific Reminders and Messaging  
+Description: The system must issue user-specific reminders for hydration, medication, appointments, and special events, triggered by user activity or time-based schedules, including morning messages, potential night messages, and variations in message content to engage users; it should also support forwarding native device alarms and implementing derived or smart alarms based on data from multiple sensors.  
+Citation: Section 4.1. SofiHub features; Section 5.3. Implications of findings on the next generation of SofiHub; Fig. 7 (Refined goal model showing "issue messages" and "chatty"); Page 7, 11-12.  
+Related Title: Medication Adherence Apps for Seniors, Smart Reminder Systems in Assisted Living, Voice-Activated Home Assistants for Elderly Care  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Environmental Sensing and Automation  
+Description: The system must sense environmental changes (e.g., temperature, humidity, door status) using connected sensors, identify potential risks such as open doors, flooding, or fire, and automate responses like issuing alerts or controlling devices (e.g., heating, cooling) to promote safety and convenience.  
+Citation: Section 2.1. Smart home technologies; Section 4.1. SofiHub features; Table 1 (Examples of environment monitors); Page 2-3, 7.  
+Related Title: Smart Home IoT Security Systems, Environmental Monitoring for Aged Care, Home Automation Platforms for Independent Living  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Privacy and Non-Intrusiveness  
+Description: The system must ensure user privacy by using non-intrusive motion sensors without wearables or cameras, storing all sensor data locally within the hub, restricting access to authorized personnel only, and avoiding feelings of being monitored or controlled, while securing data against hacking or unauthorized access.  
+Citation: Section 4.2. SofiHub emotion-oriented requirements engineering; Fig. 4 (Emotion model showing threats like "feeling monitored" mapped to "privacy secured"); Section 5.2.5. Privacy and invasiveness; Page 6-7, 10-11.  
+Related Title: Privacy-Focused IoT Devices for Elderly, Non-Invasive Health Monitoring Systems, Secure Ambient Intelligence Platforms  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Emotional Goal Integration (Safety and Reassurance)  
+Description: The system must address emotional goals by making users feel safe and reassured through anomaly detection and alerts, while ensuring carers feel reassured about the user's well-being; this includes minimizing negative emotions like insecurity and maximizing positive ones like feeling supported, with evaluations showing consistent user perceptions of safety (e.g., Likert scale ratings of 4 or higher).  
+Citation: Section 4.2. SofiHub emotion-oriented requirements engineering; Fig. 5 (Goal model showing "safe" and "reassured"); Section 5.2.2. Feeling safe and reassured; Page 7-8, 10.  
+Related Title: Emotion-Aware Assisted Living Systems, Safety-Focused Smart Homes for Seniors, Reassurance Platforms in Telecare  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Usability and Integration into Daily Life  
+Description: The system must be well-integrated into users' daily routines, easy to use without causing frustration or complexity, and designed to feel like a natural part of the home environment (e.g., through simple voice interactions and minimal user input), ensuring users feel comfortable, empowered, and in control, with evaluations confirming positive perceptions (e.g., Likert scale ratings of 4 or higher for smoothness and comfort).  
+Citation: Section 3.2.1. Emotion-oriented requirements modelling; Fig. 5 (Goal model showing "integrated," "comfortable," "empowered," and "in control"); Section 5.2.3. System is integrated in user’s life; Page 5-6, 10.  
+Related Title: User-Centric Smart Home Interfaces for Elderly, Seamless IoT Integration in Aged Care, Intuitive Ambient Assisted Living Software  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Reliability and Emotional Threat Mitigation  
+Description: The system must operate reliably, minimizing disruptions from power failures or delays in responses (e.g., message playback or alerts), and mitigate emotional threats like frustration or worry by ensuring smooth operation, quick emergency responses, and adaptability to user feedback, while addressing unexpected goals like reducing loneliness through engaging interactions.  
+Citation: Section 5.2.7. Emotional threats; Section 5.3. Implications of findings on the next generation of SofiHub; Fig. 7 (Refined goal model adding "less lonely" and "cared about"); Page 11-12.  
+Related Title: Reliable IoT Systems for Critical Elderly Care, Fault-Tolerant Smart Home Platforms, Emotion-Responsive Assisted Living Technologies  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: Carer Interface and Reporting  
+Description: The system must provide a carer user interface (UI) for family members or professionals to remotely monitor user activity, receive customizable reports summarizing behavior (e.g., activity levels, trends), and get notifications for anomalies or alerts, supporting roles like relatives feeling reassured through independent living support.  
+Citation: Section 4.1. SofiHub features; Section 3.2.1. Emotion-oriented requirements modelling (Role model); Fig. 5 (Goal model linking "reassured" to "support independent living"); Page 5, 7.  
+Related Title: Remote Monitoring Apps for Family Carers, Telehealth Reporting Systems, Caregiver Dashboards in Smart Homes

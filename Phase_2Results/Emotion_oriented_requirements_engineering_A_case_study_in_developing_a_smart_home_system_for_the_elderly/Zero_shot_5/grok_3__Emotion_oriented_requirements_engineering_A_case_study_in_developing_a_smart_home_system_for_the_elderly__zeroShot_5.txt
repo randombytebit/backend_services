@@ -1,0 +1,117 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: System Orchestrator
+  - **Requirement ID**: FR-01
+  - **Requirement Title**: Data Collection via Sensors
+  - **Requirement Description**: The system must collect data from motion and contact sensors installed in homes to record motion, door status, air temperature, and humidity for monitoring elderly users’ activities and environmental conditions.
+  - **Citation**: Curumsing et al., 2019, Section 4.3.1
+  - **Requirement Related Title**: Sensor Data Integration
+
+- **Role**: System Orchestrator
+  - **Requirement ID**: FR-02
+  - **Requirement Title**: Issuing User-Specific Reminders
+  - **Requirement Description**: The system must issue reminders for hydration, medication, appointments, and special events, triggered by user activity or predefined schedules to support independent living.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Reminder Functionality
+
+- **Role**: System Orchestrator
+  - **Requirement ID**: FR-03
+  - **Requirement Title**: Anomaly Detection and Alerts
+  - **Requirement Description**: The system must detect anomalous behaviors (e.g., prolonged time in bed) using AI capabilities and issue alerts to carers or service providers to ensure user safety.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Safety Monitoring
+
+- **Role**: System Orchestrator
+  - **Requirement ID**: FR-04
+  - **Requirement Title**: Carer UI for Monitoring
+  - **Requirement Description**: The system must provide a carer UI enabling family and carers to check user activity and receive customizable reports summarizing behavior patterns.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Remote Monitoring Interface
+
+- **Role**: System Orchestrator
+  - **Requirement ID**: FR-05
+  - **Requirement Title**: Automated Environment Control
+  - **Requirement Description**: The system must automate physical environment controls such as heating and cooling based on learned user behavior and environmental sensor data.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Environmental Automation
+
+- **Role**: System Orchestrator
+  - **Requirement ID**: FR-06
+  - **Requirement Title**: Data Storage and Retrieval
+  - **Requirement Description**: The system must locally store sensor data within the hub and allow researchers or authorized personnel to retrieve data dumps at selected periods for testing and analysis.
+  - **Citation**: Curumsing et al., 2019, Section 4.3.1
+  - **Requirement Related Title**: Data Management
+
+- **Role**: System Orchestrator
+  - **Requirement ID**: FR-07
+  - **Requirement Title**: Emotion-Oriented Evaluation Process
+  - **Requirement Description**: The system must support an evaluation process using emotion-oriented questionnaires and interviews at different trial stages (pre-trial, mid-trial, post-trial) to assess users’ emotional reactions.
+  - **Citation**: Curumsing et al., 2019, Section 4.3
+  - **Requirement Related Title**: User Feedback Collection
+
+- **Role**: System Orchestrator
+  - **Requirement ID**: FR-08
+  - **Requirement Title**: Automated Retraining Trigger for AI Model
+  - **Requirement Description**: The system must trigger retraining of the AI model when significant deviations in user behavior are detected over a predefined period, ensuring adaptation to changing routines.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Adaptive Learning
+
+- **Role**: API Developer
+  - **Requirement ID**: FR-09
+  - **Requirement Title**: API Endpoint for Sensor Data Access
+  - **Requirement Description**: The system must provide an API endpoint to allow authorized users to access sensor data for analysis and monitoring purposes.
+  - **Citation**: Curumsing et al., 2019, Section 4.3.1
+  - **Requirement Related Title**: Data Access Interface
+
+- **Role**: API Developer
+  - **Requirement ID**: FR-10
+  - **Requirement Title**: API Endpoint for Alert Notifications
+  - **Requirement Description**: The system must provide an API endpoint to send alert notifications to carers or service providers when anomalies are detected.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Alert Notification Interface
+
+- **Role**: API Developer
+  - **Requirement ID**: FR-11
+  - **Requirement Title**: API Endpoint for Reminder Configuration
+  - **Requirement Description**: The system must provide an API endpoint to configure and manage user-specific reminders for hydration, medication, and appointments.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Reminder Management Interface
+
+- **Role**: API Developer
+  - **Requirement ID**: FR-12
+  - **Requirement Title**: API Endpoint for Carer Report Generation
+  - **Requirement Description**: The system must provide an API endpoint to generate and retrieve customizable reports on user behavior for carers and family members.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Report Generation Interface
+
+**Non-Functional Requirements**
+
+- **Role**: System Architect
+  - **Requirement ID**: NF-01
+  - **Requirement Title**: Scalability for Multiple Users
+  - **Requirement Description**: The system must be scalable to support deployment in multiple homes simultaneously, handling increased data volume and user interactions without performance degradation.
+  - **Citation**: Curumsing et al., 2019, Section 6
+  - **Requirement Related Title**: System Scalability
+
+- **Role**: System Architect
+  - **Requirement ID**: NF-02
+  - **Requirement Title**: High Availability for Continuous Operation
+  - **Requirement Description**: The system must ensure high availability with minimal downtime, maintaining continuous operation to support elderly users’ safety and monitoring needs, even during power failures or disruptions.
+  - **Citation**: Curumsing et al., 2019, Section 5.2.7
+  - **Requirement Related Title**: System Reliability
+
+- **Role**: System Architect
+  - **Requirement ID**: NF-03
+  - **Requirement Title**: Energy Efficiency in Device Operation
+  - **Requirement Description**: The system must be designed to minimize energy consumption of sensors and hub devices to reduce operational costs and environmental impact, especially considering continuous operation.
+  - **Citation**: Curumsing et al., 2019, Section 2.1
+  - **Requirement Related Title**: Energy Optimization
+
+- **Role**: System Architect
+  - **Requirement ID**: NF-04
+  - **Requirement Title**: Cross-Platform Compatibility for User Interfaces
+  - **Requirement Description**: The system must ensure cross-platform compatibility for carer UI and other interfaces, supporting access from various devices (e.g., smartphones, tablets, desktops) and operating systems to maximize accessibility.
+  - **Citation**: Curumsing et al., 2019, Section 4.1
+  - **Requirement Related Title**: Interface Accessibility

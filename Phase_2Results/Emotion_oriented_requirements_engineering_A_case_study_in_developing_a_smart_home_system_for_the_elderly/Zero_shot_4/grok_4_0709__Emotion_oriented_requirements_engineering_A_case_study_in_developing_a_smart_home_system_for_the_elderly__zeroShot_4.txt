@@ -1,0 +1,50 @@
+REQUIREMENT REPORT
+
+- Role: Professional Carer
+- Requirement ID: FR-01
+- Requirement Title: Bias Detection Modules
+- Requirement Description: Implement modules to detect potential biases in the AI learning process for user routines and behaviors, ensuring equitable treatment across diverse elderly user profiles without discrimination.
+- Citation: Page 2, "built-in AI capability that can learn and adapt to a users behaviour."
+- Requirement Related Title: Fairness in AI Learning
+
+- Role: Maintenance Personnel
+- Requirement ID: FR-02
+- Requirement Title: Explainability Dashboards
+- Requirement Description: Develop dashboards that provide explanations of AI decisions, such as anomaly detection or reminder issuance, to allow users and carers to understand system reasoning.
+- Citation: Page 5, "Meta-model for the emotion-based goal model."
+- Requirement Related Title: AI Decision Transparency
+
+- Role: Family Member
+- Requirement ID: FR-03
+- Requirement Title: Audit Trail Generation
+- Requirement Description: Generate audit trails for system actions, sensor data, and AI decisions to enable traceability, compliance checks, and retrospective analysis.
+- Citation: Page 7, "Sensor data was collected from the motion and contact sensors installed in the homes... The data was locally stored in the SofiHub, while the researchers were able to retrieve data dumps at selected periods to carry out the testing."
+- Requirement Related Title: System Action Traceability
+
+- Role: Cared-for Ageing Person
+- Requirement ID: NF-01
+- Requirement Title: Fairness Metrics
+- Requirement Description: Define and monitor metrics to measure fairness in AI outcomes, ensuring no disproportionate impact on different user groups based on factors like age or living conditions.
+- Citation: Page 1, "Better supporting elderly people to continue live in their home using smart home technology is a key target application."
+- Requirement Related Title: Equitable AI Treatment
+
+- Role: Professional Carer
+- Requirement ID: NF-02
+- Requirement Title: Transparency Levels
+- Requirement Description: Maintain high transparency levels in data handling and AI processes, including clear disclosure of how user data is used for monitoring and learning.
+- Citation: Page 4, "Privacy secured: Users are relieved about the privacy of their information. Data collected through the sensors are well secured and no intruders can hack those sensitive information."
+- Requirement Related Title: Data Handling Disclosure
+
+- Role: Family Member
+- Requirement ID: NF-03
+- Requirement Title: Interpretability
+- Requirement Description: Ensure AI models and decisions are interpretable, allowing stakeholders to comprehend and verify the logic behind detections and notifications.
+- Citation: Page 5, "Goal model represents the functional goals of the system to be developed along with any quality and emotional goals linked to the functional goals."
+- Requirement Related Title: Model Logic Comprehension
+
+- Role: Maintenance Personnel
+- Requirement ID: NF-04
+- Requirement Title: Ethical Alignment
+- Requirement Description: Align system design and operations with ethical standards, including user consent, privacy protection, and beneficial impact on elderly independence and well-being.
+- Citation: Page 7, "All the data captured by the sensors were kept within the hub and nobody, except for those authorised by the ethics committee, had access to these data."
+- Requirement Related Title: Ethical System Design

@@ -1,0 +1,41 @@
+Requirement ID: FR-01  
+Requirement Title: Passive Activity Monitoring  
+Requirement Description: The system must use non-intrusive motion and contact sensors to passively monitor elderly users' routines, such as movement, door openings/closings, time spent in bed, and environmental conditions like temperature and humidity, without requiring wearables to preserve privacy and independence.  
+Requirement Citation: Section 4.1 (SofiHub features), Section 2.1 (Smart home technologies)  
+Requirement Related Title: Ambient Assisted Living Environments, Non-Wearable Home Health Trackers, Elderly Daily Routine Analyzers  
+
+Requirement ID: FR-02  
+Requirement Title: Personalized Reminder Issuance  
+Requirement Description: The system must issue user-specific audio or visual reminders for hydration, medication, appointments, and special events, triggered by detected user activity or routines, to support daily adherence without overwhelming the user.  
+Requirement Citation: Section 4.1 (SofiHub features), Section 4.2 (SofiHub emotion-oriented requirements engineering)  
+Requirement Related Title: Senior Medication Management Systems, Activity-Triggered Wellness Prompters, Home-Based Habit Formation Tools  
+
+Requirement ID: FR-03  
+Requirement Title: Anomaly Detection and Alerting  
+Requirement Description: The system must employ AI to learn and analyze user routines and behaviors, detect anomalies (e.g., prolonged time in bed, irregular bathroom visits, or security risks like an open back door), and automatically issue alerts to the user, carers, or family via notifications or escalation.  
+Requirement Citation: Section 4.1 (SofiHub features), Section 4.2 (Goal model description)  
+Requirement Related Title: Behavioral Anomaly Monitoring Platforms, Smart Fall and Inactivity Detectors, Elderly Security Risk Identifiers  
+
+Requirement ID: FR-04  
+Requirement Title: Emergency Incident Escalation  
+Requirement Description: Upon detecting an anomaly or emergency (e.g., potential fall or environmental hazard), the system must escalate the incident by notifying authorized carers, family members, or service providers through customizable reports or direct alerts, while allowing user override for control.  
+Requirement Citation: Section 4.2 (Goal model: Detect anomaly → Escalate incident), Section 5.2.2 (Feeling safe and reassured)  
+Requirement Related Title: Remote Caregiver Emergency Networks, Automated Health Incident Responders, Family Notification Hubs for Seniors  
+
+Requirement ID: NFR-01  
+Requirement Title: Privacy and Data Security  
+Requirement Description: The system must ensure all sensor data is stored locally on the hub, encrypted, and accessible only to authorized users (e.g., via ethics-approved access), preventing unauthorized hacking or leakage to maintain user perception of secured privacy and reduce anxiety about monitoring.  
+Requirement Citation: Section 4.2 (Emotional goal: Privacy secured), Section 5.2.5 (Privacy and invasiveness)  
+Requirement Related Title: Secure IoT Health Data Platforms, Privacy-Focused Elderly Monitoring Systems, Compliant Ambient Intelligence Homes  
+
+Requirement ID: NFR-02  
+Requirement Title: Seamless User Integration and Non-Intrusiveness  
+Requirement Description: The system must integrate unobtrusively into the user's daily life by minimizing interactions (e.g., limited message types like morning greetings and reminders), avoiding complexity or obtrusiveness, and adapting to routines to foster feelings of comfort, empowerment, and independence without evoking frustration or a sense of being controlled.  
+Requirement Citation: Section 4.2 (Emotional goals: Integrated, Comfortable, In control), Section 5.2.3 (System is integrated in user’s life)  
+Requirement Related Title: User-Centric Smart Home Interfaces, Low-Friction Elderly Assistive Technologies, Adaptive Ambient Support Systems  
+
+Requirement ID: NFR-03  
+Requirement Title: Reliability and Fail-Safe Operation  
+Requirement Description: The system must provide real-time responsiveness for alerts and reminders, handle disruptions like power failures or disconnections with automatic recovery or fail-safe modes (e.g., battery backup for critical functions), and ensure smooth operation to avoid user frustration or perceived unreliability.  
+Requirement Citation: Section 5.2.7 (Emotional threats: Power failures), Section 4.1 (Built-in AI capability that learns and adapts)  
+Requirement Related Title: Resilient IoT Elderly Care Devices, Fault-Tolerant Home Automation Systems, Continuous Monitoring Reliability Frameworks

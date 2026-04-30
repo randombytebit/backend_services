@@ -1,0 +1,148 @@
+REQUIREMENT REPORT
+
+- Role: Elderly Person
+- Requirement ID: FR-01
+- Requirement Title: Passive Monitoring via Sensors
+- Requirement Description: The system must use non-intrusive motion sensors, contact sensors for doors, and sensors for air temperature and humidity to passively monitor user activity without requiring wearables.
+- Citation: Page 2, Section 1
+- Requirement Related Title: Introduction
+
+- Role: Elderly Person
+- Requirement ID: FR-02
+- Requirement Title: Anomaly Detection and Notification
+- Requirement Description: The system must detect anomalous situations such as falls or abnormal time spent in bed and issue notifications to carers or service providers.
+- Citation: Page 5, Section 3.2.1
+- Requirement Related Title: Goal model
+
+- Role: Elderly Person
+- Requirement ID: FR-03
+- Requirement Title: User-Specific Reminders
+- Requirement Description: The system must issue voice-based reminders for hydration, medication, appointments, and special events, triggered by user activity.
+- Citation: Page 7, Section 4.1
+- Requirement Related Title: SofiHub features
+
+- Role: Elderly Person
+- Requirement ID: FR-04
+- Requirement Title: Security Risk Identification
+- Requirement Description: The system must identify potential security risks such as doors left open and provide alerts.
+- Citation: Page 7, Section 4.1
+- Requirement Related Title: SofiHub features
+
+- Role: Elderly Person
+- Requirement ID: FR-05
+- Requirement Title: Environmental Automation
+- Requirement Description: The system must automate the physical environment, including heating and cooling, based on sensor data.
+- Citation: Page 7, Section 4.1
+- Requirement Related Title: SofiHub features
+
+- Role: Elderly Person
+- Requirement ID: FR-06
+- Requirement Title: Learning User Routine
+- Requirement Description: The system must use AI to learn and adapt to the user's routine and behavior for personalized interactions.
+- Citation: Page 7, Section 4.1
+- Requirement Related Title: SofiHub features
+
+- Role: Carer/Relative
+- Requirement ID: FR-07
+- Requirement Title: Carer User Interface
+- Requirement Description: The system must provide a carer UI for checking user activity and receiving customizable reports summarizing user behavior.
+- Citation: Page 7, Section 4.1
+- Requirement Related Title: SofiHub features
+
+- Role: Elderly Person
+- Requirement ID: FR-08
+- Requirement Title: Voice Interaction Messages
+- Requirement Description: The system must deliver voice messages, including morning messages and medication reminders, with variations to engage users.
+- Citation: Page 7, Section 4.2
+- Requirement Related Title: SofiHub emotion-oriented requirements engineering
+
+- Role: Researcher/Evaluator
+- Requirement ID: FR-09
+- Requirement Title: Data Collection Interfaces
+- Requirement Description: The system must support data collection tools including sensor data dumps, daily checklists for user input on activities, and emotion-oriented questionnaires for feedback.
+- Citation: Page 8, Section 4.3.1
+- Requirement Related Title: Data collection tools
+
+- Role: Elderly Person
+- Requirement ID: FR-10
+- Requirement Title: Emergency Assistance Escalation
+- Requirement Description: The system must escalate incidents detected as anomalies to service providers or carers for emergency assistance.
+- Citation: Page 1, Abstract
+- Requirement Related Title: A B S T R A C T
+
+- Role: Elderly Person
+- Requirement ID: FR-11
+- Requirement Title: Human-in-the-Loop Feedback via Interviews
+- Requirement Description: The system evaluation must include human-in-the-loop mechanisms such as pre-trial, mid-trial, and post-trial interviews to capture user feedback on emotional reactions.
+- Citation: Page 8, Section 4.3.1
+- Requirement Related Title: Interviews
+
+- Role: Carer/Relative
+- Requirement ID: FR-12
+- Requirement Title: Remote Monitoring Visualization
+- Requirement Description: The system must provide visualization tools for carers to remotely monitor activity and receive notifications.
+- Citation: Page 3, Table 1
+- Requirement Related Title: Smart systems
+
+- Role: Elderly Person
+- Requirement ID: FR-13
+- Requirement Title: Independent Living Support
+- Requirement Description: The system must support independent living by learning user's routine and issuing notifications without intrusive monitoring.
+- Citation: Page 5, Section 3.2.1
+- Requirement Related Title: Goal model
+
+- Role: Elderly Person
+- Requirement ID: NF-01
+- Requirement Title: Usability for Integration into Daily Life
+- Requirement Description: The system must be well integrated into the user's daily life to minimize perceptions of complexity and frustration.
+- Citation: Page 10, Section 5.2.3
+- Requirement Related Title: System is integrated in user’s life
+
+- Role: Elderly Person
+- Requirement ID: NF-02
+- Requirement Title: Cognitive Load Minimization
+- Requirement Description: The system must limit the number of messages (e.g., only morning messages and medication reminders) to avoid overwhelming users.
+- Citation: Page 7, Section 4.2
+- Requirement Related Title: SofiHub emotion-oriented requirements engineering
+
+- Role: Elderly Person
+- Requirement ID: NF-03
+- Requirement Title: Privacy and Non-Invasiveness
+- Requirement Description: The system must ensure privacy by keeping data within the hub and using non-intrusive sensors to make users feel comfortable and secure.
+- Citation: Page 11, Section 5.2.5
+- Requirement Related Title: Privacy and invasiveness
+
+- Role: Elderly Person
+- Requirement ID: NF-04
+- Requirement Title: Accessibility for Elderly Users
+- Requirement Description: The system must be accessible and easy to use for elderly users, avoiding complexity and ensuring confidence in usage.
+- Citation: Page 11, Section 5.2.6
+- Requirement Related Title: Other views on using SofiHub
+
+- Role: Elderly Person
+- Requirement ID: NF-05
+- Requirement Title: Response Time for Alerts
+- Requirement Description: The system must minimize delays in message delivery and alert generation to reduce user concerns about disruptions.
+- Citation: Page 11, Section 5.2.7
+- Requirement Related Title: Emotional threats
+
+- Role: Elderly Person
+- Requirement ID: NF-06
+- Requirement Title: Usability for Emotional Comfort
+- Requirement Description: The system must enhance user comfort and reduce anxiety by ensuring smooth operation and positive emotional integration.
+- Citation: Page 11, Section 5.2.6
+- Requirement Related Title: Other views on using SofiHub
+
+- Role: Elderly Person
+- Requirement ID: NF-07
+- Requirement Title: Cognitive Load for Control Perception
+- Requirement Description: The system must maintain user perception of control to avoid feelings of being controlled, with minimal cognitive demands.
+- Citation: Page 11, Section 5.2.4
+- Requirement Related Title: In control
+
+- Role: Elderly Person
+- Requirement ID: NF-08
+- Requirement Title: Accessibility for Safety Perception
+- Requirement Description: The system must ensure accessibility features that enhance feelings of safety and reassurance without increasing cognitive load.
+- Citation: Page 10, Section 5.2.2
+- Requirement Related Title: Feeling safe and reassured

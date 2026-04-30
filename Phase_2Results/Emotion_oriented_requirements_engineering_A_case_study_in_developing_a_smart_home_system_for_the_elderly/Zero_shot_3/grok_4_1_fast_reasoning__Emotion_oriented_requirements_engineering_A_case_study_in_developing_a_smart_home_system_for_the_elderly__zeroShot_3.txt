@@ -1,0 +1,56 @@
+REQUIREMENT REPORT
+- Role: System
+- Requirement ID: FR-01
+- Requirement Title: Non-intrusive sensor monitoring
+- Requirement Description: Implement passive monitoring using non-intrusive motion and contact sensors to detect activity without cameras or wearables, alleviating privacy invasion concerns.
+- Citation: Page 2 (Introduction), Page 8 (Section 4.3.1)
+- Requirement Related Title: Support independent living
+
+- Role: System
+- Requirement ID: FR-02
+- Requirement Title: Anomaly and security risk detection
+- Requirement Description: Detect anomalous situations and potential security risks, such as spending abnormal time in bed or back door left open, using motion and contact sensors.
+- Citation: Page 7 (Section 4.1), Page 9 (Fig. 5 Goal model)
+- Requirement Related Title: Detect anomaly
+
+- Role: System
+- Requirement ID: FR-03
+- Requirement Title: Local data storage
+- Requirement Description: Store all sensor data (motion, contact, temperature, humidity) locally within the SofiHub hub.
+- Citation: Page 7 (Section 4.2), Page 8 (Section 4.3.1)
+- Requirement Related Title: Privacy secured
+
+- Role: System
+- Requirement ID: FR-04
+- Requirement Title: Restricted data access
+- Requirement Description: Limit access to stored sensor data to authorized personnel only (e.g., ethics committee-approved researchers for data dumps).
+- Citation: Page 7 (Section 4.2)
+- Requirement Related Title: Privacy secured
+
+- Role: Carer/Family
+- Requirement ID: FR-05
+- Requirement Title: Carer UI for monitoring
+- Requirement Description: Provide a carer user interface enabling family and carers to check user activity and receive customizable behavior summary reports.
+- Citation: Page 7 (Section 4.1)
+- Requirement Related Title: Support independent living
+
+- Role: Elderly
+- Requirement ID: NF-01
+- Requirement Title: Privacy secured emotional goal
+- Requirement Description: Ensure users perceive their privacy as secured, with data protected from intruders and hacking, contributing to feeling relieved about information privacy.
+- Citation: Page 7 (Section 4.2), Page 11 (Section 5.2.5)
+- Requirement Related Title: Privacy secured
+
+- Role: System
+- Requirement ID: NF-02
+- Requirement Title: Data privacy level
+- Requirement Description: Maintain high data privacy through local storage and no unauthorized remote access, verified via user questionnaires showing comfort with monitoring (Likert scores 4+).
+- Citation: Page 7 (Section 4.2), Page 11 (Section 5.2.5)
+- Requirement Related Title: Privacy secured
+
+- Role: System
+- Requirement ID: NF-03
+- Requirement Title: Adversarial robustness against hacking
+- Requirement Description: Design system such that sensitive sensor data cannot be hacked by intruders, supporting user emotional goal of privacy security.
+- Citation: Page 7 (Section 4.2)
+- Requirement Related Title: Privacy secured

@@ -1,0 +1,48 @@
+Requirement ID: FR-01  
+Requirement Title: Anomaly Detection and Alerting  
+Requirement Description: The system must use non-intrusive motion and contact sensors to detect anomalous user behaviors or situations, such as spending abnormal time in bed, falls, leaving doors open (e.g., back door), irregular bathroom visits, or other deviations from learned routines, and automatically issue alerts or notifications to carers, family members, or service providers.  
+Role: System  
+Citation: Page 7 (Section 4.1 SofiHub features), Page 9 (Fig. 5 Goal model: detect anomaly under support independent living)  
+Requirement Related Title: Elderly Fall Detection Systems, Bed Exit Monitoring Apps, Home Intrusion Alert Platforms, Behavioral Anomaly Detectors in Assisted Living  
+
+Requirement ID: FR-02  
+Requirement Title: Personalized Reminder Issuance  
+Requirement Description: The system must issue user-specific reminders for hydration, medication, appointments, and special events, triggered by detected user activity (e.g., routines learned from sensors), using non-intrusive voice messages (e.g., morning messages) with variation to avoid repetition, while limiting frequency to prevent overwhelming the user.  
+Role: System  
+Citation: Page 7 (Section 4.1 SofiHub features), Page 11 (Section 5.2.7 emotional threats on message delays), Page 12 (Fig. 7 refined goal model: issue messages)  
+Requirement Related Title: Medication Adherence Apps for Seniors, Hydration Prompt Wearables, Appointment Scheduler Voice Assistants, Daily Routine Prompters in Smart Assistants  
+
+Requirement ID: FR-03  
+Requirement Title: User Routine and Behavior Learning  
+Requirement Description: The system must employ AI capabilities on an IoT platform to passively learn and adapt to the elderly user's daily routines and behaviors using data from motion sensors, contact sensors, temperature, and humidity sensors, enabling predictive anomaly detection and personalized services.  
+Role: System  
+Citation: Page 7 (Section 4.1 SofiHub features: built-in AI that can learn and adapt), Page 9 (Fig. 5 Goal model: learn user’s routine and behaviour)  
+Requirement Related Title: AI-Powered Activity Pattern Analyzers, Predictive Health Monitoring Hubs, Adaptive Smart Home Automators, Senior Wellness Trackers  
+
+Requirement ID: FR-04  
+Requirement Title: Carer Monitoring and Reporting Interface  
+Requirement Description: The system must provide a user interface for family members and professional carers to remotely check elderly user activity, receive customizable reports summarizing behavior (e.g., routines, anomalies), and get reassurance notifications tied to independent living support.  
+Role: System (Carer UI component)  
+Citation: Page 7 (Section 4.1 SofiHub features: carer UI), Page 9 (Fig. 5 Goal model: support carer/relative linked to reassured)  
+Requirement Related Title: Remote Family Care Dashboards, Caregiver Wellness Portals, Activity Summary Apps for Aged Care, Telehealth Monitoring Consoles  
+
+Requirement ID: NFR-01  
+Requirement Title: Privacy and Non-Intrusiveness  
+Requirement Description: The system must use only non-intrusive, passive sensors (e.g., motion, contact, no cameras or wearables) to monitor activities, store all sensor data locally on the hub without external access except for authorized personnel, and ensure data security to prevent hacking or privacy violations, making users feel comfortable about being monitored.  
+Role: System  
+Citation: Page 2 (Abstract: non-intrusive motion sensors for privacy), Page 7 (Section 4.2: data kept within hub for privacy), Page 11 (Section 5.2.5: privacy secured evaluation)  
+Requirement Related Title: Privacy-Focused IoT Home Sensors, Non-Camera Elderly Monitoring Systems, Secure Local-Only Data Hubs, GDPR-Compliant Smart Health Devices  
+
+Requirement ID: NFR-02  
+Requirement Title: Seamless Life Integration and Usability  
+Requirement Description: The system must integrate unobtrusively into the elderly user's daily life by minimizing interactions (e.g., limited message types/frequency), using simple, friendly voice tones, automating environment controls (e.g., heating/cooling), and avoiding complexity to make users feel comfortable, empowered, and not "old" or controlled, with smooth operation to build confidence.  
+Role: System (targeted at Elderly User role)  
+Citation: Page 7 (Section 4.2: limited messages for control/privacy), Page 10-11 (Section 5.2.3-5.2.4: integrated, in control, comfortable evaluations)  
+Requirement Related Title: Ambient Assisted Living Interfaces, Elderly-Friendly Voice Assistants, Low-Friction Smart Home Automators, Intuitive IoT for Non-Tech Users  
+
+Requirement ID: NFR-03  
+Requirement Title: Reliability and Fail-Safe Operation  
+Requirement Description: The system must operate reliably without disruptions from power failures or accidental dislodgements, ensure timely message delivery and alert responses in emergencies, and transition to fail-safe modes if needed, to avoid user frustration, worry about "upsetting" the system, or feelings of insecurity.  
+Role: System  
+Citation: Page 11 (Section 5.2.7: emotional threats from power issues/delays), Page 7 (Section 4.1: automate physical environment reliably)  
+Requirement Related Title: Battery-Backed Smart Home Hubs, Fail-Safe Emergency Response Systems, Robust IoT for Critical Care, Power-Resilient Senior Alerts

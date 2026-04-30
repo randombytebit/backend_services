@@ -1,0 +1,141 @@
+REQUIREMENT REPORT
+
+- Role: System
+- Requirement ID: FR-01
+- Requirement Title: Support Independent Living
+- Requirement Description: The system must support independent living for elderly people through ambient sensing and assistance without requiring wearables.
+- Citation: Page 1
+- Requirement Related Title: Support Independent Living
+
+- Role: System
+- Requirement ID: FR-02
+- Requirement Title: Passive Monitoring
+- Requirement Description: The system must perform passive monitoring using non-intrusive motion sensors to track user activity while preserving privacy.
+- Citation: Page 1
+- Requirement Related Title: Passive Monitoring
+
+- Role: System
+- Requirement ID: FR-03
+- Requirement Title: Emergency Assistance
+- Requirement Description: The system must provide emergency assistance by detecting anomalies and escalating incidents to carers or service providers.
+- Citation: Page 1
+- Requirement Related Title: Emergency Assistance
+
+- Role: AI Component
+- Requirement ID: FR-04
+- Requirement Title: Learn User's Routine and Behaviour
+- Requirement Description: The AI must learn and adapt to the user's routine and behavior using data from sensors to enable personalized assistance.
+- Citation: Page 2
+- Requirement Related Title: Learn User's Routine and Behaviour
+
+- Role: System
+- Requirement ID: FR-05
+- Requirement Title: Issue Notifications
+- Requirement Description: The system must issue notifications including reminders and alerts based on learned behaviors and detected events.
+- Citation: Page 2
+- Requirement Related Title: Issue Notifications
+
+- Role: System
+- Requirement ID: FR-06
+- Requirement Title: Detect Anomaly
+- Requirement Description: The system must detect anomalies such as falls, abnormal time in bed, or irregular activities using sensor data.
+- Citation: Page 2
+- Requirement Related Title: Detect Anomaly
+
+- Role: System
+- Requirement ID: FR-07
+- Requirement Title: Provide Reminders
+- Requirement Description: The system must provide user-specific reminders for hydration, medication, appointments, and special events, triggered by user activity.
+- Citation: Page 7
+- Requirement Related Title: Provide Reminders
+
+- Role: System
+- Requirement ID: FR-08
+- Requirement Title: Identify Security Risks
+- Requirement Description: The system must identify potential security risks such as doors left open using contact sensors.
+- Citation: Page 7
+- Requirement Related Title: Identify Security Risks
+
+- Role: System
+- Requirement ID: FR-09
+- Requirement Title: Identify Anomalous Situations
+- Requirement Description: The system must identify anomalous situations such as unusual inactivity or irregular bathroom visits.
+- Citation: Page 7
+- Requirement Related Title: Identify Anomalous Situations
+
+- Role: System
+- Requirement ID: FR-10
+- Requirement Title: Automate Physical Environment
+- Requirement Description: The system must automate the physical environment including heating and cooling based on sensor data and learned preferences.
+- Citation: Page 7
+- Requirement Related Title: Automate Physical Environment
+
+- Role: System
+- Requirement ID: FR-11
+- Requirement Title: Carer UI
+- Requirement Description: The system must provide a carer UI for checking user activity and receiving customizable reports summarizing behavior.
+- Citation: Page 7
+- Requirement Related Title: Carer UI
+
+- Role: System
+- Requirement ID: FR-12
+- Requirement Title: Data Preprocessing Steps
+- Requirement Description: The system must preprocess sensor data including motion detection, door opening/closing events, air temperature, and humidity readings to prepare for AI analysis.
+- Citation: Page 8
+- Requirement Related Title: Sensor Data Processing
+
+- Role: AI Component
+- Requirement ID: FR-13
+- Requirement Title: Training Procedure
+- Requirement Description: The AI must train on collected sensor data over time to learn user routines, detect anomalies, and adapt to behavior changes.
+- Citation: Page 8
+- Requirement Related Title: AI Training
+
+- Role: AI Component
+- Requirement ID: FR-14
+- Requirement Title: Model Architecture
+- Requirement Description: The system must incorporate a built-in AI model architecture capable of processing IoT sensor data for behavior learning and anomaly detection.
+- Citation: Page 7
+- Requirement Related Title: Built-in AI Capability
+
+- Role: System
+- Requirement ID: FR-15
+- Requirement Title: Issue Messages
+- Requirement Description: The system must issue interaction messages such as morning greetings and medication reminders to engage users.
+- Citation: Page 9
+- Requirement Related Title: Issue Messages
+
+- Role: System
+- Requirement ID: FR-16
+- Requirement Title: Support Interaction
+- Requirement Description: The system must support user interaction through voice messages and responses to maintain engagement.
+- Citation: Page 5
+- Requirement Related Title: Support Interaction
+
+- Role: System
+- Requirement ID: NF-01
+- Requirement Title: Model Accuracy
+- Requirement Description: The AI component must achieve high accuracy in detecting anomalies, learning behaviors, and verifying sensor data against ground-truth checklists.
+- Citation: Page 8
+- Requirement Related Title: Accuracy of AI Component
+
+- Role: System
+- Requirement ID: NF-02
+- Requirement Title: Inference Latency
+- Requirement Description: The system must ensure low inference latency for generating alerts in emergencies and playing messages without significant delays.
+- Citation: Page 11
+- Requirement Related Title: Response Time
+
+- Role: System
+- Requirement ID: NF-03
+- Requirement Title: Memory Constraints
+- Requirement Description: The system must operate within memory constraints by storing sensor data locally in the hub without requiring external cloud storage.
+- Citation: Page 8
+- Requirement Related Title: Local Storage
+
+- Role: System
+- Requirement ID: NF-04
+- Requirement Title: Computational Efficiency
+- Requirement Description: The system must be computationally efficient to run on low-cost IoT hardware and sensors while performing real-time monitoring and learning.
+- Citation: Page 7
+- Requirement Related Title: Low-Cost Sensors

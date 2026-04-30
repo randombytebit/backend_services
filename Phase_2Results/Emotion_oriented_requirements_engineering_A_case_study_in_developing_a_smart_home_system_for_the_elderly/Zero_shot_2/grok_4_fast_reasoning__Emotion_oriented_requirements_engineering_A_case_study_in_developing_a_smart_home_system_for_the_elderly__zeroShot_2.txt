@@ -1,0 +1,133 @@
+REQUIREMENT REPORT  
+- Role: Elderly User  
+- Requirement ID: FR-01  
+- Requirement Title: Issue User-Specific Reminders  
+- Requirement Description: The system must issue reminders for appointments, special events, hydration, and medication, triggered by user activity patterns.  
+- Citation: Section 4.1  
+- Requirement Related Title: Support Independent Living  
+
+- Role: Elderly User  
+- Requirement ID: FR-02  
+- Requirement Title: Detect Anomalous Behavior  
+- Requirement Description: The system must identify and alert on anomalous situations, such as spending abnormal time in bed or falls, using sensors and AI to learn user routines.  
+- Citation: Section 4.1  
+- Requirement Related Title: Detect Anomaly  
+
+- Role: Elderly User  
+- Requirement ID: FR-03  
+- Requirement Title: Automate Physical Environment  
+- Requirement Description: The system must automate home environment controls, including heating and cooling, based on user behavior and sensor data.  
+- Citation: Section 4.1  
+- Requirement Related Title: Support Independent Living  
+
+- Role: Carer/Relative  
+- Requirement ID: FR-04  
+- Requirement Title: Provide Carer User Interface  
+- Requirement Description: The system must offer a UI for family and carers to monitor user activity, receive alerts, and access customizable reports summarizing behavior.  
+- Citation: Section 4.1  
+- Requirement Related Title: Learn User’s Routine and Behaviour  
+
+- Role: System  
+- Requirement ID: FR-05  
+- Requirement Title: Learn User Routine and Behavior  
+- Requirement Description: The system must use AI to learn and adapt to the user's daily routines and behaviors through passive monitoring with motion and contact sensors.  
+- Citation: Section 4.1, Fig. 5  
+- Requirement Related Title: Learn User’s Routine and Behaviour  
+
+- Role: Elderly User  
+- Requirement ID: FR-06  
+- Requirement Title: Issue Morning Messages  
+- Requirement Description: The system must deliver morning voice messages to engage the user and integrate into daily routines.  
+- Citation: Section 4.2  
+- Requirement Related Title: Issue Notifications  
+
+- Role: System  
+- Requirement ID: FR-07  
+- Requirement Title: Use Non-Intrusive Sensors  
+- Requirement Description: The system must employ network-connected low-cost motion and contact sensors for passive monitoring without wearables to respect privacy.  
+- Citation: Section 1, Section 4.1  
+- Requirement Related Title: Privacy Secured  
+
+- Role: System  
+- Requirement ID: FR-08  
+- Requirement Title: Escalate Emergencies  
+- Requirement Description: The system must detect anomalies (e.g., falls) and escalate incidents to service providers or carers via alerts.  
+- Citation: Section 4.2, Fig. 5  
+- Requirement Related Title: Detect Anomaly  
+
+- Role: Elderly User  
+- Requirement ID: NF-01  
+- Requirement Title: Ensure Feeling of Safety  
+- Requirement Description: The system must make users feel safe by detecting anomalies and providing timely alerts, evaluated through user perception over time.  
+- Citation: Section 4.2, Section 5.2.2  
+- Requirement Related Title: Safe  
+
+- Role: Carer/Relative  
+- Requirement ID: NF-02  
+- Requirement Title: Provide Reassurance  
+- Requirement Description: The system must reassure carers and relatives about the elderly user's wellbeing through monitoring and reports, maintaining high user satisfaction.  
+- Citation: Section 4.2, Section 5.2.2  
+- Requirement Related Title: Reassured  
+
+- Role: Elderly User  
+- Requirement ID: NF-03  
+- Requirement Title: Support Independence  
+- Requirement Description: The system must enable users to feel independent by avoiding intrusive monitoring and allowing control over routines, with minimal dependency.  
+- Citation: Section 4.2, Section 5.2.1  
+- Requirement Related Title: Independent  
+
+- Role: Elderly User  
+- Requirement ID: NF-04  
+- Requirement Title: Maintain User Control  
+- Requirement Description: The system must allow users to feel in control by limiting interactions (e.g., only morning and medication messages) and avoiding overwhelming notifications.  
+- Citation: Section 4.2, Section 5.2.4  
+- Requirement Related Title: In Control  
+
+- Role: Elderly User  
+- Requirement ID: NF-05  
+- Requirement Title: Ensure System Integration  
+- Requirement Description: The system must integrate seamlessly into daily life, becoming part of routines without causing frustration or complexity, evaluated via user feedback.  
+- Citation: Section 4.2, Section 5.2.3  
+- Requirement Related Title: Integrated  
+
+- Role: Elderly User  
+- Requirement ID: NF-06  
+- Requirement Title: Promote Comfort with Technology  
+- Requirement Description: The system must make users feel comfortable and confident with technology use, reducing fears of complexity through simple, non-intrusive design.  
+- Citation: Section 4.2, Section 5.2.6  
+- Requirement Related Title: Comfortable  
+
+- Role: Elderly User  
+- Requirement ID: NF-07  
+- Requirement Title: Enhance Empowerment  
+- Requirement Description: The system must empower users by building confidence in managing their lives, supporting emotional goals like independence and control.  
+- Citation: Section 4.2  
+- Requirement Related Title: Empowered  
+
+- Role: Elderly User  
+- Requirement ID: NF-08  
+- Requirement Title: Secure Privacy  
+- Requirement Description: The system must secure user data from sensors, storing it locally and restricting access to authorized parties to prevent privacy violations.  
+- Citation: Section 4.2, Section 5.2.5  
+- Requirement Related Title: Privacy Secured  
+
+- Role: Elderly User  
+- Requirement ID: NF-09  
+- Requirement Title: Reduce Loneliness  
+- Requirement Description: The system must alleviate feelings of loneliness through engaging interactions like voice messages, evaluated via pre/post-trial assessments.  
+- Citation: Section 5.2.1, Fig. 7  
+- Requirement Related Title: Less Lonely  
+
+- Role: Elderly User  
+- Requirement ID: NF-10  
+- Requirement Title: Foster Feeling Cared For  
+- Requirement Description: The system must make users feel cared about through supportive reminders and monitoring, enhancing emotional engagement without intrusion.  
+- Citation: Section 5.2.1, Fig. 7  
+- Requirement Related Title: Cared About  
+
+- Role: System  
+- Requirement ID: NF-11  
+- Requirement Title: Ensure Chatty Interaction  
+- Requirement Description: The system must provide varied, engaging voice messages (e.g., morning and potential night messages) to maintain user interest and emotional connection.  
+- Citation: Section 5.3, Fig. 7  
+- Requirement Related Title: Chatty
