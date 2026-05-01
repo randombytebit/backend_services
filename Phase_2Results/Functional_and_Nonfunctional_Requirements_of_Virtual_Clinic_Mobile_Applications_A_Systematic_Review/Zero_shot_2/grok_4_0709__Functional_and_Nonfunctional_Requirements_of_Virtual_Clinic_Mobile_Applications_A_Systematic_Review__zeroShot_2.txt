@@ -1,0 +1,57 @@
+REQUIREMENT REPORT
+
+- Role: System
+- Requirement ID: FR-01
+- Requirement Title: Demographic data documentation
+- Requirement Description: Identity: first name and surname; Insurance: insurance name and number.
+- Citation: Parsaei et al., 2024, Table 1
+- Requirement Related Title: Functional Requirements
+
+- Role: System
+- Requirement ID: FR-02
+- Requirement Title: Health record
+- Requirement Description: Vital sign documentation: Blood pressure, Heart rate; Kidney documentation: Blood sugar; Fitness documentation: Weight, Exercise, Sleep, Nutrition; Skin documentation: Condition of skin; History documentation: Disease history, Family history, Allergy, Medications history, Vaccination, Surgeries, Smoking; Present history documentation: Symptoms and conditions, X-ray, Tests, Treatments, Prescriptions, Patient training; Documentation of inpatient treatment history: Date of admission and discharge, Hospital name, Chief complaint, Summary; Medication documentation: Name, Dose, Type, Instruction, Side effects.
+- Citation: Parsaei et al., 2024, Table 1
+- Requirement Related Title: Functional Requirements
+
+- Role: System
+- Requirement ID: FR-03
+- Requirement Title: General features of the user interface (UI)
+- Requirement Description: Reminders: Appointment, Preventive care; Display: Patient’s self-declaration about his health status, Consultant identity: name and surname and profile picture, Curriculum vitae: expertise and consulting field, Type of communication: phone call, text, video call, and real-time, Appointment: consultation date, time, duration, and waiting time for response; Service selection: Choosing consultation day, time, and type of insurance; Reporting: Providing weekly/monthly reports on the patient’s treatment process, Providing weekly/monthly reports of vital signs and medical history; Support: Documentation of communication ways: tagging capability in VCMA and frequently asked questions, Q and A ability: discussion forum with others (patients and consultants); Help/tutorial: Text guide: help, Training inside VCMA: working with it, About us, Terms and conditions of use.
+- Citation: Parsaei et al., 2024, Table 1
+- Requirement Related Title: Functional Requirements
+
+- Role: System
+- Requirement ID: NF-01
+- Requirement Title: Usability
+- Requirement Description: Setting: Creating a personal profile for the user (consultant-patient), Microphone, Camera, Measurement units selection: selection of measurement units like centimeters and meters for height, Video call with other participants: making a video call with other connected individuals, Selecting conversation starter, Log out.
+- Citation: Parsaei et al., 2024, Table 2
+- Requirement Related Title: Nonfunctional Requirements
+
+- Role: System
+- Requirement ID: NF-02
+- Requirement Title: Accessibility
+- Requirement Description: Service: Save and mark: appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant’s performance and select text from a default list, Ability to share: individual lessons, health record information with doctors, and patient-consultant data exchange.
+- Citation: Parsaei et al., 2024, Table 2
+- Requirement Related Title: Nonfunctional Requirements
+
+- Role: System
+- Requirement ID: NF-03
+- Requirement Title: Compatibility
+- Requirement Description: Service format: Insurance: recording name and number.
+- Citation: Parsaei et al., 2024, Table 2
+- Requirement Related Title: Nonfunctional Requirements
+
+- Role: System
+- Requirement ID: NF-04
+- Requirement Title: Efficiency
+- Requirement Description: Service: Financial transaction reporting.
+- Citation: Parsaei et al., 2024, Table 2
+- Requirement Related Title: Nonfunctional Requirements
+
+- Role: System
+- Requirement ID: NF-05
+- Requirement Title: Security
+- Requirement Description: Login method: text password, email, activation code, and anonymously; Verify the user’s identity by sending a verification code to the mobile phone; Possibility of deleting consultation records, documents, and bank transactions; Encrypted patient data exchange.
+- Citation: Parsaei et al., 2024, Table 2
+- Requirement Related Title: Nonfunctional Requirements

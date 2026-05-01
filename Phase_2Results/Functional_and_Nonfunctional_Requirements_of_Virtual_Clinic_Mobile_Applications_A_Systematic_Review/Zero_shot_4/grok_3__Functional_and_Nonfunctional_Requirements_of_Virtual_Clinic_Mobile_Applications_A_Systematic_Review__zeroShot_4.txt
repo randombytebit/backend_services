@@ -1,0 +1,54 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-01
+- **Requirement Title**: Bias Detection Modules
+- **Requirement Description**: The system must include modules to detect and mitigate biases in AI algorithms, ensuring equitable outcomes across diverse user groups by identifying potential discriminatory patterns in data processing and decision-making.
+- **Citation**: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, 2024, Article ID 7800321.
+- **Requirement Related Title**: Health Record Management
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-02
+- **Requirement Title**: Explainability Dashboards
+- **Requirement Description**: The system must provide user-friendly dashboards that offer clear explanations of AI-driven decisions, enabling users to understand the rationale behind outcomes and fostering trust in the system.
+- **Citation**: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, 2024, Article ID 7800321.
+- **Requirement Related Title**: General Features of User Interface (UI)
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-03
+- **Requirement Title**: Audit Trail Generation
+- **Requirement Description**: The system must generate detailed audit trails for all AI operations, documenting data inputs, processing steps, and decision outputs to support accountability and compliance with regulatory standards.
+- **Citation**: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, 2024, Article ID 7800321.
+- **Requirement Related Title**: Reporting Features in UI
+
+**Non-Functional Requirements**
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-01
+- **Requirement Title**: Fairness Metrics
+- **Requirement Description**: The system must implement fairness metrics to evaluate and ensure equitable treatment across different demographic groups, minimizing disparities in AI outcomes.
+- **Citation**: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, 2024, Article ID 7800321.
+- **Requirement Related Title**: Usability
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-02
+- **Requirement Title**: Transparency Levels
+- **Requirement Description**: The system must maintain high transparency levels by providing accessible information about AI processes, data usage, and decision-making criteria to users and stakeholders.
+- **Citation**: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, 2024, Article ID 7800321.
+- **Requirement Related Title**: Accessibility
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-03
+- **Requirement Title**: Interpretability
+- **Requirement Description**: The system must ensure interpretability by presenting AI decisions and processes in a manner that is easily understandable to non-technical users, supporting informed decision-making.
+- **Citation**: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, 2024, Article ID 7800321.
+- **Requirement Related Title**: Compatibility
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-04
+- **Requirement Title**: Ethical Alignment
+- **Requirement Description**: The system must align with ethical guidelines and principles, ensuring that AI operations adhere to societal values, privacy standards, and moral considerations in healthcare delivery.
+- **Citation**: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, 2024, Article ID 7800321.
+- **Requirement Related Title**: Security

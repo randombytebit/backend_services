@@ -1,0 +1,63 @@
+REQUIREMENT REPORT
+- Role: VCMA User
+- Requirement ID: FR-01
+- Requirement Title: Multiple User Login Methods
+- Requirement Description: Support login methods including text password, email, activation code, and anonymously.
+- Citation: Table 2 (Page 5), E. Security
+- Requirement Related Title: Security
+
+- Role: VCMA User
+- Requirement ID: FR-02
+- Requirement Title: Mobile Phone Identity Verification
+- Requirement Description: Verify the user’s identity by sending a verification code to the mobile phone.
+- Citation: Table 2 (Page 5), E. Security
+- Requirement Related Title: Security
+
+- Role: VCMA User
+- Requirement ID: FR-03
+- Requirement Title: Deletion of Consultation Records and Transactions
+- Requirement Description: Provide possibility of deleting consultation records, documents, and bank transactions.
+- Citation: Table 2 (Page 5), E. Security
+- Requirement Related Title: Security
+
+- Role: VCMA System
+- Requirement ID: FR-04
+- Requirement Title: Patient Data Encryption Routine
+- Requirement Description: Implement encrypted patient data exchange.
+- Citation: Table 2 (Page 5), E. Security
+- Requirement Related Title: Security
+
+- Role: VCMA User
+- Requirement ID: FR-05
+- Requirement Title: User Logout Mechanism
+- Requirement Description: Provide log out functionality in user settings.
+- Citation: Table 2 (Page 5), A. Usability
+- Requirement Related Title: Usability
+
+- Role: VCMA System
+- Requirement ID: FR-06
+- Requirement Title: Physician Credential Authentication
+- Requirement Description: Verify physicians by validating their medical council number and educational documents during registration.
+- Citation: Page 6, Discussion
+- Requirement Related Title: User Interface Design
+
+- Role: VCMA
+- Requirement ID: NF-01
+- Requirement Title: Overall Security Compliance
+- Requirement Description: Incorporate security as a nonfunctional requirement category covering authentication, verification, deletion, and encryption.
+- Citation: Page 1, Results; Page 3, Section 3.3; Table 2 (Page 5)
+- Requirement Related Title: Nonfunctional Requirements
+
+- Role: VCMA
+- Requirement ID: NF-02
+- Requirement Title: Data Privacy Levels
+- Requirement Description: Ensure data privacy through encryption, deletion capabilities, and secure exchange to address privacy concerns.
+- Citation: Table 2 (Page 5), E. Security; Page 5, Discussion
+- Requirement Related Title: Security
+
+- Role: VCMA
+- Requirement ID: NF-03
+- Requirement Title: Data Integrity and Accuracy Benchmarks
+- Requirement Description: Ensure security, privacy, and accuracy in data handling and UI design.
+- Citation: Page 6, Discussion
+- Requirement Related Title: Nonfunctional Requirements

@@ -1,0 +1,194 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: System Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: Demographic Data Documentation
+- **Requirement Description**: The system must allow users to document demographic data including identity (first name and surname) and insurance details (insurance name and number).
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Demographic Data Documentation
+
+- **Role**: System Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Health Record Management - Vital Signs
+- **Requirement Description**: The system must support documentation of vital signs such as blood pressure and heart rate.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Health Record
+
+- **Role**: System Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Health Record Management - Kidney Documentation
+- **Requirement Description**: The system must enable documentation of kidney-related data such as blood sugar levels.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Health Record
+
+- **Role**: System Developer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Health Record Management - Fitness Documentation
+- **Requirement Description**: The system must allow documentation of fitness data including weight, exercise, sleep, and nutrition.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Health Record
+
+- **Role**: System Developer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Health Record Management - Skin Documentation
+- **Requirement Description**: The system must support documentation of skin conditions.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Health Record
+
+- **Role**: System Developer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Health Record Management - History Documentation
+- **Requirement Description**: The system must enable documentation of medical history including disease history, family history, allergies, medication history, vaccinations, surgeries, and smoking status.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Health Record
+
+- **Role**: System Developer
+- **Requirement ID**: FR-07
+- **Requirement Title**: Health Record Management - Present History Documentation
+- **Requirement Description**: The system must allow documentation of current health status including symptoms, conditions, X-rays, tests, treatments, prescriptions, and patient training.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Health Record
+
+- **Role**: System Developer
+- **Requirement ID**: FR-08
+- **Requirement Title**: Health Record Management - Inpatient Treatment History
+- **Requirement Description**: The system must support documentation of inpatient treatment history including date of admission and discharge, hospital name, chief complaint, and summary.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Health Record
+
+- **Role**: System Developer
+- **Requirement ID**: FR-09
+- **Requirement Title**: Health Record Management - Medication Documentation
+- **Requirement Description**: The system must enable documentation of medication details including name, dose, type, instructions, and side effects.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: Health Record
+
+- **Role**: System Developer
+- **Requirement ID**: FR-10
+- **Requirement Title**: User Interface - Reminders
+- **Requirement Description**: The system must provide reminders for appointments and preventive care.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: General Features of UI
+
+- **Role**: System Developer
+- **Requirement ID**: FR-11
+- **Requirement Title**: User Interface - Display Features
+- **Requirement Description**: The system must display patient self-declaration of health status, consultant identity (name, surname, profile picture), curriculum vitae (expertise and consulting field), type of communication (phone call, text, video call, real-time), and appointment details (consultation date, time, duration, waiting time for response).
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: General Features of UI
+
+- **Role**: System Developer
+- **Requirement ID**: FR-12
+- **Requirement Title**: User Interface - Service Selection
+- **Requirement Description**: The system must allow users to choose consultation day, time, and type of insurance.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: General Features of UI
+
+- **Role**: System Developer
+- **Requirement ID**: FR-13
+- **Requirement Title**: User Interface - Reporting
+- **Requirement Description**: The system must provide weekly/monthly reports on the patient’s treatment process and vital signs/medical history.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: General Features of UI
+
+- **Role**: System Developer
+- **Requirement ID**: FR-14
+- **Requirement Title**: User Interface - Support Features
+- **Requirement Description**: The system must support documentation of communication methods (tagging capability in VCMA, frequently asked questions) and provide Q&A ability through discussion forums with other patients and consultants.
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: General Features of UI
+
+- **Role**: System Developer
+- **Requirement ID**: FR-15
+- **Requirement Title**: User Interface - Help/Tutorial
+- **Requirement Description**: The system must include a text guide for help, training within VCMA on how to use it, and information on "About Us" and "Terms and Conditions of Use".
+- **Citation**: Table 1, Page 4
+- **Requirement Related Title**: General Features of UI
+
+- **Role**: System Developer
+- **Requirement ID**: FR-16
+- **Requirement Title**: Login Method Implementation
+- **Requirement Description**: The system must provide multiple login methods including text password, email, activation code, and anonymous login.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Security
+
+- **Role**: System Developer
+- **Requirement ID**: FR-17
+- **Requirement Title**: User Identity Verification
+- **Requirement Description**: The system must verify user identity by sending a verification code to the mobile phone.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Security
+
+- **Role**: System Developer
+- **Requirement ID**: FR-18
+- **Requirement Title**: Data Deletion Capability
+- **Requirement Description**: The system must allow users to delete consultation records, documents, and bank transactions.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Security
+
+- **Role**: System Developer
+- **Requirement ID**: FR-19
+- **Requirement Title**: Encrypted Data Exchange
+- **Requirement Description**: The system must implement encrypted patient data exchange to ensure secure communication.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Security
+
+**Non-Functional Requirements**
+
+- **Role**: System Architect
+- **Requirement ID**: NF-01
+- **Requirement Title**: Usability - User Profile and Settings
+- **Requirement Description**: The system must ensure usability by allowing users to create personal profiles, configure settings for microphone and camera, select measurement units (e.g., centimeters, meters for height), enable video calls with other participants, select conversation starters, and provide a logout option.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Usability
+
+- **Role**: System Architect
+- **Requirement ID**: NF-02
+- **Requirement Title**: Accessibility - Service Features
+- **Requirement Description**: The system must be accessible by allowing users to save and mark appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant performance; select text from a default list; and share individual lessons, health record information with doctors, and patient-consultant data exchange.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Accessibility
+
+- **Role**: System Architect
+- **Requirement ID**: NF-03
+- **Requirement Title**: Compatibility - Service Format
+- **Requirement Description**: The system must be compatible with various formats, including the ability to record insurance name and number.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Compatibility
+
+- **Role**: System Architect
+- **Requirement ID**: NF-04
+- **Requirement Title**: Efficiency - Financial Transactions
+- **Requirement Description**: The system must ensure efficiency by supporting financial transaction reporting.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Efficiency
+
+- **Role**: System Architect
+- **Requirement ID**: NF-05
+- **Requirement Title**: Security - Data Privacy and Integrity
+- **Requirement Description**: The system must adhere to high security standards to protect data privacy and integrity during user interactions and data exchanges.
+- **Citation**: Table 2, Page 5
+- **Requirement Related Title**: Security
+
+- **Role**: System Architect
+- **Requirement ID**: NF-06
+- **Requirement Title**: System Resilience and Robustness
+- **Requirement Description**: The system must be designed to be resilient against potential failures and robust against adversarial threats to ensure continuous operation and protection of user data.
+- **Citation**: Page 6, Discussion on UI and Security
+- **Requirement Related Title**: Security and Usability
+
+- **Role**: System Architect
+- **Requirement ID**: NF-07
+- **Requirement Title**: Privacy Concerns Mitigation
+- **Requirement Description**: The system must address privacy concerns by implementing measures to mitigate risks associated with inadequate smartphone skills, limited internet access, and fears of encountering fake healthcare professionals or patients.
+- **Citation**: Page 5, Discussion on Privacy Concerns
+- **Requirement Related Title**: Security
+
+- **Role**: System Architect
+- **Requirement ID**: NF-08
+- **Requirement Title**: Multilingual UI for International Expansion
+- **Requirement Description**: The system must support a multilingual user interface to facilitate international expansion of specific VCMA services, ensuring accessibility across diverse user bases.
+- **Citation**: Page 6, Discussion on UI Design
+- **Requirement Related Title**: Usability and Accessibility

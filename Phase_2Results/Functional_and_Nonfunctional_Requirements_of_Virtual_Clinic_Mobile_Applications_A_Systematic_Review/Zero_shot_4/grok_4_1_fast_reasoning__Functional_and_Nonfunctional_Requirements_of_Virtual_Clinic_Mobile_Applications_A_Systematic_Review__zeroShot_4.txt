@@ -1,0 +1,121 @@
+REQUIREMENT REPORT
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-01
+- Requirement Title: Identity Documentation
+- Requirement Description: first name and surname
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Demographic data documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-02
+- Requirement Title: Insurance Documentation
+- Requirement Description: insurance name and number
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Demographic data documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-03
+- Requirement Title: Blood Pressure Documentation
+- Requirement Description: Blood pressure
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Vital sign documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-04
+- Requirement Title: Heart Rate Documentation
+- Requirement Description: Heart rate
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Vital sign documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-05
+- Requirement Title: Blood Sugar Documentation
+- Requirement Description: Blood sugar
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Kidney documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-06
+- Requirement Title: Weight Documentation
+- Requirement Description: Weight
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Fitness documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-07
+- Requirement Title: Exercise Documentation
+- Requirement Description: Exercise
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Fitness documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-08
+- Requirement Title: Sleep Documentation
+- Requirement Description: Sleep
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Fitness documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-09
+- Requirement Title: Nutrition Documentation
+- Requirement Description: Nutrition
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Fitness documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-10
+- Requirement Title: Skin Condition Documentation
+- Requirement Description: Condition of skin
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Skin documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-11
+- Requirement Title: Disease History Documentation
+- Requirement Description: Disease history
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: History documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-12
+- Requirement Title: Family History Documentation
+- Requirement Description: Family history
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: History documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-13
+- Requirement Title: Allergy Documentation
+- Requirement Description: Allergy
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: History documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-14
+- Requirement Title: Medications History Documentation
+- Requirement Description: Medications history
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: History documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-15
+- Requirement Title: Vaccination Documentation
+- Requirement Description: Vaccination
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: History documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-16
+- Requirement Title: Surgeries Documentation
+- Requirement Description: Surgeries
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: History documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-17
+- Requirement Title: Smoking Documentation
+- Requirement Description: Smoking
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: History documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-18
+- Requirement Title: Symptoms and Conditions Documentation
+- Requirement Description: Symptoms and conditions
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Present history documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-19
+- Requirement Title: X-ray Documentation
+- Requirement Description: X-ray
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Present history documentation
+- Role: VCMA User (Patient/Consultant)
+- Requirement ID: FR-20
+- Requirement Title: Tests Documentation
+- Requirement Description: Tests
+- Citation: Parsaei et al. (2024), Table 1, p. 4
+- Requirement Related Title: Present history documentation

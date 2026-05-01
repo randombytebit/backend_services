@@ -1,0 +1,504 @@
+REQUIREMENT REPORT
+- Role: User
+- Requirement ID: FR-01
+- Requirement Title: Document Patient Identity
+- Requirement Description: Allow documentation of first name and surname for patient identification.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Demographic data documentation
+
+- Role: User
+- Requirement ID: FR-02
+- Requirement Title: Document Insurance Details
+- Requirement Description: Allow documentation of insurance name and number for patient coverage.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Demographic data documentation
+
+- Role: Patient
+- Requirement ID: FR-03
+- Requirement Title: Document Blood Pressure
+- Requirement Description: Enable recording of blood pressure as part of vital signs in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Vital sign documentation
+
+- Role: Patient
+- Requirement ID: FR-04
+- Requirement Title: Document Heart Rate
+- Requirement Description: Enable recording of heart rate as part of vital signs in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Vital sign documentation
+
+- Role: Patient
+- Requirement ID: FR-05
+- Requirement Title: Document Blood Sugar
+- Requirement Description: Enable recording of blood sugar levels as part of kidney documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Kidney documentation
+
+- Role: Patient
+- Requirement ID: FR-06
+- Requirement Title: Document Weight
+- Requirement Description: Enable recording of weight as part of fitness documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Fitness documentation
+
+- Role: Patient
+- Requirement ID: FR-07
+- Requirement Title: Document Exercise
+- Requirement Description: Enable recording of exercise activities as part of fitness documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Fitness documentation
+
+- Role: Patient
+- Requirement ID: FR-08
+- Requirement Title: Document Sleep
+- Requirement Description: Enable recording of sleep patterns as part of fitness documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Fitness documentation
+
+- Role: Patient
+- Requirement ID: FR-09
+- Requirement Title: Document Nutrition
+- Requirement Description: Enable recording of nutrition intake as part of fitness documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Fitness documentation
+
+- Role: Patient
+- Requirement ID: FR-10
+- Requirement Title: Document Skin Condition
+- Requirement Description: Enable recording of skin condition as part of skin documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Skin documentation
+
+- Role: Patient
+- Requirement ID: FR-11
+- Requirement Title: Document Disease History
+- Requirement Description: Enable recording of disease history as part of history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: Patient
+- Requirement ID: FR-12
+- Requirement Title: Document Family History
+- Requirement Description: Enable recording of family history as part of history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: Patient
+- Requirement ID: FR-13
+- Requirement Title: Document Allergies
+- Requirement Description: Enable recording of allergies as part of history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: Patient
+- Requirement ID: FR-14
+- Requirement Title: Document Medications History
+- Requirement Description: Enable recording of medications history as part of history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: Patient
+- Requirement ID: FR-15
+- Requirement Title: Document Vaccination
+- Requirement Description: Enable recording of vaccination history as part of history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: Patient
+- Requirement ID: FR-16
+- Requirement Title: Document Surgeries
+- Requirement Description: Enable recording of surgeries as part of history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: Patient
+- Requirement ID: FR-17
+- Requirement Title: Document Smoking History
+- Requirement Description: Enable recording of smoking history as part of history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: Patient
+- Requirement ID: FR-18
+- Requirement Title: Document Symptoms and Conditions
+- Requirement Description: Enable recording of current symptoms and conditions as part of present history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: Patient
+- Requirement ID: FR-19
+- Requirement Title: Document X-ray Results
+- Requirement Description: Enable recording of X-ray results as part of present history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: Patient
+- Requirement ID: FR-20
+- Requirement Title: Document Tests
+- Requirement Description: Enable recording of test results as part of present history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: Patient
+- Requirement ID: FR-21
+- Requirement Title: Document Treatments
+- Requirement Description: Enable recording of treatments as part of present history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: Patient
+- Requirement ID: FR-22
+- Requirement Title: Document Prescriptions
+- Requirement Description: Enable recording of prescriptions as part of present history documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: Patient
+- Requirement ID: FR-23
+- Requirement Title: Provide Patient Training
+- Requirement Description: Enable documentation and delivery of patient training as part of present history in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: Patient
+- Requirement ID: FR-24
+- Requirement Title: Document Admission and Discharge Dates
+- Requirement Description: Enable recording of date of admission and discharge as part of inpatient treatment history in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Documentation of inpatient treatment history
+
+- Role: Patient
+- Requirement ID: FR-25
+- Requirement Title: Document Hospital Name
+- Requirement Description: Enable recording of hospital name as part of inpatient treatment history in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Documentation of inpatient treatment history
+
+- Role: Patient
+- Requirement ID: FR-26
+- Requirement Title: Document Chief Complaint
+- Requirement Description: Enable recording of chief complaint as part of inpatient treatment history in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Documentation of inpatient treatment history
+
+- Role: Patient
+- Requirement ID: FR-27
+- Requirement Title: Document Treatment Summary
+- Requirement Description: Enable recording of treatment summary as part of inpatient treatment history in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Documentation of inpatient treatment history
+
+- Role: Patient
+- Requirement ID: FR-28
+- Requirement Title: Document Medication Name
+- Requirement Description: Enable recording of medication name as part of medication documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: Patient
+- Requirement ID: FR-29
+- Requirement Title: Document Medication Dose
+- Requirement Description: Enable recording of medication dose as part of medication documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: Patient
+- Requirement ID: FR-30
+- Requirement Title: Document Medication Type
+- Requirement Description: Enable recording of medication type as part of medication documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: Patient
+- Requirement ID: FR-31
+- Requirement Title: Document Medication Instructions
+- Requirement Description: Enable recording of medication instructions as part of medication documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: Patient
+- Requirement ID: FR-32
+- Requirement Title: Document Medication Side Effects
+- Requirement Description: Enable recording of medication side effects as part of medication documentation in health records.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: User
+- Requirement ID: FR-33
+- Requirement Title: Provide Appointment Reminders
+- Requirement Description: Send reminders for appointments via the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Reminders
+
+- Role: User
+- Requirement ID: FR-34
+- Requirement Title: Provide Preventive Care Reminders
+- Requirement Description: Send reminders for preventive care via the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Reminders
+
+- Role: Patient
+- Requirement ID: FR-35
+- Requirement Title: Display Patient Self-Declaration
+- Requirement Description: Display patient's self-declared health status in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: Consultant
+- Requirement ID: FR-36
+- Requirement Title: Display Consultant Identity
+- Requirement Description: Display consultant's name, surname, and profile picture in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: Consultant
+- Requirement ID: FR-37
+- Requirement Title: Display Consultant Curriculum Vitae
+- Requirement Description: Display consultant's expertise and consulting field in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: User
+- Requirement ID: FR-38
+- Requirement Title: Display Communication Type
+- Requirement Description: Display type of communication options such as phone call, text, video call, and real-time in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: User
+- Requirement ID: FR-39
+- Requirement Title: Display Appointment Details
+- Requirement Description: Display consultation date, time, duration, and waiting time for response in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: Patient
+- Requirement ID: FR-40
+- Requirement Title: Select Consultation Day and Time
+- Requirement Description: Allow selection of consultation day and time in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Service selection
+
+- Role: Patient
+- Requirement ID: FR-41
+- Requirement Title: Select Insurance Type
+- Requirement Description: Allow selection of type of insurance in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Service selection
+
+- Role: Consultant
+- Requirement ID: FR-42
+- Requirement Title: Generate Treatment Process Reports
+- Requirement Description: Provide weekly/monthly reports on the patient’s treatment process in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Reporting
+
+- Role: Consultant
+- Requirement ID: FR-43
+- Requirement Title: Generate Vital Signs and History Reports
+- Requirement Description: Provide weekly/monthly reports of vital signs and medical history in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Reporting
+
+- Role: User
+- Requirement ID: FR-44
+- Requirement Title: Document Communication Ways
+- Requirement Description: Provide documentation of communication ways including tagging capability and frequently asked questions in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Support
+
+- Role: User
+- Requirement ID: FR-45
+- Requirement Title: Provide Q&A Forum
+- Requirement Description: Enable Q&A ability through discussion forum with patients and consultants in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Support
+
+- Role: User
+- Requirement ID: FR-46
+- Requirement Title: Provide Text Guide Help
+- Requirement Description: Offer text-based help guide in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Help/tutorial
+
+- Role: User
+- Requirement ID: FR-47
+- Requirement Title: Provide In-App Training
+- Requirement Description: Offer training inside the VCMA on how to work with it in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Help/tutorial
+
+- Role: User
+- Requirement ID: FR-48
+- Requirement Title: Provide About Us Information
+- Requirement Description: Display "About us" section in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Help/tutorial
+
+- Role: User
+- Requirement ID: FR-49
+- Requirement Title: Provide Terms and Conditions
+- Requirement Description: Display terms and conditions of use in the user interface.
+- Citation: Table 1, Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Help/tutorial
+
+- Role: User
+- Requirement ID: NF-01
+- Requirement Title: Create Personal Profile
+- Requirement Description: Allow creating a personal profile for users (consultant-patient) as part of usability settings.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: User
+- Requirement ID: NF-02
+- Requirement Title: Enable Microphone Access
+- Requirement Description: Provide microphone functionality for audio interactions as part of usability settings.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: User
+- Requirement ID: NF-03
+- Requirement Title: Enable Camera Access
+- Requirement Description: Provide camera functionality for video interactions as part of usability settings.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: User
+- Requirement ID: NF-04
+- Requirement Title: Select Measurement Units
+- Requirement Description: Allow selection of measurement units (e.g., centimeters and meters for height) as part of usability settings.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: User
+- Requirement ID: NF-05
+- Requirement Title: Enable Video Calls with Participants
+- Requirement Description: Allow making video calls with other connected individuals as part of usability settings.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: User
+- Requirement ID: NF-06
+- Requirement Title: Select Conversation Starter
+- Requirement Description: Allow selecting a conversation starter as part of usability settings.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: User
+- Requirement ID: NF-07
+- Requirement Title: Enable Log Out
+- Requirement Description: Provide log out functionality as part of usability settings.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: User
+- Requirement ID: NF-08
+- Requirement Title: Save and Mark Appointments
+- Requirement Description: Allow saving and marking appointments, reminders, notes, recorded voices, photos, and messages as part of accessibility services.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Accessibility - Service
+
+- Role: User
+- Requirement ID: NF-09
+- Requirement Title: Send Consultant Feedback
+- Requirement Description: Allow sending feedback on consultant’s performance and selecting text from a default list as part of accessibility services.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Accessibility - Service
+
+- Role: User
+- Requirement ID: NF-10
+- Requirement Title: Share Individual Lessons
+- Requirement Description: Allow sharing individual lessons as part of accessibility services.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Accessibility - Service
+
+- Role: User
+- Requirement ID: NF-11
+- Requirement Title: Share Health Record Information
+- Requirement Description: Allow sharing health record information with doctors as part of accessibility services.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Accessibility - Service
+
+- Role: User
+- Requirement ID: NF-12
+- Requirement Title: Enable Patient-Consultant Data Exchange
+- Requirement Description: Allow patient-consultant data exchange as part of accessibility services.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Accessibility - Service
+
+- Role: User
+- Requirement ID: NF-13
+- Requirement Title: Record Insurance in Service Format
+- Requirement Description: Allow recording of insurance name and number in compatible service formats.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Compatibility - Service format
+
+- Role: User
+- Requirement ID: NF-14
+- Requirement Title: Provide Financial Transaction Reporting
+- Requirement Description: Enable reporting of financial transactions as part of efficiency services.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Efficiency - Service
+
+- Role: User
+- Requirement ID: NF-15
+- Requirement Title: Support Text Password Login
+- Requirement Description: Allow login using text password as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-16
+- Requirement Title: Support Email Login
+- Requirement Description: Allow login using email as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-17
+- Requirement Title: Support Activation Code Login
+- Requirement Description: Allow login using activation code as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-18
+- Requirement Title: Support Anonymous Login
+- Requirement Description: Allow anonymous login as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-19
+- Requirement Title: Verify User Identity via Mobile Code
+- Requirement Description: Verify user identity by sending a verification code to the mobile phone as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-20
+- Requirement Title: Enable Deletion of Consultation Records
+- Requirement Description: Allow deletion of consultation records as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-21
+- Requirement Title: Enable Deletion of Documents
+- Requirement Description: Allow deletion of documents as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-22
+- Requirement Title: Enable Deletion of Bank Transactions
+- Requirement Description: Allow deletion of bank transactions as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-23
+- Requirement Title: Encrypt Patient Data Exchange
+- Requirement Description: Ensure encrypted exchange of patient data as part of security features.
+- Citation: Table 2, Parsaei et al. (2024)
+- Requirement Related Title: Security

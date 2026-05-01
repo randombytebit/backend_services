@@ -1,0 +1,28 @@
+REQUIREMENT REPORT
+- Role: VCMA System
+- Requirement ID: NF-01
+- Requirement Title: Supported Login Methods
+- Requirement Description: The system shall support multiple login methods including text password, email, activation code, and anonymous access for users.
+- Citation: Table 2: Nonfunctional requirements of VCMA
+- Requirement Related Title: Security
+
+- Role: VCMA System
+- Requirement ID: NF-02
+- Requirement Title: User Identity Verification via Mobile Code
+- Requirement Description: The system shall verify the user's identity by sending a verification code to the registered mobile phone.
+- Citation: Table 2: Nonfunctional requirements of VCMA
+- Requirement Related Title: Security
+
+- Role: VCMA System
+- Requirement ID: NF-03
+- Requirement Title: Data Deletion for Privacy
+- Requirement Description: The system shall allow users to delete consultation records, documents, and bank transactions to maintain privacy.
+- Citation: Table 2: Nonfunctional requirements of VCMA
+- Requirement Related Title: Security
+
+- Role: VCMA System
+- Requirement ID: NF-04
+- Requirement Title: Encrypted Patient Data Exchange
+- Requirement Description: The system shall ensure all patient data exchanges are encrypted to protect data integrity and confidentiality.
+- Citation: Table 2: Nonfunctional requirements of VCMA
+- Requirement Related Title: Security

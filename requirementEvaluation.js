@@ -760,38 +760,87 @@ async function evaluationModel(documentData, model, prompt) {
     }
 }
 
-async function modelEvaluation() {
+// async function modelEvaluation() {
+//     try {
+//         const documents = [
+//             {
+//                 name: 'Emotion_oriented_requirements_engineering_A_case_study_in_developing_a_smart_home_system_for_the_elderly',
+//                 path: './training_sources/Emotion_oriented_requirements_engineering_A_case_study_in_developing_a_smart_home_system_for_the_elderly.pdf'
+//             },
+//             {
+//                 name: 'Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix',
+//                 path: './training_sources/Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix.pdf'
+//             },
+//             {
+//                 name: 'Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review',
+//                 path: './training_sources/Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review.pdf'
+//             },
+//             {
+//                 name: 'Sustainability_requirements_for_connected_health_applications',
+//                 path: './training_sources/Sustainability_requirements_for_connected_health_applications.pdf'
+//             }
+//         ];
+//
+//         const documentDataList = await Promise.all(
+//             documents.map(async (doc) => {
+//                 const extracted = await pdfExtracted_pdfjslib(doc.path);
+//                 await fs.writeFile(`./raw/${doc.name}.txt`, extracted, 'utf8');
+//                 const data = await fs.readFile(`./raw/${doc.name}.txt`, 'utf8');
+//                 return { name: doc.name, data };
+//             })
+//         );
+//
+//         // All 18 prompts: indices 0–17
+//         const PROMPT_INDICES = Array.from({ length: 12 }, (_, i) => i + 6);
+//
+//         function getPromptLabel(index) {
+//             if (index < 6)  return `zeroShot_${index + 1}`;
+//             if (index < 12) return `fewShot_${index - 5}`;
+//             return `chainOfThoughts_${index - 11}`;
+//         }
+//
+//         for (const { name: docName, data: docData } of documentDataList) {
+//             console.log(`\n=== Document: ${docName} ===`);
+//
+//             for (const promptIndex of PROMPT_INDICES) {
+//                 const promptLabel = getPromptLabel(promptIndex);
+//                 console.log(`  Prompt: ${promptLabel}`);
+//
+//                 for (const model of MODEL) {
+//                     console.log(`    Model: ${model}`);
+//
+//                     const result = await evaluationModel(docData, model, phase2_promptEvaluation(promptIndex));
+//
+//                     const safeModelName = model.replace(/[-.]/g, '_');
+//                     const filename = `${safeModelName}__${docName}__${promptLabel}.txt`;
+//                     await fs.writeFile(`./Phase_2Results/${filename}`, result, 'utf8');
+//
+//                     console.log(`    Saved: ${filename}`);
+//                 }
+//             }
+//         }
+//
+//         console.log('\n=== All evaluations complete ===');
+//     } catch (err) {
+//         console.error('modelEvaluation failed:', err.message);
+//     }
+// }
+//
+// modelEvaluation();
+
+async function modelEvaluation_resume() {
     try {
-        const documents = [
-            {
-                name: 'Emotion_oriented_requirements_engineering_A_case_study_in_developing_a_smart_home_system_for_the_elderly',
-                path: './training_sources/Emotion_oriented_requirements_engineering_A_case_study_in_developing_a_smart_home_system_for_the_elderly.pdf'
-            },
-            {
-                name: 'Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix',
-                path: './training_sources/Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix.pdf'
-            },
-            {
-                name: 'Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review',
-                path: './training_sources/Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review.pdf'
-            },
-            {
-                name: 'Sustainability_requirements_for_connected_health_applications',
-                path: './training_sources/Sustainability_requirements_for_connected_health_applications.pdf'
-            }
-        ];
+        const document = {
+            name: 'Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review',
+            path: './training_sources/Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review.pdf'
+        };
 
-        const documentDataList = await Promise.all(
-            documents.map(async (doc) => {
-                const extracted = await pdfExtracted_pdfjslib(doc.path);
-                await fs.writeFile(`./raw/${doc.name}.txt`, extracted, 'utf8');
-                const data = await fs.readFile(`./raw/${doc.name}.txt`, 'utf8');
-                return { name: doc.name, data };
-            })
-        );
+        const extracted = await pdfExtracted_pdfjslib(document.path);
+        await fs.writeFile(`./raw/${document.name}.txt`, extracted, 'utf8');
+        const docData = await fs.readFile(`./raw/${document.name}.txt`, 'utf8');
 
-        // All 18 prompts: indices 0–17
-        const PROMPT_INDICES = Array.from({ length: 12 }, (_, i) => i + 6);
+        // zeroShot only: indices 0–5
+        const PROMPT_INDICES = Array.from({ length: 6 }, (_, i) => i);
 
         function getPromptLabel(index) {
             if (index < 6)  return `zeroShot_${index + 1}`;
@@ -799,31 +848,30 @@ async function modelEvaluation() {
             return `chainOfThoughts_${index - 11}`;
         }
 
-        for (const { name: docName, data: docData } of documentDataList) {
-            console.log(`\n=== Document: ${docName} ===`);
+        console.log(`\n=== Document: ${document.name} ===`);
 
-            for (const promptIndex of PROMPT_INDICES) {
-                const promptLabel = getPromptLabel(promptIndex);
-                console.log(`  Prompt: ${promptLabel}`);
+        for (const promptIndex of PROMPT_INDICES) {
+            const promptLabel = getPromptLabel(promptIndex);
+            console.log(`  Prompt: ${promptLabel}`);
 
-                for (const model of MODEL) {
-                    console.log(`    Model: ${model}`);
+            for (const model of MODEL) {
+                console.log(`    Model: ${model}`);
 
-                    const result = await evaluationModel(docData, model, phase2_promptEvaluation(promptIndex));
+                const result = await evaluationModel(docData, model, phase2_promptEvaluation(promptIndex));
 
-                    const safeModelName = model.replace(/[-.]/g, '_');
-                    const filename = `${safeModelName}__${docName}__${promptLabel}.txt`;
-                    await fs.writeFile(`./Phase_2Results/${filename}`, result, 'utf8');
+                const safeModelName = model.replace(/[-.]/g, '_');
+                const filename = `${safeModelName}__${document.name}__${promptLabel}.txt`;
+                await fs.writeFile(`./Phase_2Results/${filename}`, result, 'utf8');
 
-                    console.log(`    Saved: ${filename}`);
-                }
+                console.log(`    Saved: ${filename}`);
             }
         }
 
-        console.log('\n=== All evaluations complete ===');
+        console.log('\n=== Resume complete ===');
     } catch (err) {
-        console.error('modelEvaluation failed:', err.message);
+        console.error('modelEvaluation_resume failed:', err.message);
     }
 }
 
-modelEvaluation();
+modelEvaluation_resume()
+

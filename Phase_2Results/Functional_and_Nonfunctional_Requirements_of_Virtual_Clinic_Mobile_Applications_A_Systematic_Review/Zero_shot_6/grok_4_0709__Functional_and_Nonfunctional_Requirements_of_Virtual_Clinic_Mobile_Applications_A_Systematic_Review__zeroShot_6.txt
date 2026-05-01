@@ -1,0 +1,441 @@
+REQUIREMENT REPORT
+- Role: Patient
+- Requirement ID: FR-01
+- Requirement Title: Identity Documentation
+- Requirement Description: Allow users to input and document first name and surname as part of demographic data.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Demographic data documentation
+
+- Role: Patient
+- Requirement ID: FR-02
+- Requirement Title: Insurance Documentation
+- Requirement Description: Allow users to input and document insurance name and number as part of demographic data.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Demographic data documentation
+
+- Role: Patient
+- Requirement ID: FR-03
+- Requirement Title: Vital Sign Documentation - Blood Pressure
+- Requirement Description: Provide input interface for documenting blood pressure as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-04
+- Requirement Title: Vital Sign Documentation - Heart Rate
+- Requirement Description: Provide input interface for documenting heart rate as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-05
+- Requirement Title: Kidney Documentation - Blood Sugar
+- Requirement Description: Provide input interface for documenting blood sugar as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-06
+- Requirement Title: Fitness Documentation - Weight
+- Requirement Description: Provide input interface for documenting weight as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-07
+- Requirement Title: Fitness Documentation - Exercise
+- Requirement Description: Provide input interface for documenting exercise as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-08
+- Requirement Title: Fitness Documentation - Sleep
+- Requirement Description: Provide input interface for documenting sleep as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-09
+- Requirement Title: Fitness Documentation - Nutrition
+- Requirement Description: Provide input interface for documenting nutrition as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-10
+- Requirement Title: Skin Documentation - Condition of Skin
+- Requirement Description: Provide input interface for documenting condition of skin as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-11
+- Requirement Title: History Documentation - Disease History
+- Requirement Description: Provide input interface for documenting disease history as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-12
+- Requirement Title: History Documentation - Family History
+- Requirement Description: Provide input interface for documenting family history as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-13
+- Requirement Title: History Documentation - Allergy
+- Requirement Description: Provide input interface for documenting allergy as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-14
+- Requirement Title: History Documentation - Medications History
+- Requirement Description: Provide input interface for documenting medications history as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-15
+- Requirement Title: History Documentation - Vaccination
+- Requirement Description: Provide input interface for documenting vaccination as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-16
+- Requirement Title: History Documentation - Surgeries
+- Requirement Description: Provide input interface for documenting surgeries as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-17
+- Requirement Title: History Documentation - Smoking
+- Requirement Description: Provide input interface for documenting smoking as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-18
+- Requirement Title: Present History Documentation - Symptoms and Conditions
+- Requirement Description: Provide input interface for documenting symptoms and conditions as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-19
+- Requirement Title: Present History Documentation - X-ray
+- Requirement Description: Provide input interface for documenting X-ray as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-20
+- Requirement Title: Present History Documentation - Tests
+- Requirement Description: Provide input interface for documenting tests as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-21
+- Requirement Title: Present History Documentation - Treatments
+- Requirement Description: Provide input interface for documenting treatments as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-22
+- Requirement Title: Present History Documentation - Prescriptions
+- Requirement Description: Provide input interface for documenting prescriptions as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-23
+- Requirement Title: Present History Documentation - Patient Training
+- Requirement Description: Provide input interface for documenting patient training as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-24
+- Requirement Title: Inpatient Treatment History Documentation - Date of Admission and Discharge
+- Requirement Description: Provide input interface for documenting date of admission and discharge as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-25
+- Requirement Title: Inpatient Treatment History Documentation - Hospital Name
+- Requirement Description: Provide input interface for documenting hospital name as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-26
+- Requirement Title: Inpatient Treatment History Documentation - Chief Complaint
+- Requirement Description: Provide input interface for documenting chief complaint as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-27
+- Requirement Title: Inpatient Treatment History Documentation - Summary
+- Requirement Description: Provide input interface for documenting summary as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-28
+- Requirement Title: Medication Documentation - Name
+- Requirement Description: Provide input interface for documenting medication name as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-29
+- Requirement Title: Medication Documentation - Dose
+- Requirement Description: Provide input interface for documenting medication dose as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-30
+- Requirement Title: Medication Documentation - Type
+- Requirement Description: Provide input interface for documenting medication type as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-31
+- Requirement Title: Medication Documentation - Instruction
+- Requirement Description: Provide input interface for documenting medication instruction as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-32
+- Requirement Title: Medication Documentation - Side Effects
+- Requirement Description: Provide input interface for documenting medication side effects as part of health records.
+- Citation: Table 1, Page 4
+- Requirement Related Title: Health record
+
+- Role: Patient
+- Requirement ID: FR-33
+- Requirement Title: Reminders - Appointment
+- Requirement Description: Provide visualization and feedback mechanism for appointment reminders in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: Patient
+- Requirement ID: FR-34
+- Requirement Title: Reminders - Preventive Care
+- Requirement Description: Provide visualization and feedback mechanism for preventive care reminders in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: Patient
+- Requirement ID: FR-35
+- Requirement Title: Display - Patient’s Self-Declaration
+- Requirement Description: Visualize patient’s self-declaration about health status in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: Consultant
+- Requirement ID: FR-36
+- Requirement Title: Display - Consultant Identity
+- Requirement Description: Visualize consultant identity including name, surname, and profile picture in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: Consultant
+- Requirement ID: FR-37
+- Requirement Title: Display - Curriculum Vitae
+- Requirement Description: Visualize consultant's curriculum vitae including expertise and consulting field in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: FR-38
+- Requirement Title: Display - Type of Communication
+- Requirement Description: Visualize types of communication such as phone call, text, video call, and real-time in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: FR-39
+- Requirement Title: Display - Appointment Details
+- Requirement Description: Visualize appointment details including consultation date, time, duration, and waiting time for response in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: Patient
+- Requirement ID: FR-40
+- Requirement Title: Service Selection - Consultation Scheduling
+- Requirement Description: Provide input interface for choosing consultation day, time, and type of insurance.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: Patient
+- Requirement ID: FR-41
+- Requirement Title: Reporting - Treatment Process Reports
+- Requirement Description: Generate and visualize weekly/monthly reports on the patient’s treatment process.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: Patient
+- Requirement ID: FR-42
+- Requirement Title: Reporting - Vital Signs and Medical History Reports
+- Requirement Description: Generate and visualize weekly/monthly reports of vital signs and medical history.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: FR-43
+- Requirement Title: Support - Communication Ways Documentation
+- Requirement Description: Provide documentation of communication ways including tagging capability in VCMA and frequently asked questions.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: FR-44
+- Requirement Title: Support - Q and A Ability
+- Requirement Description: Provide human-in-the-loop feedback mechanism for Q and A ability through discussion forum with others (patients and consultants).
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: FR-45
+- Requirement Title: Help/Tutorial - Text Guide
+- Requirement Description: Provide text guide for help in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: FR-46
+- Requirement Title: Help/Tutorial - Training Inside VCMA
+- Requirement Description: Provide training inside VCMA on working with it.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: FR-47
+- Requirement Title: Help/Tutorial - About Us
+- Requirement Description: Provide 'About us' information in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: FR-48
+- Requirement Title: Help/Tutorial - Terms and Conditions
+- Requirement Description: Provide terms and conditions of use in the user interface.
+- Citation: Table 1, Page 4
+- Requirement Related Title: General features of UI
+
+- Role: User
+- Requirement ID: NF-01
+- Requirement Title: Setting - Personal Profile Creation
+- Requirement Description: Ensure usability by allowing creation of a personal profile for the user (consultant-patient).
+- Citation: Table 2, Page 5
+- Requirement Related Title: Usability
+
+- Role: User
+- Requirement ID: NF-02
+- Requirement Title: Setting - Microphone
+- Requirement Description: Ensure usability with microphone settings for communication.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Usability
+
+- Role: User
+- Requirement ID: NF-03
+- Requirement Title: Setting - Camera
+- Requirement Description: Ensure usability with camera settings for video calls.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Usability
+
+- Role: User
+- Requirement ID: NF-04
+- Requirement Title: Setting - Measurement Units Selection
+- Requirement Description: Ensure usability by allowing selection of measurement units like centimeters and meters for height.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Usability
+
+- Role: User
+- Requirement ID: NF-05
+- Requirement Title: Setting - Video Call with Other Participants
+- Requirement Description: Ensure usability by enabling video calls with other connected individuals.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Usability
+
+- Role: User
+- Requirement ID: NF-06
+- Requirement Title: Setting - Selecting Conversation Starter
+- Requirement Description: Ensure usability by allowing selection of conversation starter.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Usability
+
+- Role: User
+- Requirement ID: NF-07
+- Requirement Title: Setting - Log Out
+- Requirement Description: Ensure usability with log out functionality.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Usability
+
+- Role: User
+- Requirement ID: NF-08
+- Requirement Title: Service - Save and Mark
+- Requirement Description: Ensure accessibility by allowing save and mark of appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant’s performance and select text from a default list.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Accessibility
+
+- Role: User
+- Requirement ID: NF-09
+- Requirement Title: Service - Ability to Share
+- Requirement Description: Ensure accessibility by enabling sharing of individual lessons, health record information with doctors, and patient-consultant data exchange.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Accessibility
+
+- Role: User
+- Requirement ID: NF-10
+- Requirement Title: Service Format - Insurance Recording
+- Requirement Description: Ensure compatibility by recording insurance name and number.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Compatibility
+
+- Role: User
+- Requirement ID: NF-11
+- Requirement Title: Service - Financial Transaction Reporting
+- Requirement Description: Ensure efficiency with financial transaction reporting.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Efficiency
+
+- Role: User
+- Requirement ID: NF-12
+- Requirement Title: Login Method
+- Requirement Description: Ensure security with login methods including text password, email, activation code, and anonymously.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-13
+- Requirement Title: User Identity Verification
+- Requirement Description: Ensure security by verifying the user’s identity by sending a verification code to the mobile phone.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-14
+- Requirement Title: Deletion of Records
+- Requirement Description: Ensure security with possibility of deleting consultation records, documents, and bank transactions.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Security
+
+- Role: User
+- Requirement ID: NF-15
+- Requirement Title: Encrypted Data Exchange
+- Requirement Description: Ensure security with encrypted patient data exchange.
+- Citation: Table 2, Page 5
+- Requirement Related Title: Security

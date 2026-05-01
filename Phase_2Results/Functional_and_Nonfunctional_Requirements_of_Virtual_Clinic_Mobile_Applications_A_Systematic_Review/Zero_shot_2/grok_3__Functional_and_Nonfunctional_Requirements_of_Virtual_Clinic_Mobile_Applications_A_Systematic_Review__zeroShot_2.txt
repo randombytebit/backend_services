@@ -1,0 +1,145 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: Demographic Data Documentation
+- **Requirement Description**: The Virtual Clinic Mobile Application (VCMA) must include functionality to document demographic data such as the user's first name, surname, insurance name, and insurance number.
+- **Citation**: Table 1, Section A: Demographic data documentation
+- **Requirement Related Title**: Demographic Data Management
+
+- **Role**: Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Health Record Management - Vital Signs
+- **Requirement Description**: The VCMA must support documentation of vital signs including blood pressure and heart rate.
+- **Citation**: Table 1, Section B: Health record - Vital sign documentation
+- **Requirement Related Title**: Health Record Documentation
+
+- **Role**: Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Health Record Management - Kidney Documentation
+- **Requirement Description**: The VCMA must enable documentation of kidney-related data such as blood sugar levels.
+- **Citation**: Table 1, Section B: Health record - Kidney documentation
+- **Requirement Related Title**: Health Record Documentation
+
+- **Role**: Developer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Health Record Management - Fitness Documentation
+- **Requirement Description**: The VCMA must allow documentation of fitness-related data including weight, exercise, sleep, and nutrition.
+- **Citation**: Table 1, Section B: Health record - Fitness documentation
+- **Requirement Related Title**: Health Record Documentation
+
+- **Role**: Developer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Health Record Management - Skin Documentation
+- **Requirement Description**: The VCMA must support documentation of skin conditions.
+- **Citation**: Table 1, Section B: Health record - Skin documentation
+- **Requirement Related Title**: Health Record Documentation
+
+- **Role**: Developer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Health Record Management - History Documentation
+- **Requirement Description**: The VCMA must include functionality to document medical history including disease history, family history, allergies, medication history, vaccinations, surgeries, and smoking status.
+- **Citation**: Table 1, Section B: Health record - History documentation
+- **Requirement Related Title**: Health Record Documentation
+
+- **Role**: Developer
+- **Requirement ID**: FR-07
+- **Requirement Title**: Health Record Management - Present History Documentation
+- **Requirement Description**: The VCMA must enable documentation of current health status including symptoms, conditions, X-rays, tests, treatments, prescriptions, and patient training.
+- **Citation**: Table 1, Section B: Health record - Present history documentation
+- **Requirement Related Title**: Health Record Documentation
+
+- **Role**: Developer
+- **Requirement ID**: FR-08
+- **Requirement Title**: Health Record Management - Inpatient Treatment History
+- **Requirement Description**: The VCMA must support documentation of inpatient treatment history including date of admission and discharge, hospital name, chief complaint, and summary.
+- **Citation**: Table 1, Section B: Health record - Documentation of inpatient treatment history
+- **Requirement Related Title**: Health Record Documentation
+
+- **Role**: Developer
+- **Requirement ID**: FR-09
+- **Requirement Title**: Health Record Management - Medication Documentation
+- **Requirement Description**: The VCMA must allow documentation of medication details including name, dose, type, instructions, and side effects.
+- **Citation**: Table 1, Section B: Health record - Medication documentation
+- **Requirement Related Title**: Health Record Documentation
+
+- **Role**: Developer
+- **Requirement ID**: FR-10
+- **Requirement Title**: User Interface - Reminders
+- **Requirement Description**: The VCMA must provide reminder functionalities for appointments and preventive care.
+- **Citation**: Table 1, Section C: General features of UI - Reminders
+- **Requirement Related Title**: User Interface Features
+
+- **Role**: Developer
+- **Requirement ID**: FR-11
+- **Requirement Title**: User Interface - Display Features
+- **Requirement Description**: The VCMA must display patient self-declaration of health status, consultant identity (name, surname, profile picture), curriculum vitae (expertise and consulting field), type of communication (phone call, text, video call, real-time), and appointment details (consultation date, time, duration, waiting time for response).
+- **Citation**: Table 1, Section C: General features of UI - Display
+- **Requirement Related Title**: User Interface Features
+
+- **Role**: Developer
+- **Requirement ID**: FR-12
+- **Requirement Title**: User Interface - Service Selection
+- **Requirement Description**: The VCMA must allow users to choose consultation day, time, and type of insurance.
+- **Citation**: Table 1, Section C: General features of UI - Service selection
+- **Requirement Related Title**: User Interface Features
+
+- **Role**: Developer
+- **Requirement ID**: FR-13
+- **Requirement Title**: User Interface - Reporting
+- **Requirement Description**: The VCMA must provide weekly/monthly reports on the patient’s treatment process and vital signs/medical history.
+- **Citation**: Table 1, Section C: General features of UI - Reporting
+- **Requirement Related Title**: User Interface Features
+
+- **Role**: Developer
+- **Requirement ID**: FR-14
+- **Requirement Title**: User Interface - Support Features
+- **Requirement Description**: The VCMA must include documentation of communication methods (tagging capability, frequently asked questions) and Q&A ability through discussion forums with patients and consultants.
+- **Citation**: Table 1, Section C: General features of UI - Support
+- **Requirement Related Title**: User Interface Features
+
+- **Role**: Developer
+- **Requirement ID**: FR-15
+- **Requirement Title**: User Interface - Help/Tutorial
+- **Requirement Description**: The VCMA must provide a text guide for help, training within the app on how to use it, and information on "About Us" and "Terms and Conditions of Use."
+- **Citation**: Table 1, Section C: General features of UI - Help/tutorial
+- **Requirement Related Title**: User Interface Features
+
+**Non-Functional Requirements**
+
+- **Role**: Developer
+- **Requirement ID**: NF-01
+- **Requirement Title**: Usability - Setting Features
+- **Requirement Description**: The VCMA must ensure usability by allowing users to create personal profiles, configure microphone and camera settings, select measurement units (e.g., centimeters, meters for height), enable video calls with other participants, select conversation starters, and log out.
+- **Citation**: Table 2, Section A: Usability - Setting
+- **Requirement Related Title**: Usability Standards
+
+- **Role**: Developer
+- **Requirement ID**: NF-02
+- **Requirement Title**: Accessibility - Service Features
+- **Requirement Description**: The VCMA must ensure accessibility by allowing users to save and mark appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant performance; select text from a default list; and share individual lessons, health record information with doctors, and patient-consultant data exchange.
+- **Citation**: Table 2, Section B: Accessibility - Service
+- **Requirement Related Title**: Accessibility Standards
+
+- **Role**: Developer
+- **Requirement ID**: NF-03
+- **Requirement Title**: Compatibility - Service Format
+- **Requirement Description**: The VCMA must be compatible with recording insurance name and number as part of service format requirements.
+- **Citation**: Table 2, Section C: Compatibility - Service format
+- **Requirement Related Title**: Compatibility Standards
+
+- **Role**: Developer
+- **Requirement ID**: NF-04
+- **Requirement Title**: Efficiency - Service Reporting
+- **Requirement Description**: The VCMA must ensure efficiency by supporting financial transaction reporting.
+- **Citation**: Table 2, Section D: Efficiency - Service
+- **Requirement Related Title**: Efficiency Standards
+
+- **Role**: Developer
+- **Requirement ID**: NF-05
+- **Requirement Title**: Security - Authentication and Data Protection
+- **Requirement Description**: The VCMA must ensure security through login methods (text password, email, activation code, anonymous login), user identity verification by sending a verification code to the mobile phone, the ability to delete consultation records, documents, and bank transactions, and encrypted patient data exchange.
+- **Citation**: Table 2, Section E: Security
+- **Requirement Related Title**: Security Standards

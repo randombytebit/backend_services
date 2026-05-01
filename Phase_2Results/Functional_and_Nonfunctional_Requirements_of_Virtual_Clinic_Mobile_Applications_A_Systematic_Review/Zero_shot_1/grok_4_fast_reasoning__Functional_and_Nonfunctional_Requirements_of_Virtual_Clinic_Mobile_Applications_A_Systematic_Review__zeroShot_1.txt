@@ -1,0 +1,433 @@
+- Role: VCMA Application  
+- Requirement ID: FR-01  
+- Requirement Title: Document First Name and Surname  
+- Requirement Description: The application must allow documentation of the user's first name and surname for identity purposes.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Demographic data documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-02  
+- Requirement Title: Document Insurance Details  
+- Requirement Description: The application must allow documentation of insurance name and number.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Demographic data documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-03  
+- Requirement Title: Document Blood Pressure  
+- Requirement Description: The application must enable documentation of blood pressure as part of vital signs.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Vital sign documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-04  
+- Requirement Title: Document Heart Rate  
+- Requirement Description: The application must enable documentation of heart rate as part of vital signs.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Vital sign documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-05  
+- Requirement Title: Document Blood Sugar  
+- Requirement Description: The application must enable documentation of blood sugar levels for kidney-related health records.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Kidney documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-06  
+- Requirement Title: Document Weight  
+- Requirement Description: The application must enable documentation of weight as part of fitness records.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Fitness documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-07  
+- Requirement Title: Document Exercise  
+- Requirement Description: The application must enable documentation of exercise activities as part of fitness records.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Fitness documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-08  
+- Requirement Title: Document Sleep  
+- Requirement Description: The application must enable documentation of sleep patterns as part of fitness records.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Fitness documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-09  
+- Requirement Title: Document Nutrition  
+- Requirement Description: The application must enable documentation of nutrition intake as part of fitness records.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Fitness documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-10  
+- Requirement Title: Document Skin Condition  
+- Requirement Description: The application must enable documentation of skin condition.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Skin documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-11  
+- Requirement Title: Document Disease History  
+- Requirement Description: The application must enable documentation of personal disease history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - History documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-12  
+- Requirement Title: Document Family History  
+- Requirement Description: The application must enable documentation of family medical history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - History documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-13  
+- Requirement Title: Document Allergies  
+- Requirement Description: The application must enable documentation of allergies.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - History documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-14  
+- Requirement Title: Document Medications History  
+- Requirement Description: The application must enable documentation of past medications history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - History documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-15  
+- Requirement Title: Document Vaccination History  
+- Requirement Description: The application must enable documentation of vaccination history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - History documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-16  
+- Requirement Title: Document Surgeries  
+- Requirement Description: The application must enable documentation of surgical history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - History documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-17  
+- Requirement Title: Document Smoking History  
+- Requirement Description: The application must enable documentation of smoking history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - History documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-18  
+- Requirement Title: Document Symptoms and Conditions  
+- Requirement Description: The application must enable documentation of current symptoms and conditions.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Present history documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-19  
+- Requirement Title: Document X-ray Results  
+- Requirement Description: The application must enable documentation of X-ray results.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Present history documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-20  
+- Requirement Title: Document Test Results  
+- Requirement Description: The application must enable documentation of medical test results.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Present history documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-21  
+- Requirement Title: Document Treatments  
+- Requirement Description: The application must enable documentation of ongoing treatments.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Present history documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-22  
+- Requirement Title: Document Prescriptions  
+- Requirement Description: The application must enable documentation of prescriptions.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Present history documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-23  
+- Requirement Title: Provide Patient Training  
+- Requirement Description: The application must provide patient training materials.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Present history documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-24  
+- Requirement Title: Document Admission and Discharge Dates  
+- Requirement Description: The application must enable documentation of inpatient admission and discharge dates.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Documentation of inpatient treatment history  
+
+- Role: VCMA Application  
+- Requirement ID: FR-25  
+- Requirement Title: Document Hospital Name  
+- Requirement Description: The application must enable documentation of hospital name for inpatient history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Documentation of inpatient treatment history  
+
+- Role: VCMA Application  
+- Requirement ID: FR-26  
+- Requirement Title: Document Chief Complaint  
+- Requirement Description: The application must enable documentation of chief complaint for inpatient history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Documentation of inpatient treatment history  
+
+- Role: VCMA Application  
+- Requirement ID: FR-27  
+- Requirement Title: Document Summary of Inpatient Treatment  
+- Requirement Description: The application must enable documentation of summary for inpatient treatment history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Documentation of inpatient treatment history  
+
+- Role: VCMA Application  
+- Requirement ID: FR-28  
+- Requirement Title: Document Medication Name  
+- Requirement Description: The application must enable documentation of medication name.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Medication documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-29  
+- Requirement Title: Document Medication Dose  
+- Requirement Description: The application must enable documentation of medication dose.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Medication documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-30  
+- Requirement Title: Document Medication Type  
+- Requirement Description: The application must enable documentation of medication type.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Medication documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-31  
+- Requirement Title: Document Medication Instructions  
+- Requirement Description: The application must enable documentation of medication instructions.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Medication documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-32  
+- Requirement Title: Document Medication Side Effects  
+- Requirement Description: The application must enable documentation of medication side effects.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Health record - Medication documentation  
+
+- Role: VCMA Application  
+- Requirement ID: FR-33  
+- Requirement Title: Provide Appointment Reminders  
+- Requirement Description: The application must provide reminders for appointments.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Reminders  
+
+- Role: VCMA Application  
+- Requirement ID: FR-34  
+- Requirement Title: Provide Preventive Care Reminders  
+- Requirement Description: The application must provide reminders for preventive care.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Reminders  
+
+- Role: VCMA Application  
+- Requirement ID: FR-35  
+- Requirement Title: Display Patient Self-Declaration of Health Status  
+- Requirement Description: The application must display the patient's self-declaration about their health status.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Display  
+
+- Role: VCMA Application  
+- Requirement ID: FR-36  
+- Requirement Title: Display Consultant Identity  
+- Requirement Description: The application must display consultant identity including name, surname, and profile picture.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Display  
+
+- Role: VCMA Application  
+- Requirement ID: FR-37  
+- Requirement Title: Display Consultant Curriculum Vitae  
+- Requirement Description: The application must display consultant curriculum vitae including expertise and consulting field.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Display  
+
+- Role: VCMA Application  
+- Requirement ID: FR-38  
+- Requirement Title: Display Type of Communication  
+- Requirement Description: The application must display type of communication options: phone call, text, video call, and real-time.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Display  
+
+- Role: VCMA Application  
+- Requirement ID: FR-39  
+- Requirement Title: Display Appointment Details  
+- Requirement Description: The application must display appointment details: consultation date, time, duration, and waiting time for response.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Display  
+
+- Role: VCMA Application  
+- Requirement ID: FR-40  
+- Requirement Title: Allow Selection of Consultation Day, Time, and Insurance Type  
+- Requirement Description: The application must allow users to choose consultation day, time, and type of insurance.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Service selection  
+
+- Role: VCMA Application  
+- Requirement ID: FR-41  
+- Requirement Title: Provide Weekly/Monthly Treatment Process Reports  
+- Requirement Description: The application must provide weekly/monthly reports on the patient’s treatment process.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Reporting  
+
+- Role: VCMA Application  
+- Requirement ID: FR-42  
+- Requirement Title: Provide Weekly/Monthly Vital Signs and Medical History Reports  
+- Requirement Description: The application must provide weekly/monthly reports of vital signs and medical history.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Reporting  
+
+- Role: VCMA Application  
+- Requirement ID: FR-43  
+- Requirement Title: Document Communication Ways  
+- Requirement Description: The application must document communication ways including tagging capability and frequently asked questions.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Support  
+
+- Role: VCMA Application  
+- Requirement ID: FR-44  
+- Requirement Title: Provide Q&A Ability via Discussion Forum  
+- Requirement Description: The application must provide Q&A ability through a discussion forum with patients and consultants.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Support  
+
+- Role: VCMA Application  
+- Requirement ID: FR-45  
+- Requirement Title: Provide Text Guide Help  
+- Requirement Description: The application must provide a text guide for help.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Help/tutorial  
+
+- Role: VCMA Application  
+- Requirement ID: FR-46  
+- Requirement Title: Provide Training Inside VCMA  
+- Requirement Description: The application must provide training on working with the VCMA.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Help/tutorial  
+
+- Role: VCMA Application  
+- Requirement ID: FR-47  
+- Requirement Title: Provide About Us and Terms Information  
+- Requirement Description: The application must provide information on "About us" and terms and conditions of use.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: General features of UI - Help/tutorial  
+
+- Role: VCMA Application  
+- Requirement ID: NF-01  
+- Requirement Title: Create Personal Profile  
+- Requirement Description: The application must allow creating a personal profile for users (consultants and patients).  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Usability - Setting  
+
+- Role: VCMA Application  
+- Requirement ID: NF-02  
+- Requirement Title: Enable Microphone Functionality  
+- Requirement Description: The application must support microphone for audio interactions.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Usability - Setting  
+
+- Role: VCMA Application  
+- Requirement ID: NF-03  
+- Requirement Title: Enable Camera Functionality  
+- Requirement Description: The application must support camera for video interactions.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Usability - Setting  
+
+- Role: VCMA Application  
+- Requirement ID: NF-04  
+- Requirement Title: Select Measurement Units  
+- Requirement Description: The application must allow selection of measurement units like centimeters and meters for height.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Usability - Setting  
+
+- Role: VCMA Application  
+- Requirement ID: NF-05  
+- Requirement Title: Enable Video Calls with Participants  
+- Requirement Description: The application must enable making video calls with other connected individuals.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Usability - Setting  
+
+- Role: VCMA Application  
+- Requirement ID: NF-06  
+- Requirement Title: Select Conversation Starter  
+- Requirement Description: The application must allow selecting a conversation starter.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Usability - Setting  
+
+- Role: VCMA Application  
+- Requirement ID: NF-07  
+- Requirement Title: Enable Log Out  
+- Requirement Description: The application must provide a log out function.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Usability - Setting  
+
+- Role: VCMA Application  
+- Requirement ID: NF-08  
+- Requirement Title: Save and Mark Items  
+- Requirement Description: The application must allow saving and marking appointments, reminders, notes, recorded voices, photos, messages; sending feedback on consultant performance and selecting text from a default list.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Accessibility - Service  
+
+- Role: VCMA Application  
+- Requirement ID: NF-09  
+- Requirement Title: Enable Sharing Capabilities  
+- Requirement Description: The application must allow sharing individual lessons, health record information with doctors, and patient-consultant data exchange.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Accessibility - Service  
+
+- Role: VCMA Application  
+- Requirement ID: NF-10  
+- Requirement Title: Record Insurance in Service Format  
+- Requirement Description: The application must support recording insurance name and number in a compatible service format.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Compatibility - Service format  
+
+- Role: VCMA Application  
+- Requirement ID: NF-11  
+- Requirement Title: Provide Financial Transaction Reporting  
+- Requirement Description: The application must provide reporting for financial transactions.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Efficiency - Service  
+
+- Role: VCMA Application  
+- Requirement ID: NF-12  
+- Requirement Title: Support Multiple Login Methods  
+- Requirement Description: The application must support login methods including text password, email, activation code, and anonymously.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Security  
+
+- Role: VCMA Application  
+- Requirement ID: NF-13  
+- Requirement Title: Verify User Identity via Mobile Code  
+- Requirement Description: The application must verify the user’s identity by sending a verification code to the mobile phone.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Security  
+
+- Role: VCMA Application  
+- Requirement ID: NF-14  
+- Requirement Title: Allow Deletion of Records  
+- Requirement Description: The application must allow possibility of deleting consultation records, documents, and bank transactions.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Security  
+
+- Role: VCMA Application  
+- Requirement ID: NF-15  
+- Requirement Title: Encrypt Patient Data Exchange  
+- Requirement Description: The application must ensure encrypted patient data exchange.  
+- Citation: Parsaei et al. (2024)  
+- Requirement Related Title: Security

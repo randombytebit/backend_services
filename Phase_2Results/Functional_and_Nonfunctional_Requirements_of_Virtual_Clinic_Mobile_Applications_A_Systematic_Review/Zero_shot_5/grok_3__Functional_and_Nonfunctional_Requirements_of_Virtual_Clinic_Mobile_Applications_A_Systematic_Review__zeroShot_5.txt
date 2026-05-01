@@ -1,0 +1,180 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: System Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: Demographic Data Documentation
+- **Requirement Description**: The system must allow users to input and store demographic data including first name, surname, insurance name, and insurance number to ensure accurate patient identification and insurance processing.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Patient Identification and Insurance Management
+
+- **Role**: System Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Health Record Management
+- **Requirement Description**: The system must support comprehensive health record documentation including vital signs (blood pressure, heart rate), kidney data (blood sugar), fitness data (weight, exercise, sleep, nutrition), skin condition, medical history (disease, family history, allergies, medications, vaccinations, surgeries, smoking), present history (symptoms, X-rays, tests, treatments, prescriptions, patient training), inpatient treatment history (admission/discharge dates, hospital name, chief complaint, summary), and medication details (name, dose, type, instruction, side effects) to facilitate clinical decision-making.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Comprehensive Health Data Storage
+
+- **Role**: System Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: User Interface General Features - Reminders
+- **Requirement Description**: The system must provide reminder functionalities for appointments and preventive care to ensure patients and clinicians adhere to scheduled activities.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Appointment and Care Adherence
+
+- **Role**: System Developer
+- **Requirement ID**: FR-04
+- **Requirement Title**: User Interface General Features - Display
+- **Requirement Description**: The system must display patient self-declaration of health status, consultant identity (name, surname, profile picture), curriculum vitae (expertise, consulting field), communication type (phone call, text, video call, real-time), and appointment details (date, time, duration, waiting time for response) to enhance user interaction and transparency.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Transparent User Interaction
+
+- **Role**: System Developer
+- **Requirement ID**: FR-05
+- **Requirement Title**: User Interface General Features - Service Selection
+- **Requirement Description**: The system must enable users to select consultation day, time, and type of insurance to provide flexibility in scheduling and payment options.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Flexible Consultation Scheduling
+
+- **Role**: System Developer
+- **Requirement ID**: FR-06
+- **Requirement Title**: User Interface General Features - Reporting
+- **Requirement Description**: The system must generate weekly/monthly reports on the patient’s treatment process and vital signs/medical history to support ongoing monitoring and evaluation.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Treatment Progress Monitoring
+
+- **Role**: System Developer
+- **Requirement ID**: FR-07
+- **Requirement Title**: User Interface General Features - Support
+- **Requirement Description**: The system must provide support features including documentation of communication methods (tagging capability, frequently asked questions) and Q&A ability (discussion forum with patients and consultants) to facilitate user assistance and community interaction.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: User Assistance and Community Engagement
+
+- **Role**: System Developer
+- **Requirement ID**: FR-08
+- **Requirement Title**: User Interface General Features - Help/Tutorial
+- **Requirement Description**: The system must include help and tutorial features such as text guides, in-app training, 'About Us' information, and terms and conditions of use to guide users in navigating and understanding the application.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: User Onboarding and Guidance
+
+- **Role**: System Developer
+- **Requirement ID**: FR-09
+- **Requirement Title**: Orchestration Step - Data Collection and Storage
+- **Requirement Description**: The system must orchestrate the collection and secure storage of demographic and health record data as a foundational step for all subsequent functionalities.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Data Management Workflow
+
+- **Role**: System Developer
+- **Requirement ID**: FR-10
+- **Requirement Title**: Orchestration Step - Communication Setup
+- **Requirement Description**: The system must orchestrate the setup of communication channels (phone, text, video) between patients and consultants to enable virtual consultations.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Virtual Consultation Enablement
+
+- **Role**: System Developer
+- **Requirement ID**: FR-11
+- **Requirement Title**: Orchestration Step - Appointment Scheduling
+- **Requirement Description**: The system must orchestrate the scheduling of appointments, including reminders and notifications, to ensure timely interactions between patients and consultants.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Appointment Management Workflow
+
+- **Role**: System Developer
+- **Requirement ID**: FR-12
+- **Requirement Title**: Automated Retraining Trigger - Data Update Frequency
+- **Requirement Description**: The system must trigger automated retraining of predictive models or recommendation algorithms when significant updates to health record data occur (e.g., new vital signs or treatment outcomes) to maintain accuracy in clinical decision support.
+- **Citation**: Parsaei et al., 2024, Section 4
+- **Requirement Related Title**: Model Accuracy Maintenance
+
+- **Role**: System Developer
+- **Requirement ID**: FR-13
+- **Requirement Title**: Automated Retraining Trigger - User Feedback
+- **Requirement Description**: The system must trigger automated retraining of user interaction models based on feedback regarding consultant performance or user experience to improve service delivery.
+- **Citation**: Parsaei et al., 2024, Section 4
+- **Requirement Related Title**: Service Quality Improvement
+
+- **Role**: System Developer
+- **Requirement ID**: FR-14
+- **Requirement Title**: API Endpoint - Patient Data Access
+- **Requirement Description**: The system must provide an API endpoint to securely access patient demographic and health record data for integration with external systems or third-party applications.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Secure Data Integration
+
+- **Role**: System Developer
+- **Requirement ID**: FR-15
+- **Requirement Title**: API Endpoint - Appointment Scheduling
+- **Requirement Description**: The system must provide an API endpoint for scheduling and managing appointments, including setting reminders and notifications, to enable seamless integration with external calendars or systems.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Appointment Integration
+
+- **Role**: System Developer
+- **Requirement ID**: FR-16
+- **Requirement Title**: API Endpoint - Communication Interface
+- **Requirement Description**: The system must provide an API endpoint to initiate and manage communication sessions (phone, text, video) between patients and consultants for virtual care delivery.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Virtual Communication Integration
+
+**Non-Functional Requirements**
+
+- **Role**: System Architect
+- **Requirement ID**: NF-01
+- **Requirement Title**: Usability - User Settings
+- **Requirement Description**: The system must ensure high usability by allowing users to create personal profiles, configure microphone and camera settings, select measurement units (e.g., centimeters, meters for height), enable video calls with multiple participants, choose conversation starters, and log out easily to enhance user experience.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Enhanced User Interaction
+
+- **Role**: System Architect
+- **Requirement ID**: NF-02
+- **Requirement Title**: Accessibility - Service Features
+- **Requirement Description**: The system must be accessible by supporting features to save and mark appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant performance; select text from a default list; and share individual lessons, health record information with doctors, and patient-consultant data exchange to ensure inclusivity.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Inclusive Service Access
+
+- **Role**: System Architect
+- **Requirement ID**: NF-03
+- **Requirement Title**: Compatibility - Service Format
+- **Requirement Description**: The system must be compatible with various formats, including the ability to record insurance name and number, ensuring integration with diverse insurance systems and platforms.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Cross-System Integration
+
+- **Role**: System Architect
+- **Requirement ID**: NF-04
+- **Requirement Title**: Efficiency - Financial Transactions
+- **Requirement Description**: The system must operate efficiently by providing financial transaction reporting to minimize processing delays and optimize resource usage during payment-related operations.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Transaction Processing Optimization
+
+- **Role**: System Architect
+- **Requirement ID**: NF-05
+- **Requirement Title**: Security - User Authentication and Data Protection
+- **Requirement Description**: The system must ensure security through multiple login methods (text password, email, activation code, anonymous access), user identity verification via mobile verification codes, the ability to delete consultation records, documents, and bank transactions, and encrypted patient data exchange to protect user privacy and data integrity.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Data Privacy and Security
+
+- **Role**: System Architect
+- **Requirement ID**: NF-06
+- **Requirement Title**: Scalability - User Load Handling
+- **Requirement Description**: The system must be scalable to handle an increasing number of users and data volume without performance degradation, supporting global expansion and diverse user bases.
+- **Citation**: Parsaei et al., 2024, Section 4
+- **Requirement Related Title**: Performance Under Load
+
+- **Role**: System Architect
+- **Requirement ID**: NF-07
+- **Requirement Title**: Availability - System Uptime
+- **Requirement Description**: The system must ensure high availability with minimal downtime (targeting 99.9% uptime) to provide uninterrupted access to virtual clinic services for patients and clinicians.
+- **Citation**: Parsaei et al., 2024, Section 4
+- **Requirement Related Title**: Continuous Service Access
+
+- **Role**: System Architect
+- **Requirement ID**: NF-08
+- **Requirement Title**: Energy Efficiency - Resource Optimization
+- **Requirement Description**: The system must be designed for energy efficiency by optimizing server and application resource usage to reduce power consumption, especially for mobile devices with limited battery life.
+- **Citation**: Parsaei et al., 2024, Section 3.3
+- **Requirement Related Title**: Sustainable Operation
+
+- **Role**: System Architect
+- **Requirement ID**: NF-09
+- **Requirement Title**: Cross-Platform Compatibility - Operating Systems
+- **Requirement Description**: The system must be compatible across multiple operating systems (iOS, Android, Windows, etc.) to ensure accessibility for users on different devices and platforms.
+- **Citation**: Parsaei et al., 2024, Section 4
+- **Requirement Related Title**: Universal Device Support

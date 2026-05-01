@@ -1,0 +1,385 @@
+REQUIREMENT REPORT
+- Role: Patient
+- Requirement ID: FR-01
+- Requirement Title: Identity Documentation
+- Requirement Description: Documentation of first name and surname.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Demographic data documentation
+- Role: Patient
+- Requirement ID: FR-02
+- Requirement Title: Insurance Documentation
+- Requirement Description: Documentation of insurance name and number.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Demographic data documentation
+- Role: Patient
+- Requirement ID: FR-03
+- Requirement Title: Blood Pressure Documentation
+- Requirement Description: Documentation of blood pressure as vital sign.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-04
+- Requirement Title: Heart Rate Documentation
+- Requirement Description: Documentation of heart rate as vital sign.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-05
+- Requirement Title: Blood Sugar Documentation
+- Requirement Description: Documentation of blood sugar under kidney documentation.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-06
+- Requirement Title: Weight Documentation
+- Requirement Description: Documentation of weight under fitness.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-07
+- Requirement Title: Exercise Documentation
+- Requirement Description: Documentation of exercise under fitness.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-08
+- Requirement Title: Sleep Documentation
+- Requirement Description: Documentation of sleep under fitness.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-09
+- Requirement Title: Nutrition Documentation
+- Requirement Description: Documentation of nutrition under fitness.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-10
+- Requirement Title: Skin Condition Documentation
+- Requirement Description: Documentation of skin condition.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-11
+- Requirement Title: Disease History Documentation
+- Requirement Description: Documentation of disease history.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-12
+- Requirement Title: Family History Documentation
+- Requirement Description: Documentation of family history.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-13
+- Requirement Title: Allergy Documentation
+- Requirement Description: Documentation of allergies.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-14
+- Requirement Title: Medications History Documentation
+- Requirement Description: Documentation of medications history.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-15
+- Requirement Title: Vaccination Documentation
+- Requirement Description: Documentation of vaccination.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-16
+- Requirement Title: Surgeries Documentation
+- Requirement Description: Documentation of surgeries.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-17
+- Requirement Title: Smoking Documentation
+- Requirement Description: Documentation of smoking.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-18
+- Requirement Title: Symptoms and Conditions Documentation
+- Requirement Description: Documentation of symptoms and conditions.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-19
+- Requirement Title: X-ray Documentation
+- Requirement Description: Documentation of X-ray.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-20
+- Requirement Title: Tests Documentation
+- Requirement Description: Documentation of tests.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-21
+- Requirement Title: Treatments Documentation
+- Requirement Description: Documentation of treatments.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-22
+- Requirement Title: Prescriptions Documentation
+- Requirement Description: Documentation of prescriptions.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-23
+- Requirement Title: Patient Training Documentation
+- Requirement Description: Documentation of patient training.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-24
+- Requirement Title: Admission and Discharge Dates Documentation
+- Requirement Description: Documentation of date of admission and discharge.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-25
+- Requirement Title: Hospital Name Documentation
+- Requirement Description: Documentation of hospital name.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-26
+- Requirement Title: Chief Complaint Documentation
+- Requirement Description: Documentation of chief complaint.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-27
+- Requirement Title: Summary Documentation
+- Requirement Description: Documentation of summary for inpatient treatment history.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-28
+- Requirement Title: Medication Name Documentation
+- Requirement Description: Documentation of medication name.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-29
+- Requirement Title: Medication Dose Documentation
+- Requirement Description: Documentation of medication dose.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-30
+- Requirement Title: Medication Type Documentation
+- Requirement Description: Documentation of medication type.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-31
+- Requirement Title: Medication Instruction Documentation
+- Requirement Description: Documentation of medication instruction.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-32
+- Requirement Title: Medication Side Effects Documentation
+- Requirement Description: Documentation of medication side effects.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: Health record
+- Role: Patient
+- Requirement ID: FR-33
+- Requirement Title: Appointment Reminders
+- Requirement Description: Reminders for appointments.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-34
+- Requirement Title: Preventive Care Reminders
+- Requirement Description: Reminders for preventive care.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-35
+- Requirement Title: Patient Health Status Self-Declaration Display
+- Requirement Description: Display of patient’s self-declaration about his health status.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-36
+- Requirement Title: Consultant Identity Display
+- Requirement Description: Display of consultant identity: name, surname, and profile picture.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-37
+- Requirement Title: Consultant Curriculum Vitae Display
+- Requirement Description: Display of curriculum vitae: expertise and consulting field.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-38
+- Requirement Title: Communication Type Display
+- Requirement Description: Display of type of communication: phone call, text, video call, and real-time.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-39
+- Requirement Title: Appointment Details Display
+- Requirement Description: Display of appointment: consultation date, time, duration, and waiting time for response.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-40
+- Requirement Title: Consultation Service Selection
+- Requirement Description: Choosing consultation day, time, and type of insurance.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-41
+- Requirement Title: Treatment Process Reports
+- Requirement Description: Providing weekly/monthly reports on the patient’s treatment process.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Patient
+- Requirement ID: FR-42
+- Requirement Title: Vital Signs and Medical History Reports
+- Requirement Description: Providing weekly/monthly reports of vital signs and medical history.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Both
+- Requirement ID: FR-43
+- Requirement Title: Communication Ways Documentation
+- Requirement Description: Documentation of communication ways: tagging capability in VCMA and frequently asked questions.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Both
+- Requirement ID: FR-44
+- Requirement Title: Q&A Discussion Forum
+- Requirement Description: Q and A ability: discussion forum with others (patients and consultants).
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Both
+- Requirement ID: FR-45
+- Requirement Title: Text Guide and Help
+- Requirement Description: Text guide: help.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Both
+- Requirement ID: FR-46
+- Requirement Title: In-App Training
+- Requirement Description: Training inside VCMA: working with it.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Both
+- Requirement ID: FR-47
+- Requirement Title: About Us Section
+- Requirement Description: About us.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Both
+- Requirement ID: FR-48
+- Requirement Title: Terms and Conditions Display
+- Requirement Description: Terms and conditions of use.
+- Citation: Parsaei et al. (2024), Table 1
+- Requirement Related Title: General features of UI
+- Role: Both
+- Requirement ID: NF-01
+- Requirement Title: Personal Profile Creation
+- Requirement Description: Creating a personal profile for the user (consultant-patient).
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Usability
+- Role: Both
+- Requirement ID: NF-02
+- Requirement Title: Microphone Support
+- Requirement Description: Microphone functionality for users.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Usability
+- Role: Both
+- Requirement ID: NF-03
+- Requirement Title: Camera Support
+- Requirement Description: Camera functionality for users.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Usability
+- Role: Both
+- Requirement ID: NF-04
+- Requirement Title: Measurement Units Selection
+- Requirement Description: Selection of measurement units like centimeters and meters for height.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Usability
+- Role: Both
+- Requirement ID: NF-05
+- Requirement Title: Multi-Participant Video Calls
+- Requirement Description: Video call with other participants: making a video call with other connected individuals.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Usability
+- Role: Both
+- Requirement ID: NF-06
+- Requirement Title: Conversation Starter Selection
+- Requirement Description: Selecting conversation starter.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Usability
+- Role: Both
+- Requirement ID: NF-07
+- Requirement Title: Log Out Functionality
+- Requirement Description: Log out capability.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Usability
+- Role: Patient
+- Requirement ID: NF-08
+- Requirement Title: Save and Mark Features
+- Requirement Description: Save and mark appointments, reminders, notes, recorded voices, photos, and messages.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Accessibility
+- Role: Patient
+- Requirement ID: NF-09
+- Requirement Title: Consultant Feedback and Text Selection
+- Requirement Description: Send feedback on consultant’s performance and select text from a default list.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Accessibility
+- Role: Patient
+- Requirement ID: NF-10
+- Requirement Title: Data Sharing Capabilities
+- Requirement Description: Ability to share individual lessons, health record information with doctors, and patient-consultant data exchange.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Accessibility
+- Role: Patient
+- Requirement ID: NF-11
+- Requirement Title: Insurance Compatibility
+- Requirement Description: Insurance service format: recording name and number.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Compatibility
+- Role: Both
+- Requirement ID: NF-12
+- Requirement Title: Financial Transaction Reporting
+- Requirement Description: Financial transaction reporting for efficiency.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Efficiency
+- Role: Both
+- Requirement ID: NF-13
+- Requirement Title: Multiple Login Methods
+- Requirement Description: Login method: text password, email, activation code, and anonymously.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Security
+- Role: Both
+- Requirement ID: NF-14
+- Requirement Title: Identity Verification
+- Requirement Description: Verify the user’s identity by sending a verification code to the mobile phone.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Security
+- Role: Both
+- Requirement ID: NF-15
+- Requirement Title: Data Deletion Capability
+- Requirement Description: Possibility of deleting consultation records, documents, and bank transactions.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Security
+- Role: Both
+- Requirement ID: NF-16
+- Requirement Title: Encrypted Data Exchange
+- Requirement Description: Encrypted patient data exchange.
+- Citation: Parsaei et al. (2024), Table 2
+- Requirement Related Title: Security

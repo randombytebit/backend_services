@@ -1,0 +1,442 @@
+REQUIREMENT REPORT
+
+- Role: VCMA Developer
+- Requirement ID: FR-01
+- Requirement Title: Document User Identity
+- Requirement Description: Capture and store the user's first name and surname for identification purposes.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Demographic data documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-02
+- Requirement Title: Document Insurance Details
+- Requirement Description: Capture and store the user's insurance name and number for billing and coverage purposes.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Demographic data documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-03
+- Requirement Title: Document Blood Pressure
+- Requirement Description: Record and track the user's blood pressure as part of vital signs in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Vital sign documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-04
+- Requirement Title: Document Heart Rate
+- Requirement Description: Record and track the user's heart rate as part of vital signs in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Vital sign documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-05
+- Requirement Title: Document Blood Sugar
+- Requirement Description: Record and track the user's blood sugar levels as part of kidney-related health documentation in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Kidney documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-06
+- Requirement Title: Document Weight
+- Requirement Description: Record and track the user's weight as part of fitness documentation in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Fitness documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-07
+- Requirement Title: Document Exercise
+- Requirement Description: Record and track the user's exercise activities as part of fitness documentation in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Fitness documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-08
+- Requirement Title: Document Sleep
+- Requirement Description: Record and track the user's sleep patterns as part of fitness documentation in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Fitness documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-09
+- Requirement Title: Document Nutrition
+- Requirement Description: Record and track the user's nutrition intake as part of fitness documentation in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Fitness documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-10
+- Requirement Title: Document Skin Condition
+- Requirement Description: Record and track the condition of the user's skin as part of health documentation in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Skin documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-11
+- Requirement Title: Document Disease History
+- Requirement Description: Record the user's past disease history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-12
+- Requirement Title: Document Family History
+- Requirement Description: Record the user's family medical history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-13
+- Requirement Title: Document Allergies
+- Requirement Description: Record the user's allergies in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-14
+- Requirement Title: Document Medications History
+- Requirement Description: Record the user's past medications history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-15
+- Requirement Title: Document Vaccination History
+- Requirement Description: Record the user's vaccination history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-16
+- Requirement Title: Document Surgeries
+- Requirement Description: Record the user's surgical history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-17
+- Requirement Title: Document Smoking History
+- Requirement Description: Record the user's smoking history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - History documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-18
+- Requirement Title: Document Symptoms and Conditions
+- Requirement Description: Record current symptoms and conditions in the present history of the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-19
+- Requirement Title: Document X-ray Results
+- Requirement Description: Record X-ray results in the present history of the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-20
+- Requirement Title: Document Tests
+- Requirement Description: Record test results in the present history of the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-21
+- Requirement Title: Document Treatments
+- Requirement Description: Record ongoing treatments in the present history of the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-22
+- Requirement Title: Document Prescriptions
+- Requirement Description: Record prescriptions in the present history of the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-23
+- Requirement Title: Document Patient Training
+- Requirement Description: Record patient training and education in the present history of the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Present history documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-24
+- Requirement Title: Document Admission and Discharge Dates
+- Requirement Description: Record dates of admission and discharge for inpatient treatment history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Documentation of inpatient treatment history
+
+- Role: VCMA Developer
+- Requirement ID: FR-25
+- Requirement Title: Document Hospital Name
+- Requirement Description: Record the hospital name for inpatient treatment history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Documentation of inpatient treatment history
+
+- Role: VCMA Developer
+- Requirement ID: FR-26
+- Requirement Title: Document Chief Complaint
+- Requirement Description: Record the chief complaint for inpatient treatment history in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Documentation of inpatient treatment history
+
+- Role: VCMA Developer
+- Requirement ID: FR-27
+- Requirement Title: Document Treatment Summary
+- Requirement Description: Record a summary of inpatient treatment in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Documentation of inpatient treatment history
+
+- Role: VCMA Developer
+- Requirement ID: FR-28
+- Requirement Title: Document Medication Name
+- Requirement Description: Record the name of medications in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-29
+- Requirement Title: Document Medication Dose
+- Requirement Description: Record the dose of medications in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-30
+- Requirement Title: Document Medication Type
+- Requirement Description: Record the type of medications in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-31
+- Requirement Title: Document Medication Instructions
+- Requirement Description: Record instructions for medications in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-32
+- Requirement Title: Document Medication Side Effects
+- Requirement Description: Record side effects of medications in the health record.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Health record - Medication documentation
+
+- Role: VCMA Developer
+- Requirement ID: FR-33
+- Requirement Title: Appointment Reminders
+- Requirement Description: Provide reminders for appointments via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Reminders
+
+- Role: VCMA Developer
+- Requirement ID: FR-34
+- Requirement Title: Preventive Care Reminders
+- Requirement Description: Provide reminders for preventive care via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Reminders
+
+- Role: VCMA Developer
+- Requirement ID: FR-35
+- Requirement Title: Display Patient Self-Declaration
+- Requirement Description: Display the patient's self-declared health status via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: VCMA Developer
+- Requirement ID: FR-36
+- Requirement Title: Display Consultant Identity
+- Requirement Description: Display consultant's name, surname, and profile picture via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: VCMA Developer
+- Requirement ID: FR-37
+- Requirement Title: Display Consultant Curriculum Vitae
+- Requirement Description: Display consultant's expertise and consulting field via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: VCMA Developer
+- Requirement ID: FR-38
+- Requirement Title: Display Communication Types
+- Requirement Description: Display types of communication including phone call, text, video call, and real-time via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: VCMA Developer
+- Requirement ID: FR-39
+- Requirement Title: Display Appointment Details
+- Requirement Description: Display consultation date, time, duration, and waiting time for response via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Display
+
+- Role: VCMA Developer
+- Requirement ID: FR-40
+- Requirement Title: Service Selection for Consultation
+- Requirement Description: Allow users to choose consultation day, time, and type of insurance via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Service selection
+
+- Role: VCMA Developer
+- Requirement ID: FR-41
+- Requirement Title: Treatment Process Reports
+- Requirement Description: Provide weekly/monthly reports on the patient’s treatment process via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Reporting
+
+- Role: VCMA Developer
+- Requirement ID: FR-42
+- Requirement Title: Vital Signs and History Reports
+- Requirement Description: Provide weekly/monthly reports of vital signs and medical history via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Reporting
+
+- Role: VCMA Developer
+- Requirement ID: FR-43
+- Requirement Title: Communication Support Documentation
+- Requirement Description: Document communication ways including tagging capability and frequently asked questions via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Support
+
+- Role: VCMA Developer
+- Requirement ID: FR-44
+- Requirement Title: Q&A Discussion Forum
+- Requirement Description: Provide Q&A ability through a discussion forum with patients and consultants via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Support
+
+- Role: VCMA Developer
+- Requirement ID: FR-45
+- Requirement Title: Text Guide Help
+- Requirement Description: Provide text-based help guides via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Help/tutorial
+
+- Role: VCMA Developer
+- Requirement ID: FR-46
+- Requirement Title: In-App Training
+- Requirement Description: Provide training inside the VCMA on how to work with it via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Help/tutorial
+
+- Role: VCMA Developer
+- Requirement ID: FR-47
+- Requirement Title: About Us Section
+- Requirement Description: Provide an "About Us" section via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Help/tutorial
+
+- Role: VCMA Developer
+- Requirement ID: FR-48
+- Requirement Title: Terms and Conditions
+- Requirement Description: Provide terms and conditions of use via the UI.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: General features of UI - Help/tutorial
+
+- Role: VCMA Developer
+- Requirement ID: NF-01
+- Requirement Title: Personal Profile Creation
+- Requirement Description: Allow creation of a personal profile for users (consultants and patients) under usability settings.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: VCMA Developer
+- Requirement ID: NF-02
+- Requirement Title: Microphone Integration
+- Requirement Description: Integrate microphone functionality for audio features under usability settings.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: VCMA Developer
+- Requirement ID: NF-03
+- Requirement Title: Camera Integration
+- Requirement Description: Integrate camera functionality for video features under usability settings.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: VCMA Developer
+- Requirement ID: NF-04
+- Requirement Title: Measurement Units Selection
+- Requirement Description: Allow selection of measurement units (e.g., centimeters and meters for height) under usability settings.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: VCMA Developer
+- Requirement ID: NF-05
+- Requirement Title: Multi-Participant Video Calls
+- Requirement Description: Enable video calls with other connected participants under usability settings.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: VCMA Developer
+- Requirement ID: NF-06
+- Requirement Title: Conversation Starter Selection
+- Requirement Description: Allow selection of conversation starters under usability settings.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: VCMA Developer
+- Requirement ID: NF-07
+- Requirement Title: Log Out Functionality
+- Requirement Description: Provide a log out option under usability settings.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Usability - Setting
+
+- Role: VCMA Developer
+- Requirement ID: NF-08
+- Requirement Title: Save and Mark Features
+- Requirement Description: Enable saving and marking of appointments, reminders, notes, recorded voices, photos, and messages; allow sending feedback on consultant performance and selecting text from a default list under accessibility services.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Accessibility - Service
+
+- Role: VCMA Developer
+- Requirement ID: NF-09
+- Requirement Title: Data Sharing Ability
+- Requirement Description: Enable sharing of individual lessons, health record information with doctors, and patient-consultant data exchange under accessibility services.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Accessibility - Service
+
+- Role: VCMA Developer
+- Requirement ID: NF-10
+- Requirement Title: Insurance Recording Compatibility
+- Requirement Description: Ensure compatibility for recording insurance name and number in service formats.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Compatibility - Service format
+
+- Role: VCMA Developer
+- Requirement ID: NF-11
+- Requirement Title: Financial Transaction Reporting
+- Requirement Description: Provide reporting for financial transactions under efficiency services.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Efficiency - Service
+
+- Role: VCMA Developer
+- Requirement ID: NF-12
+- Requirement Title: Multiple Login Methods
+- Requirement Description: Support login methods including text password, email, activation code, and anonymously for security.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: VCMA Developer
+- Requirement ID: NF-13
+- Requirement Title: User Identity Verification
+- Requirement Description: Verify user identity by sending a verification code to the mobile phone for security.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: VCMA Developer
+- Requirement ID: NF-14
+- Requirement Title: Data Deletion Capability
+- Requirement Description: Allow deletion of consultation records, documents, and bank transactions for security.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Security
+
+- Role: VCMA Developer
+- Requirement ID: NF-15
+- Requirement Title: Encrypted Data Exchange
+- Requirement Description: Ensure encrypted exchange of patient data for security.
+- Citation: Parsaei et al. (2024)
+- Requirement Related Title: Security

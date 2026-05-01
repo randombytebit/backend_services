@@ -1,0 +1,138 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-01
+- **Requirement Title**: Demographic Data Documentation
+- **Requirement Description**: The system must allow users to input and store demographic data including first name, surname, insurance name, and insurance number for identification and administrative purposes.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Demographic Data Documentation
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-02
+- **Requirement Title**: Health Record Management
+- **Requirement Description**: The system must enable documentation and management of health records including vital signs (blood pressure, heart rate), kidney data (blood sugar), fitness data (weight, exercise, sleep, nutrition), skin condition, medical history (disease, family history, allergies, medications, vaccinations, surgeries, smoking), present history (symptoms, conditions, X-rays, tests, treatments, prescriptions, patient training), inpatient treatment history (admission/discharge dates, hospital name, chief complaint, summary), and medication details (name, dose, type, instruction, side effects).
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: Health Record
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-03
+- **Requirement Title**: Appointment and Preventive Care Reminders
+- **Requirement Description**: The system must provide reminders for appointments and preventive care to ensure users do not miss scheduled consultations or health maintenance activities.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: General Features of UI - Reminders
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-04
+- **Requirement Title**: Health Status and Consultant Information Display
+- **Requirement Description**: The system must display the patient’s self-declared health status, consultant identity (name, surname, profile picture), curriculum vitae (expertise, consulting field), type of communication (phone call, text, video call, real-time), and appointment details (consultation date, time, duration, waiting time for response).
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: General Features of UI - Display
+
+- **Role**: User (Patient)
+- **Requirement ID**: FR-05
+- **Requirement Title**: Service Selection Interface
+- **Requirement Description**: The system must allow users to select consultation day, time, and type of insurance for scheduling appointments.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: General Features of UI - Service Selection
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-06
+- **Requirement Title**: Treatment and Vital Signs Reporting
+- **Requirement Description**: The system must generate and provide weekly/monthly reports on the patient’s treatment process and vital signs/medical history for monitoring and review.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: General Features of UI - Reporting
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-07
+- **Requirement Title**: Communication and Support Features
+- **Requirement Description**: The system must support documentation of communication methods (tagging capability in VCMA, frequently asked questions) and provide a Q&A ability through a discussion forum for interaction between patients and consultants.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: General Features of UI - Support
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-08
+- **Requirement Title**: Help and Tutorial Resources
+- **Requirement Description**: The system must include help and tutorial resources such as text guides, in-app training on usage, an "About Us" section, and terms and conditions of use to assist users in navigating and understanding the application.
+- **Citation**: Parsaei et al., 2024, Table 1
+- **Requirement Related Title**: General Features of UI - Help/Tutorial
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-09
+- **Requirement Title**: Multimedia Communication Options
+- **Requirement Description**: The system must support multiple communication modes including voice, video, and text calls to facilitate virtual consultations with doctors.
+- **Citation**: Parsaei et al., 2024, p. 2
+- **Requirement Related Title**: General Features of UI - Type of Communication
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-10
+- **Requirement Title**: Information Sharing Feature
+- **Requirement Description**: The system must allow users to share various types of media such as images, videos, audio, and radiographs to support clinical consultations and data exchange.
+- **Citation**: Parsaei et al., 2024, p. 6
+- **Requirement Related Title**: Accessibility - Ability to Share
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: FR-11
+- **Requirement Title**: Chat Room for Peer and Therapist Interaction
+- **Requirement Description**: The system must provide chat rooms for group discussions among patients, peers, and therapists to facilitate knowledge sharing, emotional support, and self-management.
+- **Citation**: Parsaei et al., 2024, p. 6
+- **Requirement Related Title**: General Features of UI - Support
+
+**Non-Functional Requirements**
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: NF-01
+- **Requirement Title**: Usability of User Interface
+- **Requirement Description**: The system must ensure a user-friendly interface with features such as personal profile creation, microphone and camera settings, measurement unit selection (e.g., centimeters, meters for height), video call capabilities with other participants, conversation starter selection, and logout functionality to enhance user interaction and experience.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Usability - Setting
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: NF-02
+- **Requirement Title**: Accessibility Features
+- **Requirement Description**: The system must be accessible by allowing users to save and mark appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant performance; select text from a default list; and share individual lessons and health record information with doctors for effective data exchange.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Accessibility - Service
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: NF-03
+- **Requirement Title**: Compatibility with Insurance Systems
+- **Requirement Description**: The system must be compatible with insurance systems by allowing the recording of insurance name and number to facilitate administrative processes.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Compatibility - Service Format
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: NF-04
+- **Requirement Title**: Efficiency in Financial Transactions
+- **Requirement Description**: The system must efficiently handle financial transaction reporting to ensure smooth administrative and billing processes.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Efficiency - Service
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: NF-05
+- **Requirement Title**: Security and Privacy Measures
+- **Requirement Description**: The system must ensure security through login methods (text password, email, activation code, anonymous access), user identity verification via mobile verification codes, the ability to delete consultation records, documents, and bank transactions, and encrypted patient data exchange to protect user privacy.
+- **Citation**: Parsaei et al., 2024, Table 2
+- **Requirement Related Title**: Security
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: NF-06
+- **Requirement Title**: Cognitive Load Reduction
+- **Requirement Description**: The system must be designed to minimize cognitive load by providing a clear and unambiguous user interface, reducing search time for information, and ensuring intuitive navigation.
+- **Citation**: Parsaei et al., 2024, p. 6
+- **Requirement Related Title**: Usability - UI Design
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: NF-07
+- **Requirement Title**: Response Time for Consultations
+- **Requirement Description**: The system must ensure minimal waiting time for responses during consultations and provide scheduled visit times to help users manage their time effectively.
+- **Citation**: Parsaei et al., 2024, p. 5
+- **Requirement Related Title**: Efficiency - Service
+
+- **Role**: User (Patient/Clinician)
+- **Requirement ID**: NF-08
+- **Requirement Title**: Multilingual and Aesthetic UI Design
+- **Requirement Description**: The system must support a multilingual user interface for international expansion and adhere to aesthetic principles to enhance user experience and accessibility across diverse user groups.
+- **Citation**: Parsaei et al., 2024, p. 6
+- **Requirement Related Title**: Usability - UI Design
