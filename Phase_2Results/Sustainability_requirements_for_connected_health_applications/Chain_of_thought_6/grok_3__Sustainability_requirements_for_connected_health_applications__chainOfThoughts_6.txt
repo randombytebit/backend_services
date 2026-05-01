@@ -1,0 +1,116 @@
+**Requirements Extraction for Singularity AI Platform: Sustainability Requirements for Connected Health Applications**
+
+As a Requirements Engineering Consultant for the Singularity AI Platform, I will extract and structure requirements from the provided paper by Ouhbi et al. (2018) titled "Sustainability requirements for connected health applications." The goal is to enable automated conversion of technical text into structured, human-verified requirements, ensuring each functional task is paired with a transparency or explainability constraint for XAI testing. I will follow the formatting rules and apply a step-by-step reasoning process to ensure clarity and adherence to the updated logic of maintaining individual identifiers for each requirement.
+
+**Refinement Reasoning: Let's think step by step**
+
+1. **Identify Core Functional Logic for Connected Health (CH) Apps:** The paper emphasizes the development of sustainable CH applications that support patient self-management, health monitoring, and data sharing. Functional requirements (FRs) will focus on key capabilities such as user authentication, personal data management, and health record access. These are derived from the SCH-CAT catalog detailed in the paper.
+2. **Identify Sustainability and Transparency Constraints:** Sustainability in CH apps spans individual, social, environmental, and technical dimensions. Non-functional requirements (NFRs) will focus on quality attributes like privacy, usability, energy efficiency, and explainability to ensure trust and verifiability of AI-driven outputs, aligning with XAI principles.
+3. **Assign Roles:** The primary roles are the 'System' (responsible for executing functionalities and ensuring quality attributes) and the 'User' (interacting with the system for health management). Each requirement will be assigned to the appropriate role based on the context.
+4. **Draft Descriptions:** Descriptions will be precise, reflecting the paper's content (e.g., Tables 2-5) and ensuring alignment with sustainability dimensions. For transparency, explanations of system actions (e.g., data handling or energy usage) will be included as NFRs.
+5. **Generate Unique Related Titles:** Each requirement will have a unique contextual example or domain to illustrate applicability, ensuring no overlap or extra requirements. Domains will reflect health-related scenarios where sustainability and explainability are critical.
+6. **Pair Functional and Non-Functional Requirements:** Each FR will be paired with a corresponding NFR to ensure transparency or explainability, supporting high precision and recall in XAI testing.
+
+**Expected Output: Structured Requirements**
+
+Below are the extracted requirements, formatted as per the guidelines, covering key sustainability dimensions and ensuring transparency constraints for XAI integration.
+
+---
+
+**Functional Requirement 1**  
+- **Role:** System  
+- **Requirement ID:** FR-01  
+- **Title:** User Authentication for CH Apps  
+- **Description:** The system shall provide an authentication procedure for users to access the connected health application, allowing users to choose whether to be authenticated or not via app settings and supporting login through social network accounts or traditional credentials.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.1, Table 2, Req. 1.1.1.1-1.1.1.2]  
+- **Related Title:** Blood Donation App Security Systems  
+
+**Non-Functional Requirement 1 (Paired with FR-01)**  
+- **Role:** System  
+- **Requirement ID:** NFR-01  
+- **Title:** Transparency in Authentication Process  
+- **Description:** The system shall provide clear explanations to users about the authentication process, including how their credentials or social network data are used, stored, and protected, to ensure trust and verifiability of access control mechanisms.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.1, Table 2, Req. 1.1.1]  
+- **Related Title:** Secure Login Transparency for Telehealth Platforms, Patient Data Access Control Systems  
+
+---
+
+**Functional Requirement 2**  
+- **Role:** System  
+- **Requirement ID:** FR-02  
+- **Title:** Personal Health Record Management  
+- **Description:** The system shall allow users to manage their personal health records, including the ability to edit, add, remove, share, import, export, and back up health data through the connected health application.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.1, Table 2, Req. 1.2.2.1-1.2.2.7]  
+- **Related Title:** Mobile Personal Health Record Systems  
+
+**Non-Functional Requirement 2 (Paired with FR-02)**  
+- **Role:** System  
+- **Requirement ID:** NFR-02  
+- **Title:** Explainability of Health Data Handling  
+- **Description:** The system shall provide understandable explanations to users about how their health data is managed, including details on data storage, sharing protocols, and backup processes, to ensure trust and compliance with privacy regulations.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.1, Table 2, Req. 1.1.2]  
+- **Related Title:** Privacy Assurance in Cardiology Monitoring Apps, Data Transparency in Diabetes Management Systems  
+
+---
+
+**Functional Requirement 3**  
+- **Role:** System  
+- **Requirement ID:** FR-03  
+- **Title:** Social Interaction via CH Apps  
+- **Description:** The system shall promote interaction among users through social networks or online healthcare forums and support social solidarity via a rewards system within the connected health application.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.2, Table 3, Req. 1.1-1.2]  
+- **Related Title:** Community Building in Chronic Disease Support Apps  
+
+**Non-Functional Requirement 3 (Paired with FR-03)**  
+- **Role:** System  
+- **Requirement ID:** NFR-03  
+- **Title:** Transparency in Social Interaction Features  
+- **Description:** The system shall provide clear explanations to users about how social interaction data (e.g., forum posts or rewards) are collected, used, and shared, ensuring trust and informed participation in community features.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.2, Table 3, Req. 1.1]  
+- **Related Title:** Trust Mechanisms in Cancer Support Networks, Data Clarity in Mental Health Forums  
+
+---
+
+**Functional Requirement 4**  
+- **Role:** System  
+- **Requirement ID:** FR-04  
+- **Title:** Environmental Impact Reduction Features  
+- **Description:** The system shall reduce environmental impact by enabling users to find nearby healthcare centers and interchange data with EHRs, PHRs, or third parties, minimizing the need for physical transportation.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.3, Table 4, Req. 1.1.1-1.1.2.2]  
+- **Related Title:** Telemedicine Location Services for Rural Health Access  
+
+**Non-Functional Requirement 4 (Paired with FR-04)**  
+- **Role:** System  
+- **Requirement ID:** NFR-04  
+- **Title:** Explainability of Environmental Impact Features  
+- **Description:** The system shall provide users with explanations of how location-based services and data interchange features contribute to reducing environmental impact, including metrics on reduced travel or resource usage, to promote awareness and trust.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.3, Table 4, Req. 1.1]  
+- **Related Title:** Green Impact Reporting in Remote Consultation Apps, Sustainability Metrics in Emergency Response Systems  
+
+---
+
+**Functional Requirement 5**  
+- **Role:** System  
+- **Requirement ID:** FR-05  
+- **Title:** Energy Efficiency in CH Apps  
+- **Description:** The system shall ensure energy efficiency by shutting down the application in idle mode and supporting multiple user profiles on the same device to minimize resource consumption.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.4, Table 5, Req. 1.2.1-1.2.2]  
+- **Related Title:** Energy-Saving Features in Fitness Tracking Apps  
+
+**Non-Functional Requirement 5 (Paired with FR-05)**  
+- **Role:** System  
+- **Requirement ID:** NFR-05  
+- **Title:** Transparency in Energy Efficiency Mechanisms  
+- **Description:** The system shall provide users with clear explanations of how energy efficiency features (e.g., idle mode shutdown or profile management) operate and their impact on device battery life, ensuring trust and encouraging sustainable usage.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.4, Table 5, Req. 1.2]  
+- **Related Title:** Battery Optimization Reporting in Health Monitoring Apps, Energy Usage Clarity in Wearable Device Systems  
+
+---
+
+**Conclusion of Reasoning and Output Verification**  
+- Each functional requirement (FR-01 to FR-05) is derived from a specific sustainability dimension (individual, social, environmental, technical) as outlined in the SCH-CAT catalog of the paper.  
+- Each FR is paired with a corresponding non-functional requirement (NFR-01 to NFR-05) focusing on transparency or explainability, critical for XAI testing to ensure high precision and recall.  
+- Unique identifiers and related titles are assigned to each requirement, ensuring no overlap or extraneous entries, and reflecting relevant health domains.  
+- Citations are mapped to specific sections and tables in the paper for traceability.  
+
+This structured output aligns with the Singularity AI Platform's goal of automating requirement extraction while maintaining human-verifiable clarity and supporting XAI principles through transparency constraints.

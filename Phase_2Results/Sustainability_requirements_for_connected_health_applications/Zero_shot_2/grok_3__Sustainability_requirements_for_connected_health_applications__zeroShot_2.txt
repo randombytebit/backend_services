@@ -1,0 +1,166 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: User Authentication Options
+- **Requirement Description**: The connected health (CH) application shall provide users with the option to choose whether to be authenticated or not in the app's settings and allow access using a login or social network account.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirements 1.1.1.1 and 1.1.1.2
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Personal Information Management
+- **Requirement Description**: The CH application shall allow users to manage personal information by enabling editing, removing, adding, and sharing personal data in their profile, considering different countries' specific legislation or regulations regarding user ownership of personal information.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirements 1.1.2.1 to 1.1.2.4
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Personal Health and Well-being Promotion
+- **Requirement Description**: The CH application shall promote personal health and well-being by allowing users to consult health recommendations and manage personal health records, including editing, removing, adding, sharing, importing, exporting, and backing up health record data.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirements 1.2.1 to 1.2.2.7
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Social Interaction and Solidarity
+- **Requirement Description**: The CH application shall promote social interaction among users via social networks and/or online healthcare forums and encourage social solidarity through a rewards system.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirements 1.1 and 1.2
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Cultural Diversity and Multilingual Support
+- **Requirement Description**: The CH application shall be designed for cultural diversity and multilingual use by adapting content to user language preferences, supporting multiple languages with clear selection options, allowing language switching, adapting video/audio clips and help sections to user language preferences, using correct text alignment, appropriate formats, units of measurement or currency, and controlling advertisements to avoid cultural discrepancies.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirements 1.3.1 to 1.3.9
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Environmental Impact through Reduced Transportation
+- **Requirement Description**: The CH application shall reduce the need for transportation by enabling users to find nearby healthcare centers and providing data interchange capabilities with Electronic Health Records (EHRs), Personal Health Records (PHRs), or third parties for sending and receiving data.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirements 1.1.1 to 1.1.2.2
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-07
+- **Requirement Title**: User Convenience for Frequent Use
+- **Requirement Description**: The CH application shall be convenient for frequent use by utilizing pictures, icons, and graphs to explain ideas, contents, and illustrate health data history.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirements 1.2.1 to 1.2.3
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-08
+- **Requirement Title**: Connectivity with IT Resources
+- **Requirement Description**: The CH application shall connect to other IT resources by backing up data in repositories, drivers, or cloud systems, connecting to social networks, utilizing device features like Bluetooth and/or Near Field Communication (NFC), and integrating with map repositories to display locations.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirements 1.3.1 to 1.3.4
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-09
+- **Requirement Title**: Adaptation to Operating System Changes
+- **Requirement Description**: The CH application shall easily adapt to future operating system (OS) changes by respecting mobile OS development guidelines and being adapted to the mobile OS platform.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirements 1.1.1 to 1.1.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-10
+- **Requirement Title**: Energy Efficiency Features
+- **Requirement Description**: The CH application shall be energy-efficient by shutting down in idle mode and supporting the creation of different profiles on the same device.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirements 1.2.1 to 1.2.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-11
+- **Requirement Title**: Offline Access and Data Management
+- **Requirement Description**: The CH application shall allow users to access the app without an internet connection, edit data offline, and save edited data offline.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirements 1.3.1 to 1.3.3
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Developer
+- **Requirement ID**: FR-12
+- **Requirement Title**: Compliance with Standards for Sustainability
+- **Requirement Description**: The CH application shall comply with sustainability requirements derived from standards such as ISO/IEC 25010 for system and software quality, ISO 9241-151 for ergonomics of human-system interaction, ISO/TR 18307 for interoperability, and other relevant standards including ISO/HL7 27931, ISO 21090, ISO/TR 14292, ISO/TR 20514, ISO/TS 14265, ISO 27799, W3C standards, and HIPAA recommendations.
+- **Citation**: Section 3.1, Requirements Specification
+- **Requirement Related Title**: SCH-CAT Development
+
+- **Role**: Developer
+- **Requirement ID**: FR-13
+- **Requirement Title**: Requirements Documentation Structure
+- **Requirement Description**: The CH application development shall follow a structured requirements documentation as per IEEE 29148 standard, including sections for introduction, references, specific requirements (external interfaces, functions, usability, performance, etc.), and a dedicated subsection for sustainability requirements covering individual, social, environmental, and technical impacts.
+- **Citation**: Table 1, Section 3.3, SCH-CAT Structure
+- **Requirement Related Title**: SCH-CAT Structure
+
+- **Role**: Evaluator
+- **Requirement ID**: FR-14
+- **Requirement Title**: Sustainability Evaluation Checklist Generation
+- **Requirement Description**: A checklist for evaluating the sustainability of CH applications shall be generated from the SCH-CAT, adaptable to specific apps, containing questions answerable by 'Yes', 'No', or 'Partially', to assess compliance with sustainability requirements across individual, social, environmental, and technical dimensions.
+- **Citation**: Section 4, Application Example, Table 7
+- **Requirement Related Title**: Application Evaluation
+
+**Non-Functional Requirements**
+
+- **Role**: Developer
+- **Requirement ID**: NF-01
+- **Requirement Title**: Usability and Operability
+- **Requirement Description**: The CH application shall ensure high usability and operability to enhance user acceptance and adoption, aligning with software quality requirements as per ISO/IEC 25010 and usability guidelines from app repositories.
+- **Citation**: Section 3.1, Requirements Specification
+- **Requirement Related Title**: Software Quality
+
+- **Role**: Developer
+- **Requirement ID**: NF-02
+- **Requirement Title**: Reliability
+- **Requirement Description**: The CH application shall maintain high reliability to ensure consistent performance and user trust, as part of software system attributes for sustainability.
+- **Citation**: Table 1, Section 3.7.1
+- **Requirement Related Title**: Software System Attributes
+
+- **Role**: Developer
+- **Requirement ID**: NF-03
+- **Requirement Title**: Availability
+- **Requirement Description**: The CH application shall ensure high availability to users, minimizing downtime and ensuring access to health services when needed.
+- **Citation**: Table 1, Section 3.7.2
+- **Requirement Related Title**: Software System Attributes
+
+- **Role**: Developer
+- **Requirement ID**: NF-04
+- **Requirement Title**: Security
+- **Requirement Description**: The CH application shall implement robust security measures to protect user data and privacy, aligning with standards like ISO 27799 for information security management in health.
+- **Citation**: Table 1, Section 3.7.3
+- **Requirement Related Title**: Software System Attributes
+
+- **Role**: Developer
+- **Requirement ID**: NF-05
+- **Requirement Title**: Maintainability
+- **Requirement Description**: The CH application shall be designed for easy maintenance to support long-term sustainability and adaptation to changing requirements or standards.
+- **Citation**: Table 1, Section 3.7.4
+- **Requirement Related Title**: Software System Attributes
+
+- **Role**: Developer
+- **Requirement ID**: NF-06
+- **Requirement Title**: Portability
+- **Requirement Description**: The CH application shall be portable across different platforms and devices to ensure wide accessibility and usability.
+- **Citation**: Table 1, Section 3.7.5
+- **Requirement Related Title**: Software System Attributes
+
+- **Role**: Developer
+- **Requirement ID**: NF-07
+- **Requirement Title**: Energy Efficiency
+- **Requirement Description**: The CH application shall optimize energy consumption to support technical sustainability, minimizing resource usage on mobile devices.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Evaluator
+- **Requirement ID**: NF-08
+- **Requirement Title**: Sustainability Coverage Score
+- **Requirement Description**: The CH application shall achieve at least a moderate sustainability coverage score of 50% or higher when evaluated using the SCH-CAT checklist across individual, social, environmental, and technical dimensions.
+- **Citation**: Section 4, Application Example, Coverage Calculation
+- **Requirement Related Title**: Application Evaluation
+
+- **Role**: Developer
+- **Requirement ID**: NF-09
+- **Requirement Title**: Performance Efficiency
+- **Requirement Description**: The CH application shall demonstrate high performance efficiency to ensure quick response times and effective resource utilization, contributing to user satisfaction and sustainability.
+- **Citation**: Section 1, Introduction, Figure 1
+- **Requirement Related Title**: Software Quality Requirements

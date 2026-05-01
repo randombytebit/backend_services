@@ -1,0 +1,73 @@
+**Analytical Reasoning:**
+**Let's think step by step.**
+1. **Identify Functional Intent:** The document outlines specific tasks that connected health (CH) applications must perform to support sustainability across various dimensions (individual, social, environmental, and technical). These tasks, such as user authentication, data management, and language adaptation, are functional requirements as they describe what the system must do. We will categorize them as FR-01 to FR-04, corresponding to each sustainability dimension.
+2. **Identify Behavioral Constraints:** The document also specifies quality attributes or constraints that ensure the system operates sustainably and ethically, such as privacy, energy efficiency, and cultural adaptability. These are non-functional requirements, categorized as NFR-01 to NFR-04, aligned with the same sustainability dimensions.
+3. **Establish Roles:** The primary actor for most requirements is the 'System' (the CH application), as it is responsible for executing functionalities and adhering to constraints. In some cases, the 'User' role is specified for interactions like data management or language selection.
+4. **Verify Against Source Text:** Descriptions for each requirement are extracted word-for-word from the relevant tables (Tables 2-5) in the document to ensure accuracy and alignment with the source. Specific sub-requirements are included to maintain detail.
+5. **Assign Unique Related Titles:** Each requirement is given a unique contextual example or domain to illustrate its applicability, ensuring no overlap or mismatch with the document title. These titles reflect real-world applications of CH apps in various sustainability contexts.
+
+**Expected Output:**
+
+**Functional Requirement 1**  
+Role: System  
+Requirement ID: FR-01  
+Title: Individual Impact Functionality  
+Description: The app shall have a positive individual impact by respecting security and privacy of the user through authentication procedures (e.g., allowing users to choose authentication settings, access via login or social network account) and enabling management of personal information (e.g., edit, remove, add, share personal data). Additionally, the app shall promote personal health and well-being by allowing users to consult health recommendations and manage personal health records (e.g., edit, remove, add, share, import, export, and back up data).  
+Citation: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Table 2, Section 3.7.6.1]  
+Related Title: Personal Health Record Management App  
+
+**Functional Requirement 2**  
+Role: System  
+Requirement ID: FR-02  
+Title: Social Impact Functionality  
+Description: The app shall have a positive social impact by promoting interaction among users via social networks and/or online healthcare forums, promoting social solidarity through a rewards system, and being designed for cultural diversity and multilingual use (e.g., adapting content to user’s language preferences, supporting multiple languages, allowing language switching, and using appropriate formats for international audiences).  
+Citation: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Table 3, Section 3.7.6.2]  
+Related Title: Community Health Engagement Platform  
+
+**Functional Requirement 3**  
+Role: System  
+Requirement ID: FR-03  
+Title: Environmental Impact Functionality  
+Description: The app shall have a positive environmental impact by reducing transportation means (e.g., enabling users to find nearby healthcare centers, interchange data with EHRs/PHRs or third parties), being convenient for frequent use (e.g., using pictures, icons, and graphs to explain content and health data history), and connecting to other IT resources (e.g., backing up data, connecting to social networks, using device features like Bluetooth/NFC, and displaying locations via maps repositories).  
+Citation: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Table 4, Section 3.7.6.3]  
+Related Title: Eco-Friendly Telehealth Navigation System  
+
+**Functional Requirement 4**  
+Role: System  
+Requirement ID: FR-04  
+Title: Technical Impact Functionality  
+Description: The app shall have a positive technical impact by easily adapting to future operating system (OS) changes (e.g., respecting mobile OS development guidelines, being adapted to the mobile OS platform), being energy-efficient (e.g., shutting down in idle mode, supporting different profiles on the same device), and allowing offline access (e.g., enabling users to access and edit data without Internet connection, saving edited data offline).  
+Citation: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Table 5, Section 3.7.6.4]  
+Related Title: Energy-Efficient Mobile Health Monitoring Tool  
+
+**Non-Functional Requirement 1**  
+Role: System  
+Requirement ID: NFR-01  
+Title: Individual Impact Privacy and Security Constraint  
+Description: The app shall respect security and privacy of the user by implementing robust authentication procedures and ensuring user control over personal information in compliance with different countries’ specific legislation or regulations regarding user ownership of personal data.  
+Citation: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Table 2, Section 3.7.6.1]  
+Related Title: Secure Patient Data Management System  
+
+**Non-Functional Requirement 2**  
+Role: System  
+Requirement ID: NFR-02  
+Title: Social Impact Cultural Adaptability Constraint  
+Description: The app shall be designed to handle cultural diversity and multilingual use by adapting content to user’s language preferences, controlling advertisements to avoid cultural discrepancies, and ensuring appropriate formats, units of measurement, or currency for an international audience.  
+Citation: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Table 3, Section 3.7.6.2]  
+Related Title: Multilingual Health Awareness Application  
+
+**Non-Functional Requirement 3**  
+Role: System  
+Requirement ID: NFR-03  
+Title: Environmental Impact Resource Efficiency Constraint  
+Description: The app shall minimize environmental impact by reducing the need for physical transportation through features like locating nearby healthcare centers and enabling data interchange with EHRs/PHRs, and by optimizing resource use through efficient IT connectivity (e.g., cloud backups, device feature integration).  
+Citation: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Table 4, Section 3.7.6.3]  
+Related Title: Sustainable Remote Healthcare Access Solution  
+
+**Non-Functional Requirement 4**  
+Role: System  
+Requirement ID: NFR-04  
+Title: Technical Impact Longevity and Efficiency Constraint  
+Description: The app shall ensure technical sustainability by supporting longevity through adaptability to future OS changes, maintaining energy efficiency (e.g., shutting down in idle mode), and providing reliable offline access to ensure continuity of use under varying conditions.  
+Citation: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Table 5, Section 3.7.6.4]  
+Related Title: Long-Term Mobile Health Support System

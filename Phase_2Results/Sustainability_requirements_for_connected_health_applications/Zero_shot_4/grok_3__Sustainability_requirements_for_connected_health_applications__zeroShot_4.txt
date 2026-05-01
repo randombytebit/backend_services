@@ -1,0 +1,54 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-01
+- **Requirement Title**: Bias Detection Modules
+- **Requirement Description**: The system shall include bias detection modules to identify and mitigate potential biases in connected health (CH) applications, ensuring equitable outcomes across diverse user groups.
+- **Citation**: Ouhbi et al. (2018), Section 3.7.6.2 Social Impact, emphasizing cultural diversity and multilingual use to prevent bias.
+- **Requirement Related Title**: Social Impact in CH Apps
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-02
+- **Requirement Title**: Explainability Dashboards
+- **Requirement Description**: The system shall provide explainability dashboards to offer users and stakeholders clear insights into the decision-making processes of CH applications, enhancing trust and understanding.
+- **Citation**: Ouhbi et al. (2018), Section 3.7.6.3 Environmental Impact, focusing on user-friendly data presentation (e.g., graphs, icons) for clarity.
+- **Requirement Related Title**: Environmental Impact in CH Apps
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-03
+- **Requirement Title**: Audit Trail Generation
+- **Requirement Description**: The system shall generate comprehensive audit trails to document all interactions and data processing activities within CH applications, supporting accountability and compliance with regulatory standards.
+- **Citation**: Ouhbi et al. (2018), Section 5 Discussion, highlighting the use of SCH-CAT for audit purposes by stakeholders.
+- **Requirement Related Title**: Audit and Evaluation of CH Apps
+
+**Non-Functional Requirements**
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-01
+- **Requirement Title**: Fairness Metrics
+- **Requirement Description**: The system shall implement fairness metrics to evaluate and ensure equitable treatment of users across different demographics in CH applications, minimizing discrimination.
+- **Citation**: Ouhbi et al. (2018), Section 3.7.6.2 Social Impact, focusing on cultural diversity and social solidarity.
+- **Requirement Related Title**: Social Impact in CH Apps
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-02
+- **Requirement Title**: Transparency Levels
+- **Requirement Description**: The system shall maintain high transparency levels by providing clear documentation and user access to information regarding data usage and app functionalities in CH applications.
+- **Citation**: Ouhbi et al. (2018), Section 3.7.6.1 Individual Impact, emphasizing user control over personal data and privacy.
+- **Requirement Related Title**: Individual Impact in CH Apps
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-03
+- **Requirement Title**: Interpretability
+- **Requirement Description**: The system shall ensure interpretability by designing CH applications to present data and decisions in an easily understandable format for users and stakeholders.
+- **Citation**: Ouhbi et al. (2018), Section 3.7.6.3 Environmental Impact, focusing on visual aids for frequent use and understanding.
+- **Requirement Related Title**: Environmental Impact in CH Apps
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-04
+- **Requirement Title**: Ethical Alignment
+- **Requirement Description**: The system shall align with ethical principles by adhering to sustainability dimensions (individual, social, environmental, technical) and respecting user privacy, security, and well-being in CH applications.
+- **Citation**: Ouhbi et al. (2018), Section 3.7.6 Sustainability, covering multiple dimensions of ethical considerations.
+- **Requirement Related Title**: Sustainability in CH Apps

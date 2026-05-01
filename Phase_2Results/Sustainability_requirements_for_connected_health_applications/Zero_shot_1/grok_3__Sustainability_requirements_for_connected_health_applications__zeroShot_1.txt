@@ -1,0 +1,458 @@
+### Functional Requirements
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: User Authentication Option
+- **Requirement Description**: The app shall provide users the option to choose in the app's settings whether to be authenticated or not.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.1.1
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Login via Social Network or Account
+- **Requirement Description**: The app shall allow users to access the application using a login or social network account.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.1.2
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Edit Personal Data
+- **Requirement Description**: The app shall allow users to edit personal data in their profile.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.2.1
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Remove Personal Data
+- **Requirement Description**: The app shall allow users to remove personal data from their profile.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.2.2
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Add Personal Data
+- **Requirement Description**: The app shall allow users to add personal data to their profile.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.2.3
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Share Personal Data
+- **Requirement Description**: The app shall allow users to share personal data from their profile.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.2.4
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-07
+- **Requirement Title**: Consult Health Recommendations
+- **Requirement Description**: The app shall allow users to consult health recommendations.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.1
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-08
+- **Requirement Title**: Edit Health Record Data
+- **Requirement Description**: The app shall allow users to edit data in their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.1
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-09
+- **Requirement Title**: Remove Health Record Data
+- **Requirement Description**: The app shall allow users to remove data from their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.2
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-10
+- **Requirement Title**: Add Health Record Data
+- **Requirement Description**: The app shall allow users to add data to their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.3
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-11
+- **Requirement Title**: Share Health Record Data
+- **Requirement Description**: The app shall allow users to share data from their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.4
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-12
+- **Requirement Title**: Import Health Record Data
+- **Requirement Description**: The app shall allow users to import data to their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.5
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-13
+- **Requirement Title**: Export Health Record Data
+- **Requirement Description**: The app shall allow users to export data from their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.6
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-14
+- **Requirement Title**: Backup Health Record Data
+- **Requirement Description**: The app shall allow users to back up data from their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.7
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-15
+- **Requirement Title**: Promote User Interaction via Social Networks
+- **Requirement Description**: The app shall promote interaction among users via social networks and/or online healthcare forums.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.1
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-16
+- **Requirement Title**: Promote Social Solidarity via Rewards System
+- **Requirement Description**: The app shall promote social solidarity among users via a rewards system.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.2
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-17
+- **Requirement Title**: Adapt Content to Language Preferences
+- **Requirement Description**: The app shall adapt its content to the user's language preferences.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.1
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-18
+- **Requirement Title**: Support Multiple Languages
+- **Requirement Description**: The app shall be available in different languages, with supported languages and selection links clearly presented.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.2
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-19
+- **Requirement Title**: Language Switching During Use
+- **Requirement Description**: The app shall allow users to switch between languages at multiple points while using it.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.3
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-20
+- **Requirement Title**: Language Selection for Media Content
+- **Requirement Description**: The app shall allow users to choose the language of video or audio clips.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.4
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-21
+- **Requirement Title**: Adapt Help Section to Language Preferences
+- **Requirement Description**: The app shall adapt the online help section to the user's language preferences.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.5
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-22
+- **Requirement Title**: Adapt Anatomy Terminology to Language
+- **Requirement Description**: The app shall adapt human anatomy terminology to the user's language preferences.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.6
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-23
+- **Requirement Title**: Text Alignment Based on Language
+- **Requirement Description**: The app shall show text with correct alignment depending on the user's language preferences (e.g., right align for Arabic).
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.7
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-24
+- **Requirement Title**: Use Appropriate Formats for International Audience
+- **Requirement Description**: The app shall use appropriate formats, units of measurement, or currency for an international audience.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.8
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-25
+- **Requirement Title**: Control Advertisements for Cultural Sensitivity
+- **Requirement Description**: The app shall control advertisements shown to users to avoid cultural discrepancies.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3.9
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-26
+- **Requirement Title**: Locate Nearby Healthcare Centers
+- **Requirement Description**: The app shall enable users to find nearby healthcare centers.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.1.1
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-27
+- **Requirement Title**: Data Interchange with EHRs/PHRs
+- **Requirement Description**: If the app connects with EHRs, PHRs, or third parties, it shall provide users with the possibility to interchange data.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.1.2
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-28
+- **Requirement Title**: Send Data to EHRs/PHRs
+- **Requirement Description**: The app shall allow users to send data from the app to EHRs, PHRs, or other parties.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.1.2.1
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-29
+- **Requirement Title**: Receive Data from EHRs/PHRs
+- **Requirement Description**: The app shall allow users to receive data from EHRs, PHRs, or other parties.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.1.2.2
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-30
+- **Requirement Title**: Use Pictures to Explain Ideas
+- **Requirement Description**: The app shall use pictures to explain ideas for frequent use convenience.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.2.1
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-31
+- **Requirement Title**: Use Icons to Explain Content
+- **Requirement Description**: The app shall use icons to explain its contents for frequent use convenience.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.2.2
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-32
+- **Requirement Title**: Use Graphs for Health Data History
+- **Requirement Description**: The app shall use graphs to illustrate health data history for frequent use convenience.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.2.3
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-33
+- **Requirement Title**: Backup Data to Repositories
+- **Requirement Description**: The app shall back up data in data repositories, drivers, or cloud systems.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.3.1
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-34
+- **Requirement Title**: Connect to Social Networks
+- **Requirement Description**: The app shall connect to social networks as part of IT resource integration.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.3.2
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-35
+- **Requirement Title**: Use Device Features for Connectivity
+- **Requirement Description**: The app shall use device features such as Bluetooth and/or near field communication (NFC) technologies for connectivity.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.3.3
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-36
+- **Requirement Title**: Connect with Maps Repositories
+- **Requirement Description**: The app shall connect with maps repositories to display locations.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.3.4
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-37
+- **Requirement Title**: Adapt to Future OS Changes
+- **Requirement Description**: The app shall easily adapt to future operating system (OS) changes.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.1
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-38
+- **Requirement Title**: Respect Mobile OS Development Guidelines
+- **Requirement Description**: The app shall respect mobile OS development guidelines to ensure compatibility.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.1.1
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-39
+- **Requirement Title**: Adapt to Mobile OS Platform
+- **Requirement Description**: The app shall be adapted to the mobile OS platform for compatibility.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.1.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-40
+- **Requirement Title**: Shut Down in Idle Mode
+- **Requirement Description**: The app shall shut down in idle mode to ensure energy efficiency.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.2.1
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-41
+- **Requirement Title**: Support Multiple Profiles on Same Device
+- **Requirement Description**: The app shall allow the creation of different profiles on the same device for energy efficiency.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.2.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-42
+- **Requirement Title**: Offline Access to App
+- **Requirement Description**: The app shall allow users to access the app without an Internet connection.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.3.1
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-43
+- **Requirement Title**: Edit Data Offline
+- **Requirement Description**: The app shall allow users to edit data offline.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.3.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: FR-44
+- **Requirement Title**: Save Edited Data Offline
+- **Requirement Description**: The app shall save edited data offline.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.3.3
+- **Requirement Related Title**: Technical Impact
+
+### Non-Functional Requirements
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-01
+- **Requirement Title**: User Security and Privacy
+- **Requirement Description**: The app shall respect the security and privacy of the user to ensure individual sustainability.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-02
+- **Requirement Title**: Promote Personal Health and Well-being
+- **Requirement Description**: The app shall promote personal health and well-being of the user to support individual sustainability.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-03
+- **Requirement Title**: Positive Individual Impact
+- **Requirement Description**: The app shall have a positive individual impact by supporting user health, education, and access to services.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-04
+- **Requirement Title**: Positive Social Impact
+- **Requirement Description**: The app shall have a positive social impact by preserving social capital and promoting community interaction.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-05
+- **Requirement Title**: Design for Cultural Diversity and Multilingual Use
+- **Requirement Description**: The app shall be designed to support cultural diversity and multilingual use to enhance social sustainability.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3
+- **Requirement Related Title**: Social Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-06
+- **Requirement Title**: Positive Environmental Impact
+- **Requirement Description**: The app shall have a positive environmental impact by reducing resource use and supporting sustainability goals.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-07
+- **Requirement Title**: Reduce Transportation Means
+- **Requirement Description**: The app shall reduce the need for transportation means to minimize environmental impact.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.1
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-08
+- **Requirement Title**: Convenience for Frequent Use
+- **Requirement Description**: The app shall be convenient for frequent use to encourage sustainable user engagement.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.2
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-09
+- **Requirement Title**: Connect to IT Resources
+- **Requirement Description**: The app shall connect to other IT resources to optimize resource use and reduce environmental impact.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.3
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-10
+- **Requirement Title**: Positive Technical Impact
+- **Requirement Description**: The app shall have a positive technical impact by ensuring longevity and adaptability to changing conditions.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-11
+- **Requirement Title**: Energy Efficiency
+- **Requirement Description**: The app shall be energy-efficient to support technical sustainability.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-12
+- **Requirement Title**: Offline Accessibility
+- **Requirement Description**: The app shall support offline accessibility to ensure usability in varied conditions and enhance technical sustainability.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.3
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-13
+- **Requirement Title**: Usability Requirements
+- **Requirement Description**: The app shall meet usability requirements to ensure user satisfaction and sustainable adoption.
+- **Citation**: Table 1, Section 3.3, Usability Requirements
+- **Requirement Related Title**: Software Quality
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-14
+- **Requirement Title**: Performance Efficiency
+- **Requirement Description**: The app shall meet performance efficiency requirements to ensure optimal operation and sustainability.
+- **Citation**: Table 1, Section 3.4, Performance Requirements
+- **Requirement Related Title**: Software Quality
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-15
+- **Requirement Title**: Reliability
+- **Requirement Description**: The app shall ensure reliability to support long-term use and technical sustainability.
+- **Citation**: Table 1, Section 3.7.1, Reliability
+- **Requirement Related Title**: Software Quality
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-16
+- **Requirement Title**: Availability
+- **Requirement Description**: The app shall ensure high availability to support continuous user access and sustainability.
+- **Citation**: Table 1, Section 3.7.2, Availability
+- **Requirement Related Title**: Software Quality
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-17
+- **Requirement Title**: Security
+- **Requirement Description**: The app shall ensure security to protect user data and support individual sustainability.
+- **Citation**: Table 1, Section 3.7.3, Security
+- **Requirement Related Title**: Software Quality
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-18
+- **Requirement Title**: Maintainability
+- **Requirement Description**: The app shall be maintainable to ensure long-term usability and technical sustainability.
+- **Citation**: Table 1, Section 3.7.4, Maintainability
+- **Requirement Related Title**: Software Quality
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-19
+- **Requirement Title**: Portability
+- **Requirement Description**: The app shall be portable to ensure adaptability across different platforms and technical sustainability.
+- **Citation**: Table 1, Section 3.7.5, Portability
+- **Requirement Related Title**: Software Quality
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-20
+- **Requirement Title**: Sustainability Across Dimensions
+- **Requirement Description**: The app shall address sustainability across individual, social, environmental, and technical dimensions to ensure overall durability and continuity in use.
+- **Citation**: Table 1, Section 3.7.6, Sustainability
+- **Requirement Related Title**: Sustainability
+
+- **Role**: Connected Health Application Developer
+- **Requirement ID**: NF-21
+- **Requirement Title**: Compliance with Standards
+- **Requirement Description**: The app shall comply with relevant standards such as ISO/IEC 25010 for quality, ISO 9241-151 for ergonomics, and others for interoperability and security to ensure sustainable development.
+- **Citation**: Section 3.1, Requirements Specification
+- **Requirement Related Title**: Standards Compliance

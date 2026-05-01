@@ -828,19 +828,19 @@ async function evaluationModel(documentData, model, prompt) {
 //
 // modelEvaluation();
 
-async function modelEvaluation_resume_NFR() {
+async function modelEvaluation_sustainability_grok3() {
     try {
         const document = {
-            name: 'Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix',
-            path: './training_sources/Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix.pdf'
+            name: 'Sustainability_requirements_for_connected_health_applications',
+            path: './training_sources/Sustainability_requirements_for_connected_health_applications.pdf'
         };
 
         const extracted = await pdfExtracted_pdfjslib(document.path);
         await fs.writeFile(`./raw/${document.name}.txt`, extracted, 'utf8');
         const docData = await fs.readFile(`./raw/${document.name}.txt`, 'utf8');
 
-        // zeroShot only: indices 0–5
-        const PROMPT_INDICES = Array.from({ length: 6 }, (_, i) => i);
+        // All 18 prompts: indices 0–17
+        const PROMPT_INDICES = Array.from({ length: 18 }, (_, i) => i);
 
         function getPromptLabel(index) {
             if (index < 6)  return `zeroShot_${index + 1}`;
@@ -848,29 +848,27 @@ async function modelEvaluation_resume_NFR() {
             return `chainOfThoughts_${index - 11}`;
         }
 
-        console.log(`\n=== Document: ${document.name} ===`);
+        const model = 'grok-3';
+
+        console.log(`\n=== Model: ${model} | Document: ${document.name} ===`);
 
         for (const promptIndex of PROMPT_INDICES) {
             const promptLabel = getPromptLabel(promptIndex);
             console.log(`  Prompt: ${promptLabel}`);
 
-            for (const model of MODEL) {
-                console.log(`    Model: ${model}`);
+            const result = await evaluationModel(docData, model, phase2_promptEvaluation(promptIndex));
 
-                const result = await evaluationModel(docData, model, phase2_promptEvaluation(promptIndex));
+            const safeModelName = model.replace(/[-.]/g, '_');
+            const filename = `${safeModelName}__${document.name}__${promptLabel}.txt`;
+            await fs.writeFile(`./Phase_2Results/${filename}`, result, 'utf8');
 
-                const safeModelName = model.replace(/[-.]/g, '_');
-                const filename = `${safeModelName}__${document.name}__${promptLabel}.txt`;
-                await fs.writeFile(`./Phase_2Results/${filename}`, result, 'utf8');
-
-                console.log(`    Saved: ${filename}`);
-            }
+            console.log(`  Saved: ${filename}`);
         }
 
-        console.log('\n=== Resume NFR Big Data complete ===');
+        console.log('\n=== Sustainability grok-3 complete ===');
     } catch (err) {
-        console.error('modelEvaluation_resume_NFR failed:', err.message);
+        console.error('modelEvaluation_sustainability_grok3 failed:', err.message);
     }
 }
 
-modelEvaluation_resume_NFR();
+modelEvaluation_sustainability_grok3()

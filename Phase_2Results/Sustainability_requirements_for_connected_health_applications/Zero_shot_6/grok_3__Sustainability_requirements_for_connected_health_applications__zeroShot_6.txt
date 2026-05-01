@@ -1,0 +1,306 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: User
+- **Requirement ID**: FR-01
+- **Requirement Title**: Authentication Option Selection
+- **Requirement Description**: The app shall allow users to choose in the app's settings whether to be authenticated or not.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.1.1.1
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: User
+- **Requirement ID**: FR-02
+- **Requirement Title**: Login via Social Network or Standard Account
+- **Requirement Description**: The app shall enable users to access the app using a login or social network account.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.1.1.2
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: User
+- **Requirement ID**: FR-03
+- **Requirement Title**: Personal Data Management - Edit
+- **Requirement Description**: The app shall allow users to edit personal data in their profile.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.1.2.1
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: User
+- **Requirement ID**: FR-04
+- **Requirement Title**: Personal Data Management - Remove
+- **Requirement Description**: The app shall allow users to remove personal data from their profile.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.1.2.2
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: User
+- **Requirement ID**: FR-05
+- **Requirement Title**: Personal Data Management - Add
+- **Requirement Description**: The app shall allow users to add personal data to their profile.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.1.2.3
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: User
+- **Requirement ID**: FR-06
+- **Requirement Title**: Personal Data Management - Share
+- **Requirement Description**: The app shall allow users to share personal data from their profile.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.1.2.4
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: User
+- **Requirement ID**: FR-07
+- **Requirement Title**: Health Recommendations Consultation
+- **Requirement Description**: The app shall enable users to consult health recommendations.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.2.1
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-08
+- **Requirement Title**: Personal Health Record Management - Edit
+- **Requirement Description**: The app shall allow users to edit data in their personal health record.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.2.2.1
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-09
+- **Requirement Title**: Personal Health Record Management - Remove
+- **Requirement Description**: The app shall allow users to remove data from their personal health record.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.2.2.2
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-10
+- **Requirement Title**: Personal Health Record Management - Add
+- **Requirement Description**: The app shall allow users to add data to their personal health record.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.2.2.3
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-11
+- **Requirement Title**: Personal Health Record Management - Share
+- **Requirement Description**: The app shall allow users to share data from their personal health record.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.2.2.4
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-12
+- **Requirement Title**: Personal Health Record Management - Import
+- **Requirement Description**: The app shall allow users to import data to their personal health record.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.2.2.5
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-13
+- **Requirement Title**: Personal Health Record Management - Export
+- **Requirement Description**: The app shall allow users to export data from their personal health record.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.2.2.6
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-14
+- **Requirement Title**: Personal Health Record Management - Backup
+- **Requirement Description**: The app shall allow users to back up data from their personal health record.
+- **Citation**: Ouhbi et al., 2018, Table 2, Requirement 1.2.2.7
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-15
+- **Requirement Title**: Social Interaction via Networks and Forums
+- **Requirement Description**: The app shall promote interaction among users via social networks and/or online healthcare forums.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.1
+- **Requirement Related Title**: Social Impact
+
+- **Role**: User
+- **Requirement ID**: FR-16
+- **Requirement Title**: Social Solidarity via Rewards System
+- **Requirement Description**: The app shall promote social solidarity among users via a rewards system.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.2
+- **Requirement Related Title**: Social Impact
+
+- **Role**: User
+- **Requirement ID**: FR-17
+- **Requirement Title**: Multilingual Content Adaptation
+- **Requirement Description**: The app shall adapt its content to the user's language preferences.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.1
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-18
+- **Requirement Title**: Language Support Information
+- **Requirement Description**: The app shall clearly present the number of languages supported and provide links for selecting them.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.2
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-19
+- **Requirement Title**: Language Switching Capability
+- **Requirement Description**: The app shall allow users to switch between languages at multiple points while using it.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.3
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-20
+- **Requirement Title**: Media Language Selection
+- **Requirement Description**: The app shall allow users to choose the language of video or audio clips.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.4
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-21
+- **Requirement Title**: Help Section Language Adaptation
+- **Requirement Description**: The app shall adapt the online help section to the user's language preferences.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.5
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-22
+- **Requirement Title**: Terminology Language Adaptation
+- **Requirement Description**: The app shall adapt human anatomy terminology to the user's language preferences.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.6
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-23
+- **Requirement Title**: Text Alignment for Language
+- **Requirement Description**: The app shall show text with correct alignment depending on the user's language preferences (e.g., right align for Arabic).
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.7
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-24
+- **Requirement Title**: International Format Adaptation
+- **Requirement Description**: The app shall use appropriate formats, units of measurement, or currency for an international audience.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.8
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-25
+- **Requirement Title**: Culturally Sensitive Advertisements
+- **Requirement Description**: The app shall control advertisements shown to users to avoid cultural discrepancies.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirement 1.3.9
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: User
+- **Requirement ID**: FR-26
+- **Requirement Title**: Nearby Healthcare Center Locator
+- **Requirement Description**: The app shall enable users to find nearby healthcare centers to reduce transportation needs.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.1.1
+- **Requirement Related Title**: Environmental Impact - Reduce Transportation
+
+- **Role**: User
+- **Requirement ID**: FR-27
+- **Requirement Title**: Data Interchange with EHRs/PHRs
+- **Requirement Description**: The app shall provide users with the possibility to interchange data with EHRs, PHRs, or third parties.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.1.2
+- **Requirement Related Title**: Environmental Impact - Reduce Transportation
+
+- **Role**: User
+- **Requirement ID**: FR-28
+- **Requirement Title**: Visual Explanation with Pictures
+- **Requirement Description**: The app shall use pictures to explain ideas for frequent and convenient use.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.2.1
+- **Requirement Related Title**: Environmental Impact - Convenient Use
+
+- **Role**: User
+- **Requirement ID**: FR-29
+- **Requirement Title**: Visual Explanation with Icons
+- **Requirement Description**: The app shall use icons to explain its contents for frequent and convenient use.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.2.2
+- **Requirement Related Title**: Environmental Impact - Convenient Use
+
+- **Role**: User
+- **Requirement ID**: FR-30
+- **Requirement Title**: Health Data History Visualization
+- **Requirement Description**: The app shall use graphs to illustrate health data history for frequent and convenient use.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.2.3
+- **Requirement Related Title**: Environmental Impact - Convenient Use
+
+- **Role**: User
+- **Requirement ID**: FR-31
+- **Requirement Title**: Data Backup to Repositories
+- **Requirement Description**: The app shall back up data in data repositories, drivers, or cloud systems.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.3.1
+- **Requirement Related Title**: Environmental Impact - Connection to IT Resources
+
+- **Role**: User
+- **Requirement ID**: FR-32
+- **Requirement Title**: Social Network Connectivity
+- **Requirement Description**: The app shall connect to social networks for enhanced user interaction.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.3.2
+- **Requirement Related Title**: Environmental Impact - Connection to IT Resources
+
+- **Role**: User
+- **Requirement ID**: FR-33
+- **Requirement Title**: Device Feature Integration
+- **Requirement Description**: The app shall use device features such as Bluetooth and/or near field communication (NFC) technologies.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.3.3
+- **Requirement Related Title**: Environmental Impact - Connection to IT Resources
+
+- **Role**: User
+- **Requirement ID**: FR-34
+- **Requirement Title**: Map Repository Integration
+- **Requirement Description**: The app shall connect with map repositories to display locations.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.3.4
+- **Requirement Related Title**: Environmental Impact - Connection to IT Resources
+
+- **Role**: User
+- **Requirement ID**: FR-35
+- **Requirement Title**: Offline Access Capability
+- **Requirement Description**: The app shall allow users to access the app without an Internet connection.
+- **Citation**: Ouhbi et al., 2018, Table 5, Requirement 1.3.1
+- **Requirement Related Title**: Technical Impact - Offline Access
+
+- **Role**: User
+- **Requirement ID**: FR-36
+- **Requirement Title**: Offline Data Editing
+- **Requirement Description**: The app shall allow users to edit data offline.
+- **Citation**: Ouhbi et al., 2018, Table 5, Requirement 1.3.2
+- **Requirement Related Title**: Technical Impact - Offline Access
+
+- **Role**: User
+- **Requirement ID**: FR-37
+- **Requirement Title**: Offline Data Saving
+- **Requirement Description**: The app shall save edited data offline.
+- **Citation**: Ouhbi et al., 2018, Table 5, Requirement 1.3.3
+- **Requirement Related Title**: Technical Impact - Offline Access
+
+**Non-Functional Requirements**
+
+- **Role**: Developer/User
+- **Requirement ID**: NF-01
+- **Requirement Title**: Usability for Frequent Use
+- **Requirement Description**: The app shall be designed for convenient and frequent use by incorporating visual aids like pictures, icons, and graphs to enhance user understanding and interaction.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirement 1.2
+- **Requirement Related Title**: Environmental Impact - Convenient Use
+
+- **Role**: Developer/User
+- **Requirement ID**: NF-02
+- **Requirement Title**: Cognitive Load Reduction through Visuals
+- **Requirement Description**: The app shall minimize cognitive load by using visual elements (pictures, icons, graphs) to explain content and health data history, ensuring users can easily comprehend information.
+- **Citation**: Ouhbi et al., 2018, Table 4, Requirements 1.2.1-1.2.3
+- **Requirement Related Title**: Environmental Impact - Convenient Use
+
+- **Role**: Developer/User
+- **Requirement ID**: NF-03
+- **Requirement Title**: Response Time for Energy Efficiency
+- **Requirement Description**: The app shall ensure quick response times by shutting down in idle mode to conserve energy, thereby enhancing user experience and device battery life.
+- **Citation**: Ouhbi et al., 2018, Table 5, Requirement 1.2.1
+- **Requirement Related Title**: Technical Impact - Energy Efficiency
+
+- **Role**: Developer/User
+- **Requirement ID**: NF-04
+- **Requirement Title**: Accessibility for Multilingual Users
+- **Requirement Description**: The app shall be accessible to a diverse user base by supporting multiple languages, adapting content to user language preferences, and providing culturally appropriate formats and terminology.
+- **Citation**: Ouhbi et al., 2018, Table 3, Requirements 1.3.1-1.3.9
+- **Requirement Related Title**: Social Impact - Cultural Diversity and Multilingual Use
+
+- **Role**: Developer/User
+- **Requirement ID**: NF-05
+- **Requirement Title**: Usability through Operability Standards
+- **Requirement Description**: The app shall adhere to operability standards (e.g., ISO/IEC 25010) to ensure high usability, making it intuitive and easy for users to navigate and interact with the app.
+- **Citation**: Ouhbi et al., 2018, Section 3.1
+- **Requirement Related Title**: Requirements Specification - Software Quality
+
+- **Role**: Developer/User
+- **Requirement ID**: NF-06
+- **Requirement Title**: Accessibility for Offline Use
+- **Requirement Description**: The app shall ensure accessibility by allowing offline access and data management, catering to users in areas with limited or no Internet connectivity.
+- **Citation**: Ouhbi et al., 2018, Table 5, Requirements 1.3.1-1.3.3
+- **Requirement Related Title**: Technical Impact - Offline Access

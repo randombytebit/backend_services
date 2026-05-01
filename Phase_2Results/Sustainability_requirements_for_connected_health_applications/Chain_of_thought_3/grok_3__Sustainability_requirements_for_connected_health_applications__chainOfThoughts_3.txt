@@ -1,0 +1,27 @@
+### Threat-Model Reasoning for Security and Privacy Requirements in Connected Health Applications
+
+**Let's think step by step.**
+
+1. **Analyze Security and Privacy Context:** The document emphasizes the importance of security and privacy as critical components of individual sustainability for connected health (CH) applications. These are identified as Non-Functional Requirements (NFRs) under the individual impact dimension. The text specifies requirements for user authentication and personal data management to ensure user privacy and security, which are essential for trust and adoption of CH apps.
+2. **Identify Specific Threats:** Potential threats include unauthorized access to personal health information, data breaches, and misuse of user data if authentication or data management controls are inadequate. These threats could compromise user trust and the sustainability of the app.
+3. **Identify Roles:** The primary role responsible for enforcing these requirements is the 'System' (the CH app itself), which must implement mechanisms for authentication and data protection. The user also plays a role in managing their data and authentication preferences.
+4. **Draft Descriptions:** The descriptions are extracted directly from the SCH-CAT requirements catalog as presented in the document to ensure accuracy. For security, the focus is on authentication procedures. For privacy, the emphasis is on user control over personal information.
+5. **Map Related Titles:** For security, related titles include "Healthcare Data Security Systems" and "Mobile Health Authentication Frameworks," reflecting domains where authentication is critical. For privacy, related titles include "Personal Health Record Privacy Systems" and "Patient Data Management Platforms," focusing on contexts where user data control is paramount.
+
+### Extracted Requirements
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** User Authentication Security  
+**Description:** The app shall have an authentication procedure to ensure security and privacy of the user. The user should be able to choose in the app's settings whether to be authenticated or not, and access the app using a login or social network account.  
+**Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. Section 3.7.6.1, Table 2, Requirements 1.1.1.1 and 1.1.1.2.  
+**Related Title:** Healthcare Data Security Systems, Mobile Health Authentication Frameworks  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-02  
+**Title:** Personal Data Privacy Management  
+**Description:** The app shall allow the user to manage personal information, respecting different countries' specific legislation or regulations regarding user ownership of personal information. The user should be able to edit, remove, add, and share personal data from the profile.  
+**Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. Section 3.7.6.1, Table 2, Requirements 1.1.2.1 to 1.1.2.4.  
+**Related Title:** Personal Health Record Privacy Systems, Patient Data Management Platforms

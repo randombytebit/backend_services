@@ -1,0 +1,49 @@
+### Architectural Reasoning
+
+- **Component Identification**: The source text outlines the development of a Sustainable Connected Health Catalog (SCH-CAT) for connected health (CH) applications, emphasizing sustainability across individual, social, environmental, and technical dimensions. Key components include user interaction features (e.g., personal data management, health record access) and system-level capabilities (e.g., energy efficiency, multilingual support).
+- **Constraint Identification**: The text specifies both functional requirements (what the system must do, such as managing personal health records) and non-functional requirements (quality constraints like usability, energy efficiency, and cultural adaptability) that ensure sustainability. These constraints are derived from standards (e.g., ISO/IEC 25010) and literature on software sustainability.
+- **Functional Logic**: The primary role for functional requirements is assigned to the 'System' for providing core capabilities (e.g., data management, user interaction) and to the 'User' for interacting with these features (e.g., editing personal data). These roles align with the purpose of CH apps to empower users and connect them with healthcare services.
+- **Quality Logic**: Non-functional requirements are assigned to the 'System' to ensure performance, usability, and sustainability across multiple dimensions (e.g., energy efficiency for technical sustainability, multilingual support for social sustainability). These constraints are critical for long-term adoption and effectiveness of CH apps.
+- **Domain Mapping**: The functional requirements are applicable to domains like mobile health apps for chronic disease management and blood donation systems, where user interaction and data management are central. Non-functional requirements map to broader contexts such as telemedicine platforms (for usability and accessibility), environmental impact tracking systems (for energy efficiency), and global health initiatives (for cultural adaptability).
+
+### Expected Output
+
+#### Functional Requirement 1
+- **Role**: User
+- **Requirement ID**: FR-01
+- **Title**: Personal Data Management
+- **Description**: The user should be able to manage personal information within the app, including editing, adding, removing, and sharing personal data as per specific legislation or regulations regarding user ownership of personal information.
+- **Citation**: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.1, Table 2]
+- **Related Title**: Mobile Personal Health Record App, Blood Donation Management System, Chronic Disease Monitoring App
+
+#### Functional Requirement 2
+- **Role**: User
+- **Requirement ID**: FR-02
+- **Title**: Personal Health Record Access
+- **Description**: The user should be able to consult health recommendations and manage personal health records, including editing, adding, removing, sharing, importing, exporting, and backing up health data.
+- **Citation**: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.1, Table 2]
+- **Related Title**: Telehealth Patient Portal, Cardiovascular Health Tracking App, Diabetes Management System
+
+#### Non-Functional Requirement 1
+- **Role**: System
+- **Requirement ID**: NFR-01
+- **Title**: Energy Efficiency
+- **Description**: The system should be energy-efficient by shutting down in idle mode and supporting multiple user profiles on the same device to minimize resource consumption.
+- **Citation**: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.4, Table 5]
+- **Related Title**: Green Mobile Health App, Sustainable Telemedicine Platform, Energy-Conscious Health Monitoring System
+
+#### Non-Functional Requirement 2
+- **Role**: System
+- **Requirement ID**: NFR-02
+- **Title**: Multilingual and Cultural Adaptability
+- **Description**: The system should support cultural diversity and multilingual use by adapting content to user language preferences, supporting multiple languages, and using appropriate formats, units of measurement, or currency for an international audience.
+- **Citation**: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.2, Table 3]
+- **Related Title**: Global Health Initiative App, International Telehealth System, Culturally Adaptive Patient Support Platform
+
+#### Non-Functional Requirement 3
+- **Role**: System
+- **Requirement ID**: NFR-03
+- **Title**: Environmental Impact Reduction
+- **Description**: The system should reduce environmental impact by minimizing the need for transportation through features like locating nearby healthcare centers and enabling data interchange with EHRs, PHRs, or third parties.
+- **Citation**: Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.3, Table 4]
+- **Related Title**: Eco-Friendly Health Service Locator, Sustainable EHR Integration Platform, Green Patient Data Exchange System

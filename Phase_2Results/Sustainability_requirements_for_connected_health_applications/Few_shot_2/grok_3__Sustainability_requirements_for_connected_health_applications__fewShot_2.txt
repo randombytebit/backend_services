@@ -1,0 +1,71 @@
+**Functional Requirements (FR) and Non-Functional Requirements (NFR) for Sustainable Connected Health Applications**
+
+Below are the extracted Functional and Non-Functional Requirements from the provided text on sustainability requirements for connected health (CH) applications. Each requirement is formatted according to the specified rules, including unique IDs, titles, descriptions, citations, and related titles for contextual examples or domains.
+
+---
+
+**Requirement ID: FR-01**  
+**Requirement Title:** User Authentication and Privacy Management  
+**Requirement Description:** The system shall provide users with the ability to authenticate themselves to access the application, with options to choose whether authentication is required or not. Additionally, users should be able to log in using a personal account or social network credentials. The system must allow users to manage their personal information, including editing, adding, removing, and sharing personal data in compliance with regional legislation or regulations regarding data ownership.  
+**Citation:** Section 3.7.6.1, Table 2, Individual Impact (Page 5)  
+**Requirement Related Title:** Personal Health Record (PHR) Management Apps, Telemedicine Patient Portals, Chronic Disease Self-Management Tools, Mental Health Support Platforms, Fitness Tracking Applications  
+
+---
+
+**Requirement ID: FR-02**  
+**Requirement Title:** Personal Health Record Management  
+**Requirement Description:** The system shall enable users to manage their personal health records (PHRs) by allowing them to consult health recommendations, edit, add, remove, share, import, export, and back up health record data. This functionality should support user empowerment and self-management of health information.  
+**Citation:** Section 3.7.6.1, Table 2, Individual Impact (Page 5)  
+**Requirement Related Title:** Mobile Health (mHealth) Apps for Diabetes Management, Cardiovascular Health Monitoring Tools, Pregnancy Tracking Applications, Post-Surgery Recovery Apps, Elderly Care Health Management Systems  
+
+---
+
+**Requirement ID: FR-03**  
+**Requirement Title:** Social Interaction and Community Building  
+**Requirement Description:** The system shall promote social interaction among users by integrating features for connecting via social networks or online healthcare forums. It should also encourage social solidarity through mechanisms such as a rewards system to foster community engagement and support.  
+**Citation:** Section 3.7.6.2, Table 3, Social Impact (Page 6)  
+**Requirement Related Title:** Blood Donation Community Apps, Cancer Survivor Support Networks, Mental Health Peer Support Platforms, Wellness Challenge Social Apps, Patient Advocacy Group Tools  
+
+---
+
+**Requirement ID: FR-04**  
+**Requirement Title:** Multilingual and Culturally Adaptive Interface  
+**Requirement Description:** The system shall support cultural diversity and multilingual use by adapting content to the user's language preferences, offering multiple language options, allowing language switching during use, and adjusting formats (e.g., text alignment, units of measurement, currency) to suit international audiences. It should also control advertisements to avoid cultural discrepancies.  
+**Citation:** Section 3.7.6.2, Table 3, Social Impact (Page 6)  
+**Requirement Related Title:** Global Telehealth Platforms, International Health Education Apps, Refugee Health Support Tools, Cross-Border Medical Consultation Systems, Multicultural Wellness Apps  
+
+---
+
+**Requirement ID: FR-05**  
+**Requirement Title:** Environmental Impact Reduction Features  
+**Requirement Description:** The system shall reduce environmental impact by minimizing the need for physical transportation through features like locating nearby healthcare centers and enabling data interchange with Electronic Health Records (EHRs), PHRs, or third parties. It should also enhance user convenience with visual aids (pictures, icons, graphs) for frequent use and connect to IT resources such as data repositories, social networks, maps, and device features (e.g., Bluetooth, NFC).  
+**Citation:** Section 3.7.6.3, Table 4, Environmental Impact (Page 6)  
+**Requirement Related Title:** Remote Patient Monitoring Systems, Teleconsultation Apps for Rural Areas, Eco-Friendly Health Navigation Tools, Green Hospital Management Software, Sustainable Health Data Sharing Platforms  
+
+---
+
+**Requirement ID: NFR-01**  
+**Requirement Title:** Energy Efficiency and Resource Optimization  
+**Requirement Description:** The system shall be energy-efficient by shutting down in idle mode and supporting multiple user profiles on the same device to optimize resource usage. This ensures minimal power consumption and contributes to the technical sustainability of the application.  
+**Citation:** Section 3.7.6.4, Table 5, Technical Impact (Page 6)  
+**Requirement Related Title:** Battery-Optimized mHealth Apps, Wearable Health Device Software, Green Telemedicine Solutions, Energy-Efficient Patient Monitoring Systems, Sustainable Fitness Tracker Applications  
+
+---
+
+**Requirement ID: NFR-02**  
+**Requirement Title:** Offline Accessibility and Data Management  
+**Requirement Description:** The system shall provide users with the ability to access the application and edit data offline without an internet connection. It must also save edited data offline to ensure usability in areas with limited connectivity, supporting technical sustainability and user convenience.  
+**Citation:** Section 3.7.6.4, Table 5, Technical Impact (Page 6)  
+**Requirement Related Title:** Rural Health Monitoring Apps, Disaster Response Medical Tools, Offline PHR Management Systems, Remote Area Telehealth Solutions, Field-Based Health Worker Applications  
+
+---
+
+**Requirement ID: NFR-03**  
+**Requirement Title:** Adaptability to Operating System Changes  
+**Requirement Description:** The system shall be designed to easily adapt to future operating system (OS) changes by adhering to mobile OS development guidelines and being tailored to specific OS platforms. This ensures long-term technical sustainability and prevents obsolescence.  
+**Citation:** Section 3.7.6.4, Table 5, Technical Impact (Page 6)  
+**Requirement Related Title:** Cross-Platform Health Apps, Long-Term Telemedicine Software, OS-Compatible Medical Record Systems, Sustainable Health Wearable Apps, Future-Proof eHealth Solutions  
+
+---
+
+These requirements cover the key sustainability dimensions (individual, social, environmental, and technical) as outlined in the SCH-CAT catalog for connected health applications. They are derived from the detailed tables and discussions in the paper and are intended to guide the development and evaluation of sustainable CH apps across various contexts and domains.

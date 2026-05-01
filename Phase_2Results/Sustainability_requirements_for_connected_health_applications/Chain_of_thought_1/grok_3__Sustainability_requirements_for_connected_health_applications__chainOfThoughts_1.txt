@@ -1,0 +1,105 @@
+Below, I will extract and format Functional and Non-Functional Requirements from the provided document on "Sustainability requirements for connected health applications" by Sofia Ouhbi et al. I will follow the specified Step-by-Step Reasoning process to ensure accuracy and avoid hallucination. Each requirement will be derived directly from the text, with clear citations and related titles for real-world applicability.
+
+---
+
+### Functional Requirement 1
+**Step-by-Step Reasoning:**
+- **Sentence Analysis:** The text in Table 2 (Page 5) under "3.7.6.1 Individual impact" states, "1.1.1) The app shall have an authentication procedure," with further details such as "1.1.1.2) The user should be able to access the app using a login or social network account."
+- **Classification:** This describes a specific behavior the system must perform (user authentication), making it a Functional Requirement (FR).
+- **Role Identification:** The 'App' (system component) is responsible for providing the authentication functionality, while the 'User' interacts with it.
+- **Title & Description:** The title is 'User Authentication via Login or Social Network'. The description includes the ability to access the app using a login or social network account as specified.
+- **Citation Verification:** Confirmed in Table 2, Section 3.7.6.1, Requirement ID 1.1.1.2.
+- **Related Title Generation:** This requirement is critical in domains where secure access to personal health data is essential, such as telemedicine platforms, personal health record systems, and chronic disease management apps.
+
+**Formatted Output:**
+- **Functional Requirement**
+- **Role:** App/User
+- **Requirement ID:** FR-01
+- **Title:** User Authentication via Login or Social Network
+- **Description:** The app shall provide an authentication procedure allowing the user to access the app using a login or social network account.
+- **Citation:** Ouhbi et al. (2018), Table 2, Section 3.7.6.1, Requirement ID 1.1.1.2, Page 5.
+- **Related Title:** Telemedicine Consultation Platform, Personal Health Record System, Chronic Disease Monitoring App
+
+---
+
+### Functional Requirement 2
+**Step-by-Step Reasoning:**
+- **Sentence Analysis:** The text in Table 3 (Page 6) under "3.7.6.2 Social impact" states, "1.1) The app shall promote interaction among users via social networks and/or online healthcare forums."
+- **Classification:** This describes a specific system behavior (facilitating user interaction), making it a Functional Requirement (FR).
+- **Role Identification:** The 'App' is responsible for enabling interaction features.
+- **Title & Description:** The title is 'Social Interaction via Networks and Forums'. The description reflects the app's role in promoting user interaction through specified channels.
+- **Citation Verification:** Confirmed in Table 3, Section 3.7.6.2, Requirement ID 1.1.
+- **Related Title Generation:** This is vital in domains where community support enhances health outcomes, such as mental health support platforms, patient advocacy groups, and wellness communities.
+
+**Formatted Output:**
+- **Functional Requirement**
+- **Role:** App
+- **Requirement ID:** FR-02
+- **Title:** Social Interaction via Networks and Forums
+- **Description:** The app shall promote interaction among users via social networks and/or online healthcare forums to enhance social connectivity.
+- **Citation:** Ouhbi et al. (2018), Table 3, Section 3.7.6.2, Requirement ID 1.1, Page 6.
+- **Related Title:** Mental Health Support Platform, Patient Advocacy Group App, Wellness Community Network
+
+---
+
+### Functional Requirement 3
+**Step-by-Step Reasoning:**
+- **Sentence Analysis:** The text in Table 4 (Page 6) under "3.7.6.3 Environmental impact" states, "1.1.1) The user should be able to find nearby healthcare centers."
+- **Classification:** This describes a specific system behavior (locating healthcare centers), making it a Functional Requirement (FR).
+- **Role Identification:** The 'App' provides the functionality, and the 'User' interacts with it.
+- **Title & Description:** The title is 'Locate Nearby Healthcare Centers'. The description specifies the app's role in helping users find nearby centers.
+- **Citation Verification:** Confirmed in Table 4, Section 3.7.6.3, Requirement ID 1.1.1.
+- **Related Title Generation:** This is critical in emergency response systems, rural health access apps, and blood donation coordination platforms where proximity to care is essential.
+
+**Formatted Output:**
+- **Functional Requirement**
+- **Role:** App/User
+- **Requirement ID:** FR-03
+- **Title:** Locate Nearby Healthcare Centers
+- **Description:** The app shall enable the user to find nearby healthcare centers to reduce transportation needs and improve access to care.
+- **Citation:** Ouhbi et al. (2018), Table 4, Section 3.7.6.3, Requirement ID 1.1.1, Page 6.
+- **Related Title:** Emergency Response System, Rural Health Access App, Blood Donation Coordination Platform
+
+---
+
+### Non-Functional Requirement 1
+**Step-by-Step Reasoning:**
+- **Sentence Analysis:** The text in Table 5 (Page 6) under "3.7.6.4 Technical impact" states, "1.2) The app shall be energy-efficient," with specifics like "1.2.1) The app shall shut down in idle mode."
+- **Classification:** This describes a quality constraint (energy efficiency), making it a Non-Functional Requirement (NFR).
+- **Role Identification:** The 'App' is responsible for meeting this energy efficiency constraint.
+- **Title & Description:** The title is 'Energy Efficiency in Idle Mode'. The description includes the requirement for the app to shut down in idle mode to conserve energy.
+- **Citation Verification:** Confirmed in Table 5, Section 3.7.6.4, Requirement ID 1.2.1.
+- **Related Title Generation:** This is crucial in mobile health monitoring systems, wearable health devices, and remote patient tracking apps where battery life impacts usability.
+
+**Formatted Output:**
+- **Non-Functional Requirement**
+- **Role:** App
+- **Requirement ID:** NFR-01
+- **Title:** Energy Efficiency in Idle Mode
+- **Description:** The app shall be energy-efficient by shutting down in idle mode to conserve battery life and support sustainability.
+- **Citation:** Ouhbi et al. (2018), Table 5, Section 3.7.6.4, Requirement ID 1.2.1, Page 6.
+- **Related Title:** Mobile Health Monitoring System, Wearable Health Device, Remote Patient Tracking App
+
+---
+
+### Non-Functional Requirement 2
+**Step-by-Step Reasoning:**
+- **Sentence Analysis:** The text in Table 3 (Page 6) under "3.7.6.2 Social impact" states, "1.3) The app shall be designed for cultural diversity and multilingual use," with details like "1.3.1) The app shall adapt its content to the user's language preferences."
+- **Classification:** This describes a quality constraint (usability across diverse cultures and languages), making it a Non-Functional Requirement (NFR).
+- **Role Identification:** The 'App' must meet this usability and accessibility standard.
+- **Title & Description:** The title is 'Multilingual and Cultural Adaptability'. The description emphasizes adapting content to user language preferences for inclusivity.
+- **Citation Verification:** Confirmed in Table 3, Section 3.7.6.2, Requirement ID 1.3.1.
+- **Related Title Generation:** This is essential in global health outreach programs, refugee health support apps, and international telemedicine services where diverse user bases are common.
+
+**Formatted Output:**
+- **Non-Functional Requirement**
+- **Role:** App
+- **Requirement ID:** NFR-02
+- **Title:** Multilingual and Cultural Adaptability
+- **Description:** The app shall be designed for cultural diversity and multilingual use by adapting its content to the user's language preferences to ensure accessibility and inclusivity.
+- **Citation:** Ouhbi et al. (2018), Table 3, Section 3.7.6.2, Requirement ID 1.3.1, Page 6.
+- **Related Title:** Global Health Outreach Program, Refugee Health Support App, International Telemedicine Service
+
+---
+
+These extracted requirements cover key aspects of sustainability in connected health applications as outlined in the document, focusing on individual, social, environmental, and technical dimensions. Each requirement is directly supported by the source text, ensuring accuracy and relevance.

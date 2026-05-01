@@ -1,0 +1,250 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: User
+- **Requirement ID**: FR-01
+- **Requirement Title**: Authentication Option
+- **Requirement Description**: The app shall provide users the option to choose in the app's settings whether to be authenticated or not.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.1.1
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: User
+- **Requirement ID**: FR-02
+- **Requirement Title**: Login via Social Network or Account
+- **Requirement Description**: The app shall allow users to access the app using a login or social network account.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.1.2
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: User
+- **Requirement ID**: FR-03
+- **Requirement Title**: Edit Personal Data
+- **Requirement Description**: The app shall allow users to edit personal data in their profile.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.2.1
+- **Requirement Related Title**: Individual Impact - Personal Information Management
+
+- **Role**: User
+- **Requirement ID**: FR-04
+- **Requirement Title**: Remove Personal Data
+- **Requirement Description**: The app shall allow users to remove personal data from their profile.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.2.2
+- **Requirement Related Title**: Individual Impact - Personal Information Management
+
+- **Role**: User
+- **Requirement ID**: FR-05
+- **Requirement Title**: Add Personal Data
+- **Requirement Description**: The app shall allow users to add personal data to their profile.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.2.3
+- **Requirement Related Title**: Individual Impact - Personal Information Management
+
+- **Role**: User
+- **Requirement ID**: FR-06
+- **Requirement Title**: Share Personal Data
+- **Requirement Description**: The app shall allow users to share personal data from their profile.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1.2.4
+- **Requirement Related Title**: Individual Impact - Personal Information Management
+
+- **Role**: User
+- **Requirement ID**: FR-07
+- **Requirement Title**: Consult Health Recommendations
+- **Requirement Description**: The app shall allow users to consult health recommendations.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.1
+- **Requirement Related Title**: Individual Impact - Personal Health and Well-being
+
+- **Role**: User
+- **Requirement ID**: FR-08
+- **Requirement Title**: Edit Health Record Data
+- **Requirement Description**: The app shall allow users to edit data in their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.1
+- **Requirement Related Title**: Individual Impact - Personal Health Record Management
+
+- **Role**: User
+- **Requirement ID**: FR-09
+- **Requirement Title**: Remove Health Record Data
+- **Requirement Description**: The app shall allow users to remove data from their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.2
+- **Requirement Related Title**: Individual Impact - Personal Health Record Management
+
+- **Role**: User
+- **Requirement ID**: FR-10
+- **Requirement Title**: Add Health Record Data
+- **Requirement Description**: The app shall allow users to add data to their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.3
+- **Requirement Related Title**: Individual Impact - Personal Health Record Management
+
+- **Role**: User
+- **Requirement ID**: FR-11
+- **Requirement Title**: Share Health Record Data
+- **Requirement Description**: The app shall allow users to share data from their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.4
+- **Requirement Related Title**: Individual Impact - Personal Health Record Management
+
+- **Role**: User
+- **Requirement ID**: FR-12
+- **Requirement Title**: Import Health Record Data
+- **Requirement Description**: The app shall allow users to import data to their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.5
+- **Requirement Related Title**: Individual Impact - Personal Health Record Management
+
+- **Role**: User
+- **Requirement ID**: FR-13
+- **Requirement Title**: Export Health Record Data
+- **Requirement Description**: The app shall allow users to export data from their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.6
+- **Requirement Related Title**: Individual Impact - Personal Health Record Management
+
+- **Role**: User
+- **Requirement ID**: FR-14
+- **Requirement Title**: Backup Health Record Data
+- **Requirement Description**: The app shall allow users to back up data from their personal health record.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.2.2.7
+- **Requirement Related Title**: Individual Impact - Personal Health Record Management
+
+**Non-Functional Requirements**
+
+- **Role**: System
+- **Requirement ID**: NF-01
+- **Requirement Title**: User Privacy and Security
+- **Requirement Description**: The app shall respect the security and privacy of the user by implementing robust authentication and data protection mechanisms.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1.1
+- **Requirement Related Title**: Individual Impact - Security and Privacy
+
+- **Role**: System
+- **Requirement ID**: NF-02
+- **Requirement Title**: Positive Individual Impact
+- **Requirement Description**: The app shall have a positive impact on individual users by ensuring privacy, safety, and well-being through secure data handling and user-centric design.
+- **Citation**: Table 2, Section 3.7.6.1, Individual Impact, Requirement 1
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: System
+- **Requirement ID**: NF-03
+- **Requirement Title**: Social Interaction and Solidarity
+- **Requirement Description**: The app shall promote interaction and social solidarity among users through features like social networks, online forums, and rewards systems.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirements 1.1 and 1.2
+- **Requirement Related Title**: Social Impact
+
+- **Role**: System
+- **Requirement ID**: NF-04
+- **Requirement Title**: Cultural Diversity and Multilingual Support
+- **Requirement Description**: The app shall be designed for cultural diversity and multilingual use, adapting content to user language preferences and cultural norms.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1.3
+- **Requirement Related Title**: Social Impact - Cultural Diversity
+
+- **Role**: System
+- **Requirement ID**: NF-05
+- **Requirement Title**: Positive Social Impact
+- **Requirement Description**: The app shall have a positive social impact by fostering community interaction and supporting cultural diversity.
+- **Citation**: Table 3, Section 3.7.6.2, Social Impact, Requirement 1
+- **Requirement Related Title**: Social Impact
+
+- **Role**: System
+- **Requirement ID**: NF-06
+- **Requirement Title**: Environmental Impact through Reduced Transportation
+- **Requirement Description**: The app shall reduce the need for transportation by enabling users to find nearby healthcare centers and interchange data with EHRs, PHRs, or third parties.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.1
+- **Requirement Related Title**: Environmental Impact - Reduced Transportation
+
+- **Role**: System
+- **Requirement ID**: NF-07
+- **Requirement Title**: Usability for Frequent Use
+- **Requirement Description**: The app shall be convenient for frequent use by incorporating visual aids like pictures, icons, and graphs to explain content and health data history.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.2
+- **Requirement Related Title**: Environmental Impact - Usability
+
+- **Role**: System
+- **Requirement ID**: NF-08
+- **Requirement Title**: Connectivity with IT Resources
+- **Requirement Description**: The app shall connect to other IT resources such as data repositories, social networks, device features (Bluetooth/NFC), and maps to enhance functionality and reduce environmental impact.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1.3
+- **Requirement Related Title**: Environmental Impact - Connectivity
+
+- **Role**: System
+- **Requirement ID**: NF-09
+- **Requirement Title**: Positive Environmental Impact
+- **Requirement Description**: The app shall have a positive environmental impact by reducing resource consumption and supporting sustainable user behaviors.
+- **Citation**: Table 4, Section 3.7.6.3, Environmental Impact, Requirement 1
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: System
+- **Requirement ID**: NF-10
+- **Requirement Title**: Adaptation to OS Changes
+- **Requirement Description**: The app shall easily adapt to future operating system changes by adhering to mobile OS development guidelines and platform compatibility.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.1
+- **Requirement Related Title**: Technical Impact - System Longevity
+
+- **Role**: System
+- **Requirement ID**: NF-11
+- **Requirement Title**: Energy Efficiency
+- **Requirement Description**: The app shall be energy-efficient by shutting down in idle mode and supporting multiple profiles on the same device to minimize resource usage.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.2
+- **Requirement Related Title**: Technical Impact - Energy Efficiency
+
+- **Role**: System
+- **Requirement ID**: NF-12
+- **Requirement Title**: Offline Accessibility
+- **Requirement Description**: The app shall provide offline access to users, allowing data access and editing without an internet connection, with data saving capabilities.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1.3
+- **Requirement Related Title**: Technical Impact - Accessibility
+
+- **Role**: System
+- **Requirement ID**: NF-13
+- **Requirement Title**: Positive Technical Impact
+- **Requirement Description**: The app shall have a positive technical impact by ensuring longevity, energy efficiency, and accessibility under varying conditions.
+- **Citation**: Table 5, Section 3.7.6.4, Technical Impact, Requirement 1
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: System
+- **Requirement ID**: NF-14
+- **Requirement Title**: Compliance with Security Standards
+- **Requirement Description**: The app shall comply with health information security standards such as ISO 27799 for information security management to ensure data protection.
+- **Citation**: Section 3.1, ISO 27799 Standard Reference
+- **Requirement Related Title**: Security Standards Compliance
+
+- **Role**: System
+- **Requirement ID**: NF-15
+- **Requirement Title**: Interoperability and Compatibility
+- **Requirement Description**: The app shall ensure interoperability and compatibility with trusted health information systems as per ISO/TR 18307 and ISO/HL7 27931 standards to maintain data integrity and exchange.
+- **Citation**: Section 3.1, ISO/TR 18307 and ISO/HL7 27931 Standard References
+- **Requirement Related Title**: Interoperability Standards
+
+- **Role**: System
+- **Requirement ID**: NF-16
+- **Requirement Title**: Data Privacy Compliance
+- **Requirement Description**: The app shall adhere to privacy regulations such as the Health Insurance Portability and Accountability Act (HIPAA) recommendations to protect user data.
+- **Citation**: Section 3.1, HIPAA Recommendations Reference
+- **Requirement Related Title**: Data Privacy Compliance
+
+- **Role**: System
+- **Requirement ID**: NF-17
+- **Requirement Title**: System Reliability
+- **Requirement Description**: The app shall maintain high reliability to ensure consistent performance and availability as per ISO/IEC 25010 quality characteristics.
+- **Citation**: Table 1, Section 3.7.1, Reliability
+- **Requirement Related Title**: Software System Attributes - Reliability
+
+- **Role**: System
+- **Requirement ID**: NF-18
+- **Requirement Title**: System Availability
+- **Requirement Description**: The app shall ensure high availability to users, minimizing downtime and ensuring access to critical health information as per ISO/IEC 25010 standards.
+- **Citation**: Table 1, Section 3.7.2, Availability
+- **Requirement Related Title**: Software System Attributes - Availability
+
+- **Role**: System
+- **Requirement ID**: NF-19
+- **Requirement Title**: System Security
+- **Requirement Description**: The app shall implement robust security measures to protect against unauthorized access and data breaches as per ISO/IEC 25010 standards.
+- **Citation**: Table 1, Section 3.7.3, Security
+- **Requirement Related Title**: Software System Attributes - Security
+
+- **Role**: System
+- **Requirement ID**: NF-20
+- **Requirement Title**: System Maintainability
+- **Requirement Description**: The app shall be designed for maintainability to facilitate updates and bug fixes with minimal disruption as per ISO/IEC 25010 standards.
+- **Citation**: Table 1, Section 3.7.4, Maintainability
+- **Requirement Related Title**: Software System Attributes - Maintainability
+
+- **Role**: System
+- **Requirement ID**: NF-21
+- **Requirement Title**: System Portability
+- **Requirement Description**: The app shall be portable across different platforms and devices to ensure broad accessibility as per ISO/IEC 25010 standards.
+- **Citation**: Table 1, Section 3.7.5, Portability
+- **Requirement Related Title**: Software System Attributes - Portability

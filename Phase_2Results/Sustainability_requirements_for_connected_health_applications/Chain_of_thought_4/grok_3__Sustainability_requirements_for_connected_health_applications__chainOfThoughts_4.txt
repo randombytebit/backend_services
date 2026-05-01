@@ -1,0 +1,55 @@
+**Extraction of Requirements for Systematic Validation and Runtime Reliability of AI Components in Connected Health Applications**
+
+As a Lead Quality Assurance (QA) Engineer, I will extract requirements from the provided paper by Ouhbi et al. (2018) that are relevant to the systematic validation and runtime reliability of AI components within connected health (CH) applications. The focus will be on identifying specific testing methodologies and confidence-estimation constraints to ensure high reliability in deployment. I will follow a step-by-step reasoning process to align with the human-verified gold standard and ensure that the requirements are applicable to AI systems in health contexts.
+
+**Step-by-Step Reasoning for Requirement Extraction**
+
+1. **Identify Relevant Context in the Paper:** The paper discusses sustainability requirements for CH applications, covering individual, social, environmental, and technical dimensions. For AI components, the technical sustainability requirements (e.g., reliability, maintainability, energy efficiency) and validation processes (e.g., evaluation checklists) are most relevant. Additionally, individual impact requirements related to data privacy and security are critical for AI systems handling sensitive health data.
+2. **Focus on Systematic Validation and Reliability:** The paper emphasizes the importance of software quality requirements (e.g., ISO/IEC 25010 standards for reliability and maintainability) and evaluation checklists (e.g., SCH-CAT application to Blood Donor+ app). These can be adapted to AI components for systematic testing and runtime confidence estimation.
+3. **Determine Testing Methodologies:** The SCH-CAT evaluation process (Section 4) provides a structured checklist approach for validation, which can be mapped to AI testing methodologies like metamorphic testing or cross-validation for model outputs. The paper also references standards like ISO/IEC 25010, which includes reliability testing.
+4. **Identify Confidence-Estimation Constraints:** Runtime reliability for AI predictions requires confidence estimation at the individual prediction level, which aligns with the paper’s emphasis on individual impact and data integrity (e.g., personal health record management). This can be extended to AI systems to ensure trustworthiness of outputs.
+5. **Map Roles and Responsibilities:** The system (AI component in CH apps) is the primary role responsible for validation and reliability, while users interact with the system to manage data and receive outputs.
+6. **Draft Requirements with Precision:** Descriptions must explicitly mention testing methodologies (e.g., checklist-based evaluation or standard compliance) and constraints (e.g., runtime confidence for individual predictions).
+7. **Generate Related Titles:** Contextual examples will focus on high-reliability ML systems in health domains, ensuring relevance to AI deployment.
+
+**Extracted Requirements**
+
+**Non-Functional Requirement**  
+- **Role:** System (AI Component in Connected Health Applications)  
+- **Requirement ID:** NFR-01  
+- **Title:** Systematic Validation of AI Outputs  
+- **Description:** The system must support systematic validation of AI outputs through structured testing methodologies, such as checklist-based evaluations derived from sustainability catalogs (e.g., SCH-CAT) and compliance with software quality standards like ISO/IEC 25010. Validation should include techniques like metamorphic testing to ensure correctness of AI predictions independently of the training process.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 4: Application Example, Section 3.1: Requirements Specification]  
+- **Related Title:** AI-Driven Diagnostic Tools, Deep Learning Systems in Telehealth  
+
+**Non-Functional Requirement**  
+- **Role:** System (AI Component in Connected Health Applications)  
+- **Requirement ID:** NFR-02  
+- **Title:** Runtime Reliability and Confidence Estimation  
+- **Description:** The system must estimate the confidence and trustworthiness of individual AI predictions at runtime, ensuring reliability not only at the overall system level but for each output. This includes mechanisms to report uncertainty or error margins for predictions to support clinical decision-making in connected health applications.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.4: Technical Impact, Section 3.7.1: Reliability]  
+- **Related Title:** Predictive Models for Patient Monitoring, Medical Domain ML Applications  
+
+**Non-Functional Requirement**  
+- **Role:** System (AI Component in Connected Health Applications)  
+- **Requirement ID:** NFR-03  
+- **Title:** Energy Efficiency for Sustainable AI Operation  
+- **Description:** The system must ensure energy-efficient operation of AI components to support technical sustainability, including features like shutting down idle processes or optimizing resource usage during runtime to minimize environmental impact while maintaining reliability of predictions.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.4: Technical Impact, Table 5: Requirement 1.2]  
+- **Related Title:** Resource-Constrained AI in Mobile Health Apps, Green AI Systems for Telemedicine  
+
+**Non-Functional Requirement**  
+- **Role:** System (AI Component in Connected Health Applications)  
+- **Requirement ID:** NFR-04  
+- **Title:** Data Privacy and Security for AI Processing  
+- **Description:** The system must ensure the security and privacy of user data processed by AI components, implementing authentication procedures and allowing users to manage personal health information (e.g., edit, remove, or share data) to maintain trust and comply with health data regulations during runtime operations.  
+- **Citation:** Ouhbi, S., et al. (2018). Sustainability requirements for connected health applications. J Softw Evol Proc, 30:e1922. [Section 3.7.6.1: Individual Impact, Table 2: Requirements 1.1 and 1.2]  
+- **Related Title:** Secure AI for Personal Health Records, Privacy-Preserving ML in Healthcare  
+
+**Validation of Extracted Requirements**
+
+- **Alignment with Gold Standard:** Each requirement explicitly addresses systematic validation (NFR-01) or runtime reliability (NFR-02) with specific methodologies (e.g., checklist-based evaluation, metamorphic testing) and constraints (e.g., individual prediction confidence). Additional requirements (NFR-03, NFR-04) support sustainability and trust, which are critical for high-reliability AI systems.
+- **Relevance to AI Components:** The requirements are tailored to AI in CH applications by focusing on prediction validation, runtime confidence, and data handling, which are core concerns for ML deployment in health contexts.
+- **Related Titles Specificity:** Each related title reflects a domain or application area where high-reliability ML systems are deployed, ensuring contextual relevance (e.g., diagnostic tools, patient monitoring, telemedicine).
+
+These requirements provide a foundation for ensuring the quality and reliability of AI components in connected health applications, adhering to the systematic approach outlined in the gold standard example.

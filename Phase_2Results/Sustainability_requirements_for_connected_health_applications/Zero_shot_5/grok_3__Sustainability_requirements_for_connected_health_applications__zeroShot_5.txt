@@ -1,0 +1,152 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: System Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: User Authentication Management
+- **Requirement Description**: The system shall provide an authentication procedure allowing users to choose whether to be authenticated or not in the app's settings and to access the app using a login or social network account.
+- **Citation**: Ouhbi et al., 2018, Table 2, Section 1.1.1
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Personal Data Management
+- **Requirement Description**: The system shall allow users to manage personal information by editing, removing, adding, and sharing personal data in their profile, respecting different countries' specific legislation or regulations regarding user ownership of personal information.
+- **Citation**: Ouhbi et al., 2018, Table 2, Section 1.1.2
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Personal Health Record Management
+- **Requirement Description**: The system shall enable users to consult health recommendations and manage their personal health record by editing, removing, adding, sharing, importing, exporting, and backing up health record data.
+- **Citation**: Ouhbi et al., 2018, Table 2, Section 1.2
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Social Interaction and Solidarity
+- **Requirement Description**: The system shall promote interaction among users via social networks and/or online healthcare forums and encourage social solidarity through a rewards system.
+- **Citation**: Ouhbi et al., 2018, Table 3, Sections 1.1 and 1.2
+- **Requirement Related Title**: Social Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Cultural and Multilingual Adaptation
+- **Requirement Description**: The system shall be designed for cultural diversity and multilingual use by adapting content to user language preferences, supporting multiple languages, allowing language switching, adapting video/audio clips, online help, human anatomy terminology, text alignment, formats, units of measurement, currency, and controlling advertisements for cultural appropriateness.
+- **Citation**: Ouhbi et al., 2018, Table 3, Section 1.3
+- **Requirement Related Title**: Social Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Environmental Impact through Reduced Transportation
+- **Requirement Description**: The system shall reduce the need for transportation by enabling users to find nearby healthcare centers and providing data interchange capabilities with EHRs, PHRs, or third parties for sending and receiving data.
+- **Citation**: Ouhbi et al., 2018, Table 4, Section 1.1
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-07
+- **Requirement Title**: User-Friendly Design for Frequent Use
+- **Requirement Description**: The system shall be convenient for frequent use by incorporating pictures, icons, and graphs to explain ideas and illustrate health data history.
+- **Citation**: Ouhbi et al., 2018, Table 4, Section 1.2
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-08
+- **Requirement Title**: Connectivity with IT Resources
+- **Requirement Description**: The system shall connect to other IT resources by backing up data in repositories, drivers, or cloud systems, integrating with social networks, utilizing device features like Bluetooth and NFC, and connecting with map repositories to display locations.
+- **Citation**: Ouhbi et al., 2018, Table 4, Section 1.3
+- **Requirement Related Title**: Environmental Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-09
+- **Requirement Title**: Adaptation to Operating System Changes
+- **Requirement Description**: The system shall easily adapt to future operating system changes by respecting mobile OS development guidelines and being tailored to the mobile OS platform.
+- **Citation**: Ouhbi et al., 2018, Table 5, Section 1.1
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-10
+- **Requirement Title**: Energy Efficiency Features
+- **Requirement Description**: The system shall be energy-efficient by shutting down in idle mode and supporting different user profiles on the same device.
+- **Citation**: Ouhbi et al., 2018, Table 5, Section 1.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-11
+- **Requirement Title**: Offline Access Capability
+- **Requirement Description**: The system shall allow users to access the app without an internet connection, edit data offline, and save edited data offline.
+- **Citation**: Ouhbi et al., 2018, Table 5, Section 1.3
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-12
+- **Requirement Title**: Catalog Maintenance Process
+- **Requirement Description**: The system shall include a process for maintaining the requirements catalog to adapt to changes in regulations, policies, and standards, ensuring continuous updates for connected health applications.
+- **Citation**: Ouhbi et al., 2018, Section 3.2
+- **Requirement Related Title**: Catalog Development
+
+- **Role**: System Developer
+- **Requirement ID**: FR-13
+- **Requirement Title**: Automated Retraining Trigger for Sustainability Updates
+- **Requirement Description**: The system shall trigger automated retraining or updates of models and features when sustainability requirements (individual, social, environmental, technical) change due to new standards, user feedback, or regulatory updates.
+- **Citation**: Ouhbi et al., 2018, Section 5
+- **Requirement Related Title**: Sustainability Adaptation
+
+- **Role**: System Developer
+- **Requirement ID**: FR-14
+- **Requirement Title**: Orchestration of Evaluation Checklist Generation
+- **Requirement Description**: The system shall orchestrate the generation of a sustainability evaluation checklist from the SCH-CAT, adaptable to specific connected health apps, to facilitate evaluation and audit processes.
+- **Citation**: Ouhbi et al., 2018, Section 5
+- **Requirement Related Title**: Evaluation Process
+
+- **Role**: System Developer
+- **Requirement ID**: FR-15
+- **Requirement Title**: API Endpoint for User Data Management
+- **Requirement Description**: The system shall provide API endpoints to manage user data, including personal and health record data (edit, add, remove, share, import, export, backup), ensuring secure and standardized access.
+- **Citation**: Ouhbi et al., 2018, Table 2, Sections 1.1.2 and 1.2.2
+- **Requirement Related Title**: Individual Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-16
+- **Requirement Title**: API Endpoint for Social Interaction
+- **Requirement Description**: The system shall provide API endpoints to enable social interactions via integration with social networks and healthcare forums, supporting user engagement and community building.
+- **Citation**: Ouhbi et al., 2018, Table 3, Section 1.1
+- **Requirement Related Title**: Social Impact
+
+- **Role**: System Developer
+- **Requirement ID**: FR-17
+- **Requirement Title**: API Endpoint for Location-Based Services
+- **Requirement Description**: The system shall provide API endpoints to connect with map repositories for displaying nearby healthcare center locations, reducing transportation needs.
+- **Citation**: Ouhbi et al., 2018, Table 4, Section 1.3.4
+- **Requirement Related Title**: Environmental Impact
+
+**Non-Functional Requirements**
+
+- **Role**: System Architect
+- **Requirement ID**: NF-01
+- **Requirement Title**: Scalability for User Growth
+- **Requirement Description**: The system shall be scalable to handle an increasing number of users and data volume, ensuring performance remains consistent during peak usage for connected health applications globally.
+- **Citation**: Ouhbi et al., 2018, Section 5
+- **Requirement Related Title**: System Performance
+
+- **Role**: System Architect
+- **Requirement ID**: NF-02
+- **Requirement Title**: High Availability
+- **Requirement Description**: The system shall ensure high availability with minimal downtime, targeting at least 99.9% uptime to support continuous access to connected health services for users worldwide.
+- **Citation**: Ouhbi et al., 2018, Table 1, Section 3.7.2
+- **Requirement Related Title**: System Reliability
+
+- **Role**: System Architect
+- **Requirement ID**: NF-03
+- **Requirement Title**: Energy Efficiency
+- **Requirement Description**: The system shall optimize energy consumption by implementing features such as idle mode shutdown and efficient resource usage to minimize environmental impact and operational costs.
+- **Citation**: Ouhbi et al., 2018, Table 5, Section 1.2
+- **Requirement Related Title**: Technical Impact
+
+- **Role**: System Architect
+- **Requirement ID**: NF-04
+- **Requirement Title**: Cross-Platform Compatibility
+- **Requirement Description**: The system shall be compatible across multiple platforms (iOS, Android, Web) and adhere to respective OS guidelines to ensure seamless user experience and accessibility on various devices.
+- **Citation**: Ouhbi et al., 2018, Table 5, Section 1.1
+- **Requirement Related Title**: Technical Impact
