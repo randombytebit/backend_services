@@ -1,0 +1,63 @@
+### Functional Requirement
+**Role:** System  
+**Requirement ID:** FR-01  
+**Title:** Demographic Data Documentation  
+**Description:** The system must allow users (patients and consultants) to document and store basic demographic information, including identity details such as first name and surname, and insurance details such as insurance name and number, to facilitate user identification and billing processes in virtual consultations.  
+**Citation:** Table 1: Functional requirements of VCMA (Page 4)  
+**Related Title:** Patient Registration Systems in Telehealth Platforms, Insurance Verification Apps for Remote Care  
+
+### Functional Requirement
+**Role:** System  
+**Requirement ID:** FR-02  
+**Title:** Health Record Management  
+**Description:** The system must enable comprehensive documentation and management of patient health records, including vital signs (e.g., blood pressure, heart rate), kidney-related metrics (e.g., blood sugar), fitness data (e.g., weight, exercise, sleep, nutrition), skin condition assessments, medical history (e.g., disease history, family history, allergies, medications, vaccinations, surgeries, smoking), present symptoms and conditions (e.g., X-rays, tests, treatments, prescriptions, patient training), inpatient treatment history (e.g., admission/discharge dates, hospital name, chief complaint, summary), and detailed medication information (e.g., name, dose, type, instructions, side effects), to support clinical decision-making and patient self-management.  
+**Citation:** Table 1: Functional requirements of VCMA (Page 4)  
+**Related Title:** Electronic Health Record (EHR) Integration in Mobile Telemedicine, Chronic Disease Management Apps  
+
+### Functional Requirement
+**Role:** System  
+**Requirement ID:** FR-03  
+**Title:** User Interface General Features  
+**Description:** The system must provide general user interface features including reminders for appointments and preventive care, display of patient self-declarations on health status, consultant profiles (e.g., name, surname, profile picture, curriculum vitae, expertise, consulting field), communication types (e.g., phone call, text, video call, real-time), appointment details (e.g., date, time, duration, waiting time), service selection for consultation day/time and insurance type, reporting of weekly/monthly treatment processes and vital signs/medical history, support features like communication tagging, frequently asked questions, and discussion forums for Q&A among patients and consultants, as well as help/tutorial resources (e.g., text guides, in-app training, about us section, terms and conditions).  
+**Citation:** Table 1: Functional requirements of VCMA (Page 4)  
+**Related Title:** Virtual Consultation Scheduling Interfaces, Patient Portal Dashboards in mHealth Apps  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** Usability Settings  
+**Description:** The system must support usability features such as creating personal profiles for users (consultants and patients), enabling microphone and camera functionalities, allowing selection of measurement units (e.g., centimeters/meters for height), facilitating video calls with other participants, providing options for selecting conversation starters, and including a secure log-out mechanism, to ensure intuitive and user-friendly interactions during virtual clinic sessions.  
+**Citation:** Table 2: Nonfunctional requirements of VCMA (Page 5)  
+**Related Title:** User Onboarding in Telehealth Interfaces, Multimedia Communication Tools in Remote Care Apps  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-02  
+**Title:** Accessibility Services  
+**Description:** The system must provide accessibility services including the ability to save and mark items such as appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant performance; select predefined text options; and share individual lessons, health record information with doctors, and enable patient-consultant data exchange, to promote inclusive access and ease of use for diverse user groups.  
+**Citation:** Table 2: Nonfunctional requirements of VCMA (Page 5)  
+**Related Title:** Data Sharing Features in Patient Engagement Platforms, Feedback Mechanisms in Virtual Health Consultations  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-03  
+**Title:** Compatibility with Service Formats  
+**Description:** The system must ensure compatibility by supporting service formats such as recording insurance name and number, allowing seamless integration with external insurance systems and ensuring the app functions across various devices and networks without disrupting core virtual clinic operations.  
+**Citation:** Table 2: Nonfunctional requirements of VCMA (Page 5)  
+**Related Title:** Cross-Platform Insurance Integration in mHealth, Device-Agnostic Telemedicine Compatibility Layers  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-04  
+**Title:** Efficiency in Service Delivery  
+**Description:** The system must maintain efficiency by providing financial transaction reporting services, ensuring quick processing and low resource consumption for transactions, reminders, and data handling to minimize delays in virtual care delivery and support scalable operations.  
+**Citation:** Table 2: Nonfunctional requirements of VCMA (Page 5)  
+**Related Title:** Billing and Reporting Modules in e-Clinics, Performance Optimization in Remote Monitoring Systems  
+
+### Non-Functional Requirement
+**Role:** System  
+**Requirement ID:** NFR-05  
+**Title:** Security and Privacy Protections  
+**Description:** The system must implement robust security measures including multiple login methods (e.g., text password, email, activation code, anonymous options), user identity verification via mobile phone codes, the ability to delete consultation records, documents, and bank transactions, and encrypted exchange of patient data, to protect sensitive health information and comply with privacy standards in virtual interactions.  
+**Citation:** Table 2: Nonfunctional requirements of VCMA (Page 5); Section 6: Discussion (Page 6)  
+**Related Title:** HIPAA-Compliant Authentication in Telehealth, Data Encryption in Mobile EHR Systems

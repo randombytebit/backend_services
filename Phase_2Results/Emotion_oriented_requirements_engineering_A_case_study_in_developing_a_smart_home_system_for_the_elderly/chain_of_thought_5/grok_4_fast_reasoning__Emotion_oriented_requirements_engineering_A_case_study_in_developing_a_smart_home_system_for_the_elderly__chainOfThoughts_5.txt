@@ -1,0 +1,79 @@
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Support Independent Living  
+Description: System should support independent living among elderly people through passive monitoring using non-intrusive motion sensors to detect user activity, routines, and anomalies without requiring wearables.  
+Citation: Section 4.1, SofiHub features; Section 4.2, SofiHub emotion-oriented requirements engineering.  
+Related Title: Elderly Ambient Assisted Living Platform  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Privacy Secured  
+Description: System should ensure privacy of user information by securing data collected through sensors locally within the hub, restricting access to authorized personnel only, and avoiding invasive monitoring to prevent feelings of being controlled or monitored.  
+Citation: Section 2.3, Role of emotions within smart home systems; Section 4.2, SofiHub emotion-oriented requirements engineering; Section 5.2.5, Privacy and invasiveness.  
+Related Title: Secure IoT Home Monitoring for Vulnerable Users  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Learn User’s Routine and Behavior  
+Description: System should process input from motion and contact sensors to learn and adapt to the user's daily routines, behavior patterns, and environmental changes (e.g., time spent in bed, door usage).  
+Citation: Section 4.1, SofiHub features; Fig. 5, Goal model.  
+Related Title: Adaptive Behavior Learning in Smart Environments  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Integrated and Comfortable  
+Description: System should integrate seamlessly into the user's daily life to feel non-intrusive, easy to use, and comfortable, minimizing frustration or anxiety from technology complexity, especially for elderly users afraid of new devices.  
+Citation: Section 4.2, SofiHub emotion-oriented requirements engineering; Section 5.2.3, System is integrated in user’s life; Section 5.2.6, Other views on using SofiHub.  
+Related Title: User-Centric Seamless Integration for Aging-in-Place Tech  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Issue Notifications and Reminders  
+Description: System should issue user-specific reminders and notifications (e.g., for hydration, medication, appointments, or anomalies like leaving doors open) triggered by learned routines or activity, using voice messages to engage users.  
+Citation: Section 4.1, SofiHub features; Fig. 5, Goal model; Section 5.3, Implications of findings on the next generation of SofiHub.  
+Related Title: Proactive Reminder System for Daily Elderly Assistance  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Safe and Reassured  
+Description: System should make users feel safe and reassured by detecting anomalies (e.g., falls, irregular activity) and escalating alerts to carers or services, while reassuring relatives through wellbeing monitoring without violating independence.  
+Citation: Section 4.2, SofiHub emotion-oriented requirements engineering; Section 5.2.2, Feeling safe and reassured; Fig. 5, Goal model.  
+Related Title: Emotionally Supportive Anomaly Detection in Care Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: Detect Anomaly  
+Description: System should detect anomalous situations (e.g., abnormal time in bed, security risks like open doors, potential emergencies) using AI to analyze sensor data and automate responses like environmental controls (heating, cooling).  
+Citation: Section 4.1, SofiHub features; Fig. 5, Goal model.  
+Related Title: AI-Driven Anomaly Detection for Home Safety  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Independent and In Control  
+Description: System should empower users to feel independent and in control by limiting intrusive interactions (e.g., only essential messages), avoiding automation that replaces daily routines, and allowing user oversight without dependence on carers.  
+Citation: Section 4.2, SofiHub emotion-oriented requirements engineering; Section 5.2.1, Reduced loneliness; Section 5.2.4, In control.  
+Related Title: Autonomy-Preserving Assistive Tech for Independent Seniors  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-05  
+Title: Provide Carer Interface  
+Description: System should provide a user interface for carers and relatives to monitor user activity, receive customizable reports on behavior, and get notifications for anomalies, supporting remote reassurance.  
+Citation: Section 4.1, SofiHub features; Fig. 5, Goal model.  
+Related Title: Remote Caregiver Dashboard for Elderly Monitoring  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Less Lonely and Cared About  
+Description: System should alleviate loneliness and make users feel cared about through engaging, varied voice interactions (e.g., morning messages) that simulate companionship, while balancing with independence to avoid over-reliance.  
+Citation: Section 5.2.1, Reduced loneliness; Section 5.3, Implications of findings on the next generation of SofiHub; Fig. 7, Refined goal model.  
+Related Title: Companionship-Enhancing IoT for Social Isolation in Elders

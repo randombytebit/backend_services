@@ -1,0 +1,63 @@
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Demographic Data Documentation  
+Description: The system should capture and store user demographic information, including identity details (first name and surname) and insurance information (insurance name and number), to facilitate personalized virtual clinic interactions and administrative processes.  
+Citation: Table 1 (Page 4), under "A. Demographic data documentation".  
+Related Title: Telemedicine Platforms for Chronic Disease Management, Patient Registration Systems in Virtual Health Apps, Insurance-Integrated Mobile Health Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Health Record Management  
+Description: The system should enable documentation and management of comprehensive health records, including vital signs (e.g., blood pressure, heart rate), kidney-related data (e.g., blood sugar), fitness metrics (e.g., weight, exercise, sleep, nutrition), skin conditions, history (e.g., disease history, family history, allergies, medications, vaccinations, surgeries, smoking), present history (e.g., symptoms, X-rays, tests, treatments, prescriptions, patient training), inpatient treatment history (e.g., admission/discharge dates, hospital name, chief complaint, summary), and medication details (e.g., name, dose, type, instructions, side effects). This ensures accurate tracking and sharing of patient health data for virtual consultations.  
+Citation: Table 1 (Page 4), under "B. Health record" and its subcategories (Vital sign documentation, Kidney documentation, Fitness documentation, Skin documentation, History documentation, Present history documentation, Documentation of inpatient treatment history, Medication documentation).  
+Related Title: Electronic Health Record (EHR) Mobile Integrations, Chronic Disease Monitoring Apps, Remote Patient Monitoring Systems for Diabetes or Cardiovascular Care  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: General User Interface Features  
+Description: The system should provide general UI features including reminders (e.g., for appointments and preventive care), display capabilities (e.g., patient's self-declaration of health status, consultant identity with name, surname, profile picture, curriculum vitae including expertise and consulting field, type of communication such as phone call, text, video call, real-time, and appointment details like date, time, duration, waiting time), service selection (e.g., choosing consultation day, time, and insurance type), reporting (e.g., weekly/monthly reports on treatment process, vital signs, and medical history), support (e.g., documentation of communication ways like tagging in VCMA, frequently asked questions, Q&A forums with patients and consultants), and help/tutorial (e.g., text guides, in-app training, "About us", terms and conditions). These features enhance user engagement and facilitate seamless virtual clinic operations.  
+Citation: Table 1 (Page 4), under "C. General features of UI" and its subcategories (Reminders, Display, Service selection, Reporting, Support, Help/tutorial).  
+Related Title: Virtual Consultation Scheduling Apps, Patient Engagement Platforms in Telehealth, Mobile Apps for Appointment Management in Outpatient Care  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Usability  
+Description: The system should ensure high usability by supporting settings such as creating personal profiles for users (consultants and patients), microphone and camera access, selection of measurement units (e.g., centimeters or meters for height), video calls with multiple participants, selecting conversation starters, and logout functionality, to provide an intuitive and user-friendly interface for virtual clinic interactions.  
+Citation: Table 2 (Page 5), under "A. Usability" and its descriptions (Setting).  
+Related Title: User-Centric Telemedicine Interfaces, Mobile Health Apps for Elderly Users, Intuitive Virtual Care Platforms  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Accessibility  
+Description: The system should promote accessibility by allowing users to save and mark items (e.g., appointments, reminders, notes, recorded voices, photos, messages), send feedback on consultant performance, select text from default lists, and share content (e.g., individual lessons, health record information with doctors, patient-consultant data exchange), ensuring equitable access to virtual clinic services across diverse user groups.  
+Citation: Table 2 (Page 5), under "B. Accessibility" and its descriptions (Service).  
+Related Title: Inclusive Telehealth Apps for Diverse Populations, Remote Access Tools in Rural Healthcare, Disability-Friendly Virtual Clinic Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Compatibility  
+Description: The system should ensure compatibility by supporting service formats such as recording insurance name and number, allowing seamless integration with various devices, operating systems, and external services to maintain functionality across different environments.  
+Citation: Table 2 (Page 5), under "C. Compatibility" and its descriptions (Service format).  
+Related Title: Cross-Platform Telemedicine Solutions, Insurance-Compatible Health Apps, Multi-Device Virtual Care Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Efficiency  
+Description: The system should optimize efficiency by providing services like financial transaction reporting, ensuring quick response times, resource optimization, and streamlined processes for virtual consultations and data handling.  
+Citation: Table 2 (Page 5), under "D. Efficiency" and its descriptions (Service).  
+Related Title: High-Performance Telehealth Platforms, Efficient Remote Monitoring Apps, Scalable Virtual Clinic Systems for High-Volume Use  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Security  
+Description: The system should implement robust security measures including login methods (e.g., text password, email, activation code, anonymous), user identity verification by sending a verification code to the mobile phone, possibility of deleting consultation records, documents, and bank transactions, and encrypted patient data exchange, to protect sensitive health information and ensure privacy in virtual clinic interactions.  
+Citation: Table 2 (Page 5), under "E. Security" and its descriptions.  
+Related Title: Secure Telemedicine Apps Compliant with HIPAA, Privacy-Focused Virtual Health Platforms, Encrypted Data Systems for Remote Patient Care

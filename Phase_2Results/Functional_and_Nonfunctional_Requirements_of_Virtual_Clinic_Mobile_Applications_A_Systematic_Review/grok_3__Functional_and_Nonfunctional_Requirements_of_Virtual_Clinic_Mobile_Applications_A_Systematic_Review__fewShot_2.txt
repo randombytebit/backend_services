@@ -1,0 +1,71 @@
+**Functional and Non-Functional Requirements for Virtual Clinic Mobile Applications (VCMA)**
+
+Below are the extracted Functional Requirements (FR) and Non-Functional Requirements (NFR) from the provided text, formatted according to the specified rules. Each requirement includes a unique ID, title, detailed description, citation from the source text, and related contextual examples or domains.
+
+---
+
+**Requirement ID: FR-01**  
+**Requirement Title:** Demographic Data Documentation  
+**Requirement Description:** The system must allow users to input and store demographic information such as first name, surname, insurance name, and insurance number to facilitate patient identification and administrative processes within the virtual clinic application.  
+**Citation:** Table 1: Functional Requirements of VCMA - A. Demographic data documentation (Page 4)  
+**Requirement Related Title:** Patient Registration Systems, Health Insurance Management Apps, Telehealth Onboarding Platforms, Virtual Outpatient Clinic Portals, Medical Billing Software
+
+---
+
+**Requirement ID: FR-02**  
+**Requirement Title:** Health Record Management  
+**Requirement Description:** The system must enable comprehensive documentation and management of health records, including vital signs (e.g., blood pressure, heart rate), kidney-related data (e.g., blood sugar), fitness metrics (e.g., weight, exercise, sleep, nutrition), skin conditions, medical history (e.g., disease history, family history, allergies, medications, vaccinations, surgeries, smoking), present health status (e.g., symptoms, X-rays, tests, treatments, prescriptions), inpatient treatment history (e.g., admission/discharge dates, hospital name, chief complaint), and medication details (e.g., name, dose, type, instructions, side effects). This functionality supports clinical decision-making and patient self-management.  
+**Citation:** Table 1: Functional Requirements of VCMA - B. Health record (Page 4)  
+**Requirement Related Title:** Electronic Health Record (EHR) Systems, Chronic Disease Management Apps, Remote Patient Monitoring Platforms, Personal Health Record (PHR) Tools, Telemedicine Diagnostic Support Systems
+
+---
+
+**Requirement ID: FR-03**  
+**Requirement Title:** User Interface General Features  
+**Requirement Description:** The system must provide a user-friendly interface with features such as reminders for appointments and preventive care, display of patient self-declared health status and consultant identity (name, surname, profile picture, expertise), communication options (phone call, text, video call, real-time), appointment scheduling (consultation date, time, duration, waiting time), service selection (consultation day, time, insurance type), reporting (weekly/monthly treatment and vital sign reports), support features (tagging, FAQs, discussion forums), and help/tutorials (text guides, in-app training, terms and conditions). These features enhance user interaction and engagement with the virtual clinic.  
+**Citation:** Table 1: Functional Requirements of VCMA - C. General features of UI (Page 4)  
+**Requirement Related Title:** Telehealth Appointment Scheduling Apps, Patient Engagement Platforms, Virtual Consultation Dashboards, Remote Care Support Tools, Healthcare Communication Portals
+
+---
+
+**Requirement ID: NFR-01**  
+**Requirement Title:** Usability Features  
+**Requirement Description:** The system must ensure high usability by allowing users to create personal profiles, configure settings (e.g., microphone, camera, measurement units like centimeters or meters for height), initiate video calls with other participants, select conversation starters, and log out. These features aim to provide a seamless and intuitive user experience in the virtual clinic application.  
+**Citation:** Table 2: Nonfunctional Requirements of VCMA - A. Usability (Page 5)  
+**Requirement Related Title:** Telemedicine User Experience Platforms, Virtual Care Interface Design Tools, Patient Portal Accessibility Apps, Remote Consultation Usability Systems, Healthcare App Navigation Solutions
+
+---
+
+**Requirement ID: NFR-02**  
+**Requirement Title:** Accessibility Features  
+**Requirement Description:** The system must support accessibility by enabling users to save and mark appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant performance; select text from a default list; and share individual lessons, health record information with doctors, and patient-consultant data exchanges. This ensures that users can easily access and interact with critical functionalities of the virtual clinic application.  
+**Citation:** Table 2: Nonfunctional Requirements of VCMA - B. Accessibility (Page 5)  
+**Requirement Related Title:** Inclusive Telehealth Platforms, Accessible Virtual Care Apps, Patient Data Sharing Tools, Remote Healthcare Feedback Systems, Universal Design Health Apps
+
+---
+
+**Requirement ID: NFR-03**  
+**Requirement Title:** Compatibility Requirements  
+**Requirement Description:** The system must be compatible with various service formats, including the ability to record insurance names and numbers, ensuring integration with existing healthcare administrative systems and supporting diverse user needs within the virtual clinic application.  
+**Citation:** Table 2: Nonfunctional Requirements of VCMA - C. Compatibility (Page 5)  
+**Requirement Related Title:** Cross-Platform Telehealth Solutions, Insurance Integration Apps, Multi-System Healthcare Tools, Virtual Clinic Compatibility Frameworks, Interoperable Medical Apps
+
+---
+
+**Requirement ID: NFR-04**  
+**Requirement Title:** Efficiency in Service Delivery  
+**Requirement Description:** The system must ensure efficiency by supporting financial transaction reporting, enabling quick and accurate processing of payments and related documentation within the virtual clinic application to reduce administrative burden and enhance user satisfaction.  
+**Citation:** Table 2: Nonfunctional Requirements of VCMA - D. Efficiency (Page 5)  
+**Requirement Related Title:** Telehealth Billing Systems, Virtual Care Payment Platforms, Remote Consultation Transaction Tools, Healthcare Financial Management Apps, Efficient Medical Service Apps
+
+---
+
+**Requirement ID: NFR-05**  
+**Requirement Title:** Security and Privacy Measures  
+**Requirement Description:** The system must implement robust security features, including multiple login methods (text password, email, activation code, anonymous access), user identity verification via mobile verification codes, the ability to delete consultation records, documents, and bank transactions, and encrypted patient data exchange. These measures protect sensitive information and ensure user trust in the virtual clinic application.  
+**Citation:** Table 2: Nonfunctional Requirements of VCMA - E. Security (Page 5)  
+**Requirement Related Title:** Secure Telemedicine Platforms, Healthcare Data Encryption Tools, Virtual Clinic Privacy Systems, Remote Care Authentication Apps, Medical Data Protection Software
+
+---
+
+These requirements capture the essential functionalities and constraints necessary for the design and development of Virtual Clinic Mobile Applications (VCMA), as derived from the systematic review provided in the text. Each requirement is linked to specific sections of the document and contextualized with relevant application domains to illustrate their practical significance.

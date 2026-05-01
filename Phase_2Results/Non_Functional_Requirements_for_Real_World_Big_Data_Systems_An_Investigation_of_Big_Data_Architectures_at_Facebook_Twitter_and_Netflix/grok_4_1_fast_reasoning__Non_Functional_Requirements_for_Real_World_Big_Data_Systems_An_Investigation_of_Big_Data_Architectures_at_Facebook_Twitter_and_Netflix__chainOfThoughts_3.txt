@@ -1,0 +1,87 @@
+Threat-Model Reasoning:  
+**Let's think step by step.**  
+1. **Analyze Security Context:** The document identifies 10 explicit non-functional requirements (NFRs) for big data systems derived from real-world architectures at Facebook, Twitter, and Netflix (Section 3). While none are explicitly labeled as "security," several directly map to security threats in a threat model for distributed big data systems: e.g., Fault Tolerance (STRIDE: Availability disruptions from node failures or attacks), Flow Control (DoS/flooding via backpressure), Processing Guarantees (data integrity via duplication/loss prevention), Distribution and Scalability (DDoS resilience), Cloud Support and Elasticity (secure elastic scaling in multi-tenant clouds), Late/Out-of-Order Data (resilience to manipulated streams). Others like Batch/Stream Data, Integration/Extensibility, and Flexibility support secure deployment by enabling robust, modular systems resistant to tampering or single points of failure.  
+2. **Analyze Privacy Context:** No requirements address privacy (e.g., no mentions of data minimization, anonymization, PII protection, or differential privacy). Privacy is absent from the source.  
+3. **Identify Roles:** All requirements apply to the "System" (big data processing architectures).  
+4. **Draft Descriptions:** Descriptions are extracted word-for-word or near-verbatim from the source (Sections 3.1–3.10) to ensure accuracy, focusing only on the stated constraints.  
+5. **Map Related Titles:** Each is mapped to domains/applications relevant to secure system deployment (e.g., threat detection pipelines, resilient analytics), ensuring no extras and contextual relevance to security (e.g., CIA triad enforcement).  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Batch Data  
+Description: This requirement refers to the capability to process data which is finite and usually large in volume, e.g. data archived in distributed file systems or databases.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.1.[cite: Vergilio2019]  
+Related Title: Secure Batch Analytics for Threat Intelligence, Distributed File System Security in Big Data  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Stream Data  
+Description: This requirement refers to the capability to process data which is potentially infinite and usually flowing at high velocity, e.g. monitoring data captured and processed in real-time, or close to real-time.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.2.[cite: Vergilio2019]  
+Related Title: Real-Time Security Monitoring Pipelines, Secure High-Velocity Stream Processing  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Late and Out of Order Data  
+Description: This requirement relates to stream processing and refers to the capability to process data which arrives late or in a different order from that in which it was emitted.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.3.[cite: Vergilio2019]  
+Related Title: Resilient Stream Processing for Tampered Data, Anomaly Detection in Disordered Secure Streams  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Processing Guarantees  
+Description: This requirement refers to a stream system’s capability to offer processing guarantees, i.e. exactly once, at least once and at most once.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.4.[cite: Vergilio2019]  
+Related Title: Exactly-Once Semantics for Audit Log Integrity, Secure Stream Processing Guarantees  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Integration and Extensibility  
+Description: This requirement refers to the capability to integrate with existing services and components. It also refers to provisions made to facilitate the extension of the existing architecture to incorporate different components in the future.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.5.[cite: Vergilio2019]  
+Related Title: Modular Secure Big Data Ecosystems, Extensible Frameworks for Security Plugins  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Distribution and Scalability  
+Description: This requirement refers to the capability to distribute data processing amongst different machines, located in different data centres, in a multi-clustered architecture. Dynamic scaling, which addresses the possibility of adding or removing nodes to a running system without any downtime, is also addressed as part of this requirement.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.6.[cite: Vergilio2019]  
+Related Title: DDoS-Resistant Distributed Big Data, Scalable Multi-Cluster Security Deployments  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Cloud Support and Elasticity  
+Description: This requirement refers to the capability to move the architecture (or part of it) into the cloud to take advantage of the many benefits associated with its economies of scale. Elasticity in particular is a cloud property which allows a system to scale up and down according to demand. Since the user only pays for resources actually used, there is less wastage and it is theoretically cheaper than running the entire infrastructure locally with enough idle capacity to cover for any eventual spike. While scalability can be gained by increasing the number of nodes in any traditional architecture, it becomes much more powerful when combined with the elasticity of the cloud.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.7.[cite: Vergilio2019]  
+Related Title: Secure Elastic Cloud Big Data, Multi-Region Resilient Cloud Security Platforms  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-08  
+Title: Fault Tolerance  
+Description: This requirement refers to the capability of a system to continue to operate should one or more nodes fail. Ideally, the system should recover gracefully, with minimal repercussions on the user experience.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.8.[cite: Vergilio2019]  
+Related Title: High-Availability Fault-Resilient Security Systems, Distributed Recovery for Attack Mitigation  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-09  
+Title: Flow Control  
+Description: This requirement refers to the capability to handle scenarios where the data source is emitting records faster than the system can consume. Architectures typically provide strategies for dealing with backpressure, e.g. dropping records, sampling, applying source backpressure, etc.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.9.[cite: Vergilio2019]  
+Related Title: Backpressure for DoS Protection, Secure Overload-Resistant Data Pipelines  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-10  
+Title: Flexibility and Technology Agnosticism  
+Description: This criterion refers to the capability of an architecture to use different technology in place of existing components.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. Section 3.10.[cite: Vergilio2019]  
+Related Title: Vendor-Agnostic Secure Architectures, Flexible Tech Stacks for Compliance-Driven Deployments

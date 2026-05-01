@@ -1,0 +1,15 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Testability  
+Description: System should support systematic validation of its AI outputs through ground-truth verification techniques, such as cross-checking sensor data against user-reported daily checklists during field trials, to assess accuracy of anomaly detection and behavior learning independently of emotional evaluation processes.  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229. [Section 4.3, Data collection tools]  
+Related Title: Smart Home AI Systems, Elderly Care Sensor Networks  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Reliability  
+Description: System should ensure runtime reliability of AI predictions for anomaly detection (e.g., abnormal time spent in bed) and user behavior adaptation, with validation against ground-truth data to maintain trustworthiness in supporting independent living and emergency alerts, without explicit per-prediction confidence estimation beyond overall trial accuracy checks.  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229. [Sections 4.1, 4.3, and 5.2.2]  
+Related Title: Anomaly Detection in Ambient Assisted Living, Runtime ML for Aged-Care Monitoring

@@ -1,0 +1,71 @@
+Functional Requirement  
+Source Text: "A. Demographic data documentation • Identity: first name and surname • Insurance: insurance name and number" (Table 1)  
+Requirement ID: FR-01  
+Requirement Title: Demographic Data Documentation  
+Role: System  
+Requirement Description: System should support documentation of patient demographic data including identity (first name and surname) and insurance details (insurance name and number).  
+Citation: Table 1 (Page 4), Section 3.3  
+Requirement Related Title: Patient Registration Modules in Telehealth Apps, Electronic Health Record Onboarding Systems  
+
+Functional Requirement  
+Source Text: "B. Health record Vital sign documentation • Blood pressure • Heart rate Kidney documentation • Blood sugar Fitness documentation • Weight • Exercise • Sleep • Nutrition Skin documentation • Condition of skin History documentation • Disease history • Family history • Allergy • Medications history • Vaccination • Surgeries • Smoking Present history documentation • Symptoms and conditions • X-ray • Tests • Treatments • Prescriptions • Patient training Documentation of inpatient treatment history • Date of admission and discharge • Hospital name • Chief complaint • Summary Medication documentation • Name • Dose • Type • Instruction • Side effects" (Table 1)  
+Requirement ID: FR-02  
+Requirement Title: Comprehensive Health Record Management  
+Role: System  
+Requirement Description: System should enable comprehensive health record documentation including vital signs (blood pressure, heart rate), kidney-related data (blood sugar), fitness metrics (weight, exercise, sleep, nutrition), skin condition, medical history (disease history, family history, allergy, medications history, vaccination, surgeries, smoking), present history (symptoms and conditions, X-ray, tests, treatments, prescriptions, patient training), inpatient treatment history (date of admission and discharge, hospital name, chief complaint, summary), and detailed medication records (name, dose, type, instruction, side effects).  
+Citation: Table 1 (Page 4), Section 3.3  
+Requirement Related Title: Electronic Health Records in mHealth Apps, Chronic Disease Management Platforms, Patient Self-Monitoring Tools  
+
+Functional Requirement  
+Source Text: "C. General features of UI Reminders • Appointment • Preventive care Display • Patient’s self-declaration about his health status • Consultant identity: name and surname and profile picture • Curriculum vitae: expertise and consulting field • Type of communication: phone call, text, video call, and real-time • Appointment: consultation date, time, duration, and waiting time for response Service selection • Choosing consultation day, time, and type of insurance Reporting • Providing weekly/monthly reports on the patient’s treatment process • Providing weekly/monthly reports of vital signs and medical history Support • Documentation of communication ways: tagging capability in VCMA and frequently asked questions • Q and A ability: discussion forum with others (patients and consultants) Help/tutorial • Text guide: help • Training inside VCMA: working with it • About us • Terms and conditions of use" (Table 1)  
+Requirement ID: FR-03  
+Requirement Title: User Interface General Features  
+Role: System  
+Requirement Description: System should provide general user interface features including reminders (appointment, preventive care), displays (patient self-declaration of health status, consultant identity with name/surname/profile picture/CV/expertise, communication types such as phone call/text/video call/real-time, appointment details like date/time/duration/waiting time), service selection (choosing consultation day/time/insurance type), reporting (weekly/monthly reports on treatment process, vital signs, medical history), support (communication documentation with tagging/FAQs, Q&A discussion forums for patients/consultants), and help/tutorials (text guides, in-app training, about us, terms and conditions).  
+Citation: Table 1 (Page 4), Section 3.3  
+Requirement Related Title: Virtual Clinic Dashboards, Telemedicine UI/UX Designs, Patient Portal Interfaces  
+
+Non-Functional Requirement  
+Source Text: "A. Usability Setting • Creating a personal profile for the user (consultant-patient) • Microphone • Camera • Measurement units selection: selection of measurement units like centimeters and meters for height • Video call with other participants: making a video call with other connected individuals • Selecting conversation starter • Log out" (Table 2)  
+Requirement ID: NFR-01  
+Requirement Title: Usability Settings  
+Role: System  
+Requirement Description: System should support usability features such as creating personal profiles for users (consultants and patients), access to microphone and camera, selection of measurement units (e.g., centimeters/meters for height), video calls with other participants, selecting conversation starters, and secure log out functionality.  
+Citation: Table 2 (Page 5), Section 3.3  
+Requirement Related Title: User-Centric mHealth Interfaces, Video Teleconsultation Platforms  
+
+Non-Functional Requirement  
+Source Text: "B. Accessibility Service • Save and mark: appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant’s performance and select text from a default list • Ability to share: individual lessons, health record information with doctors, and patient-consultant data exchange" (Table 2)  
+Requirement ID: NFR-02  
+Requirement Title: Accessibility Services  
+Role: System  
+Requirement Description: System should provide accessibility services including save/mark functions for appointments/reminders/notes/recorded voices/photos/messages, sending feedback on consultant performance, selecting text from default lists, and sharing capabilities for individual lessons, health records with doctors, and patient-consultant data exchange.  
+Citation: Table 2 (Page 5), Section 3.3  
+Requirement Related Title: Inclusive Telehealth Accessibility Tools, Data Sharing in Virtual Care Systems  
+
+Non-Functional Requirement  
+Source Text: "C. Compatibility Service format • Insurance: recording name and number" (Table 2)  
+Requirement ID: NFR-03  
+Requirement Title: Compatibility with Insurance Formats  
+Role: System  
+Requirement Description: System should ensure compatibility by supporting service formats for recording insurance details (name and number).  
+Citation: Table 2 (Page 5), Section 3.3  
+Requirement Related Title: Insurance-Integrated Healthcare Apps, Cross-Platform Telemedicine Compatibility  
+
+Non-Functional Requirement  
+Source Text: "D. Efficiency Service • Financial transaction reporting" (Table 2)  
+Requirement ID: NFR-04  
+Requirement Title: Efficiency in Financial Reporting  
+Role: System  
+Requirement Description: System should provide efficient services including financial transaction reporting.  
+Citation: Table 2 (Page 5), Section 3.3  
+Requirement Related Title: Billing Modules in Virtual Clinics, Resource-Efficient mHealth Transaction Systems  
+
+Non-Functional Requirement  
+Source Text: "E. Security • Login method: text password, email, activation code, and anonymously • Verify the user’s identity by sending a verification code to the mobile phone • Possibility of deleting consultation records, documents, and bank transactions • Encrypted patient data exchange" (Table 2)  
+Requirement ID: NFR-05  
+Requirement Title: Security and Privacy Controls  
+Role: System  
+Requirement Description: System should implement security features including multiple login methods (text password, email, activation code, anonymous), user identity verification via mobile phone code, ability to delete consultation records/documents/bank transactions, and encrypted patient data exchange.  
+Citation: Table 2 (Page 5), Section 3.3  
+Requirement Related Title: HIPAA-Compliant Telemedicine Security, Secure Virtual Health Data Platforms

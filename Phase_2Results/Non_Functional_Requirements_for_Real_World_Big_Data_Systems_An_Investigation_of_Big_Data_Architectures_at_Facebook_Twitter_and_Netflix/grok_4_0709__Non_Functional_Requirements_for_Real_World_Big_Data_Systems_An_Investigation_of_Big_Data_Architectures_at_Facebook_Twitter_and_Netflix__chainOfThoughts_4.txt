@@ -1,0 +1,22 @@
+**Let's think step by step.**
+1. **Analyze Testability Context:** The source text focuses on non-functional requirements for big data systems but does not explicitly describe systematic validation or specific testing methodologies (e.g., metamorphic testing or other validation techniques for AI/ML outputs). No direct match for testability requirements grounded in the gold standard example.
+2. **Analyze Reliability Context:** The text identifies several requirements related to runtime reliability, including "Processing Guarantees" (section 3.4, ensuring reliable data processing semantics like exactly-once) and "Fault Tolerance" (section 3.8, enabling the system to handle failures gracefully). These align with runtime reliability constraints for AI components, such as ensuring trustworthy outputs in high-stakes environments, though not explicitly about individual ML prediction confidence. Processing guarantees can be interpreted as a form of confidence-estimation constraint in data pipelines supporting ML systems.
+3. **Identify Roles:** Both requirements specify the 'System' as the responsible component for ensuring reliability during runtime operations.
+4. **Draft Descriptions:** Descriptions must precisely reflect the paper's content. For Processing Guarantees, emphasize runtime semantics as a reliability mechanism. For Fault Tolerance, highlight failure recovery as a reliability constraint. No functional requirements are identified.
+5. **Map Related Titles:** Related titles must reflect deployment of high-reliability ML systems. For processing guarantees, examples include real-time AI inference systems where data reliability is critical. For fault tolerance, medical or autonomous systems where runtime failures must not compromise outputs.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Processing Guarantees  
+Description: This requirement refers to a stream system’s capability to offer processing guarantees, i.e. exactly once, at least once and at most once. While exactly once processing is ideal, it comes at a cost which could translate into increased latency, and involves some level of checkpointing to persist state.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840.[cite: 3.4]  
+Related Title: Real-Time AI Inference Systems, Streaming ML Pipelines[cite: 3.4]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Fault Tolerance  
+Description: This requirement refers to the capability of a system to continue to operate should one or more nodes fail. Ideally, the system should recover gracefully, with minimal repercussions on the user experience, implemented through node independence, modular distributed architectures, or multi-region redundancy.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840.[cite: 3.8]  
+Related Title: Autonomous Vehicle ML Systems, Medical Diagnostic AI Applications[cite: 3.8]

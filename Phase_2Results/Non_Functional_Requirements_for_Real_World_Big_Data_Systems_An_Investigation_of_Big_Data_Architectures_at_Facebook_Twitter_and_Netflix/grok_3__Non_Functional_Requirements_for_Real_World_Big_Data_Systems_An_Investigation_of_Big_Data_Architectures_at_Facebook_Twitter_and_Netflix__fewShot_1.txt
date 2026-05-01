@@ -1,0 +1,79 @@
+Below are the extracted Functional (FR) and Non-Functional (NFR) requirements from the provided document titled "Non-Functional Requirements for Real World Big Data Systems: An Investigation of Big Data Architectures at Facebook, Twitter, and Netflix" by Vergilio and Ramachandran (2019). Each requirement is formatted according to the specified rules and includes a unique ID, title, role, description, citation, and related titles for contextual examples or domains.
+
+---
+
+### Non-Functional Requirements (NFR)
+
+**Requirement ID: NFR-01**  
+**Requirement Title: Batch Data Processing Capability**  
+**Role: System**  
+**Requirement Description:** The system must be capable of processing large volumes of finite batch data, typically stored in distributed file systems or databases. This includes handling data volumes in the range of hundreds of petabytes, with daily processing capacities of tens of petabytes, as demonstrated by architectures at Facebook, Twitter, and Netflix.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.1 - Batch Data, pp. 3  
+**Requirement Related Title:** Social Media Analytics Platforms, E-commerce Transaction Processing Systems, Financial Data Warehousing Systems  
+
+**Requirement ID: NFR-02**  
+**Requirement Title: Stream Data Processing Capability**  
+**Role: System**  
+**Requirement Description:** The system must support the processing of potentially infinite data streams at high velocity, enabling real-time or near real-time data processing. This includes the use of specialized frameworks or applications to handle streaming data, as implemented by Facebook (Puma, Swift, Stylus), Twitter (Storm, Heron), and Netflix (Mantis).  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.2 - Stream Data, pp. 3-4  
+**Requirement Related Title:** Real-Time Traffic Monitoring Systems, IoT Sensor Data Processing Platforms, Live Event Streaming Services  
+
+**Requirement ID: NFR-03**  
+**Requirement Title: Handling Late and Out-of-Order Data**  
+**Role: System**  
+**Requirement Description:** The system must be designed to process streaming data that arrives late or out of order, using mechanisms such as data windows or low watermarks to manage such scenarios. This capability ensures accurate processing despite delays or sequencing issues, as seen in Facebook’s Stylus and Twitter’s Heron API.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.3 - Late and Out of Order Data, pp. 4  
+**Requirement Related Title:** Mobile Network Data Processing Systems, Online Gaming Event Tracking, Real-Time Financial Transaction Systems  
+
+**Requirement ID: NFR-04**  
+**Requirement Title: Processing Guarantees**  
+**Role: System**  
+**Requirement Description:** The system must provide processing guarantees for stream data, including options for exactly-once, at-least-once, and at-most-once semantics, balancing latency and data completeness based on use-case requirements. Examples include Facebook’s Stylus (at-least-once), Twitter’s Heron (effectively-once), and Netflix’s Kafka (exactly-once).  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.4 - Processing Guarantees, pp. 4  
+**Requirement Related Title:** Payment Processing Systems, Messaging Platforms, Event-Driven Analytics Systems  
+
+**Requirement ID: NFR-05**  
+**Requirement Title: Integration and Extensibility**  
+**Role: System**  
+**Requirement Description:** The system must support integration with existing services and components, as well as provide provisions for future extensions to incorporate new components. This includes using messaging systems like Scribe at Facebook for seamless integration and modular architectures like Twitter’s Heron for extensibility.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.5 - Integration and Extensibility, pp. 4-5  
+**Requirement Related Title:** Enterprise Data Integration Platforms, Modular Cloud Service Architectures, API-Driven Ecosystems  
+
+**Requirement ID: NFR-06**  
+**Requirement Title: Distribution and Scalability**  
+**Role: System**  
+**Requirement Description:** The system must support distributed data processing across multiple machines and data centers in a multi-clustered architecture, with capabilities for dynamic scaling (adding or removing nodes without downtime). Examples include Facebook’s Scribe, Twitter’s Heron with Dhalion, and Netflix’s Fenzo for dynamic scaling.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.6 - Distribution and Scalability, pp. 5  
+**Requirement Related Title:** Distributed Computing Frameworks, Cloud-Based Data Analytics Platforms, High-Performance Computing Clusters  
+
+**Requirement ID: NFR-07**  
+**Requirement Title: Cloud Support and Elasticity**  
+**Role: System**  
+**Requirement Description:** The system must support deployment in cloud environments to leverage economies of scale and elasticity, allowing scaling up or down based on demand to optimize resource usage and cost. Netflix’s cloud-based architecture on AWS and Twitter’s containerized approach with Heron exemplify this requirement.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.7 - Cloud Support and Elasticity, pp. 5  
+**Requirement Related Title:** Cloud-Native Applications, Multi-Cloud Data Processing Systems, Elastic Web Hosting Services  
+
+**Requirement ID: NFR-08**  
+**Requirement Title: Fault Tolerance**  
+**Role: System**  
+**Requirement Description:** The system must be capable of continuing operation despite node failures, recovering gracefully with minimal impact on user experience. This includes node independence and checkpointing at Facebook, modular architecture at Twitter, and multi-region redundancy at Netflix (Active-Active project).  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.8 - Fault Tolerance, pp. 5-6  
+**Requirement Related Title:** Disaster Recovery Systems, High-Availability Web Services, Critical Infrastructure Monitoring Systems  
+
+**Requirement ID: NFR-09**  
+**Requirement Title: Flow Control and Backpressure Management**  
+**Role: System**  
+**Requirement Description:** The system must handle scenarios where data sources emit records faster than the system can process them, implementing flow control mechanisms such as backpressure management (e.g., dropping records, sampling, or slowing down data flow). Examples include Facebook’s Scribe resilience, Twitter’s Heron backpressure mode, and Netflix’s RxJava strategies.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.9 - Flow Control, pp. 6  
+**Requirement Related Title:** Real-Time Data Ingestion Systems, Streaming Media Delivery Platforms, High-Throughput Messaging Systems  
+
+**Requirement ID: NFR-10**  
+**Requirement Title: Flexibility and Technology Agnosticism**  
+**Role: System**  
+**Requirement Description:** The system must be flexible enough to allow the replacement of existing components with different technologies and remain agnostic to specific technology choices. Twitter’s Heron and Netflix’s participation in Reactive Streams initiative demonstrate flexibility, while Facebook’s in-house systems are less agnostic.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019), Section 3.10 - Flexibility and Technology Agnosticism, pp. 6  
+**Requirement Related Title:** Cross-Platform Data Processing Frameworks, Open-Source Big Data Tools, Interoperable Cloud Architectures  
+
+---
+
+These requirements capture the key non-functional aspects discussed in the paper for designing big data systems, as implemented by Facebook, Twitter, and Netflix. Each requirement is tied to specific sections of the document for traceability and includes contextual examples to illustrate potential application domains. If functional requirements are needed or further details from specific sections are required, please let me know.

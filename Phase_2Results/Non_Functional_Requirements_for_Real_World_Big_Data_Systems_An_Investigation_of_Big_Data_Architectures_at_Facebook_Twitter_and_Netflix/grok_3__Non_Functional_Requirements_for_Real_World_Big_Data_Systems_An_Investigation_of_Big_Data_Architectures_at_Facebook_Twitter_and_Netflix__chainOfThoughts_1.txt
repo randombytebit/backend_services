@@ -1,0 +1,89 @@
+Below, I will extract and format Non-Functional Requirements (NFRs) from the provided document following the specified Step-by-Step Reasoning process. I will focus on a subset of the identified NFRs to ensure clarity and depth in the analysis. Each requirement will be processed individually with detailed reasoning before being formatted as per the guidelines.
+
+---
+
+### Extraction 1: Batch Data Processing Capability
+
+**Step-by-Step Reasoning:**
+1. **Sentence Analysis:** The text in Section 3.1 (Page 3) describes the requirement for processing finite, large-volume data (e.g., data archived in distributed file systems or databases). It mentions specific volumes handled by Facebook, Twitter, and Netflix, along with their respective systems for managing batch data.
+2. **Classification:** This is a Non-Functional Requirement (NFR) as it pertains to the system's capability to handle large-scale data processing, which is a quality attribute rather than a specific functional behavior.
+3. **Role Identification:** The 'System' (specifically the big data architectures of the companies) is responsible for processing batch data.
+4. **Title & Description:** The title is 'Batch Data Processing Capability'. The description will detail the need to process large, finite data volumes, referencing the scale (hundreds of petabytes for Facebook and Twitter, tens of petabytes for Netflix) and the systems used.
+5. **Citation Verification:** The requirement is directly supported by Section 3.1 of the document (Vergilio & Ramachandran, 2019).
+6. **Related Title Generation:** This requirement is critical in domains like social media analytics (e.g., user data analysis), e-commerce transaction processing (e.g., historical sales data), and academic research data archiving (e.g., large datasets for studies).
+
+**Formatted Output:**
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Batch Data Processing Capability  
+Description: The system must have the capability to process finite, large-volume data archived in distributed file systems or databases. For instance, it should handle data volumes in the range of hundreds of petabytes as seen in architectures like Facebook and Twitter, or tens of petabytes as in Netflix, using specialized systems such as Hadoop clusters, Hive, Scuba, and Genie for batch processing.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.  
+Related Title: Social Media User Data Analytics Platform, E-Commerce Transaction History System, Academic Research Data Archiving System
+
+---
+
+### Extraction 2: Stream Data Processing Capability
+
+**Step-by-Step Reasoning:**
+1. **Sentence Analysis:** Section 3.2 (Page 3-4) discusses the requirement for processing potentially infinite, high-velocity data in real-time or near real-time, with specific systems like Puma, Swift, Stylus (Facebook), Storm, Heron (Twitter), and Mantis (Netflix) mentioned.
+2. **Classification:** This is a Non-Functional Requirement (NFR) as it addresses the system's quality attribute of handling continuous, high-speed data streams.
+3. **Role Identification:** The 'System' (big data architectures) is responsible for stream data processing.
+4. **Title & Description:** The title is 'Stream Data Processing Capability'. The description will include the need to process infinite, high-velocity data streams using specialized frameworks as implemented by the companies.
+5. **Citation Verification:** Supported by Section 3.2 of the document (Vergilio & Ramachandran, 2019).
+6. **Related Title Generation:** This requirement is vital in domains like real-time financial trading (e.g., stock market data), IoT device monitoring (e.g., sensor data streams), and live event streaming (e.g., sports or concerts).
+
+**Formatted Output:**
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Stream Data Processing Capability  
+Description: The system must have the capability to process potentially infinite, high-velocity data streams in real-time or near real-time. This includes using specialized frameworks such as Puma, Swift, and Stylus at Facebook, Storm and Heron at Twitter, and Mantis at Netflix to handle monitoring data or other continuous data flows.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.  
+Related Title: Real-Time Financial Trading Platform, IoT Device Monitoring System, Live Event Streaming Service
+
+---
+
+### Extraction 3: Fault Tolerance
+
+**Step-by-Step Reasoning:**
+1. **Sentence Analysis:** Section 3.8 (Page 5-6) describes the requirement for a system to continue operating despite node failures, with specific implementations like node independence and Scribe at Facebook, modular architecture at Twitter, and multi-region deployment at Netflix.
+2. **Classification:** This is a Non-Functional Requirement (NFR) as it pertains to the system's reliability and resilience, which are quality attributes.
+3. **Role Identification:** The 'System' (big data architectures) is responsible for ensuring fault tolerance.
+4. **Title & Description:** The title is 'Fault Tolerance'. The description will detail the need for the system to recover gracefully from failures, referencing the approaches used by the three companies.
+5. **Citation Verification:** Supported by Section 3.8 of the document (Vergilio & Ramachandran, 2019).
+6. **Related Title Generation:** This requirement is critical in domains like online banking systems (e.g., transaction continuity), emergency response systems (e.g., uninterrupted communication), and cloud-based SaaS platforms (e.g., service uptime).
+
+**Formatted Output:**
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Fault Tolerance  
+Description: The system must have the capability to continue operating despite the failure of one or more nodes, recovering gracefully with minimal impact on user experience. This includes implementing node independence and persistent messaging systems like Scribe at Facebook, modular distributed architectures at Twitter with decentralized topology management, and multi-region redundancy at Netflix across AWS regions for fault isolation.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.  
+Related Title: Online Banking Transaction System, Emergency Response Communication Network, Cloud-Based SaaS Platform
+
+---
+
+### Extraction 4: Cloud Support and Elasticity
+
+**Step-by-Step Reasoning:**
+1. **Sentence Analysis:** Section 3.7 (Page 5) discusses the requirement for architectures to leverage cloud benefits like elasticity, allowing scaling based on demand. Netflix’s cloud-based architecture on AWS and Twitter’s shift to containerization are highlighted.
+2. **Classification:** This is a Non-Functional Requirement (NFR) as it addresses the system's scalability and cost-efficiency through cloud properties.
+3. **Role Identification:** The 'System' (big data architectures) is responsible for supporting cloud deployment and elasticity.
+4. **Title & Description:** The title is 'Cloud Support and Elasticity'. The description will include the need to operate in the cloud for scalability and cost benefits, referencing Netflix and Twitter’s approaches.
+5. **Citation Verification:** Supported by Section 3.7 of the document (Vergilio & Ramachandran, 2019).
+6. **Related Title Generation:** This requirement is essential in domains like video streaming services (e.g., user demand spikes), e-learning platforms (e.g., variable student access), and seasonal retail systems (e.g., holiday sales surges).
+
+**Formatted Output:**
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Cloud Support and Elasticity  
+Description: The system must have the capability to operate in a cloud environment to leverage benefits such as economies of scale and elasticity, allowing it to scale up or down based on demand. This includes deploying architectures predominantly on cloud platforms like AWS as seen with Netflix, which uses container-based approaches for elasticity, and supporting containerization for potential multi-cloud setups as with Twitter’s Heron framework.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.  
+Related Title: Video Streaming Service Platform, E-Learning Access System, Seasonal Retail Sales System
+
+---
+
+These four NFRs cover key aspects of big data systems as discussed in the document. If further extractions are needed for the remaining NFRs (e.g., Processing Guarantees, Flow Control, etc.), I can continue the process in a similar detailed manner. Let me know if you'd like to proceed with additional requirements or if there are specific ones to focus on.

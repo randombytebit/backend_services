@@ -1,0 +1,76 @@
+Below is the extraction of critical security constraints and privacy protections from the provided document, formatted according to the specified rules. Each requirement is accompanied by a Threat-Model Reasoning process to ensure accurate reflection of the source and relevance of related titles.
+
+---
+
+### Threat-Model Reasoning for Extraction
+**Let's think step by step.**
+1. **Analyze Security and Privacy Context:** The document focuses on non-functional requirements (NFRs) for big data systems at Facebook, Twitter, and Netflix. While explicit mentions of "security" and "privacy" as standalone requirements are not present, certain NFRs such as fault tolerance, processing guarantees, and data distribution inherently relate to security and privacy concerns in big data architectures. These must be interpreted in a security context to identify implicit protections.
+2. **Identify Relevant NFRs for Security and Privacy:** From the ten NFRs listed, "Fault Tolerance" (3.8) and "Processing Guarantees" (3.4) directly relate to security by ensuring system resilience and data integrity. "Distribution and Scalability" (3.6) and "Cloud Support and Elasticity" (3.7) have privacy implications due to data distribution across multiple regions or clouds, which could expose data to unauthorized access if not secured.
+3. **Identify Roles:** The role responsible for enforcing these requirements is the "System," as the architectures of Facebook, Twitter, and Netflix are designed to handle these constraints at a systemic level.
+4. **Draft Descriptions:** Descriptions are crafted to reflect the source text accurately, focusing on how each requirement contributes to security or privacy. For instance, fault tolerance is described in terms of maintaining operation under failure, which is a security concern for availability.
+5. **Map Related Titles:** Related titles are chosen to reflect real-world applications or domains where these requirements are critical for secure system deployment. For example, fault tolerance is linked to "High-Availability Systems" and "Disaster Recovery Frameworks," which are security-focused domains.
+6. **Ensure Accuracy and Relevance:** Each requirement is cross-checked with the source text to ensure no deviation, and related titles are validated for contextual relevance to big data security and privacy.
+
+---
+
+### Extracted Requirements
+
+#### Non-Functional Requirement
+- **Role:** System
+- **Requirement ID:** NFR-01
+- **Title:** Fault Tolerance
+- **Description:** The system must continue to operate despite the failure of one or more nodes, recovering gracefully with minimal impact on user experience. This is implemented through node independence and persistent messaging systems like Scribe at Facebook, modular distributed architectures at Twitter, and multi-region redundancy at Netflix to enhance resilience.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840, Section 3.8.
+- **Related Title:** High-Availability Systems, Disaster Recovery Frameworks
+
+**Threat-Model Reasoning for NFR-01:**
+- **Step 1 - Identify Threat:** Node failures or system crashes can lead to denial of service (DoS), a critical availability threat in big data systems handling massive user data.
+- **Step 2 - Assess Impact:** Loss of availability can disrupt critical services (e.g., streaming at Netflix), leading to user dissatisfaction and potential revenue loss.
+- **Step 3 - Mitigation Strategy:** Fault tolerance mechanisms like node independence (Facebook), modular architectures (Twitter), and multi-region redundancy (Netflix) mitigate this by ensuring continuous operation, aligning with security goals of availability.
+- **Step 4 - Related Title Justification:** "High-Availability Systems" and "Disaster Recovery Frameworks" are domains where fault tolerance is a core security requirement to prevent service interruptions.
+
+#### Non-Functional Requirement
+- **Role:** System
+- **Requirement ID:** NFR-02
+- **Title:** Processing Guarantees
+- **Description:** The system must provide processing guarantees such as exactly-once, at-least-once, or at-most-once semantics to ensure data integrity during stream processing. This includes mechanisms like checkpointing at Facebook, effectively-once semantics at Twitter, and idempotency with Kafka at Netflix to prevent data loss or duplication.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840, Section 3.4.
+- **Related Title:** Data Integrity in Stream Processing, Real-Time Analytics Security
+
+**Threat-Model Reasoning for NFR-02:**
+- **Step 1 - Identify Threat:** Inconsistent data processing (e.g., duplication or loss) can compromise data integrity, leading to incorrect analytics or user data exposure.
+- **Step 2 - Assess Impact:** Integrity breaches can result in flawed decision-making (e.g., incorrect recommendations at Netflix) or security vulnerabilities if data is mishandled.
+- **Step 3 - Mitigation Strategy:** Processing guarantees ensure data is handled correctly, with mechanisms like checkpointing and idempotency reducing the risk of integrity violations, a core security concern.
+- **Step 4 - Related Title Justification:** "Data Integrity in Stream Processing" and "Real-Time Analytics Security" are domains where processing guarantees are essential to prevent integrity threats in high-velocity data environments.
+
+#### Non-Functional Requirement
+- **Role:** System
+- **Requirement ID:** NFR-03
+- **Title:** Distribution and Scalability
+- **Description:** The system must support distributed data processing across multiple machines and data centers in a multi-clustered architecture, with dynamic scaling capabilities to add or remove nodes without downtime. This is implemented via messaging systems like Scribe at Facebook, proprietary frameworks like Dhalion at Twitter, and cloud-based elasticity at Netflix.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840, Section 3.6.
+- **Related Title:** Distributed System Security, Scalable Cloud Architectures
+
+**Threat-Model Reasoning for NFR-03:**
+- **Step 1 - Identify Threat:** Distributed architectures increase the attack surface, risking unauthorized access or data breaches across nodes or data centers.
+- **Step 2 - Assess Impact:** A breach in one node could compromise the entire system, exposing sensitive user data (e.g., personal data at Facebook) if not properly secured.
+- **Step 3 - Mitigation Strategy:** Distribution and scalability must be paired with security controls (implied in the architectures) to ensure secure data handling across nodes, protecting privacy and integrity during scaling operations.
+- **Step 4 - Related Title Justification:** "Distributed System Security" and "Scalable Cloud Architectures" are domains where secure distribution and scalability are critical to prevent privacy and security breaches in large-scale systems.
+
+#### Non-Functional Requirement
+- **Role:** System
+- **Requirement ID:** NFR-04
+- **Title:** Cloud Support and Elasticity
+- **Description:** The system must support migration to cloud environments to leverage economies of scale and elasticity, allowing scaling up or down based on demand. Netflix’s architecture is predominantly cloud-based with AWS, Twitter is shifting towards containerized setups, and future multi-cloud setups are desirable to avoid vendor lock-in.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840, Section 3.7.
+- **Related Title:** Multi-Cloud Security Strategies, Elastic Data Protection Frameworks
+
+**Threat-Model Reasoning for NFR-04:**
+- **Step 1 - Identify Threat:** Cloud environments introduce risks like vendor lock-in, data exposure during migration, and inconsistent security policies across providers.
+- **Step 2 - Assess Impact:** Privacy violations can occur if data is exposed during cloud scaling or if a single cloud provider is compromised, affecting user trust (e.g., Netflix user data).
+- **Step 3 - Mitigation Strategy:** Elasticity and multi-cloud support (as desired in the text) reduce dependency on single providers, enhancing privacy through diversified risk, though explicit security measures are not detailed in the source.
+- **Step 4 - Related Title Justification:** "Multi-Cloud Security Strategies" and "Elastic Data Protection Frameworks" are domains where cloud elasticity must be balanced with privacy protections to secure data in dynamic environments.
+
+---
+
+This extraction focuses on the NFRs with direct implications for security and privacy, ensuring each requirement is grounded in the source text and accompanied by a thorough threat-model reasoning process. The related titles are contextually relevant to secure system deployment in big data environments.

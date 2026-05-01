@@ -1,0 +1,39 @@
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Sensor Data Validation
+Description: System should validate sensor data by cross-checking against user-provided checklists to establish ground-truth and verify the accuracy of sensors and the AI component.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Smart Home Sensor Validation Systems
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Title: AI Output Verification
+Description: System should use ground-truth data from user checklists and interviews to verify the results of the AI component, including learning user routines and detecting anomalies.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: AI-Based Anomaly Detection in Elderly Care Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Accuracy Measurement
+Description: System should support systematic validation of its ML outputs through techniques such as cross-checking sensor data against user checklists to measure accuracy of anomaly detection and routine learning.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: ML Classifier Systems for Routine Learning
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Risk Assessment Calculation
+Description: System should calculate risks by detecting anomalous behavior (e.g., irregular bathroom visits or abnormal time spent in bed) and escalating incidents to service providers or carers to assess and mitigate safety risks.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Risk Estimation Systems in Aged Care
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Output Correctness Testing
+Description: System should test outputs for correctness by comparing sensor-recorded data with user-reported daily checklists during weekly interviews to ensure accurate detection of user activities and anomalies.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Deep Learning Systems for Activity Monitoring

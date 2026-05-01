@@ -1,0 +1,79 @@
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-01  
+Title: Batch Data  
+Description: The capability to process data which is finite and usually large in volume, e.g. data archived in distributed file systems or databases.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.1.  
+Related Title: Enterprise Data Warehousing, Log Analysis Pipelines, Scientific Simulation Outputs  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-02  
+Title: Stream Data  
+Description: The capability to process data which is potentially infinite and usually flowing at high velocity, e.g. monitoring data captured and processed in real-time, or close to real-time.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.2.  
+Related Title: Real-time Fraud Detection Systems, IoT Sensor Networks, Live Video Analytics  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-03  
+Title: Late and Out of Order Data  
+Description: The capability to process data which arrives late or in a different order from that in which it was emitted, such as streaming data from mobile users that could be delayed.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.3.  
+Related Title: Mobile Telemetry Processing, Network Packet Analysis, High-Frequency Trading Feeds  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-04  
+Title: Processing Guarantees  
+Description: The capability to offer processing guarantees, i.e. exactly once, at least once and at most once, with exactly once involving checkpointing but at a latency cost.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.4.  
+Related Title: Financial Transaction Ledgers, E-commerce Order Processing, Reliable Event Sourcing  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-05  
+Title: Integration and Extensibility  
+Description: The capability to integrate with existing services and components, and provisions to facilitate extension of the architecture to incorporate different components in the future.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.5.  
+Related Title: Microservices Orchestration Platforms, ETL Pipeline Ecosystems, Plugin-Based BI Tools  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-06  
+Title: Distribution and Scalability  
+Description: The capability to distribute data processing amongst different machines, located in different data centres, in a multi-clustered architecture, including dynamic scaling by adding or removing nodes without downtime.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.6.  
+Related Title: Global CDN Networks, Distributed ML Training Clusters, High-Traffic Social Platforms  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-07  
+Title: Cloud Support and Elasticity  
+Description: The capability to move the architecture (or part of it) into the cloud to take advantage of economies of scale, with elasticity allowing scale up and down according to demand to minimize wastage.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.7.  
+Related Title: Serverless Analytics Services, Auto-Scaling E-commerce Backends, SaaS Data Platforms  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-08  
+Title: Fault Tolerance  
+Description: The capability of a system to continue to operate should one or more nodes fail, ideally recovering gracefully with minimal repercussions on the user experience.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.8.  
+Related Title: High-Availability Databases, Air Traffic Control Systems, Telecom Core Networks  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-09  
+Title: Flow Control  
+Description: The capability to handle scenarios where the data source is emitting records faster than the system can consume, providing strategies for backpressure such as dropping records, sampling, or source backpressure.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.9.  
+Related Title: High-Throughput Message Queues, Live Streaming Broadcasts, Reactive Data Pipelines  
+
+Non-Functional Requirement  
+Role: Big Data System  
+Requirement ID: NFR-10  
+Title: Flexibility and Technology Agnosticism  
+Description: The capability of an architecture to use different technology in place of existing components, remaining agnostic to specific technologies.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.10.  
+Related Title: Multi-Cloud Data Lakes, Open-Source Processing Frameworks, Hybrid On-Prem/Cloud Setups

@@ -1,0 +1,15 @@
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-06
+Title: Testability
+Description: System should support systematic validation of its AI outputs through cross-checking sensor data with user daily checklists to establish ground-truth for AI predictions, such as learning user routines and detecting anomalies.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.
+Related Title: Elderly Smart Home Systems, AI Behavior Learning Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-07
+Title: Reliability
+Description: System should estimate the confidence and trustworthiness of individual AI predictions at runtime, such as anomaly detection for elderly safety, to ensure reliable support for independence and care.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.
+Related Title: Medical Domain ML Applications, Elderly Care AI Systems

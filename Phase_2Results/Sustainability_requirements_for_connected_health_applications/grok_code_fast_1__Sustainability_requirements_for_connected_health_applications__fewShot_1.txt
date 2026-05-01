@@ -1,0 +1,471 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Positive Individual Impact  
+Description: The app shall have a positive individual impact.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1)  
+Related Title: Connected Health Applications, Mobile Health Apps, Personal Health Records  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Respect Security and Privacy  
+Description: The app shall respect security and privacy of the user.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1)  
+Related Title: Privacy-Focused Health Apps, Secure Mobile Applications, HIPAA-Compliant Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Authentication Procedure  
+Description: The app shall have an authentication procedure.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1.1)  
+Related Title: Secure Login Systems, User Authentication in Health Apps, Identity Verification Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-02  
+Title: Authentication Choice  
+Description: The user should be able to choose in the app's settings whether to be authenticated or not.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1.1.1)  
+Related Title: Customizable Security Settings, User-Controlled Access Apps, Flexible Authentication Systems  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-03  
+Title: Social Network Login  
+Description: The user should be able to access the app using a login or social network account.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1.1.2)  
+Related Title: Social Media Integrated Apps, OAuth-Based Login Systems, Federated Identity Management  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: Personal Information Management  
+Description: The app shall allow the user to manage personal information, such as different countries' specific legislation or regulations regarding user ownership of personal information.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1.2)  
+Related Title: GDPR-Compliant Apps, International Data Management Systems, User Data Control Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-05  
+Title: Edit Personal Data  
+Description: The user should be able to edit personal data in the profile.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1.2.1)  
+Related Title: Profile Management Apps, Editable User Interfaces, Personal Data Editors  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-06  
+Title: Remove Personal Data  
+Description: The user should be able to remove personal data from the profile.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1.2.2)  
+Related Title: Data Deletion Tools, Privacy Management Apps, User Data Removal Systems  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-07  
+Title: Add Personal Data  
+Description: The user should be able to add personal data to the profile.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1.2.3)  
+Related Title: Data Input Interfaces, Profile Customization Apps, User Data Addition Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-08  
+Title: Share Personal Data  
+Description: The user should be able to share personal data from the profile.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.1.2.4)  
+Related Title: Data Sharing Platforms, Interoperable Health Apps, Secure Data Exchange Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Promote Personal Health and Well-Being  
+Description: The app shall promote personal health and well-being of the user.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2)  
+Related Title: Wellness Apps, Health Promotion Tools, Preventive Care Systems  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-09  
+Title: Consult Health Recommendations  
+Description: The user should be able to consult health recommendations.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.1)  
+Related Title: Health Advisory Apps, Recommendation Engines, Personalized Health Guides  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-10  
+Title: Manage Personal Health Record  
+Description: The user should be able to manage his/her personal health record.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.2)  
+Related Title: Personal Health Record Systems, Electronic Health Records, Patient Data Management Apps  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-11  
+Title: Edit Health Record Data  
+Description: The user should be able to edit the health record data.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.2.1)  
+Related Title: Editable Health Records, Data Modification Tools, Patient-Controlled Records  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-12  
+Title: Remove Health Record Data  
+Description: The user should be able to remove data from the health record.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.2.2)  
+Related Title: Data Deletion in Health Apps, Privacy-Enhanced Records, Secure Data Removal  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-13  
+Title: Add Health Record Data  
+Description: The user should be able to add data to the health record.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.2.3)  
+Related Title: Data Input for Health Records, User-Generated Health Data, Record Expansion Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-14  
+Title: Share Health Record Data  
+Description: The user should be able to share data from the health record.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.2.4)  
+Related Title: Health Data Sharing Platforms, Interoperable Records, Secure Exchange Systems  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-15  
+Title: Import Health Record Data  
+Description: The user should be able to import data to the health record.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.2.5)  
+Related Title: Data Import Tools, Health Data Migration Apps, Record Synchronization Systems  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-16  
+Title: Export Health Record Data  
+Description: The user should be able to export data from the health record.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.2.6)  
+Related Title: Data Export Features, Health Data Portability, Backup Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-17  
+Title: Backup Health Record Data  
+Description: The user should be able to back up data from the health record.  
+Citation: Page 5, Table 2, 3.7.6.1 Individual impact, 1.2.2.7)  
+Related Title: Data Backup Systems, Cloud Storage for Health Apps, Secure Archiving Tools  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Positive Social Impact  
+Description: The app shall have a positive social impact.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1)  
+Related Title: Social Health Apps, Community-Based Wellness Platforms, Collaborative Care Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-18  
+Title: Promote User Interaction via Social Networks  
+Description: The app shall promote interaction among users via social networks and/or online healthcare forums.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.1)  
+Related Title: Social Networking Health Apps, Online Forums for Patients, Community Engagement Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-19  
+Title: Promote Social Solidarity via Rewards  
+Description: The app shall promote social solidarity among users via a rewards system.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.2)  
+Related Title: Gamified Health Apps, Reward-Based Motivation Systems, Community Incentive Platforms  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Cultural Diversity and Multilingual Support  
+Description: The app shall be designed for cultural diversity and multilingual use.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3)  
+Related Title: Internationalized Health Apps, Multilingual User Interfaces, Culturally Adaptive Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-20  
+Title: Adapt Content to User Language  
+Description: The app shall adapt its content to the user's language preferences.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.1)  
+Related Title: Localized Apps, Language-Adaptive Interfaces, International User Experiences  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-21  
+Title: Multilingual Availability  
+Description: The app shall be available in different languages, the languages supported and the links for selecting them should be clearly presented.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.2)  
+Related Title: Multi-Language Apps, Language Selection Interfaces, Global Accessibility Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-22  
+Title: Switch Languages During Use  
+Description: The app shall allow the user to switch between languages at more than one point while using it.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.3)  
+Related Title: Dynamic Language Switching, Flexible UI Apps, Real-Time Localization  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-23  
+Title: Choose Language for Multimedia  
+Description: The app shall allow the user to choose the language of the video or audio clips.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.4)  
+Related Title: Multimedia Localization Apps, Audio/Video Language Selection, Accessible Media Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-24  
+Title: Adapt Help Section to Language  
+Description: The app shall adapt the online help section to the user's language preferences.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.5)  
+Related Title: Localized Help Systems, Multilingual Support Interfaces, User Assistance Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-25  
+Title: Adapt Terminology to Language  
+Description: The app shall adapt the human anatomy terminology to user's language preferences.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.6)  
+Related Title: Medical Terminology Localization, Language-Specific Health Glossaries, Adaptive Educational Apps  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-26  
+Title: Correct Text Alignment  
+Description: The app shall show the text with a correct text align depending on the user's language preferences (e.g. right align for Arabic language).  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.7)  
+Related Title: RTL/LTR Text Support Apps, Cultural UI Adaptation, International Text Rendering  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-27  
+Title: International Formats and Units  
+Description: The app shall use appropriate formats, units of measurement or currency for international audience.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.8)  
+Related Title: Globalization-Ready Apps, International Standards Compliance, Localized Measurement Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-28  
+Title: Control Advertisements for Culture  
+Description: The app shall control the advertisements showed to the user to avoid cultural discrepancies.  
+Citation: Page 6, Table 3, 3.7.6.2 Social impact, 1.3.9)  
+Related Title: Culturally Sensitive Ads, Ad Filtering Apps, Ethical Advertising Platforms  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Positive Environmental Impact  
+Description: The app shall have a positive environmental impact.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1)  
+Related Title: Eco-Friendly Apps, Green Software Systems, Sustainable Technology Platforms  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-29  
+Title: Reduce Transportation Means  
+Description: The app shall reduce transportation means.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.1)  
+Related Title: Telemedicine Apps, Remote Care Systems, Virtual Consultation Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-30  
+Title: Find Nearby Healthcare Centers  
+Description: The user should be able to find nearby healthcare centers.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.1.1)  
+Related Title: Location-Based Health Services, Proximity Search Apps, Geographic Health Directories  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-31  
+Title: Interchange Data with EHRs/PHRs  
+Description: If the app connects with EHRs, PHRs or third parties, it shall provide users with the possibility to interchange data.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.1.2)  
+Related Title: Interoperable Health Systems, Data Exchange Platforms, Integrated Care Apps  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-32  
+Title: Send Data to EHRs/PHRs  
+Description: The user should be able to send data from the app to EHRs, PHRs or other parties.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.1.2.1)  
+Related Title: Data Upload Tools, Health Data Transmission, Secure Sending Interfaces  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-33  
+Title: Receive Data from EHRs/PHRs  
+Description: The user shall be able to receive data from EHRs, PHRs or other parties.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.1.2.2)  
+Related Title: Data Download Tools, Health Data Reception, Incoming Data Management  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Convenient for Frequent Use  
+Description: The app shall be convenient for frequent use.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.2)  
+Related Title: User-Friendly Apps, Efficient Interfaces, Habit-Forming Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-34  
+Title: Use Pictures for Explanation  
+Description: The app shall use pictures to explain ideas.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.2.1)  
+Related Title: Visual Learning Apps, Image-Based Education, Pictorial Health Guides  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-35  
+Title: Use Icons for Content  
+Description: The app shall use icons to explain its contents.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.2.2)  
+Related Title: Icon-Driven Interfaces, Symbolic Communication Apps, Intuitive UI Designs  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-36  
+Title: Use Graphs for Data History  
+Description: The app shall use graphs to illustrate health data history.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.2.3)  
+Related Title: Data Visualization Apps, Health Trend Charts, Graphical Analytics Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-37  
+Title: Connect to IT Resources  
+Description: The app shall connect to other IT resources.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.3)  
+Related Title: Integrated Systems, API-Connected Apps, Networked Health Platforms  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-38  
+Title: Backup Data in Repositories  
+Description: The app shall back up data in data repositories, drivers or cloud systems.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.3.1)  
+Related Title: Cloud Backup Apps, Data Storage Solutions, Secure Archiving Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-39  
+Title: Connect to Social Networks  
+Description: The app shall connect to social networks.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.3.2)  
+Related Title: Social Integration Apps, Networked Platforms, Collaborative Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-40  
+Title: Use Device Features  
+Description: The app shall use device features such as Bluetooth and/or near field communication (NFC) technologies.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.3.3)  
+Related Title: IoT Health Apps, Wireless Connectivity Tools, Device-Integrated Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-41  
+Title: Connect to Maps Repositories  
+Description: The app shall connect with maps repositories to display locations.  
+Citation: Page 6, Table 4, 3.7.6.3 Environmental impact, 1.3.4)  
+Related Title: GIS-Integrated Apps, Location Mapping Tools, Geographic Information Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-08  
+Title: Positive Technical Impact  
+Description: The app shall have a positive technical impact.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1)  
+Related Title: Sustainable Software, Long-Lived Systems, Maintainable Applications  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-42  
+Title: Adapt to Future OS Changes  
+Description: The app shall easily adapt with future operating system (OS) changes.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.1)  
+Related Title: Future-Proof Apps, OS-Agnostic Systems, Adaptive Software  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-43  
+Title: Respect Mobile OS Guidelines  
+Description: The app shall respect mobile OS development guidelines.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.1.1)  
+Related Title: Platform-Compliant Apps, Guideline-Adherent Development, Standardized Mobile Software  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-44  
+Title: Adapt to Mobile OS Platform  
+Description: The app shall be adapted to the mobile OS platform.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.1.2)  
+Related Title: Platform-Specific Apps, OS-Optimized Interfaces, Tailored Mobile Solutions  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-09  
+Title: Energy Efficiency  
+Description: The app shall be energy-efficient.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.2)  
+Related Title: Low-Power Apps, Battery-Efficient Software, Green Computing Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-45  
+Title: Shut Down in Idle Mode  
+Description: The app shall shut down in idle mode.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.2.1)  
+Related Title: Auto-Shutdown Apps, Idle Management Systems, Power-Saving Features  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-46  
+Title: Create Different Profiles  
+Description: The app shall create different profiles in the same device.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.2.2)  
+Related Title: Multi-User Apps, Profile Management Systems, Device-Sharing Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-47  
+Title: Offline Access  
+Description: The user should be able to have an offline access to the app.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.3)  
+Related Title: Offline-Capable Apps, Disconnected Mode Systems, Local Data Access Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-48  
+Title: Access Without Internet  
+Description: The user should be able to access the app without Internet connexion.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.3.1)  
+Related Title: Offline Functionality Apps, Network-Independent Systems, Cached Data Tools  
+
+Functional Requirement  
+Role: User  
+Requirement ID: FR-49  
+Title: Edit Data Offline  
+Description: The user should be able to edit data offline.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.3.2)  
+Related Title: Offline Editing Apps, Local Modification Tools, Sync-Ready Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-50  
+Title: Save Edited Data Offline  
+Description: The app shall save edited data offline.  
+Citation: Page 7, Table 5, 3.7.6.4 Technical impact, 1.3.3)  
+Related Title: Local Storage Apps, Offline Persistence Tools, Data Caching Systems

@@ -1,0 +1,47 @@
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Privacy Security
+Description: System should ensure that user data collected from sensors is stored locally within the hub and accessible only to authorized personnel, preventing unauthorized access and making users feel that their privacy is secured.
+Citation: Section 4.2 (emotional goal "privacy secured"); Section 4.3.1 (sensor data storage and access restrictions).
+Related Title: Elderly Smart Home Privacy Systems, Secure IoT Health Monitoring Devices, Data-Protected Wearable Sensors
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Safety Assurance
+Description: System should detect anomalous user behaviors, such as irregular movements or emergencies, and provide timely alerts or assistance, ensuring users feel safe and reassured.
+Citation: Section 4.1 (emergency assistance feature); Section 5.2.2 (feeling safe and reassured from trials).
+Related Title: Elderly Fall Detection Systems, Anomaly-Based Home Security Alarms, Emergency Response Smart Homes
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Emotional Independence and Control
+Description: System should support independent living without invasive monitoring, allowing users to feel in control and independent, while integrating seamlessly into daily routines.
+Citation: Section 4.2 (emotional goals "independent", "in control", "integrated"); Section 5.2.4 (feeling in control from trials).
+Related Title: Non-Intrusive Elderly Assistance Technologies, User-Centric Smart Home Interfaces, Autonomy-Enhancing IoT Devices
+
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Passive Monitoring and Anomaly Detection
+Description: System should continuously process sensor inputs for passive monitoring of user routines, detect anomalies in behavior, and learn user patterns to support independent living.
+Citation: Section 4.1 (sensing and passive monitoring features); Section 4.2 (functional goal "learn user’s routine and behaviour").
+Related Title: AI-Driven Home Activity Recognition Systems, Routine-Based Elderly Monitoring Platforms, ML-Integrated Smart Environment Pipelines
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Title: Interactive Reminders and Assistance
+Description: System should issue personalized reminders for medication, hydration, and events, and provide emergency assistance through interactions, integrating ML components for adaptive decision-making.
+Citation: Section 4.1 (interaction and emergency assistance features); Section 4.2 (functional goal "issue notifications").
+Related Title: Conversational AI Home Assistants, Adaptive Reminder Systems for Elderly Care, ML-Enhanced Personal Care Devices
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-04
+Title: Data Security and Threat Mitigation
+Description: System should defend against data poisoning or adversarial threats in ML components by using defined threat models, ensuring secure processing of sensor data without compromising user trust.
+Citation: Section 2.2 (privacy and violation of independence concerns); Section 4.3.1 (local data storage to mitigate access risks); adapted from ML-specific security in Horkoff (2019) for integrated ML pipelines.
+Related Title: Secure ML-Based IoT Systems, Adversarial-Resistant Smart Home AI, Threat-Modelled Elderly Monitoring Networks

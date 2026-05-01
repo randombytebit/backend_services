@@ -1,0 +1,107 @@
+**Functional Requirements (FR) and Non-Functional Requirements (NFR) Extracted from the Provided Text**
+
+Below are the extracted Functional and Non-Functional Requirements from the academic paper on emotion-oriented requirements engineering for the SofiHub smart home system for the elderly. Each requirement is formatted according to the specified rules, including unique IDs, titles, descriptions, citations, and related titles for contextual examples or domains.
+
+---
+
+**Functional Requirement**  
+**Role:** Elderly User and Carer/Family Member  
+**Requirement ID:** FR-01  
+**Title:** Independent Living Support through Passive Monitoring  
+**Description:** The system must support independent living for elderly users by utilizing non-intrusive motion and contact sensors to monitor daily activities (e.g., movement, door usage) without requiring wearable devices. It should learn user routines and behaviors to detect anomalies (e.g., prolonged time in bed or irregular bathroom visits) and issue notifications or alerts to carers or family members when necessary, ensuring minimal disruption to the user's sense of autonomy.  
+**Citation:** Section 2.1, Section 4.1, Section 4.2  
+**Related Title:** Ambient Assisted Living (AAL) Systems for Seniors, Home-Based Elderly Care Platforms, Smart Retirement Community Solutions  
+
+---
+
+**Functional Requirement**  
+**Role:** Elderly User and Carer/Family Member  
+**Requirement ID:** FR-02  
+**Title:** Personalized Reminders and Notifications  
+**Description:** The system must provide personalized reminders for daily activities such as hydration, medication intake, appointments, and special events. These reminders should be triggered based on user activity or predefined schedules and delivered in a non-obtrusive manner (e.g., morning messages). Additionally, the system should allow customization of notification frequency and content to avoid overwhelming the user.  
+**Citation:** Section 4.1, Section 4.2, Section 5.2.3  
+**Related Title:** Medication Adherence Support Apps, Elderly Daily Routine Management Systems, Smart Home Voice Assistant Platforms  
+
+---
+
+**Functional Requirement**  
+**Role:** Carer/Family Member  
+**Requirement ID:** FR-03  
+**Title:** Remote Monitoring and Reporting Interface  
+**Description:** The system must provide a user interface for carers and family members to remotely monitor the elderly user's activity and receive customizable reports summarizing behavior patterns (e.g., daily activity logs, anomaly alerts). This interface should enable real-time updates and notifications to ensure timely intervention when needed.  
+**Citation:** Section 4.1, Section 4.3  
+**Related Title:** Telecare Monitoring Dashboards, Family Care Coordination Apps, Remote Health and Safety Tracking Systems  
+
+---
+
+**Functional Requirement**  
+**Role:** Elderly User and System  
+**Requirement ID:** FR-04  
+**Title:** Anomaly Detection and Emergency Alerts  
+**Description:** The system must detect anomalous situations (e.g., falls, unusual inactivity, or environmental risks like open doors) using sensor data and AI capabilities. Upon detection, it should automatically issue emergency alerts to designated carers, family members, or service providers to ensure rapid response and support user safety.  
+**Citation:** Section 4.1, Section 5.2.2  
+**Related Title:** Fall Detection and Response Systems, Smart Home Security Alert Platforms, Elderly Emergency Response Solutions  
+
+---
+
+**Functional Requirement**  
+**Role:** Elderly User and System  
+**Requirement ID:** FR-05  
+**Title:** Environmental Automation and Control  
+**Description:** The system must automate aspects of the physical environment, such as heating and cooling, based on learned user preferences or sensor data (e.g., temperature, humidity). This functionality should aim to enhance user comfort while minimizing manual intervention, ensuring the system integrates seamlessly into daily life.  
+**Citation:** Section 4.1  
+**Related Title:** Smart Thermostat Systems for Elderly Homes, Home Automation for Accessibility, IoT-Based Comfort Control Solutions  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** Elderly User and System  
+**Requirement ID:** NFR-01  
+**Title:** Privacy and Data Security  
+**Description:** The system must ensure strict privacy protection by securing all data collected through sensors (e.g., motion, activity data) within the local hub, accessible only to authorized personnel. It should prevent unauthorized access or data breaches, addressing user concerns about being monitored and ensuring they feel their privacy is secure.  
+**Citation:** Section 4.2, Section 5.2.5  
+**Related Title:** Secure IoT Health Monitoring Systems, Privacy-Focused Smart Home Platforms, Elderly Data Protection Solutions  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** Elderly User and System  
+**Requirement ID:** NFR-02  
+**Title:** Usability and Integration into Daily Life  
+**Description:** The system must be designed for ease of use, minimizing complexity and learning curves for elderly users who may be unfamiliar with technology. It should integrate seamlessly into their daily routines (e.g., through simple voice messages or non-intrusive interactions) to avoid frustration and ensure a positive user experience, fostering a sense of comfort and control.  
+**Citation:** Section 5.2.3, Section 5.2.4, Section 5.2.6  
+**Related Title:** User-Friendly Elderly Tech Interfaces, Intuitive Smart Home Solutions, Seamless Assisted Living Technologies  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** Elderly User, Carer/Family Member, and System  
+**Requirement ID:** NFR-03  
+**Title:** Emotional Goal Fulfillment (Safety and Reassurance)  
+**Description:** The system must prioritize emotional goals such as making elderly users feel safe and reassured through reliable anomaly detection and emergency response features. It should also reassure carers and family members by providing consistent updates on the user's well-being, fostering trust in the system's ability to support independent living.  
+**Citation:** Section 5.2.2  
+**Related Title:** Emotional Support Smart Home Systems, Reassurance-Focused Telecare Solutions, Safety-Oriented Elderly Care Platforms  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** Elderly User and System  
+**Requirement ID:** NFR-04  
+**Title:** Emotional Goal Fulfillment (Reduced Loneliness and Feeling Cared About)  
+**Description:** The system must address emotional goals of reducing loneliness and making users feel cared about by providing regular, friendly interactions (e.g., varied morning messages). It should create a sense of companionship without compromising independence, adapting to user feedback to enhance emotional engagement over time.  
+**Citation:** Section 5.2.1, Section 5.3  
+**Related Title:** Social Connection Smart Home Apps, Companionship-Oriented Elderly Tech, Mental Health Support IoT Systems  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-05  
+**Title:** Reliability and Robustness  
+**Description:** The system must operate reliably, minimizing disruptions due to power failures or technical issues (e.g., delayed messages). It should include contingency measures to maintain functionality during outages and ensure consistent performance to prevent user anxiety or frustration related to system unreliability.  
+**Citation:** Section 5.2.7  
+**Related Title:** High-Reliability Elderly Care Systems, Robust IoT Home Monitoring Solutions, Fail-Safe Smart Home Technologies  
+
+---
+
+These requirements capture the core functionalities and constraints of the SofiHub system as described in the paper, focusing on both technical capabilities and emotional considerations critical to user adoption and satisfaction. Each requirement is linked to specific sections of the text for traceability and includes relevant application domains to contextualize their broader applicability.

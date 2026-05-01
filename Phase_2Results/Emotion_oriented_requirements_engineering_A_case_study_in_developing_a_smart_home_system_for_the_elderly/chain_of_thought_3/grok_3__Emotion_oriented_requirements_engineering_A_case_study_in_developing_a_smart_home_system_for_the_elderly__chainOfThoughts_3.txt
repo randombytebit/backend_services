@@ -1,0 +1,41 @@
+Below is the extraction of critical security constraints and privacy protections from the provided technical documentation on SofiHub, a smart home system for the elderly. Each requirement is accompanied by a Threat-Model Reasoning process to ensure accurate reflection of the source document and contextually relevant related titles. The formatting adheres to the specified rules, and the process follows the Chain of Thought (CoT) gold standard.
+
+---
+
+### Threat-Model Reasoning for Privacy and Security Requirements
+**Let's think step by step.**
+
+1. **Analyze Security and Privacy Context:** The document emphasizes the importance of privacy and security in the design of SofiHub, particularly due to the sensitive nature of data collected from elderly users via sensors. Privacy concerns are explicitly mentioned as a key emotional goal ("Privacy secured") and a design consideration to avoid feelings of invasiveness. Security is implied in the need to protect data from unauthorized access ("no intruders can hack those sensitive information"). These are clearly Non-Functional Requirements (NFRs) as they relate to system qualities rather than specific functionalities.
+2. **Identify Roles:** The primary role responsible for enforcing these requirements is the 'System' (SofiHub), which must ensure data protection and non-intrusive monitoring. The 'User' (elderly individuals) is also a stakeholder whose emotional goals (feeling safe, in control, and privacy-secure) are directly impacted by these requirements.
+3. **Draft Descriptions:** Descriptions are crafted to reflect the exact intent from the document. For privacy, the focus is on ensuring users feel comfortable with monitoring and secure about their data, as well as the system design choice to store data locally within the hub with restricted access. For security, the emphasis is on protecting sensitive information from unauthorized access, aligning with the emotional goal of "Privacy secured."
+4. **Map Citations:** Citations are directly linked to sections in the document where these requirements are discussed, specifically in Section 4.2 (SofiHub emotion-oriented requirements engineering) and Section 5.2.5 (Privacy and invasiveness findings from trials).
+5. **Map Related Titles:** For privacy, related titles focus on domains where non-intrusive monitoring and data protection are critical, such as "Ambient Assisted Living Systems" and "IoT-Based Elderly Care Platforms." For security, related titles include domains where data protection is paramount, such as "Smart Home Security Frameworks" and "Healthcare IoT Data Protection Systems."
+
+---
+
+### Extracted Requirements
+
+#### Non-Functional Requirement
+- **Role:** System
+- **Requirement ID:** NFR-01
+- **Title:** Privacy Protection
+- **Description:** The system must ensure that users' privacy is secured by using non-intrusive monitoring methods (e.g., motion sensors without wearables) and storing data locally within the hub, accessible only to authorized personnel as per ethical guidelines. This design aims to alleviate user concerns about being monitored or controlled, ensuring they feel comfortable and that their privacy is not violated.
+- **Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229, Section 4.2 (p. 221) and Section 5.2.5 (p. 224).
+- **Related Title:** Ambient Assisted Living Systems, IoT-Based Elderly Care Platforms
+
+#### Non-Functional Requirement
+- **Role:** System
+- **Requirement ID:** NFR-02
+- **Title:** Data Security
+- **Description:** The system must protect sensitive information collected through sensors from unauthorized access, ensuring that no intruders can hack or misuse the data. This aligns with the emotional goal of users feeling that their privacy is secured.
+- **Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229, Section 4.2 (p. 221).
+- **Related Title:** Smart Home Security Frameworks, Healthcare IoT Data Protection Systems
+
+---
+
+### Additional Notes on Threat-Model Reasoning
+- **Potential Threats for NFR-01 (Privacy Protection):** Unauthorized access to sensor data, perceived invasiveness of monitoring leading to user rejection, and potential data leakage during transmission or storage. Mitigation includes local data storage, restricted access, and non-intrusive sensor design as highlighted in the document.
+- **Potential Threats for NFR-02 (Data Security):** Cyberattacks targeting IoT devices, interception of data during communication (if any), and insider threats from unauthorized personnel accessing the hub. Mitigation includes robust encryption (though not explicitly mentioned in the document, it is implied by the focus on preventing hacking) and strict access controls as per ethical guidelines.
+- **Contextual Relevance of Related Titles:** The chosen related titles reflect environments where similar privacy and security constraints are critical. For instance, "Ambient Assisted Living Systems" often deal with elderly privacy concerns, while "Healthcare IoT Data Protection Systems" address the need for securing sensitive health-related data in smart environments.
+
+This extraction and reasoning ensure that the identified requirements are directly tied to the source text, address critical security and privacy aspects of SofiHub, and provide relevant application domains for broader applicability in secure system deployment.

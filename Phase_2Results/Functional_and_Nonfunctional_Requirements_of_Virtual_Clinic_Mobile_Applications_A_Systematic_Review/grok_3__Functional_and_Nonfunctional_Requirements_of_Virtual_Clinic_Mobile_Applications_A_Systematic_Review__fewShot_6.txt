@@ -1,0 +1,45 @@
+Below are the extracted functional and non-functional requirements related to systematic validation and risk assessment of Machine Learning models as applicable to Virtual Clinic Mobile Applications (VCMA). The focus is on requirements that specify how a system's accuracy is measured, how risks are calculated, and how outputs are tested for correctness. Each requirement is presented word-for-word consistent with the source text where relevant, and formatted according to the provided rules.
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** Usability for Validation  
+**Description:** System should support usability features such as creating a personal profile for the user (consultant-patient), microphone and camera settings, measurement unit selection, video call capabilities with other participants, selecting conversation starters, and logout functionality to ensure effective interaction and validation of user inputs and outputs during virtual consultations.  
+**Citation:** Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2, Section A.  
+**Related Title:** Usability Testing in Virtual Healthcare Platforms  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-02  
+**Title:** Accessibility for Output Testing  
+**Description:** System should provide accessibility features such as the ability to save and mark appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant’s performance; select text from a default list; and share individual lessons and health record information with doctors for effective testing and validation of system outputs.  
+**Citation:** Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2, Section B.  
+**Related Title:** Accessibility Validation in Telemedicine Systems  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-03  
+**Title:** Efficiency in Transaction Reporting  
+**Description:** System should ensure efficiency in service by supporting financial transaction reporting to validate the correctness and reliability of transactional outputs related to virtual clinic services.  
+**Citation:** Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2, Section D.  
+**Related Title:** Financial Transaction Validation in mHealth Applications  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-04  
+**Title:** Security for Risk Mitigation  
+**Description:** System should implement security measures including login methods (text password, email, activation code, and anonymous login), user identity verification by sending a verification code to the mobile phone, the possibility of deleting consultation records, documents, and bank transactions, and encrypted patient data exchange to mitigate risks associated with data breaches and ensure the integrity of system outputs.  
+**Citation:** Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2, Section E.  
+**Related Title:** Risk Assessment in Secure Telehealth Systems  
+
+---
+
+These requirements focus on aspects of systematic validation, risk assessment, and output correctness as they pertain to usability, accessibility, efficiency, and security in the context of Virtual Clinic Mobile Applications. Each requirement is directly extracted or aligned with the descriptions provided in the source text, ensuring consistency with the gold standard.

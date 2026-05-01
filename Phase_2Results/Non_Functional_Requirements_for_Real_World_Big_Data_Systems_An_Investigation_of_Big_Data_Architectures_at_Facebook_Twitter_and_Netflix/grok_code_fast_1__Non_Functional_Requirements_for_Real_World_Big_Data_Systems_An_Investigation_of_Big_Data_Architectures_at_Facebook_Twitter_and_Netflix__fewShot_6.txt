@@ -1,0 +1,23 @@
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Processing Guarantees
+Description: System should support processing guarantees, i.e. exactly once, at least once and at most once, to ensure correctness of data processing outputs.
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1. pp. 833-840. DOI: https://doi.org/10.5220/0006825408330840
+Related Title: Big Data Stream Processing Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Fault Tolerance
+Description: System should continue to operate should one or more nodes fail, with minimal repercussions on the user experience, to assess and mitigate risks of system failure.
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1. pp. 833-840. DOI: https://doi.org/10.5220/0006825408330840
+Related Title: Distributed Big Data Architectures
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Flow Control
+Description: System should handle scenarios where the data source is emitting records faster than the system can consume, through strategies for dealing with backpressure, to test and validate output correctness under varying loads.
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1. pp. 833-840. DOI: https://doi.org/10.5220/0006825408330840
+Related Title: Real-Time Data Processing Systems

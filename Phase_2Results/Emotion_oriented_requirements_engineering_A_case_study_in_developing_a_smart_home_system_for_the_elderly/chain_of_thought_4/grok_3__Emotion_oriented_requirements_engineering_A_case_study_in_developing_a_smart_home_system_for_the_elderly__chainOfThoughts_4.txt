@@ -1,0 +1,39 @@
+**Extraction of Requirements for Systematic Validation and Runtime Reliability of AI Components in SofiHub**
+
+As a Lead Quality Assurance (QA) Engineer, I will extract requirements from the provided paper that focus on the systematic validation and runtime reliability of AI components within the SofiHub smart home system for the elderly. The goal is to ensure that the AI components are robust, reliable, and meet emotional and functional goals through specific testing methodologies and confidence-estimation constraints. I will follow a step-by-step reasoning process to align with the human-verified gold standard and ensure that each requirement is grounded in the context of high-reliability ML systems.
+
+**Step-by-Step Reasoning for Requirement Extraction**
+
+1. **Identify AI Components in SofiHub Context:** The paper describes SofiHub as a smart home system with AI capabilities that learn and adapt to user behavior (Page 7, Section 4.1). Key functionalities include issuing reminders, detecting anomalies, and automating the environment, all of which rely on AI for decision-making and adaptation. Therefore, requirements must focus on validating these AI-driven features.
+2. **Determine Validation Needs:** Systematic validation is critical for ensuring that AI outputs (e.g., anomaly detection, reminders) are accurate and meet user needs, especially emotional goals like safety and reassurance (Page 10, Section 5.2.2). Testing methodologies must include real-world trials and data-driven validation.
+3. **Assess Runtime Reliability:** Runtime reliability involves ensuring that the AI system performs consistently under varying conditions (e.g., power failures as noted on Page 11, Section 5.2.7) and provides confidence in its predictions or actions, particularly for critical tasks like emergency alerts.
+4. **Define Testing Methodologies:** The paper mentions trials with sensor data and checklists to validate AI accuracy (Page 8, Section 4.3.1). This suggests a need for ground-truth comparison and iterative testing. Additionally, metamorphic testing or similar techniques can be inferred for validating AI outputs where direct ground truth may not be available.
+5. **Establish Confidence-Estimation Constraints:** Given the emotional impact (e.g., feeling safe), the AI must provide confidence scores or trustworthiness indicators for its predictions at runtime (inferred from the need for reassurance, Page 10, Section 5.2.2). This aligns with high-reliability ML systems where individual prediction reliability is crucial.
+6. **Map to Related Titles:** Requirements must be contextualized to domains where high-reliability ML is critical, such as healthcare monitoring systems or other smart home solutions for vulnerable populations.
+
+**Extracted Requirements**
+
+**Non-Functional Requirement**  
+- **Role:** System (AI Component of SofiHub)  
+- **Requirement ID:** NFR-01  
+- **Title:** Systematic Validation of AI Outputs  
+- **Description:** The system must support systematic validation of its AI outputs (e.g., anomaly detection, reminders) through structured testing methodologies such as ground-truth comparison using sensor data and daily checklists during real-world trials, and metamorphic testing to ensure correctness of outputs in scenarios without direct ground truth. Validation must confirm that outputs align with emotional goals like safety and reassurance.  
+- **Citation:** Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. (Page 8, Section 4.3.1; Page 10, Section 5.2.2)  
+- **Related Title:** Healthcare Monitoring Systems, Smart Home Solutions for Elderly Care  
+
+**Non-Functional Requirement**  
+- **Role:** System (AI Component of SofiHub)  
+- **Requirement ID:** NFR-02  
+- **Title:** Runtime Reliability and Confidence Estimation  
+- **Description:** The system must ensure runtime reliability by estimating the confidence and trustworthiness of individual AI predictions (e.g., anomaly detection for falls or unusual behavior) at runtime, providing indicators or alerts to users or carers when confidence falls below a predefined threshold (e.g., 90% confidence level for critical alerts). This ensures emotional goals such as feeling safe and reassured are met consistently, even under conditions like power disruptions.  
+- **Citation:** Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. (Page 10, Section 5.2.2; Page 11, Section 5.2.7)  
+- **Related Title:** Emergency Response AI Systems, High-Reliability IoT Platforms for Aged Care  
+
+**Validation of Extracted Requirements Against Gold Standard**
+
+- **Alignment with Gold Standard:** Both requirements mirror the structure and specificity of the CoT Gold Standard Example (e.g., NFR-06 and NFR-07), focusing on testability and reliability with explicit methodologies (ground-truth comparison, metamorphic testing) and constraints (confidence thresholds). Descriptions are detailed and directly tied to the paper’s context (e.g., emotional goals like safety).
+- **Role Specification:** The role is clearly defined as the System (AI Component), consistent with the gold standard’s focus on system-level responsibilities.
+- **Related Titles:** The related titles are contextualized to high-reliability ML domains, ensuring relevance to deployment scenarios similar to SofiHub, as per the gold standard’s approach (e.g., Medical Domain ML Applications in NFR-07).
+- **Citation Accuracy:** Citations are precise, referencing specific sections of the paper where validation and reliability concerns are discussed, aligning with the gold standard’s citation format.
+
+These requirements ensure that the AI components of SofiHub are rigorously tested and reliable at runtime, addressing both technical accuracy and emotional user needs, which are critical for adoption in sensitive applications like elderly care.

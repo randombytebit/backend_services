@@ -1,0 +1,88 @@
+**Let's think step by step.**  
+1. **Identify Requirements Logic:** The source text explicitly lists and defines 10 non-functional requirements (NFRs) for big data systems in Section 3, derived from real-world architectures at Facebook, Twitter, and Netflix. No functional requirements (FRs) are described; all are quality constraints on system capabilities (e.g., processing types, scalability).  
+2. **Categorize as NFRs:** Each is a non-functional constraint, focusing on system qualities like scalability, tolerance, and elasticity, with no ML/XAI-specific transparency pairing in the text. Extract verbatim definitions for precision.  
+3. **Assign Roles:** 'System' (big data architectures/systems) is responsible for all, as per descriptions of company implementations.  
+4. **Unique IDs and Titles:** Sequential NFR-01 to NFR-10, using paper titles (e.g., "Batch Data").  
+5. **Descriptions:** Verbatim from paper for accuracy, capturing "capability to..." phrasing.  
+6. **Citations:** Uniform source citation across all.  
+7. **Related Titles:** Unique per requirement, with 1-3 contextual domains/examples (e.g., real-world big data use cases like social media analytics), ensuring no extras or overlaps.  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Batch Data  
+Description: This requirement refers to the capability to process data which is finite and usually large in volume, e.g. data archived in distributed file systems or databases.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Hadoop Batch Processing Pipelines[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Stream Data  
+Description: This requirement refers to the capability to process data which is potentially infinite and usually flowing at high velocity, e.g. monitoring data captured and processed in real-time, or close to real-time.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Real-time Monitoring Systems, IoT Stream Processors[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Late and Out of Order Data  
+Description: This requirement relates to stream processing and refers to the capability to process data which arrives late or in a different order from that in which it was emitted.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Mobile User Stream Analytics[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Processing Guarantees  
+Description: This requirement refers to a stream system’s capability to offer processing guarantees, i.e. exactly once, at least once and at most once.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Reliable Stream Processing Engines, Transactional Data Pipelines[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Integration and Extensibility  
+Description: This requirement refers to the capability to integrate with existing services and components. It also refers to provisions made to facilitate the extension of the existing architecture to incorporate different components in the future.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Modular Messaging Pipelines, Extensible Framework Ecosystems[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Distribution and Scalability  
+Description: This requirement refers to the capability to distribute data processing amongst different machines, located in different data centres, in a multi-clustered architecture. Dynamic scaling, which addresses the possibility of adding or removing nodes to a running system without any downtime, is also addressed as part of this requirement.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Multi-Cluster Data Centers, Dynamic Node Scaling Clusters[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Cloud Support and Elasticity  
+Description: This requirement refers to the capability to move the architecture (or part of it) into the cloud to take advantage of the many benefits associated with its economies of scale. Elasticity in particular is a cloud property which allows a system to scale up and down according to demand.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: AWS Elastic Analytics Platforms, Multi-Cloud Resource Pools[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-08  
+Title: Fault Tolerance  
+Description: This requirements refers to the capability of a system to continue to operate should one or more nodes fail. Ideally, the system should recover gracefully, with minimal repercussions on the user experience.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Node-Redundant Distributed Systems, Checkpointing Stream Platforms[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-09  
+Title: Flow Control  
+Description: This requirement refers to the capability to handle scenarios where the data source is emitting records faster than the system can consume. Architectures typically provide strategies for dealing with backpressure, e.g. dropping records, sampling, applying source backpressure, etc.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Backpressure-Resilient Pipelines, Reactive Stream Handlers[cite: 1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-10  
+Title: Flexibility and Technology Agnosticism  
+Description: This criterion refers to the capability of an architecture to use different technology in place of existing components.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.[cite: 1]  
+Related Title: Open-Source Modular Frameworks, Containerized Agnostic Deployments[cite: 1]

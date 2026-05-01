@@ -1,0 +1,109 @@
+**Requirements Extraction for Singularity AI Platform: Emotion-Oriented Requirements Engineering for Smart Home Systems**
+
+Below is the structured extraction of functional and non-functional requirements based on the provided text from the paper "Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly" by Maheswaree Kissoon Curumsing et al. The requirements are tailored to enable the automated conversion of technical text into structured, human-verified requirements for the Singularity AI Platform, with a focus on pairing functional tasks with transparency or explainability constraints for XAI testing. The process follows the provided formatting rules and incorporates step-by-step reasoning to ensure clarity and adherence to the updated logic of individual identifiers for each requirement.
+
+---
+
+### Refinement Reasoning (Chain of Thought)
+**Let's think step by step:**
+1. **Identify Core Functional Logic:** The paper describes SofiHub, a smart home system designed for elderly users, focusing on functionalities like passive monitoring, reminders, anomaly detection, and emergency assistance. These are primary functional actions for an AI-driven smart home platform and will be categorized as functional requirements (FRs) with unique IDs.
+2. **Identify Emotional and Transparency Constraints:** The paper emphasizes emotion-oriented requirements engineering, highlighting emotional goals (e.g., feeling safe, independent, less lonely) as critical to user adoption. These are non-functional requirements (NFRs) that must be paired with functional tasks to ensure explainability and trust in AI outputs, supporting XAI testing precision and recall.
+3. **Assign Roles:** The primary roles are the 'System' (responsible for executing functionalities and ensuring emotional goals) and the 'User' (elderly individuals whose emotional needs must be addressed). Roles are assigned based on who performs or benefits from the requirement.
+4. **Draft Descriptions:** Descriptions are derived directly from the paper's content, ensuring alignment with the original intent. Functional requirements focus on specific system actions (e.g., issuing reminders), while non-functional requirements focus on emotional outcomes and transparency (e.g., explaining how reminders reduce loneliness).
+5. **Generate Unique Related Titles:** Each requirement is assigned a unique contextual example or domain to illustrate applicability. These titles are distinct for each requirement to avoid overlap and ensure traceability, reflecting domains where the requirement is critical (e.g., aged care, mental health support).
+6. **Ensure Pairing for XAI Testing:** Each functional requirement is paired with a corresponding non-functional requirement to ensure that system actions are transparent and explainable, supporting high precision and recall in XAI testing scenarios.
+
+---
+
+### Extracted Requirements
+
+#### Functional Requirement 1
+- **Role:** System
+- **Requirement ID:** FR-01
+- **Title:** Passive Monitoring for Independent Living
+- **Description:** The system should provide passive monitoring using non-intrusive sensors to track user activities (e.g., motion, door usage) and support independent living for elderly users without requiring wearable devices.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.1]
+- **Related Title:** Aged Care Home Monitoring Solutions
+
+#### Non-Functional Requirement 1 (Paired with FR-01)
+- **Role:** System
+- **Requirement ID:** NFR-01
+- **Title:** Privacy and Non-Invasiveness Transparency
+- **Description:** The system should provide clear explanations to users about how passive monitoring data is collected, stored, and used to ensure they feel their privacy is secured and the system is non-invasive, fostering trust in the technology.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.5]
+- **Related Title:** Privacy-Focused Smart Home Systems for Elderly Care
+
+#### Functional Requirement 2
+- **Role:** System
+- **Requirement ID:** FR-02
+- **Title:** Reminder Issuance for Daily Activities
+- **Description:** The system should issue user-specific reminders for daily activities such as hydration, medication, and appointments, triggered by user behavior or predefined schedules to support elderly users’ routines.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.1]
+- **Related Title:** Medication Adherence Support Systems
+
+#### Non-Functional Requirement 2 (Paired with FR-02)
+- **Role:** System
+- **Requirement ID:** NFR-02
+- **Title:** Comfort and Integration Explainability
+- **Description:** The system should explain how reminders are personalized and integrated into the user’s daily life to minimize frustration and ensure users feel comfortable with the technology, enhancing adoption and engagement.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.3]
+- **Related Title:** User-Friendly Reminder Systems for Senior Living
+
+#### Functional Requirement 3
+- **Role:** System
+- **Requirement ID:** FR-03
+- **Title:** Anomaly Detection and Alerts
+- **Description:** The system should detect anomalous behaviors (e.g., prolonged inactivity, unusual time spent in bed) and issue alerts to carers or emergency services to ensure timely intervention for elderly users.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.1]
+- **Related Title:** Emergency Response Systems for Independent Seniors
+
+#### Non-Functional Requirement 3 (Paired with FR-03)
+- **Role:** System
+- **Requirement ID:** NFR-03
+- **Title:** Safety and Reassurance Transparency
+- **Description:** The system should provide understandable explanations of how anomalies are detected and alerts are triggered to reassure users and their carers that the system enhances safety, building trust in its reliability.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.2]
+- **Related Title:** Safety Assurance Platforms for Elderly Home Care
+
+#### Functional Requirement 4
+- **Role:** System
+- **Requirement ID:** FR-04
+- **Title:** Personalized Interaction Messages
+- **Description:** The system should deliver personalized interaction messages (e.g., morning greetings, varied content) to engage elderly users and provide a sense of companionship through voice or text interactions.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.3]
+- **Related Title:** Social Engagement Tools for Isolated Seniors
+
+#### Non-Functional Requirement 4 (Paired with FR-04)
+- **Role:** System
+- **Requirement ID:** NFR-04
+- **Title:** Loneliness Reduction Explainability
+- **Description:** The system should explain how personalized messages are designed to reduce feelings of loneliness and make users feel cared about, ensuring users understand the emotional intent behind interactions to foster trust and emotional connection.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.1]
+- **Related Title:** Mental Health Support Systems for Elderly Isolation
+
+#### Functional Requirement 5
+- **Role:** System
+- **Requirement ID:** FR-05
+- **Title:** Carer Interface for Monitoring and Reports
+- **Description:** The system should provide a carer interface that allows family members or professional carers to monitor user activity and receive customizable reports summarizing behavior patterns of elderly users.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.1]
+- **Related Title:** Remote Care Coordination Platforms
+
+#### Non-Functional Requirement 5 (Paired with FR-05)
+- **Role:** System
+- **Requirement ID:** NFR-05
+- **Title:** Reassurance and Control Transparency
+- **Description:** The system should provide clear explanations to carers and users about how monitoring data is accessed and used in reports to ensure carers feel reassured about the user’s well-being and users feel in control of their data, maintaining trust in the system.
+- **Citation:** Curumsing, M. K. et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.4]
+- **Related Title:** Trust-Building Remote Monitoring Systems for Family Care
+
+---
+
+### Summary of Compliance with Instructions
+- **Unique Identifiers:** Each requirement has a unique ID (FR-01 to FR-05 for functional, NFR-01 to NFR-05 for non-functional) and a distinct related title, ensuring individual traceability.
+- **Pairing for XAI Testing:** Each functional requirement is paired with a non-functional requirement focusing on transparency or explainability, supporting high precision and recall in XAI testing by ensuring system actions are understandable to users.
+- **Role Assignment:** Roles are clearly assigned as 'System' for all requirements, reflecting the entity responsible for execution and emotional impact delivery.
+- **Citation and Context:** Citations reference specific sections of the paper to ground requirements in the source text, and related titles provide contextual applicability across relevant domains.
+- **Step-by-Step Reasoning:** The chain of thought ensures logical derivation of requirements, aligning with the gold standard example provided.
+
+This structured output is designed to be directly usable by the Singularity AI Platform for automated processing and human verification, with a focus on integrating emotional goals and transparency constraints critical for user trust and system adoption in smart home technologies.

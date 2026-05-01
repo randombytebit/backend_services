@@ -1,0 +1,72 @@
+**Analytical Reasoning:**
+
+**Let's think step by step.**
+1. **Identify Functional Intent:** The source text outlines functional requirements in Table 1, divided into three subthemes: (A) Demographic data documentation, (B) Health record, and (C) General features of the user interface (UI). These describe core system behaviors for enabling clinical services, such as documenting data and providing UI features. Each subtheme is treated as a distinct functional requirement to maintain granularity and word-for-word consistency with the source.
+2. **Identify Behavioral Constraint:** The source text outlines nonfunctional requirements in Table 2, divided into five subthemes: (A) Usability, (B) Accessibility, (C) Compatibility, (D) Efficiency, and (E) Security. These are quality attributes or constraints on how the system performs, such as ensuring usability or security, aligning with ethical AI principles like reliability and bias avoidance in healthcare contexts.
+3. **Establish Roles:** For functional requirements, the primary role is the "System" as it processes and manages data for users (patients and clinicians). For nonfunctional requirements, the role is also the "System" as it enforces constraints like security and efficiency to ensure unbiased, reliable operation.
+4. **Verify Against Gold Standard:** Descriptions are extracted word-for-word from Tables 1 and 2, including bullet points for accuracy. No additions or modifications are made. IDs are assigned uniquely starting from FR-01 and NFR-01.
+5. **Assign Unique Related Titles:** Each requirement gets a unique related title based on contextual applicability, e.g., for demographic data, "Patient Onboarding in Telemedicine Apps"; for usability, "User-Friendly Healthcare Interfaces". These are healthcare-specific domains to highlight ethical AI deployment without introducing extra requirements.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Demographic Data Documentation  
+Description: • Identity: first name and surname • Insurance: insurance name and number  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 1.  
+Related Title: Patient Onboarding in Telemedicine Apps  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Health Record  
+Description: Vital sign documentation • Blood pressure • Heart rate Kidney documentation • Blood sugar Fitness documentation • Weight • Exercise • Sleep • Nutrition Skin documentation • Condition of skin History documentation • Disease history • Family history • Allergy • Medications history • Vaccination • Surgeries • Smoking Present history documentation • Symptoms and conditions • X-ray • Tests • Treatments • Prescriptions • Patient training Documentation of inpatient treatment history • Date of admission and discharge • Hospital name • Chief complaint • Summary Medication documentation • Name • Dose • Type • Instruction • Side effects  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 1.  
+Related Title: Remote Health Monitoring Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: General Features of the User Interface (UI)  
+Description: Reminders • Appointment • Preventive care Display • Patient’s self-declaration about his health status • Consultant identity: name and surname and profile picture • Curriculum vitae: expertise and consulting field • Type of communication: phone call, text, video call, and real-time • Appointment: consultation date, time, duration, and waiting time for response Service selection • Choosing consultation day, time, and type of insurance Reporting • Providing weekly/monthly reports on the patient’s treatment process • Providing weekly/monthly reports of vital signs and medical history Support • Documentation of communication ways: tagging capability in VCMA and frequently asked questions • Q and A ability: discussion forum with others (patients and consultants) Help/tutorial • Text guide: help • Training inside VCMA: working with it • About us • Terms and conditions of use  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 1.  
+Related Title: Interactive Telehealth User Interfaces  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Usability  
+Description: Setting • Creating a personal profile for the user (consultant-patient) • Microphone • Camera • Measurement units selection: selection of measurement units like centimeters and meters for height • Video call with other participants: making a video call with other connected individuals • Selecting conversation starter • Log out  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: User-Friendly Healthcare Interfaces  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Accessibility  
+Description: Service • Save and mark: appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant’s performance and select text from a default list • Ability to share: individual lessons, health record information with doctors, and patient-consultant data exchange  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: Inclusive Digital Health Platforms  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Compatibility  
+Description: Service format • Insurance: recording name and number  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: Cross-Platform Telemedicine Integration  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Efficiency  
+Description: Service • Financial transaction reporting  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: Optimized Virtual Care Workflows  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Security  
+Description: • Login method: text password, email, activation code, and anonymously • Verify the user’s identity by sending a verification code to the mobile phone • Possibility of deleting consultation records, documents, and bank transactions • Encrypted patient data exchange  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: Secure Health Data Management Systems

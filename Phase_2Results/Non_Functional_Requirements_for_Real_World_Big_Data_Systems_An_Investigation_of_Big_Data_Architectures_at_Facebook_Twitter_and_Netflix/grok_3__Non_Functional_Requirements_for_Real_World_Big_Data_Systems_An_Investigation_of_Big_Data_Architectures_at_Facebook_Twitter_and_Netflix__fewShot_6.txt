@@ -1,0 +1,31 @@
+Below are the extracted requirements related to the systematic validation and risk assessment of Machine Learning models from the provided source text by Vergilio, T. and Ramachandran, M. (2019). The focus is on requirements that specify how a system's accuracy is measured, how risks are calculated, and how outputs are tested for correctness. Each requirement is formatted according to the specified rules and is word-for-word consistent with the source text where applicable.
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** Processing Guarantees  
+**Description:** This requirement refers to a stream system’s capability to offer processing guarantees, i.e. exactly once, at least once, and at most once. While exactly once processing is ideal, it comes at a cost which could translate into increased latency.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.4]  
+**Related Title:** Real-Time Data Streaming Systems for Transaction Processing  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-02  
+**Title:** Fault Tolerance  
+**Description:** This requirement refers to the capability of a system to continue to operate should one or more nodes fail. Ideally, the system should recover gracefully, with minimal repercussions on the user experience.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.8]  
+**Related Title:** Distributed Big Data Processing Architectures for Fault-Resilient Operations  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-03  
+**Title:** Late and Out of Order Data Handling  
+**Description:** This requirement relates to stream processing and refers to the capability to process data which arrives late or in a different order from that in which it was emitted. Streaming data from mobile users, for example, could be delayed if the user loses reception for a moment. In order to handle late and out of order data, a system must have been designed with this requirement in mind.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.3]  
+**Related Title:** Mobile Data Streaming Systems for Real-Time Analytics  
+
+---
+
+These requirements are directly tied to the systematic validation and risk assessment of systems (including potential ML models integrated within big data architectures) as they address critical aspects of data processing correctness (processing guarantees), system reliability under failure (fault tolerance), and handling of data integrity issues (late and out of order data). Other non-functional requirements from the source text, such as scalability or cloud support, were not included as they do not directly relate to the specified focus on accuracy measurement, risk calculation, or output testing for correctness.

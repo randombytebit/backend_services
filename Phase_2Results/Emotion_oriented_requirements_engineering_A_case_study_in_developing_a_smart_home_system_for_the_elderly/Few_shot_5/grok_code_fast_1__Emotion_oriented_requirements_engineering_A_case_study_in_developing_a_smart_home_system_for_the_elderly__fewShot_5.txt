@@ -1,0 +1,23 @@
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Anomaly Detection
+Description: System should detect anomalous behavior in user activities, such as irregular bathroom visits or abnormal time spent in bed, using AI and ML techniques to perceive and reason about the state of the home’s physical environment and its residents.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229.
+Related Title: Elderly Fall Detection Systems, Smart Home Security Monitoring
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Title: User Routine Learning
+Description: System should learn and adapt to user’s daily routines and behaviors using built-in AI capability and ML algorithms to provide personalized reminders, automate the physical environment, and support independent living.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229.
+Related Title: Adaptive Home Automation for Elderly, Personalized Care Reminder Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Reliability of ML Predictions
+Description: System should ensure reliable and accurate ML predictions for anomaly detection and routine learning, minimizing error-prone automatic detection features to avoid false positives in emergency situations.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229.
+Related Title: Reliable AI in Aged Care, Trustworthy Anomaly Detection in Smart Homes

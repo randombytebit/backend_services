@@ -1,0 +1,113 @@
+Below, I have extracted and formatted several Functional and Non-Functional Requirements from the provided document on "Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly." Each requirement is derived through a step-by-step reasoning process to ensure accuracy and relevance to the source text. I have focused on key system behaviors and quality constraints related to the SofiHub smart home system.
+
+---
+
+### Functional Requirement 1
+**Role:** SofiHub System  
+**Requirement ID:** FR-01  
+**Title:** Issuing User-Specific Reminders  
+**Description:** The SofiHub system must issue user-specific reminders for appointments, special events, hydration, and medication, which can be triggered based on user activity to support independent living among elderly users.  
+**Citation:** Curumsing et al., The Journal of Systems & Software 147 (2019), Section 4.1, p. 221.  
+**Related Title:** Elderly Care Home Monitoring System, Personal Health Management App, Assisted Living Reminder Tool  
+
+**Reasoning Steps:**  
+1. **Sentence Analysis:** The text in Section 4.1 states that SofiHub's system functions include "issuing user-specific reminders such as appointments and special events, hydration and medication reminders that can be set up to be triggered by user activity."  
+2. **Classification:** This describes a specific behavior of the system (issuing reminders), making it a Functional Requirement.  
+3. **Role Identification:** The responsible entity is the SofiHub System, as it performs the action of issuing reminders.  
+4. **Title & Description:** The title "Issuing User-Specific Reminders" captures the core functionality. The description elaborates on the types of reminders and their purpose for independent living, directly reflecting the source text.  
+5. **Citation Verification:** Confirmed in Section 4.1, p. 221, where the functionality is explicitly described.  
+6. **Related Title Generation:** This requirement is critical for elderly care systems, health management apps, and assisted living tools where reminders enhance user independence and safety.
+
+---
+
+### Functional Requirement 2
+**Role:** SofiHub System  
+**Requirement ID:** FR-02  
+**Title:** Detecting Anomalous Behavior  
+**Description:** The SofiHub system must detect anomalous behavior, such as a user spending an abnormal amount of time in bed, and issue alerts to notify carers or family members to ensure the safety of elderly users.  
+**Citation:** Curumsing et al., The Journal of Systems & Software 147 (2019), Section 4.1, p. 221.  
+**Related Title:** Fall Detection System for Seniors, Emergency Response Smart Home, Behavioral Monitoring for Aged Care  
+
+**Reasoning Steps:**  
+1. **Sentence Analysis:** Section 4.1 mentions that SofiHub functions include "issuing alerts when anomalous behaviour is detected (eg: user is spending an abnormal time in bed)."  
+2. **Classification:** This is a system behavior (detecting and alerting), classifying it as a Functional Requirement.  
+3. **Role Identification:** The SofiHub System is responsible for detecting anomalies and issuing alerts.  
+4. **Title & Description:** The title "Detecting Anomalous Behavior" summarizes the functionality. The description includes the example and purpose (safety), as per the text.  
+5. **Citation Verification:** Directly supported by Section 4.1, p. 221.  
+6. **Related Title Generation:** Relevant to fall detection, emergency response, and behavioral monitoring systems where anomaly detection is critical for elderly safety.
+
+---
+
+### Functional Requirement 3
+**Role:** SofiHub System  
+**Requirement ID:** FR-03  
+**Title:** Providing Carer Interface for Monitoring  
+**Description:** The SofiHub system must provide a carer UI that enables family and carers to check on user activity and receive customizable reports summarizing the behavior of elderly users to support remote monitoring.  
+**Citation:** Curumsing et al., The Journal of Systems & Software 147 (2019), Section 4.1, p. 221.  
+**Related Title:** Remote Family Care Platform, Aged Care Facility Oversight Tool, Telehealth Monitoring System  
+
+**Reasoning Steps:**  
+1. **Sentence Analysis:** Section 4.1 states that SofiHub includes "a carer UI which enables family and carers to check on user activity and receive customizable reports summarizing user behaviour."  
+2. **Classification:** This describes a specific system feature (carer UI for monitoring), making it a Functional Requirement.  
+3. **Role Identification:** The SofiHub System is the entity providing this interface.  
+4. **Title & Description:** The title "Providing Carer Interface for Monitoring" reflects the functionality. The description details the purpose and features as per the source.  
+5. **Citation Verification:** Supported by Section 4.1, p. 221.  
+6. **Related Title Generation:** Applicable to remote care platforms, facility oversight tools, and telehealth systems where monitoring by carers is essential.
+
+---
+
+### Non-Functional Requirement 1
+**Role:** SofiHub System  
+**Requirement ID:** NFR-01  
+**Title:** Privacy and Data Security  
+**Description:** The SofiHub system must ensure the privacy of elderly users by securing data collected through sensors, restricting access to authorized personnel only, and preventing unauthorized access or hacking of sensitive information.  
+**Citation:** Curumsing et al., The Journal of Systems & Software 147 (2019), Section 4.2, p. 221.  
+**Related Title:** Smart Home Security System, Personal Health Data Protection Platform, IoT Privacy Solution for Elderly Care  
+
+**Reasoning Steps:**  
+1. **Sentence Analysis:** Section 4.2 mentions that "in order to ensure privacy, all the data captured by the sensors were kept within the hub and nobody, except for those authorised by the ethics committee, had access to these data."  
+2. **Classification:** This is a quality constraint on data handling and security, making it a Non-Functional Requirement.  
+3. **Role Identification:** The SofiHub System is responsible for securing data and ensuring privacy.  
+4. **Title & Description:** The title "Privacy and Data Security" captures the constraint. The description elaborates on securing data and access control, reflecting the text.  
+5. **Citation Verification:** Supported by Section 4.2, p. 221.  
+6. **Related Title Generation:** Critical for smart home security, health data protection, and IoT privacy solutions where user data sensitivity is paramount.
+
+---
+
+### Non-Functional Requirement 2
+**Role:** SofiHub System  
+**Requirement ID:** NFR-02  
+**Title:** Integration into Daily Life  
+**Description:** The SofiHub system must be well integrated into the daily lives of elderly users, minimizing perceptions of complexity or frustration, and ensuring that interactions (such as messages) feel natural and supportive to their routine.  
+**Citation:** Curumsing et al., The Journal of Systems & Software 147 (2019), Section 5.2.3, p. 224.  
+**Related Title:** User-Friendly Elderly Assistive Device, Seamless Smart Home Interface, Intuitive Aged Care Technology  
+
+**Reasoning Steps:**  
+1. **Sentence Analysis:** Section 5.2.3 states that a key consideration was to ensure "the system is well integrated in the user’s life" and notes positive user feedback on SofiHub being part of their routine.  
+2. **Classification:** This is a quality constraint on user experience and system adoption, making it a Non-Functional Requirement.  
+3. **Role Identification:** The SofiHub System must meet this integration quality.  
+4. **Title & Description:** The title "Integration into Daily Life" reflects the goal. The description specifies minimizing complexity and ensuring natural interaction, as per findings.  
+5. **Citation Verification:** Supported by Section 5.2.3, p. 224.  
+6. **Related Title Generation:** Relevant to assistive devices, smart home interfaces, and aged care tech where seamless integration drives user acceptance.
+
+---
+
+### Non-Functional Requirement 3
+**Role:** SofiHub System  
+**Requirement ID:** NFR-03  
+**Title:** Emotional Goal of Feeling Safe  
+**Description:** The SofiHub system must support the emotional goal of making elderly users feel safe by ensuring that anomalies (such as falls) are detected and alerts are issued, providing reassurance that help will be available if needed.  
+**Citation:** Curumsing et al., The Journal of Systems & Software 147 (2019), Section 5.2.2, p. 224.  
+**Related Title:** Elderly Safety Assurance System, Emergency Alert Smart Home, Reassurance Technology for Seniors  
+
+**Reasoning Steps:**  
+1. **Sentence Analysis:** Section 5.2.2 notes that a key goal was to make users "feel safe" and that participants confirmed feeling safe with SofiHub due to anomaly detection and alerts.  
+2. **Classification:** This is a quality constraint related to emotional impact (feeling safe), making it a Non-Functional Requirement.  
+3. **Role Identification:** The SofiHub System must achieve this emotional outcome.  
+4. **Title & Description:** The title "Emotional Goal of Feeling Safe" captures the emotional focus. The description links safety to system features like anomaly detection, as per text.  
+5. **Citation Verification:** Supported by Section 5.2.2, p. 224.  
+6. **Related Title Generation:** Applicable to safety assurance, emergency alert systems, and reassurance tech where emotional security is critical for elderly users.
+
+---
+
+These requirements capture essential functionalities and quality constraints of the SofiHub system as described in the document, focusing on both technical behaviors and emotional impacts critical to the target user group (elderly individuals). Each requirement is grounded in the source text through explicit citations and verified reasoning steps to avoid hallucination or misinterpretation.

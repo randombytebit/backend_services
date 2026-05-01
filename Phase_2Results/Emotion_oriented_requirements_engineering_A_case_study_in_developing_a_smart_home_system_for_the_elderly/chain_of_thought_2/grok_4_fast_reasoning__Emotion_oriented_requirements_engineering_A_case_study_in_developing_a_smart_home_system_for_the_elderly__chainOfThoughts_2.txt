@@ -1,0 +1,134 @@
+### Architectural Reasoning
+- **Component Identification**: The source text in Section 4.1 and Fig. 5 (Goal Model) explicitly describes SofiHub's core functional capability to issue user-specific reminders for hydration, medication, appointments, and special events, triggered by user activity patterns detected via sensors. This is a primary functional task enabling assisted living.
+- **Constraint Identification**: While functional, this ties to emotional goals like "integrated" and "in control" (Section 4.2), ensuring reminders do not overwhelm users, but no direct NFR is specified here beyond integration into daily life.
+- **Functional Logic (FR-01)**: The role is the 'System' (SofiHub platform), performing automated reminder issuance based on learned routines, consistent with the design for elderly independence.
+- **Quality Logic**: Not primary here, but supports broader NFR like usability for emotional comfort.
+- **Domain Mapping**: Applicable to health monitoring apps or wearable reminders; related titles focus on elderly care contexts like medication adherence systems.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Issue User-Specific Reminders  
+Description: System should issue user-specific reminders for hydration, medication, appointments, and special events, triggered by detected user activity via sensors to support daily routines without manual input.  
+Citation: Section 4.1, Page 7  
+Related Title: Medication Adherence System, Hydration Monitoring App, Elderly Appointment Scheduler  
+
+### Architectural Reasoning
+- **Component Identification**: Section 4.1 and Fig. 5 detail the system's ability to detect anomalous situations, such as prolonged time in bed or falls, using motion and contact sensors, as a core functional feature for safety.
+- **Constraint Identification**: This functional capability is linked to emotional goals like "safe" and "reassured" (Section 4.2, Page 8), requiring accurate detection to avoid false alarms that could frustrate users.
+- **Functional Logic (FR-02)**: The 'System' role involves real-time anomaly detection and escalation, aligning with the ambient, non-intrusive design for elderly homes.
+- **Quality Logic**: Ties to NFR for accuracy in AI learning (Section 4.1), ensuring reliable outputs.
+- **Domain Mapping**: Parallels security systems in healthcare; related titles include fall detection for seniors or anomaly alerts in smart environments.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Detect Anomalous Situations  
+Description: System should use motion and contact sensors to detect anomalous behaviors, such as spending abnormal time in bed or potential falls, and escalate incidents to carers or emergency services.  
+Citation: Section 4.1, Page 7; Fig. 5, Page 9  
+Related Title: Fall Detection System, Bed Occupancy Monitor, Elderly Anomaly Alert  
+
+### Architectural Reasoning
+- **Component Identification**: The paper in Section 4.1 describes the carer UI as a functional component for remote monitoring, allowing family/carers to view activity summaries and customizable reports based on sensor data.
+- **Constraint Identification**: Supports emotional goals like "reassured" for carers (Section 4.2, Page 8), with implicit NFR for data security to maintain privacy.
+- **Functional Logic (FR-03)**: Role is the 'System' providing a user interface for external stakeholders (carers), consistent with the socio-technical design emphasizing family involvement.
+- **Quality Logic**: Requires non-intrusive access to avoid violating user independence.
+- **Domain Mapping**: Similar to remote health portals; related titles cover carer dashboards in aged care.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Provide Carer Monitoring Interface  
+Description: System should offer a carer user interface (UI) enabling family members or carers to check user activity, receive alerts, and generate customizable reports summarizing behavior from sensor data.  
+Citation: Section 4.1, Page 7  
+Related Title: Remote Carer Dashboard, Family Health Monitoring Portal, Activity Report Generator  
+
+### Architectural Reasoning
+- **Component Identification**: Section 4.1 and Fig. 5 outline the system's AI-driven learning of user routines and behaviors through passive sensor data (motion, doors, temperature), as a foundational functional capability.
+- **Constraint Identification**: Linked to emotional goals like "integrated" and "empowered" (Section 4.2), with NFR for adaptability to personalize without invading privacy.
+- **Functional Logic (FR-04)**: The 'System' role performs ongoing learning and adaptation, core to the ambient intelligence design for elderly support.
+- **Quality Logic**: Ensures low error rates in routine modeling to build user trust.
+- **Domain Mapping**: Applies to predictive analytics in IoT; related titles include behavior learning in smart assistants.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: Learn User Routines and Behaviors  
+Description: System should passively learn and adapt to the elderly user's daily routines and behaviors using sensor data (e.g., motion, door contacts) to enable personalized automation and predictions.  
+Citation: Section 4.1, Page 7; Fig. 5, Page 9  
+Related Title: Routine Prediction AI, Behavior Adaptation Engine, Personalized IoT Learner  
+
+### Architectural Reasoning
+- **Component Identification**: Section 4.1 mentions automation of the physical environment (e.g., heating, cooling) based on sensor inputs, as a functional feature for comfort in elderly homes.
+- **Constraint Identification**: Ties to emotional goals like "comfortable" (Section 4.2), with NFR for energy efficiency and non-intrusiveness.
+- **Functional Logic (FR-05)**: 'System' automates home controls, aligning with the goal of supporting independent living without wearables.
+- **Quality Logic**: Must respond reliably to environmental changes.
+- **Domain Mapping**: Common in smart thermostats; related titles focus on elderly comfort automation.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-05  
+Title: Automate Physical Environment  
+Description: System should automate home environment controls, such as heating and cooling, based on sensor-detected user presence and preferences to maintain comfort.  
+Citation: Section 4.1, Page 7  
+Related Title: Smart Thermostat Controller, Elderly Home Automation, Environmental Comfort System  
+
+### Architectural Reasoning
+- **Component Identification**: Section 4.2 and Fig. 4 (Emotion Model) identify "privacy secured" as a key emotional goal, requiring secure handling of sensor data, explicitly stated as keeping data local and access-restricted.
+- **Constraint Identification**: This is a non-functional constraint on data security, directly addressing threats like hacking (Section 4.2, Page 8), to support emotional goals of independence and control.
+- **Functional Logic**: Applies to the overall 'System' data management, consistent with non-intrusive design.
+- **Quality Logic (NFR-01)**: Ensures confidentiality and integrity of sensitive user data as a primary quality indicator for adoption.
+- **Domain Mapping**: Critical in IoT health systems; related titles include secure sensor networks or privacy-focused elderly monitoring.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Privacy Secured  
+Description: System must secure all sensor-collected data locally within the hub, restricting access to authorized personnel only, to prevent hacking and ensure users feel relieved about information privacy.  
+Citation: Section 4.2, Page 8; Fig. 4, Page 8  
+Related Title: Secure IoT Data Vault, Elderly Privacy Monitor, Sensor Data Encryption System  
+
+### Architectural Reasoning
+- **Component Identification**: Emotional goal "safe" in Section 4.2 and Fig. 5 links to anomaly detection, but as an NFR, it constrains the system to produce reliable safety outputs measurable by user perception of security.
+- **Constraint Identification**: Users must feel safe via accurate anomaly escalation (Section 5.2.2, Page 10), with questionnaire metrics showing improved security feelings over time.
+- **Functional Logic**: Overarching for 'System' safety features.
+- **Quality Logic (NFR-02)**: Focuses on reliability and user-perceived safety as key indicators, evaluated via trials.
+- **Domain Mapping**: Parallels safety in medical alerts; related titles cover secure home safety systems.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Ensure Feeling of Safety  
+Description: System must deliver reliable anomaly detection and alerts to make elderly users feel safe, measurable via user feedback on security perception (e.g., Likert scales pre/mid/post-trial), avoiding false negatives that could undermine trust.  
+Citation: Section 4.2, Page 8; Section 5.2.2, Page 10  
+Related Title: Home Safety Assurance System, Anomaly Reliability Checker, Elderly Security Evaluator  
+
+### Architectural Reasoning
+- **Component Identification**: "Integrated" emotional goal (Section 4.2) requires the system to blend seamlessly into daily life, as evidenced by trial feedback on routine incorporation (Section 5.2.3, Page 11).
+- **Constraint Identification**: NFR for usability and non-intrusiveness, ensuring no frustration from complexity, measured by positive user reactions over time.
+- **Functional Logic**: Applies to all interactions, like messages, in the 'System' design.
+- **Quality Logic (NFR-03)**: Prioritizes seamless integration as a usability constraint critical for adoption in domestic settings.
+- **Domain Mapping**: Essential for ambient computing; related titles include lifestyle-integrated smart devices.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Seamless Integration into Daily Life  
+Description: System must integrate non-intrusively into users' routines (e.g., via minimal, timed messages), ensuring elderly users perceive it as improving daily life without annoyance, evaluated through longitudinal feedback.  
+Citation: Section 4.2, Page 8; Section 5.2.3, Page 11  
+Related Title: Routine-Integrated Assistant, Non-Intrusive Home AI, Daily Life Enhancer  
+
+### Architectural Reasoning
+- **Component Identification**: Trial findings in Section 5.2.1 identify "reduced loneliness" as an emergent emotional goal addressed via messages, not initially modeled but validated post-trial.
+- **Constraint Identification**: NFR for emotional impact, requiring interactive features (e.g., voice messages) to alleviate isolation, measured by user reports of missing the system.
+- **Functional Logic**: Enhances 'System' interaction components.
+- **Quality Logic (NFR-04)**: Focuses on social/emotional well-being as a quality metric for long-term engagement.
+- **Domain Mapping**: Relevant to social robots or companion apps; related titles target loneliness mitigation in aged care.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Alleviate Loneliness  
+Description: System must foster a sense of companionship through interactive elements like daily voice messages, reducing perceived loneliness as measured by user interviews and UCLA loneliness scale pre/mid/post-deployment.  
+Citation: Section 5.2.1, Page 10; Fig. 7, Page 12  
+Related Title: Companionship Voice System, Loneliness Reduction App, Elderly Social Support Tool

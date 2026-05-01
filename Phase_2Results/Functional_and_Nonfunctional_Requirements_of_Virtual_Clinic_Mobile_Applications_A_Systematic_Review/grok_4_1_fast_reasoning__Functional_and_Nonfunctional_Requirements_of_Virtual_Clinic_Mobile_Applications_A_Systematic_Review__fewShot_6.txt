@@ -1,0 +1,7 @@
+Non-Functional Requirement  
+Role: Researchers (AE and ZP)  
+Requirement ID: NFR-01  
+Title: Literature Quality Assessment and Risk of Bias Assessment  
+Description: Researchers (AE and ZP) evaluated the quality of the articles using the Cochrane Collaboration’s tool (Albornoz et al., 2022), which includes the following criteria: (1) random sequence generation, (2) allocation concealment, (3) blinding of participants and personnel, (4) blinding of outcome assessment, (5) incomplete outcome data, (6) selective reporting, and (7) other sources of bias. The results were divided into three groups: low risk of bias, high risk of bias, and unclear risk of bias. The interpretation of the quality assessment results based on guidelines was as follows: good (low risk for more than 2 items), fair (low risk for 2 items), or weak (low risk for less than 2 items).  
+Citation: Page 2, Section 2.5. Literature Quality Assessment and Risk of Bias Assessment  
+Related Title: Systematic Review Quality Assessment in VCMA Studies

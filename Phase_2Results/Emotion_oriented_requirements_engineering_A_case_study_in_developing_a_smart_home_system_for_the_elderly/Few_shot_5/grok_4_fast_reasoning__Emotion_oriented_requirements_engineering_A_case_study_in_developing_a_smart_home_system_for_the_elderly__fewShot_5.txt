@@ -1,0 +1,31 @@
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Learn User Routine and Behavior  
+Description: The system must use sensor data (e.g., motion, contact sensors recording motion, door openings/closings, air temperature, and humidity) to learn and adapt to the elderly user's daily routines and behaviors, enabling the AI component to model normal patterns for subsequent analysis and automation.  
+Citation: Section 4.1 (SofiHub features) and Section 4.2 (SofiHub emotion-oriented requirements engineering), Page 7-8.  
+Related Title: Elderly Routine Monitoring in Smart Homes, Behavior Adaptation in Ambient Assisted Living Systems  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Detect Anomalous Behavior  
+Description: The system must analyze learned user routines and sensor data to identify anomalous situations, such as a user spending an abnormal amount of time in bed or irregular bathroom visits, and trigger alerts or escalations accordingly.  
+Citation: Section 4.1 (SofiHub features) and Goal Model in Section 4.2, Page 7-8 and Page 10.  
+Related Title: Anomaly Detection in Aged-Care IoT Platforms, Fall or Inactivity Alerting in Independent Living Environments  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Issue Behavior-Based Notifications  
+Description: The system must generate and issue user-specific notifications (e.g., hydration, medication reminders triggered by user activity, or anomaly alerts) based on the learned routines and detected anomalies, integrating with passive monitoring to support independent living.  
+Citation: Section 4.1 (SofiHub features) and Goal Model decomposition in Section 4.2, Page 7-8 and Page 10.  
+Related Title: Adaptive Reminder Systems for Elderly Care, Activity-Triggered Alerts in Smart Home Automation  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: AI Accuracy and Reliability  
+Description: The AI component must achieve measurable accuracy in learning routines, detecting anomalies, and processing sensor data, validated through cross-checking against daily checklists and ground-truth data during trials to ensure reliable performance in real-home environments.  
+Citation: Section 4.3 (Trial and SofiHub emotion-oriented evaluation) and Section 5.1 (Qualitative data analysis method), Page 8-9.  
+Related Title: Sensor-AI Validation in Elderly Monitoring Systems, Reliability Testing for Anomaly Detection in IoT Health Devices

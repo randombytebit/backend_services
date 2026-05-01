@@ -1,0 +1,63 @@
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Demographic Data Documentation  
+Description: System should document demographic data including identity (first name and surname) and insurance (insurance name and number).  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications.[cite: Table 1, Page 4]  
+Related Title: Patient Registration Systems[cite: Table 1, Page 4]  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Health Record Management  
+Description: System should manage comprehensive health records including vital signs documentation (blood pressure, heart rate), kidney documentation (blood sugar), fitness documentation (weight, exercise, sleep, nutrition), skin documentation (condition of skin), history documentation (disease history, family history, allergy, medications history, vaccination, surgeries, smoking), present history documentation (symptoms and conditions, X-ray, tests, treatments, prescriptions, patient training), documentation of inpatient treatment history (date of admission and discharge, hospital name, chief complaint, summary), and medication documentation (name, dose, type, instruction, side effects).  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications.[cite: Table 1, Page 4]  
+Related Title: Electronic Health Record Systems[cite: Table 1, Page 4]  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: General Features of User Interface  
+Description: System should provide general UI features including reminders (appointment, preventive care), display (patient’s self-declaration about health status, consultant identity with name/surname/profile picture, curriculum vitae with expertise/consulting field, type of communication such as phone call/text/video call/real-time, appointment details including date/time/duration/waiting time), service selection (choosing consultation day/time/type of insurance), reporting (weekly/monthly reports on patient’s treatment process, vital signs, and medical history), support (documentation of communication ways with tagging capability/FAQs, Q&A/discussion forum with patients/consultants), and help/tutorial (text guide/help, training inside VCMA, about us, terms and conditions of use).  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications.[cite: Table 1, Page 4]  
+Related Title: Telemedicine Appointment and Support Interfaces[cite: Table 1, Page 4]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Usability  
+Description: System should support usability features including settings for creating personal profiles (consultant-patient), microphone/camera access, measurement units selection (e.g., centimeters/meters for height), video calls with other participants, selecting conversation starters, and log out functionality; these ensure intuitive operation and verifiable user interactions for trust in virtual clinic outputs.  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications.[cite: Table 2, Page 5]  
+Related Title: Intuitive mHealth User Interfaces[cite: Table 2, Page 5]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Accessibility  
+Description: System should enable accessibility services including save/mark capabilities (appointments, reminders, notes, recorded voices/photos/messages), sending feedback on consultant performance, selecting text from default lists, and sharing abilities (individual lessons, health record information with doctors, patient-consultant data exchange); these provide transparent access logs for user verification.  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications.[cite: Table 2, Page 5]  
+Related Title: Inclusive Telehealth Accessibility Platforms[cite: Table 2, Page 5]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Compatibility  
+Description: System should support compatibility in service formats including recording insurance name and number; this ensures cross-device explainability of data handling for reliable integration.  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications.[cite: Table 2, Page 5]  
+Related Title: Cross-Platform Virtual Clinic Apps[cite: Table 2, Page 5]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Efficiency  
+Description: System should provide efficiency services including financial transaction reporting; this includes performance metrics transparency for verifiable processing times in high-volume virtual care.  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications.[cite: Table 2, Page 5]  
+Related Title: High-Performance Telemedicine Systems[cite: Table 2, Page 5]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Security  
+Description: System should implement security features including login methods (text password, email, activation code, anonymously), user identity verification by sending code to mobile phone, possibility of deleting consultation records/documents/bank transactions, and encrypted patient data exchange; these ensure auditable explanations of data protection for user trust.  
+Citation: Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications.[cite: Table 2, Page 5]  
+Related Title: Secure HIPAA-Compliant Health Apps, Privacy-Focused Virtual Care Systems[cite: Table 2, Page 5]

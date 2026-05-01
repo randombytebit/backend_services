@@ -1,0 +1,115 @@
+Below is the extracted set of functional and non-functional requirements from the provided technical documentation on the SofiHub smart home system for the elderly. Each requirement is formatted according to the specified rules, with roles, unique IDs, titles, descriptions, citations, and related titles grounded in the context of high-stakes environments.
+
+---
+
+**Functional Requirement**  
+**Role:** System  
+**Requirement ID:** FR-01  
+**Title:** Support Independent Living  
+**Description:** The system must support independent living for elderly users by providing assistive services such as reminders for hydration and medication, identifying security risks (e.g., open doors), detecting anomalous situations (e.g., prolonged time in bed), and automating the physical environment (e.g., heating, cooling).  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.1]  
+**Related Title:** Assisted Living Smart Home for Elderly Care  
+
+---
+
+**Functional Requirement**  
+**Role:** System  
+**Requirement ID:** FR-02  
+**Title:** Issue User-Specific Reminders  
+**Description:** The system must issue user-specific reminders for appointments, special events, hydration, and medication, triggered by user activity to ensure timely and relevant notifications.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.1]  
+**Related Title:** Medication Adherence System for Chronic Illness Management  
+
+---
+
+**Functional Requirement**  
+**Role:** System  
+**Requirement ID:** FR-03  
+**Title:** Detect Anomalous Behavior  
+**Description:** The system must detect anomalous behavior, such as a user spending an abnormal amount of time in bed, and issue alerts to carers or family members to ensure timely intervention.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.1]  
+**Related Title:** Fall Detection System in Elderly Monitoring Facilities  
+
+---
+
+**Functional Requirement**  
+**Role:** System  
+**Requirement ID:** FR-04  
+**Title:** Provide Carer Interface for Monitoring  
+**Description:** The system must provide a carer interface that enables family members and carers to check on user activity and receive customizable reports summarizing user behavior for remote monitoring.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.1]  
+**Related Title:** Remote Health Monitoring Platform for Telecare Services  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** Privacy and Data Security  
+**Description:** The system must ensure the privacy of user data by securing information collected through sensors, restricting access to authorized personnel only, and preventing unauthorized access or hacking of sensitive data.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.2, 5.2.5]  
+**Related Title:** Secure IoT Health Data System for Hospital Environments  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-02  
+**Title:** System Integration into Daily Life  
+**Description:** The system must be well-integrated into the daily lives of elderly users, minimizing complexity and frustration by ensuring that interactions (e.g., messages) are non-intrusive and part of their routine.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.3]  
+**Related Title:** User-Friendly Smart Home Interface for Assisted Living Communities  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-03  
+**Title:** Emotional Goal: Feeling Safe  
+**Description:** The system must make elderly users feel safe by ensuring that anomalies (e.g., falls) are detected and alerts are sent to appropriate responders, providing reassurance to both users and their carers.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.2]  
+**Related Title:** Emergency Response System for Senior Living Facilities  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-04  
+**Title:** Emotional Goal: Feeling Independent  
+**Description:** The system must support elderly users in feeling independent by enabling them to live as they please without the perception of being constantly monitored or controlled by others.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 4.2]  
+**Related Title:** Autonomy Support System for Elderly Home Care  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-05  
+**Title:** Emotional Goal: Feeling In Control  
+**Description:** The system must ensure that elderly users feel in control of their lives by limiting intrusive interactions (e.g., minimal messages) and avoiding the perception that the technology is controlling them.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.4]  
+**Related Title:** Personalized Control Interface for Smart Rehabilitation Centers  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-06  
+**Title:** Emotional Goal: Reducing Loneliness  
+**Description:** The system must help alleviate feelings of loneliness among elderly users by providing interactive messages or a perceived presence (e.g., a voice) that users can look forward to, enhancing their sense of companionship.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.1]  
+**Related Title:** Social Interaction Platform for Isolated Elderly in Rural Care Settings  
+
+---
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-07  
+**Title:** Emotional Goal: Feeling Cared About  
+**Description:** The system must make elderly users feel cared about by providing daily interactions (e.g., messages) that convey concern and support, addressing their emotional need for connection with loved ones or carers.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 215–229. [Section 5.2.1, 5.3]  
+**Related Title:** Emotional Support System for Long-Term Care Facilities  
+
+---
+
+These requirements are derived directly from the provided documentation, focusing on both operational goals (functional requirements) and protective/emotional constraints (non-functional requirements) as identified in the SofiHub case study. Each related title is contextualized to high-stakes environments where similar requirements are critical, ensuring relevance and applicability.

@@ -1,0 +1,79 @@
+**Extraction of Requirements for Virtual Clinic Mobile Applications (VCMA)**
+
+Below, I have extracted functional and non-functional requirements for Virtual Clinic Mobile Applications (VCMA) based on the provided systematic review article. I have followed a step-by-step reasoning process to ensure alignment with the gold standard and to define systematic validation and runtime reliability constraints for AI components where applicable. Each requirement is formatted according to the specified rules and includes testing methodologies and confidence-estimation constraints where relevant.
+
+**Validation Reasoning (Chain of Thought):**
+1. **Analyze Functional Requirements Context:** The article identifies specific functionalities required for VCMA, such as demographic data documentation, health record management, and user interface features. These are user-centric and define specific behaviors, thus classified as Functional Requirements (FR).
+2. **Analyze Non-Functional Requirements Context:** The article also specifies quality attributes like usability, accessibility, compatibility, efficiency, and security. These define system constraints and design aspects, thus classified as Non-Functional Requirements (NFR).
+3. **Identify Roles:** The roles are primarily split between the 'User' (patients and clinicians interacting with the app) and the 'System' (the VCMA itself ensuring functionality and quality attributes).
+4. **Draft Descriptions with Validation Focus:** Descriptions are crafted to match the article's content precisely, ensuring that testing methodologies (e.g., usability testing, security audits) and confidence constraints (e.g., reliability of data exchange) are embedded where AI components are implied or directly mentioned.
+5. **Map Related Titles:** Each requirement is linked to contextual domains or applications where high-reliability systems are critical, such as telemedicine for chronic disease management or secure health data systems.
+6. **Ensure Grounding in Source Text:** Each requirement is directly tied to specific sections or tables in the article (e.g., Table 1 for FR, Table 2 for NFR) to maintain fidelity to the human-verified content.
+
+**Extracted Requirements:**
+
+**Functional Requirement 1**  
+Role: User  
+Requirement ID: FR-01  
+Title: Demographic Data Documentation  
+Description: The system must allow users to document demographic data including identity details (first name and surname) and insurance information (name and number) to ensure accurate patient identification and billing processes. Validation should include automated checks for data completeness and format correctness.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 1.  
+Related Title: Telemedicine Patient Registration Systems, Chronic Disease Management Apps  
+
+**Functional Requirement 2**  
+Role: User  
+Requirement ID: FR-02  
+Title: Health Record Management  
+Description: The system must enable users to manage comprehensive health records including vital signs (blood pressure, heart rate), kidney documentation (blood sugar), fitness data (weight, exercise, sleep, nutrition), skin conditions, medical history (disease, family history, allergies, medications, vaccinations, surgeries, smoking), present history (symptoms, X-rays, tests, treatments, prescriptions), inpatient treatment history, and medication details (name, dose, type, instructions, side effects). Validation should involve cross-verification with clinical standards and periodic user confirmation to ensure data accuracy for AI-driven decision support tools.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 1.  
+Related Title: Electronic Health Record (EHR) Integration Systems, AI-Driven Clinical Decision Support Apps  
+
+**Functional Requirement 3**  
+Role: User  
+Requirement ID: FR-03  
+Title: General Features of User Interface (UI)  
+Description: The system must provide UI features including reminders (appointments, preventive care), display options (patient health status, consultant identity and profile, communication type such as phone, text, video call), appointment scheduling (date, time, duration, waiting time), service selection (consultation day, time, insurance type), reporting (weekly/monthly treatment and vital sign reports), support (communication tagging, FAQs, discussion forums), and help/tutorials (text guides, in-app training, terms of use). Validation should include user acceptance testing (UAT) to ensure intuitiveness and functionality for diverse user groups.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 1.  
+Related Title: Patient Engagement Platforms, Virtual Consultation Scheduling Systems  
+
+**Non-Functional Requirement 1**  
+Role: System  
+Requirement ID: NFR-01  
+Title: Usability  
+Description: The system must ensure usability by supporting features such as personal profile creation, microphone and camera settings, measurement unit selection (e.g., centimeters, meters), video call capabilities with multiple participants, conversation starter selection, and logout functionality. Validation should involve usability testing with diverse user groups to achieve a minimum user satisfaction score (e.g., 80% positive feedback) and ensure intuitive interaction for AI-enhanced interfaces.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: User-Centric Telehealth Interfaces, AI-Powered Virtual Care Platforms  
+
+**Non-Functional Requirement 2**  
+Role: System  
+Requirement ID: NFR-02  
+Title: Accessibility  
+Description: The system must ensure accessibility by allowing users to save and mark appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant performance; select text from default lists; and share individual lessons and health record information with doctors. Validation should include accessibility testing per WCAG 2.1 standards to ensure compliance for users with disabilities, with a confidence level of at least 95% in accessibility audit results.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: Inclusive Telemedicine Solutions, Accessible Health Data Sharing Systems  
+
+**Non-Functional Requirement 3**  
+Role: System  
+Requirement ID: NFR-03  
+Title: Compatibility  
+Description: The system must ensure compatibility by supporting insurance data recording (name and number) across different platforms and formats. Validation should include cross-platform testing to ensure seamless operation on iOS, Android, and web interfaces, with a target compatibility success rate of 98% across tested environments.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: Cross-Platform Telehealth Apps, Insurance Integration Systems  
+
+**Non-Functional Requirement 4**  
+Role: System  
+Requirement ID: NFR-04  
+Title: Efficiency  
+Description: The system must ensure efficiency by supporting financial transaction reporting with minimal latency. Validation should include performance testing to ensure transaction processing times are under 2 seconds under peak load conditions, with a confidence interval of 95% for system uptime and response reliability.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: High-Performance Telemedicine Billing Systems, Real-Time Transaction Processing Apps  
+
+**Non-Functional Requirement 5**  
+Role: System  
+Requirement ID: NFR-05  
+Title: Security  
+Description: The system must ensure security through multiple login methods (text password, email, activation code, anonymous access), user identity verification via mobile verification codes, options to delete consultation records and transactions, and encrypted patient data exchange. Validation should include penetration testing and security audits to ensure compliance with HIPAA and GDPR standards, with a confidence level of 99% in preventing unauthorized access for AI-driven data processing modules.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Volume 2024, Article ID 7800321, Table 2.  
+Related Title: Secure Telehealth Data Systems, AI-Enhanced Encrypted Health Communication Platforms  
+
+This set of requirements comprehensively covers the functional and non-functional aspects of VCMA as outlined in the article, with specific attention to validation methodologies and reliability constraints for AI components where applicable. Each requirement is directly tied to the source text and contextualized with relevant high-reliability application domains.

@@ -1,0 +1,79 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Batch Data  
+Description: This requirement refers to the capability to process data which is finite and usually large in volume, e.g., data archived in distributed file systems or databases. Both Facebook and Twitter estimate that the finite data they hold on disk reaches hundreds of petabytes, with a daily processing volume of tens of petabytes. Netflix’s big data is one order of magnitude smaller, with tens of petabytes in store and daily reads of approximately 3 petabytes.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.1]  
+Related Title: Large-Scale Data Archiving Systems, Batch Processing in ML Training Pipelines  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Stream Data  
+Description: This requirement refers to the capability to process data which is potentially infinite and usually flowing at high velocity, e.g., monitoring data captured and processed in real-time, or close to real-time. Stream processing at Facebook is done by a suite of in-house developed applications: Puma, Swift and Stylus. At Twitter, Storm was replaced by Heron for better performance. Netflix uses Mantis for stream processing.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.2]  
+Related Title: Real-Time Monitoring Systems, Streaming Data in ML Inference Pipelines  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Late and Out of Order Data  
+Description: This requirement relates to stream processing and refers to the capability to process data which arrives late or in a different order from that in which it was emitted, such as streaming data from mobile users that could be delayed due to loss of reception. All three streaming architectures utilise the concept of windows of data to transform infinite streaming data into finite windows that can be processed individually. Facebook’s Stylus utilises low watermarks, Twitter's Heron allows specification of maximum lag time, and Netflix's Mantis strategy is not detailed in public documentation.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.3]  
+Related Title: Streaming Data Handling Systems, Out-of-Order Event Processing in ML Streaming Applications  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Processing Guarantees  
+Description: This requirement refers to a stream system’s capability to offer processing guarantees, i.e., exactly once, at least once, and at most once. While exactly once processing is ideal, it comes at a cost which could translate into increased latency. Facebook's Stylus provides at least once semantics via checkpointing. Twitter's Heron offers effectively once semantics. Netflix uses Kafka for inherent support of exactly once processing through idempotency and atomic transactions.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.4]  
+Related Title: Stream Processing Guarantee Systems, Reliability Constraints in ML Prediction Delivery  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Integration and Extensibility  
+Description: This requirement refers to the capability to integrate with existing services and components, as well as provisions made to facilitate the extension of the existing architecture to incorporate different components in the future. Facebook integrates via Scribe as a messaging system. Twitter's Heron adopts a modular architecture for decoupling and extension. Netflix's architecture is rigid with Mesos and Titus but designed for efficient resource allocation.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.5]  
+Related Title: Modular Integration Frameworks, Extensible ML Data Pipeline Architectures  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Distribution and Scalability  
+Description: This requirement refers to the capability to distribute data processing amongst different machines, located in different data centres, in a multi-clustered architecture, including dynamic scaling to add or remove nodes without downtime. Facebook scales via Scribe's buckets for parallelism. Twitter's Heron uses Dhalion for dynamic scaling. Netflix's cloud-based architecture uses Fenzo for elastic scaling of EC2 nodes.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.6]  
+Related Title: Distributed Computing Clusters, Scalable Large-Scale ML Analysis Pipelines  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Cloud Support and Elasticity  
+Description: This requirement refers to the capability to move the architecture (or part of it) into the cloud to take advantage of economies of scale, particularly elasticity to scale up and down according to demand. Netflix's architecture is predominantly cloud-based on AWS with a shift to containers. Twitter uses containers with Heron for potential multi-cloud migration. Facebook's implementation does not emphasize cloud elasticity in the examined material.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.7]  
+Related Title: Cloud-Based Elastic Systems, Elastic ML Model Training Environments  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-08  
+Title: Fault Tolerance  
+Description: This requirement refers to the capability of a system to continue to operate should one or more nodes fail, ideally recovering gracefully with minimal repercussions on the user experience. Facebook implements via node independence and Scribe checkpointing. Twitter addresses at architectural, container, JVM, and topology levels. Netflix uses multi-region AWS deployments for isolation and redundancy.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.8]  
+Related Title: Resilient Distributed Systems, Fault-Tolerant ML Prediction Reliability  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-09  
+Title: Flow Control  
+Description: This requirement refers to the capability to handle scenarios where the data source is emitting records faster than the system can consume, using strategies like dropping records, sampling, or applying backpressure. Facebook uses Scribe for resilience to backpressure via node independence. Twitter's Heron tightens upstream components during backpressure. Netflix uses ReactiveX libraries like RxJava for strategies such as buffering or sampling.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.9]  
+Related Title: Backpressure Management Systems, Flow Control in High-Velocity ML Data Streams  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-10  
+Title: Flexibility and Technology Agnosticism  
+Description: This criterion refers to the capability of an architecture to use different technology in place of existing components. Facebook's setup is the least flexible, with in-house systems for specific use-cases. Twitter's Heron is modular and flexible for adoption. Netflix participates in Reactive Streams for interoperability and uses containers to reduce coupling with AWS.  
+Citation: Vergilio, T and Ramachandran, M (2019) Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840. [Section 3.10]  
+Related Title: Modular Architecture Frameworks, Technology-Agnostic ML Component Integration

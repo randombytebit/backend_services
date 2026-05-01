@@ -1,0 +1,41 @@
+Requirement ID: FR-01  
+Requirement Title: Personal Data and Health Record Management  
+Requirement Description: The system must enable users to manage personal profile information (edit, add, remove, share data) and personal health records (consult recommendations, edit, add, remove, share, import, export, backup data), supporting patient self-management and data ownership compliant with local regulations.  
+Requirement Citation: Table 2 (1.1.2, 1.2, 1.2.2), Section 3.7.6.1, Page 5  
+Requirement Related Title: Mobile Personal Health Records (mPHRs), Chronic Disease Self-Management Apps, Vaccination and Medication Trackers  
+
+Requirement ID: FR-02  
+Requirement Title: Social Interaction and Rewards System  
+Requirement Description: The system must promote user interaction through integration with social networks or online healthcare forums and foster social solidarity via a rewards mechanism to encourage community engagement and healthy behaviors.  
+Requirement Citation: Table 3 (1.1, 1.2), Section 3.7.6.2, Page 6  
+Requirement Related Title: Peer Support Health Communities, Blood/Organ Donation Reward Apps, Online Chronic Illness Forums  
+
+Requirement ID: FR-03  
+Requirement Title: Healthcare Location and Data Interchange  
+Requirement Description: The system must allow users to locate nearby healthcare centers and facilitate data exchange (sending and receiving) with electronic health records (EHRs), personal health records (PHRs), or third-party systems to minimize physical travel.  
+Requirement Citation: Table 4 (1.1.1, 1.1.2), Section 3.7.6.3, Page 6  
+Requirement Related Title: Clinic and Donor Center Locators, Interoperable Telehealth Platforms, Remote Data-Sharing Health Hubs  
+
+Requirement ID: NFR-01  
+Requirement Title: Authentication and Privacy Protection  
+Requirement Description: The app must provide configurable authentication (user-enabled via settings, supporting login or social network accounts) to ensure user security, privacy, and control over personal information per regional legislation.  
+Requirement Citation: Table 2 (1.1, 1.1.1), Section 3.7.6.1, Page 5  
+Requirement Related Title: Secure mHealth Authentication Systems, Privacy-Compliant Wellness Trackers, HIPAA/GDPR Health Portals  
+
+Requirement ID: NFR-02  
+Requirement Title: Multilingual and Cultural Adaptation  
+Requirement Description: The app must support cultural diversity and internationalization by adapting content, help, terminology, media, text alignment, formats, units, and advertisements to user language preferences, with clear language selection and multi-point switching.  
+Requirement Citation: Table 3 (1.3-1.3.9), Section 3.7.6.2, Page 6  
+Requirement Related Title: Global Multi-Language Telemedicine Apps, Internationalized Blood Donation Systems, Culturally Adaptive eHealth Platforms  
+
+Requirement ID: NFR-03  
+Requirement Title: Usability Aids and IT Integrations  
+Requirement Description: For environmental sustainability and frequent use, the app must employ intuitive visuals (pictures, icons, graphs), backup to cloud/repositories, integrate with social networks, device features (Bluetooth/NFC), and maps to enhance convenience and reduce resource waste.  
+Requirement Citation: Table 4 (1.2, 1.3), Section 3.7.6.3, Page 6  
+Requirement Related Title: Visual Health Data Dashboards, Cloud-Connected Wearables, Location-Enabled Eco-Telecare Apps  
+
+Requirement ID: NFR-04  
+Requirement Title: Energy Efficiency and Technical Longevity  
+Requirement Description: The app must ensure technical sustainability through OS adaptability (following guidelines, platform compatibility), energy efficiency (idle shutdown, multi-profile support), and offline capabilities (access, edit, save without internet).  
+Requirement Citation: Table 5 (1.1-1.3), Section 3.7.6.4, Page 6  
+Requirement Related Title: Battery-Optimized Rural Health Apps, Cross-Platform Long-Life mHealth, Offline Energy-Aware Monitors

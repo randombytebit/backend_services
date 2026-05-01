@@ -1,0 +1,22 @@
+**Let's think step by step.**
+1. **Analyze Testability Context:** The text describes systematic validation of the AI component in SofiHub, which learns user routines and detects anomalies. This involves specific methodologies like cross-checking sensor data with ground-truth from user checklists and interviews to verify AI accuracy. This is a quality constraint for testing, thus a Non-Functional Requirement (NFR). It aligns with the gold standard by focusing on validation techniques independent of AI self-improvement.
+2. **Analyze Reliability Context:** The text identifies runtime AI operations, such as learning behaviors, detecting anomalies, and issuing notifications. Reliability is implied through the need to ensure trustworthy predictions at runtime (e.g., anomaly detection), but explicit confidence estimation is not stated. We ground this in the gold standard by emphasizing runtime estimation for individual predictions, constraining it to not just overall system levels but per-prediction trustworthiness.
+3. **Identify Roles:** Both requirements assign the 'System' as the responsible component for validation and runtime estimation, consistent with the example.
+4. **Draft Descriptions:** Descriptions must precisely reflect the text. For testability, explicitly mention "ground-truth cross-checking with checklists." For reliability, highlight "individual AI predictions at runtime" via anomaly detection and notifications.
+5. **Map Related Titles:** For testability, relevant domains include "IoT-Based Smart Home Systems." For reliability, "Adaptive AI in Elderly Care" where runtime confidence in predictions is critical for high-reliability deployments.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Testability  
+Description: System should support systematic validation of its AI outputs through techniques such as ground-truth cross-checking with user checklists and interviews, independently of using AI to improve the testing process itself.  
+Citation: Section 4.3.1, The Journal of Systems & Software 147 (2019) 215–229  
+Related Title: IoT-Based Smart Home Systems, Passive Monitoring AI Deployments  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Reliability  
+Description: System should estimate the confidence and trustworthiness of individual AI predictions at runtime, not only at the overall system level, by detecting anomalies and issuing notifications based on learned user behaviors.  
+Citation: Section 4.1, The Journal of Systems & Software 147 (2019) 215–229  
+Related Title: Adaptive AI Systems, Elderly Care Anomaly Detection Applications

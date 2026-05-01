@@ -1,0 +1,22 @@
+Architectural Reasoning:
+- Component Identification: The source text describes the SofiHub smart home system as a core functional capability involving sensing, interaction, passive monitoring, and emergency assistance to support independent living for elderly users (e.g., reminders, anomaly detection, learning routines). This is explicitly outlined in the abstract and sections like 4.1 (SofiHub features) and 4.2 (emotion-oriented requirements).
+- Constraint Identification: The text also identifies non-functional constraints such as non-intrusiveness (using motion sensors to avoid privacy concerns and 'feeling old'), privacy security, and integration into daily life, which are quality indicators for the system's usability and acceptance, as discussed in sections 1, 2.2, and 4.2, including the goal model (Fig. 5).
+- Functional Logic (FR-01): The primary role is the 'System' performing passive monitoring and assistance tasks to enable independent living, directly cited in the abstract and section 4.1, where it mentions sensing, reminders, anomaly detection, and automation.
+- Quality Logic (NFR-01): The 'System' must satisfy constraints like non-intrusiveness and privacy to ensure emotional goals (e.g., feeling independent, safe) are met, with metrics implied through user trials and evaluations in sections 4.3 and 5.
+- Domain Mapping: For the functional monitoring and assistance task, elderly care homes and assisted living facilities are primary use cases. For the non-intrusive privacy constraint, wearable-free health monitoring systems and ambient IoT platforms provide parallel domains.
+
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Passive Monitoring and Emergency Assistance
+Description: System should provide sensing, interaction, passive monitoring, and emergency assistance to support independent living for elderly users, including issuing reminders (e.g., hydration, medication), identifying anomalies (e.g., falls or unusual behavior), learning user routines, and automating environments (e.g., heating, cooling).
+Citation: Abstract and Section 4.1
+Related Title: Elderly Independent Living Support System
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Non-Intrusiveness and Privacy Security
+Description: System should ensure non-intrusive operation using ambient motion sensors to avoid privacy violations and feelings of being monitored, while securing data to maintain user comfort, independence, and control, evaluated through user emotional reactions and trials.
+Citation: Section 1 and Section 4.2
+Related Title: Ambient IoT Privacy-Preserving Monitoring System

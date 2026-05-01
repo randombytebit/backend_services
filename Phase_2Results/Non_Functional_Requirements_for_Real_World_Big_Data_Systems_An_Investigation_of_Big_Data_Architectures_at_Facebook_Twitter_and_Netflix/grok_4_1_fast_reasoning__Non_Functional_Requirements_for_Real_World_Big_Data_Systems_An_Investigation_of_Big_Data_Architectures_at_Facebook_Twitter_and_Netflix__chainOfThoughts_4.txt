@@ -1,0 +1,23 @@
+**Let's think step by step.**
+1. **Analyze Source for Relevant Contexts:** The paper identifies 10 NFRs for big data systems (e.g., Sections 3.1-3.10). No mentions of AI/ML components, testing methodologies (e.g., metamorphic testing), or confidence-estimation for predictions. However, two NFRs align with "runtime reliability": Processing Guarantees (3.4: runtime processing semantics like exactly-once for reliable data handling) and Fault Tolerance (3.8: runtime operation despite node failures, graceful recovery). These ensure systematic runtime reliability in distributed data processing systems, applicable to high-reliability ML pipelines (e.g., data ingestion for training/inference).
+2. **Classify Requirements:** Both are Non-Functional Requirements (NFRs) focused on runtime reliability constraints, grounded in company architectures (Facebook, Twitter, Netflix).
+3. **Identify Roles:** "System" (big data architectures/systems) is responsible.
+4. **Draft Descriptions:** Precisely from text: Processing Guarantees specifies semantics (exactly once, etc.); Fault Tolerance specifies continued operation/recovery.
+5. **Map Related Titles:** Contextualize for high-reliability ML: Processing Guarantees for "Stream Data Pipelines in ML Systems"; Fault Tolerance for "Distributed ML Training Clusters."
+6. **Verify Grounding:** Requirements are directly from paper sections; no extras; no validation/testing fit, so only these two.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Processing Guarantees  
+Description: System should offer processing guarantees (i.e., exactly once, at least once, and at most once) in stream processing, balancing reliability with latency costs like checkpointing.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840.[cite:1]  
+Related Title: Stream Processing Systems, Reliable ML Data Pipelines[cite:1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Fault Tolerance  
+Description: System should continue to operate if one or more nodes fail, recovering gracefully with minimal impact on user experience, e.g., via node independence, checkpointing, and redundancy.  
+Citation: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, pp. 833-840.[cite:1]  
+Related Title: Distributed Big Data Architectures, High-Availability ML Inference Systems[cite:1]

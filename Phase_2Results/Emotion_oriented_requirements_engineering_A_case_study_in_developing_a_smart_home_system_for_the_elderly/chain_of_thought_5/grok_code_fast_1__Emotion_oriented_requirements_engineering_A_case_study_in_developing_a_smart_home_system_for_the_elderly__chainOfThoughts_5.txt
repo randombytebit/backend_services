@@ -1,0 +1,95 @@
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Sensing User Activities
+Description: System comprises devices and software for sensing user activities, such as motion and contact sensors to monitor routines and behaviors.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Ambient Intelligence Environments
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Title: Issuing Reminders
+Description: System issues user-specific reminders such as appointments, special events, hydration, and medication reminders that can be triggered by user activity.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Health Monitoring Wearables
+
+Functional Requirement
+Role: System
+Requirement ID: FR-03
+Title: Detecting Anomalies
+Description: System identifies potential security risks and anomalous situations, such as detecting if a back door is left open or irregular bathroom visits.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Intrusion Detection Systems
+
+Functional Requirement
+Role: System
+Requirement ID: FR-04
+Title: Issuing Alerts
+Description: System issues alerts when anomalous behavior is detected, such as spending abnormal time in bed, and escalates incidents to service providers or carers.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Emergency Response Platforms
+
+Functional Requirement
+Role: System
+Requirement ID: FR-05
+Title: Automating Environment
+Description: System automates the physical environment, such as heating, cooling, and opening/closing blinds, to support user comfort and routines.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Home Automation Networks
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Feeling Safe
+Description: System should make elderly users feel safe by detecting anomalies and providing reassurance that help is available in emergencies.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Elderly Safety Monitoring Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Feeling Independent
+Description: System should ensure elderly users feel independent by supporting their ability to live as they please without constant monitoring or control.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Assistive Living Technologies
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Feeling In Control
+Description: System should allow elderly users to feel in control over their lives and the technology, minimizing perceptions of being controlled or monitored.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: User-Centric IoT Devices
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-04
+Title: Feeling Integrated
+Description: System should be well integrated into the daily lives of elderly users, ensuring it feels like a natural part of their home environment.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Seamless Home Assistants
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-05
+Title: Privacy Secured
+Description: System should ensure users feel that their privacy is secured, with data collected locally and no unauthorized access to sensitive information.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Secure Data Handling Platforms
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-06
+Title: Reducing Loneliness
+Description: System should alleviate feelings of loneliness by providing interactive elements like morning messages that make users feel cared for and accompanied.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Social Isolation Mitigation Tools
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-07
+Title: Feeling Cared About
+Description: System should make elderly users feel cared about by simulating companionship through timely interactions and support for daily routines.
+Citation: Kissoon Curumsing, M., Fernando, N., Abdelrazek, M., Vasa, R., Mouzakis, K., Grundy, J. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147, 215–229.
+Related Title: Companion Robot Systems

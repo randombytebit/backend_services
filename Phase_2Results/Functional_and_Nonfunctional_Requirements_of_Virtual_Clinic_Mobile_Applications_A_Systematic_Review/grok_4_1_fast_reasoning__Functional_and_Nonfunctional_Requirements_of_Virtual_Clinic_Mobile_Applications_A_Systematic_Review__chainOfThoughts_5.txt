@@ -1,0 +1,63 @@
+Functional Requirement  
+Role: VCMA System  
+Requirement ID: FR-01  
+Title: Demographic Data Documentation  
+Description: Identity: first name and surname. Insurance: insurance name and number.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Article ID 7800321, Table 1.[cite: Table 1]  
+Related Title: Patient Onboarding in Virtual Healthcare Apps[cite: Table 1]  
+
+Functional Requirement  
+Role: VCMA System  
+Requirement ID: FR-02  
+Title: Health Record Management  
+Description: Vital sign documentation: Blood pressure, Heart rate. Kidney documentation: Blood sugar. Fitness documentation: Weight, Exercise, Sleep, Nutrition. Skin documentation: Condition of skin. History documentation: Disease history, Family history, Allergy, Medications history, Vaccination, Surgeries, Smoking. Present history documentation: Symptoms and conditions, X-ray, Tests, Treatments, Prescriptions, Patient training. Documentation of inpatient treatment history: Date of admission and discharge, Hospital name, Chief complaint, Summary. Medication documentation: Name, Dose, Type, Instruction, Side effects.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Article ID 7800321, Table 1.[cite: Table 1]  
+Related Title: Electronic Health Records in Telemedicine Platforms[cite: Table 1]  
+
+Functional Requirement  
+Role: VCMA System  
+Requirement ID: FR-03  
+Title: General Features of User Interface (UI)  
+Description: Reminders: Appointment, Preventive care. Display: Patient’s self-declaration about his health status, Consultant identity: name and surname and profile picture, Curriculum vitae: expertise and consulting field, Type of communication: phone call, text, video call, and real-time, Appointment: consultation date, time, duration, and waiting time for response. Service selection: Choosing consultation day, time, and type of insurance. Reporting: Providing weekly/monthly reports on the patient’s treatment process, Providing weekly/monthly reports of vital signs and medical history. Support: Documentation of communication ways: tagging capability in VCMA and frequently asked questions, Q and A ability: discussion forum with others (patients and consultants). Help/tutorial: Text guide: help, Training inside VCMA: working with it, About us, Terms and conditions of use.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Article ID 7800321, Table 1.[cite: Table 1]  
+Related Title: User Interface Controls in Remote Patient Monitoring Apps[cite: Table 1]  
+
+Non-Functional Requirement  
+Role: VCMA System  
+Requirement ID: NFR-01  
+Title: Usability  
+Description: Setting: Creating a personal profile for the user (consultant-patient), Microphone, Camera, Measurement units selection: selection of measurement units like centimeters and meters for height, Video call with other participants: making a video call with other connected individuals, Selecting conversation starter, Log out.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Article ID 7800321, Table 2.[cite: Table 2]  
+Related Title: Intuitive Settings in mHealth Consultation Interfaces[cite: Table 2]  
+
+Non-Functional Requirement  
+Role: VCMA System  
+Requirement ID: NFR-02  
+Title: Accessibility  
+Description: Service: Save and mark: appointments, reminders, notes, recorded voices, photos, and messages; send feedback on consultant’s performance and select text from a default list. Ability to share: individual lessons, health record information with doctors, and patient-consultant data exchange.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Article ID 7800321, Table 2.[cite: Table 2]  
+Related Title: Data Persistence and Sharing in Virtual Care Systems[cite: Table 2]  
+
+Non-Functional Requirement  
+Role: VCMA System  
+Requirement ID: NFR-03  
+Title: Compatibility  
+Description: Service format: Insurance: recording name and number.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Article ID 7800321, Table 2.[cite: Table 2]  
+Related Title: Insurance Integration in Cross-Platform Telehealth Apps[cite: Table 2]  
+
+Non-Functional Requirement  
+Role: VCMA System  
+Requirement ID: NFR-04  
+Title: Efficiency  
+Description: Service: Financial transaction reporting.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Article ID 7800321, Table 2.[cite: Table 2]  
+Related Title: Performance Reporting in Billing Modules of Health Apps[cite: Table 2]  
+
+Non-Functional Requirement  
+Role: VCMA System  
+Requirement ID: NFR-05  
+Title: Security  
+Description: Login method: text password, email, activation code, and anonymously. Verify the user’s identity by sending a verification code to the mobile phone. Possibility of deleting consultation records, documents, and bank transactions. Encrypted patient data exchange.  
+Citation: Parsaei, Z., et al. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. International Journal of Telemedicine and Applications, Article ID 7800321, Table 2.[cite: Table 2]  
+Related Title: Privacy Controls in Secure Telemedicine Environments[cite: Table 2]

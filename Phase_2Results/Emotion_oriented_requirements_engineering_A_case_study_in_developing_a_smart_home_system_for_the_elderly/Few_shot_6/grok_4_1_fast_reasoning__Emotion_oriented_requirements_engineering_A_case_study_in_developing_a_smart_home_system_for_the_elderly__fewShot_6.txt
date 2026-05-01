@@ -1,0 +1,15 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Testability  
+Description: System should support systematic validation of its AI outputs through techniques such as using daily checklists as ground-truth to verify the results of SofiHub’s AI component and to validate the sensor data, with cross-checking during the weekly face-to-face interviews.  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229. [Page 8]  
+Related Title: Smart Home AI Anomaly Detection and Behavior Learning Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Accuracy Testing  
+Description: System should test the accuracy of sensors and the AI component of SofiHub using sensor data (motion, opening and closing of specific doors, air temperature and humidity).  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229. [Page 7-8]  
+Related Title: Elderly Care IoT Sensor and ML Validation Platforms

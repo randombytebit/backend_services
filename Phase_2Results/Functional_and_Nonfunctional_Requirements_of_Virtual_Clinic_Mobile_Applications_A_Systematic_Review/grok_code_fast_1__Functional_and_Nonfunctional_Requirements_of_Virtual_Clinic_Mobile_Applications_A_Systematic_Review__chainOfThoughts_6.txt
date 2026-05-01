@@ -1,0 +1,47 @@
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Demographic Data Documentation
+Description: System should enable documentation of user's identity including first name and surname, and insurance details such as name and number.
+Citation: Parsaei et al. (2024), Table 1, Page 4
+Related Title: Patient Registration Systems in Telemedicine
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Transparency in Demographic Data Handling
+Description: System should provide understandable explanations for how demographic data is collected, stored, and used to build user trust and ensure compliance with privacy standards.
+Citation: Derived for XAI pairing, Parsaei et al. (2024), Table 1, Page 4
+Related Title: Secure Patient Onboarding Platforms
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Title: Health Record Management
+Description: System should facilitate documentation and management of health records including vital signs (e.g., blood pressure, heart rate), kidney documentation (e.g., blood sugar), fitness documentation (e.g., weight, exercise, sleep, nutrition), skin documentation (e.g., condition), history documentation (e.g., disease history, family history, allergy, medications, vaccination, surgeries, smoking), present history documentation (e.g., symptoms, conditions, X-ray, tests, treatments, prescriptions, patient training), inpatient treatment history (e.g., admission/discharge dates, hospital name, chief complaint, summary), and medication documentation (e.g., name, dose, type, instructions, side effects).
+Citation: Parsaei et al. (2024), Table 1, Page 4
+Related Title: Electronic Health Record Systems in Virtual Care
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Transparency in Health Record Management
+Description: System should provide understandable explanations for how health records are processed, updated, and accessed to ensure user trust, verification of data integrity, and compliance with medical standards.
+Citation: Derived for XAI pairing, Parsaei et al. (2024), Table 1, Page 4
+Related Title: Explainable AI in Medical Record Keeping
+
+Functional Requirement
+Role: System
+Requirement ID: FR-03
+Title: User Interface General Features
+Description: System should support general UI features including reminders (e.g., appointments, preventive care), display (e.g., patient's self-declaration of health status, consultant identity with name, surname, profile picture, curriculum vitae, expertise, consulting field, type of communication such as phone call, text, video call, real-time, appointment details like date, time, duration, waiting time), service selection (e.g., choosing consultation day, time, type of insurance), reporting (e.g., weekly/monthly reports on treatment process, vital signs, medical history), support (e.g., documentation of communication ways, tagging capability, frequently asked questions, Q&A ability with discussion forums), and help/tutorial (e.g., text guide, training inside app, about us, terms and conditions).
+Citation: Parsaei et al. (2024), Table 1, Page 4-5
+Related Title: Intuitive User Interfaces in Mobile Health Apps
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Transparency in User Interface Interactions
+Description: System should provide understandable explanations for how UI features function, data is displayed, and user inputs are handled to support trust, usability, and verification of interactions in virtual clinic settings.
+Citation: Derived for XAI pairing, Parsaei et al. (2024), Table 1, Page 4-5
+Related Title: Transparent UI Design in Telemedicine Platforms

@@ -1,0 +1,70 @@
+### Architectural Reasoning
+- **Component Identification**: The source text, a systematic review article, explicitly categorizes VCMA requirements into functional (enabling core clinical services like data documentation and UI interactions) and nonfunctional (constraining design aspects like usability and security) themes, detailed in Section 3.3 and Tables 1-2. Functional requirements focus on user-facing behaviors for patient care, while nonfunctional ensure quality attributes for reliable operation.
+- **Constraint Identification**: Functional requirements map directly to app behaviors (e.g., documenting health data), with nonfunctional providing quality gates (e.g., secure data exchange to protect functional health records). All derive from analyzed studies, ensuring evidence-based extraction.
+- **Functional Logic**: The 'System' (VCMA app) performs these as core capabilities, with roles involving user interactions (e.g., patients documenting vitals) but executed by the system. Subthemes like demographic data and UI features are logically consistent as they support virtual care workflows.
+- **Quality Logic**: Nonfunctional subthemes (e.g., security) constrain functionals (e.g., encrypting health record exchanges), ensuring the system meets healthcare standards without compromising usability or efficiency.
+- **Domain Mapping**: Functional requirements apply to telemedicine platforms for remote monitoring (e.g., chronic disease management apps). Nonfunctional map to mHealth constraints in regulated environments (e.g., HIPAA-compliant telehealth systems). Each requirement's Related Title provides domain-specific examples, avoiding extras by tying directly to subtheme contexts like patient self-management or secure virtual consultations.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Demographic Data Documentation  
+Description: The system must capture and store basic user identification details, including first name, surname, insurance name, and insurance number, to enable personalized virtual care and billing integration.  
+Citation: Table 1, Section 3.3 (Parsaei et al., 2024)  
+Related Title: Patient Registration Module in Telemedicine Apps, Insurance Verification System in e-Health Platforms  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Health Record Management  
+Description: The system must maintain comprehensive health records, including vital signs (blood pressure, heart rate), kidney-related metrics (blood sugar), fitness data (weight, exercise, sleep, nutrition), skin condition, medical history (disease, family, allergy, medications, vaccination, surgeries, smoking), present symptoms (conditions, X-rays, tests, treatments, prescriptions, patient training), inpatient history (admission/discharge dates, hospital name, chief complaint, summary), and medication details (name, dose, type, instructions, side effects), to support remote monitoring and clinical decision-making.  
+Citation: Table 1, Section 3.3 (Parsaei et al., 2024)  
+Related Title: Electronic Health Record System in Virtual Clinics, Chronic Disease Tracking App for Diabetes Management  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: General User Interface Features  
+Description: The system must provide UI elements for reminders (appointments, preventive care), displays (patient health self-declarations, consultant profiles with name, surname, picture, expertise, communication types like phone/text/video/real-time, and appointment details including date, time, duration, waiting response), service selection (consultation day/time and insurance type), reporting (weekly/monthly treatment process and vital signs/medical history reports), support (communication tagging, FAQs, discussion forums for patients/consultants), and help/tutorials (text guides, in-app training, about us, terms of use), to facilitate intuitive virtual interactions.  
+Citation: Table 1, Section 3.3 (Parsaei et al., 2024)  
+Related Title: Appointment Scheduling Interface in mHealth Apps, Patient Portal Dashboard for Remote Consultations  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Usability  
+Description: The system must support user-friendly settings, including personal profile creation for consultants and patients, microphone and camera access, measurement unit selection (e.g., cm/m for height), video calls with connected participants, conversation starters, and secure log-out, to ensure ease of use in virtual care scenarios.  
+Citation: Table 2, Section 3.3 (Parsaei et al., 2024)  
+Related Title: User Onboarding Interface in Telehealth Software, Profile Management in Mobile Wellness Apps  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Accessibility  
+Description: The system must enable saving/marking of data (appointments, reminders, notes, recorded voices/photos/messages), feedback submission on consultant performance, text selection from defaults, and sharing capabilities (individual lessons, health records with doctors, patient-consultant data exchange), to promote inclusive access for diverse users.  
+Citation: Table 2, Section 3.3 (Parsaei et al., 2024)  
+Related Title: Data Sharing Features in Remote Patient Monitoring Systems, Feedback Mechanisms in Virtual Therapy Platforms  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Compatibility  
+Description: The system must handle service formats compatible with external systems, such as recording insurance name and number, to ensure seamless integration with healthcare ecosystems.  
+Citation: Table 2, Section 3.3 (Parsaei et al., 2024)  
+Related Title: Insurance Integration Module in e-Clinics, Cross-Platform Compatibility in Health Information Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Efficiency  
+Description: The system must provide efficient service handling, including financial transaction reporting, to minimize resource use and support timely virtual care delivery.  
+Citation: Table 2, Section 3.3 (Parsaei et al., 2024)  
+Related Title: Billing and Reporting Engine in Telemedicine Billing Systems, Performance Optimization in mHealth Transaction Apps  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Security  
+Description: The system must implement secure authentication (text password, email, activation code, anonymous options), user identity verification via mobile code, deletion of records/documents/bank transactions, and encrypted data exchange for patient information, to protect sensitive health data in virtual environments.  
+Citation: Table 2, Section 3.3 (Parsaei et al., 2024)  
+Related Title: Authentication Layer in Secure Telehealth Platforms, Data Encryption System in HIPAA-Compliant Virtual Care Apps

@@ -1,0 +1,98 @@
+**Requirements Extraction for Virtual Clinic Mobile Applications (VCMA)**
+
+Below, I will extract and structure functional and non-functional requirements for Virtual Clinic Mobile Applications (VCMA) based on the provided systematic review article by Zahra Parsaei et al. (2024). I will follow the specified formatting rules and apply a step-by-step reasoning process to ensure clarity, precision, and alignment with the gold standard example. Each requirement will have a unique identifier, role assignment, detailed description, citation, and related title to contextualize its application domain.
+
+**Step-by-Step Reasoning (Chain of Thought - CoT):**
+
+1. **Identify Functional Requirements (FRs):** Functional requirements define specific behaviors or tasks the VCMA must perform to support clinical services for users (patients and clinicians). From the article, these are categorized into demographic data documentation, health record management, and user interface (UI) features. I will extract key functionalities from Table 1 and relevant text sections, ensuring each requirement is actionable and specific.
+2. **Identify Non-Functional Requirements (NFRs):** Non-functional requirements define quality attributes or constraints on how the system operates, such as usability, security, and efficiency. From Table 2 and the discussion section, I will extract constraints that ensure the system’s design and implementation meet user expectations and XAI (explainable AI) principles where applicable.
+3. **Assign Roles:** Determine whether the requirement pertains to the "System" (VCMA itself) or the "User" (patient/clinician interacting with the system). Most requirements will be system-driven as they describe what the application must do.
+4. **Pair with Transparency/Explainability Constraints:** For each functional requirement, I will ensure a related non-functional requirement or constraint addresses transparency or explainability, supporting trust and verification in high-stakes healthcare contexts.
+5. **Draft Unique IDs and Titles:** Assign unique IDs (e.g., FR-01, NFR-01) and concise titles that reflect the core purpose of each requirement.
+6. **Generate Contextual Related Titles:** Provide domain-specific examples or application areas for each requirement to illustrate where it is most relevant, ensuring no overlap or extra requirements.
+7. **Cite Source Text:** Reference the specific sections or tables from the article (Parsaei et al., 2024) where the requirement is derived.
+
+**Extracted Requirements:**
+
+**Functional Requirement 1**  
+- **Role:** System  
+- **Requirement ID:** FR-01  
+- **Title:** Demographic Data Documentation  
+- **Description:** The system must allow the documentation of patient demographic data, including identity details (first name, surname) and insurance information (name and number), to ensure accurate user identification and billing processes.  
+- **Citation:** Parsaei, Z., Jangi, M., Tahmasebian, S., & Ehteshami, A. (2024). Functional and Nonfunctional Requirements of Virtual Clinic Mobile Applications: A Systematic Review. *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 1.  
+- **Related Title:** Patient Registration Systems for Telemedicine Platforms  
+
+**Non-Functional Requirement 1 (Paired with FR-01)**  
+- **Role:** System  
+- **Requirement ID:** NFR-01  
+- **Title:** Security of Demographic Data  
+- **Description:** The system must ensure encrypted storage and transmission of demographic data, with secure login methods (e.g., text password, email, activation code) and user identity verification via mobile codes, to protect patient privacy and build trust in data handling.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 2.  
+- **Related Title:** Secure Patient Identity Management in Virtual Healthcare Systems  
+
+**Functional Requirement 2**  
+- **Role:** System  
+- **Requirement ID:** FR-02  
+- **Title:** Health Record Management  
+- **Description:** The system must enable comprehensive health record management, including documentation of vital signs (e.g., blood pressure, heart rate), medical history (e.g., disease history, allergies, medications), and current health data (e.g., symptoms, test results, prescriptions), to support clinical decision-making and patient monitoring.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 1.  
+- **Related Title:** Remote Patient Monitoring Systems for Chronic Disease Management  
+
+**Non-Functional Requirement 2 (Paired with FR-02)**  
+- **Role:** System  
+- **Requirement ID:** NFR-02  
+- **Title:** Transparency in Health Record Access  
+- **Description:** The system must provide clear, understandable logs or explanations of who accessed or modified health records and for what purpose, ensuring patients and clinicians can verify data integrity and trust the system’s handling of sensitive information.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Discussion Section (p. 5).  
+- **Related Title:** Explainable Health Data Systems for Diabetes Care, Mental Health Monitoring Systems  
+
+**Functional Requirement 3**  
+- **Role:** System  
+- **Requirement ID:** FR-03  
+- **Title:** User Interface for Communication and Scheduling  
+- **Description:** The system must provide a user interface with features for communication (e.g., phone call, text, video call options), appointment scheduling (e.g., consultation date, time, duration), and reminders (e.g., for appointments and preventive care), to facilitate seamless interaction between patients and clinicians.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 1.  
+- **Related Title:** Virtual Consultation Platforms for Outpatient Care  
+
+**Non-Functional Requirement 3 (Paired with FR-03)**  
+- **Role:** System  
+- **Requirement ID:** NFR-03  
+- **Title:** Usability of Communication Interface  
+- **Description:** The system must ensure the user interface is intuitive and accessible, with features like customizable settings (e.g., measurement units, camera/microphone controls) and clear navigation for scheduling and communication, to enhance user experience and reduce interaction errors.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 2.  
+- **Related Title:** User-Friendly Telehealth Interfaces for Elderly Care Systems  
+
+**Functional Requirement 4**  
+- **Role:** System  
+- **Requirement ID:** FR-04  
+- **Title:** Reporting and Feedback Mechanism  
+- **Description:** The system must generate periodic reports (weekly/monthly) on patient treatment progress and vital signs, and allow users to provide feedback on consultant performance, to support continuous care improvement and informed decision-making.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 1.  
+- **Related Title:** Patient Progress Tracking Systems for Virtual Follow-Ups  
+
+**Non-Functional Requirement 4 (Paired with FR-04)**  
+- **Role:** System  
+- **Requirement ID:** NFR-04  
+- **Title:** Efficiency in Reporting  
+- **Description:** The system must ensure efficient generation and delivery of reports, minimizing latency and resource usage, while providing transparent details on how data is aggregated for reports to ensure user trust in the accuracy of feedback and progress tracking.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 2.  
+- **Related Title:** High-Efficiency Reporting Tools for Telemedicine Analytics  
+
+**Functional Requirement 5**  
+- **Role:** System  
+- **Requirement ID:** FR-05  
+- **Title:** Support and Training Features  
+- **Description:** The system must include support features such as help tutorials, text guides, Q&A forums, and documentation of terms and conditions, to assist users in navigating and utilizing the VCMA effectively.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 1.  
+- **Related Title:** User Support Systems for Telehealth Adoption  
+
+**Non-Functional Requirement 5 (Paired with FR-05)**  
+- **Role:** System  
+- **Requirement ID:** NFR-05  
+- **Title:** Accessibility of Support Features  
+- **Description:** The system must ensure support and training materials are accessible to users with diverse backgrounds, offering multilingual options and compatibility with assistive technologies, while providing clear explanations of how to use features to build user confidence and trust.  
+- **Citation:** Parsaei, Z., et al. (2024). *International Journal of Telemedicine and Applications*, Volume 2024, Article ID 7800321, Table 2.  
+- **Related Title:** Inclusive Telehealth Training Modules for Diverse Populations  
+
+**Conclusion of Reasoning:**  
+By following the step-by-step process, I have extracted five functional requirements paired with corresponding non-functional requirements, ensuring each addresses a specific aspect of VCMA functionality or quality. Transparency and explainability constraints are integrated into non-functional requirements to support trust and verification, critical for XAI testing in healthcare applications. Unique IDs and related titles are assigned to avoid overlap, and citations are provided to trace back to the source text. This structured output aligns with the gold standard example and meets the needs of the Singularity AI Platform for automated requirement conversion.

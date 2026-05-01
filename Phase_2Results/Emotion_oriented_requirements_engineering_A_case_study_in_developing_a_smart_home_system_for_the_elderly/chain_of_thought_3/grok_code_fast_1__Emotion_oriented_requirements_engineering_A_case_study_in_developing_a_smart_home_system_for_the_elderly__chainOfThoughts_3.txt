@@ -1,0 +1,87 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Privacy Protection  
+Description: The system must ensure that all data captured by sensors is stored locally within the hub and accessible only to authorized personnel, such as those approved by the ethics committee, to prevent unauthorized access or data breaches.  
+Citation: Page 4: "all the data captured by the sensors were kept within the hub and nobody, except for those authorised by the ethics committee, had access to these data."  
+Related Title: IoT Device Data Localization in Healthcare Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Non-Intrusive Monitoring  
+Description: The system must use ambient, non-intrusive motion sensors for monitoring to avoid violating user privacy or causing feelings of invasiveness, ensuring that elderly users do not feel monitored or stigmatized.  
+Citation: Page 2: "The technology was designed as an ambient system using non-intrusive motion sensors to alleviate elder people’s concerns regarding their privacy, and also ‘feeling old’ when they have to put wearables on."  
+Related Title: Ambient Assisted Living Environments  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Anomaly Detection for Safety  
+Description: The system must detect anomalies such as falls or irregular activities and escalate incidents to appropriate responders, ensuring user safety without compromising privacy through excessive data sharing.  
+Citation: Page 3: "Safe: Knowing that someone or the system can detect an anomaly (for example in case they had a fall) made the older person feel safe." and Page 4: "identify anomalous situations and to automate the physical environment (heating, cooling)."  
+Related Title: Emergency Response Systems in Smart Homes  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Secure Data Handling  
+Description: The system must protect personal data collected from sensors against hacking or unauthorized intrusion, ensuring users feel their information is secure and not at risk of exposure.  
+Citation: Page 5: "Privacy secured: Users are relieved about the privacy of their information. Data collected through the sensors are well secured and no intruders can hack those sensitive information."  
+Related Title: Data Security in Wearable Health Devices  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Controlled Access to User Data  
+Description: The system must restrict access to user activity data to only authorized carers or relatives, minimizing the risk of privacy violations while providing reassurance to stakeholders.  
+Citation: Page 4: "A carer UI which enables family and carers to check on user activity and receive customizable reports summarizing user behaviour." and Page 5: "Privacy secured: Users are relieved about the privacy of their information."  
+Related Title: Family-Centric Monitoring Platforms in Aged Care  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Integrity of Sensor Data  
+Description: The system must ensure the integrity and accuracy of sensor data used for anomaly detection, preventing tampering or false positives that could lead to security risks or privacy breaches.  
+Citation: Page 7: "Sensor data was collected from the motion and contact sensors installed in the homes. These recorded motion, opening and closing of specific doors, air temperature and humidity." and Page 8: "The main uses of sensor data were to test the accuracy of sensors and the AI component of SofiHub."  
+Related Title: AI-Driven Anomaly Detection in Home Automation Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Emergency Alert Reliability  
+Description: The system must reliably generate alerts for emergencies without delays or failures, ensuring timely response while protecting against potential security threats like denial of service on alerts.  
+Citation: Page 8: "Users raised concerns about the system being disrupted and the delay in playing the messages. In some cases, the users were worried that they might have ‘upset’ or ‘confused’ the system." and Page 4: "emergency assistance."  
+Related Title: Real-Time Alert Systems in Elderly Care Devices  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-08  
+Title: Resistance to Power Disruptions  
+Description: The system must maintain operational integrity during power failures or accidental disconnections, preventing loss of monitoring capabilities that could compromise user safety and privacy.  
+Citation: Page 11: "Given that the technology was plugged in to a power socket and relied on electricity, a couple of incidents linked to power failure or accidental dislodgement of the power supply were noted during the trials."  
+Related Title: Battery Backup in Critical IoT Infrastructures  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-09  
+Title: User Consent and Control Over Data  
+Description: The system must allow users to have control over their data and interactions, ensuring that monitoring does not lead to feelings of loss of control or privacy invasion.  
+Citation: Page 5: "In control: The elderly adults wanted to have full control over their life." and Page 10: "For measuring feeling confident, level 1 of the Likert scale was “I feel scared about using SofiHub” and level 5 was “I feel confident about using SofiHub”."  
+Related Title: User-Centric Privacy Controls in Smart Home Ecosystems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-10  
+Title: Protection Against Social Engineering  
+Description: The system must minimize risks of social engineering attacks by ensuring that interactions and data sharing do not inadvertently reveal sensitive information to unauthorized parties.  
+Citation: Page 5: "Privacy secured: Users are relieved about the privacy of their information. Data collected through the sensors are well secured and no intruders can hack those sensitive information." and Page 2: "Users have emotional needs, such as to be independent, to feel cared about and feel secure."  
+Related Title: Trust-Building Mechanisms in Socio-Technical Systems  
+
+Threat-Model Reasoning:  
+**Let's think step by step.**  
+1. **Analyze Security Context:** The paper discusses smart home systems for elderly users, emphasizing non-intrusive monitoring, data localization, anomaly detection for safety, and protection against hacking or unauthorized access. Threats include data breaches, unauthorized access, power disruptions leading to loss of safety features, delays in emergency alerts, and potential social engineering via interactions. These align with security constraints like integrity, availability, and confidentiality.  
+2. **Analyze Privacy Context:** Privacy is a core emotional goal, with requirements to keep data local, use non-intrusive sensors, control access, and ensure users feel secure and in control. Threats involve privacy violations through monitoring, data exposure, or loss of control, which could lead to emotional distress or real-world risks.  
+3. **Identify Roles:** The 'System' is responsible for enforcing these constraints, as it handles data storage, monitoring, and alerts. Users (elderly and carers) are the beneficiaries, with the system protecting their privacy and security.  
+4. **Draft Descriptions:** Descriptions are derived directly from the paper's text, focusing on security and privacy aspects without adding external assumptions. For example, NFR-01 draws from the data localization statement, ensuring word-for-word accuracy where possible.  
+5. **Map Related Titles:** Each requirement has a unique, contextually relevant title based on secure system deployment domains, such as IoT, healthcare, or smart homes, ensuring applicability to similar systems without overlap. No extra requirements were added beyond those directly supported by the text.

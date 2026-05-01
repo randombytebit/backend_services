@@ -1,0 +1,96 @@
+**Extraction of Non-Functional Requirements for Big Data Systems**
+
+Below, I have extracted and formatted the non-functional requirements (NFRs) for real-world big data systems as identified in the provided document by Vergilio and Ramachandran (2019). I have followed the specified formatting rules and applied a step-by-step reasoning process to ensure alignment with the gold standard and relevance to high-reliability systems, including AI and ML components where applicable. Each requirement is tied to systematic validation and runtime reliability considerations, with specific testing methodologies and confidence constraints where relevant.
+
+**Validation Reasoning (Chain of Thought):**
+1. **Identify Non-Functional Requirements (NFRs):** The paper explicitly lists ten NFRs for big data systems based on architectures at Facebook, Twitter, and Netflix. These are quality attributes critical to system design and operation, fitting the NFR category.
+2. **Role Assignment:** The role is consistently assigned to the "System" as the paper discusses architectural capabilities and constraints at a system level, not user-specific actions.
+3. **Description Precision:** Descriptions are directly extracted or paraphrased from the paper to maintain fidelity to the source text, ensuring detailed explanations of system constraints or capabilities.
+4. **Testing Methodologies and Confidence Constraints:** Where applicable, I have emphasized systematic validation (e.g., fault tolerance testing, scalability testing) and runtime reliability (e.g., processing guarantees, flow control mechanisms) to align with QA objectives for AI/ML systems.
+5. **Related Titles:** I have generated contextual domains or examples for each requirement, focusing on high-reliability ML systems or big data applications, ensuring relevance to deployment scenarios.
+6. **Citation Consistency:** All requirements are cited to Vergilio and Ramachandran (2019) as per the provided document, with specific section references where available.
+
+**Extracted Requirements:**
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** Batch Data Processing  
+**Description:** The system must have the capability to process finite, large-volume data, such as data archived in distributed file systems or databases, handling petabytes of data daily as seen in real-world implementations. Systematic validation should include stress testing for volume handling and data integrity checks to ensure completeness and accuracy of processed batches.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.1.  
+**Related Title:** High-Volume Data Analytics Platforms, ML Model Training Data Pipelines  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-02  
+**Title:** Stream Data Processing  
+**Description:** The system must support processing of potentially infinite data flowing at high velocity, such as real-time or near real-time monitoring data. Validation methodologies should include latency testing and throughput analysis to ensure the system meets real-time processing demands under varying loads.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.2.  
+**Related Title:** Real-Time ML Inference Systems, IoT Data Streaming Applications  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-03  
+**Title:** Late and Out-of-Order Data Handling  
+**Description:** The system must be capable of processing streaming data that arrives late or out of order, using mechanisms like data windows or low watermarks. Validation should involve scenario testing with simulated delays and disordered data to ensure correct handling and minimal data loss, with confidence metrics for data completeness.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.3.  
+**Related Title:** Mobile Data Streaming Systems, ML Event Prediction Models  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-04  
+**Title:** Processing Guarantees  
+**Description:** The system must offer processing guarantees such as exactly-once, at-least-once, or at-most-once semantics for stream data, balancing latency and correctness. Validation should include reliability testing to measure adherence to specified guarantees under failure conditions, with confidence intervals for delivery accuracy.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.4.  
+**Related Title:** Financial Transaction Processing Systems, ML Data Pipeline Integrity  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-05  
+**Title:** Integration and Extensibility  
+**Description:** The system must integrate with existing services and components and provide provisions for future extensions to incorporate different components. Validation should include interoperability testing to ensure seamless integration and modularity assessments for extensibility.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.5.  
+**Related Title:** Modular AI Frameworks, Cross-Platform Big Data Ecosystems  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-06  
+**Title:** Distribution and Scalability  
+**Description:** The system must distribute data processing across multiple machines and data centers in a multi-clustered architecture, supporting dynamic scaling without downtime. Validation methodologies should include scalability testing under increasing loads and distribution testing for data consistency across nodes.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.6.  
+**Related Title:** Distributed ML Training Clusters, Scalable AI Inference Systems  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-07  
+**Title:** Cloud Support and Elasticity  
+**Description:** The system must support migration to cloud environments to leverage economies of scale and elasticity, allowing scaling up or down based on demand. Validation should include elasticity testing to measure response to demand spikes and cost-efficiency analysis for cloud resource usage.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.7.  
+**Related Title:** Cloud-Based AI Services, Elastic Big Data Analytics Platforms  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-08  
+**Title:** Fault Tolerance  
+**Description:** The system must continue operating despite node failures, recovering gracefully with minimal impact on user experience. Validation should include fault injection testing to simulate failures and measure recovery time, with confidence metrics for system uptime and data loss prevention.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.8.  
+**Related Title:** High-Reliability ML Systems, Fault-Tolerant Data Processing Pipelines  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-09  
+**Title:** Flow Control  
+**Description:** The system must handle scenarios where data sources emit records faster than the system can consume, implementing strategies like backpressure or data sampling. Validation should include stress testing for backpressure scenarios and runtime monitoring for data flow stability, with confidence thresholds for data drop rates.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.9.  
+**Related Title:** Real-Time Data Ingestion Systems, ML Stream Processing Frameworks  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-10  
+**Title:** Flexibility and Technology Agnosticism  
+**Description:** The system must support the use of different technologies in place of existing components, ensuring flexibility in architecture design. Validation should include compatibility testing with various technologies and frameworks to ensure agnosticism and adaptability.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Section 3.10.  
+**Related Title:** Cross-Technology AI Platforms, Vendor-Neutral Big Data Solutions  
+
+**Final Notes:**  
+This extraction covers all ten NFRs identified in the paper, ensuring each requirement is detailed with specific validation methodologies and confidence constraints relevant to QA for AI and big data systems. The related titles are tailored to reflect deployment contexts in high-reliability ML systems, aligning with the objective of systematic validation and runtime reliability. If further refinement or additional requirements are needed, I can revisit specific sections or expand on testing methodologies.

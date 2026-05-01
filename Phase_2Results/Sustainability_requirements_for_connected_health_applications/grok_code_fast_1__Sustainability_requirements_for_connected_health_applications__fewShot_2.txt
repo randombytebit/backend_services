@@ -1,0 +1,19 @@
+Requirement ID: NFR-01  
+Requirement Title: Individual Impact Sustainability  
+Requirement Description: The app shall have a positive individual impact by respecting user security and privacy through authentication procedures (allowing users to choose authentication options or use login via social networks), enabling management of personal information (editing, removing, adding, and sharing personal data), and promoting personal health and well-being (providing access to health recommendations and managing personal health records, including editing, removing, adding, sharing, importing, exporting, and backing up data).  
+Requirement Related Title: Personal Health Record (PHR) Apps, Mobile Health Monitoring Systems, Patient Empowerment Platforms, Secure Telemedicine Applications  
+
+Requirement ID: NFR-02  
+Requirement Title: Social Impact Sustainability  
+Requirement Description: The app shall have a positive social impact by promoting interaction among users via social networks and online healthcare forums, fostering social solidarity through rewards systems, and supporting cultural diversity and multilingual use (adapting content to user language preferences, supporting multiple languages with clear indications, allowing language switching, adapting video/audio clips, online help, and human anatomy terminology to languages, using appropriate text alignment, formats, units, and currencies, and controlling advertisements to avoid cultural discrepancies).  
+Requirement Related Title: Community Health Forums, Multilingual Telehealth Platforms, Social Network-Integrated Wellness Apps, Global Patient Support Systems  
+
+Requirement ID: NFR-03  
+Requirement Title: Environmental Impact Sustainability  
+Requirement Description: The app shall have a positive environmental impact by reducing transportation needs (enabling users to find nearby healthcare centers and interchange data with EHRs, PHRs, or third parties for sending and receiving information), being convenient for frequent use (using pictures, icons, and graphs to explain content and illustrate health data history), and connecting to other IT resources (backing up data in repositories or clouds, integrating with social networks, utilizing Bluetooth/NFC technologies, and connecting to map repositories for location display).  
+Requirement Related Title: Eco-Friendly Health Tracking Apps, Location-Based Care Access Platforms, Data Interchange Health Systems, Sustainable mHealth Ecosystems  
+
+Requirement ID: NFR-04  
+Requirement Title: Technical Impact Sustainability  
+Requirement Description: The app shall have a positive technical impact by easily adapting to future operating system changes (respecting mobile OS development guidelines and adapting to platforms), being energy-efficient (shutting down in idle mode and supporting different profiles on the same device), and providing offline access (allowing users to access, edit, and save data without internet connectivity).  
+Requirement Related Title: Long-Lasting Mobile Health Apps, Energy-Conscious Wearable Devices, Offline-Capable Telemedicine Tools, Adaptable Health Software Platforms

@@ -791,7 +791,7 @@ async function modelEvaluation() {
         );
 
         // All 18 prompts: indices 0–17
-        const PROMPT_INDICES = Array.from({ length: 18 }, (_, i) => i);
+        const PROMPT_INDICES = Array.from({ length: 12 }, (_, i) => i + 6);
 
         function getPromptLabel(index) {
             if (index < 6)  return `zeroShot_${index + 1}`;

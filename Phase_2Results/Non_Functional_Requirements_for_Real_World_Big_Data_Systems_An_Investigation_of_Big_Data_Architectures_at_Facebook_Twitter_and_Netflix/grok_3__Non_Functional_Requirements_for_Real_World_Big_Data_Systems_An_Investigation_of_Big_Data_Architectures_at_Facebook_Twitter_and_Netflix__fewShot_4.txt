@@ -1,0 +1,79 @@
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** Batch Data Processing  
+**Description:** The system must have the capability to process finite, large-volume data, such as data archived in distributed file systems or databases. This includes handling hundreds of petabytes of stored data and processing tens of petabytes daily, as exemplified by architectures at Facebook, Twitter, and Netflix.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.1]  
+**Related Title:** Social Media Data Archiving System, E-Commerce Transaction Storage System, Financial Data Warehousing System  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-02  
+**Title:** Stream Data Processing  
+**Description:** The system must be capable of processing potentially infinite data flowing at high velocity, such as real-time or near real-time monitoring data. This includes the use of specialized frameworks like Puma, Swift, Stylus (Facebook), Storm/Heron (Twitter), and Mantis (Netflix) to handle streaming data.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.2]  
+**Related Title:** Real-Time Traffic Monitoring System, IoT Device Data Streaming Platform, Live Event Analytics System  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-03  
+**Title:** Late and Out-of-Order Data Handling  
+**Description:** The system must be designed to process streaming data that arrives late or out of order, utilizing mechanisms such as data windows and low watermarks (e.g., Facebook’s Stylus) or specific API methods like withLag() in Twitter’s Heron to manage such data.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.3]  
+**Related Title:** Mobile Network Data Recovery System, Sensor Data Synchronization Platform, Real-Time Messaging System  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-04  
+**Title:** Processing Guarantees  
+**Description:** The system must offer processing guarantees such as exactly-once, at-least-once, or at-most-once semantics for stream processing, balancing latency costs with data completeness requirements, as implemented by Facebook (Scuba, Stylus), Twitter (Heron), and Netflix (Kafka).  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.4]  
+**Related Title:** Financial Transaction Processing System, Online Payment Gateway, Event-Driven Notification System  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-05  
+**Title:** Integration and Extensibility  
+**Description:** The system must support integration with existing services and components, as well as provide provisions for future extensions, exemplified by Facebook’s Scribe messaging system, Twitter’s modular Heron architecture, and Netflix’s constrained but designed integration with Mesos.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.5]  
+**Related Title:** Enterprise Data Integration Platform, Modular Cloud Service Architecture, API-Driven Ecosystem  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-06  
+**Title:** Distribution and Scalability  
+**Description:** The system must distribute data processing across multiple machines and data centers in a multi-clustered architecture, supporting dynamic scaling without downtime, as seen in Facebook’s Scribe, Twitter’s Heron with Dhalion, and Netflix’s cloud-based Fenzo scaling.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.6]  
+**Related Title:** Distributed Cloud Computing Framework, Global Content Delivery Network, Scalable E-Commerce Platform  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-07  
+**Title:** Cloud Support and Elasticity  
+**Description:** The system must support migration to cloud environments to leverage economies of scale and elasticity, allowing scaling based on demand, as primarily implemented by Netflix’s AWS-based architecture and Twitter’s containerized approach with potential multi-cloud setups.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.7]  
+**Related Title:** Cloud-Native Streaming Service, Elastic Big Data Analytics Platform, Multi-Cloud Disaster Recovery System  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-08  
+**Title:** Fault Tolerance  
+**Description:** The system must continue operating despite node failures, recovering gracefully with minimal impact on user experience, achieved through node independence and checkpointing at Facebook, modular architecture at Twitter, and multi-region redundancy at Netflix.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.8]  
+**Related Title:** High-Availability Banking System, Resilient Telecommunications Network, Fault-Tolerant Cloud Storage Solution  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-09  
+**Title:** Flow Control  
+**Description:** The system must handle scenarios where data sources emit records faster than they can be consumed, implementing backpressure strategies such as node reallocation (Facebook), spout throttling (Twitter’s Heron), and reactive programming techniques (Netflix’s RxJava).  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.9]  
+**Related Title:** Real-Time Data Ingestion Pipeline, Overload-Protected Streaming Platform, High-Throughput Messaging System  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-10  
+**Title:** Flexibility and Technology Agnosticism  
+**Description:** The system must support the use of different technologies in place of existing components, promoting flexibility and avoiding vendor lock-in, as demonstrated by Twitter’s Heron on Kubernetes, Netflix’s container abstraction, and contrasted by Facebook’s in-house specificity.  
+**Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [Section 3.10]  
+**Related Title:** Cross-Platform Data Processing Framework, Technology-Agnostic Cloud Orchestration System, Interoperable Big Data Ecosystem

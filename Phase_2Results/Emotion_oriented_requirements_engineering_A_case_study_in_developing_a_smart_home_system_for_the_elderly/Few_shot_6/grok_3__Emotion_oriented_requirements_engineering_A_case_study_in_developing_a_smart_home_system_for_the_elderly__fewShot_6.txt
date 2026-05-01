@@ -1,0 +1,39 @@
+Below are the extracted requirements related to the systematic validation and risk assessment of Machine Learning models from the provided text. The focus is on requirements specifying how a system's accuracy is measured, how risks are calculated, and how outputs are tested for correctness. Each requirement is formatted according to the specified rules and is consistent with the gold standard.
+
+---
+
+**Functional Requirement**  
+**Role:** System  
+**Requirement ID:** FR-01  
+**Title:** Sensor Data Accuracy Testing  
+**Description:** The main uses of sensor data were to test the accuracy of sensors and the AI component of SofiHub. The data was locally stored in the SofiHub, while the researchers were able to retrieve data dumps at selected periods to carry out the testing.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 221.  
+**Related Title:** Smart Home IoT Sensor Validation Systems  
+
+**Functional Requirement**  
+**Role:** System  
+**Requirement ID:** FR-02  
+**Title:** Ground-Truth Validation via Daily Checklists  
+**Description:** Daily checklists were used to record information about particular activities in participants’ daily schedule. These included information about going to bed in the night, waking up, visitors, doors that were kept open, going out of the home and returning home. The participants were requested to fill the checklists on a daily basis. These checklists were then cross checked against the data recorded by the sensors during the weekly face-to-face interviews. The main objective of this was to establish ground-truth to verify the results of SofiHub’s AI component and to validate the sensor data.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 221.  
+**Related Title:** AI Behavior Validation in Assisted Living Systems  
+
+**Functional Requirement**  
+**Role:** System  
+**Requirement ID:** FR-03  
+**Title:** Anomaly Detection and Risk Identification  
+**Description:** The goal of this system is to provide reminders (hydration, medication), identify potential security risks (back door has been left open), identify anomalous situations and to automate the physical environment (heating, cooling).  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 220.  
+**Related Title:** Risk Detection in Elderly Monitoring Systems  
+
+**Non-Functional Requirement**  
+**Role:** System  
+**Requirement ID:** NFR-01  
+**Title:** Data Validity Checking through Interviews  
+**Description:** A weekly interview was also conducted to cross check the data collected from the sensors against the data inserted in the checklist. The main aim of this interview was to check the validity of the data picked by the sensors.  
+**Citation:** Curumsing, M. K., et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software, 147, 221.  
+**Related Title:** Data Integrity Validation in Smart Environments  
+
+---
+
+These requirements focus on the systematic validation and risk assessment aspects of the SofiHub system as described in the provided text. Each requirement is directly quoted from the source to ensure word-for-word consistency with the gold standard, and unique related titles are provided to contextualize their applicability in relevant domains.

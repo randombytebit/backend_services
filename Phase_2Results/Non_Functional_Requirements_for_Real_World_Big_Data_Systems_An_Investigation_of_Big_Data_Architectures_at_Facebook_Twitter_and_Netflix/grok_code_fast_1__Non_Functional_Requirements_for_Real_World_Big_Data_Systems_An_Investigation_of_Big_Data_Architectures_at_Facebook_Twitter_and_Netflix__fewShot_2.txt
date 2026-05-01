@@ -1,0 +1,49 @@
+Requirement ID: NFR-01  
+Requirement Title: Batch Data Processing  
+Requirement Description: The system must be capable of processing finite and large volumes of data, such as data archived in distributed file systems or databases, with storage capacities reaching hundreds of petabytes and daily processing volumes in the tens of petabytes. This includes managing stored data through systems like Operational Data Store (ODS), Scuba, Hive, and Laser for Facebook; Scalding and Presto for Twitter; and Genie for managing query jobs in Hadoop, Hive, or Pig, with data persisted in Amazon S3 for Netflix.  
+Requirement Related Title: Social Media Analytics Platforms, E-commerce Data Warehouses, Financial Transaction Processing Systems, Genomic Data Repositories, Internet of Things (IoT) Data Lakes  
+
+Requirement ID: NFR-02  
+Requirement Title: Stream Data Processing  
+Requirement Description: The system must support processing of potentially infinite, high-velocity data streams in real-time or near real-time, such as monitoring data. This involves using suites like Puma, Swift, and Stylus for Facebook; Storm or Heron with Mesos and Aurora for Twitter; and Mantis with Mesos and Fenzo for Netflix to handle stream processing frameworks and cluster management.  
+Requirement Related Title: Real-Time Social Media Feeds, Live Video Streaming Services, Financial Market Data Systems, Sensor Networks for Smart Cities, Online Gaming Platforms  
+
+Requirement ID: NFR-03  
+Requirement Title: Handling Late and Out-of-Order Data  
+Requirement Description: The system must process streaming data that arrives late or out of sequence, such as delayed mobile user data due to connectivity issues, by employing mechanisms like windows of data and low watermarks in Stylus for Facebook; the withLag() method in Heron's BaseWindowedBolt for Twitter; and unspecified strategies in Mantis for Netflix, ensuring transformation of infinite streams into finite processable windows.  
+Requirement Related Title: Mobile Application Data Pipelines, Global Supply Chain Tracking Systems, Autonomous Vehicle Telemetry, Remote Health Monitoring Devices, Distributed Log Aggregation Services  
+
+Requirement ID: NFR-04  
+Requirement Title: Processing Guarantees  
+Requirement Description: The system must provide processing guarantees such as exactly once, at least once, or at most once semantics for stream processing, balancing correctness with latency. This includes at most once for Scuba and at least once for Stylus at Facebook; at least once and at most once in Storm, with effectively once in Heron at Twitter; and exactly once through Kafka's idempotency and atomic transactions at Netflix.  
+Requirement Related Title: Fraud Detection Systems in Banking, Event-Driven Microservices Architectures, Real-Time Bidding Platforms, Distributed Database Replication, IoT Device State Management  
+
+Requirement ID: NFR-05  
+Requirement Title: Integration and Extensibility  
+Requirement Description: The system must integrate with existing services and components, facilitating extension to incorporate new components. This is achieved through Scribe as a messaging system for pipelines at Facebook; modular architecture in Heron for decoupling and adaptability at Twitter; and rigid but efficient single-framework design with Mesos and Titus at Netflix, with potential for future open-sourcing.  
+Requirement Related Title: Enterprise Service Bus (ESB) Integrations, API Gateway Systems, Plugin-Based Software Frameworks, Cloud-Native Application Ecosystems, Modular Data Pipeline Tools  
+
+Requirement ID: NFR-06  
+Requirement Title: Distribution and Scalability  
+Requirement Description: The system must distribute data processing across multiple machines in different data centers within a multi-clustered architecture, supporting dynamic scaling by adding or removing nodes without downtime. This includes scaling Scribe by increasing brokers at Facebook; using Dhalion for scaling decisions in Heron at Twitter; and dynamic resource scaling via Fenzo in Mesos at Netflix.  
+Requirement Related Title: Global Content Delivery Networks (CDNs), High-Performance Computing Clusters, Scalable Web Services, Distributed File Systems, Multi-Region Cloud Deployments  
+
+Requirement ID: NFR-07  
+Requirement Title: Cloud Support and Elasticity  
+Requirement Description: The system must support migration to cloud environments for economies of scale, enabling elasticity to scale resources up or down based on demand, minimizing wastage. Netflix's architecture is predominantly cloud-based on AWS with a shift to containers; Twitter uses containerized Heron for potential multi-cloud migration; Facebook's setup is less cloud-oriented but benefits from scalable messaging.  
+Requirement Related Title: Serverless Computing Platforms, Elastic Web Hosting Services, Auto-Scaling Database Systems, Container Orchestration Environments, Hybrid Cloud Infrastructures  
+
+Requirement ID: NFR-08  
+Requirement Title: Fault Tolerance  
+Requirement Description: The system must continue operating despite node failures, recovering gracefully with minimal impact on user experience. This involves node independence and checkpointing via Scribe and Swift at Facebook; modular distributed architecture, container-level monitoring, JVM isolation, and decentralized topology management in Heron at Twitter; and Active-Active deployments across multiple AWS regions for redundancy at Netflix.  
+Requirement Related Title: High-Availability Web Applications, Disaster Recovery Systems, Resilient Microservices, Fault-Tolerant Distributed Databases, Critical Infrastructure Monitoring  
+
+Requirement ID: NFR-09  
+Requirement Title: Flow Control  
+Requirement Description: The system must handle scenarios where data sources emit records faster than consumption, using backpressure strategies like dropping records, sampling, or source backpressure. Facebook achieves this through Scribe's persistence and node independence; Heron tightens upstream components during backpressure; Netflix uses ReactiveX libraries like RxJava for buffering, sampling, debouncing, or windowing in Mantis.  
+Requirement Related Title: Real-Time Analytics Dashboards, Streaming Media Platforms, Network Traffic Management Systems, Event Stream Processing Engines, Load Balancing Proxies  
+
+Requirement ID: NFR-10  
+Requirement Title: Flexibility and Technology Agnosticism  
+Requirement Description: The system must allow replacement of components with different technologies without tight coupling. Facebook's in-house systems are less agnostic except for open-sourced Scribe; Heron's modular design enables adoption on various infrastructures like Kubernetes; Netflix promotes interoperability via Reactive Streams and container abstractions, with ongoing work to open-source Titus for broader flexibility.  
+Requirement Related Title: Multi-Vendor Cloud Platforms, Open-Source Software Ecosystems, Portable Application Frameworks, Technology-Neutral APIs, Adaptable Data Processing Pipelines

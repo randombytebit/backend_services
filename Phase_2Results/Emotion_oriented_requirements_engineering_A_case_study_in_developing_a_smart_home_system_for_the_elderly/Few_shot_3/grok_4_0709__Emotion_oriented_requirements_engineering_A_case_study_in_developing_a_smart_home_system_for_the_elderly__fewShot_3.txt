@@ -1,0 +1,119 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Fairness in Elderly Monitoring  
+Description: System should not enforce unintended biases towards vulnerable groups such as the elderly, and should define and measure fairness formally (e.g., via statistical parity or individual fairness) in a context-specific manner to ensure equitable monitoring and assistance.  
+Citation: Section 1. Introduction, where software engineers fail to consider emotional needs leading to unhappy end-users, and evidence suggests user emotions determine technology acceptance, particularly for domestic systems targeting elderly.  
+Related Title: Elderly Independent Living Assistance System, Bias Mitigation in Aged-Care AI Applications
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Transparency in System Outputs  
+Description: System should provide understandable explanations for how its results are derived, such as anomaly detection or behavior learning, so that users can trust and verify the ML outputs, enhancing adoption among elderly users.  
+Citation: Section 2.2. Role of emotions within smart home systems, emphasizing that users' emotions play a determining role in technology acceptance, and studies highlight emotional issues like privacy and independence.  
+Related Title: Smart Home Anomaly Detection System, Explainable AI for Elderly Care Platforms
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Privacy Security  
+Description: System should ensure that data collected through sensors are well secured, with no intruders able to hack sensitive information, to make users feel relieved about the privacy of their information.  
+Citation: Section 4.2. SofiHub emotion-oriented requirements engineering, identifying privacy secured as a key emotional goal, and design decisions to keep data within the hub accessible only to authorized personnel.  
+Related Title: Sensor-Based Home Monitoring System, Privacy-Preserving IoT Devices for Vulnerable Populations
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Integration into Daily Life  
+Description: System should be well integrated into the daily lives of older adults, minimizing perceptions of complexity or frustration to ensure it feels like a natural part of their routine.  
+Citation: Section 4.2. SofiHub emotion-oriented requirements engineering, identifying integrated as an emotional goal, and Section 5.2.3. System is integrated in user’s life, where participants reported SofiHub as part of their routine.  
+Related Title: Ambient Assisted Living System, Non-Intrusive Smart Home Integration for Seniors
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: User Comfort  
+Description: System should make users feel at ease with the technology, addressing fears of using technology and building comfort and confidence around its use.  
+Citation: Section 4.2. SofiHub emotion-oriented requirements engineering, identifying comfortable as an emotional goal, and Section 5.2.6. Other views on using SofiHub, where participants felt SofiHub increased their comfort.  
+Related Title: Elderly Technology Adoption Platform, Comfort-Enhancing AI Assistants
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: User Empowerment  
+Description: System should make users feel more confident in controlling their lives by building up their comfort and confidence around technology use, empowering them in independent living.  
+Citation: Section 4.2. SofiHub emotion-oriented requirements engineering, identifying empowered as an emotional goal linked to supporting independent living.  
+Related Title: Independent Living Empowerment Tool, AI-Driven Confidence Building for Aged Users
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Reduction of Loneliness  
+Description: System should alleviate feelings of loneliness by providing interactive elements like messages, making users feel less isolated and as if someone is present in the house.  
+Citation: Section 5.2.1. Reduced loneliness, where analysis showed SofiHub helped alleviate loneliness, and Section 5.3. Implications of findings, adding 'feeling less lonely' to the refined goal model.  
+Related Title: Loneliness Mitigation Smart Home, Social Interaction AI for Isolated Elderly
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-08  
+Title: Feeling Cared About  
+Description: System should make users feel cared about through daily interactions and messages, addressing emotional needs for concern and connection without constant human intervention.  
+Citation: Section 5.2.1. Reduced loneliness, where participants felt cared about, and Section 5.3. Implications of findings, adding 'cared about' to the refined goal model.  
+Related Title: Emotional Care Simulation System, AI Companionship for Elderly Well-Being
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-09  
+Title: Chatty Interaction  
+Description: System should be chatty, providing variations in messages (e.g., morning and night messages) to enhance engagement and reduce feelings of isolation.  
+Citation: Section 5.3. Implications of findings, adding 'chatty' as a quality goal in the refined goal model to support new emotional goals like less lonely and cared about.  
+Related Title: Conversational AI Home Assistant, Interactive Messaging for Elderly Engagement
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Support Independent Living  
+Description: System should support independent living by learning user routines, issuing notifications, and detecting anomalies to enable elderly people to live independently while maintaining quality of life.  
+Citation: Section 4.2. SofiHub emotion-oriented requirements engineering, with goal model showing support independent living as a key functional goal linked to emotional goals like independent and reassured.  
+Related Title: Independent Living Support Platform, AI-Enabled Aged-Care Home System
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Learn User Routine and Behavior  
+Description: System should analyze sensor data using AI/ML algorithms to learn and adapt to user's routine and behavior, such as daily activities and anomalies.  
+Citation: Section 4.1. SofiHub features, describing built-in AI capability to learn and adapt to user behavior, and goal model in Fig. 5 showing learn user’s routine and behaviour as a sub-goal.  
+Related Title: Behavior Learning ML System, Adaptive Routine Analysis for Smart Homes
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Issue Notifications and Reminders  
+Description: System should issue user-specific notifications and reminders, such as for hydration, medication, appointments, and anomalous behavior, triggered by user activity.  
+Citation: Section 4.1. SofiHub features, including reminders for hydration, medication, appointments, and alerts for anomalies, and goal model showing issue notifications as a sub-goal.  
+Related Title: Activity-Triggered Reminder System, Notification Engine for Elderly Assistance
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: Detect Anomalies  
+Description: System should detect anomalous situations, such as falls, abnormal time in bed, or security risks like doors left open, and escalate incidents to carers or service providers.  
+Citation: Section 4.1. SofiHub features, identifying anomalous situations and security risks, and goal model showing detect anomaly as a sub-goal linked to emotional goal safe.  
+Related Title: Anomaly Detection ML Module, Emergency Response System for Smart Homes
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-05  
+Title: Carer User Interface  
+Description: System should provide a carer UI enabling family and carers to check on user activity, receive customizable reports summarizing user behavior, and monitor progress.  
+Citation: Section 4.1. SofiHub features, describing carer UI for checking activity and reports, and Section 4.3. Trial and SofiHub emotion-oriented evaluation, involving nominated carers.  
+Related Title: Remote Monitoring Dashboard, Carer Reporting Interface for Aged-Care Systems
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-06  
+Title: Automate Physical Environment  
+Description: System should automate the physical environment, such as heating and cooling, based on learned user behavior and sensor data.  
+Citation: Section 4.1. SofiHub features, including automation of physical environment like heating and cooling.  
+Related Title: Environmental Control Automation, AI-Driven Home Automation for Comfort

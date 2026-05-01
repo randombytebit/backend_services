@@ -1,0 +1,79 @@
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Support Independent Living  
+Description: System should support independent living for elderly users by providing assistive services such as passive monitoring, reminders for hydration and medication, anomaly detection (e.g., abnormal time in bed), and automation of the physical environment (e.g., heating, cooling) without requiring wearables, using non-intrusive motion and contact sensors to maintain privacy and avoid making users feel old or dependent.  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Elderly Independent Living Assistance Platforms[cite: 4.1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Explainability of Independent Living Support  
+Description: System should provide understandable explanations for how independent living support features (e.g., reminders and anomaly detections) are derived from sensor data and user routines, enabling elderly users and carers to verify decisions and trust the system's non-intrusive assistance without feeling monitored or controlled.[cite: 4.1]  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Privacy-Preserving Home Automation Systems, Aged-Care Monitoring Interfaces[cite: 4.1]  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Learn User Routine and Behavior  
+Description: System should learn and adapt to the elderly user's daily routines and behaviors using AI capabilities on network-connected low-cost sensors to detect patterns such as activity levels, door openings/closings, time spent in bed, and environmental changes (e.g., temperature, humidity).  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: AI-Driven Behavior Learning in Smart Environments[cite: 4.1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Transparency in Routine Learning  
+Description: System should provide clear, verifiable explanations of how user routines and behaviors are learned and adapted from sensor data, allowing users to understand AI inferences and adjust preferences to ensure feelings of control and integration without frustration from unexpected system responses.[cite: 4.1]  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Adaptive IoT Learning Systems for Daily Activities, Personalized Elderly Care Analytics[cite: 4.1]  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Issue Notifications and Reminders  
+Description: System should issue user-specific notifications and reminders (e.g., for appointments, hydration, medication, or security risks like leaving doors open) triggered by learned routines or activity, using voice messages that are non-intrusive and limited to avoid overwhelming users.  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Voice-Activated Reminder Systems for Seniors[cite: 4.1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Explainability of Notification Triggers  
+Description: System should explain the derivation of notifications and reminders (e.g., why a medication reminder was triggered based on routine patterns), enabling users to verify and trust the system's timing and content to foster feelings of being cared for and reduce loneliness without annoyance.[cite: 4.1]  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Contextual Alert Systems in Ambient Assisted Living, Emotional Engagement Notification Tools[cite: 4.1]  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: Detect Anomaly and Escalate Alerts  
+Description: System should detect anomalous situations (e.g., falls, irregular bathroom visits, or prolonged inactivity) using sensors and AI, then escalate alerts to carers or emergency services via a carer UI that provides customizable reports on user activity.  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Anomaly Detection in Elderly Health Monitoring[cite: 4.1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Transparency in Anomaly Detection  
+Description: System should provide understandable explanations for anomaly detections and alert escalations (e.g., sensor data patterns leading to a fall alert), allowing users and carers to verify accuracy and response rationale to enhance feelings of safety and reassurance.[cite: 4.1]  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Explainable AI for Emergency Response in Smart Homes, High-Reliability Alert Verification Systems[cite: 4.1]  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-05  
+Title: Provide Carer User Interface  
+Description: System should offer a carer UI for family members or professionals to monitor user activity, receive notifications, and access summarized behavior reports remotely, supporting reassurance without direct intrusion into the elderly user's home.  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Remote Monitoring Dashboards for Caregivers[cite: 4.1]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Explainability of Carer Reports  
+Description: System should explain how carer UI reports and notifications are generated from aggregated sensor data (e.g., rationale for wellbeing summaries), enabling carers to trust and verify insights while respecting user privacy and emotional goals like independence.[cite: 4.1]  
+Citation: Curumsing et al. (2019). Emotion-oriented requirements engineering: A case study in developing a smart home system for the elderly. The Journal of Systems & Software 147 (2019) 215–229.[cite: 4.1]  
+Related Title: Secure Family Caregiver Portals, Transparent Remote Health Oversight Tools[cite: 4.1]

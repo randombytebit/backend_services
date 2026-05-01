@@ -1,0 +1,117 @@
+### Architectural Reasoning
+
+- **Component Identification**: The source text describes SofiHub as a smart home system comprising devices and software for sensing, interaction, passive monitoring, and emergency assistance. Core functional capabilities include learning user routines, issuing notifications, detecting anomalies, and providing reminders. These are mapped to emotional goals like feeling safe, independent, and reassured, which serve as quality constraints.
+
+- **Constraint Identification**: Emotional goals (e.g., safe, independent, in control, integrated, comfortable, empowered, privacy secured, reassured) are explicitly identified as non-functional requirements in the emotion model (Fig. 4) and goal model (Fig. 5). They constrain functional capabilities to ensure user acceptance, such as making users feel cared about and reducing loneliness, as evaluated in trials.
+
+- **Functional Logic (FRs)**: Functional requirements are derived from the goal model and SofiHub features, where the system performs tasks like monitoring and alerting. Roles are assigned to the 'System' as the primary component executing these capabilities.
+
+- **Quality Logic (NFRs)**: Non-functional requirements are the emotional goals that must be satisfied for the system to meet user needs, measurable via questionnaires and interviews in trials. Roles are 'Elderly User' for personal emotional goals and 'System' for system-dependent ones, ensuring consistency with the socio-technical design.
+
+- **Domain Mapping**: Functional requirements relate to smart home automation for elderly care, similar to systems in airports or hospitals. Non-functional requirements map to domains like mental health apps or assisted living, where emotional constraints are critical for adoption.
+
+Based on the source text, the following requirements are extracted and mapped.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Passive Monitoring and Routine Learning  
+Description: The system must passively monitor user activities using sensors to learn and adapt to the user's daily routines and behaviors, enabling independent living without intrusive wearables.  
+Citation: Page 4, Section 4.1 (SofiHub features: "network connected low-cost sensors... learn and adapt to a users behaviour"); Page 5, Fig. 5 (goal model: "learn user’s routine and behaviour").  
+Related Title: Elderly Assisted Living Facility  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Anomaly Detection and Alerting  
+Description: The system must detect anomalous behaviors or emergencies (e.g., falls, irregular bathroom visits) and issue notifications or alerts to carers or emergency services.  
+Citation: Page 4, Section 4.1 (SofiHub features: "identify anomalous situations and to automate the physical environment"); Page 5, Fig. 5 (goal model: "detect anomaly").  
+Related Title: Hospital Patient Monitoring System  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Reminder Issuance  
+Description: The system must issue personalized reminders for hydration, medication, appointments, and special events, triggered by user activity or schedules.  
+Citation: Page 4, Section 4.1 (SofiHub features: "reminders (hydration, medication)... triggered by user activity"); Page 5, Fig. 5 (goal model: "issue notifications").  
+Related Title: Personal Health Management App  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-01  
+Title: Feeling Safe  
+Description: The system must ensure users feel secure, knowing anomalies can be detected and escalated, measurable via trial questionnaires and interviews.  
+Citation: Page 5, Fig. 5 (goal model: "safe"); Page 10, Section 5.2.2 (trials: "participants confirmed that they felt safe").  
+Related Title: Home Security Alarm System  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-02  
+Title: Feeling Independent  
+Description: The system must support users' sense of independence by enabling self-reliance in daily activities without constant monitoring, evaluated through emotional questionnaires.  
+Citation: Page 5, Fig. 5 (goal model: "independent"); Page 10, Section 5.2.1 (trials: "wanted to maintain their independence").  
+Related Title: Remote Work Productivity Tool  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-03  
+Title: Feeling In Control  
+Description: The system must allow users to feel in control over their environment and technology interactions, limiting messages to avoid overwhelm, as per trial feedback.  
+Citation: Page 5, Fig. 5 (goal model: "in control"); Page 10, Section 5.2.4 (trials: "participants felt that they were in control").  
+Related Title: Smart Device Customization Interface  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-04  
+Title: Feeling Integrated  
+Description: The system must seamlessly integrate into users' daily lives, becoming part of routines without disruption, confirmed in mid and post-trial interviews.  
+Citation: Page 5, Fig. 5 (goal model: "integrated"); Page 11, Section 5.2.3 (trials: "SofiHub was part of their routine").  
+Related Title: Wearable Fitness Tracker  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-05  
+Title: Feeling Comfortable  
+Description: The system must reduce user anxiety and discomfort with technology, using non-intrusive sensors and simple interactions, as measured in questionnaires.  
+Citation: Page 5, Fig. 5 (goal model: "comfortable"); Page 11, Section 5.2.6 (trials: "increased their comfort").  
+Related Title: Beginner-Friendly Software Tutorial  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-06  
+Title: Feeling Empowered  
+Description: The system must empower users by building confidence in technology use, enhancing their ability to manage their lives independently.  
+Citation: Page 5, Fig. 5 (goal model: "empowered"); Page 5, Fig. 5 (goal model).  
+Related Title: Educational Online Learning Platform  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-07  
+Title: Privacy Secured  
+Description: The system must ensure data privacy by keeping sensor data local and secure, minimizing feelings of being monitored, as per trial data.  
+Citation: Page 5, Fig. 5 (goal model: "privacy secured"); Page 11, Section 5.2.5 (trials: "did not feel that their privacy was being violated").  
+Related Title: Encrypted Messaging App  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-08  
+Title: Feeling Reassured  
+Description: The system must reassure carers and relatives about the user's wellbeing through monitoring and notifications.  
+Citation: Page 5, Fig. 5 (goal model: "reassured"); Page 5, Fig. 5 (goal model).  
+Related Title: Family Care Coordination App  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-09  
+Title: Feeling Less Lonely  
+Description: The system must alleviate loneliness by providing interactive messages that simulate companionship, as an emergent goal from trials.  
+Citation: Page 10, Section 5.2.1 (trials: "helped in alleviating the feeling of loneliness"); Page 12, Fig. 7 (refined goal model: "less lonely").  
+Related Title: Social Companion Robot  
+
+Non-Functional Requirement  
+Role: Elderly User  
+Requirement ID: NFR-10  
+Title: Feeling Cared About  
+Description: The system must make users feel cared for through personalized interactions and support, identified in trial reflections.  
+Citation: Page 10, Section 5.2.1 (trials: "made the elderly person feel cared about"); Page 12, Fig. 7 (refined goal model: "cared about").  
+Related Title: Personalized Virtual Assistant

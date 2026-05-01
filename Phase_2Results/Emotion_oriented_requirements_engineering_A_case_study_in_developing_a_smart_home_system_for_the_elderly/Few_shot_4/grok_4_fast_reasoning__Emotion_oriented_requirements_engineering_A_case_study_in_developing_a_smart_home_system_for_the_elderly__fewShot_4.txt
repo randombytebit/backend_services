@@ -1,0 +1,55 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Privacy Security  
+Description: The system must secure all data collected from sensors (e.g., motion, contact, temperature) to prevent unauthorized access or hacking, ensuring users feel relieved about the privacy of their information and that no intruders can compromise sensitive data.  
+Citation: Section 4.2 (SofiHub emotion-oriented requirements engineering), Fig. 4 (Emotion model).  
+Related Title: Elderly Care Monitoring Platforms, Secure IoT Health Devices  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Support Independent Living  
+Description: The system must enable elderly users to live independently by providing passive monitoring through non-intrusive sensors, automating daily routines (e.g., heating/cooling), and issuing context-aware assistance without requiring wearables or direct user intervention.  
+Citation: Section 4.1 (SofiHub features), Section 4.2 (Goal model in Fig. 5).  
+Related Title: Ambient Assisted Living Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: User Integration and Comfort  
+Description: The system must integrate seamlessly into users' daily lives to minimize disruption, reduce feelings of complexity or frustration, and promote comfort, ensuring elderly users feel at ease with the technology and perceive it as non-obtrusive.  
+Citation: Section 4.2 (Emotional goals: Integrated, Comfortable), Section 5.2.3 (System is integrated in user’s life).  
+Related Title: User-Centric Home Automation Interfaces, Adaptive Elderly Support Tools  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Anomaly Detection  
+Description: The system must continuously learn users' routines and behaviors via sensors to detect anomalies (e.g., prolonged bed time, falls, irregular bathroom visits) and escalate alerts to carers or emergency services.  
+Citation: Section 4.1 (SofiHub features), Section 4.2 (Goal model in Fig. 5: Detect anomaly).  
+Related Title: Predictive Health Alert Systems in Aged Care  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Emotional Safety Assurance  
+Description: The system must foster a sense of safety and reassurance for users and carers by reliably detecting risks and providing timely responses, measurable through user feedback on feeling secure and supported over time.  
+Citation: Section 4.2 (Emotional goals: Safe, Reassured), Section 5.2.2 (Feeling safe and reassured).  
+Related Title: Reassurance-Based Remote Monitoring Solutions, High-Reliability Fall Detection Networks  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Issue Notifications and Reminders  
+Description: The system must issue personalized notifications and reminders (e.g., for hydration, medication, appointments) triggered by user activity or routines, using non-intrusive audio messages to promote adherence without overwhelming users.  
+Citation: Section 4.1 (SofiHub features), Section 4.2 (Goal model in Fig. 5: Issue notifications).  
+Related Title: Context-Aware Reminder Systems for Chronic Care  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: User Control and Independence  
+Description: The system must allow users full control over interactions (e.g., limited message types to avoid overload) to prevent feelings of being monitored or controlled, ensuring elderly users maintain independence and autonomy.  
+Citation: Section 4.2 (Emotional goals: Independent, In control), Section 5.2.4 (In control).  
+Related Title: Autonomy-Preserving Smart Environments, Non-Intrusive Personal Assistance Platforms

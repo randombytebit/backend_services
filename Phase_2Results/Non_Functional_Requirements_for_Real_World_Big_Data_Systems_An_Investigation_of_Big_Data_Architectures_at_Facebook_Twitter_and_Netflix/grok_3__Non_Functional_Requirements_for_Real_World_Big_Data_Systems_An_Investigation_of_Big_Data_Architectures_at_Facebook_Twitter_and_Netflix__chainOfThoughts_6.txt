@@ -1,0 +1,125 @@
+**Requirements Extraction for Singularity AI Platform from Big Data Architectures Study**
+
+Below, I will extract and structure requirements based on the provided text from Vergilio and Ramachandran (2019) regarding non-functional requirements for big data systems at Facebook, Twitter, and Netflix. I will follow the specified formatting rules and ensure each requirement is paired with a transparency or explainability constraint where applicable. I will also apply the Chain of Thought (CoT) reasoning to confirm the logic for 'Role' and 'Related Title' assignments, ensuring individual identifiers for each requirement.
+
+---
+
+### Chain of Thought (CoT) Reasoning
+**Let's think step by step:**
+1. **Identify Key Non-Functional Requirements (NFRs):** The source text lists ten non-functional requirements for big data systems: Batch Data, Stream Data, Late and Out-of-Order Data, Processing Guarantees, Integration and Extensibility, Distribution and Scalability, Cloud Support and Elasticity, Fault Tolerance, Flow Control, and Flexibility and Technology Agnosticism. These are quality attributes critical to system design and will be categorized as NFRs.
+2. **Identify Functional Requirements (FRs):** While the text primarily focuses on NFRs, implicit functional tasks (e.g., processing batch and stream data) can be derived as core system capabilities. These will be explicitly defined as FRs where applicable.
+3. **Pair with Transparency/Explainability Constraints:** For each functional task or significant NFR, a transparency or explainability constraint will be added to ensure XAI (Explainable AI) principles are integrated, supporting high precision and recall in testing.
+4. **Assign Roles:** The 'Role' will be assigned as 'System' since the requirements pertain to the big data architectures of the companies, which are system-level responsibilities.
+5. **Draft Descriptions:** Descriptions will be detailed and aligned with the source text, ensuring clarity on what the system must achieve or the constraint it must satisfy.
+6. **Generate Unique Related Titles:** Each requirement will have a unique contextual example or domain as a 'Related Title' to illustrate applicability, avoiding overlap or extra requirements.
+7. **Ensure Unique IDs:** Each requirement will have a distinct ID (e.g., FR-01, NFR-01) to maintain traceability.
+
+---
+
+### Extracted Requirements
+
+#### Functional Requirement 1
+- **Role:** System
+- **Requirement ID:** FR-01
+- **Title:** Batch Data Processing
+- **Description:** The system must be capable of processing finite, large-volume data (e.g., archived in distributed file systems or databases) to handle hundreds of petabytes of stored data and tens of petabytes of daily processing volume, as demonstrated by architectures at Facebook, Twitter, and Netflix.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.1]
+- **Related Title:** Large-Scale Data Archiving Systems for Social Media Platforms
+
+#### Non-Functional Requirement 1 (Transparency Constraint for FR-01)
+- **Role:** System
+- **Requirement ID:** NFR-01
+- **Title:** Transparency in Batch Data Processing
+- **Description:** The system must provide clear, user-understandable explanations of how batch data processing results are derived, including data sources, processing steps, and volume metrics, to enable user trust and verification of outputs.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.1]
+- **Related Title:** Explainable Data Analytics for Enterprise Storage Solutions
+
+#### Functional Requirement 2
+- **Role:** System
+- **Requirement ID:** FR-02
+- **Title:** Stream Data Processing
+- **Description:** The system must support the processing of potentially infinite, high-velocity data streams (e.g., real-time monitoring data) using frameworks like Puma, Swift, Stylus (Facebook), Heron (Twitter), and Mantis (Netflix) to ensure near real-time processing capabilities.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.2]
+- **Related Title:** Real-Time Data Streaming for IoT Monitoring Systems
+
+#### Non-Functional Requirement 2 (Transparency Constraint for FR-02)
+- **Role:** System
+- **Requirement ID:** NFR-02
+- **Title:** Transparency in Stream Data Processing
+- **Description:** The system must offer detailed explanations of stream data processing workflows, including latency metrics, data flow paths, and error handling mechanisms, to ensure users can trust and validate real-time outputs.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.2]
+- **Related Title:** Explainable Real-Time Analytics for Financial Trading Platforms
+
+#### Non-Functional Requirement 3
+- **Role:** System
+- **Requirement ID:** NFR-03
+- **Title:** Late and Out-of-Order Data Handling
+- **Description:** The system must be designed to process streaming data that arrives late or out of order, utilizing mechanisms like data windows and low watermarks (e.g., Facebook’s Stylus) or lag specifications (e.g., Twitter’s Heron API), to maintain data integrity in real-time scenarios.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.3]
+- **Related Title:** Mobile Network Data Recovery Systems
+
+#### Non-Functional Requirement 4
+- **Role:** System
+- **Requirement ID:** NFR-04
+- **Title:** Processing Guarantees
+- **Description:** The system must provide processing guarantees for stream data, supporting at least once, at most once, and ideally exactly once semantics (e.g., Netflix’s Kafka with idempotency), balancing latency costs with data completeness and accuracy requirements.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.4]
+- **Related Title:** Reliable Transaction Processing Systems for E-Commerce
+
+#### Non-Functional Requirement 5
+- **Role:** System
+- **Requirement ID:** NFR-05
+- **Title:** Integration and Extensibility
+- **Description:** The system must support integration with existing services and components, as well as extensibility to incorporate future components, using messaging systems like Scribe (Facebook) or modular architectures like Heron (Twitter) for seamless pipeline creation.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.5]
+- **Related Title:** Interoperable Big Data Frameworks for Smart Cities
+
+#### Non-Functional Requirement 6
+- **Role:** System
+- **Requirement ID:** NFR-06
+- **Title:** Distribution and Scalability
+- **Description:** The system must enable distributed data processing across multiple machines and data centers in a multi-clustered architecture, supporting dynamic scaling (e.g., Netflix’s Fenzo for EC2 nodes) to add or remove nodes without downtime.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.6]
+- **Related Title:** Scalable Data Processing for Global Content Delivery Networks
+
+#### Non-Functional Requirement 7
+- **Role:** System
+- **Requirement ID:** NFR-07
+- **Title:** Cloud Support and Elasticity
+- **Description:** The system must support migration to cloud environments to leverage economies of scale and elasticity, allowing scaling up or down based on demand (e.g., Netflix’s AWS-based architecture), reducing resource wastage and costs.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.7]
+- **Related Title:** Elastic Cloud Architectures for Streaming Media Services
+
+#### Non-Functional Requirement 8
+- **Role:** System
+- **Requirement ID:** NFR-08
+- **Title:** Fault Tolerance
+- **Description:** The system must continue operating despite node failures, recovering gracefully with minimal user impact, using strategies like node independence (Facebook), modular architectures (Twitter), or multi-region redundancy (Netflix’s Active-Active project).
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.8]
+- **Related Title:** Resilient Data Systems for Critical Infrastructure Monitoring
+
+#### Non-Functional Requirement 9
+- **Role:** System
+- **Requirement ID:** NFR-09
+- **Title:** Flow Control
+- **Description:** The system must handle scenarios where data sources emit records faster than consumption capacity, implementing backpressure strategies like node reallocation (Facebook), spout throttling (Twitter’s Heron), or reactive buffering (Netflix’s RxJava).
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.9]
+- **Related Title:** Backpressure Management in High-Throughput Sensor Networks
+
+#### Non-Functional Requirement 10
+- **Role:** System
+- **Requirement ID:** NFR-10
+- **Title:** Flexibility and Technology Agnosticism
+- **Description:** The system must allow the use of different technologies in place of existing components, supporting modular and interoperable designs (e.g., Twitter’s Heron on Kubernetes, Netflix’s Reactive Streams compatibility) to avoid vendor lock-in.
+- **Citation:** Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840. [cite: Section 3.10]
+- **Related Title:** Technology-Agnostic Platforms for Cross-Industry Data Solutions
+
+---
+
+### Summary of CoT Validation
+- **Role Assignment:** All requirements are assigned to 'System' as they describe system-level capabilities and constraints derived from the architectures of Facebook, Twitter, and Netflix.
+- **Related Title Uniqueness:** Each requirement has a distinct 'Related Title' reflecting a specific application domain or context, ensuring no overlap (e.g., "Large-Scale Data Archiving Systems for Social Media Platforms" vs. "Real-Time Data Streaming for IoT Monitoring Systems").
+- **Transparency Pairing:** Functional requirements (FR-01, FR-02) are explicitly paired with transparency constraints (NFR-01, NFR-02) to align with XAI principles, while other NFRs stand alone as critical quality attributes.
+- **Unique IDs:** Each requirement has a unique identifier (FR-01 to FR-02, NFR-01 to NFR-10), ensuring traceability and individual tracking.
+
+This structured output adheres to the formatting rules and integrates transparency constraints to support explainability in AI systems, as required for the Singularity AI Platform.

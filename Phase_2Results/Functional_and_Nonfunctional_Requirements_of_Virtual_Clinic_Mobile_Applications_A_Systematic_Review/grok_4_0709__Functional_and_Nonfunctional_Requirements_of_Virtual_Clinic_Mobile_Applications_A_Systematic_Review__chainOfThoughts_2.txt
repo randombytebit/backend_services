@@ -1,0 +1,76 @@
+Architectural Reasoning:
+- Component Identification: The source text is a systematic review that explicitly categorizes functional requirements (e.g., demographic data documentation, health record management, and UI features) and non-functional requirements (e.g., usability, accessibility, compatibility, efficiency, and security) for Virtual Clinic Mobile Applications (VCMA). These are derived from analyzing 17 studies and presented in Tables 1 and 2 on Pages 4-5.
+- Constraint Identification: Functional requirements focus on core system behaviors like documenting patient data and enabling UI interactions, while non-functional requirements impose quality constraints such as secure data handling, efficient performance, and user-friendly access, ensuring the system meets clinical and operational needs without compromising safety or usability.
+- Functional Logic (FR-01): The 'System' (VCMA) must handle demographic and health record documentation as a foundational capability for patient management, with the role assigned to the system to enable user interactions (e.g., patients and clinicians inputting data).
+- Quality Logic (NFR-01): The 'System' must enforce security measures like encrypted data exchange and identity verification to protect sensitive health information, aligning with non-functional constraints for privacy in telemedicine.
+- Domain Mapping: For functional documentation tasks, primary use cases include remote patient monitoring in chronic disease management (e.g., diabetes or kidney conditions). For security constraints, parallels exist in electronic health record systems and secure telehealth platforms.
+
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Demographic and Health Record Documentation
+Description: System should enable documentation of demographic data (e.g., identity, insurance) and health records (e.g., vital signs, kidney data, fitness, skin condition, history, present history, inpatient treatment, and medication details) to facilitate remote patient monitoring and clinical decision-making.
+Citation: Page 4, Table 1: Functional requirements of VCMA (subthemes A and B).
+Related Title: Chronic Disease Management App, Remote Telemedicine Platform, Patient Health Tracking System
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Security
+Description: System should implement secure login methods (e.g., text password, email, activation code, anonymous), verify user identity via mobile verification code, allow deletion of consultation records and documents, and ensure encrypted patient data exchange to protect privacy and prevent unauthorized access.
+Citation: Page 5, Table 2: Nonfunctional requirements of VCMA (subtheme E).
+Related Title: Secure Telehealth Application, Encrypted EHR System, Privacy-Focused mHealth Platform
+
+Architectural Reasoning:
+- Component Identification: The text details UI features as part of functional requirements, including reminders, display elements, service selection, reporting, support, and help/tutorials, which are essential for user engagement in virtual clinics.
+- Constraint Identification: Non-functional aspects like usability (e.g., settings for profiles, microphone, camera) ensure the system is intuitive and configurable, directly constraining how functional UI features are implemented.
+- Functional Logic (FR-02): The 'User' (e.g., patient or clinician) interacts with the system via UI features to perform tasks like setting reminders or selecting services, with the role emphasizing user-driven actions supported by the system.
+- Quality Logic (NFR-02): The 'System' must provide usability features like profile creation and logout to enhance ease of use, ensuring functional UI elements are accessible and efficient.
+- Domain Mapping: UI features apply to appointment scheduling in outpatient apps; usability constraints parallel user-centric designs in fitness tracking or mental health apps.
+
+Functional Requirement
+Role: User
+Requirement ID: FR-02
+Title: General UI Features
+Description: System should provide UI features including reminders (e.g., for appointments and preventive care), display of patient health status and consultant details, service selection (e.g., consultation timing and insurance), reporting (e.g., treatment progress and vital signs), support (e.g., Q&A forums), and help/tutorials (e.g., text guides and terms of use) to enable effective virtual interactions.
+Citation: Page 4, Table 1: Functional requirements of VCMA (subtheme C).
+Related Title: Virtual Appointment Scheduler, Patient Support Portal, Telemedicine User Interface
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Usability
+Description: System should support usability settings such as creating personal profiles, configuring microphone and camera, selecting measurement units, enabling video calls with participants, choosing conversation starters, and providing logout functionality to ensure an intuitive and customizable user experience.
+Citation: Page 5, Table 2: Nonfunctional requirements of VCMA (subtheme A).
+Related Title: Customizable Telehealth Interface, User-Friendly mHealth App, Intuitive Virtual Care Platform
+
+Architectural Reasoning:
+- Component Identification: Accessibility and compatibility are non-functional subthemes that support data sharing and service formats, while efficiency focuses on performance aspects like financial reporting.
+- Constraint Identification: These impose constraints on how the system handles data exchange, compatibility with external elements (e.g., insurance), and efficient operations, linking to functional needs like health record sharing.
+- Functional Logic: No additional FR here as this pairs with prior FRs; focus is on non-functional mapping.
+- Quality Logic (NFR-03, NFR-04, NFR-05): The 'System' must ensure accessibility for saving/marking/sharing data, compatibility with insurance formats, and efficiency in financial transactions to maintain overall system reliability.
+- Domain Mapping: Accessibility in patient data sharing for collaborative care; compatibility and efficiency in billing systems for healthcare admin apps.
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Accessibility
+Description: System should enable accessibility services such as saving and marking appointments/reminders/notes/voices/photos/messages, sending feedback on consultant performance, selecting text from default lists, and sharing lessons/health records/data between patients and consultants to facilitate seamless information exchange.
+Citation: Page 5, Table 2: Nonfunctional requirements of VCMA (subtheme B).
+Related Title: Collaborative Health Data Sharing App, Accessible Telemedicine Tool, Patient-Provider Communication Platform
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-04
+Title: Compatibility
+Description: System should ensure compatibility with service formats, including recording insurance name and number, to integrate with external healthcare systems and support diverse user needs.
+Citation: Page 5, Table 2: Nonfunctional requirements of VCMA (subtheme C).
+Related Title: Insurance-Integrated Health App, Cross-Platform Telehealth System, Compatible mHealth Solution
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-05
+Title: Efficiency
+Description: System should provide efficient services such as financial transaction reporting to optimize performance and reduce operational overhead in virtual clinic operations.
+Citation: Page 5, Table 2: Nonfunctional requirements of VCMA (subtheme D).
+Related Title: Efficient Billing Telemedicine App, Performance-Optimized Virtual Care System, Streamlined mHealth Financial Tool
