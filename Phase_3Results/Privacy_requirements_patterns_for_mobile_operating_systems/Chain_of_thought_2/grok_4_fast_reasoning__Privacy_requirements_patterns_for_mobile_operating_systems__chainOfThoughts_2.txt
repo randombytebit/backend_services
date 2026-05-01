@@ -1,0 +1,104 @@
+### Architectural Reasoning for NFR-01 (Authorized Use of Sensors or Portals)
+- Component Identification: Table I explicitly defines Privacy Pattern 1 as "Authorized Use of Sensors or Portals," focusing on controlling access to device hardware like sensors (e.g., camera, microphone) and portals (e.g., Bluetooth) to prevent unauthorized use, which is a core privacy constraint in mobile OS.
+- Constraint Identification: The solution requires the system to enforce explicit user permission requests and provide management settings, addressing forces like accidental denials while ensuring strict control.
+- Quality Logic (NFR-01): This is a non-functional requirement for the 'System' (mobile OS) to implement permission-based access, aligning with privacy assurance in RE activities for all stakeholders (engineers, developers, providers, users).
+- Domain Mapping: Applicable to scenarios like app-based surveillance prevention in smartphones; related titles include mobile app permission managers in Android/iOS and IoT device access controls.
+- Proof of Existence: Directly from Table I, Section IV, with example of microphone access permission.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Authorized Use of Sensors or Portals  
+Description: The system shall demand the application to explicitly ask for permission from the user to access the sensors and portals. The system shall also provide a host of settings to manage these permissions.  
+Citation: Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. Table I, Section IV.  
+Related Title: Smartphone Hardware Access Control, Mobile App Sensor Permission System, IoT Device Privacy Gatekeeper  
+
+### Architectural Reasoning for NFR-02 (Avoidance of Privacy Leakage in User Behavior Information Collection)
+- Component Identification: Table II outlines Privacy Pattern 2 as "Avoidance of Privacy Leakage in User Behavior Information Collection," targeting constraints on collecting sensitive user data for analysis (e.g., ads, recommendations) in mobile environments.
+- Constraint Identification: The solution mandates specific user notifications about collected data types, prohibits sensitive info (e.g., passwords), and restricts scope, balancing collection needs with privacy risks like over-worrying.
+- Quality Logic (NFR-02): As a non-functional requirement, the 'System' must enforce disciplined collection processes with user consent, supporting stakeholders (engineers, developers, collectors, users) across all RE activities.
+- Domain Mapping: Relevant to behavioral analytics in mobile apps; related titles cover ad personalization systems and user tracking safeguards in e-commerce apps.
+- Proof of Existence: Directly from Table II, Section IV, with example of detailed permission requests for behavior collection.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Avoidance of Privacy Leakage in User Behavior Information Collection  
+Description: The system shall notice user specifically and distinctly what kinds of user information is needed for behavior analysis. The most sensitive user information (e.g., password) shall be strictly prohibited to touch and collect.  
+Citation: Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. Table II, Section IV.  
+Related Title: Mobile Ad Targeting Privacy Filter, User Analytics Consent Manager, E-Commerce Behavior Tracking Safeguard  
+
+### Architectural Reasoning for NFR-03 (Guard for Personal Mobile Data)
+- Component Identification: Table III specifies Privacy Pattern 3 as "Guard for Personal Mobile Data," protecting sensitive data like messages, contacts, photos, location, IMEI, and network usage from unauthorized access.
+- Constraint Identification: The solution involves user warnings for access attempts, permission grants only upon approval, and options to withdraw/regrant, mitigating risks like accidental denials while ensuring strict control.
+- Quality Logic (NFR-03): This non-functional requirement mandates the 'System' (mobile OS) to implement permission-based data guarding, consistent with mechanisms in Android, iOS, and Windows Phone for all RE activities and stakeholders (engineers, developers, providers, users).
+- Domain Mapping: Applies to personal data silos in mobile devices; related titles include contact list protectors and location data vaults in messaging apps.
+- Proof of Existence: Directly from Table III, Section IV, with example of SMS access permission.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Guard for Personal Mobile Data  
+Description: The system shall provide warnings to the user when an application intends to access user files, data and credentials. If and only if the user has granted the permission, the application can touch the corresponding resources. The user can withdraw or regrant any permissions in somewhere of the system later.  
+Citation: Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. Table III, Section IV.  
+Related Title: Personal Contacts Data Shield, Mobile Location Privacy Vault, SMS Access Permission Enforcer  
+
+### Architectural Reasoning for NFR-04 (Privacy Protection over Mobile Cloud Services)
+- Component Identification: Table IV details Privacy Pattern 4 as "Privacy Protection over Mobile Cloud Services," addressing data handling in cloud backups due to limited device storage and frequent updates.
+- Constraint Identification: The solution requires data encryption before upload, secure token authentication, user notifications about backup content, and options to stop/delete data, trading off usability with privacy and recoverability.
+- Quality Logic (NFR-04): A non-functional requirement for the 'System' to ensure confidential cloud interactions, involving stakeholders (engineers, developers, providers, users) in all RE activities.
+- Domain Mapping: Critical for cloud-synced mobile ecosystems; related titles encompass auto-backup privacy enhancers and secure cloud file managers.
+- Proof of Existence: Directly from Table IV, Section IV, with example of 256-bit AES encryption for data transmission.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Privacy Protection over Mobile Cloud Services  
+Description: The system shall ensure confidentiality of data backup. The data encryption must be performed before the data sending over the Internet. Secure tokens shall be used for authentication. The user should be aware what data will be backed up to the cloud. The user also can stop the backup function, and delete unwanted data from cloud with her device any time.  
+Citation: Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. Table IV, Section IV.  
+Related Title: Mobile Cloud Backup Encryptor, Secure Sync Privacy Manager, Data Upload Consent System  
+
+### Architectural Reasoning for NFR-05 (Authentication of Mobile Users)
+- Component Identification: Table V defines Privacy Pattern 5 as "Authentication of Mobile Users," preventing unauthorized access to devices, folders, apps, and sensitive data via theft or tampering.
+- Constraint Identification: The solution provides multi-level authentication (e.g., passwords, biometrics) with strong encryption and appropriate length requirements, balancing usability and security.
+- Quality Logic (NFR-05): This non-functional requirement requires the 'System' to enforce authentication mechanisms, supporting stakeholders (engineers, developers, users) across all RE activities.
+- Domain Mapping: Essential for device-level security; related titles include screen lock authenticators and biometric access controls in smartphones.
+- Proof of Existence: Directly from Table V, Section IV, with example of screen lock password.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Authentication of Mobile Users  
+Description: The system shall provide authentication for the device, folders, applications and privacy-sensitive data. The encryption algorithm of password shall be strong. The length requirement shall be set appropriately.  
+Citation: Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. Table V, Section IV.  
+Related Title: Device Screen Lock Authenticator, Biometric Folder Access Guard, App-Level User Verifier  
+
+### Architectural Reasoning for NFR-06 (Financial Information Protection)
+- Component Identification: Table VI presents Privacy Pattern 6 as "Financial Information Protection," safeguarding data in mobile payments, e-banking, and e-business amid technologies like 4G and NFC.
+- Constraint Identification: The solution prohibits permanent local storage of financial info, blocks transmission to unauthenticated parties, and mandates secure transmission methods.
+- Quality Logic (NFR-06): A non-functional requirement for the 'System' to impose strict protections on financial data, involving stakeholders (engineers, developers, providers) in all RE activities.
+- Domain Mapping: Vital for mobile finance apps; related titles cover payment credential protectors and secure transaction handlers.
+- Proof of Existence: Directly from Table VI, Section IV, with example of failing local password storage in e-banking apps.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Financial Information Protection  
+Description: The system shall strictly prevent any application to store the user’s financial information permanently in local. The application cannot transmit user financial information to any invalid or unauthenticated parties. The credentials and data must be transmitted in a secure way.  
+Citation: Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. Table VI, Section IV.  
+Related Title: Mobile Banking Credential Shield, NFC Payment Data Protector, E-Wallet Transaction Securer  
+
+### Architectural Reasoning for NFR-07 (Mobile Communication Secrecy)
+- Component Identification: Table VII describes Privacy Pattern 7 as "Mobile Communication Secrecy," ensuring secure data transmission to prevent interception (e.g., man-in-the-middle attacks) in public channels.
+- Constraint Identification: The solution forces applications to use secure channels (e.g., SSL) for sensitive data, acknowledging increased development costs as a force.
+- Quality Logic (NFR-07): This non-functional requirement mandates the 'System' to enforce secure transport, correlating with other patterns (e.g., cloud, financial), for stakeholders (engineers, developers, providers) in all RE activities.
+- Domain Mapping: Applies to networked mobile communications; related titles include messaging encryption enforcers and secure API communicators.
+- Proof of Existence: Directly from Table VII, Section IV, with example of SSL requirement for instant messaging.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Mobile Communication Secrecy  
+Description: The system shall request the application transmit privacy-sensitive data with secure channel forcibly.  
+Citation: Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. Table VII, Section IV.  
+Related Title: Secure Messaging Channel Enforcer, Mobile API Transmission Guard, Encrypted Network Communicator

@@ -1,0 +1,85 @@
+REQUIREMENT REPORT
+
+- Role: System
+- Requirement ID: FR-01
+- Requirement Title: Privacy Protection Mechanism
+- Requirement Description: The system must implement mechanisms to protect personal information as part of data requirements.
+- Citation: Page 3, Area#3 requirements for data needs
+- Requirement Related Title: Data Requirements
+
+- Role: System
+- Requirement ID: FR-02
+- Requirement Title: Secure Feedback Collection
+- Requirement Description: The system must implement measures to secure user privacy when collecting feedback.
+- Citation: Page 4, Area#4 requirements for feedback and user control
+- Requirement Related Title: When asking for feedback
+
+- Role: System
+- Requirement ID: FR-03
+- Requirement Title: Error Logging Mechanism
+- Requirement Description: The system must implement logging to list possible error sources, track training losses, and trace output errors to data.
+- Citation: Page 4, Area#6 requirements for errors and failure; Table 3, Model Needs
+- Requirement Related Title: Model Tuning
+
+- Role: System
+- Requirement ID: FR-04
+- Requirement Title: Bias Identification Mechanism
+- Requirement Description: The system must implement routines to identify biases such as automation bias, selection bias, group attribution, and impact bias in data.
+- Citation: Page 3, Area#3 requirements for data needs; Table 5, Reporting biases
+- Requirement Related Title: Fairness
+
+- Role: System
+- Requirement ID: FR-05
+- Requirement Title: Access Control Explanation
+- Requirement Description: The system must implement routines to explain who can access or use the user’s personal data and how data is shared between apps.
+- Citation: Page 4, Area#5 requirements for explainability and trust; Table 5, Explain to user
+- Requirement Related Title: Explain data
+
+- Role: System
+- Requirement ID: FR-06
+- Requirement Title: Error Mitigation Mechanism
+- Requirement Description: The system must implement mechanisms to mitigate errors by allowing users to fix mistakes and providing suggestions when in doubt.
+- Citation: Page 4, Area#6 requirements for errors and failure; Table 5, Action Mitigate Errors
+- Requirement Related Title: Errors & Failures
+
+- Role: System
+- Requirement ID: NF-01
+- Requirement Title: Data Privacy Levels
+- Requirement Description: The system must ensure high levels of data privacy by protecting personal information and complying with privacy laws.
+- Citation: Page 3, Area#3 requirements for data needs; Table 5, Data requirements
+- Requirement Related Title: Data Needs
+
+- Role: System
+- Requirement ID: NF-02
+- Requirement Title: System Resilience
+- Requirement Description: The system must exhibit resilience to various errors and failures, including prediction errors, data errors, input errors, output errors, and system errors.
+- Citation: Page 4, Area#6 requirements for errors and failure; Table 5, Errors & Failures
+- Requirement Related Title: Errors & Failures
+
+- Role: System
+- Requirement ID: NF-03
+- Requirement Title: Adversarial Robustness
+- Requirement Description: The system must ensure robustness against adversarial issues such as biases in data, overfitting, underfitting, and incorrect predictions.
+- Citation: Page 3, Area#2 requirements for model needs; Page 3, Area#3 requirements for data needs; Table 5, Fairness
+- Requirement Related Title: Model Needs
+
+- Role: System
+- Requirement ID: NF-04
+- Requirement Title: Integrity Benchmarks
+- Requirement Description: The system must meet integrity benchmarks for data quality, including accuracy, completeness, consistency, credibility, and currentness.
+- Citation: Page 3, Area#3 requirements for data needs; Table 5, Data quality
+- Requirement Related Title: Data Quality
+
+- Role: System
+- Requirement ID: NF-05
+- Requirement Title: Privacy in Feedback
+- Requirement Description: The system must maintain privacy levels in feedback mechanisms by securing user privacy and allowing opt-out options.
+- Citation: Page 4, Area#4 requirements for feedback and user control; Table 5, Feedback & Control
+- Requirement Related Title: Feedback & Control
+
+- Role: System
+- Requirement ID: NF-06
+- Requirement Title: Fairness and Bias Robustness
+- Requirement Description: The system must ensure fairness by identifying and addressing under or over-representative data, missing features, and other biases to maintain robustness.
+- Citation: Page 3, Area#3 requirements for data needs; Table 4, Fairness; Table 5, Fairness
+- Requirement Related Title: Data Needs

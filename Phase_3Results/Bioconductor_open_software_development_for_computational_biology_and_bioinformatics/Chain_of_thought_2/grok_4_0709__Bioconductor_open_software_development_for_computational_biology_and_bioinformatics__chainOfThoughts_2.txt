@@ -1,0 +1,22 @@
+### Architectural Reasoning
+- **Component Identification**: The text identifies the Bioconductor project as a core system for collaborative software development in computational biology and bioinformatics (CBB), emphasizing extensible software creation, data management, and analysis tools (e.g., for microarrays). This is a functional capability centered on software extensibility and collaboration.
+- **Constraint Identification**: It also specifies quality constraints like transparency (exposure of processes), reproducibility (portable source code with data), and efficiency of development (open-source reuse and modularity), which ensure the system's outputs are verifiable and adaptable.
+- **Functional Logic (FR-01)**: The primary role is the 'System' (Bioconductor) enabling collaborative creation and use of software, as described in the abstract and background, where goals include fostering development and reducing barriers.
+- **Quality Logic (NFR-01)**: The 'System' must ensure reproducibility by providing portable code and data for research verification, as a non-functional constraint measurable via adherence to open-source standards and documentation protocols.
+- **Domain Mapping**: For the functional collaboration task, bioinformatics research platforms and open-source software repositories are primary use cases. For the reproducibility constraint, microarray analysis pipelines and statistical genomics studies provide strong parallel domains.
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Collaborative Extensible Software Creation  
+Description: System should enable collaborative creation of extensible software for computational biology and bioinformatics, including data acquisition, management, transformation, modeling, and integration of machine learning methods.  
+Citation: Abstract and Background sections.  
+Related Title: Bioinformatics Research Platform  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Research Reproducibility  
+Description: System should promote achievement of remote reproducibility of research results by providing portable source code coupled with data, ensuring transparency and efficiency in development through open-source practices.  
+Citation: Background section.  
+Related Title: Microarray Analysis Pipeline

@@ -1,0 +1,124 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: System Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: User Needs Identification Module
+- **Requirement Description**: The system must include a module to identify and document user needs for AI-based software, including user interactions (proactive or reactive), visibility of AI features (visible or invisible), and system approach (automation or augmentation).
+- **Citation**: Section 2.1, Page 2
+- **Requirement Related Title**: Area#1 Requirements for User Needs
+
+- **Role**: System Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Reward Function Evaluation
+- **Requirement Description**: The system must implement a mechanism to evaluate and select appropriate reward functions (e.g., precision or recall) for learned models, documenting trade-offs and justifying the selection based on user impact and system goals.
+- **Citation**: Section 2.1, Page 2-3
+- **Requirement Related Title**: Area#1 Requirements for User Needs
+
+- **Role**: System Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Model Needs Specification Module
+- **Requirement Description**: The system must include a module to specify model needs, including algorithm selection for optimization (e.g., accuracy or explainability), model type (supervised, unsupervised, reinforcement learning), and training approach (static or dynamic).
+- **Citation**: Section 2.2, Page 3
+- **Requirement Related Title**: Area#2 Requirements for Model Needs
+
+- **Role**: System Developer
+- **Requirement ID**: FR-04
+- **Requirement Title**: Model Tuning and Feedback Integration
+- **Requirement Description**: The system must support model tuning by integrating user feedback, adjusting to user behavior, tracing output errors, and tuning parameters to balance overfitting and underfitting.
+- **Citation**: Section 2.2, Page 3
+- **Requirement Related Title**: Area#2 Requirements for Model Needs
+
+- **Role**: System Developer
+- **Requirement ID**: FR-05
+- **Requirement Title**: Data Needs Collection Module
+- **Requirement Description**: The system must include a module for data collection specifying type, amount, and diversity of data needed, including features, labels, examples, and sampling rates for model training.
+- **Citation**: Section 2.3, Page 3
+- **Requirement Related Title**: Area#3 Requirements for Data Needs
+
+- **Role**: System Developer
+- **Requirement ID**: FR-06
+- **Requirement Title**: Data Quality Assurance Mechanism
+- **Requirement Description**: The system must implement mechanisms to ensure data quality through accuracy, completeness, consistency, credibility, and currentness during data collection and processing.
+- **Citation**: Section 2.3, Page 3
+- **Requirement Related Title**: Area#3 Requirements for Data Needs
+
+- **Role**: System Developer
+- **Requirement ID**: FR-07
+- **Requirement Title**: Feedback and User Control Module
+- **Requirement Description**: The system must provide mechanisms for collecting user feedback (implicit, explicit, calibration) and ensuring user control over system actions, including options to dismiss feedback and adjust preferences.
+- **Citation**: Section 2.4, Page 3-4
+- **Requirement Related Title**: Area#4 Requirements for Feedback and User Control
+
+- **Role**: System Developer
+- **Requirement ID**: FR-08
+- **Requirement Title**: Explainability and Trust Module
+- **Requirement Description**: The system must include a module to provide explanations of AI predictions and system capabilities to users and stakeholders, including data usage, confidence levels, and consequences of actions, while addressing trade-offs with performance and cost.
+- **Citation**: Section 2.5, Page 3-4
+- **Requirement Related Title**: Area#5 Requirements for Explainability and Trust
+
+- **Role**: System Developer
+- **Requirement ID**: FR-09
+- **Requirement Title**: Error and Failure Management Module
+- **Requirement Description**: The system must implement a module to identify, document, and mitigate errors and failures (e.g., prediction, data, input, output, system errors) with action plans for resolution and user support.
+- **Citation**: Section 2.6, Page 4
+- **Requirement Related Title**: Area#6 Requirements for Errors and Failure
+
+- **Role**: System Developer
+- **Requirement ID**: FR-10
+- **Requirement Title**: Privacy Measures for Feedback Collection
+- **Requirement Description**: The system must enforce privacy measures during feedback collection, ensuring secure handling of user data and providing options for users to opt-out or dismiss feedback requests.
+- **Citation**: Section 2.4, Page 3-4
+- **Requirement Related Title**: Area#4 Requirements for Feedback and User Control
+
+**Non-Functional Requirements**
+
+- **Role**: System Architect
+- **Requirement ID**: NF-01
+- **Requirement Title**: Adversarial Robustness in Model Selection
+- **Requirement Description**: The system must ensure robustness against adversarial inputs by selecting algorithms and training methods that prioritize security and resilience to malicious data or attacks.
+- **Citation**: Section 2.2, Page 3
+- **Requirement Related Title**: Area#2 Requirements for Model Needs
+
+- **Role**: System Architect
+- **Requirement ID**: NF-02
+- **Requirement Title**: System Resilience to Errors
+- **Requirement Description**: The system must maintain operational stability and resilience by identifying and mitigating error sources (e.g., context, background, system limitations) to prevent cascading failures or user impact.
+- **Citation**: Section 2.6, Page 4
+- **Requirement Related Title**: Area#6 Requirements for Errors and Failure
+
+- **Role**: Data Protection Officer
+- **Requirement ID**: NF-03
+- **Requirement Title**: Data Privacy Compliance
+- **Requirement Description**: The system must comply with data privacy laws and regulations (e.g., GDPR) by protecting personal information, ensuring responsible data sourcing, and limiting data sharing without user consent.
+- **Citation**: Section 2.3, Page 3; Section 2.5, Page 4
+- **Requirement Related Title**: Area#3 Requirements for Data Needs; Area#5 Requirements for Explainability and Trust
+
+- **Role**: Data Protection Officer
+- **Requirement ID**: NF-04
+- **Requirement Title**: Data Integrity Benchmarks
+- **Requirement Description**: The system must adhere to data integrity benchmarks by ensuring data accuracy, completeness, consistency, credibility, and currentness to prevent biases and maintain trustworthy AI outcomes.
+- **Citation**: Section 2.3, Page 3
+- **Requirement Related Title**: Area#3 Requirements for Data Needs
+
+- **Role**: System Architect
+- **Requirement ID**: NF-05
+- **Requirement Title**: Fairness in Data and Model Outcomes
+- **Requirement Description**: The system must ensure fairness by identifying and mitigating biases in data (e.g., automation, selection, group attribution) and model predictions to prevent discriminatory outcomes.
+- **Citation**: Section 2.3, Page 3
+- **Requirement Related Title**: Area#3 Requirements for Data Needs
+
+- **Role**: System Architect
+- **Requirement ID**: NF-06
+- **Requirement Title**: Explainability Trade-off Management
+- **Requirement Description**: The system must balance explainability with performance and cost, ensuring that explanations do not compromise system efficiency while meeting legal and ethical requirements.
+- **Citation**: Section 2.5, Page 4
+- **Requirement Related Title**: Area#5 Requirements for Explainability and Trust
+
+- **Role**: System Architect
+- **Requirement ID**: NF-07
+- **Requirement Title**: User Trust Calibration
+- **Requirement Description**: The system must calibrate user trust by providing realistic expectations, avoiding over-trust, and ensuring transparency in AI limitations and capabilities.
+- **Citation**: Section 2.5, Page 4
+- **Requirement Related Title**: Area#5 Requirements for Explainability and Trust

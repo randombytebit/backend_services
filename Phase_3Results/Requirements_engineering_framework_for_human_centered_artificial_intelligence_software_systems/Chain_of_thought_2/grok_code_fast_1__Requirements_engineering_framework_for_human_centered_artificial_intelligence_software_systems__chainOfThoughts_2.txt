@@ -1,0 +1,37 @@
+### Architectural Reasoning
+
+- **Component Identification**: The source text describes a case study where an AI-based system is developed to enhance the spatial quality of 360° videos for VR users, focusing on improving quality of experience (QoE) and quality of service (QoS). This is presented as a core functional capability of the system, involving deep learning techniques to upscale video resolution without user intervention.
+
+- **Constraint Identification**: The text specifies quality constraints such as optimizing for accuracy in predictions (e.g., via loss functions and metrics like PSNR/SSIM), balancing overfitting/underfitting, ensuring data quality (accuracy, completeness, consistency), and addressing human-centered aspects like user feedback and fairness to avoid biases. These are necessary to ensure the system's outputs are correct, reliable, and inclusive.
+
+- **Functional Logic (FR-01)**: The primary role is the 'System' performing the enhancement task reactively, as an invisible AI feature that automates video quality improvement for VR users.
+
+- **Quality Logic (NFR-01)**: The 'System' must produce accurate outputs, measurable via image quality metrics, and report on correctness to maintain trustworthiness.
+
+- **Quality Logic (NFR-02)**: The 'System' must satisfy human-centered constraints like fairness in data and user control to prevent biases and ensure inclusive outcomes.
+
+- **Domain Mapping**: For the functional enhancement, VR entertainment and educational systems are primary domains. For accuracy, medical imaging or autonomous vehicles provide parallels. For human-centered fairness, social media recommendation systems or hiring tools are relevant domains.
+
+### Functional Requirement
+Role: System  
+Requirement ID: FR-01  
+Title: Enhance 360° Video Quality  
+Description: System should enhance the spatial quality of 360° videos for VR users by improving resolution four times, using deep learning to upscale videos without user intervention, thereby enhancing immersive experience and quality of experience/service.  
+Citation: Page 8-9, "The case study was conducted on a project that uses DL to enhance the quality of 360 ◦ videos for VR platforms... The proposed solution was to enhance the quality of the final product using AI-based software."  
+Related Title: VR Entertainment System  
+
+### Non-Functional Requirement
+Role: System  
+Requirement ID: NFR-01  
+Title: Accuracy in Video Enhancement  
+Description: System should produce accurate video enhancement outputs, optimized for precision in pixel predictions via loss functions, measurable via image quality metrics like PSNR/SSIM, and balanced to avoid overfitting/underfitting during model training.  
+Citation: Page 10, "The LM was built using deep learning techniques and as a regression problem and optimized for accuracy... Evaluate the quality of the model This is evaluated based on the number of parameters, runtime, and evaluation results."  
+Related Title: Medical Imaging Analysis System  
+
+### Non-Functional Requirement
+Role: System  
+Requirement ID: NFR-02  
+Title: Human-Centered Fairness and Inclusivity  
+Description: System should ensure fairness in data collection and usage, identifying and mitigating biases (e.g., under-representation of diverse scenes/objects), protect personal information, and comply with privacy laws to produce inclusive, unbiased outcomes for diverse users.  
+Citation: Page 12-13, "Data requirements Protect personal information... Fairness Identify biases... Under or over representative data."  
+Related Title: Social Media Recommendation System

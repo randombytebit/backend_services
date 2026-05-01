@@ -1,0 +1,61 @@
+Architectural Reasoning:
+- Component Identification: The source text defines the 'mobile operating system' (e.g., Android, iOS, Windows Phone) as the core system component responsible for enforcing privacy protections across all requirements engineering activities. It explicitly proposes 7 privacy patterns (Tables I-VII), each with a 'Solution' section that mandates specific system behaviors to achieve privacy.
+- Constraint Identification: These patterns represent non-functional requirements (NFRs) focused on privacy qualities (e.g., confidentiality, access control, secure transmission), derived from domain experts, literature on existing OSes, and user feedback. No pure functional capabilities (e.g., core OS features like app installation) are specified independently; instead, all requirements are quality constraints enforced via system mechanisms like permissions, warnings, encryption, and settings.
+- Quality Logic (NFR-01 to NFR-07): Each pattern's 'Solution' is a 'shall' statement binding the 'System' (mobile OS) to privacy-enforcing behaviors, with trade-offs noted (e.g., usability vs. security). Role is consistently 'System' as the enforcer. No user-initiated actions qualify as requirements.
+- Domain Mapping: Patterns map to mobile OS domains like permission models (Android/iOS), cloud backups (iOS iCloud/Android Drive), app behaviors (e.g., banking apps), and communication (messaging). Examples drawn from paper's 'Application and Example' fields and background (e.g., sensors, SMS access) ensure logical consistency; no extra requirements invented.
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Authorized Use of Sensors or Portals  
+Description: The system shall demand the application to explicitly ask for permission from the user to access the sensors and portals. The system shall also provide a host of settings to manage these permissions.[Table I]  
+Citation: Xiao Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. IEEE RePa 2014.[Table I]  
+Related Title: Android Camera Permission System, iOS Microphone Access Control, Windows Phone Bluetooth Portal Management[Table I]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Avoidance of Privacy Leakage in User Behavior Information Collection  
+Description: The system shall notice user specifically and distinctly what kinds of user information is needed for behavior analysis. The most sensitive user information (e.g. password) shall be strictly prohibited to touch and collect.[Table II]  
+Citation: Xiao Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. IEEE RePa 2014.[Table II]  
+Related Title: Mobile Ad Targeting Consent Prompt, User Analytics Permission in iOS Apps, Behavior Tracking Restrictions in Android[Table II]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Guard for Personal Mobile Data  
+Description: The system shall provide warnings to the user when an application intends to access user files, data and credentials. If and only if the user has granted the permission, the application can touch the corresponding resources. The user can withdraw or regrant any permissions somewhere in the system later.[Table III]  
+Citation: Xiao Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. IEEE RePa 2014.[Table III]  
+Related Title: iOS Contacts Access Warning, Android SMS Permission Guard, Windows Phone Calendar Data Protection[Table III]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Privacy Protection over Mobile Cloud Services  
+Description: The system shall ensure confidentiality of data backup. The data encryption must be performed before the data sending over the Internet. Secure tokens shall be used for authentication. The user should be aware what data will be backed up to the cloud. The user also can stop the backup function, and delete unwanted data from cloud with her device any time.[Table IV]  
+Citation: Xiao Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. IEEE RePa 2014.[Table IV]  
+Related Title: iOS iCloud Encrypted Backup, Android Google Drive Secure Sync, Mobile Photo Cloud Upload Controls[Table IV]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Authentication of Mobile Users  
+Description: The system shall provide authentication for the device, folders, applications and privacy-sensitive data. The encryption algorithm of password shall be strong. The length requirement shall be set appropriately.[Table V]  
+Citation: Xiao Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. IEEE RePa 2014.[Table V]  
+Related Title: Android Device Screen Lock, iOS Biometric App Authentication, Folder-Level PIN Protection in Windows Phone[Table V]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Financial Information Protection  
+Description: The system shall strictly prevent any application to store the user’s financial information permanently in local. The application cannot transmit user financial information to any invalid or unauthenticated parties. The credentials and data must be transmitted in a secure way.[Table VI]  
+Citation: Xiao Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. IEEE RePa 2014.[Table VI]  
+Related Title: Mobile Banking App Credential Restrictions, NFC Payment Data Security, E-Wallet Transmission Protections[Table VI]  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Mobile Communication Secrecy  
+Description: The system shall request the application transmit privacy-sensitive data with secure channel forcibly.[Table VII]  
+Citation: Xiao Xuan et al. (2014). Privacy Requirements Patterns for Mobile Operating Systems. IEEE RePa 2014.[Table VII]  
+Related Title: Android SSL-Enforced Messaging, iOS Secure Chat Protocols, Windows Phone Secure API Communications[Table VII]

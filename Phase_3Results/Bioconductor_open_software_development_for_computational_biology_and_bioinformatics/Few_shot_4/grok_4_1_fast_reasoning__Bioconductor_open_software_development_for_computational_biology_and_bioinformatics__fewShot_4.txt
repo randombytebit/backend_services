@@ -1,0 +1,71 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Remote Reproducibility  
+Description: Promote the achievement of remote reproducibility of research results through portable source code accompanying published analyses, coupled with data, enabling verification, replication, and extension of computational results in CBB.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 1 (Abstract), Page 2 (Background), Page 7-8 (Reproducible research).  
+Related Title: Microarray Gene Expression Analysis Pipelines, High-Throughput Sequencing Workflows, Clinical Trial Genomic Studies  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Transparency  
+Description: Ensure transparency in high-throughput CBB pipelines by exposing the entire process from low-level data (e.g., microarray images) to statistical databases, allowing assessment of sensitivity to variations or errors.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 2 (Background).  
+Related Title: Proteomics Data Processing Systems, Next-Generation Sequencing Pipelines, Drug Discovery Assay Platforms  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Efficiency of Development  
+Description: Enhance efficiency of development by providing an open-source environment where software and data resources can be read, modified, extended, and used as learning materials, supporting recruitment and training of developers.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 2 (Background).  
+Related Title: Distributed Bioinformatics Software Ecosystems, Parallel Genomic Modeling Frameworks, Interdisciplinary CBB Research Consortia  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Modular Design  
+Description: Adopt modular design allowing independent and parallel development of code components, with modularization at data structure, function, and package levels to support reusability, interoperability, and non-regressive development.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 2 (Methodology), Page 4-5 (Design strategies).  
+Related Title: Self-Driving Car Perception Modules, Autonomous Drone Navigation Systems, Financial Risk Modeling Suites  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Reusable Infrastructure Provision  
+Description: Provide reusable software infrastructure including data structures (e.g., exprSet for binding expression data with covariates) and metadata packages (e.g., hgu95av2) to bridge low-level processing to high-level analysis across platforms.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 4 (Infrastructure base).  
+Related Title: Cancer Genomic Profiling Systems, Personalized Medicine Data Platforms, Epidemiological Outbreak Modeling Tools  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Designing by Contract  
+Description: Implement designing by contract discipline for interoperable components, ensuring objects (e.g., exprSet-like) satisfy specified functionalities (e.g., exprs and pData methods) regardless of underlying data representation or access method.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 4-5 (Design strategies).  
+Related Title: Air Traffic Control Software Interfaces, Nuclear Reactor Simulation Modules, Secure Multi-Party Computation Frameworks  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Executable Documentation  
+Description: Provide multiscale executable documentation via vignettes using Sweave, integrating detailed task processing steps, interactive code execution, and PDF outputs for reproducibility and user training.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 5 (Multiscale and executable documentation).  
+Related Title: Pharmaceutical Trial Reporting Systems, Aerospace Engineering Simulation Reports, Climate Modeling Validation Suites  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Automated Distribution  
+Description: Support automated software distribution with package updating, dependency resolution (via reposTools), MD5 checksums for integrity, and just-in-time installation to manage large inter-reliant package ecosystems.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 5-6 (Automated software distribution).  
+Related Title: Enterprise Cloud Deployment Pipelines, Military Logistics Software Networks, Global Supply Chain Management Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-08  
+Title: Evolving Metadata Support  
+Description: Handle dynamics and complexity of biological annotation through versioned R packages for metadata, enabling automated updates, synchronization, consensus amalgamation, and reproducible access without online dependencies.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 2004, 5:R80. Page 9 (Dynamics of biological annotation).  
+Related Title: Pathogen Surveillance Databases, Evolutionary Genomics Annotation Platforms, Precision Agriculture Metadata Systems

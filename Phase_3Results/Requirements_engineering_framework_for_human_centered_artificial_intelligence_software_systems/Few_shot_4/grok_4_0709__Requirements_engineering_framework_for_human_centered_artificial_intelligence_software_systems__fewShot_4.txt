@@ -1,0 +1,47 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Data Quality  
+Description: Data quality includes five components: accuracy (correct data), completeness (availability of all attributes and events), consistency (no contradictions in data), credibility (truthful data), and currentness (data collected within the correct time frame); data quantity focuses on diversity to address completeness, consistency, and correctness.  
+Citation: Ahmad et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing 143, 110455 [Page 3, Section 2.3]  
+Related Title: Medical Imaging Diagnostic System  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Explainability & Trust  
+Description: AI-based systems reasoning can include explaining the results or predictions to the end user and stakeholders, setting expectations of system capabilities and limitations, explaining data usage and system changes, and providing confidence displays (e.g., via examples or categorical levels) while calculating trade-offs with performance and cost.  
+Citation: Ahmad et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing 143, 110455 [Page 3-4, Section 2.5]  
+Related Title: Autonomous Vehicle Decision System  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Error & Failure Handling  
+Description: Identify and mitigate error types (e.g., background, context, system limitations) and sources (e.g., prediction errors from incomplete data, input errors from unexpected data, output errors from low confidence), providing action plans for addressing them in requirements engineering.  
+Citation: Ahmad et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing 143, 110455 [Page 4, Section 2.6]  
+Related Title: Air Traffic Control Monitoring System  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: User Needs Processing  
+Description: The system should capture user needs first, document limitations and capabilities, determine interaction types (proactive or reactive, visible or invisible features), decide on augmentation vs. automation, and evaluate reward functions (e.g., precision vs. recall) with trade-offs.  
+Citation: Ahmad et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing 143, 110455 [Page 2, Section 2.1]  
+Related Title: Virtual Reality Video Enhancement System  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Model Needs Optimization  
+Description: The system should document requirements for model needs, including algorithm selection optimizing for stakeholder satisfaction (e.g., explainable vs. accurate), specifying variable settings, deciding on dynamic vs. static training, balancing overfitting/underfitting, and tuning parameters based on feedback and evaluation tools.  
+Citation: Ahmad et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing 143, 110455 [Page 3, Section 2.2]  
+Related Title: Financial Fraud Detection System  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Data Needs Collection  
+Description: The system should focus on data needs and collection methods, including type and amount of data, identifying features, labels, and sampling rates, ensuring diversity, and addressing biases (e.g., automation, selection, group attribution) while specifying quality components.  
+Citation: Ahmad et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing 143, 110455 [Page 3, Section 2.3]  
+Related Title: Healthcare Patient Data Analytics System

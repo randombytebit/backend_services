@@ -1,0 +1,55 @@
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Reproducibility
+Description: System should promote the achievement of remote reproducibility of research results by providing portable source code, data, and explicit instructions for analyses, enabling others to replicate computational methods and verify results.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. [cite: Background section, Pursuit of reproducibility]
+Related Title: Reproducible Genomic Research Platforms, Computational Biology Experiment Replication, Scientific Data Analysis Frameworks
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Transparency
+Description: System should ensure transparency in computational processes by exposing the entire pipeline of data acquisition, transformation, and analysis, allowing for verification and sensitivity assessment of methods used in computational biology and bioinformatics.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. [cite: Background section, Transparency]
+Related Title: Transparent Algorithm Validation Systems, Open Computational Pipelines, Verifiable Data Processing Environments
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Efficiency of Development
+Description: System should facilitate efficiency of development by supporting reusable software components, modular design, and open-source access to code and data, reducing barriers to interdisciplinary research and enabling rapid extension of tools.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. [cite: Background section, Efficiency of development; Methodology section, Infrastructure base]
+Related Title: Modular Software Development Ecosystems, Reusable Bioinformatics Toolkits, Collaborative Coding Platforms
+
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Collaborative Software Creation
+Description: System should enable the collaborative creation of extensible software for computational biology and bioinformatics, including tools for data management, statistical analysis, and visualization to support research in molecular biology and genomics.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. [cite: Abstract; Background section]
+Related Title: Open-Source Genomics Software Suites, Collaborative Bioinformatics Development Environments, Interdisciplinary Research Toolkits
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Title: Data Processing and Analysis
+Description: System should provide capabilities for processing real-world biological data inputs, such as microarray data, integrating machine learning components within software pipelines to produce autonomous decisions and statistical inferences.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. [cite: Using Bioconductor (example) section; Methodology section, Language selection]
+Related Title: Microarray Data Analysis Systems, Genomic Expression Profiling Tools, High-Throughput Biological Data Pipelines
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-04
+Title: Modularity and Interoperability
+Description: System should employ modularization at data structure, function, and package levels, ensuring interoperable components that support object-oriented programming and seamless integration of diverse data and analysis resources.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. [cite: Methodology section, Design strategies and commitments; Modularization]
+Related Title: Modular Computational Biology Frameworks, Interoperable Software Component Libraries, Object-Oriented Data Analysis Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-05
+Title: Open-Source Licensing and Publication
+Description: System should release software under an open-source license to encourage reproducibility, extension, and public scrutiny, while supporting evolutionary development through versioned packages and automated distribution.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. [cite: Methodology section, Publication and licensing of code; Special concerns section, Reproducible research]
+Related Title: Open-Source Scientific Software Repositories, Version-Controlled Research Toolkits, Publicly Accessible Computational Libraries

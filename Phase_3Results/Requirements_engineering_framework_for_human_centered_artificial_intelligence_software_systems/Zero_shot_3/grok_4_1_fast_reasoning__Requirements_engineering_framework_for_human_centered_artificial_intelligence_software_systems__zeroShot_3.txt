@@ -1,0 +1,56 @@
+REQUIREMENT REPORT
+- Role: Data Needs
+- Requirement ID: NF-01
+- Requirement Title: Data Security and Privacy Settings
+- Requirement Description: Data requirements must include security and privacy settings as part of data needs for AI-based systems.
+- Citation: Page 3, Section 2.3
+- Requirement Related Title: Area#3 Requirements for Data Needs
+
+- Role: Data Needs
+- Requirement ID: NF-02
+- Requirement Title: Data Quality Credibility for Integrity
+- Requirement Description: Ensure data credibility by using truthful data to maintain integrity.
+- Citation: Page 3, Section 2.3
+- Requirement Related Title: Area#3 Requirements for Data Needs
+
+- Role: Data Needs
+- Requirement ID: NF-03
+- Requirement Title: Protect Personal Information
+- Requirement Description: Protect personal information as a data requirement.
+- Citation: Page 14, Table 5 (Data requirements)
+- Requirement Related Title: Data Needs Catalog
+
+- Role: Data Needs
+- Requirement ID: NF-04
+- Requirement Title: Data Compliance with Privacy Laws
+- Requirement Description: Ensure data complies with privacy and law requirements.
+- Citation: Page 14, Table 5 (Data requirements)
+- Requirement Related Title: Data Needs Catalog
+
+- Role: Feedback and User Control
+- Requirement ID: NF-05
+- Requirement Title: Privacy Measures for User Feedback
+- Requirement Description: Implement privacy measures to secure user feedback when requesting it.
+- Citation: Page 4, Section 2.4
+- Requirement Related Title: Area#4 Requirements for Feedback and User Control
+
+- Role: Explainability and Trust
+- Requirement ID: NF-06
+- Requirement Title: GDPR Compliance via Explainability
+- Requirement Description: Provide explainability to ensure compliance with GDPR where required.
+- Citation: Page 4, Section 2.5
+- Requirement Related Title: Area#5 Requirements for Explainability and Trust
+
+- Role: Data Needs
+- Requirement ID: NF-07
+- Requirement Title: Non-Collection of User-Related Information
+- Requirement Description: Do not collect usage or user-related information to protect personal information.
+- Citation: Page 12, Table 4
+- Requirement Related Title: Data Needs for 360 Video Enhancer Case Study
+
+- Role: Data Needs
+- Requirement ID: NF-08
+- Requirement Title: Privacy Compliance in Data Sharing
+- Requirement Description: Videos for training and testing are not shared with end users; users have choice of their own videos to comply with privacy laws.
+- Citation: Page 12, Table 4
+- Requirement Related Title: Data Needs for 360 Video Enhancer Case Study

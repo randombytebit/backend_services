@@ -1,0 +1,70 @@
+REQUIREMENT REPORT
+- Role: Data Handler
+- Requirement ID: FR-01
+- Requirement Title: Protect Personal Information
+- Requirement Description: Implement mechanisms to protect personal information during data collection, usage, and storage for AI-based systems, ensuring no collection of usage or user-related information where unnecessary.
+- Citation: Page 3, Section 2.3; Page 12, Table 4; Appendix, Table 5 (Data Needs)
+- Requirement Related Title: Data Needs
+
+- Role: Feedback Collector
+- Requirement ID: FR-02
+- Requirement Title: Secure User Privacy in Feedback
+- Requirement Description: Apply measures to secure user privacy when requesting and collecting feedback, including explicit, implicit, or calibration types, such as encryption or anonymization of feedback data.
+- Citation: Page 4, Section 2.4; Appendix, Table 5 (Feedback & Control)
+- Requirement Related Title: Feedback and User Control
+
+- Role: Data Explainer
+- Requirement ID: FR-03
+- Requirement Title: Explain Data Access and Sharing
+- Requirement Description: Provide explanations to users and stakeholders on who can access or use personal data, how data is shared between applications, and the implications for privacy.
+- Citation: Page 4, Section 2.5; Appendix, Table 5 (Explainability & Trust)
+- Requirement Related Title: Explainability and Trust
+
+- Role: Compliance Verifier
+- Requirement ID: FR-04
+- Requirement Title: Ensure Data Compliance with Privacy Laws
+- Requirement Description: Verify and document that data handling complies with privacy laws and regulations, such as not sharing training or testing videos with end users and allowing user choice in video selection.
+- Citation: Page 12, Table 4; Appendix, Table 5 (Data Needs)
+- Requirement Related Title: Data Needs
+
+- Role: User Controller
+- Requirement ID: FR-05
+- Requirement Title: Provide Feedback Opt-Out Options
+- Requirement Description: Allow users to dismiss or opt-out of providing feedback, including options for multiple feedback methods, to maintain user control and privacy.
+- Citation: Appendix, Table 5 (Feedback & Control)
+- Requirement Related Title: Feedback and User Control
+
+- Role: System Auditor
+- Requirement ID: NF-01
+- Requirement Title: Data Security Settings
+- Requirement Description: Establish security settings for data used in AI systems, including protection against unauthorized access and ensuring data integrity during collection and processing.
+- Citation: Page 3, Section 2.3
+- Requirement Related Title: Data Needs
+
+- Role: Privacy Manager
+- Requirement ID: NF-02
+- Requirement Title: Privacy Compliance Levels
+- Requirement Description: Maintain high levels of data privacy by complying with legal standards, protecting personal information, and avoiding sharing of sensitive data like user-related videos.
+- Citation: Page 3, Section 2.3; Page 12, Table 4; Appendix, Table 5 (Data Needs)
+- Requirement Related Title: Data Needs
+
+- Role: Data Quality Assurer
+- Requirement ID: NF-03
+- Requirement Title: Data Integrity Benchmarks
+- Requirement Description: Ensure data integrity through benchmarks for credibility (truthful data), consistency (no contradictions), and completeness (all attributes represented), to prevent biases and errors in AI training.
+- Citation: Page 3, Section 2.3; Appendix, Table 5 (Data Needs)
+- Requirement Related Title: Data Needs
+
+- Role: Feedback Privacy Guardian
+- Requirement ID: NF-04
+- Requirement Title: User Privacy in Feedback Mechanisms
+- Requirement Description: Guarantee privacy levels in feedback collection by securing explicit and implicit feedback data, aligning with user mental models, and providing opt-out capabilities.
+- Citation: Page 4, Section 2.4; Appendix, Table 5 (Feedback & Control)
+- Requirement Related Title: Feedback and User Control
+
+- Role: Trust Builder
+- Requirement ID: NF-05
+- Requirement Title: Privacy-Aware Explainability
+- Requirement Description: Achieve resilience in user trust by explaining privacy implications, such as data access controls and sharing policies, while calibrating trust to avoid over-reliance on AI outputs.
+- Citation: Page 4, Section 2.5; Appendix, Table 5 (Explainability & Trust)
+- Requirement Related Title: Explainability and Trust

@@ -1,0 +1,7 @@
+REQUIREMENT REPORT
+- Role: Bioconductor Package Distribution System
+- Requirement ID: FR-01
+- Requirement Title: MD5 Checksum Provision for Package Integrity
+- Requirement Description: Packages are distributed with MD5 checksums to enable verification that package contents have not been altered in transit.
+- Citation: Page 5
+- Requirement Related Title: Automated software distribution

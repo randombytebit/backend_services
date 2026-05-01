@@ -1,0 +1,14 @@
+REQUIREMENT REPORT
+
+Role|Requirement ID|Requirement Title|Requirement Description|Citation|Requirement Related Title
+---|---|---|---|---|---
+System|FR-01|Package Integrity Verification|All packages include MD5 checksums to help with verification that package contents have not been altered in transit.|Page 5, Automated software distribution|Automated software distribution
+Developer|FR-02|Code Open to Public Scrutiny|Software released under an open-source license to ensure code is open to public scrutiny and comment.|Page 7, Publication and licensing of code|Publication and licensing of code
+System|NF-01|Transparency in Computational Processes|Exposure of the entire process in complex pipelines to allow analysis of sensitivity to variations or errors.|Page 2, Transparency|Background
+User|NF-02|Reproducibility of Research Results|Portable source code accompanied by data on which analysis is based for complete reproducibility.|Page 2, Pursuit of reproducibility|Background
+Developer|NF-03|Distributed Development Resilience|Modular design and version control system allowing parallel development without conflicts.|Page 5, Distributed development and recruitment of developers|Distributed development and recruitment of developers
+System|NF-04|Data Integrity Benchmarks|Use of MD5 checksums for packages to ensure integrity during distribution.|Page 5, Automated software distribution|Automated software distribution
+System|NF-05|Adversarial Robustness through Open Source|Open-source release allows community to test, justify, replicate, and work on code to boost innovation and robustness.|Page 2, Background|Background
+System|NF-06|System Resilience via Modularization|Modularization at data structure, function, and package levels to simplify debugging and maintenance.|Page 4, Modularization|Design strategies and commitments
+User|NF-07|Data Privacy Levels in Annotation|Metadata packages handle biological data with version control for consistency and updates.|Page 9, Dynamics of biological annotation|Special concerns
+System|NF-08|Integrity Benchmarks in Reproducible Research|Binding data, software, and scripts in platform-independent formats for replayable research.|Page 8, Reproducible research|Special concerns

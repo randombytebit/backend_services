@@ -1,0 +1,68 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: System Developer
+- **Requirement ID**: FR-01
+- **Requirement Title**: Package Integrity Verification
+- **Requirement Description**: The system must provide MD5 checksums with all distributed packages to verify that package contents have not been altered during transit.
+- **Citation**: Page 5, Automated Software Distribution
+- **Requirement Related Title**: Software Distribution Security
+
+- **Role**: System Developer
+- **Requirement ID**: FR-02
+- **Requirement Title**: Secure Code Repository Access
+- **Requirement Description**: The system must implement a shared code base using Concurrent Versions System (CVS) to allow all project members to access and modify code securely with version management.
+- **Citation**: Page 6, Distributed Development and Recruitment of Developers
+- **Requirement Related Title**: Code Management Security
+
+- **Role**: System Developer
+- **Requirement ID**: FR-03
+- **Requirement Title**: Web Connectivity for Data Access
+- **Requirement Description**: The system must include functions and packages for secure access to online data sources, databases, and web resources via HTTP, XML, and SOAP protocols to ensure tight integration of diverse data and analysis resources.
+- **Citation**: Page 3, WWW Connectivity
+- **Requirement Related Title**: Data Access Security
+
+**Non-Functional Requirements**
+
+- **Role**: Security Analyst
+- **Requirement ID**: NF-01
+- **Requirement Title**: Transparency for Credible Analysis
+- **Requirement Description**: The system must ensure transparency by exposing the entire process of data conversion from low-level structures to statistical databases, allowing for credible work and sensitivity analysis in computational biology and bioinformatics.
+- **Citation**: Page 2, Transparency
+- **Requirement Related Title**: Process Integrity
+
+- **Role**: Security Analyst
+- **Requirement ID**: NF-02
+- **Requirement Title**: Reproducibility of Research
+- **Requirement Description**: The system must support reproducibility by providing portable source code and data with published analyses to enable verification and replication of computational biology and bioinformatics research results.
+- **Citation**: Page 2, Pursuit of Reproducibility
+- **Requirement Related Title**: Research Integrity
+
+- **Role**: Security Analyst
+- **Requirement ID**: NF-03
+- **Requirement Title**: Data Privacy in Metadata Management
+- **Requirement Description**: The system must manage the evolutionary and complex nature of metadata by ensuring updates are distributed and versioned appropriately, protecting data integrity and user access to the most current or specific historical data versions without compromising privacy.
+- **Citation**: Page 9, Dynamics of Biological Annotation
+- **Requirement Related Title**: Metadata Privacy
+
+- **Role**: Security Analyst
+- **Requirement ID**: NF-04
+- **Requirement Title**: System Resilience through Modular Design
+- **Requirement Description**: The system must maintain resilience through modular design at data structure, function, and package levels to minimize the impact of failures in one component on the overall system, ensuring robust operation in computational biology tasks.
+- **Citation**: Page 5, Modularization
+- **Requirement Related Title**: System Robustness
+
+- **Role**: Security Analyst
+- **Requirement ID**: NF-05
+- **Requirement Title**: Adversarial Robustness in Open-Source Environment
+- **Requirement Description**: The system must ensure adversarial robustness by releasing software under an open-source license, encouraging public scrutiny and community-driven identification of vulnerabilities to enhance security in computational biology software.
+- **Citation**: Page 7, Publication and Licensing of Code
+- **Requirement Related Title**: Open-Source Security
+
+- **Role**: Security Analyst
+- **Requirement ID**: NF-06
+- **Requirement Title**: Integrity Benchmarks for Software Testing
+- **Requirement Description**: The system must establish integrity benchmarks through rigorous testing mechanisms within the R package testing system, ensuring non-regressive development and maintaining high standards of software reliability before changes are committed to the central archive.
+- **Citation**: Page 6, Distributed Development and Recruitment of Developers
+- **Requirement Related Title**: Software Integrity

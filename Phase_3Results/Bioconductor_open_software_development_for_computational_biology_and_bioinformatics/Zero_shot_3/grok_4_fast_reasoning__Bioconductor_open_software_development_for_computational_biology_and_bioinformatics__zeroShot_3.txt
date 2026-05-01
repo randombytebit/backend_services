@@ -1,0 +1,42 @@
+REQUIREMENT REPORT
+- Role: Package Distribution System
+- Requirement ID: FR-01
+- Requirement Title: MD5 Checksum Verification
+- Requirement Description: Provide MD5 checksums with all packages to enable verification that package contents have not been altered during transit.
+- Citation: Page 5, Automated software distribution section
+- Requirement Related Title: Package Integrity in Distribution
+
+- Role: Developer
+- Requirement ID: FR-02
+- Requirement Title: Pre-Commit Testing Mechanism
+- Requirement Description: Developers must run all package tests to ensure successful execution before committing changes to the central archive, preventing regression and maintaining code integrity.
+- Citation: Page 6, Distributed development and recruitment of developers section
+- Requirement Related Title: Testing for Coherent Development
+
+- Role: Development Team
+- Requirement ID: FR-03
+- Requirement Title: Version Control with CVS
+- Requirement Description: Utilize Concurrent Versions System (CVS) for managing a shared code base, enabling multiple developers to access, modify, and track changes while ensuring version integrity.
+- Citation: Page 6, Distributed development and recruitment of developers section
+- Requirement Related Title: Shared Archive Management
+
+- Role: Bioconductor Project
+- Requirement ID: NF-01
+- Requirement Title: Remote Reproducibility Benchmark
+- Requirement Description: Achieve remote reproducibility of research results by requiring portable source code and associated data to accompany published analyses, serving as an integrity benchmark for computational results.
+- Citation: Page 1, Abstract; Page 2, Pursuit of reproducibility section
+- Requirement Related Title: Project Goals and Reproducibility Standards
+
+- Role: Software Infrastructure
+- Requirement ID: NF-02
+- Requirement Title: Process Transparency for Integrity
+- Requirement Description: Expose the entire computational pipeline in high-throughput methodologies to enable verification of sensitivity to variations or errors, enhancing system integrity and resilience.
+- Citation: Page 2, Transparency section
+- Requirement Related Title: Credible Work in CBB
+
+- Role: Open-Source Community
+- Requirement ID: NF-03
+- Requirement Title: Public Scrutiny for Adversarial Robustness
+- Requirement Description: Release software under open-source license to allow public scrutiny and comment, improving robustness against undetected errors or vulnerabilities through community review.
+- Citation: Page 7, Publication and licensing of code section; Page 8, Table 1
+- Requirement Related Title: Open-Source Licensing Benefits

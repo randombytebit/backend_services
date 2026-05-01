@@ -1,0 +1,57 @@
+REQUIREMENT REPORT
+
+FR-01  
+Role: Data Manager  
+Requirement ID: FR-01  
+Requirement Title: Protect Personal Information  
+Requirement Description: Ensure that personal information is protected during data collection and usage in AI-based systems.  
+Citation: Page 3, Area#3 requirements for data needs  
+Requirement Related Title: Requirements for data needs  
+
+FR-02  
+Role: Feedback Handler  
+Requirement ID: FR-02  
+Requirement Title: Secure User Privacy in Feedback Collection  
+Requirement Description: Implement measures to secure user privacy when collecting feedback, including surveys, forms, ratings, or implicit feedback.  
+Citation: Page 4, Area#4 requirements for feedback and user control  
+Requirement Related Title: Requirements for feedback and user control  
+
+FR-03  
+Role: Explainability Module  
+Requirement ID: FR-03  
+Requirement Title: Explain Data Access and Sharing  
+Requirement Description: Provide explanations on who can access or use the user’s personal data and how data is shared between applications.  
+Citation: Page 4, Area#5 requirements for explainability and trust  
+Requirement Related Title: Requirements for explainability and trust  
+
+NF-01  
+Role: AI System  
+Requirement ID: NF-01  
+Requirement Title: Data Privacy Levels  
+Requirement Description: Specify privacy settings and ensure compliance with privacy laws, such as protecting personal information and adhering to regulations like GDPR.  
+Citation: Page 3, Area#3 requirements for data needs; Page 4, Area#5 requirements for explainability and trust  
+Requirement Related Title: Requirements for data needs; Requirements for explainability and trust  
+
+NF-02  
+Role: AI System  
+Requirement ID: NF-02  
+Requirement Title: Integrity Benchmarks  
+Requirement Description: Establish data quality components including accuracy (correct data), completeness (all attributes and events available), consistency (no contradictions), credibility (truthful data), and currentness (data collected within the correct time frame).  
+Citation: Page 3, Area#3 requirements for data needs  
+Requirement Related Title: Requirements for data needs  
+
+NF-03  
+Role: AI System  
+Requirement ID: NF-03  
+Requirement Title: System Resilience  
+Requirement Description: Identify and mitigate errors and failures, including background, context, and system limitations, prediction errors, input errors, output errors, and system integration errors, with action plans for handling high-stakes scenarios involving sensitive or private data.  
+Citation: Page 4, Area#6 requirements for errors and failure  
+Requirement Related Title: Requirements for errors and failure  
+
+NF-04  
+Role: AI System  
+Requirement ID: NF-04  
+Requirement Title: Adversarial Robustness  
+Requirement Description: Identify and address biases in data, such as automation, selection, group attribution, and other biases that could lead to discrimination or unfair outcomes, ensuring fairness in data collection and usage.  
+Citation: Page 3, Area#3 requirements for data needs  
+Requirement Related Title: Requirements for data needs

@@ -1,0 +1,118 @@
+Architectural Reasoning:
+- Component Identification: The source text identifies 7 privacy patterns for mobile operating systems, each representing a functional capability (e.g., accessing sensors, collecting user behavior data, guarding personal data, using cloud services, authenticating users, protecting financial information, and securing communications) that requires specific privacy protections as quality constraints. These patterns are derived from empirical study, expert knowledge, literature review, and user feedback, focusing on mobile OS domains like Android, iOS, and Windows Phone.
+- Constraint Identification: Each pattern imposes non-functional constraints (e.g., permission requirements, encryption, authentication, secure transmission) to ensure privacy, balancing usability, security, and user control. These are presented as solutions in the RePa template, emphasizing tradeoffs like usability vs. security.
+- Functional Logic (FRs): The functional requirements describe core system or application capabilities (e.g., accessing resources or performing data operations), with roles assigned to system components (e.g., System, Application) that perform these actions. These are logically consistent with the system's design for mobile OS, where applications interact with hardware, data, and services.
+- Quality Logic (NFRs): The non-functional requirements specify privacy constraints (e.g., authorization, encryption, notification) that must be satisfied for the functional capabilities to operate securely. Roles are primarily the System enforcing these constraints, ensuring consistency with privacy protection goals in mobile environments.
+- Domain Mapping: Functional capabilities relate to domains like mobile app development, sensor integration, and data handling in smartphones/tablets. Non-functional constraints apply to privacy-sensitive areas like secure mobile payments, cloud backups, and user authentication in systems such as Android permission models or iOS privacy settings. Each requirement has a unique related title based on contextual examples, avoiding overlap.
+
+Functional Requirement
+Role: Application
+Requirement ID: FR-01
+Title: Use of Sensors or Portals
+Description: Applications must be able to access and manipulate device sensors and portals (e.g., microphone, camera, Bluetooth) for functionality.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table I, Page 2)
+Related Title: Mobile App Sensor Integration, Smartwatch Health Monitoring
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Authorized Use of Sensors or Portals
+Description: The system shall demand applications to explicitly ask for user permission to access sensors and portals, and provide settings to manage these permissions, preventing unauthorized use while allowing user control.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table I, Page 2)
+Related Title: Android Permission System, IoT Device Access Control
+
+Functional Requirement
+Role: Application
+Requirement ID: FR-02
+Title: User Behavior Information Collection
+Description: Applications must collect and analyze user behavior information (e.g., for recommendations or analytics) from mobile devices.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table II, Page 3)
+Related Title: Mobile Analytics Platforms, Personalized Advertising Apps
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Avoidance of Privacy Leakage in User Behavior Information Collection
+Description: The system shall notify users specifically about what information is collected for behavior analysis, prohibit collection of sensitive data like passwords, and restrict the scope to prevent leakage.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table II, Page 3)
+Related Title: GDPR-Compliant Data Collection, Behavioral Tracking in Social Media Apps
+
+Functional Requirement
+Role: Application
+Requirement ID: FR-03
+Title: Access to Personal Mobile Data
+Description: Applications must access user files, data, and credentials (e.g., messages, contacts, photos, location) on mobile devices.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table III, Page 3)
+Related Title: Contact Management Apps, Location-Based Services
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Guard for Personal Mobile Data
+Description: The system shall warn users when applications intend to access personal data or credentials, require explicit permission, and allow users to withdraw or regrant permissions later.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table III, Page 3)
+Related Title: iOS Privacy Settings, Secure File Sharing in Mobile OS
+
+Functional Requirement
+Role: Application
+Requirement ID: FR-04
+Title: Use of Mobile Cloud Services
+Description: Applications must upload, store, and retrieve user data via cloud services for backup and synchronization on mobile devices.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table IV, Page 3)
+Related Title: Cloud Backup for Photos, Remote Data Sync in Apps
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-04
+Title: Privacy Protection over Mobile Cloud Services
+Description: The system shall encrypt data before uploading to cloud servers, use secure tokens for authentication, notify users about backed-up data, and allow deletion of unwanted data.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table IV, Page 3)
+Related Title: Encrypted Cloud Storage, Secure Authentication in Mobile Banking
+
+Functional Requirement
+Role: User
+Requirement ID: FR-05
+Title: Access to Device, Folders, Applications, or Data
+Description: Users must access mobile devices, folders, applications, or privacy-sensitive data for daily operations.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table V, Page 4)
+Related Title: Device Unlock Mechanisms, Secure Folder Access
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-05
+Title: Authentication of Mobile Users
+Description: The system shall require authentication (e.g., passwords, biometrics) for device access, folders, applications, and sensitive data, using strong encryption and appropriate length requirements.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table V, Page 4)
+Related Title: Biometric Authentication in Smartphones, Password-Protected Apps
+
+Functional Requirement
+Role: Application
+Requirement ID: FR-06
+Title: Handling Financial Information
+Description: Applications must process and transmit user financial information (e.g., account details, payments) on mobile devices.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table VI, Page 4)
+Related Title: Mobile Payment Apps, E-Banking Transactions
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-06
+Title: Financial Information Protection
+Description: The system shall prevent applications from storing financial information locally, block transmission to unauthorized parties, and ensure secure transmission of credentials and data.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table VI, Page 4)
+Related Title: Secure Mobile Wallets, PCI-Compliant Payment Systems
+
+Functional Requirement
+Role: Application
+Requirement ID: FR-07
+Title: Mobile Communication
+Description: Applications must transmit data and messages to other participants or servers via mobile networks.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table VII, Page 4)
+Related Title: Instant Messaging Apps, VoIP Services
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-07
+Title: Mobile Communication Secrecy
+Description: The system shall require applications to transmit privacy-sensitive data using secure channels (e.g., SSL), preventing interception via insecure methods.
+Citation: Xiao Xuan, Ye Wang, Shanping Li. Privacy Requirements Patterns for Mobile Operating Systems. 2014 IEEE. (Table VII, Page 4)
+Related Title: Encrypted Messaging Platforms, Secure API Calls in Mobile Apps

@@ -1,0 +1,39 @@
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Security
+Description: System should ensure data security and privacy settings to protect against threats related to data handling in AI-based systems.
+Citation: Page 3, Area#3 requirements for data needs
+Related Title: Secure AI Systems, Data-Protected ML Applications
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Fairness
+Description: System should identify and address biases in data, such as automation, selection, and group attribution biases, to ensure fairness and avoid discrimination.
+Citation: Page 3, Area#3 requirements for data needs
+Related Title: Fair AI Systems, Bias-Free Machine Learning
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Explainability
+Description: System should provide explanations for predictions, limitations, and capabilities to users and stakeholders, including data used and changes with updates.
+Citation: Page 4, Area#5 requirements for explainability and trust
+Related Title: Explainable AI, Transparent ML Systems
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-04
+Title: Error Mitigation
+Description: System should identify error types and sources, such as background, context, system limitations, prediction errors, and input/output errors, and provide action plans to mitigate them.
+Citation: Page 4, Area#6 requirements for errors and failure
+Related Title: Robust AI Systems, Error-Resilient Software
+
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Video Quality Enhancement
+Description: System should improve the resolution of 360° videos by four times to enhance quality of experience for VR users.
+Citation: Page 9, Table 2
+Related Title: VR Video Enhancement Systems, Immersive Video Applications

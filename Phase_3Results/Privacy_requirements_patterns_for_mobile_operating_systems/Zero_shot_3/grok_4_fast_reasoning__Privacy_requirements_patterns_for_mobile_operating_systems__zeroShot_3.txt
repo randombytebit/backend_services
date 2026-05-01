@@ -1,0 +1,98 @@
+REQUIREMENT REPORT
+- Role: System
+- Requirement ID: FR-01
+- Requirement Title: Authorized Use of Sensors or Portals
+- Requirement Description: The system shall demand the application to explicitly ask for permission from the user to access the sensors and portals. The system shall also provide a host of settings to manage these permissions.
+- Citation: Table I
+- Requirement Related Title: Privacy Pattern 1: Authorized Use of Sensors or Portals
+
+- Role: System
+- Requirement ID: FR-02
+- Requirement Title: Avoidance of Privacy Leakage in User Behavior Information Collection
+- Requirement Description: The system shall notice user specifically and distinctly what kinds of user information is needed for behavior analysis. The most sensitive user information (e.g. password) shall be strictly prohibited to touch and collect.
+- Citation: Table II
+- Requirement Related Title: Privacy Pattern 2: Avoidance of Privacy Leakage in User Behavior Information Collection
+
+- Role: System
+- Requirement ID: FR-03
+- Requirement Title: Guard for Personal Mobile Data
+- Requirement Description: The system shall provide warnings to the user when an application intends to access user files, data and credentials. If and only if the user has granted the permission, the application can touch the corresponding resources. The user can withdraw or regrant any permissions in somewhere of the system later.
+- Citation: Table III
+- Requirement Related Title: Privacy Pattern 3: Guard for Personal Mobile Data
+
+- Role: System
+- Requirement ID: FR-04
+- Requirement Title: Privacy Protection over Mobile Cloud Services
+- Requirement Description: The system shall ensure confidentiality of data backup. The data encryption must be performed before the data sending over the Internet. Secure tokens shall be used for authentication. The user should be aware what data will be backed up to the cloud. The user also can stop the backup function, and delete unwanted data from cloud with her device any time.
+- Citation: Table IV
+- Requirement Related Title: Privacy Pattern 4: Privacy Protection over Mobile Cloud Services
+
+- Role: System
+- Requirement ID: FR-05
+- Requirement Title: Authentication of Mobile Users
+- Requirement Description: The system shall provide authentication for the device, folders, applications and privacy-sensitive data. The encryption algorithm of password shall be strong. The length requirement shall be set appropriately.
+- Citation: Table V
+- Requirement Related Title: Privacy Pattern 5: Authentication of Mobile Users
+
+- Role: System
+- Requirement ID: FR-06
+- Requirement Title: Financial Information Protection
+- Requirement Description: The system shall strictly prevent any application to store the user’s financial information permanently in local. The application cannot transmit user financial information to any invalid or unauthenticated parties. The credentials and data must be transmitted in a secure way.
+- Citation: Table VI
+- Requirement Related Title: Privacy Pattern 6: Financial Information Protection
+
+- Role: System
+- Requirement ID: FR-07
+- Requirement Title: Mobile Communication Secrecy
+- Requirement Description: The system shall request the application transmit privacy-sensitive data with secure channel forcibly.
+- Citation: Table VII
+- Requirement Related Title: Privacy Pattern 7: Mobile Communication Secrecy
+
+- Role: System
+- Requirement ID: NF-01
+- Requirement Title: Strict Control of Access to Sensors and Portals
+- Requirement Description: The access to the device’s sensors or portals must be strictly controlled to prevent unauthorized use.
+- Citation: Table I
+- Requirement Related Title: Privacy Pattern 1: Authorized Use of Sensors or Portals
+
+- Role: System
+- Requirement ID: NF-02
+- Requirement Title: Constraints on User Behavior Information Collection
+- Requirement Description: The constraint for the collection process should be set up and always followed. The scope of collectable information should be restricted to prevent privacy leakage.
+- Citation: Table II
+- Requirement Related Title: Privacy Pattern 2: Avoidance of Privacy Leakage in User Behavior Information Collection
+
+- Role: System
+- Requirement ID: NF-03
+- Requirement Title: Strict Control of Access to Personal Data
+- Requirement Description: The access to the user’s files/data/credentials must be strictly controlled to protect personal mobile data.
+- Citation: Table III
+- Requirement Related Title: Privacy Pattern 3: Guard for Personal Mobile Data
+
+- Role: System
+- Requirement ID: NF-04
+- Requirement Title: Confidentiality in Mobile Cloud Services
+- Requirement Description: There is a tradeoff between automated backup and customized setting, as well as between data recoverability and user privacy, requiring ensured confidentiality over mobile cloud services.
+- Citation: Table IV
+- Requirement Related Title: Privacy Pattern 4: Privacy Protection over Mobile Cloud Services
+
+- Role: System
+- Requirement ID: NF-05
+- Requirement Title: Tradeoff Between Usability and Security in Authentication
+- Requirement Description: There is a tradeoff between usability and security in authentication to prevent unauthenticated access to user data and files.
+- Citation: Table V
+- Requirement Related Title: Privacy Pattern 5: Authentication of Mobile Users
+
+- Role: System
+- Requirement ID: NF-06
+- Requirement Title: Enhanced Security for Financial Information
+- Requirement Description: The user’s financial information must be protected in a more secure way to ensure it will never be revealed.
+- Citation: Table VI
+- Requirement Related Title: Privacy Pattern 6: Financial Information Protection
+
+- Role: System
+- Requirement ID: NF-07
+- Requirement Title: Secure Transport for Communication
+- Requirement Description: The communication between the device and servers must be protected with secure transport techniques, despite increased development cost.
+- Citation: Table VII
+- Requirement Related Title: Privacy Pattern 7: Mobile Communication Secrecy

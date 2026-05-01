@@ -1,0 +1,39 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Reproducibility  
+Description: The system must promote the achievement of remote reproducibility of research results by requiring that published analyses are accompanied by portable source code, data, and explicit instructions or scripts that can regenerate figures and tables, enabling verification, extension, and robustness checks without laborious reimplementation.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5(10), R80. (Page 2, Pursuit of reproducibility; Page 8, Reproducible research)  
+Related Title: Microarray Expression Analysis Pipeline, Genomic Sequencing Validation System  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Transparency  
+Description: The system must ensure transparency by exposing the entire computational pipeline, from low-level data structures (e.g., microarray scan images) to high-level statistical analyses and databases, allowing assessment of sensitivity to variations or errors in processing steps for credible scientific work.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5(10), R80. (Page 2, Transparency)  
+Related Title: High-Throughput Omics Data Processing Workflow, Biological Experiment Audit Trail System  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Efficiency of Development  
+Description: The system must support efficient development through an open-source environment that enables reading, modification, and extension of software and data resources, facilitating recruitment, training of new developers, and rapid innovation in computational biology and bioinformatics methods.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5(10), R80. (Page 2, Efficiency of development; Page 6, Distributed development and recruitment of developers)  
+Related Title: Collaborative Bioinformatics Toolkit, Modular Genomic Modeling Platform  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Collaborative Software Creation  
+Description: The system must enable the collaborative creation and deployment of extensible software packages for computational biology and bioinformatics, including data management, transformation, modeling, and integration of diverse resources like machine learning methods, using modular R packages with defined APIs, version control via CVS, and automated testing to ensure interoperability.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5(10), R80. (Abstract; Page 2, Background; Page 6, Distributed development and recruitment of developers)  
+Related Title: Open-Source Microarray Analysis Suite, Distributed Gene Expression Pipeline  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Reusability and Extensibility  
+Description: The system must promote reuse of exogenous resources and modular components (e.g., data structures like exprSet, interfaces to external libraries such as BOOST and Graphviz) to avoid reimplementation, ensure interoperability across packages, and allow extension for new functionalities in high-throughput data analysis, while handling evolving biological metadata through automated package updates and versioning.  
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5(10), R80. (Page 4, Infrastructure base; Page 6, Reuse of exogenous resources; Page 9, Dynamics of biological annotation)  
+Related Title: Integrated Proteomics Data Integration System, Evolutionary Annotation Management Tool

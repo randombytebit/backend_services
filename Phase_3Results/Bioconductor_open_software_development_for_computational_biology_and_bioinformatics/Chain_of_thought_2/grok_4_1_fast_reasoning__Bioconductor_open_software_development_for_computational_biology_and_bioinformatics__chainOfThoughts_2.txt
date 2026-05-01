@@ -1,0 +1,70 @@
+### Architectural Reasoning:
+- **Component Identification**: The source text repeatedly identifies core functional capabilities of the Bioconductor system, such as creating extensible software for CBB (Page 1, Abstract; Page 2, Background), providing reusable data structures like `exprSet` for microarray data management (Page 4), annotation packages like `hgu95av2` for metadata access (Page 4), and analysis workflows (e.g., `affy`, `limma`, Pages 12-14 example). These are explicit system features enabling data handling, analysis, and integration.
+- **Constraint Identification**: Non-functional qualities are emphasized, including transparency (expose entire process, Page 2), reproducibility (portable source code with data, Sweave/vignettes, Pages 2,5,7-8), efficiency of development (modularization, reuse, distributed dev, Pages 2,4-7), collaborative development (open-source, CVS, Pages 1-2,6-7), and automated distribution/updates (reposTools, Pages 5-6).
+- **Functional Logic**: Primary role is the 'System' (Bioconductor/R ecosystem) performing tasks like data binding (`exprSet`), metadata retrieval, package-based analysis, and workflow execution (e.g., normalization, differential expression via `lmFit/eBayes`).
+- **Quality Logic**: The 'System' must ensure outputs are transparent, reproducible (via executable docs), efficient (parallel support, modularity), and accessible (reduced barriers via training/vignettes, Pages 8-10).
+- **Domain Mapping**: Functional tasks apply to microarray analysis (leukemia example, Pages 12-14), high-throughput assays (SAGE, array-CGH). Qualities map to reproducible research pipelines (e.g., genomics workflows), collaborative bioinformatics platforms (e.g., BioPerl integration), and scalable CBB environments (e.g., parallel cluster computing).
+
+**Functional Requirement**  
+**Role**: System  
+**Requirement ID**: FR-01  
+**Title**: Extensible Software for Computational Biology and Bioinformatics  
+**Description**: System must enable collaborative creation of extensible software supporting data acquisition, management, transformation, modeling, and integration for high-throughput assays like DNA microarrays.  
+**Citation**: Page 1 (Abstract), Page 2 (Background: "creation of a durable and flexible software development and deployment environment").  
+**Related Title**: Microarray Data Analysis Pipeline, High-Throughput Genomics Workflow  
+
+**Non-Functional Requirement**  
+**Role**: System  
+**Requirement ID**: NFR-01  
+**Title**: Transparency  
+**Description**: System must expose the entire computational process (e.g., from raw images to statistical outputs) to allow verification of sensitivity to pipeline variations.  
+**Citation**: Page 2 (Background: "Credible work... requires exposure of the entire process").  
+**Related Title**: Microarray Preprocessing Pipeline, High-Throughput Assay Validation System  
+
+**Functional Requirement**  
+**Role**: System  
+**Requirement ID**: FR-02  
+**Title**: exprSet Data Structure  
+**Description**: System must provide `exprSet` class to bind array-based expression measurements with covariate, administrative, and metadata (e.g., phenoData, annotation) for microarray collections, enabling subsetting, filtering, and analysis.  
+**Citation**: Page 4 (Infrastructure: "An exprSet is a data structure that binds together...").  
+**Related Title**: Affymetrix Microarray Handler, Gene Expression Data Manager  
+
+**Non-Functional Requirement**  
+**Role**: System  
+**Requirement ID**: NFR-02  
+**Title**: Reproducibility  
+**Description**: System must support remote reproducibility by providing portable source code, data, and scripts (e.g., Sweave vignettes) accompanying analyses, allowing replay and variation testing.  
+**Citation**: Page 2 (Background: "Portable source code should accompany each published analysis"), Pages 5,7-8 (Reproducible research).  
+**Related Title**: Published Genomics Analysis Compendium, Reproducible Microarray Study Replayer  
+
+**Functional Requirement**  
+**Role**: System  
+**Requirement ID**: FR-03  
+**Title**: Annotation and Metadata Packages  
+**Description**: System must provide packages like `hgu95av2` for high-performance retrieval of biological metadata (e.g., GO terms, chromosomal locations) mapped to probes, integrable with `exprSet`.  
+**Citation**: Page 4 (Infrastructure: "hgu95av2 package... hashed environments providing... metadata").  
+**Related Title**: Gene Ontology Enrichment Analyzer, Probe-to-Biology Mapper  
+
+**Non-Functional Requirement**  
+**Role**: System  
+**Requirement ID**: NFR-03  
+**Title**: Efficiency of Development  
+**Description**: System must promote efficiency via modularization (data structures, functions, packages), reuse of exogenous resources (e.g., BOOST, Graphviz interfaces), and distributed development (CVS, testing protocols).  
+**Citation**: Page 2 (Background: "Efficiency of development"), Pages 4-7 (Design strategies, Distributed development, Reuse).  
+**Related Title**: Open-Source Bioinformatics Toolkit, Parallel Graph Analysis System  
+
+**Functional Requirement**  
+**Role**: System  
+**Requirement ID**: FR-04  
+**Title**: Automated Package Distribution and Updates  
+**Description**: System must support just-in-time installation of packages and dependencies (via reposTools), with version management, MD5 checksums, and coordinated bi-annual releases.  
+**Citation**: Page 5 (Automated software distribution: "Automatic updating... obtain all package dependencies").  
+**Related Title**: R/CRAN-Bioconductor Repository Manager, Dependency-Aware Software Installer  
+
+**Non-Functional Requirement**  
+**Role**: System  
+**Requirement ID**: NFR-04  
+**Title**: Collaborative Development and Reduced Barriers  
+**Description**: System must foster collaborative development, reduce entry barriers via training materials/vignettes, and support user needs through mailing lists and searchable archives.  
+**Citation**: Page 1 (Abstract: "fostering collaborative development... reducing barriers"), Pages 9-10 (Training, Responding to user needs).  
+**Related Title**: Interdisciplinary CBB Training Platform, Community Bioinformatics Forum

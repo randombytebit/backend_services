@@ -1,0 +1,71 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Unbiased and Inclusive Outputs  
+Description: The AI-based system must incorporate human-centered aspects such as age, gender, ethnicity, socio-economic status, education, language, culture, emotions, and personality to avoid biased and non-inclusive outcomes, ensuring discriminatory decision procedures are prevented even if computational processes are unbiased.  
+Citation: Section 1, Introduction (Ahmad et al., 2023)  
+Related Title: Facial Recognition System for Border Control  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Data Security and Privacy  
+Description: The system must ensure data security and privacy settings during collection, including protecting personal information, complying with privacy laws (e.g., GDPR), and responsibly sourcing data to prevent unauthorized access or sharing.  
+Citation: Section 2.3, Area#3 Requirements for Data Needs (Ahmad et al., 2023)  
+Related Title: Healthcare AI Diagnostic Tool  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Fairness in Data Usage  
+Description: The system must identify and report biases in data (e.g., automation bias, selection bias, group attribution) and ensure diverse, representative data to avoid discrimination, under- or over-representation, and missing features.  
+Citation: Section 2.3, Area#3 Requirements for Data Needs; Appendix Table 5 (Ahmad et al., 2023)  
+Related Title: Hiring Algorithm for Corporate Recruitment  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Explainability and Trust Calibration  
+Description: The system must provide explanations for predictions, limitations, capabilities, and data usage to stakeholders and users, including confidence levels (e.g., numerical, categorical), consequences of actions, and trade-offs with performance or cost, while calibrating trust to avoid over-trusting and comply with regulations like GDPR.  
+Citation: Section 2.5, Area#5 Requirements for Explainability and Trust (Ahmad et al., 2023)  
+Related Title: Autonomous Vehicle Decision Support System  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Error Mitigation and Failure Handling  
+Description: The system must identify error sources (e.g., prediction errors, data errors, input/output errors, system integration errors) and provide mitigation strategies, including action plans for high-stakes failures (e.g., health, safety), user control options, and suggestions for fixes to handle background, context, and perceived errors.  
+Citation: Section 2.6, Area#6 Requirements for Errors and Failure (Ahmad et al., 2023)  
+Related Title: Medical Image Analysis System  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Data Quality Assurance  
+Description: The system must maintain data quality through accuracy (correctness), completeness (all attributes/events represented), consistency (no contradictions), credibility (truthful/authentic), and currentness (timely collection), including cleaning for biases and ensuring diversity in quantity.  
+Citation: Section 2.3, Area#3 Requirements for Data Needs; Appendix Table 5 (Ahmad et al., 2023)  
+Related Title: Financial Fraud Detection System  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: User Needs Elicitation and Automation  
+Description: The system must automate tasks unsuitable for human oversight (e.g., proactive or reactive interactions) while augmenting user enjoyment/control in high-stakes scenarios, evaluating reward functions (e.g., precision vs. recall trade-offs) and documenting capabilities, limitations, and pitfalls for inclusion.  
+Citation: Section 2.1, Area#1 Requirements for User Needs; Table 2 (Ahmad et al., 2023)  
+Related Title: Virtual Reality Video Enhancement System  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Model Selection and Tuning  
+Description: The system must select and train models (e.g., supervised regression) optimizing for accuracy/explainability, balancing overfitting/underfitting, incorporating user feedback for tuning (e.g., parameter adjustments, architecture changes), and evaluating scalability with tools like PSNR/SSIM.  
+Citation: Section 2.2, Area#2 Requirements for Model Needs; Table 3 (Ahmad et al., 2023)  
+Related Title: Predictive Maintenance System for Industrial Equipment  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Feedback and User Control Integration  
+Description: The system must collect and integrate explicit/implicit/calibration feedback (e.g., ratings, interactions) for model tuning, secure privacy during collection, provide user control options (e.g., dismissal, preferences adjustment) in high-stakes scenarios, and evaluate impact on AI behavior.  
+Citation: Section 2.4, Area#4 Requirements for Feedback and User Control; Appendix Table 5 (Ahmad et al., 2023)  
+Related Title: Personalized Recommendation Engine for E-Commerce

@@ -1,0 +1,62 @@
+Architectural Reasoning:
+- Component Identification: The source text outlines 7 privacy requirements patterns for mobile operating systems, derived from expert knowledge, literature review, and user feedback. These patterns represent core capabilities and constraints focused on privacy protection in mobile contexts.
+- Constraint Identification: Each pattern includes a problem, forces (e.g., tradeoffs between security and usability), and a solution that imposes quality constraints like controlled access, encryption, and user notifications to mitigate privacy risks.
+- Functional Logic: While the patterns describe system behaviors (e.g., demanding permissions, providing authentication), these are primarily in service of privacy, which is a non-functional quality. No pure functional requirements (e.g., core system features unrelated to quality) are explicitly separated; thus, I map them as NFRs with functional elements embedded in the descriptions.
+- Quality Logic: The patterns emphasize non-functional qualities such as confidentiality, access control, and secure communication, ensuring the system satisfies privacy constraints across all RE activities. They are logically consistent with the role of the "System" (mobile OS) enforcing these to protect users.
+- Domain Mapping: These patterns apply to mobile operating systems and extend to related domains like wearable devices, IoT systems, and cloud-integrated apps. For each, I generate contextual examples based on the pattern's focus (e.g., sensor access for hardware-heavy systems, authentication for user-centric security), ensuring consistency with the paper's mobile privacy emphasis without introducing extra requirements.
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Authorized Use of Sensors or Portals
+Description: The system shall demand the application to explicitly ask for permission from the user to access the sensors and portals. The system shall also provide a host of settings to manage these permissions.
+Citation: Table I, Privacy Requirements Patterns for Mobile Operating Systems, Xiao Xuan et al., RePa 2014.
+Related Title: Mobile Device Sensor Management System, Bluetooth Access Control System, Camera Permission System
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Avoidance of Privacy Leakage in User Behavior Information Collection
+Description: The system shall notice user specifically and distinctly what kinds of user information is needed for behavior analysis. The most sensitive user information (e.g. password) shall be strictly prohibited to touch and collect.
+Citation: Table II, Privacy Requirements Patterns for Mobile Operating Systems, Xiao Xuan et al., RePa 2014.
+Related Title: User Behavior Analytics Platform, Advertisement Recommendation System, Service Personalization Engine
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Guard for Personal Mobile Data
+Description: The system shall provide warnings to the user when an application intend to access user files, data and credentials. If and only if the user has granted the permission, the application can touch the corresponding resources. The user can withdraw or regrant any permissions in somewhere of the system later.
+Citation: Table III, Privacy Requirements Patterns for Mobile Operating Systems, Xiao Xuan et al., RePa 2014.
+Related Title: Personal Data Protection Module, Contact List Access Controller, Location Information Guardian
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-04
+Title: Privacy Protection over Mobile Cloud Services
+Description: The system shall ensure confidentiality of data backup. The data encryption must be performed before the data sending over the Internet. Secure tokens shall be used for authentication. The user should be awared what data will be backed up to the cloud. The user also can stop the backup function, and delete unwanted data from cloud with her device any time.
+Citation: Table IV, Privacy Requirements Patterns for Mobile Operating Systems, Xiao Xuan et al., RePa 2014.
+Related Title: Cloud Backup Security System, Mobile Data Synchronization Service, Remote Storage Privacy Manager
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-05
+Title: Authentication of Mobile Users
+Description: The system shall provide authentication for the device, folders, applications and privacy-sensitive data. The encryption algorithm of password shall be strong. The longth requirment shall be set appropriately.
+Citation: Table V, Privacy Requirements Patterns for Mobile Operating Systems, Xiao Xuan et al., RePa 2014.
+Related Title: Device Lock Authentication System, Biometric Access Control, Password Management Module
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-06
+Title: Financial Information Protection
+Description: The system shall strictly prevent any application to store the user’s financial information permanently in local. The application cannot transmit user financial information to any invalid or unauthenticated parties. The credentials and data must be transmited in a secure way.
+Citation: Table VI, Privacy Requirements Patterns for Mobile Operating Systems, Xiao Xuan et al., RePa 2014.
+Related Title: Mobile Payment Security System, E-Banking Data Protector, Financial Credential Encryption Service
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-07
+Title: Mobile Communication Secrecy
+Description: The system shall request the application transmit privacy-sensitive data with secure channel forcibly.
+Citation: Table VII, Privacy Requirements Patterns for Mobile Operating Systems, Xiao Xuan et al., RePa 2014.
+Related Title: Secure Communication Protocol Enforcer, Instant Messaging Encryption System, Data Transmission Security Layer

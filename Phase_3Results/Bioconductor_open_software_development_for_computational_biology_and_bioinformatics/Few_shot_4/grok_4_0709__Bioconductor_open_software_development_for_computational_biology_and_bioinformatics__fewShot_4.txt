@@ -1,0 +1,159 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: Transparency  
+Description: System should ensure high-throughput methodologies in computational biology and bioinformatics are fully exposed, including all steps in the conversion of low-level information structures to statistical databases, to allow sensitivity analysis and credible work.  
+Citation: Background section, Page 2.  
+Related Title: Microarray Data Processing Pipeline in Pharmaceutical Research  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Reproducibility  
+Description: System should support pursuit of reproducibility by providing portable source code coupled with data for published analyses, enabling accuracy checks through complete obedience to experimental protocols in computational biology and bioinformatics.  
+Citation: Background section, Page 2.  
+Related Title: Genomic Research Validation in Clinical Trials  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Efficiency of Development  
+Description: System should facilitate efficiency in development by allowing software and data resources to be read, modified, and extended in an open-source environment, aiding recruitment and training through good documentation protocols.  
+Citation: Background section, Page 2.  
+Related Title: Collaborative Software Extension in Bioinformatics Consortia  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-01  
+Title: Language Selection for Prototyping  
+Description: System should use R as the programming environment to provide good numerical capabilities, flexible visualization, access to databases, and a wide range of statistical and mathematical algorithms for prototyping computational methods in bioinformatics.  
+Citation: Methodology - Language selection section, Page 3.  
+Related Title: DNA Microarray Data Management in Research Labs  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-02  
+Title: Packaging Protocol  
+Description: System should include a packaging system for bundling related software components and documentation, supporting creation, testing, and distribution with protocol compliance, test-based validation, version identification, and package interdependencies.  
+Citation: Methodology - Language selection section, Page 3.  
+Related Title: Statistical Software Distribution in Academic Networks  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-03  
+Title: Object-Oriented Programming Support  
+Description: System should adopt formal object-oriented programming (S4 system) to ensure reliable package interoperability, defining classes with typed slots and inheritance relationships for handling complexity in computational biology and bioinformatics tasks.  
+Citation: Methodology - Language selection section, Page 3.  
+Related Title: Data Structure Management in High-Throughput Genomics  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-04  
+Title: WWW Connectivity  
+Description: System should provide functions and packages for accessing online data sources, databases, and web resources via HTTP, XML, and SOAP, enabling tight integration of diverse data, annotation, and analysis resources.  
+Citation: Methodology - Language selection section, Page 3.  
+Related Title: Biological Database Integration in Drug Discovery  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-05  
+Title: Statistical Simulation and Modeling Support  
+Description: System should offer well-tested random number generators and machine learning algorithms, adaptable to computational biology and bioinformatics requirements with minimal effort.  
+Citation: Methodology - Language selection section, Page 3.  
+Related Title: Stochastic Simulations in Population Genetics  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-06  
+Title: Visualization Support  
+Description: System should provide data and model visualization capabilities, including interactive plots for rendering genes at chromosomal locations and heatmaps, with plans for further interactivity.  
+Citation: Methodology - Language selection section, Page 3.  
+Related Title: Gene Expression Visualization in Cancer Research  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-07  
+Title: Support for Concurrent Computation  
+Description: System should enable parallel statistical computing through packages like snow and rpvm, simplifying development of portable code for computing on clusters, including parallel random number generation.  
+Citation: Methodology - Language selection section, Pages 3-4.  
+Related Title: High-Performance Computing in Proteomics Analysis  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Modularization  
+Description: System should be designed with modularization at data structure, function, and package levels, ensuring minimally sufficient content, single-task functions, and isolatable packages with documented interdependencies.  
+Citation: Design strategies and commitments section, Page 5.  
+Related Title: Software Component Reuse in Medical Imaging Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Multiscale and Executable Documentation  
+Description: System should provide multiscale documentation including vignettes for detailed task processing, using Sweave for dynamic generation, with interactive access via tools like vExplorer for navigation and evaluation.  
+Citation: Design strategies and commitments section, Page 5.  
+Related Title: Reproducible Documentation in Epidemiological Studies  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Automated Software Distribution  
+Description: System should support automated updating of packages, retrieval of dependencies, and verification via MD5 checksums, extending R/CRAN infrastructure for user-level management.  
+Citation: Design strategies and commitments section, Pages 5-6.  
+Related Title: Package Management in Secure Government Research Networks  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-08  
+Title: Distributed Development  
+Description: System should facilitate distributed development using tools like Concurrent Versions System for shared code base, version management, and testing to ensure non-regressive changes across geographically separated developers.  
+Citation: Distributed development and recruitment of developers section, Page 6.  
+Related Title: Collaborative Code Development in International Genomics Projects  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-09  
+Title: Reuse of Exogenous Resources  
+Description: System should reuse and interface with external libraries (e.g., BOOST, Graphviz) for graph algorithms, avoiding re-implementation and promoting structured paradigms for cross-project collaboration.  
+Citation: Reuse of exogenous resources section, Pages 6-7.  
+Related Title: Graph Algorithm Integration in Pathway Analysis Tools  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-07  
+Title: Publication and Licensing  
+Description: System should release software under an open-source license to encourage reproducibility, public scrutiny, bug fixes, and extensions, with coordinated biannual releases distinguishing stable and development versions.  
+Citation: Publication and licensing of code section, Page 7.  
+Related Title: Open-Source Licensing in Biomedical Software Ecosystems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-08  
+Title: Reproducible Research  
+Description: System should support reproducible research by distributing data with portable code and scripts via R packages, enabling regeneration of figures and tables for verification and robustness checks.  
+Citation: Special concerns - Reproducible research section, Pages 7-8.  
+Related Title: Computational Reproducibility in Clinical Data Analysis  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-09  
+Title: Dynamics of Biological Annotation  
+Description: System should handle evolving metadata through semi-automatic package building, version numbering, and synchronization, ensuring uniformity and rapid updates without relying solely on online sources.  
+Citation: Special concerns - Dynamics of biological annotation section, Page 9.  
+Related Title: Metadata Management in Dynamic Genomic Databases  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-10  
+Title: Training  
+Description: System should provide modular course materials, vignettes, and navigable documents for training users in biology, computer science, and statistics, facilitating transitions from users to developers.  
+Citation: Special concerns - Training section, Pages 9-10.  
+Related Title: Educational Tools in Interdisciplinary Bioinformatics Training  
+
+Functional Requirement  
+Role: System  
+Requirement ID: FR-11  
+Title: Responding to User Needs  
+Description: System should address user needs via mailing lists, searchable archives, automated installation tools (e.g., reposTools), and interactive documentation to support evolving requirements in computational biology and bioinformatics.  
+Citation: Special concerns - Responding to user needs section, Page 10.  
+Related Title: User Support Systems in Large-Scale Research Platforms

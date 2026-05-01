@@ -9,7 +9,7 @@ const XAI_API_KEY = process.env.XAI_API_KEY;
 const MODEL = ["grok-4-1-fast-reasoning", "grok-code-fast-1", "grok-4-fast-reasoning", "grok-4-0709", "grok-3"];
 const TC_MODEL = null;
 
-function phase1_zeroshotPrompt() {
+function phase1_tcModelEvaluation() {
     return `
     You are an expert requirements engineer specialized in extracting functional and non-functional requirements from academic research papers, documents, or PDFs in AI, machine learning, and related fields.
     
@@ -37,7 +37,7 @@ function phase1_zeroshotPrompt() {
     `;
 }
 
-function phase2_promptEvaluation(index) {
+function phase2_tcPromptEvaluation(index) {
     const zeroShot_1 = `
     You are an expert requirements engineer specialized in extracting functional and non-functional requirements from academic research papers, documents, or PDFs in AI, machine learning, and related fields.
     
@@ -731,6 +731,120 @@ function phase2_promptEvaluation(index) {
     return prompts[index];
 }
 
+function phase3_crossEvalation(index){
+    const zeroShot_3 = `
+    You are an AI Security Auditor. Your task is to extract security-centric specifications from the document into a Requirement Report.
+
+    Extract ALL functional requirements (security modules, authentication steps, encryption routines, or logging mechanisms) and ALL non-functional requirements (adversarial robustness, system resilience, data privacy levels, and integrity benchmarks).
+    
+    Output the result as a:
+    REQUIREMENT REPORT
+    
+    Present each requirement using exactly these fields:
+    - Role
+    - Requirement ID (use FR-01, FR-02, ... for functional and NF-01, NF-02, ... for non-functional)
+    - Requirement Title
+    - Requirement Description
+    - Citation
+    - Requirement Related Title
+    
+    List all functional requirements first, followed by all non-functional requirements. Use sequential IDs with no gaps. Do not add any extra text or summaries.`;
+
+    const fewshot_4 = `
+    [System Instructions]
+    You are a Specialized Technical Analyst for AI Systems. Your goal is to identify and extract high-level quality attributes and security constraints from technical documentation. You must distinguish between the system's operational goals and its protective constraints. For every requirement, you are required to define the specific 'Role' responsible for the requirement and provide 'Related Titles' that illustrate its implementation in high-stakes environments. Ensure all extractions are grounded in the verified gold standard to maximize F1 score and precision metrics.
+    
+    Formatting Rules:
+    Functional Requirement / Non-Functional Requirement
+    Role: User or system component 
+    Requirement ID: Assign a unique ID (e.g., FR-01, NFR-01).
+    Title: A concise name for the requirement.
+    Description: A detailed explanation of what the system must do or a constraint it must satisfy.
+    Citation: Where the section of the paper describe this requirement
+    Related Title: Generate contextual examples or domains where this requirement is applicable. Ensure each requirement has its own related title and there are no extra requirements.
+    
+    [Few-Shot Example: Gold Standard Human-Verified Evaluation Set]    
+    
+    Source Text: 
+    "NFR-03 Accuracy & Performance: System should produce outputs that are correct relative to reality, measurable via precision and recall, and report these metrics as the primary quality indicator.
+    NFR-05 Security: System should defend against ML-specific threats such as adversarial attacks and data poisoning, based on a defined threat model for ML.
+    FR-05 Sensor & Environment Processing: System should continuously process real-world sensor inputs and produce autonomous decisions by integrating ML components within larger traditional software pipelines.[cite: 7]"
+    
+    Expected Output:
+    Non-Functional Requirement
+    Role: System
+    Requirement ID: NFR-03
+    Title: Accuracy & Performance
+    Description: System should produce outputs that are correct relative to reality, measurable via precision and recall, and report these metrics as the primary quality indicator.[cite: 7]
+    Citation: Horkoff, J. (2019). Non-Functional Requirements for Machine Learning: Challenges and New Directions.[cite: 7]
+    Related Title: Airport Passenger Screening System, Spam Email Classification System, Cancer Diagnosis System[cite: 7]
+    
+    Non-Functional Requirement
+    Role: System
+    Requirement ID: NFR-05
+    Title: Security
+    Description: System should defend against ML-specific threats such as adversarial attacks and data poisoning, based on a defined threat model for ML.[cite: 7]
+    Citation: Horkoff, J. (2019). Non-Functional Requirements for Machine Learning: Challenges and New Directions.[cite: 7]
+    Related Title: Big Data ML Applications, Security-Sensitive ML Systems[cite: 7]
+    
+    Functional Requirement
+    Role: System
+    Requirement ID: FR-05
+    Title: Sensor & Environment Processing
+    Description: System should continuously process real-world sensor inputs and produce autonomous decisions by integrating ML components within larger traditional software pipelines.[cite: 7]
+    Citation: Horkoff, J. (2019). Non-Functional Requirements for Machine Learning: Challenges and New Directions.[cite: 7]
+    Related Title: Self-Driving Car ML System[cite: 7]
+    [End of Few-Shot Example]
+    `;
+
+    const chainofthoughts_2 = `
+    [System Instructions]
+    You are a Senior Systems Architect. Your task is to perform a structural analysis of technical documentation to map functional capabilities to their necessary quality constraints. You must act as a logic-gate: before outputting any requirement, you must document your "Architectural Reasoning" to prove the requirement exists in the source text and to ensure the 'Role' and 'Related Title' are logically consistent with the system's design. Maintain strict adherence to the human-verified gold standard to protect evaluation metrics.
+    
+    Formatting Rules:
+    Functional Requirement / Non-Functional Requirement
+    Role: User or system component 
+    Requirement ID: Assign a unique ID (e.g., FR-01, NFR-01).
+    Title: A concise name for the requirement.
+    Description: A detailed explanation of what the system must do or a constraint it must satisfy.
+    Citation: Where the section of the paper describe this requirement.
+    Related Title: Generate contextual examples or domains where this requirement is applicable. Ensure each requirement has its own related title and there are no extra requirements.
+    
+    [CoT Gold Standard Example]
+    
+    Source Text: 
+    "FR-01 Image / Face Recognition: System should recognize and match images or faces against a reference set to identify persons of interest. 
+    NFR-03 Accuracy & Performance: System should produce outputs that are correct relative to reality, measurable via precision and recall, and report these metrics as the primary quality indicator."
+    
+    Architectural Reasoning:
+    - Component Identification: The text identifies an 'Image Recognition' feature which is a core functional capability for identification.
+    - Constraint Identification: It also identifies a performance constraint requiring that these outputs be measured via precision and recall.
+    - Functional Logic (FR-01): The primary role is the 'System' performing a matching task against a reference set.
+    - Quality Logic (NFR-03): The 'System' must not only perform the task but also report on its own correctness (Accuracy/Performance).
+    - Domain Mapping: For the functional recognition task, airports and security checkpoints are primary use cases. For the performance reporting, spam filters and medical diagnosis provide strong parallel domains.
+    
+    Expected Output:
+    Functional Requirement
+    Role: System
+    Requirement ID: FR-01
+    Title: Image / Face Recognition
+    Description: System should recognize and match images or faces against a reference set to identify persons of interest.[cite: 7]
+    Citation: Horkoff, J. (2019). Non-Functional Requirements for Machine Learning: Challenges and New Directions.[cite: 7]
+    Related Title: Airport Passenger Screening System, Image recognition system, Face Detection System[cite: 7]
+    
+    Non-Functional Requirement
+    Role: System
+    Requirement ID: NFR-03
+    Title: Accuracy & Performance
+    Description: System should produce outputs that are correct relative to reality, measurable via precision and recall, and report these metrics as the primary quality indicator.[cite: 7]
+    Citation: Horkoff, J. (2019). Non-Functional Requirements for Machine Learning: Challenges and New Directions.[cite: 7]
+    Related Title: Airport Passenger Screening System, Spam Email Classification System, Cancer Diagnosis System[cite: 7]
+    `;
+
+    const prompts = [zeroShot_3, fewshot_4, chainofthoughts_2];
+
+    return prompts[index];
+}
 
 async function evaluationModel(documentData, model, prompt) {
     try {
@@ -760,115 +874,70 @@ async function evaluationModel(documentData, model, prompt) {
     }
 }
 
-// async function modelEvaluation() {
-//     try {
-//         const documents = [
-//             {
-//                 name: 'Emotion_oriented_requirements_engineering_A_case_study_in_developing_a_smart_home_system_for_the_elderly',
-//                 path: './training_sources/Emotion_oriented_requirements_engineering_A_case_study_in_developing_a_smart_home_system_for_the_elderly.pdf'
-//             },
-//             {
-//                 name: 'Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix',
-//                 path: './training_sources/Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix.pdf'
-//             },
-//             {
-//                 name: 'Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review',
-//                 path: './training_sources/Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review.pdf'
-//             },
-//             {
-//                 name: 'Sustainability_requirements_for_connected_health_applications',
-//                 path: './training_sources/Sustainability_requirements_for_connected_health_applications.pdf'
-//             }
-//         ];
-//
-//         const documentDataList = await Promise.all(
-//             documents.map(async (doc) => {
-//                 const extracted = await pdfExtracted_pdfjslib(doc.path);
-//                 await fs.writeFile(`./raw/${doc.name}.txt`, extracted, 'utf8');
-//                 const data = await fs.readFile(`./raw/${doc.name}.txt`, 'utf8');
-//                 return { name: doc.name, data };
-//             })
-//         );
-//
-//         // All 18 prompts: indices 0–17
-//         const PROMPT_INDICES = Array.from({ length: 12 }, (_, i) => i + 6);
-//
-//         function getPromptLabel(index) {
-//             if (index < 6)  return `zeroShot_${index + 1}`;
-//             if (index < 12) return `fewShot_${index - 5}`;
-//             return `chainOfThoughts_${index - 11}`;
-//         }
-//
-//         for (const { name: docName, data: docData } of documentDataList) {
-//             console.log(`\n=== Document: ${docName} ===`);
-//
-//             for (const promptIndex of PROMPT_INDICES) {
-//                 const promptLabel = getPromptLabel(promptIndex);
-//                 console.log(`  Prompt: ${promptLabel}`);
-//
-//                 for (const model of MODEL) {
-//                     console.log(`    Model: ${model}`);
-//
-//                     const result = await evaluationModel(docData, model, phase2_promptEvaluation(promptIndex));
-//
-//                     const safeModelName = model.replace(/[-.]/g, '_');
-//                     const filename = `${safeModelName}__${docName}__${promptLabel}.txt`;
-//                     await fs.writeFile(`./Phase_2Results/${filename}`, result, 'utf8');
-//
-//                     console.log(`    Saved: ${filename}`);
-//                 }
-//             }
-//         }
-//
-//         console.log('\n=== All evaluations complete ===');
-//     } catch (err) {
-//         console.error('modelEvaluation failed:', err.message);
-//     }
-// }
-//
-// modelEvaluation();
-
-async function modelEvaluation_sustainability_grok3() {
+async function crossEvaluation() {
     try {
-        const document = {
-            name: 'Sustainability_requirements_for_connected_health_applications',
-            path: './training_sources/Sustainability_requirements_for_connected_health_applications.pdf'
-        };
+        const documents = [
+            {
+                name: 'Privacy_requirements_patterns_for_mobile_operating_systems',
+                path: './training_sources/Privacy_requirements_patterns_for_mobile_operating_systems.pdf'
+            },
+            {
+                name: 'Requirements_engineering_framework_for_human_centered_artificial_intelligence_software_systems',
+                path: './training_sources/Requirements_engineering_framework_for_human_centered_artificial_intelligence_software_systems.pdf'
+            },
+            {
+                name: 'Bioconductor_open_software_development_for_computational_biology_and_bioinformatics',
+                path: './training_sources/Bioconductor_open_software_development_for_computational_biology_and_bioinformatics.pdf'
+            },
+            {
+                name: 'The_Passwordless_Authentication_with_Passkey_Technology_from_an_Implementation_Perspective',
+                path: './training_sources/The_Passwordless_Authentication_with_Passkey_Technology_from_an_Implementation_Perspective.pdf'
+            }
+        ];
 
-        const extracted = await pdfExtracted_pdfjslib(document.path);
-        await fs.writeFile(`./raw/${document.name}.txt`, extracted, 'utf8');
-        const docData = await fs.readFile(`./raw/${document.name}.txt`, 'utf8');
+        const documentDataList = await Promise.all(
+            documents.map(async (doc) => {
+                const extracted = await pdfExtracted_pdfjslib(doc.path);
+                await fs.writeFile(`./raw/${doc.name}.txt`, extracted, 'utf8');
+                const data = await fs.readFile(`./raw/${doc.name}.txt`, 'utf8');
+                return { name: doc.name, data };
+            })
+        );
 
-        // All 18 prompts: indices 0–17
-        const PROMPT_INDICES = Array.from({ length: 18 }, (_, i) => i);
+        // 3 prompts: indices 0–2
+        const PROMPT_INDICES = [0, 1, 2];
 
         function getPromptLabel(index) {
-            if (index < 6)  return `zeroShot_${index + 1}`;
-            if (index < 12) return `fewShot_${index - 5}`;
-            return `chainOfThoughts_${index - 11}`;
+            if (index === 0) return 'zeroShot_3';
+            if (index === 1) return 'fewShot_4';
+            return 'chainOfThoughts_2';
         }
 
-        const model = 'grok-3';
+        for (const { name: docName, data: docData } of documentDataList) {
+            console.log(`\n=== Document: ${docName} ===`);
 
-        console.log(`\n=== Model: ${model} | Document: ${document.name} ===`);
+            for (const promptIndex of PROMPT_INDICES) {
+                const promptLabel = getPromptLabel(promptIndex);
+                console.log(`  Prompt: ${promptLabel}`);
 
-        for (const promptIndex of PROMPT_INDICES) {
-            const promptLabel = getPromptLabel(promptIndex);
-            console.log(`  Prompt: ${promptLabel}`);
+                for (const model of MODEL) {
+                    console.log(`    Model: ${model}`);
 
-            const result = await evaluationModel(docData, model, phase2_promptEvaluation(promptIndex));
+                    const result = await evaluationModel(docData, model, phase3_crossEvalation(promptIndex));
 
-            const safeModelName = model.replace(/[-.]/g, '_');
-            const filename = `${safeModelName}__${document.name}__${promptLabel}.txt`;
-            await fs.writeFile(`./Phase_2Results/${filename}`, result, 'utf8');
+                    const safeModelName = model.replace(/[-.]/g, '_');
+                    const filename = `${safeModelName}__${docName}__${promptLabel}.txt`;
+                    await fs.writeFile(`./Phase_3Results/${filename}`, result, 'utf8');
 
-            console.log(`  Saved: ${filename}`);
+                    console.log(`    Saved: ${filename}`);
+                }
+            }
         }
 
-        console.log('\n=== Sustainability grok-3 complete ===');
+        console.log('\n=== Cross Evaluation complete ===');
     } catch (err) {
-        console.error('modelEvaluation_sustainability_grok3 failed:', err.message);
+        console.error('crossEvaluation failed:', err.message);
     }
 }
 
-modelEvaluation_sustainability_grok3()
+crossEvaluation();

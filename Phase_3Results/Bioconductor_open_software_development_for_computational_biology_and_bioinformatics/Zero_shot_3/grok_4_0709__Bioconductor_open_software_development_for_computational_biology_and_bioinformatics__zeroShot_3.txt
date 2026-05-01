@@ -1,0 +1,36 @@
+REQUIREMENT REPORT
+
+- Role: Package Distribution System
+- Requirement ID: NF-01
+- Requirement Title: Provision of MD5 Checksums
+- Requirement Description: All packages must include MD5 checksums to verify that contents have not been altered in transit, ensuring integrity during distribution.
+- Citation: Page 5
+- Requirement Related Title: Automated software distribution
+
+- Role: Software Development
+- Requirement ID: NF-02
+- Requirement Title: Transparency through Open Source
+- Requirement Description: The software must be developed in an open-source environment to allow inspection, modification, and extension by interested investigators, promoting transparency and enabling public scrutiny for adversarial robustness.
+- Citation: Page 2
+- Requirement Related Title: Transparency
+
+- Role: Research Publication
+- Requirement ID: NF-03
+- Requirement Title: Pursuit of Reproducibility
+- Requirement Description: Portable source code must accompany each published analysis, coupled with the data on which the analysis is based, to enable reproducibility and maintain system resilience through verifiable scientific processes.
+- Citation: Page 2
+- Requirement Related Title: Pursuit of reproducibility
+
+- Role: Metadata Management
+- Requirement ID: NF-04
+- Requirement Title: Metadata Evolution Management
+- Requirement Description: Metadata packages must be built with version numbers to allow users to determine if data are up to date or obtain older versions for verification, ensuring data integrity over time.
+- Citation: Page 9
+- Requirement Related Title: Dynamics of biological annotation
+
+- Role: Object-Oriented Programming
+- Requirement ID: NF-05
+- Requirement Title: Class Contract Validation
+- Requirement Description: Objects must be checked for validity of contract satisfaction to ensure integrity in the object-oriented programming discipline.
+- Citation: Page 5
+- Requirement Related Title: Object-oriented programming

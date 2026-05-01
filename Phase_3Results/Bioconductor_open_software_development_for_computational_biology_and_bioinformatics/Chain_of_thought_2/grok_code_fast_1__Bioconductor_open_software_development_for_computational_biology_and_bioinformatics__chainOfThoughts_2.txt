@@ -1,0 +1,46 @@
+Architectural Reasoning:
+- Component Identification: The source text describes Bioconductor as a platform for collaborative creation of extensible software for computational biology and bioinformatics (CBB), with core functional capabilities including data management, statistical analysis, visualization, and interoperability for tasks like microarray data processing, gene expression analysis, and metadata handling. Key components include the exprSet data structure for binding expression data with covariates, packages like affy, limma, and graph for specific analyses, and tools for distributed development and reuse of exogenous resources.
+- Constraint Identification: The text emphasizes quality constraints such as transparency (exposing entire data pipelines), reproducibility (providing portable code and scripts with publications), efficiency (modular design, automated distribution, and parallel computation), modularity (object-oriented programming, packaging, and multiscale documentation), open-source licensing (to encourage extension and scrutiny), and user support (training materials, mailing lists, and vignettes for accessibility).
+- Functional Logic (FRs): The primary role is the 'System' (Bioconductor platform) performing tasks like data analysis, visualization, and software deployment to meet CBB needs, ensuring extensibility and collaboration.
+- Quality Logic (NFRs): The 'System' must satisfy constraints like reproducibility and transparency to ensure reliable, verifiable, and efficient operation in CBB workflows.
+- Domain Mapping: Functional tasks relate to domains like microarray analysis platforms and bioinformatics toolkits. Quality constraints apply to reproducible research frameworks, open-source software ecosystems, and computational biology training systems.
+
+Functional Requirement
+Role: System
+Requirement ID: FR-01
+Title: Extensible Software Creation for Computational Biology and Bioinformatics
+Description: System should enable collaborative creation and deployment of extensible software for computational biology and bioinformatics, including data management, statistical analysis, visualization, and interoperability with external resources.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5:R80. [cite: Page 1, Abstract; Page 2, Background; Page 3-4, Language selection and Infrastructure base]
+Related Title: Open-Source Bioinformatics Platform, Microarray Analysis Toolkit, Computational Biology Software Repository
+
+Functional Requirement
+Role: System
+Requirement ID: FR-02
+Title: Microarray Data Analysis and Processing
+Description: System should provide tools for data acquisition, management, transformation, modeling, and analysis of high-throughput data such as microarrays, including normalization, differential expression detection, and integration with biological metadata.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5:R80. [cite: Page 2, Background; Page 4, Infrastructure base; Page 12-15, Using Bioconductor (example)]
+Related Title: Gene Expression Profiling System, High-Throughput Data Analysis Platform, Genomic Data Processing Toolkit
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Reproducibility in Research and Analysis
+Description: System should promote reproducibility by providing portable source code, scripts, and data alongside analyses, enabling verification, extension, and remote robustness checks of computational results.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5:R80. [cite: Page 2, Background; Page 7-8, Special concerns - Reproducible research]
+Related Title: Reproducible Research Framework, Computational Science Verification System, Open-Source Analysis Environment
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Transparency and Efficiency in Development
+Description: System should ensure transparency by exposing data pipelines and processes, and efficiency through modular design, parallel computation, automated distribution, and reuse of existing resources.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5:R80. [cite: Page 2, Background; Page 3-4, Language selection and Infrastructure base; Page 5-6, Design strategies and commitments]
+Related Title: Transparent Data Pipeline System, Efficient Software Development Platform, Modular Bioinformatics Toolkit
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Open-Source Licensing and Documentation
+Description: System should be distributed under open-source license to encourage scrutiny, extension, and community contribution, supported by comprehensive multiscale documentation including vignettes and training materials.
+Citation: Gentleman et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biology, 5:R80. [cite: Page 6, Publication and licensing of code; Page 5, Multiscale and executable documentation; Page 9, Training]
+Related Title: Open-Source Software Ecosystem, Documented Computational Biology Platform, Community-Driven Development Framework

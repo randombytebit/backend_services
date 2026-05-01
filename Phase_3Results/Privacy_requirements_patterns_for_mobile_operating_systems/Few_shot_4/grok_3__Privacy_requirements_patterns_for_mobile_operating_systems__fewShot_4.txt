@@ -1,0 +1,55 @@
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-01
+Title: Authorized Use of Sensors or Portals
+Description: The system shall demand the application to explicitly ask for permission from the user to access the sensors and portals. The system shall also provide a host of settings to manage these permissions, preventing unauthorized use of device hardware such as microphones, cameras, and Bluetooth.
+Citation: Xiao Xuan, Ye Wang, and Shanping Li. (2014). Privacy Requirements Patterns for Mobile Operating Systems. RePa 2014, Karlskrona, Sweden. [Table I]
+Related Title: Smartphone Privacy Management System, IoT Device Access Control System, Wearable Device Security Framework
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-02
+Title: Avoidance of Privacy Leakage in User Behavior Information Collection
+Description: The system shall notify the user specifically and distinctly about what kinds of user information are needed for behavior analysis. The most sensitive user information (e.g., passwords) shall be strictly prohibited from being collected to prevent privacy leakage during user behavior information collection.
+Citation: Xiao Xuan, Ye Wang, and Shanping Li. (2014). Privacy Requirements Patterns for Mobile Operating Systems. RePa 2014, Karlskrona, Sweden. [Table II]
+Related Title: Mobile Advertisement Personalization System, User Experience Analytics Platform, Behavioral Data Protection Framework
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-03
+Title: Guard for Personal Mobile Data
+Description: The system shall provide warnings to the user when an application intends to access user files, data, and credentials. Access shall only be granted if the user permits it, and the user can withdraw or regrant permissions at any time to protect personal mobile data such as messages, contacts, and location information.
+Citation: Xiao Xuan, Ye Wang, and Shanping Li. (2014). Privacy Requirements Patterns for Mobile Operating Systems. RePa 2014, Karlskrona, Sweden. [Table III]
+Related Title: Mobile Contact Management System, Location-Based Service Privacy Module, Personal Data Security Application
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-04
+Title: Privacy Protection over Mobile Cloud Services
+Description: The system shall ensure confidentiality of data backup by performing data encryption before sending data over the Internet. Secure tokens shall be used for authentication, and users should be aware of what data will be backed up to the cloud, with the ability to stop the backup function or delete unwanted data from the cloud at any time.
+Citation: Xiao Xuan, Ye Wang, and Shanping Li. (2014). Privacy Requirements Patterns for Mobile Operating Systems. RePa 2014, Karlskrona, Sweden. [Table IV]
+Related Title: Cloud Storage Security System, Mobile Backup Encryption Framework, Secure Cloud Authentication Platform
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-05
+Title: Authentication of Mobile Users
+Description: The system shall provide authentication mechanisms for the device, folders, applications, and privacy-sensitive data to prevent unauthorized access. Strong encryption algorithms for passwords and appropriate length requirements shall be enforced to balance usability and security.
+Citation: Xiao Xuan, Ye Wang, and Shanping Li. (2014). Privacy Requirements Patterns for Mobile Operating Systems. RePa 2014, Karlskrona, Sweden. [Table V]
+Related Title: Mobile Device Lock System, Biometric Authentication Framework, Secure Folder Access Application
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-06
+Title: Financial Information Protection
+Description: The system shall strictly prevent any application from permanently storing the user’s financial information locally. Applications cannot transmit financial information to invalid or unauthenticated parties, and credentials and data must be transmitted securely to ensure protection.
+Citation: Xiao Xuan, Ye Wang, and Shanping Li. (2014). Privacy Requirements Patterns for Mobile Operating Systems. RePa 2014, Karlskrona, Sweden. [Table VI]
+Related Title: Mobile Banking Security System, E-Commerce Payment Protection Framework, Financial Data Encryption Module
+
+Non-Functional Requirement
+Role: System
+Requirement ID: NFR-07
+Title: Mobile Communication Secrecy
+Description: The system shall mandate that applications transmit privacy-sensitive data through secure channels to prevent interception during communication. Secure transport techniques must be used to protect data between the device and servers, despite potential increases in development costs.
+Citation: Xiao Xuan, Ye Wang, and Shanping Li. (2014). Privacy Requirements Patterns for Mobile Operating Systems. RePa 2014, Karlskrona, Sweden. [Table VII]
+Related Title: Secure Messaging Application Framework, Encrypted VoIP Communication System, Mobile Data Transmission Security Protocol

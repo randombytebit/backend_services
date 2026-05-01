@@ -1,0 +1,47 @@
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-01  
+Title: User Needs  
+Description: System must capture user needs first when building AI-based software, documenting limitations and capabilities, identifying users and stakeholders, specifying interaction (proactive or reactive), AI feature awareness (visible or invisible), automation vs augmentation, and reward function evaluation (e.g., precision vs recall trade-offs).  
+Citation: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. Section 2.1.  
+Related Title: Virtual Reality Video Enhancement System, Social Assistive Robots  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-02  
+Title: Model Needs  
+Description: System must document requirements for model selection optimizing stakeholder satisfaction (e.g., explainability vs accuracy), algorithm settings for tasks/contexts, dynamic vs static training, learning types (supervised/unsupervised/reinforcement), overfitting/underfitting thresholds, tuning with feedback/user behavior, scalability, and evaluation tools.  
+Citation: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. Section 2.2.  
+Related Title: Deep Learning Super-Resolution Models, Predictive Analytics Systems  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-03  
+Title: Data Needs  
+Description: System must specify data collection (type/amount), quality (accuracy, completeness, consistency, credibility, currentness), diversity, features/labels/sampling rates, biases (automation/selection/group attribution), security/privacy settings, fairness, and responsible sourcing.  
+Citation: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. Section 2.3.  
+Related Title: Healthcare Imaging AI Systems, Autonomous Vehicle Perception  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-04  
+Title: Feedback and User Control  
+Description: System must implement feedback types (implicit/explicit/calibration), usage in model tuning, privacy protections for feedback, user options to dismiss/opt-out, multiple choices, and control levels (high/medium/low) especially in high-stakes scenarios.  
+Citation: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. Section 2.4.  
+Related Title: Personalized Recommendation Engines, Clinical Decision Support  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-05  
+Title: Explainability and Trust  
+Description: System must explain to stakeholders/users (limitations/capabilities/data/predictions via examples/confidence), manage trade-offs (e.g., with performance/cost), calibrate trust, comply with regulations (e.g., GDPR), and handle context-specific explanations/consequences.  
+Citation: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. Section 2.5.  
+Related Title: Financial Credit Assessment AI, Legal Decision Aids  
+
+Non-Functional Requirement  
+Role: System  
+Requirement ID: NFR-06  
+Title: Errors and Failures  
+Description: System must identify error types (background/context/system limitations) and sources (data/prediction/input/output/system integration), mitigate via action plans, and address user-perceived failstates in high-stakes contexts (health/safety/finance).  
+Citation: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. Section 2.6.  
+Related Title: Air Traffic Management Systems, Robotic Surgery Assistants

@@ -1,0 +1,73 @@
+### Architectural Reasoning
+
+- **Component Identification**: The source text from "Applied Soft Computing 143 (2023) 110455" outlines a comprehensive framework (RE4HCAI) for requirements engineering in human-centered AI software systems. It identifies multiple functional and non-functional components critical to the development of AI-based systems, focusing on user needs, model needs, data needs, feedback and control, explainability and trust, and error handling.
+- **Constraint Identification**: The text specifies constraints across six areas, emphasizing human-centered aspects such as user interaction, data quality, model accuracy, and explainability. These constraints are necessary to ensure the system is unbiased, inclusive, and trustworthy, aligning with human values and needs.
+- **Functional Logic**: The primary role for functional requirements is the 'System' which must perform tasks such as enhancing video quality for VR users (as in the case study), and the 'User' who interacts with the system. The system must address user needs, model training, and data collection as core functionalities.
+- **Quality Logic**: Non-functional requirements focus on constraints like data quality (accuracy, completeness, consistency), model performance (accuracy vs. explainability trade-offs), and user trust (explainability and feedback mechanisms). These are critical for ensuring the system meets human-centered design goals.
+- **Domain Mapping**: The functional requirements are applicable in domains like virtual reality systems for entertainment or education, and AI-driven content enhancement systems. Non-functional requirements map to domains where trust, fairness, and data integrity are paramount, such as healthcare diagnostics, autonomous vehicles, and personalized recommendation systems.
+
+### Expected Output
+
+#### Functional Requirement 1
+- **Role**: System
+- **Requirement ID**: FR-01
+- **Title**: User Needs Identification for AI-Based Software
+- **Description**: The system must identify and address user needs by determining the purpose of the AI application, identifying target users, system capabilities, and limitations, and specifying interaction modes (proactive or reactive) to ensure the software aligns with user expectations and requirements.
+- **Citation**: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. [Section 2.1, Area#1 Requirements for User Needs]
+- **Related Title**: Virtual Reality Video Enhancement System, Educational Content Delivery Platform, Personalized Entertainment System
+
+#### Functional Requirement 2
+- **Role**: System
+- **Requirement ID**: FR-02
+- **Title**: Model Needs Specification for AI Algorithms
+- **Description**: The system must specify model needs by selecting appropriate machine learning types (supervised, unsupervised, reinforcement), optimizing for specific goals (accuracy, explainability), and defining training approaches (static or dynamic) to ensure the AI model meets stakeholder and user requirements.
+- **Citation**: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. [Section 2.2, Area#2 Requirements for Model Needs]
+- **Related Title**: Deep Learning Video Processing System, Predictive Analytics Platform, Real-Time Decision Support System
+
+#### Functional Requirement 3
+- **Role**: System
+- **Requirement ID**: FR-03
+- **Title**: Data Needs Collection and Selection
+- **Description**: The system must define data needs by identifying the type, amount, and diversity of data required, specifying data selection criteria (features, labels, sampling rates), and ensuring data collection methods align with user and model requirements to support effective AI training and performance.
+- **Citation**: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. [Section 2.3, Area#3 Requirements for Data Needs]
+- **Related Title**: 360-Degree Video Dataset System, Medical Imaging Data Platform, Traffic Pattern Analysis System
+
+#### Non-Functional Requirement 1
+- **Role**: System
+- **Requirement ID**: NFR-01
+- **Title**: Data Quality Assurance
+- **Description**: The system must ensure data quality by maintaining accuracy, completeness, consistency, credibility, and currentness of data used in AI training and testing to prevent biases and ensure reliable outcomes.
+- **Citation**: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. [Section 2.3, Area#3 Requirements for Data Needs]
+- **Related Title**: Healthcare Data Integrity System, Financial Transaction Monitoring System, Social Media Content Analysis Platform
+
+#### Non-Functional Requirement 2
+- **Role**: System
+- **Requirement ID**: NFR-02
+- **Title**: Model Performance Trade-Offs
+- **Description**: The system must balance trade-offs between model performance metrics such as accuracy and explainability, documenting the rationale for chosen algorithms and their impact on stakeholder satisfaction and system cost to ensure optimal performance aligned with project goals.
+- **Citation**: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. [Section 2.2, Area#2 Requirements for Model Needs]
+- **Related Title**: Autonomous Vehicle Navigation System, Fraud Detection Algorithm Platform, Customer Behavior Prediction System
+
+#### Non-Functional Requirement 3
+- **Role**: System
+- **Requirement ID**: NFR-03
+- **Title**: Explainability and Trust in AI Outputs
+- **Description**: The system must provide explainability of AI predictions and decisions to users and stakeholders by detailing system capabilities, limitations, data usage, and confidence levels, ensuring trust and compliance with regulations like GDPR while avoiding over-trust or misleading information.
+- **Citation**: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. [Section 2.5, Area#5 Requirements for Explainability and Trust]
+- **Related Title**: Clinical Decision Support System, Legal Compliance AI Tool, Personalized Recommendation Engine
+
+#### Non-Functional Requirement 4
+- **Role**: System
+- **Requirement ID**: NFR-04
+- **Title**: Feedback and User Control Mechanisms
+- **Description**: The system must implement feedback mechanisms (implicit, explicit, calibration) and user control options to ensure users can influence system behavior, adjust preferences, and maintain privacy, thereby enhancing user trust and system alignment with human needs.
+- **Citation**: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. [Section 2.4, Area#4 Requirements for Feedback and User Control]
+- **Related Title**: Smart Home Automation System, Interactive Learning Platform, User-Driven Chatbot Interface
+
+#### Non-Functional Requirement 5
+- **Role**: System
+- **Requirement ID**: NFR-05
+- **Title**: Error and Failure Mitigation
+- **Description**: The system must identify potential error sources (prediction, data, input, output, system) and failure types (context, background, limitations), providing mitigation strategies and action plans to address errors during requirements engineering to ensure reliability and user safety.
+- **Citation**: Ahmad, K., et al. (2023). Requirements engineering framework for human-centered artificial intelligence software systems. Applied Soft Computing, 143, 110455. [Section 2.6, Area#6 Requirements for Errors and Failure]
+- **Related Title**: Emergency Response AI System, Critical Infrastructure Monitoring Tool, Financial Risk Assessment Platform
