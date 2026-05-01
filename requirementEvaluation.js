@@ -828,11 +828,11 @@ async function evaluationModel(documentData, model, prompt) {
 //
 // modelEvaluation();
 
-async function modelEvaluation_resume() {
+async function modelEvaluation_resume_NFR() {
     try {
         const document = {
-            name: 'Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review',
-            path: './training_sources/Functional_and_Nonfunctional_Requirements_of_Virtual_Clinic_Mobile_Applications_A_Systematic_Review.pdf'
+            name: 'Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix',
+            path: './training_sources/Non_Functional_Requirements_for_Real_World_Big_Data_Systems_An_Investigation_of_Big_Data_Architectures_at_Facebook_Twitter_and_Netflix.pdf'
         };
 
         const extracted = await pdfExtracted_pdfjslib(document.path);
@@ -867,11 +867,10 @@ async function modelEvaluation_resume() {
             }
         }
 
-        console.log('\n=== Resume complete ===');
+        console.log('\n=== Resume NFR Big Data complete ===');
     } catch (err) {
-        console.error('modelEvaluation_resume failed:', err.message);
+        console.error('modelEvaluation_resume_NFR failed:', err.message);
     }
 }
 
-modelEvaluation_resume()
-
+modelEvaluation_resume_NFR();

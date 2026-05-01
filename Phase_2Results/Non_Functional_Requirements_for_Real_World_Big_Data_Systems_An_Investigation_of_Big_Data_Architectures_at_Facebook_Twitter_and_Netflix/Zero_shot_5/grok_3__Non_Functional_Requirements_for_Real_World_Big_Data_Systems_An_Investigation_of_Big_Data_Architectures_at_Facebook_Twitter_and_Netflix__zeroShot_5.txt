@@ -1,0 +1,131 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-01
+- **Requirement Title**: Batch Data Processing Orchestration
+- **Requirement Description**: The system must support the orchestration of batch data processing for large volumes of finite data, such as data archived in distributed file systems or databases, with capabilities to handle hundreds of petabytes as seen in architectures like Facebook and Twitter.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Batch Data Processing Capability
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-02
+- **Requirement Title**: Stream Data Processing Orchestration
+- **Requirement Description**: The system must orchestrate stream data processing for potentially infinite data flowing at high velocity, supporting real-time or near real-time processing using frameworks akin to Puma, Swift, Stylus (Facebook), Heron (Twitter), and Mantis (Netflix).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Stream Data Processing Capability
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-03
+- **Requirement Title**: Late and Out-of-Order Data Handling Orchestration
+- **Requirement Description**: The system must orchestrate the handling of late and out-of-order data in stream processing, using mechanisms like windows of data and low watermarks (as in Facebook’s Stylus) or configurable lag settings (as in Twitter’s Heron API).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Late and Out-of-Order Data Processing
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-04
+- **Requirement Title**: Processing Guarantees Orchestration
+- **Requirement Description**: The system must orchestrate stream processing with configurable guarantees such as exactly-once, at-least-once, and at-most-once semantics, balancing latency and completeness as implemented by Facebook (Stylus), Twitter (Heron), and Netflix (Kafka).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Processing Guarantees Implementation
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-05
+- **Requirement Title**: Integration and Extensibility Orchestration
+- **Requirement Description**: The system must orchestrate integration with existing services and components, and support extensibility for future additions, using messaging systems like Scribe (Facebook) or modular architectures like Heron (Twitter).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: System Integration and Extensibility
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-06
+- **Requirement Title**: Automated Retraining Trigger for Data Volume Changes
+- **Requirement Description**: The system must trigger automated retraining of models when significant changes in data volume are detected, ensuring adaptability to batch and stream data processing demands as observed in architectures handling petabytes daily.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Automated Model Retraining on Data Volume
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-07
+- **Requirement Title**: Automated Retraining Trigger for Data Latency Issues
+- **Requirement Description**: The system must trigger automated retraining when latency issues are detected in stream processing, ensuring performance optimization for real-time data handling as critical in Twitter’s low-latency requirements.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Automated Retraining on Latency Detection
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-08
+- **Requirement Title**: API Endpoint for Batch Data Processing
+- **Requirement Description**: The system must provide an API endpoint to initiate and monitor batch data processing jobs, supporting large-scale data operations similar to those managed by Hadoop clusters at Twitter and Netflix.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Batch Data API Access
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-09
+- **Requirement Title**: API Endpoint for Stream Data Processing
+- **Requirement Description**: The system must provide an API endpoint to manage and monitor stream data processing, enabling real-time data handling as implemented by frameworks like Mantis at Netflix.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Stream Data API Access
+
+- **Role**: MLOps Architect
+- **Requirement ID**: FR-10
+- **Requirement Title**: API Endpoint for Model Retraining
+- **Requirement Description**: The system must provide an API endpoint to trigger and monitor model retraining processes, facilitating automated updates based on data volume or latency triggers.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Model Retraining API Access
+
+**Non-Functional Requirements**
+
+- **Role**: MLOps Architect
+- **Requirement ID**: NF-01
+- **Requirement Title**: Distribution and Scalability
+- **Requirement Description**: The system must support distributed data processing across multiple machines and data centers in a multi-clustered architecture, with dynamic scaling capabilities to add or remove nodes without downtime, as demonstrated by Scribe (Facebook), Heron (Twitter), and Fenzo (Netflix).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Scalability and Distribution Support
+
+- **Role**: MLOps Architect
+- **Requirement ID**: NF-02
+- **Requirement Title**: Cloud Support and Elasticity
+- **Requirement Description**: The system must support cloud-based deployment to leverage economies of scale and elasticity, allowing scaling up or down based on demand, as seen in Netflix’s AWS infrastructure and Twitter’s containerized approach with potential multi-cloud migration.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Cloud Elasticity and Support
+
+- **Role**: MLOps Architect
+- **Requirement ID**: NF-03
+- **Requirement Title**: Fault Tolerance
+- **Requirement Description**: The system must ensure fault tolerance to continue operation during node failures with minimal impact on user experience, using strategies like node independence (Facebook), modular architecture (Twitter), and multi-region redundancy (Netflix).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: System Fault Tolerance
+
+- **Role**: MLOps Architect
+- **Requirement ID**: NF-04
+- **Requirement Title**: Flow Control
+- **Requirement Description**: The system must implement flow control mechanisms to handle scenarios where data emission exceeds consumption capacity, using strategies like backpressure management as in Scribe (Facebook), Heron (Twitter), and ReactiveX libraries (Netflix).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Data Flow Control Mechanism
+
+- **Role**: MLOps Architect
+- **Requirement ID**: NF-05
+- **Requirement Title**: Flexibility and Technology Agnosticism
+- **Requirement Description**: The system must be flexible and technology-agnostic to allow replacement of components with different technologies, supporting modular architectures like Heron (Twitter) and container-based deployments (Netflix) to reduce vendor lock-in.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Technological Flexibility
+
+- **Role**: MLOps Architect
+- **Requirement ID**: NF-06
+- **Requirement Title**: High Availability
+- **Requirement Description**: The system must ensure high availability by minimizing downtime and maintaining service continuity across failures, as achieved through multi-region deployments (Netflix) and decentralized topology management (Twitter).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: System Availability Assurance
+
+- **Role**: MLOps Architect
+- **Requirement ID**: NF-07
+- **Requirement Title**: Energy Efficiency
+- **Requirement Description**: The system must optimize energy usage by leveraging cloud elasticity to scale resources based on demand, reducing idle capacity and wastage, as practiced in Netflix’s cloud-based architecture.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Energy Optimization
+
+- **Role**: MLOps Architect
+- **Requirement ID**: NF-08
+- **Requirement Title**: Cross-Platform Compatibility
+- **Requirement Description**: The system must ensure cross-platform compatibility to operate across different infrastructures and cloud providers, facilitated by containerization and modular designs as seen in Twitter’s Heron and Netflix’s container-based deployments.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Platform Interoperability

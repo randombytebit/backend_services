@@ -1,0 +1,103 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: System User
+- **Requirement ID**: FR-01
+- **Requirement Title**: Batch Data Processing Interface
+- **Requirement Description**: The system must provide an interface for users to process large volumes of finite batch data stored in distributed file systems or databases, supporting data volumes in the range of hundreds of petabytes as seen in real-world implementations.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 3
+- **Requirement Related Title**: Batch Data
+
+- **Role**: System User
+- **Requirement ID**: FR-02
+- **Requirement Title**: Stream Data Processing Interface
+- **Requirement Description**: The system must offer a user interface to process potentially infinite streaming data at high velocity, enabling real-time or near real-time data monitoring and processing through specialized applications or frameworks.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 4
+- **Requirement Related Title**: Stream Data
+
+- **Role**: System User
+- **Requirement ID**: FR-03
+- **Requirement Title**: Late and Out-of-Order Data Handling Interface
+- **Requirement Description**: The system must provide a mechanism within the user interface to handle late or out-of-order streaming data, utilizing concepts like data windows or low watermarks to manage such data effectively.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 4
+- **Requirement Related Title**: Late and Out of Order Data
+
+- **Role**: System User
+- **Requirement ID**: FR-04
+- **Requirement Title**: Processing Guarantees Configuration Tool
+- **Requirement Description**: The system must include a configuration tool allowing users to select processing guarantees such as exactly-once, at-least-once, or at-most-once semantics for stream data processing, balancing latency and data completeness.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 4
+- **Requirement Related Title**: Processing Guarantees
+
+- **Role**: System User
+- **Requirement ID**: FR-05
+- **Requirement Title**: Integration and Extensibility Interface
+- **Requirement Description**: The system must provide an interface to integrate with existing services and components, and support extensibility for future incorporation of different components, using messaging systems or modular architectures for seamless integration.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), pp. 4-5
+- **Requirement Related Title**: Integration and Extensibility
+
+- **Role**: System User
+- **Requirement ID**: FR-06
+- **Requirement Title**: Flow Control Management Tool
+- **Requirement Description**: The system must offer a tool for users to manage flow control in scenarios where data emission exceeds consumption rates, implementing strategies like backpressure handling, data dropping, or sampling to maintain system stability.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 6
+- **Requirement Related Title**: Flow Control
+
+**Non-Functional Requirements**
+
+- **Role**: System Designer
+- **Requirement ID**: NF-01
+- **Requirement Title**: Distribution and Scalability
+- **Requirement Description**: The system must support distributed data processing across multiple machines and data centers in a multi-clustered architecture, with capabilities for dynamic scaling to add or remove nodes without downtime.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 5
+- **Requirement Related Title**: Distribution and Scalability
+
+- **Role**: System Designer
+- **Requirement ID**: NF-02
+- **Requirement Title**: Cloud Support and Elasticity
+- **Requirement Description**: The system must be capable of operating in a cloud environment to leverage economies of scale, supporting elasticity to scale resources up or down based on demand, minimizing resource wastage and costs.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 5
+- **Requirement Related Title**: Cloud Support and Elasticity
+
+- **Role**: System Designer
+- **Requirement ID**: NF-03
+- **Requirement Title**: Fault Tolerance
+- **Requirement Description**: The system must ensure continuous operation and graceful recovery in the event of node failures, minimizing impact on user experience through node independence, redundancy, and decentralized management.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), pp. 5-6
+- **Requirement Related Title**: Fault Tolerance
+
+- **Role**: System Designer
+- **Requirement ID**: NF-04
+- **Requirement Title**: Flexibility and Technology Agnosticism
+- **Requirement Description**: The system must be designed to allow the use of different technologies in place of existing components, promoting flexibility and reducing dependency on specific technologies or vendors through modular architectures.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 6
+- **Requirement Related Title**: Flexibility and Technology Agnosticism
+
+- **Role**: System Designer
+- **Requirement ID**: NF-05
+- **Requirement Title**: Usability of System Interfaces
+- **Requirement Description**: The system interfaces must be intuitive and user-friendly, ensuring that users can easily interact with tools for batch and stream data processing, configuration of processing guarantees, and flow control management without extensive training.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), pp. 3-6 (implied from user interaction contexts)
+- **Requirement Related Title**: Usability
+
+- **Role**: System Designer
+- **Requirement ID**: NF-06
+- **Requirement Title**: Cognitive Load Limits
+- **Requirement Description**: The system must minimize cognitive load on users by simplifying complex tasks such as data processing configurations and integration setups, ensuring that decision-making and operational tasks do not overwhelm users.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), pp. 4-5 (implied from integration and processing contexts)
+- **Requirement Related Title**: Cognitive Load Limits
+
+- **Role**: System Designer
+- **Requirement ID**: NF-07
+- **Requirement Title**: Response Time for Real-Time Processing
+- **Requirement Description**: The system must achieve low latency in real-time data processing, ensuring response times are suitable for high-velocity stream data handling, as required by architectures with stringent latency needs.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), p. 7
+- **Requirement Related Title**: Response Time
+
+- **Role**: System Designer
+- **Requirement ID**: NF-08
+- **Requirement Title**: Accessibility of System Interfaces
+- **Requirement Description**: The system must ensure that interfaces and tools are accessible to users with diverse abilities, adhering to accessibility standards to support inclusive interaction with data processing and management functionalities.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), pp. 3-6 (implied from user interaction contexts)
+- **Requirement Related Title**: Accessibility

@@ -1,0 +1,124 @@
+**REQUIREMENT REPORT**
+
+**Functional Requirements**
+
+- **Role**: System Architect
+- **Requirement ID**: FR-01
+- **Requirement Title**: Batch Data Processing Capability
+- **Requirement Description**: The system must support the processing of large volumes of finite batch data, such as data archived in distributed file systems or databases. This includes handling hundreds of petabytes of stored data and processing tens of petabytes daily, as implemented by architectures like Facebook's combination of Operational Data Store (ODS), Scuba, Hive, and Laser; Twitter's use of Hadoop clusters with Scalding and Presto; and Netflix's cloud-based Hadoop with Genie and Amazon S3.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.1
+- **Requirement Related Title**: Batch Data
+
+- **Role**: System Architect
+- **Requirement ID**: FR-02
+- **Requirement Title**: Stream Data Processing Capability
+- **Requirement Description**: The system must support the processing of potentially infinite stream data at high velocity, such as real-time or near real-time monitoring data. This includes architectures like Facebook's suite of Puma, Swift, and Stylus; Twitter's transition from Storm to Heron with Mesos and Aurora; and Netflix's use of Mantis with Mesos and Fenzo for scheduling.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.2
+- **Requirement Related Title**: Stream Data
+
+- **Role**: System Architect
+- **Requirement ID**: FR-03
+- **Requirement Title**: Handling Late and Out-of-Order Data
+- **Requirement Description**: The system must handle late and out-of-order data in stream processing by utilizing concepts like data windows to transform infinite streams into finite windows. Specific mechanisms include Facebook's Stylus using low watermarks and Twitter's Heron API providing a method to specify maximum lag time for out-of-order records.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.3
+- **Requirement Related Title**: Late and Out of Order Data
+
+- **Role**: System Architect
+- **Requirement ID**: FR-04
+- **Requirement Title**: Processing Guarantees for Stream Data
+- **Requirement Description**: The system must provide processing guarantees for stream data, including exactly-once, at-least-once, and at-most-once semantics. Implementations include Facebook's Stylus with at-least-once semantics via Swift and Scribe, Twitter's Heron with effectively-once semantics, and Netflix's Kafka supporting exactly-once processing through idempotency and atomic transactions.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.4
+- **Requirement Related Title**: Processing Guarantees
+
+- **Role**: System Architect
+- **Requirement ID**: FR-05
+- **Requirement Title**: Integration and Extensibility Support
+- **Requirement Description**: The system must support integration with existing services and components, as well as extensibility for future incorporation of different components. Examples include Facebook's use of Scribe as a messaging system for seamless integration, Twitter's modular Heron architecture for flexibility, and Netflix's rigid architecture with Mesos and Titus designed for efficient task allocation.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.5
+- **Requirement Related Title**: Integration and Extensibility
+
+- **Role**: System Architect
+- **Requirement ID**: FR-06
+- **Requirement Title**: Distribution and Scalability Mechanisms
+- **Requirement Description**: The system must support distributed data processing across multiple machines and data centers in a multi-clustered architecture, including dynamic scaling without downtime. Implementations include Facebook's Scribe scaling via increased buckets, Twitter's Heron with Dhalion for dynamic scaling, and Netflix's cloud-based architecture with Fenzo for scaling EC2 nodes.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.6
+- **Requirement Related Title**: Distribution and Scalability
+
+- **Role**: System Architect
+- **Requirement ID**: FR-07
+- **Requirement Title**: Cloud Support and Elasticity Features
+- **Requirement Description**: The system must support migration to cloud environments to leverage economies of scale and elasticity for scaling resources based on demand. Netflix's architecture is predominantly cloud-based on AWS with a shift to containers, while Twitter uses containers with Heron for potential multi-cloud setups, and Facebook's approach lacks explicit cloud focus in the reviewed material.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.7
+- **Requirement Related Title**: Cloud Support and Elasticity
+
+- **Role**: System Architect
+- **Requirement ID**: FR-08
+- **Requirement Title**: Fault Tolerance Mechanisms
+- **Requirement Description**: The system must ensure continued operation and graceful recovery in case of node failures. This includes Facebook's node independence and Scribe with Swift checkpointing, Twitter's modular architecture with decentralized topology management in Heron, and Netflix's Active-Active project for fault tolerance via multi-region AWS deployment.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.8
+- **Requirement Related Title**: Fault Tolerance
+
+- **Role**: System Architect
+- **Requirement ID**: FR-09
+- **Requirement Title**: Flow Control for Backpressure Handling
+- **Requirement Description**: The system must handle scenarios where data emission exceeds consumption capacity through flow control mechanisms. This includes Facebook's resilience via Scribe and node independence, Twitter's Heron backpressure mode slowing data flow, and Netflix's Mantis using ReactiveX libraries like RxJava for strategies such as buffering and sampling.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.9
+- **Requirement Related Title**: Flow Control
+
+- **Role**: System Architect
+- **Requirement ID**: FR-10
+- **Requirement Title**: Flexibility and Technology Agnosticism
+- **Requirement Description**: The system must support flexibility in replacing existing components with different technologies. Twitter's Heron offers a modular, technology-agnostic design, Netflix participates in Reactive Streams for interoperability and uses containers for reduced coupling, while Facebook's in-house systems are less flexible and technology-specific.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.10
+- **Requirement Related Title**: Flexibility and Technology Agnosticism
+
+**Non-Functional Requirements**
+
+- **Role**: Performance Engineer
+- **Requirement ID**: NF-01
+- **Requirement Title**: Low Latency for Stream Processing
+- **Requirement Description**: The system must achieve low latency in stream processing to meet real-time or near real-time requirements, with Twitter having the lowest latency requirement among the studied architectures.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 4
+- **Requirement Related Title**: Conclusion and Future Work
+
+- **Role**: Performance Engineer
+- **Requirement ID**: NF-02
+- **Requirement Title**: High Data Volume Processing
+- **Requirement Description**: The system must handle extremely high data volumes, with Facebook and Twitter processing the largest volumes (hundreds of petabytes stored, tens of petabytes daily), and Netflix handling one order of magnitude less (tens of petabytes stored, 3 petabytes daily reads).
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.1
+- **Requirement Related Title**: Batch Data
+
+- **Role**: Performance Engineer
+- **Requirement ID**: NF-03
+- **Requirement Title**: Processing Guarantee Trade-offs
+- **Requirement Description**: The system must balance processing guarantees with latency costs, as exactly-once semantics may increase latency due to checkpointing, while at-most-once or at-least-once may be more suitable for specific use cases like sampling at Facebook.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.4
+- **Requirement Related Title**: Processing Guarantees
+
+- **Role**: Performance Engineer
+- **Requirement ID**: NF-04
+- **Requirement Title**: Scalability Efficiency
+- **Requirement Description**: The system must ensure efficient scalability to handle increased loads without performance degradation, as seen in Twitter's Heron improvement over Storm and Netflix's elastic cloud-based scaling with Fenzo.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.6
+- **Requirement Related Title**: Distribution and Scalability
+
+- **Role**: Performance Engineer
+- **Requirement ID**: NF-05
+- **Requirement Title**: Fault Tolerance with Minimal Impact
+- **Requirement Description**: The system must maintain fault tolerance with minimal impact on user experience, ensuring graceful recovery from failures as implemented by Netflix's multi-region redundancy and Twitter's decentralized topology management.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.8
+- **Requirement Related Title**: Fault Tolerance
+
+- **Role**: Performance Engineer
+- **Requirement ID**: NF-06
+- **Requirement Title**: Resource Efficiency in Cloud Environments
+- **Requirement Description**: The system must optimize resource usage in cloud environments to minimize costs and wastage through elasticity, paying only for used resources, as demonstrated by Netflix's cloud-based architecture on AWS.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.7
+- **Requirement Related Title**: Cloud Support and Elasticity
+
+- **Role**: Performance Engineer
+- **Requirement ID**: NF-07
+- **Requirement Title**: Backpressure Management Efficiency
+- **Requirement Description**: The system must efficiently manage backpressure to prevent performance bottlenecks, ensuring data flow control without significant delays, as seen in Twitter's Heron backpressure mode and Netflix's programmatic control with RxJava.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019), Section 3.9
+- **Requirement Related Title**: Flow Control

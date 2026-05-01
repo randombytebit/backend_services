@@ -1,0 +1,54 @@
+REQUIREMENT REPORT
+
+**Functional Requirements**
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-01
+- **Requirement Title**: Bias Detection Modules
+- **Requirement Description**: The system must include modules specifically designed to detect and mitigate biases in data processing and decision-making algorithms to ensure fair outcomes across diverse user groups.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Bias Mitigation in Data Processing
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-02
+- **Requirement Title**: Explainability Dashboards
+- **Requirement Description**: The system must provide user-friendly dashboards that offer detailed explanations of algorithmic decisions and data processing steps to enhance user understanding and trust.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: User Trust through Explainability
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: FR-03
+- **Requirement Title**: Audit Trail Generation
+- **Requirement Description**: The system must automatically generate comprehensive audit trails for all data processing activities and algorithmic decisions to support accountability and compliance with regulatory standards.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Accountability through Audit Trails
+
+**Non-Functional Requirements**
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-01
+- **Requirement Title**: Fairness Metrics
+- **Requirement Description**: The system must implement and monitor fairness metrics to evaluate and ensure equitable treatment across different demographic groups in data processing outcomes.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Equitable Data Processing
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-02
+- **Requirement Title**: Transparency Levels
+- **Requirement Description**: The system must maintain high transparency levels by providing clear documentation and accessible information about data sources, processing methods, and decision-making criteria.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Transparent Operations
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-03
+- **Requirement Title**: Interpretability
+- **Requirement Description**: The system must ensure that outputs and decisions made by algorithms are interpretable to non-technical stakeholders, facilitating understanding and trust in system operations.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Stakeholder Understanding
+
+- **Role**: AI Governance Lead
+- **Requirement ID**: NF-04
+- **Requirement Title**: Ethical Alignment
+- **Requirement Description**: The system must align with established ethical guidelines and principles, ensuring that data processing and decision-making respect user rights and societal norms.
+- **Citation**: Vergilio, T. and Ramachandran, M. (2019). Non-functional requirements for real world big data systems: an investigation of big data architectures at Facebook, Twitter and Netflix. Proceedings of the 13th International Conference on Software Technologies, 1, pp. 833-840.
+- **Requirement Related Title**: Ethical Data Handling

@@ -1,0 +1,108 @@
+### Functional Requirements
+
+- **Role**: System
+  - **Requirement ID**: FR-01
+  - **Requirement Title**: Batch Data Processing
+  - **Requirement Description**: The system must be capable of processing finite, large-volume data stored in distributed file systems or databases, handling hundreds of petabytes of data with daily processing volumes in tens of petabytes.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.1
+  - **Requirement Related Title**: Batch Data
+
+- **Role**: System
+  - **Requirement ID**: FR-02
+  - **Requirement Title**: Stream Data Processing
+  - **Requirement Description**: The system must support processing of potentially infinite data flowing at high velocity, such as real-time or near real-time monitoring data, using specialized stream processing frameworks or applications.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.2
+  - **Requirement Related Title**: Stream Data
+
+- **Role**: System
+  - **Requirement ID**: FR-03
+  - **Requirement Title**: Handling Late and Out-of-Order Data
+  - **Requirement Description**: The system must be capable of processing streaming data that arrives late or out of order, using mechanisms like data windows or low watermarks to manage such data.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.3
+  - **Requirement Related Title**: Late and Out of Order Data
+
+- **Role**: System
+  - **Requirement ID**: FR-04
+  - **Requirement Title**: Processing Guarantees
+  - **Requirement Description**: The system must provide processing guarantees such as exactly-once, at-least-once, or at-most-once semantics for stream data processing, with mechanisms like checkpointing to persist state.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.4
+  - **Requirement Related Title**: Processing Guarantees
+
+- **Role**: System
+  - **Requirement ID**: FR-05
+  - **Requirement Title**: Integration with Existing Services
+  - **Requirement Description**: The system must integrate with existing services and components, using messaging systems or similar mechanisms to create complex data pipelines.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.5
+  - **Requirement Related Title**: Integration and Extensibility
+
+- **Role**: System
+  - **Requirement ID**: FR-06
+  - **Requirement Title**: Extensibility for Future Components
+  - **Requirement Description**: The system must provide provisions to facilitate the extension of the architecture to incorporate different components or services in the future.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.5
+  - **Requirement Related Title**: Integration and Extensibility
+
+- **Role**: System
+  - **Requirement ID**: FR-07
+  - **Requirement Title**: Flow Control for Backpressure
+  - **Requirement Description**: The system must handle scenarios where data sources emit records faster than the system can consume, implementing strategies like dropping records, sampling, or applying source backpressure.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.9
+  - **Requirement Related Title**: Flow Control
+
+### Non-Functional Requirements
+
+- **Role**: System
+  - **Requirement ID**: NF-01
+  - **Requirement Title**: Scalability
+  - **Requirement Description**: The system must support scalability by distributing data processing across multiple machines and data centers in a multi-clustered architecture, with the ability to dynamically scale by adding or removing nodes without downtime.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.6
+  - **Requirement Related Title**: Distribution and Scalability
+
+- **Role**: System
+  - **Requirement ID**: NF-02
+  - **Requirement Title**: Distribution
+  - **Requirement Description**: The system must be capable of distributing data processing across different machines and data centers to handle large-scale data efficiently.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.6
+  - **Requirement Related Title**: Distribution and Scalability
+
+- **Role**: System
+  - **Requirement ID**: NF-03
+  - **Requirement Title**: Cloud Support
+  - **Requirement Description**: The system must support deployment or partial deployment in the cloud to leverage economies of scale and reduce infrastructure costs.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.7
+  - **Requirement Related Title**: Cloud Support and Elasticity
+
+- **Role**: System
+  - **Requirement ID**: NF-04
+  - **Requirement Title**: Elasticity
+  - **Requirement Description**: The system must provide elasticity to scale resources up or down based on demand, minimizing resource wastage and costs in a cloud environment.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.7
+  - **Requirement Related Title**: Cloud Support and Elasticity
+
+- **Role**: System
+  - **Requirement ID**: NF-05
+  - **Requirement Title**: Fault Tolerance
+  - **Requirement Description**: The system must continue to operate despite node failures, recovering gracefully with minimal impact on user experience through mechanisms like node independence, redundancy, and checkpointing.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.8
+  - **Requirement Related Title**: Fault Tolerance
+
+- **Role**: System
+  - **Requirement ID**: NF-06
+  - **Requirement Title**: Flexibility
+  - **Requirement Description**: The system must be flexible to adapt to different infrastructures and use cases, allowing for modular architectures that can be extended or modified as needed.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.10
+  - **Requirement Related Title**: Flexibility and Technology Agnosticism
+
+- **Role**: System
+  - **Requirement ID**: NF-07
+  - **Requirement Title**: Technology Agnosticism
+  - **Requirement Description**: The system must be capable of using different technologies in place of existing components, reducing dependency on specific tools or platforms.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.10
+  - **Requirement Related Title**: Flexibility and Technology Agnosticism
+
+- **Role**: System
+  - **Requirement ID**: NF-08
+  - **Requirement Title**: Latency Management
+  - **Requirement Description**: The system must manage latency costs associated with processing guarantees, balancing correctness and performance based on use case requirements.
+  - **Citation**: Vergilio & Ramachandran (2019), Section 3.4
+  - **Requirement Related Title**: Processing Guarantees

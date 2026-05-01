@@ -1,9 +1,0 @@
-**Let's think step by step.**
-1. **Analyze Source Text for Relevant Contexts:** The paper is a systematic review of functional and nonfunctional requirements for Virtual Clinic Mobile Applications (VCMA), focusing on telemedicine features like demographic data, health records, UI elements (functional), and usability, accessibility, compatibility, efficiency, security (nonfunctional). Tables 1 and 2 detail these, but there are no references to AI/ML components, systematic validation (e.g., testing methodologies like metamorphic testing), runtime reliability, confidence estimation, or trustworthiness of predictions.
-2. **Check for Testing Methodologies:** Methods section describes content analysis, study selection, quality assessment using Cochrane risk-of-bias tool (for reviewed studies, not app components), but no app-level testing, validation techniques, or QA for AI outputs.
-3. **Check for Runtime Reliability/Confidence:** Nonfunctional requirements cover usability (e.g., profiles, settings), accessibility (e.g., save/share), etc., but nothing on runtime confidence, individual prediction trustworthiness, or ML-specific reliability. No AI components are mentioned.
-4. **Identify Roles:** Requirements target "System" (VCMA app) or users (patients/consultants), but none align with AI validation/reliability.
-5. **Ground in Gold Standard:** No elements match the example's NFR-06 (testability via metamorphic testing) or NFR-07 (runtime confidence for ML predictions). Extraction must be precise; unrelated requirements (e.g., security, efficiency) do not qualify.
-6. **Conclusion:** No requirements define systematic validation or runtime reliability of AI components. No extractions possible.
-
-No requirements extracted.
